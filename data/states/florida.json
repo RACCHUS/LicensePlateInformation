@@ -1,0 +1,62 @@
+{
+  "name": "Florida",
+  "abbreviation": "FL",
+  "slogan": "Sunshine State",
+  "uses_zero_for_o": true,
+  "allows_letter_o": false,
+  "zero_is_slashed": false,
+  "primary_colors": ["#FF8C00", "#FFFFFF", "#000000"],
+  "notes": "Florida is the primary state for toll reading. Standard plates use only digits 0-9, no letter O. Common formats include ABC-123D and AB12-CDE. Registration stickers are typically placed in the top-left corner. Validation stickers vary by county and year. Florida has many specialty plates with different color schemes.",
+  "plate_types": [
+    {
+      "type_name": "Passenger",
+      "pattern": "ABC-123D",
+      "character_count": 7,
+      "description": "Standard passenger vehicle plate - most common format",
+      "background_color": "#FF8C00",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Registration sticker top-left corner, validation sticker varies by county"
+    },
+    {
+      "type_name": "Commercial",
+      "pattern": "A12-34BC", 
+      "character_count": 7,
+      "description": "Commercial vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Registration and weight class stickers required"
+    },
+    {
+      "type_name": "Motorcycle",
+      "pattern": "AB123C",
+      "character_count": 6,
+      "description": "Motorcycle plate - smaller format",
+      "background_color": "#FF8C00",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Small registration sticker"
+    },
+    {
+      "type_name": "Trailer",
+      "pattern": "A123BC",
+      "character_count": 6,
+      "description": "Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": false,
+      "sticker_description": "No stickers required"
+    },
+    {
+      "type_name": "Specialty - University of Florida",
+      "pattern": "ABC-123D",
+      "character_count": 7,
+      "description": "University of Florida specialty plate",
+      "background_color": "#FF8C00", 
+      "text_color": "#003087",
+      "has_stickers": true,
+      "sticker_description": "Standard registration sticker placement"
+    }
+  ]
+}

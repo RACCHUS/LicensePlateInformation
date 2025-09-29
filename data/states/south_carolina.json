@@ -1,0 +1,32 @@
+{
+  "name": "South Carolina",
+  "abbreviation": "SC",
+  "slogan": "Smiling Faces Beautiful Places", 
+  "uses_zero_for_o": true,
+  "allows_letter_o": false,
+  "zero_is_slashed": false,
+  "primary_colors": ["#FFFFFF", "#000000", "#003087"],
+  "notes": "South Carolina plates use digit 0 but not letter O in standard plates. Current format is ABC-123 with palmetto tree and crescent moon graphics. County information may appear on validation stickers.",
+  "plate_types": [
+    {
+      "type_name": "Passenger",
+      "pattern": "ABC-123",
+      "character_count": 6,
+      "description": "Standard passenger format with palmetto tree graphic",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000", 
+      "has_stickers": true,
+      "sticker_description": "Validation sticker usually bottom right, county information varies"
+    },
+    {
+      "type_name": "Commercial",
+      "pattern": "AB-123C",
+      "character_count": 6,
+      "description": "Commercial vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#FF0000",
+      "has_stickers": true,
+      "sticker_description": "Commercial designation and validation stickers"
+    }
+  ]
+}

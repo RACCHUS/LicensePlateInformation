@@ -1,0 +1,2 @@
+# Required packages for License Plate Information System
+pillow>=9.0.0

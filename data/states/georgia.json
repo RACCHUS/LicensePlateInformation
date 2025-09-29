@@ -1,0 +1,52 @@
+{
+  "name": "Georgia",
+  "abbreviation": "GA", 
+  "slogan": "Peach State",
+  "uses_zero_for_o": true,
+  "allows_letter_o": true,
+  "zero_is_slashed": true,
+  "primary_colors": ["#FFFFFF", "#000000", "#FF8C00"],
+  "notes": "Georgia is a common out-of-state plate seen in Florida tolls. Uses both digit 0 and letter O. Zero appears with a slash through it to distinguish from O. County name appears on a sticker at the top of the plate. Multiple formats exist including ABC-1234 and older AAA-123 formats.",
+  "plate_types": [
+    {
+      "type_name": "Passenger",
+      "pattern": "ABC-1234",
+      "character_count": 7,
+      "description": "Current standard passenger format with county sticker",
+      "background_color": "#FFFFFF", 
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "County name sticker at top center of plate"
+    },
+    {
+      "type_name": "Passenger (Legacy)",
+      "pattern": "AAA-123",
+      "character_count": 6,
+      "description": "Older passenger plate format still in circulation",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000", 
+      "has_stickers": true,
+      "sticker_description": "County sticker at top, may have month/year tabs"
+    },
+    {
+      "type_name": "Commercial",
+      "pattern": "ABC-123",
+      "character_count": 6,
+      "description": "Commercial vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#FF0000",
+      "has_stickers": true,
+      "sticker_description": "Commercial classification and county stickers"
+    },
+    {
+      "type_name": "Motorcycle", 
+      "pattern": "AB123",
+      "character_count": 5,
+      "description": "Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Small county sticker"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "North Carolina",
+  "abbreviation": "NC",
+  "slogan": "First in Flight",
+  "uses_zero_for_o": true,
+  "allows_letter_o": true, 
+  "zero_is_slashed": false,
+  "primary_colors": ["#FFFFFF", "#003087", "#CC0000"],
+  "notes": "North Carolina uses both 0 and O in different positions. Current plates have ABC-1234 format with 'First in Flight' slogan and Wright Flyer graphic. County information appears on small stickers or tabs.",
+  "plate_types": [
+    {
+      "type_name": "Passenger",
+      "pattern": "ABC-1234",
+      "character_count": 7,
+      "description": "Standard passenger format with First in Flight design",
+      "background_color": "#FFFFFF",
+      "text_color": "#003087",
+      "has_stickers": true,
+      "sticker_description": "County and validation stickers, typically small tabs"
+    },
+    {
+      "type_name": "Commercial",
+      "pattern": "A12-34B",
+      "character_count": 6,
+      "description": "Commercial vehicle plate",
+      "background_color": "#FFFFFF", 
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Commercial classification and validation information"
+    }
+  ]
+}

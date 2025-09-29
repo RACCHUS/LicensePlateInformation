@@ -1,0 +1,42 @@
+{
+  "name": "Alabama", 
+  "abbreviation": "AL",
+  "slogan": "Heart of Dixie",
+  "uses_zero_for_o": false,
+  "allows_letter_o": true,
+  "zero_is_slashed": false,
+  "primary_colors": ["#FFFFFF", "#FF0000", "#000000"],
+  "notes": "Alabama plates use letter O but not in the same positions as digits. Zero is not slashed. County name may appear on the plate itself or on a small sticker. Format has changed over the years with current plates using 12A-34BC pattern.",
+  "plate_types": [
+    {
+      "type_name": "Passenger",
+      "pattern": "12A-34BC",
+      "character_count": 7,
+      "description": "Current standard passenger format",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": false,
+      "sticker_description": "County name usually printed on plate, not sticker"
+    },
+    {
+      "type_name": "Passenger (Legacy)",
+      "pattern": "12-AB34C",
+      "character_count": 7,
+      "description": "Older passenger plate format", 
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "County sticker may be present"
+    },
+    {
+      "type_name": "Commercial",
+      "pattern": "A12-34B",
+      "character_count": 6,
+      "description": "Commercial vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#FF0000",
+      "has_stickers": true,
+      "sticker_description": "Weight class and registration stickers"
+    }
+  ]
+}
