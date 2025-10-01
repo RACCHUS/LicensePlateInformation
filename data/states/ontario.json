@@ -12,7 +12,18 @@
       "font_changes": "Information needed - research historical changes",
       "code_system": "Information needed - research plate type code system",
       "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
-      "international": "Canadian province with different standards"
+      "international": "Canadian province with different standards",
+      "stacked_characters": {
+        "include": [],
+        "omit": [
+          "PRP"
+        ],
+        "position": null,
+        "max_characters": null,
+        "prefix_rules": null,
+        "symbols_allowed": null,
+        "notes": "Omit PRP on YOURS TO DISCOVER plate"
+      }
     }
   },
   "plate_types": [

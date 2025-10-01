@@ -11,7 +11,25 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'"
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
+      "stacked_characters": {
+        "include": [
+          "M",
+          "S",
+          "D"
+        ],
+        "omit": [
+          "EX POW",
+          "DV",
+          "IRAQ",
+          "VIETNAM"
+        ],
+        "position": null,
+        "max_characters": null,
+        "prefix_rules": null,
+        "symbols_allowed": null,
+        "notes": "Include university M, S and smaller M, D in middle. Omit one DV if both present. Omit branch/campaign names."
+      }
     }
   },
   "plate_types": [
@@ -52,5 +70,5 @@
   "uses_zero_for_o": true,
   "allows_letter_o": false,
   "zero_is_slashed": false,
-  "notes": "Michigan does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Source: OOS.txt compilation - requires verification with official DMV documentation."
+  "notes": "Michigan does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Source: OOS.txt compilation - requires verification with official DMV documentation. Does not use letter 'O' on standard plates. Always use zero '0'."
 }

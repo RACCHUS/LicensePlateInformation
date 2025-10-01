@@ -32,7 +32,7 @@
     "blank_plate_template": "images/states/FL/blank_template.png",
     "sticker_sample": "images/states/FL/sticker.png"
   },
-  "notes": "Florida comprehensive implementation with 292 official plate types from DMV matrix data (Jun 25, 2024). CRITICAL: Does NOT use letter 'O' - only zero '0'. Font changes in 2008 & 2019. Primary toll reading state with extensive specialty plate program requiring accurate identification. Includes ALL processing metadata: prefix/suffix rules, numeric validation, visual identifiers, vehicle type identification.",
+  "notes": "Florida comprehensive implementation with 292 official plate types from DMV matrix data (Jun 25, 2024). CRITICAL: Does NOT use letter 'O' - only zero '0'. Font changes in 2008 & 2019. Primary toll reading state with extensive specialty plate program requiring accurate identification. Includes ALL processing metadata: prefix/suffix rules, numeric validation, visual identifiers, vehicle type identification. Does not use letter 'O' on standard plates. Always use zero '0'.",
   "processing_metadata": {
     "description": "Official Florida DMV processing rules and validation requirements",
     "global_rules": {

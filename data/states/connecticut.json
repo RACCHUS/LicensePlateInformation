@@ -9,7 +9,7 @@
     "#FFFFFF",
     "#000000"
   ],
-  "notes": "Connecticut does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Source: OOS.txt compilation - requires verification with official DMV documentation.",
+  "notes": "Connecticut does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Source: OOS.txt compilation - requires verification with official DMV documentation. Does not use letter 'O' on standard plates. Always use zero '0'.",
   "processing_metadata": {
     "description": "Official Connecticut DMV processing rules and validation requirements",
     "global_rules": {

@@ -10,7 +10,7 @@
     "#003087",
     "#CC0000"
   ],
-  "notes": "North Carolina uses both 0 and O in different positions. Current plates have ABC-1234 format with 'First in Flight' slogan and Wright Flyer graphic. County information appears on small stickers or tabs.",
+  "notes": "North Carolina uses both 0 and O in different positions. Current plates have ABC-1234 format with 'First in Flight' slogan and Wright Flyer graphic. County information appears on small stickers or tabs. O only used on Outer Banks (OBX) special tags.",
   "plate_types": [
     {
       "type_name": "Passenger",
@@ -74,7 +74,28 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Mixed O/0 usage - requires verification"
+      "character_restrictions": "Mixed O/0 usage - requires verification",
+      "stacked_characters": {
+        "include": [
+          "DV",
+          "IC",
+          "VF",
+          "PH",
+          "PD",
+          "NC",
+          "NG"
+        ],
+        "omit": [
+          "ALL symbols (-)"
+        ],
+        "position": null,
+        "max_characters": null,
+        "prefix_rules": {
+          "supreme_court": "ADD prefix SC"
+        },
+        "symbols_allowed": null,
+        "notes": "Include stacked chars. Vertical/small NC or NG must be keyed. Omit dashes. Add SC prefix for Supreme Court plates."
+      }
     }
   }
 }

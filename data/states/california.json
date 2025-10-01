@@ -2,20 +2,31 @@
   "name": "California",
   "abbreviation": "CA",
   "slogan": "Golden State",
-  "uses_zero_for_o": false,
+  "uses_zero_for_o": true,
   "allows_letter_o": true,
   "zero_is_slashed": false,
   "primary_colors": [
     "#FFFFFF",
     "#000000"
   ],
-  "notes": "California uses both O and 0 - letter 'O' with letters/personalized plates and number '0' with numbers. Standard format is #LLL### (number-letter-letter-letter-number-number-number). Source: OOS.txt compilation - requires verification with official DMV documentation.",
+  "notes": "California uses both O and 0 - letter 'O' with letters/personalized plates and number '0' with numbers. Standard format is #LLL### (number-letter-letter-letter-number-number-number). Source: OOS.txt compilation - requires verification with official DMV documentation. Uses 'O' with letters/personalized plates; uses '0' with numbers.",
   "processing_metadata": {
     "description": "Official California DMV processing rules and validation requirements",
     "global_rules": {
       "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
       "font_changes": "Information needed - check historical changes",
-      "code_system": "Information needed - research plate type code system"
+      "code_system": "Information needed - research plate type code system",
+      "stacked_characters": {
+        "include": [],
+        "omit": [
+          "E"
+        ],
+        "position": null,
+        "max_characters": 10,
+        "prefix_rules": null,
+        "symbols_allowed": null,
+        "notes": "OMIT stacked on LEFT if plate exceeds 10 characters. Omit letter E."
+      }
     }
   },
   "plate_types": [

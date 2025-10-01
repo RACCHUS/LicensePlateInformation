@@ -11,7 +11,22 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "O only on personalized plates; standard uses 0"
+      "character_restrictions": "O only on personalized plates; standard uses 0",
+      "stacked_characters": {
+        "include": [
+          "BX",
+          "AY",
+          "GX",
+          "HK",
+          "V"
+        ],
+        "omit": [],
+        "position": null,
+        "max_characters": null,
+        "prefix_rules": null,
+        "symbols_allowed": null,
+        "notes": "Include military/service stacked codes"
+      }
     }
   },
   "plate_types": [
@@ -88,7 +103,7 @@
     }
   ],
   "uses_zero_for_o": true,
-  "allows_letter_o": false,
+  "allows_letter_o": true,
   "zero_is_slashed": false,
-  "notes": "Kentucky uses letter 'O' only on personalized/vanity plates. Standard plates use only number zero '0'. Source: OOS.txt compilation - requires verification with official DMV documentation."
+  "notes": "Kentucky uses letter 'O' only on personalized/vanity plates. Standard plates use only number zero '0'. Source: OOS.txt compilation - requires verification with official DMV documentation. Letter 'O' only appears on personalized/vanity plates; standard plates use '0'."
 }

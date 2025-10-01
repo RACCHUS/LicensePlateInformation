@@ -11,7 +11,20 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers"
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
+      "stacked_characters": {
+        "include": [
+          "TRL"
+        ],
+        "omit": [
+          "dash (-)"
+        ],
+        "position": null,
+        "max_characters": null,
+        "prefix_rules": null,
+        "symbols_allowed": null,
+        "notes": "Include TRL stacked. DO NOT add dash."
+      }
     }
   },
   "plate_types": [
@@ -87,8 +100,8 @@
       "requires_prefix": false
     }
   ],
-  "uses_zero_for_o": false,
+  "uses_zero_for_o": true,
   "allows_letter_o": true,
   "zero_is_slashed": false,
-  "notes": "Rhode Island uses letter 'O' with letters/personalized plates and number '0' with numbers. Standard format varies. Source: OOS.txt compilation - requires verification with official DMV documentation."
+  "notes": "Rhode Island uses letter 'O' with letters/personalized plates and number '0' with numbers. Standard format varies. Source: OOS.txt compilation - requires verification with official DMV documentation. Uses 'O' with letters/personalized plates; uses '0' with numbers."
 }

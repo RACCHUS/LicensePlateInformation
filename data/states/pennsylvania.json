@@ -9,13 +9,30 @@
     "#FFFFFF",
     "#000000"
   ],
-  "notes": "Pennsylvania uses both O and 0 together. Numbers are 1/4 inch taller than letters (typographic note). Both characters are allowed and used. Source: OOS.txt compilation - requires verification with official DMV documentation.",
+  "notes": "Pennsylvania uses both O and 0 together. Numbers are 1/4 inch taller than letters (typographic note). Both characters are allowed and used. Source: OOS.txt compilation - requires verification with official DMV documentation. Both O and 0 used; numbers are ¼\" taller than letters.",
   "processing_metadata": {
     "description": "Official Pennsylvania DMV processing rules and validation requirements",
     "global_rules": {
       "character_restrictions": "Both O and 0 used together; numbers are 1/4 inch taller than letters",
       "font_changes": "Numbers are 1/4 inch taller than letters",
-      "code_system": "Information needed - research plate type code system"
+      "code_system": "Information needed - research plate type code system",
+      "stacked_characters": {
+        "include": [
+          "US ARMY VETERAN",
+          "US AIR VETERAN",
+          "VETERAN",
+          "NATIONAL GUARD",
+          "EMERGENCY MEDICAL SERVICES",
+          "FIRE FIGHTER",
+          "PD"
+        ],
+        "omit": [],
+        "position": null,
+        "max_characters": null,
+        "prefix_rules": null,
+        "symbols_allowed": null,
+        "notes": "Include stacked on veteran/service plates. Include small PD by wheelchair symbol."
+      }
     }
   },
   "plate_types": [

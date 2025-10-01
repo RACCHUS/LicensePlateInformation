@@ -11,7 +11,20 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers"
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
+      "stacked_characters": {
+        "include": [
+          "HP",
+          "HU",
+          "Y"
+        ],
+        "omit": [],
+        "position": null,
+        "max_characters": null,
+        "prefix_rules": null,
+        "symbols_allowed": null,
+        "notes": "INCLUDE stacked HP, HU. Apportioned plates INCLUDE small Y."
+      }
     }
   },
   "plate_types": [
@@ -90,5 +103,6 @@
   "uses_zero_for_o": false,
   "allows_letter_o": true,
   "zero_is_slashed": false,
-  "notes": "Oregon uses letter 'O' with letters/personalized plates and number '0' with numbers. Standard format varies. Source: OOS.txt compilation - requires verification with official DMV documentation."
+  "notes": "Oregon uses letter 'O' with letters/personalized plates and number '0' with numbers. Standard format varies. Source: OOS.txt compilation - requires verification with official DMV documentation. Interchangeable/treated as identical; O and 0 not distinguished for selection.",
+  "visual_identifier_notes": "OR in top left"
 }

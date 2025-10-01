@@ -52,5 +52,5 @@
   "uses_zero_for_o": true,
   "allows_letter_o": false,
   "zero_is_slashed": false,
-  "notes": "Hawaii does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Source: OOS.txt compilation - requires verification with official DMV documentation."
+  "notes": "Hawaii does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Source: OOS.txt compilation - requires verification with official DMV documentation. Does not use letter 'O' on standard plates. Always use zero '0'."
 }

@@ -88,7 +88,7 @@
     }
   ],
   "uses_zero_for_o": true,
-  "allows_letter_o": false,
+  "allows_letter_o": true,
   "zero_is_slashed": false,
-  "notes": "Arizona uses letter 'O' only on personalized/vanity plates. Standard plates use only number zero '0'. Source: OOS.txt compilation - requires verification with official DMV documentation."
+  "notes": "Arizona uses letter 'O' only on personalized/vanity plates. Standard plates use only number zero '0'. Source: OOS.txt compilation - requires verification with official DMV documentation. Letter 'O' only appears on personalized/vanity plates; standard plates use '0'."
 }

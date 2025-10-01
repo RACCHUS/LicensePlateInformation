@@ -11,7 +11,18 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'"
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
+      "stacked_characters": {
+        "include": [],
+        "omit": [
+          "E"
+        ],
+        "position": null,
+        "max_characters": null,
+        "prefix_rules": null,
+        "symbols_allowed": null,
+        "notes": "Omit letter E on top right corner (it's a sticker)"
+      }
     }
   },
   "plate_types": [
@@ -52,5 +63,5 @@
   "uses_zero_for_o": true,
   "allows_letter_o": false,
   "zero_is_slashed": false,
-  "notes": "Minnesota does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Source: OOS.txt compilation - requires verification with official DMV documentation."
+  "notes": "Minnesota does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Source: OOS.txt compilation - requires verification with official DMV documentation. Does not use letter 'O' on standard plates. Always use zero '0'."
 }

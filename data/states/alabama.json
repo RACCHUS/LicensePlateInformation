@@ -42,7 +42,25 @@
       "county_coding": "Current standard plates begin with 1 or 2 number county code",
       "vertical_handling": "Do not key 3 character verticals - omit them from processing",
       "omit_characters": "3 character vertical stacks - do not include in processing",
-      "has_variable_processing_types": false
+      "has_variable_processing_types": false,
+      "stacked_characters": {
+        "include": [
+          "X2",
+          "TL",
+          "TR",
+          "DV",
+          "Q1"
+        ],
+        "omit": [
+          "200",
+          "T"
+        ],
+        "position": "Middle of plate for include; left side for omit",
+        "max_characters": null,
+        "prefix_rules": null,
+        "symbols_allowed": null,
+        "notes": "Include stacked in middle, omit on left side"
+      }
     }
   },
   "plate_types": [

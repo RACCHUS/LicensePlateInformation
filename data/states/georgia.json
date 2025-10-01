@@ -17,7 +17,7 @@
     "#000000",
     "#FF8C00"
   ],
-  "notes": "Georgia uses ABC1234 format since May 2012. Features dual design system: peach tree graphic or plain peach background. Letter O excluded in current series. County stickers at top of plate. Multiple specialty plates with 2-letter prefixes.",
+  "notes": "Georgia uses ABC1234 format since May 2012. Features dual design system: peach tree graphic or plain peach background. Letter O excluded in current series. County stickers at top of plate. Multiple specialty plates with 2-letter prefixes. Does not use letter 'O' on standard plates. Always use zero '0'.",
   "plate_types": [
     {
       "type_name": "Standard Passenger",

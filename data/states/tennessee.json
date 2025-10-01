@@ -10,7 +10,7 @@
     "#FFFFFF",
     "#000000"
   ],
-  "notes": "Major snowbird travel corridor state with modern license plate formats and character restrictions. Letters I, O, Q excluded to prevent confusion. Current series ABC-1234 format since 2022.",
+  "notes": "Major snowbird travel corridor state with modern license plate formats and character restrictions. Letters I, O, Q excluded to prevent confusion. Current series ABC-1234 format since 2022. Standard plates do not use O; O and 0 used on Drive Out Tags and Temporary Operating Permits.",
   "plate_types": [
     {
       "type_name": "Standard Passenger",
@@ -326,7 +326,20 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Mixed O/0 usage - requires verification"
+      "character_restrictions": "Mixed O/0 usage - requires verification",
+      "stacked_characters": {
+        "include": [
+          "V0"
+        ],
+        "omit": [
+          "T"
+        ],
+        "position": null,
+        "max_characters": null,
+        "prefix_rules": null,
+        "symbols_allowed": null,
+        "notes": "Volunteers plates: DO NOT include T. Include V0 characters."
+      }
     }
   }
 }

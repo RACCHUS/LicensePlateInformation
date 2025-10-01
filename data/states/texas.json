@@ -9,13 +9,26 @@
     "#FFFFFF",
     "#000000"
   ],
-  "notes": "Texas does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Common practice to omit confusing letters in general issue serials per TxDMV specs/manuals. Source: OOS.txt compilation - confirmed via Texas Department of Motor Vehicles documentation.",
+  "notes": "Texas does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Common practice to omit confusing letters in general issue serials per TxDMV specs/manuals. Source: OOS.txt compilation - confirmed via Texas Department of Motor Vehicles documentation. Does not use letter 'O' on standard plates. Always use zero '0'.",
   "processing_metadata": {
     "description": "Official Texas DMV processing rules and validation requirements",
     "global_rules": {
       "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
       "font_changes": "Information needed - check historical changes",
-      "code_system": "Information needed - research plate type code system"
+      "code_system": "Information needed - research plate type code system",
+      "stacked_characters": {
+        "include": [
+          "DV"
+        ],
+        "omit": [
+          "T"
+        ],
+        "position": null,
+        "max_characters": null,
+        "prefix_rules": null,
+        "symbols_allowed": null,
+        "notes": "Include DV stacked. Omit letter T in white part of plate."
+      }
     }
   },
   "plate_types": [
