@@ -1,0 +1,13 @@
+{
+  "filename": "sample_passenger.png",
+  "description": "Sample CA passenger plate",
+  "source": "Generated sample",
+  "imported_date": "2025-09-30",
+  "file_size": 4329,
+  "checksum": "3f5e55eb1721e78505f852a27405e8e2",
+  "dimensions": {
+    "width": 300,
+    "height": 150
+  },
+  "format": "PNG"
+}

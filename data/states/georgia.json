@@ -1,52 +1,462 @@
 {
   "name": "Georgia",
-  "abbreviation": "GA", 
+  "abbreviation": "GA",
   "slogan": "Peach State",
   "uses_zero_for_o": true,
-  "allows_letter_o": true,
+  "allows_letter_o": false,
   "zero_is_slashed": true,
-  "primary_colors": ["#FFFFFF", "#000000", "#FF8C00"],
-  "notes": "Georgia is a common out-of-state plate seen in Florida tolls. Uses both digit 0 and letter O. Zero appears with a slash through it to distinguish from O. County name appears on a sticker at the top of the plate. Multiple formats exist including ABC-1234 and older AAA-123 formats.",
+  "character_restrictions": {
+    "excluded_letters": [
+      "O"
+    ],
+    "excluded_numbers": [],
+    "notes": "Letter O is not used in current 2012 ABC1234 series to avoid confusion with zero. Zero uses slash mark for disambiguation."
+  },
+  "primary_colors": [
+    "#FFFFFF",
+    "#000000",
+    "#FF8C00"
+  ],
+  "notes": "Georgia uses ABC1234 format since May 2012. Features dual design system: peach tree graphic or plain peach background. Letter O excluded in current series. County stickers at top of plate. Multiple specialty plates with 2-letter prefixes.",
   "plate_types": [
     {
-      "type_name": "Passenger",
-      "pattern": "ABC-1234",
+      "type_name": "Standard Passenger",
+      "pattern": "ABC1234",
       "character_count": 7,
-      "description": "Current standard passenger format with county sticker",
-      "background_color": "#FFFFFF", 
+      "description": "Current standard passenger format since May 2012, ABC1234 with county sticker",
+      "background_color": "#FFFFFF",
       "text_color": "#000000",
       "has_stickers": true,
-      "sticker_description": "County name sticker at top center of plate"
+      "sticker_description": "County name sticker at top center of plate",
+      "design_variants": [
+        "Peach tree graphic",
+        "Plain peach background"
+      ],
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
     },
     {
-      "type_name": "Passenger (Legacy)",
+      "type_name": "Standard Passenger (Pre-2012)",
+      "pattern": "ABC-123",
+      "character_count": 6,
+      "description": "Pre-2012 passenger plate format, still in circulation",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "County sticker at top, may have month/year tabs",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Standard Passenger (Legacy)",
       "pattern": "AAA-123",
       "character_count": 6,
-      "description": "Older passenger plate format still in circulation",
+      "description": "Older passenger plate format from previous series",
       "background_color": "#FFFFFF",
-      "text_color": "#000000", 
+      "text_color": "#000000",
       "has_stickers": true,
-      "sticker_description": "County sticker at top, may have month/year tabs"
+      "sticker_description": "County sticker at top, month/year validation tabs",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Antique Auto",
+      "pattern": "AAXXX",
+      "character_count": 5,
+      "description": "Antique automobile plates for vehicles 25+ years old",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "County sticker, special antique designation",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "conditional",
+        "dot_dropdown_identifier": "ANTIQUE_PLATES",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Classic Vehicle",
+      "pattern": "CVXXXX",
+      "character_count": 6,
+      "description": "Classic vehicle registration for collector cars",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "CV prefix, county sticker",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "conditional",
+        "dot_dropdown_identifier": "ANTIQUE_PLATES",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
     },
     {
       "type_name": "Commercial",
-      "pattern": "ABC-123",
+      "pattern": "ABC123",
       "character_count": 6,
-      "description": "Commercial vehicle plate",
+      "description": "Commercial vehicle plates",
       "background_color": "#FFFFFF",
       "text_color": "#FF0000",
       "has_stickers": true,
-      "sticker_description": "Commercial classification and county stickers"
+      "sticker_description": "Commercial classification and county stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "never_standard",
+        "dot_dropdown_identifier": "COMMERCIAL_PLATES",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
     },
     {
-      "type_name": "Motorcycle", 
+      "type_name": "Commercial Truck",
+      "pattern": "AB1234",
+      "character_count": 6,
+      "description": "Commercial truck registration",
+      "background_color": "#FFFFFF",
+      "text_color": "#FF0000",
+      "has_stickers": true,
+      "sticker_description": "Weight class and county stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "never_standard",
+        "dot_dropdown_identifier": "COMMERCIAL_PLATES",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Motorcycle",
       "pattern": "AB123",
       "character_count": 5,
-      "description": "Motorcycle plate",
+      "description": "Standard motorcycle plate",
       "background_color": "#FFFFFF",
       "text_color": "#000000",
       "has_stickers": true,
-      "sticker_description": "Small county sticker"
+      "sticker_description": "Small county sticker",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Motorcycle (Current)",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "Current motorcycle format matching passenger progression",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "County sticker, follows ABC123 progression",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Specialty 2-Letter Prefix",
+      "pattern": "ABXXXX",
+      "character_count": 6,
+      "description": "Specialty plates with 2-letter organizational prefixes (DC, BQ, CF, etc.)",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Organization identifier, county sticker",
+      "prefix_examples": [
+        "DC",
+        "BQ",
+        "CF",
+        "DV",
+        "BF"
+      ],
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "University of Georgia",
+      "pattern": "UGXXXX",
+      "character_count": 6,
+      "description": "University of Georgia specialty plate",
+      "background_color": "#CC0000",
+      "text_color": "#FFFFFF",
+      "has_stickers": true,
+      "sticker_description": "UG prefix, university branding",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Georgia Tech",
+      "pattern": "GTXXXX",
+      "character_count": 6,
+      "description": "Georgia Institute of Technology specialty plate",
+      "background_color": "#003057",
+      "text_color": "#B3A369",
+      "has_stickers": true,
+      "sticker_description": "GT prefix, university branding",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "pattern": "DVXXXX",
+      "character_count": 6,
+      "description": "Disabled veteran specialty plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "DV prefix, veteran designation",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Trailer",
+      "pattern": "T1234",
+      "character_count": 5,
+      "description": "Trailer registration plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "T prefix, trailer classification",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Farm Vehicle",
+      "pattern": "F1234",
+      "character_count": 5,
+      "description": "Farm vehicle registration",
+      "background_color": "#FFFFFF",
+      "text_color": "#008000",
+      "has_stickers": true,
+      "sticker_description": "F prefix, agricultural classification",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
     }
-  ]
+  ],
+  "processing_metadata": {
+    "description": "Official Georgia DMV processing rules and validation requirements",
+    "global_rules": {
+      "font_changes": "Information needed - check historical changes",
+      "code_system": "Information needed - research plate type code system",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'"
+    }
+  }
 }

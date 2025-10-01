@@ -1,0 +1,56 @@
+{
+  "name": "Idaho",
+  "abbreviation": "ID",
+  "slogan": "Gem State",
+  "primary_colors": [
+    "#FFFFFF",
+    "#000000"
+  ],
+  "processing_metadata": {
+    "description": "Official Idaho DMV processing rules and validation requirements",
+    "global_rules": {
+      "font_changes": "Information needed - check historical changes",
+      "code_system": "Information needed - research plate type code system",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'"
+    }
+  },
+  "plate_types": [
+    {
+      "type_name": "Passenger Default",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "Idaho standard passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "passenger",
+      "code_number": "0",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
+    }
+  ],
+  "uses_zero_for_o": true,
+  "allows_letter_o": false,
+  "zero_is_slashed": false,
+  "notes": "Idaho does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Source: OOS.txt compilation - requires verification with official DMV documentation."
+}

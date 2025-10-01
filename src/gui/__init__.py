@@ -2,6 +2,7 @@
 GUI module for License Plate Information System
 """
 
-from .main_window import MainWindow
+from .themes.theme_manager import ThemeManager
+from .utils.widget_factory import WidgetFactory
 
-__all__ = ['MainWindow']
+__all__ = ['ThemeManager', 'WidgetFactory']

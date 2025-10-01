@@ -1,0 +1,57 @@
+{
+  "name": "Diplomatic Corps",
+  "abbreviation": "DPL",
+  "slogan": "International Diplomatic",
+  "primary_colors": [
+    "#FFFFFF",
+    "#000000"
+  ],
+  "processing_metadata": {
+    "description": "Official Diplomatic Corps processing rules and validation requirements",
+    "global_rules": {
+      "font_changes": "Information needed - research historical changes",
+      "code_system": "Information needed - research plate type code system",
+      "character_restrictions": "Unknown O/0 usage pattern - requires research",
+      "security_level": "Federal government plates with enhanced security"
+    }
+  },
+  "plate_types": [
+    {
+      "type_name": "Standard Issue",
+      "pattern": "G123456",
+      "character_count": 6,
+      "description": "Diplomatic Corps standard government plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Validation stickers",
+      "category": "government",
+      "code_number": "0",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "never_standard",
+        "dot_dropdown_identifier": "GOVERNMENT_PLATES",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      },
+      "visual_identifier": "",
+      "processing_rules": "Special government handling",
+      "requires_prefix": false
+    }
+  ],
+  "uses_zero_for_o": false,
+  "allows_letter_o": true,
+  "zero_is_slashed": false,
+  "notes": "Diplomatic Corps O/0 character usage pattern unknown. Requires research with official documentation. Government service plates - special federal formatting and security features."
+}

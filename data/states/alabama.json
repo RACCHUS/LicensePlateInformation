@@ -1,11 +1,15 @@
 {
-  "name": "Alabama", 
+  "name": "Alabama",
   "abbreviation": "AL",
   "slogan": "Heart of Dixie",
   "uses_zero_for_o": false,
   "allows_letter_o": true,
   "zero_is_slashed": false,
-  "primary_colors": ["#FFFFFF", "#FF0000", "#000000"],
+  "primary_colors": [
+    "#FFFFFF",
+    "#FF0000",
+    "#000000"
+  ],
   "notes": "Alabama plates use letter O but not in the same positions as digits. Zero is not slashed. County name may appear on the plate itself or on a small sticker. Format has changed over the years with current plates using 12A-34BC pattern.",
   "plate_types": [
     {
@@ -16,17 +20,53 @@
       "background_color": "#FFFFFF",
       "text_color": "#000000",
       "has_stickers": false,
-      "sticker_description": "County name usually printed on plate, not sticker"
+      "sticker_description": "County name usually printed on plate, not sticker",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
     },
     {
       "type_name": "Passenger (Legacy)",
       "pattern": "12-AB34C",
       "character_count": 7,
-      "description": "Older passenger plate format", 
+      "description": "Older passenger plate format",
       "background_color": "#FFFFFF",
       "text_color": "#000000",
       "has_stickers": true,
-      "sticker_description": "County sticker may be present"
+      "sticker_description": "County sticker may be present",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
     },
     {
       "type_name": "Commercial",
@@ -36,7 +76,33 @@
       "background_color": "#FFFFFF",
       "text_color": "#FF0000",
       "has_stickers": true,
-      "sticker_description": "Weight class and registration stickers"
+      "sticker_description": "Weight class and registration stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "never_standard",
+        "dot_dropdown_identifier": "COMMERCIAL_PLATES",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
     }
-  ]
+  ],
+  "processing_metadata": {
+    "description": "Official Alabama DMV processing rules and validation requirements",
+    "global_rules": {
+      "font_changes": "Information needed - check historical changes",
+      "code_system": "Information needed - research plate type code system",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers"
+    }
+  }
 }

@@ -1,0 +1,298 @@
+{
+  "name": "State Name",
+  "abbreviation": "XX",
+  "slogan": "State Slogan",
+  "uses_zero_for_o": true,
+  "allows_letter_o": false,
+  "zero_is_slashed": false,
+  "primary_colors": [
+    "#FFFFFF",
+    "#000000"
+  ],
+  "main_font": "Default State Font",
+  "main_logo": "State Logo Description or Path",
+  "main_plate_text": "State Name or Abbreviation",
+  "sticker_format": {
+    "color": "#FFFFFF",
+    "format": "Month/Year",
+    "position": "top-right",
+    "description": "Standard validation stickers"
+  },
+  "character_formatting": {
+    "stacked_characters": false,
+    "slanted_characters": false,
+    "slant_direction": null,
+    "stack_position": null
+  },
+  "weather_inclusion": true,
+  "images": {
+    "state_logo": "images/states/{state_code}/logo.png",
+    "character_font_reference": "images/states/{state_code}/font_sample.png",
+    "blank_plate_template": "images/states/{state_code}/blank_template.png",
+    "sticker_sample": "images/states/{state_code}/sticker.png"
+  },
+  "notes": "State-specific implementation notes. Include critical processing information, font changes, character restrictions, and any special rules.",
+  "processing_metadata": {
+    "description": "Official state DMV processing rules and validation requirements",
+    "global_rules": {
+      "character_restrictions": "State-specific character usage rules",
+      "font_changes": "Historical font or format changes",
+      "code_system": "How the state uses plate type codes for processing"
+    }
+  },
+  "plate_types": [
+    {
+      "type_name": "Passenger Default",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "Standard passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "weather_inclusion": null,
+        "sticker_override": null
+      },
+      
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      },
+      
+      "images": {
+        "plate_sample": "images/plates/{state_code}/{type_code}/sample.jpg",
+        "character_font_sample": "images/plates/{state_code}/{type_code}/font_sample.png",
+        "blank_template": null,
+        "variations": []
+      },
+      
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Specialty Plate Example",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "Example specialty plate that processes as standard",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "subtype": null,
+      "code_number": "46",
+      "processing_type": "standard",
+      
+      "plate_characteristics": {
+        "font": null,
+        "logo": "University Logo",
+        "plate_text": "UNIVERSITY",
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "weather_inclusion": null,
+        "sticker_override": null
+      },
+      
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Special visual identifier if any",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "conditional",
+        "dot_dropdown_identifier": "SPECIALTY_UNIVERSITY",
+        "dot_conditional_rules": {
+          "all_numeric": {
+            "action": "use_dropdown",
+            "dropdown": "NUMERIC_SPECIALTY"
+          },
+          "alphanumeric": {
+            "action": "standard_processing"
+          }
+        },
+        "date_ranges": {
+          "period_1": "Historical date range",
+          "period_2": "Current date range"
+        },
+        "plate_images_available": "Image description"
+      },
+      
+      "images": {
+        "plate_sample": "images/plates/{state_code}/{type_code}/sample.jpg",
+        "character_font_sample": "images/plates/{state_code}/{type_code}/font_sample.png",
+        "blank_template": "images/plates/{state_code}/{type_code}/blank.png",
+        "variations": [
+          "images/plates/{state_code}/{type_code}/variation_1.jpg",
+          "images/plates/{state_code}/{type_code}/variation_2.jpg"
+        ]
+      },
+      
+      "visual_identifier": "Y - Description of visual identifier",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Government Plate Example",
+      "pattern": "123456",
+      "character_count": 6,
+      "description": "Example government plate with special processing",
+      "background_color": "#FFFF00",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "government",
+      "subtype": null,
+      "code_number": "67",
+      "processing_type": "standard",
+      
+      "plate_characteristics": {
+        "font": null,
+        "logo": "Government Seal",
+        "plate_text": "GOVERNMENT",
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "weather_inclusion": false,
+        "sticker_override": {
+          "color": "#FF0000",
+          "format": "Year Only",
+          "position": "bottom-center"
+        }
+      },
+      
+      "images": {
+        "plate_sample": "images/plates/{state_code}/{type_code}/sample.jpg",
+        "character_font_sample": "images/plates/{state_code}/{type_code}/font_sample.png",
+        "blank_template": "images/plates/{state_code}/{type_code}/blank.png",
+        "variations": [
+          "images/plates/{state_code}/{type_code}/federal.jpg",
+          "images/plates/{state_code}/{type_code}/state_gov.jpg"
+        ]
+      },
+      
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Special vehicle type rules",
+        "all_numeric_plate": true,
+        "dot_processing_type": "never_standard",
+        "dot_dropdown_identifier": "GOVERNMENT_PLATES",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      },
+      
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Personalized Passenger",
+      "pattern": "ABCDEF",
+      "character_count": 6,
+      "description": "Personalized vanity plate for passenger vehicles",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "vanity",
+      "subtype": "passenger",
+      "code_number": "P1",
+      "processing_type": "standard",
+      
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "weather_inclusion": null,
+        "sticker_override": null
+      },
+      
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      },
+      
+      "images": {
+        "plate_sample": "images/plates/{state_code}/{type_code}/sample.jpg",
+        "character_font_sample": "images/plates/{state_code}/{type_code}/font_sample.png",
+        "blank_template": null,
+        "variations": [
+          "images/plates/{state_code}/{type_code}/example_1.jpg",
+          "images/plates/{state_code}/{type_code}/example_2.jpg"
+        ]
+      },
+      
+      "visual_identifier": "Y - Custom text chosen by owner",
+      "processing_rules": "Y",
+      "requires_prefix": false
+    }
+  ]
+}

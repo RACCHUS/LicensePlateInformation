@@ -16,6 +16,8 @@ from .helpers import (
     save_json_file
 )
 
+from .image_manager import LicensePlateImageManager
+
 __all__ = [
     'normalize_plate_text',
     'get_ambiguous_character_pairs',
@@ -27,5 +29,6 @@ __all__ = [
     'get_image_path',
     'ensure_data_directories',
     'load_json_file',
-    'save_json_file'
+    'save_json_file',
+    'LicensePlateImageManager'
 ]

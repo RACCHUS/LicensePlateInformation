@@ -102,7 +102,6 @@ def test_application():
         sys.path.insert(0, os.path.join(app_dir, 'src'))
         
         from database.db_manager import DatabaseManager
-        from gui.main_window import MainWindow
         
         # Test database connection
         db_manager = DatabaseManager()

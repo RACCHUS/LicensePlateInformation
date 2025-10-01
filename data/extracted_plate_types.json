@@ -1,0 +1,1096 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-30",
+    "source_files": [
+      "alabama.json",
+      "alaska.json",
+      "alberta.json",
+      "american_samoa.json",
+      "arizona.json",
+      "arkansas.json",
+      "california.json",
+      "colorado.json",
+      "connecticut.json",
+      "delaware.json",
+      "diplomatic.json",
+      "florida.json",
+      "georgia.json",
+      "guam.json",
+      "hawaii.json",
+      "idaho.json",
+      "illinois.json",
+      "indiana.json",
+      "iowa.json",
+      "kansas.json",
+      "kentucky.json",
+      "louisiana.json",
+      "maine.json",
+      "maryland.json",
+      "massachusetts.json",
+      "michigan.json",
+      "minnesota.json",
+      "mississippi.json",
+      "missouri.json",
+      "montana.json",
+      "nebraska.json",
+      "nevada.json",
+      "new_hampshire.json",
+      "new_jersey.json",
+      "new_mexico.json",
+      "new_york.json",
+      "northern_mariana_islands.json",
+      "north_carolina.json",
+      "north_dakota.json",
+      "ohio.json",
+      "oklahoma.json",
+      "ontario.json",
+      "oregon.json",
+      "pennsylvania.json",
+      "puerto_rico.json",
+      "rhode_island.json",
+      "south_carolina.json",
+      "south_dakota.json",
+      "tennessee.json",
+      "texas.json",
+      "us_government.json",
+      "us_virgin_islands.json",
+      "utah.json",
+      "vermont.json",
+      "virginia.json",
+      "washington.json",
+      "washington_dc.json",
+      "west_virginia.json",
+      "wisconsin.json",
+      "wyoming.json"
+    ],
+    "total_unique_types": 288,
+    "state_breakdown": {
+      "AL": {
+        "name": "Alabama",
+        "plate_count": 3,
+        "types": [
+          "Commercial",
+          "Passenger",
+          "Passenger (Legacy)"
+        ]
+      },
+      "AK": {
+        "name": "Alaska",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "AB": {
+        "name": "Alberta",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "AS": {
+        "name": "American Samoa",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "AZ": {
+        "name": "Arizona",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "AR": {
+        "name": "Arkansas",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "CA": {
+        "name": "California",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "CO": {
+        "name": "Colorado",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "CT": {
+        "name": "Connecticut",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "DE": {
+        "name": "Delaware",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "DPL": {
+        "name": "Diplomatic Corps",
+        "plate_count": 1,
+        "types": [
+          "Standard Issue"
+        ]
+      },
+      "FL": {
+        "name": "Florida",
+        "plate_count": 265,
+        "types": [
+          "A & M University",
+          "Advent Health University",
+          "Agency Workforce Innovation",
+          "Agricultural Education",
+          "Agriculture Consumer Services",
+          "Agriculture Keeps Green",
+          "Air Force Combat Action Medal",
+          "Air Force Cross",
+          "Amateur Radio",
+          "America the Beautiful",
+          "American Red Cross",
+          "Animal Friend",
+          "Antique",
+          "Antique Motorcycle",
+          "Apportioned",
+          "Aquaculture",
+          "Army of Occupation",
+          "Atlantic University",
+          "Ave Maria University",
+          "Barry University",
+          "Beacon College",
+          "Best Buddies",
+          "Bethune-Cookman",
+          "Big Brothers/Big Sisters",
+          "Bonefish & Tarpon Trust",
+          "Bronze Star",
+          "Catch & Release",
+          "Challenger/Columbia",
+          "Choose Life",
+          "City",
+          "City Motorcycle",
+          "Clearwater College",
+          "Collectable",
+          "College",
+          "Combat Action Badge",
+          "Combat Action Ribbon",
+          "Combat Infantry Badges",
+          "Combat Medical Badges",
+          "Conserve Florida Fisheries",
+          "Conserve Wildlife",
+          "Corrections Foundation",
+          "County",
+          "County Motorcycle",
+          "Custom Vehicle",
+          "Dealer",
+          "Dealer Motorcycle",
+          "Department of Driver Licenses",
+          "Department of Motor Vehicles",
+          "Department of Protection",
+          "Department of Transportation",
+          "Department of Veterans Affairs",
+          "Disabled Veteran",
+          "Disabled Veteran Motorcycle",
+          "Disabled Veteran Wheelchair",
+          "Discover Florida's Horses",
+          "Discover Florida's Oceans",
+          "Distinguished Flying Cross",
+          "Distinuished Service Cross",
+          "Divine Nine (2023)",
+          "Don't Tread on Me",
+          "Donate Organs",
+          "Ducks Unlimited",
+          "Eckerd College",
+          "Edward-Waters College",
+          "Embry-Riddle University",
+          "End Breast Cancer",
+          "Endless Summer",
+          "Everglades River Grass",
+          "Everglades University",
+          "Ex POW",
+          "Exempt",
+          "Explore Off-Road",
+          "Explore Our State Parks",
+          "FDLE",
+          "Family First",
+          "Family Values",
+          "Fish & Wildlife Commission",
+          "Fish Florida",
+          "Flagler College",
+          "Fleet",
+          "Florida Bay Forever",
+          "Florida College",
+          "Florida Highway Patrol",
+          "Florida National Guard",
+          "Florida Panthers",
+          "Florida/Miami Marlins",
+          "Foreign Organization",
+          "Former Military Vehicle",
+          "Former Military Vehicle Motorcycle",
+          "Fraternal Order of Police",
+          "Free Masons",
+          "Girl Scouts",
+          "Go Fishing",
+          "Go Team USA",
+          "Gold Star Family",
+          "Golf Capital of the World",
+          "Gulf Coast University",
+          "Handicapped/ Wheelchair",
+          "Helping Sea Turtles",
+          "Hispanic Achievers",
+          "Hodges University",
+          "Home of the Blue Angels",
+          "Honorary Counsul",
+          "Honoring Law Enforcement",
+          "Horse Country",
+          "Horseless Carriage",
+          "Horseless Carriage Motorcycle",
+          "Hospice",
+          "Hospital College Health",
+          "House Speaker",
+          "Imagine",
+          "In God we Trust",
+          "Indian River Lagoon",
+          "Institute of Technology",
+          "International University",
+          "Invest in Children",
+          "Jacksonville Jaguars",
+          "Jacksonville Univesity",
+          "Keep Kids Drug Free",
+          "Keiser University",
+          "Kids Deserve Justice",
+          "Korean Conflict Veteran",
+          "Korean War Veteran",
+          "Labor & Employment Security",
+          "Lauren's Kids",
+          "Live the Dream",
+          "Livestock Trailer tag",
+          "Lynn University",
+          "Manufacturer",
+          "Manufacturer Motorcycle",
+          "Medal of Honor Air Force",
+          "Medal of Honor Army",
+          "Medal of Honor Navy",
+          "Member of Congress",
+          "Memorial University",
+          "Miami Dolphins",
+          "Miami Heat",
+          "Miccosukee Indian",
+          "Miccosukee Indian Motorcycle",
+          "Moffitt Cancer Center",
+          "Motorcycle",
+          "NASCAR",
+          "National Guard",
+          "Navy Cross",
+          "Navy Submariner",
+          "New College of Florida",
+          "North Broward Hospital District",
+          "Nova Southeastern University",
+          "Official Congress",
+          "Official House",
+          "Official Senate",
+          "Olympic Spirit",
+          "Operation Desert Shield/Veterans",
+          "Operation Desert Storm/Veterans",
+          "Operation Enduring Freedom",
+          "Operation Iraqi Freedom",
+          "Orlando City Soccer",
+          "Orlando Magic",
+          "Other Colleges",
+          "PRIDE",
+          "Palm Beach Atlantic University",
+          "Paralyzed Vets of America",
+          "Paralyzed Vets of America Motorcycle",
+          "Parents Make a Difference",
+          "Passenger",
+          "Pearl Harbor Survivor",
+          "Permanent Trailer",
+          "Play Tennis",
+          "Police Athletic League",
+          "Pres",
+          "Protect Marine Wildlife",
+          "Protect Our Oceans",
+          "Protect Springs",
+          "Protect Whales",
+          "Protect Wild Dolphins",
+          "Protect the Panther",
+          "Public Service Commission",
+          "Purple Heart",
+          "Purple Heart Motorcycle",
+          "Restricted",
+          "Retired House",
+          "Retired Senate",
+          "Ringling School of Art Design",
+          "Rollins College",
+          "Saint Leo University",
+          "Saint Thomas University",
+          "Salutes Firefighters",
+          "Salutes Veterans",
+          "Save Wild Florida",
+          "Save our Seas",
+          "Save the Manatee",
+          "Scouting Values",
+          "Seminole Indian",
+          "Seminole Indian Motorcycle",
+          "Senate President",
+          "Share the Road",
+          "Sheriff",
+          "Sheriff's Association",
+          "Sheriff's Youth Ranches",
+          "Silver Star",
+          "Southeastern University",
+          "Southern College",
+          "Special Olympics",
+          "Specialty Motorcycle",
+          "Sportsmen's National Land Trust",
+          "St. Johns River",
+          "State",
+          "State Fire Marshal",
+          "State Legislator",
+          "State Motorcycle",
+          "State Senator",
+          "State Trooper Motorcycle",
+          "State University",
+          "State Wildflower",
+          "State of Vision",
+          "State of the Arts",
+          "Stetson University",
+          "Stop Child Abuse",
+          "Stop Heart Disease",
+          "Street Rod",
+          "Support Autism",
+          "Support Education",
+          "Support Home Ownership",
+          "Support Law Enforcement",
+          "Support Our Troops",
+          "Support Scenic Walton",
+          "Support Soccer",
+          "Tampa Bay Buccaneers",
+          "Tampa Bay Devil Rays",
+          "Tampa Bay Estuary",
+          "Tampa Bay Lightning",
+          "Temporary",
+          "Temporary Motorcycle",
+          "The American Legion",
+          "Transporter",
+          "Trees are Cool",
+          "Truck",
+          "US Air Force",
+          "US Army",
+          "US Coast Guard",
+          "US Marine Corps",
+          "US Navy",
+          "US Paratrooper",
+          "US Reserve",
+          "US Senator",
+          "United We Stand",
+          "University of Central Florida",
+          "University of Florida",
+          "University of Georgia",
+          "University of Miami",
+          "University of North Florida",
+          "University of South Florida",
+          "University of Tampa",
+          "University of West Florida",
+          "Veteran",
+          "Vietnam War Veteran",
+          "Visit Our Lights",
+          "Volunteer Fire",
+          "Walt Disney",
+          "Warner Southern College",
+          "Wheelchair Motorcycle",
+          "Wildlife Foundation",
+          "Woman Veteran",
+          "Wrecker",
+          "Wrecker Restricted"
+        ]
+      },
+      "GA": {
+        "name": "Georgia",
+        "plate_count": 15,
+        "types": [
+          "Antique Auto",
+          "Classic Vehicle",
+          "Commercial",
+          "Commercial Truck",
+          "Disabled Veteran",
+          "Farm Vehicle",
+          "Georgia Tech",
+          "Motorcycle",
+          "Motorcycle (Current)",
+          "Specialty 2-Letter Prefix",
+          "Standard Passenger",
+          "Standard Passenger (Legacy)",
+          "Standard Passenger (Pre-2012)",
+          "Trailer",
+          "University of Georgia"
+        ]
+      },
+      "GU": {
+        "name": "Guam",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "HI": {
+        "name": "Hawaii",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "ID": {
+        "name": "Idaho",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "IL": {
+        "name": "Illinois",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "IN": {
+        "name": "Indiana",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "IA": {
+        "name": "Iowa",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "KS": {
+        "name": "Kansas",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "KY": {
+        "name": "Kentucky",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "LA": {
+        "name": "Louisiana",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "ME": {
+        "name": "Maine",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "MD": {
+        "name": "Maryland",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "MA": {
+        "name": "Massachusetts",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "MI": {
+        "name": "Michigan",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "MN": {
+        "name": "Minnesota",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "MS": {
+        "name": "Mississippi",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "MO": {
+        "name": "Missouri",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "MT": {
+        "name": "Montana",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "NE": {
+        "name": "Nebraska",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "NV": {
+        "name": "Nevada",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "NH": {
+        "name": "New Hampshire",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "NJ": {
+        "name": "New Jersey",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "NM": {
+        "name": "New Mexico",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "NY": {
+        "name": "New York",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "MP": {
+        "name": "Northern Mariana Islands",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "NC": {
+        "name": "North Carolina",
+        "plate_count": 2,
+        "types": [
+          "Commercial",
+          "Passenger"
+        ]
+      },
+      "ND": {
+        "name": "North Dakota",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "OH": {
+        "name": "Ohio",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "OK": {
+        "name": "Oklahoma",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "ON": {
+        "name": "Ontario",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "OR": {
+        "name": "Oregon",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "PA": {
+        "name": "Pennsylvania",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "PR": {
+        "name": "Puerto Rico",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "RI": {
+        "name": "Rhode Island",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "SC": {
+        "name": "South Carolina",
+        "plate_count": 2,
+        "types": [
+          "Commercial",
+          "Passenger"
+        ]
+      },
+      "SD": {
+        "name": "South Dakota",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "TN": {
+        "name": "Tennessee",
+        "plate_count": 11,
+        "types": [
+          "Antique Auto",
+          "Disabled Person",
+          "Disabled Veteran",
+          "Great Smoky Mountains",
+          "In God We Trust",
+          "Memphis Grizzlies",
+          "Motorcycle",
+          "Semi-Trailer",
+          "Standard Passenger",
+          "University of Tennessee",
+          "Vanderbilt University"
+        ]
+      },
+      "TX": {
+        "name": "Texas",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "US": {
+        "name": "US Government",
+        "plate_count": 1,
+        "types": [
+          "Standard Issue"
+        ]
+      },
+      "VI": {
+        "name": "US Virgin Islands",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "UT": {
+        "name": "Utah",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "VT": {
+        "name": "Vermont",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "VA": {
+        "name": "Virginia",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "WA": {
+        "name": "Washington",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "DC": {
+        "name": "Washington DC",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "WV": {
+        "name": "West Virginia",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "WI": {
+        "name": "Wisconsin",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "WY": {
+        "name": "Wyoming",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      }
+    }
+  },
+  "plate_types": [
+    "A & M University",
+    "Advent Health University",
+    "Agency Workforce Innovation",
+    "Agricultural Education",
+    "Agriculture Consumer Services",
+    "Agriculture Keeps Green",
+    "Air Force Combat Action Medal",
+    "Air Force Cross",
+    "Amateur Radio",
+    "America the Beautiful",
+    "American Red Cross",
+    "Animal Friend",
+    "Antique",
+    "Antique Auto",
+    "Antique Motorcycle",
+    "Apportioned",
+    "Aquaculture",
+    "Army of Occupation",
+    "Atlantic University",
+    "Ave Maria University",
+    "Barry University",
+    "Beacon College",
+    "Best Buddies",
+    "Bethune-Cookman",
+    "Big Brothers/Big Sisters",
+    "Bonefish & Tarpon Trust",
+    "Bronze Star",
+    "Catch & Release",
+    "Challenger/Columbia",
+    "Choose Life",
+    "City",
+    "City Motorcycle",
+    "Classic Vehicle",
+    "Clearwater College",
+    "Collectable",
+    "College",
+    "Combat Action Badge",
+    "Combat Action Ribbon",
+    "Combat Infantry Badges",
+    "Combat Medical Badges",
+    "Commercial",
+    "Commercial Truck",
+    "Conserve Florida Fisheries",
+    "Conserve Wildlife",
+    "Corrections Foundation",
+    "County",
+    "County Motorcycle",
+    "Custom Vehicle",
+    "Dealer",
+    "Dealer Motorcycle",
+    "Department of Driver Licenses",
+    "Department of Motor Vehicles",
+    "Department of Protection",
+    "Department of Transportation",
+    "Department of Veterans Affairs",
+    "Disabled Person",
+    "Disabled Veteran",
+    "Disabled Veteran Motorcycle",
+    "Disabled Veteran Wheelchair",
+    "Discover Florida's Horses",
+    "Discover Florida's Oceans",
+    "Distinguished Flying Cross",
+    "Distinuished Service Cross",
+    "Divine Nine (2023)",
+    "Don't Tread on Me",
+    "Donate Organs",
+    "Ducks Unlimited",
+    "Eckerd College",
+    "Edward-Waters College",
+    "Embry-Riddle University",
+    "End Breast Cancer",
+    "Endless Summer",
+    "Everglades River Grass",
+    "Everglades University",
+    "Ex POW",
+    "Exempt",
+    "Explore Off-Road",
+    "Explore Our State Parks",
+    "FDLE",
+    "Family First",
+    "Family Values",
+    "Farm Vehicle",
+    "Fish & Wildlife Commission",
+    "Fish Florida",
+    "Flagler College",
+    "Fleet",
+    "Florida Bay Forever",
+    "Florida College",
+    "Florida Highway Patrol",
+    "Florida National Guard",
+    "Florida Panthers",
+    "Florida/Miami Marlins",
+    "Foreign Organization",
+    "Former Military Vehicle",
+    "Former Military Vehicle Motorcycle",
+    "Fraternal Order of Police",
+    "Free Masons",
+    "Georgia Tech",
+    "Girl Scouts",
+    "Go Fishing",
+    "Go Team USA",
+    "Gold Star Family",
+    "Golf Capital of the World",
+    "Great Smoky Mountains",
+    "Gulf Coast University",
+    "Handicapped/ Wheelchair",
+    "Helping Sea Turtles",
+    "Hispanic Achievers",
+    "Hodges University",
+    "Home of the Blue Angels",
+    "Honorary Counsul",
+    "Honoring Law Enforcement",
+    "Horse Country",
+    "Horseless Carriage",
+    "Horseless Carriage Motorcycle",
+    "Hospice",
+    "Hospital College Health",
+    "House Speaker",
+    "Imagine",
+    "In God We Trust",
+    "In God we Trust",
+    "Indian River Lagoon",
+    "Institute of Technology",
+    "International University",
+    "Invest in Children",
+    "Jacksonville Jaguars",
+    "Jacksonville Univesity",
+    "Keep Kids Drug Free",
+    "Keiser University",
+    "Kids Deserve Justice",
+    "Korean Conflict Veteran",
+    "Korean War Veteran",
+    "Labor & Employment Security",
+    "Lauren's Kids",
+    "Live the Dream",
+    "Livestock Trailer tag",
+    "Lynn University",
+    "Manufacturer",
+    "Manufacturer Motorcycle",
+    "Medal of Honor Air Force",
+    "Medal of Honor Army",
+    "Medal of Honor Navy",
+    "Member of Congress",
+    "Memorial University",
+    "Memphis Grizzlies",
+    "Miami Dolphins",
+    "Miami Heat",
+    "Miccosukee Indian",
+    "Miccosukee Indian Motorcycle",
+    "Moffitt Cancer Center",
+    "Motorcycle",
+    "Motorcycle (Current)",
+    "NASCAR",
+    "National Guard",
+    "Navy Cross",
+    "Navy Submariner",
+    "New College of Florida",
+    "North Broward Hospital District",
+    "Nova Southeastern University",
+    "Official Congress",
+    "Official House",
+    "Official Senate",
+    "Olympic Spirit",
+    "Operation Desert Shield/Veterans",
+    "Operation Desert Storm/Veterans",
+    "Operation Enduring Freedom",
+    "Operation Iraqi Freedom",
+    "Orlando City Soccer",
+    "Orlando Magic",
+    "Other Colleges",
+    "PRIDE",
+    "Palm Beach Atlantic University",
+    "Paralyzed Vets of America",
+    "Paralyzed Vets of America Motorcycle",
+    "Parents Make a Difference",
+    "Passenger",
+    "Passenger (Legacy)",
+    "Passenger Default",
+    "Pearl Harbor Survivor",
+    "Permanent Trailer",
+    "Personalized/Vanity",
+    "Play Tennis",
+    "Police Athletic League",
+    "Pres",
+    "Protect Marine Wildlife",
+    "Protect Our Oceans",
+    "Protect Springs",
+    "Protect Whales",
+    "Protect Wild Dolphins",
+    "Protect the Panther",
+    "Public Service Commission",
+    "Purple Heart",
+    "Purple Heart Motorcycle",
+    "Restricted",
+    "Retired House",
+    "Retired Senate",
+    "Ringling School of Art Design",
+    "Rollins College",
+    "Saint Leo University",
+    "Saint Thomas University",
+    "Salutes Firefighters",
+    "Salutes Veterans",
+    "Save Wild Florida",
+    "Save our Seas",
+    "Save the Manatee",
+    "Scouting Values",
+    "Semi-Trailer",
+    "Seminole Indian",
+    "Seminole Indian Motorcycle",
+    "Senate President",
+    "Share the Road",
+    "Sheriff",
+    "Sheriff's Association",
+    "Sheriff's Youth Ranches",
+    "Silver Star",
+    "Southeastern University",
+    "Southern College",
+    "Special Olympics",
+    "Specialty 2-Letter Prefix",
+    "Specialty Motorcycle",
+    "Sportsmen's National Land Trust",
+    "St. Johns River",
+    "Standard Issue",
+    "Standard Passenger",
+    "Standard Passenger (Legacy)",
+    "Standard Passenger (Pre-2012)",
+    "State",
+    "State Fire Marshal",
+    "State Legislator",
+    "State Motorcycle",
+    "State Senator",
+    "State Trooper Motorcycle",
+    "State University",
+    "State Wildflower",
+    "State of Vision",
+    "State of the Arts",
+    "Stetson University",
+    "Stop Child Abuse",
+    "Stop Heart Disease",
+    "Street Rod",
+    "Support Autism",
+    "Support Education",
+    "Support Home Ownership",
+    "Support Law Enforcement",
+    "Support Our Troops",
+    "Support Scenic Walton",
+    "Support Soccer",
+    "Tampa Bay Buccaneers",
+    "Tampa Bay Devil Rays",
+    "Tampa Bay Estuary",
+    "Tampa Bay Lightning",
+    "Temporary",
+    "Temporary Motorcycle",
+    "The American Legion",
+    "Trailer",
+    "Transporter",
+    "Trees are Cool",
+    "Truck",
+    "US Air Force",
+    "US Army",
+    "US Coast Guard",
+    "US Marine Corps",
+    "US Navy",
+    "US Paratrooper",
+    "US Reserve",
+    "US Senator",
+    "United We Stand",
+    "University of Central Florida",
+    "University of Florida",
+    "University of Georgia",
+    "University of Miami",
+    "University of North Florida",
+    "University of South Florida",
+    "University of Tampa",
+    "University of Tennessee",
+    "University of West Florida",
+    "Vanderbilt University",
+    "Veteran",
+    "Vietnam War Veteran",
+    "Visit Our Lights",
+    "Volunteer Fire",
+    "Walt Disney",
+    "Warner Southern College",
+    "Wheelchair Motorcycle",
+    "Wildlife Foundation",
+    "Woman Veteran",
+    "Wrecker",
+    "Wrecker Restricted"
+  ]
+}

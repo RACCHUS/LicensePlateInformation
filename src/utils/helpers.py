@@ -113,7 +113,16 @@ def validate_plate_pattern(plate: str, pattern: str) -> bool:
     
     Args:
         plate: Plate text to validate
-        pattern: Pattern to match against (e.g., "ABC-123D")
+        pattern: Pattern to match against
+        
+    Pattern conventions:
+        - Known literal prefixes: UG, CV, DV, GT (match exactly)
+        - Standard patterns use placeholders:
+          * A, B, C = any letter (placeholder)
+          * 1, 2, 3, 4 = any digit (placeholder)
+          * X = any letter or digit (wildcard)
+          * - = literal hyphen
+        - Single letter + numbers: T1234, F1234 = literal letter + placeholder digits
         
     Returns:
         True if plate matches pattern
@@ -121,17 +130,70 @@ def validate_plate_pattern(plate: str, pattern: str) -> bool:
     if not plate or not pattern:
         return False
     
-    # Convert pattern to regex
-    # A = letter, 1 = digit, - = literal hyphen
-    regex_pattern = pattern.upper()
-    regex_pattern = re.sub(r'[A-Z]', r'[A-Z]', regex_pattern)
-    regex_pattern = re.sub(r'[0-9]', r'[0-9]', regex_pattern)
-    regex_pattern = f'^{regex_pattern}$'
+    plate = plate.upper().strip()
+    pattern = pattern.upper().strip()
     
-    try:
-        return bool(re.match(regex_pattern, plate.upper()))
-    except:
+    # Check length match
+    if len(plate) != len(pattern):
         return False
+    
+    # Known literal prefixes that should match exactly
+    literal_prefixes = {
+        'UG': 'University of Georgia',
+        'GT': 'Georgia Tech', 
+        'CV': 'Classic Vehicle',
+        'DV': 'Disabled Veteran',
+    }
+    
+    # Check for literal prefix patterns
+    for prefix in literal_prefixes:
+        if pattern.startswith(prefix):
+            # This prefix must match exactly
+            if not plate.startswith(prefix):
+                return False
+            # Validate the rest of the pattern
+            return validate_plate_pattern(plate[len(prefix):], pattern[len(prefix):])
+    
+    # Check for single-letter literal patterns (T1234, F1234)
+    if len(pattern) >= 2 and pattern[0].isalpha() and pattern[1].isdigit():
+        # First character is literal, rest are digit placeholders
+        if plate[0] != pattern[0]:
+            return False
+        # Check remaining digits
+        for i in range(1, len(pattern)):
+            if pattern[i].isdigit():
+                if not plate[i].isdigit():
+                    return False
+            else:
+                # Handle any other characters (shouldn't happen in this case)
+                if plate[i] != pattern[i]:
+                    return False
+        return True
+    
+    # For all other patterns, treat as placeholders
+    for i, (p_char, pat_char) in enumerate(zip(plate, pattern)):
+        if pat_char == 'X':
+            # X matches any letter or digit
+            if not p_char.isalnum():
+                return False
+        elif pat_char == '-':
+            # Literal hyphen
+            if p_char != '-':
+                return False
+        elif pat_char.isalpha():
+            # Pattern letter - treat as placeholder for any letter
+            if not p_char.isalpha():
+                return False
+        elif pat_char.isdigit():
+            # Pattern digit - treat as placeholder for any digit
+            if not p_char.isdigit():
+                return False
+        else:
+            # Any other character should match exactly
+            if p_char != pat_char:
+                return False
+    
+    return True
 
 def score_plate_match(plate: str, state_data: Dict, plate_type: Optional[Dict] = None) -> float:
     """Score how well a plate matches state and type rules

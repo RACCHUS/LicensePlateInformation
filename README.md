@@ -30,11 +30,43 @@ A desktop application for quickly identifying license plate details for toll rea
 - **State Data**: Edit JSON files in `data/states/` 
 - **Database**: Automatic SQLite database creation and updates
 
+## Testing
+
+The project includes comprehensive test suites for all states and functionality:
+
+### Running Tests
+
+```bash
+# Run all tests
+python run_tests.py
+
+# Run specific test suite
+python run_tests.py georgia_comprehensive
+python run_tests.py florida_comprehensive 
+python run_tests.py tennessee_comprehensive
+python run_tests.py state_comparison
+
+# Or use pytest directly
+python -m pytest tests/ -v
+```
+
+### Test Organization
+
+- `tests/test_all.py` - Core system tests (database, helpers, integration)
+- `tests/test_georgia_comprehensive.py` - Complete Georgia license plate validation
+- `tests/test_florida_comprehensive.py` - Complete Florida license plate validation
+- `tests/test_tennessee_comprehensive.py` - Complete Tennessee license plate validation
+- `tests/test_state_comparison.py` - Cross-state validation and comparison tests
+- `tests/test_tennessee_recognition.py` - Tennessee pattern recognition tests
+
+All test files use research-backed data from Wikipedia and LicensePlates.cc to ensure accuracy.
+
 ## File Structure
 
 ```
 LicensePlateInformation/
 ├── main.py                 # Application entry point
+├── run_tests.py           # Test runner utility
 ├── requirements.txt        # Python dependencies
 ├── README.md              # This file
 ├── src/                   # Source code
@@ -46,7 +78,13 @@ LicensePlateInformation/
 │   ├── database/         # SQLite database
 │   ├── images/           # Plate and character images
 │   └── states/           # State configuration files
-└── tests/                # Unit tests
+└── tests/                # Unit tests and validation suites
+    ├── test_all.py                    # Core system tests
+    ├── test_georgia_comprehensive.py # Georgia validation (15 plate types)
+    ├── test_florida_comprehensive.py # Florida validation (16 plate types)
+    ├── test_tennessee_comprehensive.py # Tennessee validation (11 plate types)
+    ├── test_state_comparison.py      # Cross-state comparison
+    └── test_tennessee_recognition.py # Pattern recognition tests
 ```
 
 ## State Data Format

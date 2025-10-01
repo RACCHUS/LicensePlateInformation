@@ -1,0 +1,94 @@
+{
+  "name": "Maryland",
+  "abbreviation": "MD",
+  "slogan": "Old Line State",
+  "primary_colors": [
+    "#FFFFFF",
+    "#000000"
+  ],
+  "processing_metadata": {
+    "description": "Official Maryland DMV processing rules and validation requirements",
+    "global_rules": {
+      "font_changes": "Information needed - check historical changes",
+      "code_system": "Information needed - research plate type code system",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers"
+    }
+  },
+  "plate_types": [
+    {
+      "type_name": "Passenger Default",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "Maryland standard passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "passenger",
+      "code_number": "0",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Personalized/Vanity",
+      "pattern": "CUSTOM",
+      "character_count": 8,
+      "description": "Maryland personalized/vanity plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "1",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Allows letter O on personalized plates",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "conditional",
+        "dot_dropdown_identifier": "PERSONALIZED_PLATES",
+        "dot_conditional_rules": {
+          "plate_type": {
+            "action": "allow_letter_o",
+            "description": "Letter O allowed on personalized plates"
+          }
+        },
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      },
+      "visual_identifier": "",
+      "processing_rules": "Allows letter O",
+      "requires_prefix": false
+    }
+  ],
+  "uses_zero_for_o": false,
+  "allows_letter_o": true,
+  "zero_is_slashed": false,
+  "notes": "Maryland uses letter 'O' with letters/personalized plates and number '0' with numbers. Standard format varies. Source: OOS.txt compilation - requires verification with official DMV documentation."
+}

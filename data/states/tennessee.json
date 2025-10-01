@@ -1,0 +1,332 @@
+{
+  "name": "Tennessee",
+  "abbreviation": "TN",
+  "slogan": "The Volunteer State",
+  "uses_zero_for_o": false,
+  "allows_letter_o": false,
+  "zero_is_slashed": false,
+  "primary_colors": [
+    "#0066CC",
+    "#FFFFFF",
+    "#000000"
+  ],
+  "notes": "Major snowbird travel corridor state with modern license plate formats and character restrictions. Letters I, O, Q excluded to prevent confusion. Current series ABC-1234 format since 2022.",
+  "plate_types": [
+    {
+      "type_name": "Standard Passenger",
+      "pattern": "ABC-1234",
+      "character_count": 8,
+      "description": "Current standard passenger plate format since January 2022",
+      "background_color": "#0066CC",
+      "text_color": "#FFFFFF",
+      "has_stickers": true,
+      "sticker_description": "County name sticker at bottom center",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "In God We Trust",
+      "pattern": "123-ABCD",
+      "character_count": 8,
+      "description": "In God We Trust variant with numbers-letters format",
+      "background_color": "#0066CC",
+      "text_color": "#FFFFFF",
+      "has_stickers": true,
+      "sticker_description": "County name sticker at bottom center, IN GOD WE TRUST text",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Antique Auto",
+      "pattern": "1A/A2345",
+      "character_count": 8,
+      "description": "Antique automobile plates with permanent registration",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": false,
+      "sticker_description": "ANTIQUE AUTO and PERM markings on plate",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "conditional",
+        "dot_dropdown_identifier": "ANTIQUE_PLATES",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Motorcycle",
+      "pattern": "12345K",
+      "character_count": 6,
+      "description": "Motorcycle plates with K suffix",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Smaller format for motorcycle mounting",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Disabled Person",
+      "pattern": "1P/D2345",
+      "character_count": 8,
+      "description": "Disabled person plates with P/D designation",
+      "background_color": "#0066CC",
+      "text_color": "#FFFFFF",
+      "has_stickers": true,
+      "sticker_description": "Special accommodation symbol and county sticker",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "pattern": "DV12345",
+      "character_count": 7,
+      "description": "Disabled veteran plates",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Military designation markings",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Semi-Trailer",
+      "pattern": "123456T",
+      "character_count": 7,
+      "description": "Semi-trailer plates with T suffix",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Commercial registration markings",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "University of Tennessee",
+      "pattern": "H019UT",
+      "character_count": 6,
+      "description": "University of Tennessee specialty plates",
+      "background_color": "#FF8C00",
+      "text_color": "#FFFFFF",
+      "has_stickers": true,
+      "sticker_description": "UT logo and VOLUNTEERS text",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Vanderbilt University",
+      "pattern": "4910VU",
+      "character_count": 6,
+      "description": "Vanderbilt University specialty plates",
+      "background_color": "#FFD700",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Vanderbilt logo and university text",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Memphis Grizzlies",
+      "pattern": "M/B1234",
+      "character_count": 7,
+      "description": "Memphis Grizzlies professional sports team plates",
+      "background_color": "#001E40",
+      "text_color": "#5F9DC1",
+      "has_stickers": true,
+      "sticker_description": "Grizzlies logo and team branding",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    },
+    {
+      "type_name": "Great Smoky Mountains",
+      "pattern": "N/PA123",
+      "character_count": 7,
+      "description": "Friends of Great Smoky Mountains National Park plates",
+      "background_color": "#8B4513",
+      "text_color": "#FFFFFF",
+      "has_stickers": true,
+      "sticker_description": "Mountain scenery and park branding",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
+    }
+  ],
+  "processing_metadata": {
+    "description": "Official Tennessee DMV processing rules and validation requirements",
+    "global_rules": {
+      "font_changes": "Information needed - check historical changes",
+      "code_system": "Information needed - research plate type code system",
+      "character_restrictions": "Mixed O/0 usage - requires verification"
+    }
+  }
+}

@@ -1,11 +1,15 @@
 {
   "name": "South Carolina",
   "abbreviation": "SC",
-  "slogan": "Smiling Faces Beautiful Places", 
+  "slogan": "Smiling Faces Beautiful Places",
   "uses_zero_for_o": true,
   "allows_letter_o": false,
   "zero_is_slashed": false,
-  "primary_colors": ["#FFFFFF", "#000000", "#003087"],
+  "primary_colors": [
+    "#FFFFFF",
+    "#000000",
+    "#003087"
+  ],
   "notes": "South Carolina plates use digit 0 but not letter O in standard plates. Current format is ABC-123 with palmetto tree and crescent moon graphics. County information may appear on validation stickers.",
   "plate_types": [
     {
@@ -14,9 +18,27 @@
       "character_count": 6,
       "description": "Standard passenger format with palmetto tree graphic",
       "background_color": "#FFFFFF",
-      "text_color": "#000000", 
+      "text_color": "#000000",
       "has_stickers": true,
-      "sticker_description": "Validation sticker usually bottom right, county information varies"
+      "sticker_description": "Validation sticker usually bottom right, county information varies",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
     },
     {
       "type_name": "Commercial",
@@ -26,7 +48,33 @@
       "background_color": "#FFFFFF",
       "text_color": "#FF0000",
       "has_stickers": true,
-      "sticker_description": "Commercial designation and validation stickers"
+      "sticker_description": "Commercial designation and validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "never_standard",
+        "dot_dropdown_identifier": "COMMERCIAL_PLATES",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      }
     }
-  ]
+  ],
+  "processing_metadata": {
+    "description": "Official South Carolina DMV processing rules and validation requirements",
+    "global_rules": {
+      "font_changes": "Information needed - check historical changes",
+      "code_system": "Information needed - research plate type code system",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'"
+    }
+  }
 }

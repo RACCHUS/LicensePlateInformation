@@ -1,0 +1,94 @@
+{
+  "name": "New York",
+  "abbreviation": "NY",
+  "slogan": "Empire State",
+  "uses_zero_for_o": true,
+  "allows_letter_o": false,
+  "zero_is_slashed": false,
+  "primary_colors": [
+    "#FFFFFF",
+    "#000000"
+  ],
+  "notes": "New York does not use letter 'O' on standard plates. However, O and 0 are both allowed on vanity/personalized plates where O is rounder and 0 is slimmer. Standard plates use only number zero '0'. Source: OOS.txt compilation - requires verification with official DMV documentation.",
+  "processing_metadata": {
+    "description": "Official New York DMV processing rules and validation requirements",
+    "global_rules": {
+      "character_restrictions": "No O on standard plates; O and 0 allowed on vanity/personalized (O rounder, 0 slimmer)",
+      "font_changes": "Information needed - check historical changes",
+      "code_system": "Information needed - research plate type code system"
+    }
+  },
+  "plate_types": [
+    {
+      "type_name": "Passenger Default",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "New York standard passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "passenger",
+      "code_number": "0",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Personalized/Vanity",
+      "pattern": "CUSTOM",
+      "character_count": 8,
+      "description": "New York personalized/vanity plate - allows both O and 0",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "1",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Allows both O (rounder) and 0 (slimmer)",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "conditional",
+        "dot_dropdown_identifier": "PERSONALIZED_PLATES",
+        "dot_conditional_rules": {
+          "character_type": {
+            "action": "allow_both_o_and_0",
+            "description": "O rounder, 0 slimmer on personalized plates"
+          }
+        },
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      },
+      "visual_identifier": "",
+      "processing_rules": "Allows both O and 0",
+      "requires_prefix": false
+    }
+  ]
+}

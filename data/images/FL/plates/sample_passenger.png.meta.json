@@ -1,0 +1,13 @@
+{
+  "filename": "sample_passenger.png",
+  "description": "Sample FL passenger plate",
+  "source": "Generated sample",
+  "imported_date": "2025-09-30",
+  "file_size": 3925,
+  "checksum": "b00ae77baf49ccde9236534392af13bf",
+  "dimensions": {
+    "width": 300,
+    "height": 150
+  },
+  "format": "PNG"
+}

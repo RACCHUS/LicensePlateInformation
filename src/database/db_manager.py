@@ -65,6 +65,7 @@ class DatabaseManager:
                 pattern TEXT,  -- Regex or pattern like "ABC-1234"
                 character_count INTEGER,
                 description TEXT,
+                category TEXT,  -- New field for plate type category (government, military, etc.)
                 is_active BOOLEAN DEFAULT 1,
                 example_plate TEXT,
                 background_color TEXT,  -- Hex color
@@ -73,6 +74,22 @@ class DatabaseManager:
                 sticker_description TEXT,
                 image_path TEXT,
                 notes TEXT,
+                -- COMPREHENSIVE PROCESSING METADATA
+                code_number TEXT,  -- DMV code number
+                currently_processed BOOLEAN DEFAULT 0,  -- Is currently being processed
+                requires_prefix BOOLEAN DEFAULT 0,  -- Add prefix to plate string
+                requires_suffix BOOLEAN DEFAULT 0,  -- Add suffix to plate string
+                character_modifications TEXT,  -- Omit or add any characters
+                verify_state_abbreviation BOOLEAN DEFAULT 0,  -- Verify state abbreviation
+                visual_identifier TEXT,  -- Viewable plate type identifier
+                vehicle_type_identification TEXT,  -- Vehicle type identification rules
+                all_numeric_plate BOOLEAN DEFAULT 0,  -- Is the plate all numeric
+                date_ranges TEXT,  -- JSON date ranges
+                plate_images_available TEXT,  -- Available plate images
+                -- CRITICAL DOT PROCESSING CLASSIFICATION
+                dot_processing_type TEXT DEFAULT 'unknown',  -- 'always_standard', 'never_standard', 'conditional', 'unknown'
+                dot_dropdown_identifier TEXT,  -- Specific dropdown ID/name for non-standard processing
+                dot_conditional_rules TEXT,  -- JSON rules for conditional processing (e.g., all_numeric conditions)
                 FOREIGN KEY (state_id) REFERENCES states (state_id)
             )
         ''')
@@ -150,6 +167,18 @@ class DatabaseManager:
                 name
         ''', (f'%{search_term}%', f'%{search_term}%', search_term, search_term.title(), f'{search_term}%'))
         
+        return [dict(row) for row in cursor.fetchall()]
+    
+    def get_all_states(self) -> List[Dict]:
+        """Get all states in alphabetical order
+        
+        Returns:
+            List of all state records sorted by name
+        """
+        conn = self.get_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute('SELECT * FROM states ORDER BY name')
         return [dict(row) for row in cursor.fetchall()]
     
     def get_state_by_id(self, state_id: int) -> Optional[Dict]:
@@ -332,21 +361,45 @@ class DatabaseManager:
             
             # Insert plate types
             for plate_type in state_data.get('plate_types', []):
+                # Extract processing metadata
+                proc_meta = plate_type.get('processing_metadata', {})
+                
                 cursor.execute('''
                     INSERT INTO plate_types 
-                    (state_id, type_name, pattern, character_count, description,
-                     background_color, text_color, has_stickers, sticker_description)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    (state_id, type_name, pattern, character_count, description, category,
+                     background_color, text_color, has_stickers, sticker_description,
+                     code_number, currently_processed, requires_prefix, requires_suffix,
+                     character_modifications, verify_state_abbreviation, visual_identifier,
+                     vehicle_type_identification, all_numeric_plate, date_ranges, plate_images_available,
+                     dot_processing_type, dot_dropdown_identifier, dot_conditional_rules)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ''', (
                     state_id,
                     plate_type['type_name'],
                     plate_type.get('pattern'),
                     plate_type.get('character_count'),
                     plate_type.get('description'),
+                    plate_type.get('category'),
                     plate_type.get('background_color'),
                     plate_type.get('text_color'),
                     plate_type.get('has_stickers', False),
-                    plate_type.get('sticker_description')
+                    plate_type.get('sticker_description'),
+                    # Processing metadata
+                    plate_type.get('code_number'),
+                    proc_meta.get('currently_processed', False),
+                    proc_meta.get('requires_prefix', False),
+                    proc_meta.get('requires_suffix', False),
+                    proc_meta.get('character_modifications'),
+                    proc_meta.get('verify_state_abbreviation', False),
+                    proc_meta.get('visual_identifier'),
+                    proc_meta.get('vehicle_type_identification'),
+                    proc_meta.get('all_numeric_plate', False),
+                    str(proc_meta.get('date_ranges', {})) if proc_meta.get('date_ranges') else None,
+                    proc_meta.get('plate_images_available'),
+                    # CRITICAL DOT processing fields
+                    proc_meta.get('dot_processing_type', 'unknown'),
+                    proc_meta.get('dot_dropdown_identifier'),
+                    str(proc_meta.get('dot_conditional_rules', {})) if proc_meta.get('dot_conditional_rules') else None
                 ))
             
             conn.commit()
