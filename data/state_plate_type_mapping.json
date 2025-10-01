@@ -1,30 +1,282 @@
 {
   "metadata": {
-    "generation_date": "2025-09-30",
+    "generation_date": "2025-10-01",
     "total_states": 60,
-    "total_plate_types": 288
+    "total_plate_types": 338
   },
   "plate_type_to_states": {
+    "A & M University": [
+      "AL",
+      "FL"
+    ],
+    "Active Reserve": [
+      "AL"
+    ],
+    "Amateur Radio": [
+      "AL",
+      "FL"
+    ],
+    "Ambulance": [
+      "AL"
+    ],
+    "Antique": [
+      "AL",
+      "FL"
+    ],
+    "Apportioned": [
+      "AL",
+      "FL"
+    ],
+    "Atomic Nuked Veteran": [
+      "AL"
+    ],
+    "Auburn University": [
+      "AL"
+    ],
+    "Auburn University at Montgomery": [
+      "AL"
+    ],
+    "Autism Awareness": [
+      "AL"
+    ],
+    "Barber Vintage Motorsports": [
+      "AL"
+    ],
+    "Bicentennial": [
+      "AL"
+    ],
+    "Birmingham Southern College": [
+      "AL"
+    ],
+    "Breast Cancer Research Foundation": [
+      "AL"
+    ],
+    "Bronze Star": [
+      "AL",
+      "FL"
+    ],
+    "Camper": [
+      "AL"
+    ],
+    "Cattlemen Association": [
+      "AL"
+    ],
+    "Children's Trust Fund": [
+      "AL"
+    ],
+    "Choose Life": [
+      "AL",
+      "FL"
+    ],
+    "City Motorcycle": [
+      "AL",
+      "FL"
+    ],
+    "City/Municipal": [
+      "AL"
+    ],
+    "Cold War Veteran": [
+      "AL"
+    ],
+    "Collegiate": [
+      "AL"
+    ],
+    "Commercial Bus": [
+      "AL"
+    ],
+    "Consular Official": [
+      "AL"
+    ],
+    "Cotton Module": [
+      "AL"
+    ],
+    "County Government": [
+      "AL"
+    ],
+    "County Motorcycle": [
+      "AL",
+      "FL"
+    ],
+    "Curing Childhood Cancer": [
+      "AL"
+    ],
+    "Dealer": [
+      "AL",
+      "FL"
+    ],
+    "Dealer Transit": [
+      "AL"
+    ],
+    "Desert Shield/Desert Storm": [
+      "AL"
+    ],
+    "Disabled Veteran": [
+      "AL",
+      "FL",
+      "GA",
+      "TN"
+    ],
+    "Disabled Veteran Wheelchair": [
+      "AL",
+      "FL"
+    ],
+    "Don't Tread on Me": [
+      "AL",
+      "FL"
+    ],
+    "Ducks Unlimited": [
+      "AL",
+      "FL"
+    ],
+    "Educator": [
+      "AL"
+    ],
+    "Farm": [
+      "AL"
+    ],
+    "Farming Feeds": [
+      "AL"
+    ],
+    "Faulkner University": [
+      "AL"
+    ],
+    "Fighting Breast Cancer": [
+      "AL"
+    ],
+    "Fire Fighter": [
+      "AL"
+    ],
+    "First to the Moon": [
+      "AL"
+    ],
+    "Fish Alabama": [
+      "AL"
+    ],
+    "Fleet": [
+      "AL",
+      "FL"
+    ],
+    "Fleet Trailer": [
+      "AL"
+    ],
+    "Fraternal Order of Police": [
+      "AL",
+      "FL"
+    ],
+    "God Bless America": [
+      "AL"
+    ],
+    "Handicapped": [
+      "AL"
+    ],
+    "Helping Schools": [
+      "AL"
+    ],
+    "Livestock Trailer tag": [
+      "AL",
+      "FL"
+    ],
+    "Manufacturer": [
+      "AL",
+      "FL"
+    ],
+    "Medal of Honor": [
+      "AL"
+    ],
+    "Motorcycle": [
+      "AL",
+      "FL",
+      "GA",
+      "TN"
+    ],
+    "National Guard": [
+      "AL",
+      "FL"
+    ],
+    "Ovarian Cancer Research": [
+      "AL"
+    ],
+    "POW": [
+      "AL"
+    ],
     "Passenger": [
       "AL",
+      "AS",
       "FL",
       "NC",
       "SC"
     ],
-    "Passenger (Legacy)": [
+    "Pearl Harbor Survivor": [
+      "AL",
+      "FL"
+    ],
+    "Permanent Trailer": [
+      "AL",
+      "FL"
+    ],
+    "Purple heart": [
       "AL"
     ],
-    "Commercial": [
+    "Regular Veteran Plate": [
+      "AL"
+    ],
+    "Rental Trailer": [
+      "AL"
+    ],
+    "Rescue Squad": [
+      "AL"
+    ],
+    "Reserve": [
+      "AL"
+    ],
+    "Roll Tide": [
+      "AL"
+    ],
+    "Semi Trailer": [
+      "AL"
+    ],
+    "State": [
       "AL",
-      "GA",
-      "NC",
-      "SC"
+      "FL"
+    ],
+    "State Defense Force": [
+      "AL"
+    ],
+    "State National Guard": [
+      "AL"
+    ],
+    "State motorcycle": [
+      "AL"
+    ],
+    "Taxi": [
+      "AL"
+    ],
+    "Temporary": [
+      "AL",
+      "FL"
+    ],
+    "Trailer": [
+      "AL",
+      "GA"
+    ],
+    "Truck": [
+      "AL",
+      "FL"
+    ],
+    "Truck for Hire": [
+      "AL"
+    ],
+    "Utility Trailer": [
+      "AL"
+    ],
+    "Volunteer Fire": [
+      "AL",
+      "FL"
     ],
     "Passenger Default": [
       "AB",
       "AK",
       "AR",
-      "AS",
       "AZ",
       "CA",
       "CO",
@@ -104,9 +356,6 @@
       "DPL",
       "US"
     ],
-    "A & M University": [
-      "FL"
-    ],
     "Advent Health University": [
       "FL"
     ],
@@ -128,9 +377,6 @@
     "Air Force Cross": [
       "FL"
     ],
-    "Amateur Radio": [
-      "FL"
-    ],
     "America the Beautiful": [
       "FL"
     ],
@@ -140,13 +386,7 @@
     "Animal Friend": [
       "FL"
     ],
-    "Antique": [
-      "FL"
-    ],
     "Antique Motorcycle": [
-      "FL"
-    ],
-    "Apportioned": [
       "FL"
     ],
     "Aquaculture": [
@@ -179,22 +419,13 @@
     "Bonefish & Tarpon Trust": [
       "FL"
     ],
-    "Bronze Star": [
-      "FL"
-    ],
     "Catch & Release": [
       "FL"
     ],
     "Challenger/Columbia": [
       "FL"
     ],
-    "Choose Life": [
-      "FL"
-    ],
     "City": [
-      "FL"
-    ],
-    "City Motorcycle": [
       "FL"
     ],
     "Clearwater College": [
@@ -230,13 +461,7 @@
     "County": [
       "FL"
     ],
-    "County Motorcycle": [
-      "FL"
-    ],
     "Custom Vehicle": [
-      "FL"
-    ],
-    "Dealer": [
       "FL"
     ],
     "Dealer Motorcycle": [
@@ -257,15 +482,7 @@
     "Department of Veterans Affairs": [
       "FL"
     ],
-    "Disabled Veteran": [
-      "FL",
-      "GA",
-      "TN"
-    ],
     "Disabled Veteran Motorcycle": [
-      "FL"
-    ],
-    "Disabled Veteran Wheelchair": [
       "FL"
     ],
     "Discover Florida's Horses": [
@@ -284,12 +501,6 @@
       "FL"
     ],
     "Donate Organs": [
-      "FL"
-    ],
-    "Don't Tread on Me": [
-      "FL"
-    ],
-    "Ducks Unlimited": [
       "FL"
     ],
     "Eckerd College": [
@@ -325,13 +536,13 @@
     "Explore Our State Parks": [
       "FL"
     ],
+    "FDLE": [
+      "FL"
+    ],
     "Family First": [
       "FL"
     ],
     "Family Values": [
-      "FL"
-    ],
-    "FDLE": [
       "FL"
     ],
     "Fish & Wildlife Commission": [
@@ -341,9 +552,6 @@
       "FL"
     ],
     "Flagler College": [
-      "FL"
-    ],
-    "Fleet": [
       "FL"
     ],
     "Florida Bay Forever": [
@@ -371,9 +579,6 @@
       "FL"
     ],
     "Former Military Vehicle Motorcycle": [
-      "FL"
-    ],
-    "Fraternal Order of Police": [
       "FL"
     ],
     "Free Masons": [
@@ -484,13 +689,7 @@
     "Live the Dream": [
       "FL"
     ],
-    "Livestock Trailer tag": [
-      "FL"
-    ],
     "Lynn University": [
-      "FL"
-    ],
-    "Manufacturer": [
       "FL"
     ],
     "Manufacturer Motorcycle": [
@@ -526,15 +725,7 @@
     "Moffitt Cancer Center": [
       "FL"
     ],
-    "Motorcycle": [
-      "FL",
-      "GA",
-      "TN"
-    ],
     "NASCAR": [
-      "FL"
-    ],
-    "National Guard": [
       "FL"
     ],
     "Navy Cross": [
@@ -585,6 +776,9 @@
     "Other Colleges": [
       "FL"
     ],
+    "PRIDE": [
+      "FL"
+    ],
     "Palm Beach Atlantic University": [
       "FL"
     ],
@@ -597,12 +791,6 @@
     "Parents Make a Difference": [
       "FL"
     ],
-    "Pearl Harbor Survivor": [
-      "FL"
-    ],
-    "Permanent Trailer": [
-      "FL"
-    ],
     "Play Tennis": [
       "FL"
     ],
@@ -610,9 +798,6 @@
       "FL"
     ],
     "Pres": [
-      "FL"
-    ],
-    "PRIDE": [
       "FL"
     ],
     "Protect Marine Wildlife": [
@@ -624,13 +809,13 @@
     "Protect Springs": [
       "FL"
     ],
-    "Protect the Panther": [
-      "FL"
-    ],
     "Protect Whales": [
       "FL"
     ],
     "Protect Wild Dolphins": [
+      "FL"
+    ],
+    "Protect the Panther": [
       "FL"
     ],
     "Public Service Commission": [
@@ -669,13 +854,13 @@
     "Salutes Veterans": [
       "FL"
     ],
+    "Save Wild Florida": [
+      "FL"
+    ],
     "Save our Seas": [
       "FL"
     ],
     "Save the Manatee": [
-      "FL"
-    ],
-    "Save Wild Florida": [
       "FL"
     ],
     "Scouting Values": [
@@ -723,9 +908,6 @@
     "St. Johns River": [
       "FL"
     ],
-    "State": [
-      "FL"
-    ],
     "State Fire Marshal": [
       "FL"
     ],
@@ -733,12 +915,6 @@
       "FL"
     ],
     "State Motorcycle": [
-      "FL"
-    ],
-    "State of the Arts": [
-      "FL"
-    ],
-    "State of Vision": [
       "FL"
     ],
     "State Senator": [
@@ -751,6 +927,12 @@
       "FL"
     ],
     "State Wildflower": [
+      "FL"
+    ],
+    "State of Vision": [
+      "FL"
+    ],
+    "State of the Arts": [
       "FL"
     ],
     "Stetson University": [
@@ -798,9 +980,6 @@
     "Tampa Bay Lightning": [
       "FL"
     ],
-    "Temporary": [
-      "FL"
-    ],
     "Temporary Motorcycle": [
       "FL"
     ],
@@ -813,7 +992,28 @@
     "Trees are Cool": [
       "FL"
     ],
-    "Truck": [
+    "US Air Force": [
+      "FL"
+    ],
+    "US Army": [
+      "FL"
+    ],
+    "US Coast Guard": [
+      "FL"
+    ],
+    "US Marine Corps": [
+      "FL"
+    ],
+    "US Navy": [
+      "FL"
+    ],
+    "US Paratrooper": [
+      "FL"
+    ],
+    "US Reserve": [
+      "FL"
+    ],
+    "US Senator": [
       "FL"
     ],
     "United We Stand": [
@@ -844,30 +1044,6 @@
     "University of West Florida": [
       "FL"
     ],
-    "US Air Force": [
-      "FL"
-    ],
-    "US Army": [
-      "FL"
-    ],
-    "US Coast Guard": [
-      "FL"
-    ],
-    "US Marine Corps": [
-      "FL"
-    ],
-    "US Navy": [
-      "FL"
-    ],
-    "US Paratrooper": [
-      "FL"
-    ],
-    "US Reserve": [
-      "FL"
-    ],
-    "US Senator": [
-      "FL"
-    ],
     "Veteran": [
       "FL"
     ],
@@ -875,9 +1051,6 @@
       "FL"
     ],
     "Visit Our Lights": [
-      "FL"
-    ],
-    "Volunteer Fire": [
       "FL"
     ],
     "Walt Disney": [
@@ -901,16 +1074,6 @@
     "Wrecker Restricted": [
       "FL"
     ],
-    "Standard Passenger": [
-      "GA",
-      "TN"
-    ],
-    "Standard Passenger (Pre-2012)": [
-      "GA"
-    ],
-    "Standard Passenger (Legacy)": [
-      "GA"
-    ],
     "Antique Auto": [
       "GA",
       "TN"
@@ -918,7 +1081,18 @@
     "Classic Vehicle": [
       "GA"
     ],
+    "Commercial": [
+      "GA",
+      "NC",
+      "SC"
+    ],
     "Commercial Truck": [
+      "GA"
+    ],
+    "Farm Vehicle": [
+      "GA"
+    ],
+    "Georgia Tech": [
       "GA"
     ],
     "Motorcycle (Current)": [
@@ -927,19 +1101,26 @@
     "Specialty 2-Letter Prefix": [
       "GA"
     ],
-    "Georgia Tech": [
+    "Standard Passenger": [
+      "GA",
+      "TN"
+    ],
+    "Standard Passenger (Legacy)": [
       "GA"
     ],
-    "Trailer": [
+    "Standard Passenger (Pre-2012)": [
       "GA"
     ],
-    "Farm Vehicle": [
-      "GA"
+    "Disabled Person": [
+      "TN"
+    ],
+    "Great Smoky Mountains": [
+      "TN"
     ],
     "In God We Trust": [
       "TN"
     ],
-    "Disabled Person": [
+    "Memphis Grizzlies": [
       "TN"
     ],
     "Semi-Trailer": [
@@ -950,21 +1131,90 @@
     ],
     "Vanderbilt University": [
       "TN"
-    ],
-    "Memphis Grizzlies": [
-      "TN"
-    ],
-    "Great Smoky Mountains": [
-      "TN"
     ]
   },
   "state_to_plate_types": {
     "AL": {
       "name": "Alabama",
       "plate_types": [
-        "Commercial",
+        "A & M University",
+        "Active Reserve",
+        "Amateur Radio",
+        "Ambulance",
+        "Antique",
+        "Apportioned",
+        "Atomic Nuked Veteran",
+        "Auburn University",
+        "Auburn University at Montgomery",
+        "Autism Awareness",
+        "Barber Vintage Motorsports",
+        "Bicentennial",
+        "Birmingham Southern College",
+        "Breast Cancer Research Foundation",
+        "Bronze Star",
+        "Camper",
+        "Cattlemen Association",
+        "Children's Trust Fund",
+        "Choose Life",
+        "City Motorcycle",
+        "City/Municipal",
+        "Cold War Veteran",
+        "Collegiate",
+        "Commercial Bus",
+        "Consular Official",
+        "Cotton Module",
+        "County Government",
+        "County Motorcycle",
+        "Curing Childhood Cancer",
+        "Dealer",
+        "Dealer Transit",
+        "Desert Shield/Desert Storm",
+        "Disabled Veteran",
+        "Disabled Veteran Wheelchair",
+        "Don't Tread on Me",
+        "Ducks Unlimited",
+        "Educator",
+        "Farm",
+        "Farming Feeds",
+        "Faulkner University",
+        "Fighting Breast Cancer",
+        "Fire Fighter",
+        "First to the Moon",
+        "Fish Alabama",
+        "Fleet",
+        "Fleet Trailer",
+        "Fraternal Order of Police",
+        "God Bless America",
+        "Handicapped",
+        "Helping Schools",
+        "Livestock Trailer tag",
+        "Manufacturer",
+        "Medal of Honor",
+        "Motorcycle",
+        "National Guard",
+        "Ovarian Cancer Research",
+        "POW",
         "Passenger",
-        "Passenger (Legacy)"
+        "Pearl Harbor Survivor",
+        "Permanent Trailer",
+        "Purple heart",
+        "Regular Veteran Plate",
+        "Rental Trailer",
+        "Rescue Squad",
+        "Reserve",
+        "Roll Tide",
+        "Semi Trailer",
+        "State",
+        "State Defense Force",
+        "State National Guard",
+        "State motorcycle",
+        "Taxi",
+        "Temporary",
+        "Trailer",
+        "Truck",
+        "Truck for Hire",
+        "Utility Trailer",
+        "Volunteer Fire"
       ]
     },
     "AK": {
@@ -983,7 +1233,7 @@
     "AS": {
       "name": "American Samoa",
       "plate_types": [
-        "Passenger Default"
+        "Passenger"
       ]
     },
     "AZ": {
@@ -1471,12 +1721,6 @@
         "Personalized/Vanity"
       ]
     },
-    "MP": {
-      "name": "Northern Mariana Islands",
-      "plate_types": [
-        "Passenger Default"
-      ]
-    },
     "NC": {
       "name": "North Carolina",
       "plate_types": [
@@ -1489,6 +1733,12 @@
       "plate_types": [
         "Passenger Default",
         "Personalized/Vanity"
+      ]
+    },
+    "MP": {
+      "name": "Northern Mariana Islands",
+      "plate_types": [
+        "Passenger Default"
       ]
     },
     "OH": {

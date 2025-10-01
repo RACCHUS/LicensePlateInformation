@@ -1,6 +1,7 @@
 {
   "metadata": {
-    "extraction_date": "2025-09-30",
+    "extraction_date": "2025-10-01",
+    "extraction_time": "00:43:25",
     "source_files": [
       "alabama.json",
       "alaska.json",
@@ -38,9 +39,9 @@
       "new_jersey.json",
       "new_mexico.json",
       "new_york.json",
-      "northern_mariana_islands.json",
       "north_carolina.json",
       "north_dakota.json",
+      "northern_mariana_islands.json",
       "ohio.json",
       "oklahoma.json",
       "ontario.json",
@@ -63,15 +64,14 @@
       "wisconsin.json",
       "wyoming.json"
     ],
-    "total_unique_types": 288,
+    "total_unique_types": 338,
+    "total_states_processed": 60,
     "state_breakdown": {
-      "AL": {
-        "name": "Alabama",
-        "plate_count": 3,
+      "AB": {
+        "name": "Alberta",
+        "plate_count": 1,
         "types": [
-          "Commercial",
-          "Passenger",
-          "Passenger (Legacy)"
+          "Passenger Default"
         ]
       },
       "AK": {
@@ -82,30 +82,107 @@
           "Personalized/Vanity"
         ]
       },
-      "AB": {
-        "name": "Alberta",
-        "plate_count": 1,
+      "AL": {
+        "name": "Alabama",
+        "plate_count": 78,
         "types": [
-          "Passenger Default"
+          "A & M University",
+          "Active Reserve",
+          "Amateur Radio",
+          "Ambulance",
+          "Antique",
+          "Apportioned",
+          "Atomic Nuked Veteran",
+          "Auburn University",
+          "Auburn University at Montgomery",
+          "Autism Awareness",
+          "Barber Vintage Motorsports",
+          "Bicentennial",
+          "Birmingham Southern College",
+          "Breast Cancer Research Foundation",
+          "Bronze Star",
+          "Camper",
+          "Cattlemen Association",
+          "Children's Trust Fund",
+          "Choose Life",
+          "City Motorcycle",
+          "City/Municipal",
+          "Cold War Veteran",
+          "Collegiate",
+          "Commercial Bus",
+          "Consular Official",
+          "Cotton Module",
+          "County Government",
+          "County Motorcycle",
+          "Curing Childhood Cancer",
+          "Dealer",
+          "Dealer Transit",
+          "Desert Shield/Desert Storm",
+          "Disabled Veteran",
+          "Disabled Veteran Wheelchair",
+          "Don't Tread on Me",
+          "Ducks Unlimited",
+          "Educator",
+          "Farm",
+          "Farming Feeds",
+          "Faulkner University",
+          "Fighting Breast Cancer",
+          "Fire Fighter",
+          "First to the Moon",
+          "Fish Alabama",
+          "Fleet",
+          "Fleet Trailer",
+          "Fraternal Order of Police",
+          "God Bless America",
+          "Handicapped",
+          "Helping Schools",
+          "Livestock Trailer tag",
+          "Manufacturer",
+          "Medal of Honor",
+          "Motorcycle",
+          "National Guard",
+          "Ovarian Cancer Research",
+          "POW",
+          "Passenger",
+          "Pearl Harbor Survivor",
+          "Permanent Trailer",
+          "Purple heart",
+          "Regular Veteran Plate",
+          "Rental Trailer",
+          "Rescue Squad",
+          "Reserve",
+          "Roll Tide",
+          "Semi Trailer",
+          "State",
+          "State Defense Force",
+          "State National Guard",
+          "State motorcycle",
+          "Taxi",
+          "Temporary",
+          "Trailer",
+          "Truck",
+          "Truck for Hire",
+          "Utility Trailer",
+          "Volunteer Fire"
         ]
       },
-      "AS": {
-        "name": "American Samoa",
-        "plate_count": 1,
-        "types": [
-          "Passenger Default"
-        ]
-      },
-      "AZ": {
-        "name": "Arizona",
+      "AR": {
+        "name": "Arkansas",
         "plate_count": 2,
         "types": [
           "Passenger Default",
           "Personalized/Vanity"
         ]
       },
-      "AR": {
-        "name": "Arkansas",
+      "AS": {
+        "name": "American Samoa",
+        "plate_count": 1,
+        "types": [
+          "Passenger"
+        ]
+      },
+      "AZ": {
+        "name": "Arizona",
         "plate_count": 2,
         "types": [
           "Passenger Default",
@@ -129,6 +206,13 @@
       },
       "CT": {
         "name": "Connecticut",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "DC": {
+        "name": "Washington DC",
         "plate_count": 1,
         "types": [
           "Passenger Default"
@@ -455,6 +539,14 @@
           "Passenger Default"
         ]
       },
+      "IA": {
+        "name": "Iowa",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
       "ID": {
         "name": "Idaho",
         "plate_count": 1,
@@ -472,14 +564,6 @@
       },
       "IN": {
         "name": "Indiana",
-        "plate_count": 2,
-        "types": [
-          "Passenger Default",
-          "Personalized/Vanity"
-        ]
-      },
-      "IA": {
-        "name": "Iowa",
         "plate_count": 2,
         "types": [
           "Passenger Default",
@@ -509,8 +593,8 @@
           "Personalized/Vanity"
         ]
       },
-      "ME": {
-        "name": "Maine",
+      "MA": {
+        "name": "Massachusetts",
         "plate_count": 2,
         "types": [
           "Passenger Default",
@@ -525,8 +609,8 @@
           "Personalized/Vanity"
         ]
       },
-      "MA": {
-        "name": "Massachusetts",
+      "ME": {
+        "name": "Maine",
         "plate_count": 2,
         "types": [
           "Passenger Default",
@@ -547,19 +631,26 @@
           "Passenger Default"
         ]
       },
+      "MO": {
+        "name": "Missouri",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "MP": {
+        "name": "Northern Mariana Islands",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
       "MS": {
         "name": "Mississippi",
         "plate_count": 2,
         "types": [
           "Passenger Default",
           "Personalized/Vanity"
-        ]
-      },
-      "MO": {
-        "name": "Missouri",
-        "plate_count": 1,
-        "types": [
-          "Passenger Default"
         ]
       },
       "MT": {
@@ -569,15 +660,24 @@
           "Passenger Default"
         ]
       },
-      "NE": {
-        "name": "Nebraska",
-        "plate_count": 1,
+      "NC": {
+        "name": "North Carolina",
+        "plate_count": 2,
         "types": [
-          "Passenger Default"
+          "Commercial",
+          "Passenger"
         ]
       },
-      "NV": {
-        "name": "Nevada",
+      "ND": {
+        "name": "North Dakota",
+        "plate_count": 2,
+        "types": [
+          "Passenger Default",
+          "Personalized/Vanity"
+        ]
+      },
+      "NE": {
+        "name": "Nebraska",
         "plate_count": 1,
         "types": [
           "Passenger Default"
@@ -605,31 +705,15 @@
           "Passenger Default"
         ]
       },
-      "NY": {
-        "name": "New York",
-        "plate_count": 2,
-        "types": [
-          "Passenger Default",
-          "Personalized/Vanity"
-        ]
-      },
-      "MP": {
-        "name": "Northern Mariana Islands",
+      "NV": {
+        "name": "Nevada",
         "plate_count": 1,
         "types": [
           "Passenger Default"
         ]
       },
-      "NC": {
-        "name": "North Carolina",
-        "plate_count": 2,
-        "types": [
-          "Commercial",
-          "Passenger"
-        ]
-      },
-      "ND": {
-        "name": "North Dakota",
+      "NY": {
+        "name": "New York",
         "plate_count": 2,
         "types": [
           "Passenger Default",
@@ -736,22 +820,8 @@
           "Standard Issue"
         ]
       },
-      "VI": {
-        "name": "US Virgin Islands",
-        "plate_count": 1,
-        "types": [
-          "Passenger Default"
-        ]
-      },
       "UT": {
         "name": "Utah",
-        "plate_count": 1,
-        "types": [
-          "Passenger Default"
-        ]
-      },
-      "VT": {
-        "name": "Vermont",
         "plate_count": 1,
         "types": [
           "Passenger Default"
@@ -765,6 +835,20 @@
           "Personalized/Vanity"
         ]
       },
+      "VI": {
+        "name": "US Virgin Islands",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
+      "VT": {
+        "name": "Vermont",
+        "plate_count": 1,
+        "types": [
+          "Passenger Default"
+        ]
+      },
       "WA": {
         "name": "Washington",
         "plate_count": 2,
@@ -773,8 +857,8 @@
           "Personalized/Vanity"
         ]
       },
-      "DC": {
-        "name": "Washington DC",
+      "WI": {
+        "name": "Wisconsin",
         "plate_count": 1,
         "types": [
           "Passenger Default"
@@ -782,13 +866,6 @@
       },
       "WV": {
         "name": "West Virginia",
-        "plate_count": 1,
-        "types": [
-          "Passenger Default"
-        ]
-      },
-      "WI": {
-        "name": "Wisconsin",
         "plate_count": 1,
         "types": [
           "Passenger Default"
@@ -805,6 +882,7 @@
   },
   "plate_types": [
     "A & M University",
+    "Active Reserve",
     "Advent Health University",
     "Agency Workforce Innovation",
     "Agricultural Education",
@@ -813,6 +891,7 @@
     "Air Force Combat Action Medal",
     "Air Force Cross",
     "Amateur Radio",
+    "Ambulance",
     "America the Beautiful",
     "American Red Cross",
     "Animal Friend",
@@ -823,42 +902,63 @@
     "Aquaculture",
     "Army of Occupation",
     "Atlantic University",
+    "Atomic Nuked Veteran",
+    "Auburn University",
+    "Auburn University at Montgomery",
+    "Autism Awareness",
     "Ave Maria University",
+    "Barber Vintage Motorsports",
     "Barry University",
     "Beacon College",
     "Best Buddies",
     "Bethune-Cookman",
+    "Bicentennial",
     "Big Brothers/Big Sisters",
+    "Birmingham Southern College",
     "Bonefish & Tarpon Trust",
+    "Breast Cancer Research Foundation",
     "Bronze Star",
+    "Camper",
     "Catch & Release",
+    "Cattlemen Association",
     "Challenger/Columbia",
+    "Children's Trust Fund",
     "Choose Life",
     "City",
     "City Motorcycle",
+    "City/Municipal",
     "Classic Vehicle",
     "Clearwater College",
+    "Cold War Veteran",
     "Collectable",
     "College",
+    "Collegiate",
     "Combat Action Badge",
     "Combat Action Ribbon",
     "Combat Infantry Badges",
     "Combat Medical Badges",
     "Commercial",
+    "Commercial Bus",
     "Commercial Truck",
     "Conserve Florida Fisheries",
     "Conserve Wildlife",
+    "Consular Official",
     "Corrections Foundation",
+    "Cotton Module",
     "County",
+    "County Government",
     "County Motorcycle",
+    "Curing Childhood Cancer",
     "Custom Vehicle",
     "Dealer",
     "Dealer Motorcycle",
+    "Dealer Transit",
     "Department of Driver Licenses",
     "Department of Motor Vehicles",
     "Department of Protection",
     "Department of Transportation",
     "Department of Veterans Affairs",
+    "Desert Shield/Desert Storm",
     "Disabled Person",
     "Disabled Veteran",
     "Disabled Veteran Motorcycle",
@@ -872,6 +972,7 @@
     "Donate Organs",
     "Ducks Unlimited",
     "Eckerd College",
+    "Educator",
     "Edward-Waters College",
     "Embry-Riddle University",
     "End Breast Cancer",
@@ -885,11 +986,19 @@
     "FDLE",
     "Family First",
     "Family Values",
+    "Farm",
     "Farm Vehicle",
+    "Farming Feeds",
+    "Faulkner University",
+    "Fighting Breast Cancer",
+    "Fire Fighter",
+    "First to the Moon",
     "Fish & Wildlife Commission",
+    "Fish Alabama",
     "Fish Florida",
     "Flagler College",
     "Fleet",
+    "Fleet Trailer",
     "Florida Bay Forever",
     "Florida College",
     "Florida Highway Patrol",
@@ -905,11 +1014,14 @@
     "Girl Scouts",
     "Go Fishing",
     "Go Team USA",
+    "God Bless America",
     "Gold Star Family",
     "Golf Capital of the World",
     "Great Smoky Mountains",
     "Gulf Coast University",
+    "Handicapped",
     "Handicapped/ Wheelchair",
+    "Helping Schools",
     "Helping Sea Turtles",
     "Hispanic Achievers",
     "Hodges University",
@@ -943,6 +1055,7 @@
     "Lynn University",
     "Manufacturer",
     "Manufacturer Motorcycle",
+    "Medal of Honor",
     "Medal of Honor Air Force",
     "Medal of Honor Army",
     "Medal of Honor Navy",
@@ -974,13 +1087,14 @@
     "Orlando City Soccer",
     "Orlando Magic",
     "Other Colleges",
+    "Ovarian Cancer Research",
+    "POW",
     "PRIDE",
     "Palm Beach Atlantic University",
     "Paralyzed Vets of America",
     "Paralyzed Vets of America Motorcycle",
     "Parents Make a Difference",
     "Passenger",
-    "Passenger (Legacy)",
     "Passenger Default",
     "Pearl Harbor Survivor",
     "Permanent Trailer",
@@ -997,10 +1111,16 @@
     "Public Service Commission",
     "Purple Heart",
     "Purple Heart Motorcycle",
+    "Purple heart",
+    "Regular Veteran Plate",
+    "Rental Trailer",
+    "Rescue Squad",
+    "Reserve",
     "Restricted",
     "Retired House",
     "Retired Senate",
     "Ringling School of Art Design",
+    "Roll Tide",
     "Rollins College",
     "Saint Leo University",
     "Saint Thomas University",
@@ -1010,6 +1130,7 @@
     "Save our Seas",
     "Save the Manatee",
     "Scouting Values",
+    "Semi Trailer",
     "Semi-Trailer",
     "Seminole Indian",
     "Seminole Indian Motorcycle",
@@ -1031,13 +1152,16 @@
     "Standard Passenger (Legacy)",
     "Standard Passenger (Pre-2012)",
     "State",
+    "State Defense Force",
     "State Fire Marshal",
     "State Legislator",
     "State Motorcycle",
+    "State National Guard",
     "State Senator",
     "State Trooper Motorcycle",
     "State University",
     "State Wildflower",
+    "State motorcycle",
     "State of Vision",
     "State of the Arts",
     "Stetson University",
@@ -1055,6 +1179,7 @@
     "Tampa Bay Devil Rays",
     "Tampa Bay Estuary",
     "Tampa Bay Lightning",
+    "Taxi",
     "Temporary",
     "Temporary Motorcycle",
     "The American Legion",
@@ -1062,6 +1187,7 @@
     "Transporter",
     "Trees are Cool",
     "Truck",
+    "Truck for Hire",
     "US Air Force",
     "US Army",
     "US Coast Guard",
@@ -1080,6 +1206,7 @@
     "University of Tampa",
     "University of Tennessee",
     "University of West Florida",
+    "Utility Trailer",
     "Vanderbilt University",
     "Veteran",
     "Vietnam War Veteran",

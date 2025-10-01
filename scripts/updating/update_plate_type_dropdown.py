@@ -1,14 +1,22 @@
 #!/usr/bin/env python3
 """
-Developer Utility: Plate Type Manager
-Extracts plate types from JSON files and manages the dropdown list
+UPDATE PLATE TYPE DROPDOWN - Main Script for Updating GUI Dropdown
+Extracts plate types from all state JSON files and updates the dropdown component
 
-Usage:
-    python dev_plate_type_manager.py extract     # Extract all plate types from JSONs
-    python dev_plate_type_manager.py list        # Show current plate types
-    python dev_plate_type_manager.py add "Type"  # Add a plate type manually
-    python dev_plate_type_manager.py remove "Type" # Remove a plate type
-    python dev_plate_type_manager.py stats       # Show statistics
+MAIN COMMAND:
+    python scripts/updating/update_plate_type_dropdown.py extract
+
+OTHER COMMANDS:
+    python scripts/updating/update_plate_type_dropdown.py list        # Show current plate types
+    python scripts/updating/update_plate_type_dropdown.py add "Type"  # Add a plate type manually
+    python scripts/updating/update_plate_type_dropdown.py remove "Type" # Remove a plate type
+    python scripts/updating/update_plate_type_dropdown.py stats       # Show statistics
+
+RUN THIS AFTER:
+- Adding new states
+- Adding new plate types to existing states
+- Updating plate type names or descriptions
+- Making any changes to plate_types sections in JSON files
 """
 
 import json
@@ -18,11 +26,11 @@ from typing import Set, List, Dict, Any, Optional
 from pathlib import Path
 
 
-class PlateTypeManager:
-    """Developer utility for managing plate types"""
+class PlateTypeDropdownUpdater:
+    """Updates the GUI dropdown component with plate types from all state JSON files"""
     
     def __init__(self):
-        self.project_root = Path(__file__).parent.parent
+        self.project_root = Path(__file__).parent.parent.parent
         self.data_dir = self.project_root / "data" / "states"
         self.plate_types_file = self.project_root / "data" / "extracted_plate_types.json"
         
@@ -203,7 +211,7 @@ class PlateTypeManager:
 
 def main():
     """Main CLI interface"""
-    manager = PlateTypeManager()
+    manager = PlateTypeDropdownUpdater()
     
     if len(sys.argv) < 2:
         print(__doc__)

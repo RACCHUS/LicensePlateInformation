@@ -31,13 +31,14 @@
     "blank_plate_template": "images/states/{state_code}/blank_template.png",
     "sticker_sample": "images/states/{state_code}/sticker.png"
   },
-  "notes": "State-specific implementation notes. Include critical processing information, font changes, character restrictions, and any special rules.",
+  "notes": "State-specific implementation notes. Include critical processing information, font changes, character restrictions, and any special rules. PROCESSING TYPES: Set 'has_variable_processing_types' to true for states like Maine, Massachusetts, Ohio, Indiana, Illinois, and Florida where processing can vary by plate type. Set to false for states that always use standard processing regardless of plate type.",
   "processing_metadata": {
     "description": "Official state DMV processing rules and validation requirements",
     "global_rules": {
       "character_restrictions": "State-specific character usage rules",
       "font_changes": "Historical font or format changes",
-      "code_system": "How the state uses plate type codes for processing"
+      "code_system": "How the state uses plate type codes for processing",
+      "has_variable_processing_types": false
     }
   },
   "plate_types": [

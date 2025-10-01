@@ -2,38 +2,82 @@
   "name": "American Samoa",
   "abbreviation": "AS",
   "slogan": "Heart of Polynesia",
+  "uses_zero_for_o": false,
+  "allows_letter_o": true,
+  "zero_is_slashed": false,
   "primary_colors": [
     "#FFFFFF",
     "#000000"
   ],
+  "main_font": null,
+  "main_logo": null,
+  "main_plate_text": "Motu O Fiafiaga at the top of the plate",
+  "sticker_format": {
+    "color": null,
+    "format": null,
+    "position": null,
+    "description": "Validation stickers"
+  },
+  "character_formatting": {
+    "stacked_characters": null,
+    "slanted_characters": null,
+    "slant_direction": null,
+    "stack_position": null
+  },
+  "weather_inclusion": null,
+  "images": {
+    "state_logo": "images/states/AS/logo.png",
+    "character_font_reference": "images/states/AS/font_sample.png",
+    "blank_plate_template": "images/states/AS/blank_template.png",
+    "sticker_sample": "images/states/AS/sticker.png"
+  },
+  "notes": "American Samoa uses letter 'O' with letters and number '0' with numbers. US Territory - follows federal standards with local variations. Plate displays 'Motu O Fiafiaga' at the top. PROCESSING: Always uses standard processing regardless of plate type.",
   "processing_metadata": {
     "description": "Official American Samoa processing rules and validation requirements",
     "global_rules": {
-      "font_changes": "Information needed - research historical changes",
-      "code_system": "Information needed - research plate type code system",
       "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
-      "territory_status": "US Territory with federal oversight"
+      "font_changes": "Information needed - research historical changes",
+      "code_system": "Uses Code Number 0 for Passenger Plate Default",
+      "territory_status": "US Territory with federal oversight",
+      "has_variable_processing_types": false
     }
   },
   "plate_types": [
     {
-      "type_name": "Passenger Default",
+      "type_name": "Passenger",
       "pattern": "ABC123",
       "character_count": 6,
-      "description": "American Samoa standard passenger plate",
+      "description": "American Samoa standard passenger plate with 'Motu O Fiafiaga' text",
       "background_color": "#FFFFFF",
       "text_color": "#000000",
       "has_stickers": true,
       "sticker_description": "Validation stickers",
       "category": "passenger",
+      "subtype": null,
       "code_number": "0",
+      "processing_type": "standard",
+      
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": "Motu O Fiafiaga",
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "weather_inclusion": null,
+        "sticker_override": null
+      },
+      
       "processing_metadata": {
         "currently_processed": true,
         "requires_prefix": false,
         "requires_suffix": false,
         "character_modifications": null,
         "verify_state_abbreviation": true,
-        "visual_identifier": null,
+        "visual_identifier": "Motu O Fiafiaga at the top of the plate",
         "vehicle_type_identification": null,
         "all_numeric_plate": false,
         "dot_processing_type": "always_standard",
@@ -45,13 +89,17 @@
         },
         "plate_images_available": null
       },
-      "visual_identifier": "",
-      "processing_rules": "",
+      
+      "images": {
+        "plate_sample": "images/plates/AS/0/sample.jpg",
+        "character_font_sample": "images/plates/AS/0/font_sample.png",
+        "blank_template": null,
+        "variations": []
+      },
+      
+      "visual_identifier": "Y - Motu O Fiafiaga at the top of the plate",
+      "processing_rules": "N",
       "requires_prefix": false
     }
-  ],
-  "uses_zero_for_o": false,
-  "allows_letter_o": true,
-  "zero_is_slashed": false,
-  "notes": "American Samoa uses letter 'O' with letters and number '0' with numbers. Requires verification with official documentation. US Territory - follows federal standards with local variations."
+  ]
 }

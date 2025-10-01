@@ -11,7 +11,8 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers"
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
+      "has_variable_processing_types": true
     }
   },
   "plate_types": [

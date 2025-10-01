@@ -1,0 +1,4 @@
+0,Passenger Plate Default,American Samoa,,,,,,,,,,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+0,Passenger ,,,,,,,,,"""Motu O Fiafiaga"" at the top of the plate",,
