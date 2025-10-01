@@ -63,7 +63,49 @@
       },
       "visual_identifier": "",
       "processing_rules": "",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
     }
-  ]
+  ],
+  "main_font": "Block sans serif, proprietary (Highway Gothic influence)",
+  "main_logo": "State Logo Description",
+  "main_plate_text": "State Name or Abbreviation",
+  "sticker_format": {
+    "color": "#FFFFFF",
+    "format": "Month/Year",
+    "position": "top-right",
+    "description": "Standard validation stickers"
+  },
+  "character_formatting": {
+    "stacked_characters": false,
+    "slanted_characters": false,
+    "slant_direction": null,
+    "stack_position": null
+  },
+  "images": {
+    "state_logo": null,
+    "character_font_reference": null,
+    "blank_plate_template": null,
+    "sticker_sample": null
+  }
 }

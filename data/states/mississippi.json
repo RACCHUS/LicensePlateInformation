@@ -67,7 +67,28 @@
       },
       "visual_identifier": "",
       "processing_rules": "",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
     },
     {
       "type_name": "Personalized/Vanity",
@@ -105,11 +126,53 @@
       },
       "visual_identifier": "",
       "processing_rules": "Allows letter O",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
     }
   ],
   "uses_zero_for_o": true,
   "allows_letter_o": true,
   "zero_is_slashed": false,
-  "notes": "Mississippi uses letter 'O' with letters/personalized plates and number '0' with numbers. Standard format varies. Source: OOS.txt compilation - requires verification with official DMV documentation. Uses 'O' with letters/personalized plates; uses '0' with numbers."
+  "notes": "Mississippi uses letter 'O' with letters/personalized plates and number '0' with numbers. Standard format varies. Source: OOS.txt compilation - requires verification with official DMV documentation. Uses 'O' with letters/personalized plates; uses '0' with numbers.",
+  "main_font": "Custom sans serif, proprietary",
+  "main_logo": "State Logo Description",
+  "main_plate_text": "State Name or Abbreviation",
+  "sticker_format": {
+    "color": "#FFFFFF",
+    "format": "Month/Year",
+    "position": "top-right",
+    "description": "Standard validation stickers"
+  },
+  "character_formatting": {
+    "stacked_characters": false,
+    "slanted_characters": false,
+    "slant_direction": null,
+    "stack_position": null
+  },
+  "images": {
+    "state_logo": null,
+    "character_font_reference": null,
+    "blank_plate_template": null,
+    "sticker_sample": null
+  }
 }

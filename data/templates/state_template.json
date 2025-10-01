@@ -24,7 +24,6 @@
     "slant_direction": null,
     "stack_position": null
   },
-  "weather_inclusion": true,
   "images": {
     "state_logo": "images/states/{state_code}/logo.png",
     "character_font_reference": "images/states/{state_code}/font_sample.png",
@@ -60,14 +59,13 @@
         "font": null,
         "logo": null,
         "plate_text": null,
+        "design_variants": null,
         "character_formatting": {
           "stacked_characters": null,
           "slanted_characters": null,
           "slant_direction": null,
           "stack_position": null
-        },
-        "weather_inclusion": null,
-        "sticker_override": null
+        },        "sticker_override": null
       },
       
       "processing_metadata": {
@@ -118,14 +116,13 @@
         "font": null,
         "logo": "University Logo",
         "plate_text": "UNIVERSITY",
+        "design_variants": ["University Design 1", "University Design 2"],
         "character_formatting": {
           "stacked_characters": null,
           "slanted_characters": null,
           "slant_direction": null,
           "stack_position": null
-        },
-        "weather_inclusion": null,
-        "sticker_override": null
+        },        "sticker_override": null
       },
       
       "processing_metadata": {
@@ -187,13 +184,13 @@
         "font": null,
         "logo": "Government Seal",
         "plate_text": "GOVERNMENT",
+        "design_variants": null,
         "character_formatting": {
           "stacked_characters": null,
           "slanted_characters": null,
           "slant_direction": null,
           "stack_position": null
         },
-        "weather_inclusion": false,
         "sticker_override": {
           "color": "#FF0000",
           "format": "Year Only",
@@ -252,14 +249,13 @@
         "font": null,
         "logo": null,
         "plate_text": null,
+        "design_variants": null,
         "character_formatting": {
           "stacked_characters": null,
           "slanted_characters": null,
           "slant_direction": null,
           "stack_position": null
-        },
-        "weather_inclusion": null,
-        "sticker_override": null
+        },        "sticker_override": null
       },
       
       "processing_metadata": {

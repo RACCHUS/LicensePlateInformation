@@ -224,7 +224,7 @@ class JSONSearchEngine:
         """Find matches in top-level state information"""
         matches = []
         
-        # Search specific top-level fields
+        # Search specific top-level fields - ONLY if they match the category filter
         searchable_state_fields = {
             'slogan': data.get('slogan', ''),
             'name': data.get('name', ''),
@@ -233,12 +233,14 @@ class JSONSearchEngine:
         }
         
         for field_name, field_value in searchable_state_fields.items():
-            if isinstance(field_value, str) and query_lower in field_value.lower():
-                matches.append({
-                    'field': field_name,
-                    'value': field_value,
-                    'match_type': 'exact'
-                })
+            # Check if this field is allowed by the category filter
+            if 'all' in fields_to_search or field_name in fields_to_search:
+                if isinstance(field_value, str) and query_lower in field_value.lower():
+                    matches.append({
+                        'field': field_name,
+                        'value': field_value,
+                        'match_type': 'exact'
+                    })
         
         # Search boolean handling rule fields
         if 'uses_zero_for_o' in fields_to_search or 'all' in fields_to_search:
@@ -395,19 +397,48 @@ class JSONSearchEngine:
                                     'match_type': 'list_item'
                                 })
         
-        # Search nested plate_characteristics.character_formatting
+        # Search nested plate_characteristics fields - respect category filter
         if 'plate_characteristics' in plate:
             plate_chars = plate['plate_characteristics']
-            if isinstance(plate_chars, dict) and 'character_formatting' in plate_chars:
-                char_fmt = plate_chars['character_formatting']
-                if isinstance(char_fmt, dict):
-                    for fmt_field, fmt_value in char_fmt.items():
-                        if isinstance(fmt_value, str) and query in fmt_value.lower():
-                            matches.append({
-                                'field': f'character_formatting.{fmt_field}',
-                                'value': fmt_value,
-                                'match_type': 'nested'
-                            })
+            if isinstance(plate_chars, dict):
+                # Search direct string fields in plate_characteristics
+                for char_field in ['font', 'logo', 'plate_text']:
+                    # Only search if 'all' or if the field is in the allowed fields for this category
+                    if 'all' in fields or char_field in fields:
+                        if char_field in plate_chars:
+                            char_value = plate_chars[char_field]
+                            if isinstance(char_value, str) and query in char_value.lower():
+                                matches.append({
+                                    'field': f'plate_characteristics.{char_field}',
+                                    'value': char_value,
+                                    'match_type': 'nested'
+                                })
+                
+                # Search design_variants array - only if 'all' or 'design' category
+                if 'all' in fields or 'design' in fields or 'design_variants' in fields:
+                    if 'design_variants' in plate_chars:
+                        design_variants = plate_chars['design_variants']
+                        if isinstance(design_variants, list):
+                            for variant in design_variants:
+                                if isinstance(variant, str) and query in variant.lower():
+                                    matches.append({
+                                        'field': 'plate_characteristics.design_variants',
+                                        'value': f"Design variant: {variant}",
+                                        'match_type': 'array'
+                                    })
+                                    break  # Only report once per plate type
+                
+                # Search character_formatting nested object
+                if 'character_formatting' in plate_chars:
+                    char_fmt = plate_chars['character_formatting']
+                    if isinstance(char_fmt, dict):
+                        for fmt_field, fmt_value in char_fmt.items():
+                            if isinstance(fmt_value, str) and query in fmt_value.lower():
+                                matches.append({
+                                    'field': f'character_formatting.{fmt_field}',
+                                    'value': fmt_value,
+                                    'match_type': 'nested'
+                                })
         
         # Search processing_metadata at plate level
         if 'processing_metadata' in plate:

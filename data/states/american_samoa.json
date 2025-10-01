@@ -9,7 +9,7 @@
     "#FFFFFF",
     "#000000"
   ],
-  "main_font": null,
+  "main_font": "Custom sans serif, proprietary",
   "main_logo": null,
   "main_plate_text": "Motu O Fiafiaga at the top of the plate",
   "sticker_format": {
@@ -24,7 +24,6 @@
     "slant_direction": null,
     "stack_position": null
   },
-  "weather_inclusion": null,
   "images": {
     "state_logo": "images/states/AS/logo.png",
     "character_font_reference": "images/states/AS/font_sample.png",
@@ -56,7 +55,6 @@
       "subtype": null,
       "code_number": "0",
       "processing_type": "standard",
-      
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -67,10 +65,9 @@
           "slant_direction": null,
           "stack_position": null
         },
-        "weather_inclusion": null,
-        "sticker_override": null
+        "sticker_override": null,
+        "design_variants": null
       },
-      
       "processing_metadata": {
         "currently_processed": true,
         "requires_prefix": false,
@@ -89,14 +86,12 @@
         },
         "plate_images_available": null
       },
-      
       "images": {
         "plate_sample": "images/plates/AS/0/sample.jpg",
         "character_font_sample": "images/plates/AS/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },
-      
       "visual_identifier": "Y - Motu O Fiafiaga at the top of the plate",
       "processing_rules": "N",
       "requires_prefix": false

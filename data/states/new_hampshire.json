@@ -62,7 +62,28 @@
       },
       "visual_identifier": "",
       "processing_rules": "",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
     },
     {
       "type_name": "Personalized/Vanity",
@@ -100,11 +121,53 @@
       },
       "visual_identifier": "",
       "processing_rules": "Allows letter O",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
     }
   ],
   "uses_zero_for_o": true,
   "allows_letter_o": true,
   "zero_is_slashed": false,
-  "notes": "New Hampshire uses letter 'O' only on personalized/vanity plates. Standard plates use only number zero '0'. Source: OOS.txt compilation - requires verification with official DMV documentation. Letter 'O' only appears on personalized/vanity plates; standard plates use '0'."
+  "notes": "New Hampshire uses letter 'O' only on personalized/vanity plates. Standard plates use only number zero '0'. Source: OOS.txt compilation - requires verification with official DMV documentation. Letter 'O' only appears on personalized/vanity plates; standard plates use '0'.",
+  "main_font": "Narrow sans serif, Highway Gothic derivative",
+  "main_logo": "State Logo Description",
+  "main_plate_text": "State Name or Abbreviation",
+  "sticker_format": {
+    "color": "#FFFFFF",
+    "format": "Month/Year",
+    "position": "top-right",
+    "description": "Standard validation stickers"
+  },
+  "character_formatting": {
+    "stacked_characters": false,
+    "slanted_characters": false,
+    "slant_direction": null,
+    "stack_position": null
+  },
+  "images": {
+    "state_logo": null,
+    "character_font_reference": null,
+    "blank_plate_template": null,
+    "sticker_sample": null
+  }
 }

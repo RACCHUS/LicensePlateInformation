@@ -20,7 +20,7 @@ from gui.components.info_display.state_info_panel import StateInfoPanel
 from gui.components.info_display.plate_info_panel import PlateInfoPanel
 from gui.components.info_display.char_rules_panel import CharacterRulesPanel
 from gui.utils.json_search_engine import JSONSearchEngine
-# from gui.components.image_display.image_panel import ImagePanel
+from gui.components.image_display.image_viewer import PlateImageViewer
 
 
 class LicensePlateApp:
@@ -126,31 +126,16 @@ class LicensePlateApp:
         
         image_label = tk.Label(
             image_column, 
-            text="License Plate Image", 
+            text="License Plate Images", 
             bg='#1a1a1a', 
             fg='#ffffff', 
             font=('Segoe UI', 10, 'bold')
         )
         image_label.pack(anchor='w', pady=(0, 2))
         
-        # Image panel placeholder
-        image_placeholder_frame = tk.Frame(
-            image_column,
-            bg='#2a2a2a',
-            relief='solid',
-            borderwidth=1
-        )
-        image_placeholder_frame.pack(fill='both', expand=True)
-        
-        image_placeholder_label = tk.Label(
-            image_placeholder_frame,
-            text="License Plate Image\n(Coming Soon)",
-            bg='#2a2a2a',
-            fg='#888888',
-            font=('Segoe UI', 12),
-            justify='center'
-        )
-        image_placeholder_label.pack(fill='both', expand=True)
+        # Image viewer with navigation
+        self.image_viewer = PlateImageViewer(image_column)
+        self.image_viewer.get_frame().pack(fill='both', expand=True)
         
         # Bottom section: Information Panels (4 columns for better space usage)
         info_section = tk.Frame(main_container, bg='#1a1a1a')
@@ -455,11 +440,8 @@ class LicensePlateApp:
         # Update character font preview
         self.update_character_font_preview(state_code)
         
-        # Update image if plate type is also selected
-        # if self.current_plate_type:
-        #     self.image_panel.update_image(state_code, self.current_plate_type)
-        # else:
-        #     self.image_panel.update_image(state_code, "Standard")
+        # Update image viewer with state images
+        self.image_viewer.update_state(state_code)
             
     def on_plate_type_selected(self, plate_type: str):
         """Handle plate type selection"""
@@ -498,6 +480,9 @@ class LicensePlateApp:
         
         # Clear search results
         self.update_search_results("", [])
+        
+        # Clear image viewer
+        self.image_viewer.clear()
         
         # Clear any visual state selection (reset button colors)
         self._reset_state_button_colors()

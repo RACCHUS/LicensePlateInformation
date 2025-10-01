@@ -38,7 +38,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "In God We Trust",
@@ -66,7 +92,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Antique Auto",
@@ -94,7 +146,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Motorcycle",
@@ -122,7 +200,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Disabled Person",
@@ -150,7 +254,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Disabled Veteran",
@@ -178,7 +308,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Semi-Trailer",
@@ -206,7 +362,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "University of Tennessee",
@@ -234,7 +416,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Vanderbilt University",
@@ -262,7 +470,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Memphis Grizzlies",
@@ -290,7 +524,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Great Smoky Mountains",
@@ -318,7 +578,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     }
   ],
   "processing_metadata": {
@@ -341,5 +627,26 @@
         "notes": "Volunteers plates: DO NOT include T. Include V0 characters."
       }
     }
+  },
+  "main_font": "Modified sans serif, Highway Gothic derivative",
+  "main_logo": "State Logo Description",
+  "main_plate_text": "State Name or Abbreviation",
+  "sticker_format": {
+    "color": "#FFFFFF",
+    "format": "Month/Year",
+    "position": "top-right",
+    "description": "Standard validation stickers"
+  },
+  "character_formatting": {
+    "stacked_characters": false,
+    "slanted_characters": false,
+    "slant_direction": null,
+    "stack_position": null
+  },
+  "images": {
+    "state_logo": null,
+    "character_font_reference": null,
+    "blank_plate_template": null,
+    "sticker_sample": null
   }
 }

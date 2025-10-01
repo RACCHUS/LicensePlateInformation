@@ -5,13 +5,6 @@
   "uses_zero_for_o": true,
   "allows_letter_o": false,
   "zero_is_slashed": true,
-  "character_restrictions": {
-    "excluded_letters": [
-      "O"
-    ],
-    "excluded_numbers": [],
-    "notes": "Letter O is not used in current 2012 ABC1234 series to avoid confusion with zero. Zero uses slash mark for disambiguation."
-  },
   "primary_colors": [
     "#FFFFFF",
     "#000000",
@@ -28,10 +21,6 @@
       "text_color": "#000000",
       "has_stickers": true,
       "sticker_description": "County name sticker at top center of plate",
-      "design_variants": [
-        "Peach tree graphic",
-        "Plain peach background"
-      ],
       "processing_metadata": {
         "currently_processed": true,
         "requires_prefix": false,
@@ -49,7 +38,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Standard Passenger (Pre-2012)",
@@ -77,7 +92,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Standard Passenger (Legacy)",
@@ -105,7 +146,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Antique Auto",
@@ -133,7 +200,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Classic Vehicle",
@@ -161,7 +254,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Commercial",
@@ -189,7 +308,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Commercial Truck",
@@ -217,7 +362,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Motorcycle",
@@ -245,7 +416,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Motorcycle (Current)",
@@ -273,7 +470,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Specialty 2-Letter Prefix",
@@ -284,13 +507,6 @@
       "text_color": "#000000",
       "has_stickers": true,
       "sticker_description": "Organization identifier, county sticker",
-      "prefix_examples": [
-        "DC",
-        "BQ",
-        "CF",
-        "DV",
-        "BF"
-      ],
       "processing_metadata": {
         "currently_processed": true,
         "requires_prefix": false,
@@ -308,7 +524,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "University of Georgia",
@@ -336,7 +578,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Georgia Tech",
@@ -364,7 +632,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Disabled Veteran",
@@ -392,7 +686,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Trailer",
@@ -420,7 +740,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     },
     {
       "type_name": "Farm Vehicle",
@@ -448,7 +794,33 @@
           "period_2": null
         },
         "plate_images_available": null
-      }
+      },
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      },
+      "visual_identifier": "",
+      "processing_rules": "",
+      "requires_prefix": false
     }
   ],
   "processing_metadata": {
@@ -458,5 +830,26 @@
       "code_system": "Information needed - research plate type code system",
       "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'"
     }
+  },
+  "main_font": "Modified sans serif, based on Highway Gothic",
+  "main_logo": "State Logo Description",
+  "main_plate_text": "State Name or Abbreviation",
+  "sticker_format": {
+    "color": "#FFFFFF",
+    "format": "Month/Year",
+    "position": "top-right",
+    "description": "Standard validation stickers"
+  },
+  "character_formatting": {
+    "stacked_characters": false,
+    "slanted_characters": false,
+    "slant_direction": null,
+    "stack_position": null
+  },
+  "images": {
+    "state_logo": null,
+    "character_font_reference": null,
+    "blank_plate_template": null,
+    "sticker_sample": null
   }
 }
