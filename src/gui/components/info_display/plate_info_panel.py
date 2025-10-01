@@ -48,23 +48,28 @@ class PlateInfoPanel:
         # Main container with border
         self.main_frame = self.widget_factory.create_frame(self.parent)
         self.main_frame.configure(relief='solid', borderwidth=1)
-        self.main_frame.pack(fill='x', padx=2, pady=2)
+        self.main_frame.pack(fill='both', expand=True, padx=2, pady=2)
         
-        # Text display
+        # Text display with scrollbar
         text_frame = tk.Frame(self.main_frame, bg='#1a1a1a')
         text_frame.pack(fill='both', expand=True, padx=2, pady=2)
         
+        # Scrollbar
+        scrollbar = tk.Scrollbar(text_frame)
+        scrollbar.pack(side='right', fill='y')
+        
         self.info_text = tk.Text(
             text_frame,
-            height=6,
             bg='#1a1a1a',
             fg='#ffffff',
             font=('Segoe UI', 9),
             wrap=tk.WORD,
             insertbackground='#ffffff',
-            state='disabled'
+            state='disabled',
+            yscrollcommand=scrollbar.set
         )
-        self.info_text.pack(fill='both', expand=True)
+        self.info_text.pack(side='left', fill='both', expand=True)
+        scrollbar.config(command=self.info_text.yview)
         
         # Show default message
         self.show_default_message()

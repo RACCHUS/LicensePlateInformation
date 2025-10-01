@@ -32,7 +32,10 @@ class SearchBar:
             'background': 'Background',
             'design': 'Design Elements',
             'year': 'Year/Period',
-            'type': 'Plate Type'
+            'type': 'Plate Type',
+            'handling_rules': 'Character Handling Rules',
+            'processing': 'Processing Rules',
+            'restrictions': 'Character Restrictions'
         }
         
         # Setup the search bar
@@ -75,6 +78,39 @@ class SearchBar:
         self.category_combobox.pack()
         self.category_combobox.set('All Fields')
         self.category_combobox.bind('<<ComboboxSelected>>', self._on_category_changed)
+        
+        # Search scope selector
+        scope_frame = self.widget_factory.create_frame(controls_row)
+        scope_frame.pack(side='left', padx=8)
+        
+        scope_label = self.widget_factory.create_label(
+            scope_frame,
+            "Search Scope:",
+            style='TLabel'
+        )
+        scope_label.pack(anchor='w')
+        
+        self.search_scope_var = tk.StringVar(value="all")
+        
+        scope_button_frame = self.widget_factory.create_frame(scope_frame)
+        scope_button_frame.pack()
+        
+        self.scope_current_radio = ttk.Radiobutton(
+            scope_button_frame,
+            text="Current State",
+            variable=self.search_scope_var,
+            value="current",
+            state='disabled'
+        )
+        self.scope_current_radio.pack(side='left', padx=2)
+        
+        self.scope_all_radio = ttk.Radiobutton(
+            scope_button_frame,
+            text="All States",
+            variable=self.search_scope_var,
+            value="all"
+        )
+        self.scope_all_radio.pack(side='left', padx=2)
         
         # Main search input
         search_input_frame = self.widget_factory.create_frame(controls_row)
@@ -155,7 +191,10 @@ class SearchBar:
             'background': 'e.g., gradient, solid, pattern',
             'design': 'e.g., border, graphics, artwork',
             'year': 'e.g., 2020, 1990s, current',
-            'type': 'e.g., standard, specialty, vanity'
+            'type': 'e.g., standard, specialty, vanity',
+            'handling_rules': 'e.g., O vs 0, stacked, X2, omit, include',
+            'processing': 'e.g., vertical, standard, digital processing',
+            'restrictions': 'e.g., does not allow, must use, restrictions'
         }
         
         # Visual feedback for category change
@@ -174,10 +213,14 @@ class SearchBar:
                 self.search_history = self.search_history[:10]  # Keep last 10
             
             # Build search parameters
+            # Only use state filter if scope is 'current' and a state is selected
+            state_filter = self.selected_state if (self.search_scope_var.get() == 'current' and self.selected_state) else None
+            
             search_params = {
                 'query': search_text,
                 'category': category_key,
-                'state_filter': self.selected_state,
+                'state_filter': state_filter,
+                'search_scope': self.search_scope_var.get(),
                 'search_type': 'json_field_search'
             }
             
@@ -247,11 +290,33 @@ class SearchBar:
         """Set state filter from state button selection"""
         self.selected_state = state_code
         
+        # Enable "Current State" radio button
+        self.scope_current_radio.config(state='normal')
+        # Set scope to current state by default
+        self.search_scope_var.set('current')
+        
         # Show state filter indicator
         self.state_indicator_frame.pack(fill='x', pady=(4, 0))
-        self.state_indicator_label.config(text=f"🔍 Searching in: {state_code} - {state_name}")
+        self._update_state_indicator(state_code, state_name)
         
         print(f"🎯 State filter set to: {state_code} - {state_name}")
+    
+    def _update_state_indicator(self, state_code: Optional[str] = None, state_name: Optional[str] = None):
+        """Update state indicator text based on search scope"""
+        if not state_code:
+            state_code = self.selected_state or ""
+        if not state_name:
+            # Would need to look up state name - for now use code
+            state_name = state_code
+        
+        if self.selected_state and self.search_scope_var.get() == 'current':
+            indicator_text = f"🔍 Searching in: {state_code} - {state_name}"
+        elif self.selected_state and self.search_scope_var.get() == 'all':
+            indicator_text = f"� Searching all states (State selected: {state_code})"
+        else:
+            indicator_text = "🌍 Searching all states"
+        
+        self.state_indicator_label.config(text=indicator_text)
         
     def add_search_category(self, key: str, display_name: str):
         """Add new search category (for easy expansion)"""
@@ -273,7 +338,10 @@ class SearchBar:
         
     def clear_state_filter(self):
         """Clear the state filter indicator"""
-        self.current_state = None
+        self.selected_state = None
+        # Disable "Current State" radio button and set to "All States"
+        self.scope_current_radio.config(state='disabled')
+        self.search_scope_var.set('all')
         self.state_indicator_frame.pack_forget()
         print("🔄 Search state filter cleared")
         

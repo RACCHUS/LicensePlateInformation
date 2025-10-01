@@ -18,6 +18,7 @@ from gui.components.search.search_bar import SearchBar
 from gui.components.plate_type.plate_type_dropdown import SmartPlateTypeDropdown
 from gui.components.info_display.state_info_panel import StateInfoPanel
 from gui.components.info_display.plate_info_panel import PlateInfoPanel
+from gui.components.info_display.char_rules_panel import CharacterRulesPanel
 from gui.utils.json_search_engine import JSONSearchEngine
 # from gui.components.image_display.image_panel import ImagePanel
 
@@ -51,29 +52,26 @@ class LicensePlateApp:
         main_container = tk.Frame(self.root, bg='#1a1a1a')
         main_container.pack(fill='both', expand=True, padx=10, pady=10)
         
-        # Top section: Search and State Selection (side by side)
+        # Top section: Search/Plate Type (left) and State Selection (right) side by side
         top_section = tk.Frame(main_container, bg='#1a1a1a')
-        top_section.pack(fill='x', pady=(0, 10))
+        top_section.pack(fill='both', pady=(0, 10))
         
-        # Left column: Search bar
-        search_column = tk.Frame(top_section, bg='#1a1a1a')
-        search_column.pack(side='left', fill='x', expand=True, padx=(0, 10))
+        # Left column: Search bar + Plate Type (stacked, matches state panel height)
+        left_column = tk.Frame(top_section, bg='#1a1a1a')
+        left_column.pack(side='left', fill='both', expand=True, padx=(0, 10))
         
-        search_label = tk.Label(
-            search_column, 
-            text="Search", 
-            bg='#1a1a1a', 
-            fg='#ffffff', 
-            font=('Segoe UI', 10, 'bold')
-        )
-        search_label.pack(anchor='w', pady=(0, 2))
-        
-        self.search_bar = SearchBar(search_column, self.widget_factory, 
+        # Search section (no title to save space)
+        self.search_bar = SearchBar(left_column, self.widget_factory, 
                                    on_search=self.on_search)
+        
+        # Plate Type section (no title to save space)
+        self.plate_type_panel = SmartPlateTypeDropdown(left_column, self.widget_factory,
+                                                      on_plate_type_selected=self.on_plate_type_selected,
+                                                      on_states_with_type_updated=self.on_states_with_type_updated)
         
         # Right column: State selection panel  
         state_column = tk.Frame(top_section, bg='#1a1a1a')
-        state_column.pack(side='right', fill='x', expand=True)
+        state_column.pack(side='right', fill='both', expand=True)
         
         state_header_frame = tk.Frame(state_column, bg='#1a1a1a')
         state_header_frame.pack(fill='x')
@@ -103,38 +101,67 @@ class LicensePlateApp:
         self.state_panel = StateSelectionPanel(state_column, self.widget_factory, 
                                              on_state_selected=self.on_state_selected)
         
-        # Middle section: Plate Type Selection
-        plate_type_frame = tk.Frame(main_container, bg='#1a1a1a')
-        plate_type_frame.pack(fill='x', pady=(0, 10))
+        # Middle section: Search Results (left) and Image Display (right)
+        middle_section = tk.Frame(main_container, bg='#1a1a1a')
+        middle_section.pack(fill='both', expand=True, pady=(5, 5))
         
-        plate_type_label = tk.Label(
-            plate_type_frame, 
-            text="Plate Type Selection", 
+        # Left: Search Results
+        search_results_column = tk.Frame(middle_section, bg='#1a1a1a')
+        search_results_column.pack(side='left', fill='both', expand=True, padx=(0, 5))
+        
+        search_results_label = tk.Label(
+            search_results_column, 
+            text="Search Results", 
             bg='#1a1a1a', 
             fg='#ffffff', 
             font=('Segoe UI', 10, 'bold')
         )
-        plate_type_label.pack(anchor='w', pady=(0, 2))
+        search_results_label.pack(anchor='w', pady=(0, 2))
         
-        self.plate_type_panel = SmartPlateTypeDropdown(plate_type_frame, self.widget_factory,
-                                                      on_plate_type_selected=self.on_plate_type_selected,
-                                                      on_states_with_type_updated=self.on_states_with_type_updated)
+        self.search_results_panel = self._create_search_results_panel(search_results_column)
         
-        # Bottom section: Information Panels (3 columns)
+        # Right: Image Display
+        image_column = tk.Frame(middle_section, bg='#1a1a1a')
+        image_column.pack(side='right', fill='both', expand=True)
+        
+        image_label = tk.Label(
+            image_column, 
+            text="License Plate Image", 
+            bg='#1a1a1a', 
+            fg='#ffffff', 
+            font=('Segoe UI', 10, 'bold')
+        )
+        image_label.pack(anchor='w', pady=(0, 2))
+        
+        # Image panel placeholder
+        image_placeholder_frame = tk.Frame(
+            image_column,
+            bg='#2a2a2a',
+            relief='solid',
+            borderwidth=1
+        )
+        image_placeholder_frame.pack(fill='both', expand=True)
+        
+        image_placeholder_label = tk.Label(
+            image_placeholder_frame,
+            text="License Plate Image\n(Coming Soon)",
+            bg='#2a2a2a',
+            fg='#888888',
+            font=('Segoe UI', 12),
+            justify='center'
+        )
+        image_placeholder_label.pack(fill='both', expand=True)
+        
+        # Bottom section: Information Panels (4 columns for better space usage)
         info_section = tk.Frame(main_container, bg='#1a1a1a')
         info_section.pack(fill='both', expand=True)
         
-        # Left column: State Information + Plate Type Information (stacked)
-        left_column = tk.Frame(info_section, bg='#1a1a1a')
-        left_column.pack(side='left', fill='both', expand=True, padx=(0, 5))
-        
-        # State Information (40% of left column height)
-        state_info_frame = tk.Frame(left_column, bg='#1a1a1a', height=200)
-        state_info_frame.pack(fill='both', pady=(0, 5))
-        state_info_frame.pack_propagate(False)  # Maintain fixed height ratio
+        # Column 1: State Information (compact)
+        state_info_column = tk.Frame(info_section, bg='#1a1a1a')
+        state_info_column.pack(side='left', fill='both', expand=True, padx=(0, 5))
         
         state_info_label = tk.Label(
-            state_info_frame, 
+            state_info_column, 
             text="State Information", 
             bg='#1a1a1a', 
             fg='#ffffff', 
@@ -143,7 +170,7 @@ class LicensePlateApp:
         state_info_label.pack(anchor='w', pady=(0, 2))
         
         # Scrollable state info
-        state_info_scroll_frame = tk.Frame(state_info_frame, bg='#2a2a2a', relief='solid', borderwidth=1)
+        state_info_scroll_frame = tk.Frame(state_info_column, bg='#2a2a2a', relief='solid', borderwidth=1)
         state_info_scroll_frame.pack(fill='both', expand=True)
         
         state_info_canvas = tk.Canvas(state_info_scroll_frame, bg='#2a2a2a', highlightthickness=0)
@@ -159,17 +186,15 @@ class LicensePlateApp:
         state_info_canvas.configure(yscrollcommand=state_info_scrollbar.set)
         
         state_info_canvas.pack(side="left", fill="both", expand=True)
-        # Scrollbar will be managed by _configure_scroll_region
         
         self.state_info_panel = StateInfoPanel(self.state_info_scrollable_frame, self.widget_factory)
         
-        # Plate Type Information (60% of left column height)
-        plate_info_frame = tk.Frame(left_column, bg='#1a1a1a', height=300)
-        plate_info_frame.pack(fill='both', expand=True)
-        plate_info_frame.pack_propagate(False)  # Maintain fixed height ratio
+        # Column 2: Plate Type Information (compact)
+        plate_info_column = tk.Frame(info_section, bg='#1a1a1a')
+        plate_info_column.pack(side='left', fill='both', expand=True, padx=(0, 5))
         
         plate_info_label = tk.Label(
-            plate_info_frame, 
+            plate_info_column, 
             text="Plate Type Information", 
             bg='#1a1a1a', 
             fg='#ffffff', 
@@ -178,7 +203,7 @@ class LicensePlateApp:
         plate_info_label.pack(anchor='w', pady=(0, 2))
         
         # Scrollable plate info
-        plate_info_scroll_frame = tk.Frame(plate_info_frame, bg='#2a2a2a', relief='solid', borderwidth=1)
+        plate_info_scroll_frame = tk.Frame(plate_info_column, bg='#2a2a2a', relief='solid', borderwidth=1)
         plate_info_scroll_frame.pack(fill='both', expand=True)
         
         plate_info_canvas = tk.Canvas(plate_info_scroll_frame, bg='#2a2a2a', highlightthickness=0)
@@ -194,21 +219,30 @@ class LicensePlateApp:
         plate_info_canvas.configure(yscrollcommand=plate_info_scrollbar.set)
         
         plate_info_canvas.pack(side="left", fill="both", expand=True)
-        # Scrollbar will be managed by _configure_scroll_region
         
         self.plate_info_panel = PlateInfoPanel(self.plate_info_scrollable_frame, self.widget_factory)
         
-        # Middle column: Character Font Preview + Search Results (stacked)
-        middle_column = tk.Frame(info_section, bg='#1a1a1a')
-        middle_column.pack(side='left', fill='both', expand=True, padx=(0, 5))
+        # Column 3: Character Handling Rules
+        char_rules_column = tk.Frame(info_section, bg='#1a1a1a')
+        char_rules_column.pack(side='left', fill='both', expand=True, padx=(0, 5))
         
-        # Character Font Preview (40% to match state info size)
-        font_preview_frame = tk.Frame(middle_column, bg='#1a1a1a', height=200)
-        font_preview_frame.pack(fill='both', pady=(0, 5))
-        font_preview_frame.pack_propagate(False)  # Maintain fixed height ratio
+        char_rules_label = tk.Label(
+            char_rules_column, 
+            text="Character Handling Rules", 
+            bg='#1a1a1a', 
+            fg='#ffffff', 
+            font=('Segoe UI', 10, 'bold')
+        )
+        char_rules_label.pack(anchor='w', pady=(0, 2))
+        
+        self.char_rules_panel = CharacterRulesPanel(char_rules_column, self.widget_factory)
+        
+        # Column 4: Character Font Preview
+        font_column = tk.Frame(info_section, bg='#1a1a1a')
+        font_column.pack(side='left', fill='both', expand=True, padx=(0, 5))
         
         font_preview_label = tk.Label(
-            font_preview_frame, 
+            font_column, 
             text="Character Font Preview", 
             bg='#1a1a1a', 
             fg='#ffffff', 
@@ -216,51 +250,7 @@ class LicensePlateApp:
         )
         font_preview_label.pack(anchor='w', pady=(0, 2))
         
-        self.character_font_panel = self._create_character_font_panel(font_preview_frame)
-        
-        # Search Results (60% to match plate info size)
-        search_results_frame = tk.Frame(middle_column, bg='#1a1a1a', height=300)
-        search_results_frame.pack(fill='both', expand=True)
-        search_results_frame.pack_propagate(False)  # Maintain fixed height ratio
-        
-        search_results_label = tk.Label(
-            search_results_frame, 
-            text="Search Results", 
-            bg='#1a1a1a', 
-            fg='#ffffff', 
-            font=('Segoe UI', 10, 'bold')
-        )
-        search_results_label.pack(anchor='w', pady=(0, 2))
-        
-        self.search_results_panel = self._create_search_results_panel(search_results_frame)
-        
-        # Right column: Image Display (larger space)
-        image_column = tk.Frame(info_section, bg='#1a1a1a')
-        image_column.pack(side='right', fill='both', expand=True)
-        
-        image_label = tk.Label(
-            image_column, 
-            text="License Plate Image", 
-            bg='#1a1a1a', 
-            fg='#ffffff', 
-            font=('Segoe UI', 10, 'bold')
-        )
-        image_label.pack(anchor='w', pady=(0, 2))
-        
-        # self.image_panel = ImagePanel(image_column, self.widget_factory)
-        
-        # Temporary placeholder for image panel
-        placeholder_label = tk.Label(
-            image_column,
-            text="Image Panel\n(Coming Soon)",
-            bg='#1a1a1a',
-            fg='#ffffff',
-            font=('Segoe UI', 12),
-            justify='center',
-            relief='solid',
-            borderwidth=1
-        )
-        placeholder_label.pack(fill='both', expand=True, padx=2, pady=2)
+        self.character_font_panel = self._create_character_font_panel(font_column)
         
     def _create_character_font_panel(self, parent):
         """Create character font preview panel"""
@@ -459,6 +449,9 @@ class LicensePlateApp:
         # Filter plate types to this state only
         self.plate_type_panel.set_state_filter(state_code)
         
+        # Update character rules panel
+        self.char_rules_panel.update_rules(state_code)
+        
         # Update character font preview
         self.update_character_font_preview(state_code)
         
@@ -496,6 +489,9 @@ class LicensePlateApp:
         
         # Clear search bar state filter indicator
         self.search_bar.clear_state_filter()
+        
+        # Clear character rules panel
+        self.char_rules_panel.update_rules(None)
         
         # Clear character font preview
         self.update_character_font_preview(None)
