@@ -450,9 +450,9 @@ class LicensePlateApp:
         # Update plate information panel
         self.plate_info_panel.update_plate_info(plate_type, self.current_state)
         
-        # Update image if state is also selected
-        # if self.current_state:
-        #     self.image_panel.update_image(self.current_state, plate_type)
+        # Update image viewer if state is also selected
+        if self.current_state:
+            self.image_viewer.update_state(self.current_state, plate_type)
             
     def clear_state_filter(self):
         """Clear the current state filter"""

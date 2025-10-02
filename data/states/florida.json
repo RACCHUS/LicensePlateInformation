@@ -11,7 +11,7 @@
     "#000000"
   ],
   "main_font": "Narrow sans serif, proprietary variant of Highway Gothic",
-  "main_logo": "Florida state outline with oranges and orange blossoms",
+  "main_logo": "Orange with blossoms between letters",
   "main_plate_text": "\"Florida\" at top, county name/\"Sunshine State\"/\"In God We Trust\" at bottom",
   "sticker_format": {
     "color": "Retroreflective material as specified by DHSMV",
@@ -90,10 +90,49 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/FL/FL_image-002.jpg",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/FL/FL_image-002.jpg",
+          "data/images/FL/FL_image-003.jpg",
+          "data/images/FL/FL_image-004.jpg",
+          "data/images/FL/FL_image-005.jpg",
+          "data/images/FL/FL_image-009.jpg",
+          "data/images/FL/FL_image-010.jpg",
+          "data/images/FL/FL_image-012.jpg",
+          "data/images/FL/FL_image-013.jpg",
+          "data/images/FL/FL_image-014.jpg",
+          "data/images/FL/FL_image-019.jpg",
+          "data/images/FL/FL_image-020.jpg",
+          "data/images/FL/FL_image-021.jpg",
+          "data/images/FL/FL_image-022.jpg",
+          "data/images/FL/FL_image-023.jpg",
+          "data/images/FL/FL_image-024.jpg",
+          "data/images/FL/FL_image-025.jpg",
+          "data/images/FL/FL_image-026.jpg",
+          "data/images/FL/FL_image-027.jpg",
+          "data/images/FL/FL_image-028.jpg",
+          "data/images/FL/FL_image-029.jpg",
+          "data/images/FL/FL_image-032.jpg",
+          "data/images/FL/FL_image-033.jpg",
+          "data/images/FL/FL_image-034.jpg",
+          "data/images/FL/FL_image-035.jpg",
+          "data/images/FL/FL_image-036.jpg",
+          "data/images/FL/FL_image-037.jpg",
+          "data/images/FL/FL_image-038.jpg",
+          "data/images/FL/FL_image-039.jpg",
+          "data/images/FL/FL_image-040.jpg",
+          "data/images/FL/FL_image-042.jpg",
+          "data/images/FL/FL_image-049.jpg",
+          "data/images/FL/FL_image-059.jpg",
+          "data/images/FL/FL_image-117.jpg",
+          "data/images/FL/FL_image-172.jpg",
+          "data/images/FL/FL_image-184.jpg",
+          "data/images/FL/FL_image-187.jpg",
+          "data/images/FL/Police.png",
+          "data/images/FL/Public Service Commission.png"
+        ]
       }
     },
     {
@@ -198,10 +237,15 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/FL/FL_image-060.jpg",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/FL/FL_image-060.jpg",
+          "data/images/FL/FL_image-061.jpg",
+          "data/images/FL/FL_image-064.jpg",
+          "data/images/FL/dealer.png"
+        ]
       }
     },
     {
@@ -414,10 +458,19 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/FL/FL_image-084.jpg",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/FL/FL_image-084.jpg",
+          "data/images/FL/FL_image-089.jpg",
+          "data/images/FL/FL_image-090.jpg",
+          "data/images/FL/FL_image-107.jpg",
+          "data/images/FL/FL_image-108.jpg",
+          "data/images/FL/FL_image-115.jpg",
+          "data/images/FL/FL_image-194.jpg",
+          "data/images/FL/former-mil-vehicle.png"
+        ]
       }
     },
     {
@@ -738,10 +791,19 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/FL/FL_image-016.jpg",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/FL/FL_image-016.jpg",
+          "data/images/FL/FL_image-043.jpg",
+          "data/images/FL/FL_image-065.jpg",
+          "data/images/FL/FL_image-080.jpg",
+          "data/images/FL/FL_image-098.jpg",
+          "data/images/FL/FL_image-166.jpg",
+          "data/images/FL/antique.png",
+          "data/images/FL/Amateur Radio.png"
+        ]
       }
     },
     {
@@ -792,10 +854,37 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/FL/FL_image-015.jpg",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/FL/FL_image-015.jpg",
+          "data/images/FL/FL_image-063.jpg",
+          "data/images/FL/FL_image-113.jpg",
+          "data/images/FL/FL_image-170.jpg",
+          "data/images/FL/FL_image-210.jpg",
+          "data/images/FL/FL_image-211.jpg",
+          "data/images/FL/FL_image-212.jpg",
+          "data/images/FL/FL_image-214.jpg",
+          "data/images/FL/Apply for Workforce Innovation.png",
+          "data/images/FL/Miccosukee Indian.png",
+          "data/images/FL/seminole-indian.png",
+          "data/images/FL/motorcycle-county.png",
+          "data/images/FL/motorcycle-city.png",
+          "data/images/FL/motorcycle-Antique.png",
+          "data/images/FL/motorcycle-Specialty.png",
+          "data/images/FL/motorcycle-Florida Highway Patrol.png",
+          "data/images/FL/motorcycle-Disabled Veteran.png",
+          "data/images/FL/motorcycle-disabled-person-wheelchair.png",
+          "data/images/FL/motorcycle-dealer.png",
+          "data/images/FL/motorcycle-Miccosukee Indian.png",
+          "data/images/FL/motorcycle-Manufacturer.png",
+          "data/images/FL/Motorcycle-Former Military Vehicle.png",
+          "data/images/FL/motorcycle-state.png",
+          "data/images/FL/motorcycle-standard.png",
+          "data/images/FL/motorcycle-Seminole Indian.png",
+          "data/images/FL/motorcycle-Paralyzed Veterans of America.png"
+        ]
       }
     },
     {
@@ -1386,10 +1475,24 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/FL/FL_image-017.jpg",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/FL/FL_image-017.jpg",
+          "data/images/FL/FL_image-046.jpg",
+          "data/images/FL/FL_image-104.jpg",
+          "data/images/FL/FL_image-109.jpg",
+          "data/images/FL/FL_image-173.jpg",
+          "data/images/FL/FL_image-174.jpg",
+          "data/images/FL/FL_image-185.jpg",
+          "data/images/FL/FL_image-188.jpg",
+          "data/images/FL/FL_image-189.jpg",
+          "data/images/FL/FL_image-190.jpg",
+          "data/images/FL/FL_image-191.jpg",
+          "data/images/FL/FL_image-195.jpg",
+          "data/images/FL/Florida National Guard.png"
+        ]
       }
     },
     {
@@ -1656,10 +1759,28 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/FL/FL_image-011.jpg",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/FL/FL_image-011.jpg",
+          "data/images/FL/FL_image-041.jpg",
+          "data/images/FL/FL_image-106.jpg",
+          "data/images/FL/FL_image-121.jpg",
+          "data/images/FL/FL_image-149.jpg",
+          "data/images/FL/FL_image-150.jpg",
+          "data/images/FL/FL_image-151.jpg",
+          "data/images/FL/FL_image-161.jpg",
+          "data/images/FL/permanent-trailer.png",
+          "data/images/FL/Emergency Management Personnel.png",
+          "data/images/FL/gov-city.png",
+          "data/images/FL/Department of Transportation.png",
+          "data/images/FL/Department of Environmental Protection.png",
+          "data/images/FL/Labor - Employment Security.png",
+          "data/images/FL/gov-pride.png",
+          "data/images/FL/gov-state.png",
+          "data/images/FL/Water Management District.png"
+        ]
       }
     },
     {
@@ -2466,10 +2587,22 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/FL/FL_image-072.jpg",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/FL/FL_image-072.jpg",
+          "data/images/FL/FL_image-082.jpg",
+          "data/images/FL/FL_image-163.jpg",
+          "data/images/FL/FL_image-164.jpg",
+          "data/images/FL/FL_image-165.jpg",
+          "data/images/FL/FL_image-175.jpg",
+          "data/images/FL/FL_image-176.jpg",
+          "data/images/FL/FL_image-182.jpg",
+          "data/images/FL/FL_image-183.jpg",
+          "data/images/FL/FL_image-186.jpg",
+          "data/images/FL/Emergency Medical Services.png"
+        ]
       }
     },
     {
@@ -2798,10 +2931,29 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/FL/plate1-1.jpg",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/FL/plate1-1.jpg",
+          "data/images/FL/plate3-1.jpg",
+          "data/images/FL/FL_image-007.jpg",
+          "data/images/FL/FL_image-031.jpg",
+          "data/images/FL/FL_image-047.jpg",
+          "data/images/FL/FL_image-068.jpg",
+          "data/images/FL/FL_image-073.jpg",
+          "data/images/FL/FL_image-112.jpg",
+          "data/images/FL/FL_image-181.jpg",
+          "data/images/FL/FL_image-197.jpg",
+          "data/images/FL/FL_image-198.jpg",
+          "data/images/FL/FL_image-199.jpg",
+          "data/images/FL/FL_image-200.jpg",
+          "data/images/FL/transporter.png",
+          "data/images/FL/vet-disabled.png",
+          "data/images/FL/Disabled Veteran.png",
+          "data/images/FL/disabled-wheelchair.png",
+          "data/images/FL/Paralyzed Veterans of America.png"
+        ]
       }
     },
     {
@@ -4658,10 +4810,18 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/FL/FL_image-074.jpg",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/FL/FL_image-074.jpg",
+          "data/images/FL/FL_image-127.jpg",
+          "data/images/FL/Support Homeownership For All.png",
+          "data/images/FL/support-education.png",
+          "data/images/FL/support-autism.png",
+          "data/images/FL/apportioned-irp.png",
+          "data/images/FL/Stop Heart Disease.png"
+        ]
       }
     },
     {
@@ -14455,6 +14615,1365 @@
         "blank_template": null,
         "variations": []
       }
+    },
+    {
+      "type_name": "Standard  - Sunshine",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Standard  - Sunshine plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "passenger",
+      "subtype": "standard__-_sunshine",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Standard  - Sunshine"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/plate1-1.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/plate1-1.jpg",
+          "data/images/FL/plate2-1.jpg",
+          "data/images/FL/FL_image-187.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Standard  - County",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Standard  - County plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "passenger",
+      "subtype": "standard__-_county",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Standard  - County"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/plate3-1.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/plate3-1.jpg",
+          "data/images/FL/FL_image-102.jpg",
+          "data/images/FL/FL_image-113.jpg",
+          "data/images/FL/FL_image-150.jpg",
+          "data/images/FL/wrecker-standard.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Go Fishing (Largemouth Bass)",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Go Fishing (Largemouth Bass) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "go_fishing_(largemouth_bass)",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Go Fishing (Largemouth Bass)"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-055.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-055.jpg",
+          "data/images/FL/FL_image-054.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "HOSPICE: Every Day Is A Gift",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL HOSPICE: Every Day Is A Gift plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "hospice:_every_day_is_a_gift",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for HOSPICE: Every Day Is A Gift"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-114.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-114.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Scouting Teaches Values (Boy Scouts of America)",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Scouting Teaches Values (Boy Scouts of America) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "scouting_teaches_values_(boy_scouts_of_america)",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Scouting Teaches Values (Boy Scouts of America)"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-123.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-123.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Alpha Phi Alpha",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Alpha Phi Alpha plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "alpha_phi_alpha",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Alpha Phi Alpha"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-130.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-130.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Alpha Kappa Alpha",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Alpha Kappa Alpha plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "alpha_kappa_alpha",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Alpha Kappa Alpha"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-131.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-131.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Delta Sigma Theta",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Delta Sigma Theta plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "delta_sigma_theta",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Delta Sigma Theta"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-132.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-132.jpg",
+          "data/images/FL/FL_image-091.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Iota Phi Theta",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Iota Phi Theta plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "iota_phi_theta",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Iota Phi Theta"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-133.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-133.jpg",
+          "data/images/FL/FL_image-086.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Kappa Alpha Psi",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Kappa Alpha Psi plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "kappa_alpha_psi",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Kappa Alpha Psi"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-134.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-134.jpg",
+          "data/images/FL/FL_image-094.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Omega Psi Phi",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Omega Psi Phi plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "omega_psi_phi",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Omega Psi Phi"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-135.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-135.jpg",
+          "data/images/FL/FL_image-060.jpg",
+          "data/images/FL/FL_image-064.jpg",
+          "data/images/FL/FL_image-093.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Phi Beta Sigma",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Phi Beta Sigma plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "phi_beta_sigma",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Phi Beta Sigma"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-136.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-136.jpg",
+          "data/images/FL/FL_image-057.jpg",
+          "data/images/FL/FL_image-192.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Sigma Gamma Rho",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Sigma Gamma Rho plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "sigma_gamma_rho",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Sigma Gamma Rho"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-137.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-137.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Zeta Phi Beta",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Zeta Phi Beta plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "zeta_phi_beta",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Zeta Phi Beta"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-138.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-138.jpg",
+          "data/images/FL/FL_image-063.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Gadsden Flag (DTOM)",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Gadsden Flag (DTOM) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "gadsden_flag_(dtom)",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Gadsden Flag (DTOM)"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-139.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-139.jpg",
+          "data/images/FL/FL_image-168.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Authenticated (The owner provides the license plate, not the State.)",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Authenticated (The owner provides the license plate, not the State.) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "authenticated_(the_owner_provides_the_license_plate,_not_the_state.)",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Authenticated (The owner provides the license plate, not the State.)"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-140.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-140.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Ex-Prisoner of War",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Ex-Prisoner of War plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "ex-prisoner_of_war",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Ex-Prisoner of War"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-179.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-179.jpg",
+          "data/images/FL/FL_image-051.jpg",
+          "data/images/FL/FL_image-129.jpg",
+          "data/images/FL/FL_image-172.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Veteran of U.S. Armed Forces",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Veteran of U.S. Armed Forces plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "veteran_of_u.s._armed_forces",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Veteran of U.S. Armed Forces"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FL_image-197.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FL_image-197.jpg",
+          "data/images/FL/FL_image-048.jpg",
+          "data/images/FL/FL_image-075.jpg",
+          "data/images/FL/FL_image-078.jpg",
+          "data/images/FL/Paralyzed Veterans of America.png",
+          "data/images/FL/Division of Motor Vehicles.png",
+          "data/images/FL/Florida Department of Veterans Afairs.png",
+          "data/images/FL/state of the arts.png",
+          "data/images/FL/motorcycle-Paralyzed Veterans of America.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Heavy Truck Dual Plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Heavy Truck Dual Plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "heavy_truck_dual_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Heavy Truck Dual Plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/heavy-truck-dual-plates.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/heavy-truck-dual-plates.png",
+          "data/images/FL/FL_image-100.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Wrecker - Gross Vehicle Weight",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Wrecker - Gross Vehicle Weight plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "wrecker_-_gross_vehicle_weight",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Wrecker - Gross Vehicle Weight"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/Wrecker-Gross Vehicle Weight.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/Wrecker-Gross Vehicle Weight.png",
+          "data/images/FL/FL_image-007.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Vet disabled",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Vet disabled plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "disabled",
+      "subtype": "vet_disabled",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Vet disabled"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/vet-disabled.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/vet-disabled.png",
+          "data/images/FL/FL_image-092.jpg",
+          "data/images/FL/FL_image-128.jpg",
+          "data/images/FL/Disabled Veteran.png",
+          "data/images/FL/disabled-wheelchair.png",
+          "data/images/FL/dealer.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Fire",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Fire plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "fire",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Fire"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/fire.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/fire.png",
+          "data/images/FL/FL_image-043.jpg",
+          "data/images/FL/FL_image-151.jpg",
+          "data/images/FL/FL_image-167.jpg",
+          "data/images/FL/FL_image-190.jpg",
+          "data/images/FL/fleet.png",
+          "data/images/FL/permanent-trailer.png",
+          "data/images/FL/gov-city.png",
+          "data/images/FL/gov-pride.png",
+          "data/images/FL/Volunteer Fire Department.png",
+          "data/images/FL/Stop Heart Disease.png",
+          "data/images/FL/Press.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Emergency Medical Services",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Emergency Medical Services plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "recreational",
+      "subtype": "emergency_medical_services",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Emergency Medical Services"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/Emergency Medical Services.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/Emergency Medical Services.png",
+          "data/images/FL/FL_image-111.jpg",
+          "data/images/FL/Agriculture Consumer Services.png",
+          "data/images/FL/Exempt Series.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Emergency Management Personnel",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Emergency Management Personnel plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "emergency_management_personnel",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Emergency Management Personnel"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/Emergency Management Personnel.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/Emergency Management Personnel.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "FWC Oficer",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL FWC Oficer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "fwc_oficer",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for FWC Oficer"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/FWC Oficer.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/FWC Oficer.png",
+          "data/images/FL/FL_image-089.jpg",
+          "data/images/FL/FL_image-106.jpg",
+          "data/images/FL/FL_image-107.jpg",
+          "data/images/FL/FL_image-122.jpg",
+          "data/images/FL/Police.png",
+          "data/images/FL/Custom Vehicle.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Water Managment District",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "FL Water Managment District plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "water_managment_district",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Water Managment District"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/FL/Water Management District.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/FL/Water Management District.png",
+          "data/images/FL/FL_image-090.jpg",
+          "data/images/FL/restricted.png",
+          "data/images/FL/North Broward Hospital District.png",
+          "data/images/FL/Labor - Employment Security.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
     }
   ]
 }

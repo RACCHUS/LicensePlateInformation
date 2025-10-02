@@ -1,0 +1,3308 @@
+{
+  "state": "WA",
+  "state_name": "washington",
+  "existing_count": 2,
+  "new_count": 66,
+  "new_plate_types": [
+    {
+      "type_name": "Central Washington University",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Central Washington University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "central_washington_university",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Central Washington University"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/CWUplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/CWUplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Eastern Washington University",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Eastern Washington University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "eastern_washington_university",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Eastern Washington University"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/EWUplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/EWUplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "The Evergreen State College",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA The Evergreen State College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "the_evergreen_state_college",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for The Evergreen State College"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/TESCplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/TESCplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Gonzaga University",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Gonzaga University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "gonzaga_university",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Gonzaga University"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/gonzagaPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/gonzagaPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "University of Washington",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA University of Washington plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "university_of_washington",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for University of Washington"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/UWplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/UWplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Washington State University",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Washington State University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "washington_state_university",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Washington State University"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/WSUplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/WSUplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Western Washington University",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Western Washington University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "western_washington_university",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Western Washington University"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/WWUplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/WWUplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Seattle University",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Seattle University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "seattle_university",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Seattle University"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/seattle-univ-plate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/seattle-univ-plate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Air Force",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Air Force plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "air_force",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Air Force"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/airforcePlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/airforcePlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Army",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Army plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "army",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Army"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/armyPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/armyPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Coast Guard",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Coast Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "coast_guard",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Coast Guard"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/coastguardPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/coastguardPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Marine Corps",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Marine Corps plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "marine_corps",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Marine Corps"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/marinesPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/marinesPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "National Guard",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "national_guard",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for National Guard"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/NationalGuardPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/NationalGuardPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Navy",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Navy plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "navy",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Navy"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/navyPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/navyPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Gold Star",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Gold Star plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "gold_star",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Gold Star"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/goldstarPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/goldstarPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Disabled American Veteran",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Disabled American Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "disabled_american_veteran",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Disabled American Veteran"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/disabledVetPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/disabledVetPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Purple Heart",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Purple Heart plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "purple_heart",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Purple Heart"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/purpleheartPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/purpleheartPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Former Prisoner of War",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Former Prisoner of War plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "former_prisoner_of_war",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Former Prisoner of War"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/formerPOWplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/formerPOWplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Medal of Honor",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Medal of Honor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "medal_of_honor",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Medal of Honor"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/MOHplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/MOHplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Military Affiliate Radio System (MARS)",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Military Affiliate Radio System (MARS) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "military_affiliate_radio_system_(mars)",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Military Affiliate Radio System (MARS)"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/MARSplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/MARSplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Veteran/Military Service Award emblems",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Veteran/Military Service Award emblems plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "veteran/military_service_award_emblems",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Veteran/Military Service Award emblems"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/vetemblems.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/vetemblems.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Prevent veteran suicide emblem",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Prevent veteran suicide emblem plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "prevent_veteran_suicide_emblem",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Prevent veteran suicide emblem"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/lifeline-plate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/lifeline-plate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "4-H",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA 4-H plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "4-h",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for 4-H"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/4Hplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/4Hplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "FFA Foundation",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA FFA Foundation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "ffa_foundation",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for FFA Foundation"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/FFAplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/FFAplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Fred Hutchinson Cancer Center",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Fred Hutchinson Cancer Center plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "fred_hutchinson_cancer_center",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Fred Hutchinson Cancer Center"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/fredhutchplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/fredhutchplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Helping Kids Speak",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Helping Kids Speak plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "helping_kids_speak",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Helping Kids Speak"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/HelpingKidsSpeakPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/HelpingKidsSpeakPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "J.P. Patches Pal",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA J.P. Patches Pal plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "j.p._patches_pal",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for J.P. Patches Pal"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/patches-pal-plate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/patches-pal-plate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Keep Kids Safe",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Keep Kids Safe plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "keep_kids_safe",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Keep Kids Safe"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/KeepKidsSafePlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/KeepKidsSafePlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Law Enforcement Memorial",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Law Enforcement Memorial plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "law_enforcement_memorial",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Law Enforcement Memorial"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/LEMplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/LEMplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Lighthouse",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Lighthouse plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "lighthouse",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Lighthouse"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/lighthousePlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/lighthousePlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Pets",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Pets plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "pets",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Pets"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/petsPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/petsPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Professional Firefighter",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Professional Firefighter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "professional_firefighter",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Professional Firefighter"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/firefighterPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/firefighterPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Volunteer Firefighter",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Volunteer Firefighter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "volunteer_firefighter",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Volunteer Firefighter"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/VolunteerFirefighterPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/VolunteerFirefighterPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Endangered Wildlife: Orca",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Endangered Wildlife: Orca plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "endangered_wildlife:_orca",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Endangered Wildlife: Orca"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/orcaPlate.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/orcaPlate.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Washington's Wildlife: Bear",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Washington's Wildlife: Bear plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "washington's_wildlife:_bear",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Washington's Wildlife: Bear"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/bearPlate.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/bearPlate.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Washington's Wildlife: Deer",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Washington's Wildlife: Deer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "washington's_wildlife:_deer",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Washington's Wildlife: Deer"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/deerPlate.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/deerPlate.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Washington's Wildlife: Elk",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Washington's Wildlife: Elk plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "washington's_wildlife:_elk",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Washington's Wildlife: Elk"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/elkPlate.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/elkPlate.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Washington's Wildlife: Steelhead",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Washington's Wildlife: Steelhead plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "washington's_wildlife:_steelhead",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Washington's Wildlife: Steelhead"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/SteelheadPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/SteelheadPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Wild on Washington: Eagle",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Wild on Washington: Eagle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "wild_on_washington:_eagle",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Wild on Washington: Eagle"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/eaglePlate.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/eaglePlate.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Washington National Parks",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Washington National Parks plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "washington_national_parks",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Washington National Parks"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/NationalParksPlate.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/NationalParksPlate.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Washington State Parks",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Washington State Parks plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "washington_state_parks",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Washington State Parks"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/StateParksPlate.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/StateParksPlate.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Amateur Radio Operator (HAM)",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Amateur Radio Operator (HAM) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "amateur_radio_operator_(ham)",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Amateur Radio Operator (HAM)"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/HAMplate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/HAMplate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Aviation",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Aviation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "aviation",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Aviation"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/AviationPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/AviationPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Breast Cancer",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Breast Cancer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "breast_cancer",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Breast Cancer"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/Breast-cancer-plate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/Breast-cancer-plate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Music Matters",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Music Matters plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "music_matters",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Music Matters"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/musicPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/musicPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "San Juan Islands",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA San Juan Islands plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "san_juan_islands",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for San Juan Islands"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/SanJuanIslandsPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/SanJuanIslandsPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Seattle Kraken",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Seattle Kraken plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "seattle_kraken",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Seattle Kraken"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/kraken-plate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/kraken-plate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Seattle Mariners",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Seattle Mariners plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "seattle_mariners",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Seattle Mariners"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/marinersPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/marinersPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Seattle Seahawks",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Seattle Seahawks plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "seattle_seahawks",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Seattle Seahawks"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/seahawksPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/seahawksPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Seattle Sounders FC",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Seattle Sounders FC plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "seattle_sounders_fc",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Seattle Sounders FC"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/soundersPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/soundersPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Seattle Storm",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Seattle Storm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "seattle_storm",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Seattle Storm"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/stormPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/stormPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Share the Road",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Share the Road plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "share_the_road",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Share the Road"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/ShareRoadPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/ShareRoadPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Ski and Ride",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Ski and Ride plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "ski_and_ride",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Ski and Ride"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/skiPlate.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/skiPlate.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "State Flower",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA State Flower plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "state_flower",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for State Flower"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/StateFlowerPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/StateFlowerPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Square Dancer",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Square Dancer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "square_dancer",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Square Dancer"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/squaredancePlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/squaredancePlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Tennis",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Tennis plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "tennis",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Tennis"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/TennisPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/TennisPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Washington Apple Commission",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Washington Apple Commission plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "washington_apple_commission",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Washington Apple Commission"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/WashingtonApplesPlate.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/WashingtonApplesPlate.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Washington Wine Commission",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Washington Wine Commission plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "washington_wine_commission",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Washington Wine Commission"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/wine-country-plate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/wine-country-plate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Wrestling",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Wrestling plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "wrestling",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Wrestling"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/WrestlingPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/WrestlingPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Chehalis Tribe",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Chehalis Tribe plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "chehalis_tribe",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Chehalis Tribe"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/chehalis-tribe-plate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/chehalis-tribe-plate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Disabled Parking",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Disabled Parking plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "disabled",
+      "subtype": "disabled_parking",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Disabled Parking"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/DisabledParkingPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/DisabledParkingPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Rideshare",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Rideshare plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "rideshare",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Rideshare"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/ridesharePlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/ridesharePlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Collector Vehicle",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Collector Vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "collector_vehicle",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Collector Vehicle"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/collectorPlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/collectorPlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Horseless Carriage",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Horseless Carriage plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "horseless_carriage",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Horseless Carriage"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/HorselessCarriagePlate.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/HorselessCarriagePlate.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Restored plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Restored plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "antique",
+      "subtype": "restored_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Restored plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/restoredPlate.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/restoredPlate.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Honorary Consular plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "WA Honorary Consular plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "honorary_consular_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Honorary Consular plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/WA/HonorConsularPlate.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/WA/HonorConsularPlate.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    }
+  ]
+}

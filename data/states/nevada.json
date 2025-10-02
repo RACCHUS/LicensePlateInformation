@@ -74,11 +74,3369 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/NV/eaglescout.png",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/NV/eaglescout.png",
+          "data/images/NV/healthcenters.jpg",
+          "data/images/NV/desert.png",
+          "data/images/NV/forever.png",
+          "data/images/NV/laketahoe.jpg",
+          "data/images/NV/organdonor.jpg",
+          "data/images/NV/rodeo.jpg"
+        ]
       }
+    },
+    {
+      "type_name": "Amateur Radio",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Amateur Radio plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "amateur_radio",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Amateur Radio"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/amateurradio.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/amateurradio.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Civil Air Patrol",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Civil Air Patrol plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "civil_air_patrol",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Civil Air Patrol"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/civilairpatrol.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/civilairpatrol.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Decorated Peace Officer",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Decorated Peace Officer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "decorated_peace_officer",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Decorated Peace Officer"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/peaceofficer.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/peaceofficer.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Eagle Scout",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Eagle Scout plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "eagle_scout",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Eagle Scout"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/eaglescout.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/eaglescout.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Electric Vehicle",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Electric Vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "electric_vehicle",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Electric Vehicle"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/electric.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/electric.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Girl Scout Gold Award",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Girl Scout Gold Award plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "girl_scout_gold_award",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Girl Scout Gold Award"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/girlscout.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/girlscout.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Hall of Fame",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Hall of Fame plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "hall_of_fame",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Hall of Fame"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/halloffame.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/halloffame.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Masonic Lodge Award",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Masonic Lodge Award plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "masonic_lodge_award",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Masonic Lodge Award"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/masons.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/masons.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "National Guard",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "national_guard",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for National Guard"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/nationalguard.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/nationalguard.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Press",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Press plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "press",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Press"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/press.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/press.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Professional Firefighter",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Professional Firefighter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "professional_firefighter",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Professional Firefighter"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/firefighter.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/firefighter.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Volunteer Firefighter",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Volunteer Firefighter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "volunteer_firefighter",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Volunteer Firefighter"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/firevolunteer.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/firevolunteer.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Home Means Nevada",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Home Means Nevada plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "home_means_nevada",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Home Means Nevada"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/hmn.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/hmn.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Disabled",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Disabled plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "disabled",
+      "subtype": "disabled",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Disabled"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/disabled.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/disabled.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Circa 1982 Replica",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Circa 1982 Replica plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "circa_1982_replica",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Circa 1982 Replica"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/replica.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/replica.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Exempt Plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Exempt Plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "exempt_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Exempt Plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/exempt.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/exempt.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Agriculture",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Agriculture plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "agriculture",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Agriculture"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/agriculture.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/agriculture.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Animal Appreciation",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Animal Appreciation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "animal_appreciation",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Animal Appreciation"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/spayneuter.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/spayneuter.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Breast Cancer Awareness",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Breast Cancer Awareness plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "breast_cancer_awareness",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Breast Cancer Awareness"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/healthcenters.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/healthcenters.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Childhood Cancer",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Childhood Cancer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "childhood_cancer",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Childhood Cancer"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/childhoodcancer.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/childhoodcancer.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Children in the Arts",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Children in the Arts plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "children_in_the_arts",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Children in the Arts"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/childreninarts.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/childreninarts.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Citizenship Project",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Citizenship Project plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "citizenship_project",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Citizenship Project"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/citizen.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/citizen.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Conserve Wildlife",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Conserve Wildlife plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "conserve_wildlife",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Conserve Wildlife"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/conserve_wildlife.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/conserve_wildlife.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Desert Conservation",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Desert Conservation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "desert_conservation",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Desert Conservation"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/desert.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/desert.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Forever Strong",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Forever Strong plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "forever_strong",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Forever Strong"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/forever.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/forever.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Friends of Las Vegas Metro PD",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Friends of Las Vegas Metro PD plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "friends_of_las_vegas_metro_pd",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Friends of Las Vegas Metro PD"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/metropd.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/metropd.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Golden Rule",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Golden Rule plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "golden_rule",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Golden Rule"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/golden.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/golden.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Hoover Dam",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Hoover Dam plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "hoover_dam",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Hoover Dam"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/hooverdam.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/hooverdam.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Hot August Nights",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Hot August Nights plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "hot_august_nights",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Hot August Nights"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/hotaugust.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/hotaugust.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Lake Tahoe",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Lake Tahoe plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "lake_tahoe",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Lake Tahoe"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/laketahoe.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/laketahoe.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Las Vegas Commemorative",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Las Vegas Commemorative plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "las_vegas_commemorative",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Las Vegas Commemorative"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/lvcentennial.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/lvcentennial.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Missing and Exploited Children",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Missing and Exploited Children plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "missing_and_exploited_children",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Missing and Exploited Children"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/missing.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/missing.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Mount Charleston",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Mount Charleston plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "mount_charleston",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Mount Charleston"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/mtcharleston.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/mtcharleston.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Nevada Bighorns Unlimited",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Nevada Bighorns Unlimited plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "nevada_bighorns_unlimited",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Nevada Bighorns Unlimited"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/nbu.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/nbu.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Nevada Test Site",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Nevada Test Site plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "nevada_test_site",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Nevada Test Site"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/atomic.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/atomic.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Opportunity Village",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Opportunity Village plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "opportunity_village",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Opportunity Village"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/opportunity-village.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/opportunity-village.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Organ Donor",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Organ Donor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "organ_donor",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Organ Donor"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/organdonor.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/organdonor.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Pyramid Lake",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Pyramid Lake plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "pyramid_lake",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Pyramid Lake"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/pyramidlake.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/pyramidlake.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Raiders",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Raiders plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "raiders",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Raiders"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/raiders.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/raiders.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Red Rock Canyon",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Red Rock Canyon plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "red_rock_canyon",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Red Rock Canyon"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/redrock.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/redrock.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Reno Air Races",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Reno Air Races plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "reno_air_races",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Reno Air Races"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/renoair.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/renoair.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Rodeo",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Rodeo plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "rodeo",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Rodeo"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/rodeo.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/rodeo.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "STEM Education",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV STEM Education plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "stem_education",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for STEM Education"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/stem.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/stem.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Support Wildlife",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Support Wildlife plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "support_wildlife",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Support Wildlife"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/wildlife.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/wildlife.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Ultimate Fighting Championship",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Ultimate Fighting Championship plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "ultimate_fighting_championship",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Ultimate Fighting Championship"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/ufc.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/ufc.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "United We Stand",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV United We Stand plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "united_we_stand",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for United We Stand"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/uws.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/uws.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "UNLV Collegiate",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV UNLV Collegiate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "unlv_collegiate",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for UNLV Collegiate"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/unlv.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/unlv.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "UNR Collegiate",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV UNR Collegiate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "unr_collegiate",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for UNR Collegiate"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/unrcollegiate.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/unrcollegiate.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Vegas Golden Knights",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Vegas Golden Knights plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "vegas_golden_knights",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Vegas Golden Knights"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/vgk.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/vgk.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Virginia & Truckee Railroad",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Virginia & Truckee Railroad plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "virginia_&_truckee_railroad",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Virginia & Truckee Railroad"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/vtrailroad.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/vtrailroad.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Street Rod",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Street Rod plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "street_rod",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Street Rod"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/streetrod.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/streetrod.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Fire Truck",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Fire Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "fire_truck",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Fire Truck"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/firetruck.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/firetruck.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Antique Truck/Truck-Tractor",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Antique Truck/Truck-Tractor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "antique_truck/truck-tractor",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Antique Truck/Truck-Tractor"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/antiquetruck.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/antiquetruck.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Retired Military",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Retired Military plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "retired_military",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Retired Military"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/retired_military.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/retired_military.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Vintage",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Vintage plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "antique",
+      "subtype": "vintage",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Vintage"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/1961.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/1961.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Horseless Carriage",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Horseless Carriage plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "horseless_carriage",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Horseless Carriage"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/horselesscarriage.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/horselesscarriage.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "All Veterans & Families",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV All Veterans & Families plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "all_veterans_&_families",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for All Veterans & Families"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/veteranairforce.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/veteranairforce.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Disabled & Disabled Female Veteran",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Disabled & Disabled Female Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "disabled_&_disabled_female_veteran",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Disabled & Disabled Female Veteran"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/disabled_vet.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/disabled_vet.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Congressional Medal of Honor",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Congressional Medal of Honor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "congressional_medal_of_honor",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Congressional Medal of Honor"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/medalofhonor.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/medalofhonor.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Silver Star",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Silver Star plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "silver_star",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Silver Star"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/silver.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/silver.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Bronze Star (with valor)",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Bronze Star (with valor) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "bronze_star_(with_valor)",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Bronze Star (with valor)"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/bronze.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/bronze.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Ex-Prisoner of War",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Ex-Prisoner of War plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "ex-prisoner_of_war",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Ex-Prisoner of War"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/expow.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/expow.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Fallen Military",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Fallen Military plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "fallen_military",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Fallen Military"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/fallen.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/fallen.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Gold Star",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Gold Star plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "gold_star",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Gold Star"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/goldstar.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/goldstar.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Pearl Harbor Survivor/Veteran",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Pearl Harbor Survivor/Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "pearl_harbor_survivor/veteran",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Pearl Harbor Survivor/Veteran"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/pearlharborsurvivor.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/pearlharborsurvivor.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Purple Heart",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV Purple Heart plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "purple_heart",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Purple Heart"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/purpleheart.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/purpleheart.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "National Guard (active duty)",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "NV National Guard (active duty) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "national_guard_(active_duty)",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for National Guard (active duty)"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/NV/nationalguard.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/NV/nationalguard.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
     }
   ],
   "uses_zero_for_o": true,
@@ -86,7 +3444,7 @@
   "zero_is_slashed": false,
   "notes": "Nevada does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Source: OOS.txt compilation - requires verification with official DMV documentation. Does not use letter 'O' on standard plates. Always use zero '0'.",
   "main_font": "Custom sans serif, proprietary",
-  "main_logo": "State Logo Description",
+  "main_logo": "Mountain range with sun rays",
   "main_plate_text": "State Name or Abbreviation",
   "sticker_format": {
     "color": "#FFFFFF",

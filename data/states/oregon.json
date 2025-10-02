@@ -76,10 +76,15 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/OR/OR-other-plates_image-016.jpg",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/OR/OR-other-plates_image-016.jpg",
+          "data/images/OR/OR-other-plates_image-026.jpg",
+          "data/images/OR/OR-other-plates_image-039.jpg",
+          "data/images/OR/OR-op_image-014.jpg"
+        ]
       }
     },
     {
@@ -135,11 +140,2718 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/OR/OR-other-plates_image-028.jpg",
         "character_font_sample": null,
         "blank_template": null,
-        "variations": []
+        "variations": [
+          "data/images/OR/OR-other-plates_image-028.jpg",
+          "data/images/OR/OR-other-plates_image-037.jpg",
+          "data/images/OR/OR-other-plates_image-044.jpg",
+          "data/images/OR/OR-op_image-008.jpg",
+          "data/images/OR/OR-op_image-017.jpg",
+          "data/images/OR/OR-op_image-024.jpg"
+        ]
       }
+    },
+    {
+      "type_name": "Amateur (HAM) Radio Operator",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Amateur (HAM) Radio Operator plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "amateur_(ham)_radio_operator",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Amateur (HAM) Radio Operator"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-000.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-000.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Antique",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Antique plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "antique",
+      "subtype": "antique",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Antique"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-001.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-001.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Bus",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "bus",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Bus"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-002.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-002.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Camper",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Camper plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "recreational",
+      "subtype": "camper",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Camper"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-004.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-004.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Camper - Custom",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Camper - Custom plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "recreational",
+      "subtype": "camper_-_custom",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Camper - Custom"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-006.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-006.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Ex-POW",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Ex-POW plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "ex-pow",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Ex-POW"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-011.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-011.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Ex-POW - Motorcycle",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Ex-POW - Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "motorcycle",
+      "subtype": "ex-pow_-_motorcycle",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Ex-POW - Motorcycle"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-007.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-007.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Farm",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Farm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "farm",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Farm"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-013.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-013.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Heavy Trailer",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Heavy Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "heavy_trailer",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Heavy Trailer"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-015.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-015.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Moped",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Moped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "motorcycle",
+      "subtype": "moped",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Moped"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-016.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-016.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Motorcycle",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "motorcycle",
+      "subtype": "motorcycle",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Motorcycle"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-019.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-019.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Moped / Motorcycle – Custom",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Moped / Motorcycle – Custom plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "motorcycle",
+      "subtype": "moped_/_motorcycle_–_custom",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Moped / Motorcycle – Custom"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-018.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-018.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Motor Home",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Motor Home plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "motor_home",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Motor Home"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Motor Home - Custom",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Motor Home - Custom plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "motor_home_-_custom",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Motor Home - Custom"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-024.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-024.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "National Guard",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "national_guard",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for National Guard"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-023.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-023.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Racing Activity Vehicle",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Racing Activity Vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "racing_activity_vehicle",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Racing Activity Vehicle"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-027.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-027.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Snowmobile",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Snowmobile plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "snowmobile",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Snowmobile"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-026.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-026.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Travel Trailer",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Travel Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "travel_trailer",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Travel Trailer"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-032.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-032.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Travel Trailer - Custom",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Travel Trailer - Custom plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "travel_trailer_-_custom",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Travel Trailer - Custom"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-030.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-030.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Truck",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "truck",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Truck"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-029.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-029.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Utility/Light Trailer",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Utility/Light Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "utility/light_trailer",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Utility/Light Trailer"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-034.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-034.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Charitable/Non Profit",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Charitable/Non Profit plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "charitable/non_profit",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Charitable/Non Profit"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-037.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-037.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Fleet Vehicles",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Fleet Vehicles plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "fleet_vehicles",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Fleet Vehicles"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-035.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-035.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "For-Rent Trailers",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR For-Rent Trailers plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "for-rent_trailers",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for For-Rent Trailers"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-036.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-036.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Heavy Fixed Load",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Heavy Fixed Load plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "heavy_fixed_load",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Heavy Fixed Load"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-045.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-045.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Light Fixed Load",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Light Fixed Load plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "light_fixed_load",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Light Fixed Load"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-046.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-046.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Low-Speed Vehicles",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Low-Speed Vehicles plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "low-speed_vehicles",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Low-Speed Vehicles"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-041.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-041.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Medium-Speed Vehicles",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Medium-Speed Vehicles plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "medium-speed_vehicles",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Medium-Speed Vehicles"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-042.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-042.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "School Bus",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR School Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "school_bus",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for School Bus"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-043.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-043.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Special Use Trailer",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Special Use Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "special_use_trailer",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Special Use Trailer"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-044.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-044.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Tow/Recovery Vehicle",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Tow/Recovery Vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "tow/recovery_vehicle",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Tow/Recovery Vehicle"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-047.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-047.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Transporter",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Transporter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "transporter",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Transporter"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-other-plates_image-039.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-other-plates_image-039.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Standard Tree",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Standard Tree plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "passenger",
+      "subtype": "standard_tree",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Standard Tree"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-000.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-000.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Non-Commissioned Officers Association",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Non-Commissioned Officers Association plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "non-commissioned_officers_association",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Non-Commissioned Officers Association"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-001.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-001.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Oregon Professional Firefighters",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Oregon Professional Firefighters plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "oregon_professional_firefighters",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Oregon Professional Firefighters"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-005.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-005.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Paralyzed Veterans of America",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Paralyzed Veterans of America plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "paralyzed_veterans_of_america",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Paralyzed Veterans of America"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-006.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-006.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Share the Road",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Share the Road plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "share_the_road",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Share the Road"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-007.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-007.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Vietnam Veterans of America",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Vietnam Veterans of America plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "vietnam_veterans_of_america",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Vietnam Veterans of America"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-003.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-003.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Crater Lake",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Crater Lake plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "crater_lake",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Crater Lake"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-014.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-014.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Wine Country",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Wine Country plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "wine_country",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Wine Country"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-004.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-004.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Salmon",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Salmon plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "salmon",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Salmon"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-008.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-008.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Fallen Public Safety Officer",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Fallen Public Safety Officer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "fallen_public_safety_officer",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Fallen Public Safety Officer"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-010.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-010.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Oregon State University",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Oregon State University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "oregon_state_university",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Oregon State University"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-012.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-012.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Gray Whale",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Gray Whale plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "gray_whale",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Gray Whale"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-016.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-016.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Smokey Bear",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Smokey Bear plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "smokey_bear",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Smokey Bear"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-017.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-017.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Trail Blazers",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Trail Blazers plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "trail_blazers",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Trail Blazers"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-019.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-019.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "UOAA Ducks",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR UOAA Ducks plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "uoaa_ducks",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for UOAA Ducks"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-018.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-018.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Watch for Wildlife",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Watch for Wildlife plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "watch_for_wildlife",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Watch for Wildlife"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-027.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-027.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Cultural",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Cultural plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "cultural",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Cultural"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-025.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-025.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Pacific Wonderland",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Pacific Wonderland plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "pacific_wonderland",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Pacific Wonderland"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-024.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-024.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "disabled_veteran",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Disabled Veteran"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-023.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-023.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Ex-POW",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Ex-POW plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "ex-pow",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Ex-POW"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-plates_image-011.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-plates_image-011.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Veteran’s Plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Veteran’s Plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "veteran’s_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Veteran’s Plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-032.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-032.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Gold Star Family",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "OR Gold Star Family plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "gold_star_family",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Gold Star Family"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/OR/OR-op_image-037.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/OR/OR-op_image-037.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
     }
   ],
   "uses_zero_for_o": false,
@@ -147,7 +2859,7 @@
   "zero_is_slashed": false,
   "notes": "Oregon uses letter 'O' with letters/personalized plates and number '0' with numbers. Standard format varies. Source: OOS.txt compilation - requires verification with official DMV documentation. Interchangeable/treated as identical; O and 0 not distinguished for selection.",
   "main_font": "Modified sans serif, Highway Gothic style",
-  "main_logo": "State Logo Description",
+  "main_logo": "Beaver (state animal) or mountains with trees",
   "main_plate_text": "State Name or Abbreviation",
   "sticker_format": {
     "color": "#FFFFFF",

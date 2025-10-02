@@ -43,7 +43,7 @@ class StateSelectionPanel:
             'AS': 'American Samoa', 'GU': 'Guam', 'MP': 'Northern Mariana Islands',
             'PR': 'Puerto Rico', 'VI': 'US Virgin Islands',
             'GS': 'Government Service',
-            'ON': 'Ontario', 'AB': 'Alberta'
+            'ON': 'Ontario', 'AB': 'Alberta', 'QC': 'Quebec'
         }
         
         # Color groupings based on plate types and geographic proximity to Florida
@@ -60,10 +60,10 @@ class StateSelectionPanel:
             # All other states (excluding DC which goes with others)
             'other_states': [code for code in self.states_data.keys() 
                            if code not in ['FL', 'ME', 'MA', 'OH', 'IN', 'IL', 'AL', 'GA', 'SC', 'NC', 'TN', 'MS', 'LA'] 
-                           and code not in ['AS', 'GU', 'MP', 'PR', 'VI', 'GS', 'ON', 'AB', 'DC']],
+                           and code not in ['AS', 'GU', 'MP', 'PR', 'VI', 'GS', 'ON', 'AB', 'QC', 'DC']],
             
             # Other jurisdictions (territories, government, Canadian, DC)
-            'other_jurisdictions': ['AS', 'GU', 'MP', 'PR', 'VI', 'GS', 'ON', 'AB', 'DC']
+            'other_jurisdictions': ['AS', 'GU', 'MP', 'PR', 'VI', 'GS', 'ON', 'AB', 'QC', 'DC']
         }
         
         # Initialize the panel
@@ -102,17 +102,17 @@ class StateSelectionPanel:
         # Create ordered list: States first, then others at the end (keeping purple color)
         all_jurisdictions = []
         
-        # Add all states (excluding DC)
+        # Add all states (excluding DC and Canadian provinces)
         states_only = [
             (code, name) for code, name in self.states_data.items() 
-            if code not in ['AS', 'GU', 'MP', 'PR', 'VI', 'GS', 'ON', 'AB', 'DC']
+            if code not in ['AS', 'GU', 'MP', 'PR', 'VI', 'GS', 'ON', 'AB', 'QC', 'DC']
         ]
         all_jurisdictions.extend(states_only)
         
         # Add other jurisdictions at the end (including DC - keeping purple color to identify as "others")
         others = [
             (code, name) for code, name in self.states_data.items()
-            if code in ['AS', 'GU', 'MP', 'PR', 'VI', 'GS', 'ON', 'AB', 'DC']
+            if code in ['AS', 'GU', 'MP', 'PR', 'VI', 'GS', 'ON', 'AB', 'QC', 'DC']
         ]
         all_jurisdictions.extend(others)
         
@@ -183,17 +183,9 @@ class StateSelectionPanel:
     def clear_state_selection(self):
         """Clear any state button highlighting/selection"""
         print("🎨 Clearing state button highlighting")
-        # Reset all buttons to their default colors based on their category
-        for state_code, button in self.state_buttons.items():
-            # Determine color based on state category
-            if state_code == 'FL':
-                button.config(background='#ff6600')  # Orange for Florida
-            elif state_code in ['GA', 'SC', 'NC', 'TN', 'MS', 'AL']:
-                button.config(background='#4caf50')  # Green for FL-adjacent
-            elif state_code in ['Government Service', 'Ontario', 'Alberta']:
-                button.config(background='#9c27b0')  # Purple for other jurisdictions
-            else:
-                button.config(background='#808080')  # Gray for other states
+        # Note: ttk.Button styling is controlled by themes, not direct background config
+        # Buttons automatically revert to their defined style (Florida.TButton, etc.)
+        # No manual reset needed - the theme handles it
             
     def get_main_frame(self) -> tk.Widget:
         """Get the main panel frame"""

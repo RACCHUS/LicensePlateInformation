@@ -1,0 +1,2308 @@
+{
+  "state": "RI",
+  "state_name": "rhode_island",
+  "existing_count": 2,
+  "new_count": 46,
+  "new_plate_types": [
+    {
+      "type_name": "Ocean",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Ocean plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "ocean",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Ocean"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Ocean Passenger.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Ocean Passenger.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Wave",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Wave plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "wave",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Wave"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/img_plate_WAVE.webp",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/img_plate_WAVE.webp"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Sailboat",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Sailboat plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "recreational",
+      "subtype": "sailboat",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Sailboat"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI_D3826YT%20RI%20Sailboat-Ocean.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI_D3826YT%20RI%20Sailboat-Ocean.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Electric/Hybrid",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Electric/Hybrid plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "electric/hybrid",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Electric/Hybrid"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI_D3827YT%20RI%20Electric-Hybrid.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI_D3827YT%20RI%20Electric-Hybrid.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Firefighter",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Firefighter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "firefighter",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Firefighter"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI_D3835YT%20RI%20Firefighter.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI_D3835YT%20RI%20Firefighter.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Firefighter - Combination",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Firefighter - Combination plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "firefighter_-_combination",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Firefighter - Combination"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI_D3837YT%20RI%20Firefighter%20Combination.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI_D3837YT%20RI%20Firefighter%20Combination.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Firefighter - Commerical",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Firefighter - Commerical plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "firefighter_-_commerical",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Firefighter - Commerical"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI_D3836YT%20RI%20Firefighter%20Commercial.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI_D3836YT%20RI%20Firefighter%20Commercial.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Firefighter - Old Design",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Firefighter - Old Design plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "government",
+      "subtype": "firefighter_-_old_design",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Firefighter - Old Design"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI_D3803YT%20RI%20Firefighter-WITHWAVE.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI_D3803YT%20RI%20Firefighter-WITHWAVE.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Boston Bruins Foundation",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Boston Bruins Foundation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "boston_bruins_foundation",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Boston Bruins Foundation"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/bruins-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/bruins-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Bristol Fourth of July",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Bristol Fourth of July plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "bristol_fourth_of_july",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Bristol Fourth of July"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/bristol-fourth-of-july-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/bristol-fourth-of-july-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Conservation Through Education",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Conservation Through Education plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "conservation_through_education",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Conservation Through Education"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/conservation-through-education-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/conservation-through-education-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Gloria Gemma Breast Cancer Resource Foundation",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Gloria Gemma Breast Cancer Resource Foundation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "gloria_gemma_breast_cancer_resource_foundation",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Gloria Gemma Breast Cancer Resource Foundation"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/gloria-gemma-breast-cancer-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/gloria-gemma-breast-cancer-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "New England Patriots",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI New England Patriots plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "new_england_patriots",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for New England Patriots"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/ne-patriots-6x-champions-plate-2021.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/ne-patriots-6x-champions-plate-2021.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Plum Beach Lighthouse",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Plum Beach Lighthouse plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "plum_beach_lighthouse",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Plum Beach Lighthouse"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/plum-beach-lighthouse-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/plum-beach-lighthouse-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "RI Community Food Bank - Mr. Potato Head",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI RI Community Food Bank - Mr. Potato Head plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "ri_community_food_bank_-_mr._potato_head",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for RI Community Food Bank - Mr. Potato Head"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/ri-community-food-bank-mr.-potato-head-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/ri-community-food-bank-mr.-potato-head-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Red Sox Foundation",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Red Sox Foundation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "red_sox_foundation",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Red Sox Foundation"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/red-sox-foundation-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/red-sox-foundation-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Rocky Point Foundation",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Rocky Point Foundation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "rocky_point_foundation",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Rocky Point Foundation"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/rocky-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/rocky-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Wildlife Rehabilitators",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Wildlife Rehabilitators plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "wildlife_rehabilitators",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Wildlife Rehabilitators"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/wildlife-rehabilitators-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/wildlife-rehabilitators-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Atlantic Shark Institute",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Atlantic Shark Institute plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "atlantic_shark_institute",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Atlantic Shark Institute"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/ASI%20-%20lighter.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/ASI%20-%20lighter.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Autism Awareness",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Autism Awareness plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "autism_awareness",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Autism Awareness"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/autism-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/autism-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Beavertail Lighthouse",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Beavertail Lighthouse plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "beavertail_lighthouse",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Beavertail Lighthouse"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Beaver%20Tail%20Lighthouse%20with%20letters.JPG",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Beaver%20Tail%20Lighthouse%20with%20letters.JPG"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Boy Scouts of America",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Boy Scouts of America plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "boy_scouts_of_america",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Boy Scouts of America"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/scouts-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/scouts-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "DSTRONG",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI DSTRONG plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "dstrong",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for DSTRONG"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/dstrong-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/dstrong-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Gaspee Days Committee",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Gaspee Days Committee plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "gaspee_days_committee",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Gaspee Days Committee"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Gaspee-RIDMV%28new%29.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Gaspee-RIDMV%28new%29.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Providence College",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Providence College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "providence_college",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Providence College"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Providence%20College%201.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Providence%20College%201.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "RI Day of Portugal",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI RI Day of Portugal plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "ri_day_of_portugal",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for RI Day of Portugal"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/portugal-2021.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/portugal-2021.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Commercial Plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Commercial Plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "commercial_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Commercial Plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Ocean%20Commercial.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Ocean%20Commercial.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Combination Plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Combination Plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "combination_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Combination Plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Ocean%20Combination.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Ocean%20Combination.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Trailer Plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Trailer Plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "commercial",
+      "subtype": "trailer_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Trailer Plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Ocean%20Trailer.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Ocean%20Trailer.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Motorcycle Plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Motorcycle Plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "motorcycle",
+      "subtype": "motorcycle_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Motorcycle Plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Ocean%20Motorcycle.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Ocean%20Motorcycle.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Antique Plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Antique Plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "antique",
+      "subtype": "antique_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Antique Plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI_D3825YT%20RI%20Antique%20Vehicle.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI_D3825YT%20RI%20Antique%20Vehicle.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Public Plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Public Plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "public_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Public Plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Ocean%20Public%20Service.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Ocean%20Public%20Service.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Camper Plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Camper Plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "recreational",
+      "subtype": "camper_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Camper Plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Ocean%20Camper.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Ocean%20Camper.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Suburban Plates",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Suburban Plates plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "suburban_plates",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Suburban Plates"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Ocean%20Suburban.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Ocean%20Suburban.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Radio Operator",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Radio Operator plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "radio_operator",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Radio Operator"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Ocean%20Radio%20Operator.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Ocean%20Radio%20Operator.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Farm",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Farm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "farm",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Farm"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Ocean%20Farm.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Ocean%20Farm.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Street Rod",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Street Rod plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "street_rod",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Street Rod"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI%20Street%20Rod_9-26-22_BD-DLP_HiRes.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI%20Street%20Rod_9-26-22_BD-DLP_HiRes.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Custom Vehicle",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Custom Vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "custom_vehicle",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Custom Vehicle"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI%20Custom%20Vehicle%20V2%202-25-22%20PRINT%20DLP_HiRes.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI%20Custom%20Vehicle%20V2%202-25-22%20PRINT%20DLP_HiRes.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Veteran",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "veteran",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Veteran"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI_D3805YT%20RI%20Vet.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI_D3805YT%20RI%20Vet.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Motorcycle Veteran",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Motorcycle Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "motorcycle_veteran",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Motorcycle Veteran"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Vet%20mc.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Vet%20mc.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "disabled_veteran",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Disabled Veteran"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI_D3804YT%20RI%20Dis%20Vet%20DLP.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI_D3804YT%20RI%20Dis%20Vet%20DLP.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Ex-POW",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Ex-POW plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "ex-pow",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Ex-POW"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/EX%20POW.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/EX%20POW.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Purple Heart",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Purple Heart plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "purple_heart",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Purple Heart"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/Purple%20Heart.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/Purple%20Heart.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "National Guard",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "military",
+      "subtype": "national_guard",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for National Guard"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI_D3813YT%20RI%20National%20Guard.png",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI_D3813YT%20RI%20National%20Guard.png"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Gold Star Family",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Gold Star Family plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "gold_star_family",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Gold Star Family"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI%20Gold%20Star%20Parents%2011-7-17%20DLP_PRINT_HiRes.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI%20Gold%20Star%20Parents%2011-7-17%20DLP_PRINT_HiRes.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Bronze Star Medal",
+      "pattern": "ABC123",
+      "character_count": 6,
+      "description": "RI Bronze Star Medal plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "specialty",
+      "subtype": "bronze_star_medal",
+      "code_number": "0",
+      "processing_type": "standard",
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null,
+        "design_variants": []
+      },
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "allows_custom_text": false,
+        "special_validation": null,
+        "notes": "Generated from Kaggle dataset for Bronze Star Medal"
+      },
+      "date_ranges": {
+        "period_1": null,
+        "period_2": null
+      },
+      "images": {
+        "plate_sample": "data/images/RI/RI%20Bronze%20Star%20Medal_7-29-22_PRINT_BD-DLP_HiRes.jpg",
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": [
+          "data/images/RI/RI%20Bronze%20Star%20Medal_7-29-22_PRINT_BD-DLP_HiRes.jpg"
+        ]
+      },
+      "visual_identifier": "N",
+      "processing_rules": "N",
+      "requires_prefix": false
+    }
+  ]
+}

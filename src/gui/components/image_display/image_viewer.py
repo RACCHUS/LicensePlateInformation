@@ -144,13 +144,28 @@ class PlateImageViewer:
         # Disable navigation buttons initially
         self._update_navigation_buttons()
         
-    def update_state(self, state_code: str):
-        """Update viewer with images from the selected state"""
+    def update_state(self, state_code: str, plate_type: Optional[str] = None):
+        """Update viewer with images from the selected state and optionally filter by plate type"""
         self.current_state = state_code
         self.current_index = 0
         
         # Scan for available images
-        self.current_images = self._scan_state_images(state_code)
+        all_images = self._scan_state_images(state_code)
+        
+        # Filter by plate type if specified
+        if plate_type:
+            # Normalize plate type name for matching
+            plate_type_normalized = plate_type.lower().replace(' ', '_').replace('-', '_')
+            self.current_images = [
+                img for img in all_images 
+                if plate_type_normalized in img['display_name'].lower().replace(' ', '_').replace('-', '_')
+                or plate_type_normalized in img.get('plate_type', '').lower().replace(' ', '_').replace('-', '_')
+            ]
+            # If no matches with filtered type, show all images
+            if not self.current_images:
+                self.current_images = all_images
+        else:
+            self.current_images = all_images
         
         if self.current_images:
             # Show first image

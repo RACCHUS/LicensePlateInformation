@@ -1,0 +1,66 @@
+46,Passenger,Maine,,,"Do not make new plates using the letter “O” or “I” because they are so easily confused with the numbers “0” and “1”. If someone already had plates with those letters, they have allowed them to keep them.",,,,,,,
+Code Number,Plate Type Description     (Yellow color indicates Dropdown),Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+61,Ambulance,,,,Y,N,N,N,Y,Y - 'COACH' appears across bottom of plate.,Y - Ambulance,N
+80,Antique Auto,,,,Y,N,N,N,Y,Y - 'Antique Auto' appears across bottom of plate.,N,N
+31,Apportioned,Bus,Regular,Tractor Truck,Y,N,N,Y - Do NOT key verticals.,Y,"Y - ""Apportioned"" appears across bottom of plate.",N,N
+46,Barbara Bush Children's Hospital,,,,Y,N,N,N,Y,N,N,N
+64,Bus,,,,Y,N,N,Y - Vertical BUS is not verified,Y,Y - vertical BUS appears on plate.,Y - Bus,N
+78,Combination,,,,Y,N,N,N,Y,Y - Combination appears across bottom of plate.,N,N
+32,Commercial,Standard,Agriculture,Conservation,Y,N,N,N,Y,Y - Commercial or Equipment appears across bottom of plate,N,N
+32,Commercial,Lobster,Equipment,Tractor,Y,N,N,N,Y,Y - Commercial or Equipment appears across bottom of plate,N,N
+50,Congressional Medal of Honor,,,,Y,N,N,N,Y,N,N,N
+46,County,,,,Y,N,N,N,Y,N,N,N
+46,Christmastree,,,,Y,N,N,N,Y,N,N,N
+46,Custom Vehicle,,,,Y,N,N,N,Y,N,N,N
+34,Disabled Veteran,Handicapped,Regular,2001-2017,Y,N,N,"Y -Do not verify letter ""V"" on Veteran tags.",Y,Y - 'Disabled Veteran' or 'Veteran' appears across bottom of plate. Wheelchair logo may be on right.,N,N
+34,Disabled Veteran,Since 2018,,,Y,N,N,"Y -Do not verify letter ""V"" on Veteran tags.",Y,Y - 'Disabled Veteran' or 'Veteran' appears across bottom of plate. Wheelchair logo may be on right.,N,N
+61,Emergency Medical Services,,,,Y,N,N,N,Y,Y - 'EMS' appears across bottom of plate.,N,N
+32,Equipment (Commercial),Regular,Dealer,,Y,N,N,N,Y,Y - 'EQUIPMENT' appears across bottom of plate.,N,N
+46,Farm,Regular,Agriculture,,Y,N,N,N,Y,Y - 'FARM' appears across bottom of plate.,N,N
+46,Firefighter,,,,Y,N,N,N,Y,"Y - ""Firefighter"" appears across bottom of plate.",N,N
+46,Former POW,,,,Y,N,N,N,Y,Y - Former POW appears across bottom of plate. ,N,N
+46,Gold Star Family,,,,Y,N,N,Y- Key all verticals,Y,N,N,N
+35,Handicapped,Conservation,Regular,,Y,N,N,N,Y,Y - Wheelchair logo on left of plate.,N,N
+46,Heavy Trailer Dealer,,,,Y,N,N,N,Y,N,N,N
+46,Heavy Wrecker,,,,Y,N,N,N,Y,N,N,N
+66,Hire,,,,Y,N,N,N,Y,Y - Hire appears across bottom of Plate.,N,N
+46,Honorary Consul,,,,Y,N,N,N,Y,N,N,N
+46,Horseless Carriage,,,,Y,N,N,N,Y,N,N,N
+46,Light Trailer Dealer,,,,Y,N,N,N,Y,N,N,N
+46,Loaner,,,,Y,N,N,N,Y,Y - Loaner appears across bottom of plate.,N,N
+87,Lobster,Standard,,,Y,N,N,N,Y,Y - 'Lobster'appears across bottom of plate.  *USE DROPDOWN*,N,N
+75,Long Term Trailer,Type I,Type II,,Y,N,N,N,Y,N,Y - Trailer,N
+46,Low Speed,,,,Y,N,N,N,Y,N,N,N
+73,Maine Senate District,,,,Y,N,N,Y - OMIT small two digit year on right of plate.,Y,N,N,N
+65,Motor Home,Conservation,Handicapped,Regular,Y,N,N,N,Y,Y - Motor Home appears across bottom of plate.,Y - Camper or RV,N
+45,Motorcycle,Antique,Autocycle,Dealer,Y,N,N,N,Y,N,Y - Motorcycle,N
+45,Motorcycle,Handicapped,,Temporary,Y,N,N,N,Y,N,Y - Motorcycle,N
+67,Municipal,,,,Y,N,N,N,Y,Y - Municipal appears across bottom of plate.,N,N
+68,Municipal Motorcycle,,,,Y,N,N,N,Y,Y - Municipal appears across bottom of plate.,Y- Motorcycle,N
+46,National Guard ,,,,Y,N,N,N,Y,"Y - Plate ends with ""NG"".",N,N
+47,New Car Dealer,,,,Y,N,N,"Y - Do not verify Large ""D""  or stickers seen. Verify all stacked characters as seen. ",Y,N,N,N
+46,Passenger,Agriculture,Animal Welfare,Breast Cancer,Y,N,N,N,Y,N,N,N
+46,Passenger,Conservation,Lighthouse Trust,Regular,Y,N,N,N,Y,N,N,N
+46,Passenger,Support Our Troops,Support Wildlife,Wabanaki Indian,Y,N,N,N,Y,N,N,N
+50,Pearl Harbor Survivor,,,,Y,N,N,N,Y,Y - Series title appears on left of plate.,N,N
+75,Semi Permanent Trailer,2003-2017,Since 2018,,Y,N,N,Y - Do not verify Stacked TLR on plate.,Y,Y - Semi Permanent or L.T. Trailer appears across bottom of plate.,Y - Trailer,N
+46,Sheriff,Type I,Type II,,Y,N,N,N,Y,Y - Sheriff appears across bottom of plate.,N,N
+73,State House of Representatives,,,,Y,N,N,Y - OMIT small two digit year on right of plate.,Y,Y - HOUSE appears across top of plate. Sub-titles may appear on plate.,N,Y
+73,State Police,,,,Y,N,N,N,Y,N,N,N
+73,State,Type I,Type II,,Y,N,N,N,Y,Y - 'State' appears on plate.,N,Y
+26,Street Rod,,,,Y,Y - numeric only plates,N,Y - Series title,Y,Y - Series title appears across the bottem of plate.,N,N
+46,Temporary,Temporary,Transit,Temporary Dealer,Y,N,N,N,Y,Y - Maine Temp or Transit appears on printed paper tag. DO NOT verify any handwritten tag.,N,Y
+46,Tractor,,,,Y,N,N,N,Y,N,N,N
+75,Trailer,Conservation,Regular,Transit 1987-2016,Y,N,N,N,Y,Y - Trailer appears across bottom of plate. ,Y - Trailer,N
+75,Trailer,Transit Since 2017,,,Y,N,N,N,Y,Y - Trailer appears across bottom of plate. ,Y - Trailer,N
+46,Transporter,,,,Y,N,N,N,Y,N,N,N
+46,Turnpike,,,,Y,N,N,Y - Verify Stacked TPK on plate.,Y,N,N,N
+46,University of Maine Systems,Black Bear,Do Not Enter UMS,,Y,N,N,Y - Do not verify UMS verticals when present.,Y,Y - Visible college logo/name  appear on tag,N,N
+46,University,,,,Y,N,N,N,Y,N,N,N
+73,US Senate,,,,Y,N,N,N,Y,Y- U.S. Senate appears across bottom of plate.,N,Y
+48,Used Car Dealer (Preowned),UC660D,UC368G,,Y,N,N,Y - Verify all  characters as seen. ,Y,"Y - Titles: New Car Dealer, Used Car Dealer, Preowned Car DLR appear across bottom of plate.",N,N
+50,Veteran,2001-2017,Since 2018,Purple Heart,Y,N,N,"Y -Do not verify letter ""V"" on Veteran tags.",Y,Y - Veteran appears across bottom of plate,N,N
+50,Veteran,Branch of Service,Combat Medal,,Y,N,N,"Y -Do not verify letter ""V"" on Veteran tags.",Y,Y - Veteran appears across bottom of plate,N,N
+49,Veteran Motorcycle,Purple Heart,Veteran 1979-2006,Veteran Since 2007,Y,N,N,N,Y,N,Y - Motorcycle,N
+,,,,,,,,,,,,

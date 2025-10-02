@@ -1,0 +1,194 @@
+46,Passenger,Indiana,,,Allows the use of both zero (0) and the letter “O”. The font is different for the letter “O” and the number zero “0”.,,,,,Tags may have customized registrations that are not standard issue.  **USE INITIAL PASSENGER DROPDOWN** ,,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+46,4H Foundation,,,,Y,N,N,N,Y,Y - Four Leaf clover icon on left side of plate.,N,N
+46,500 Festival,,,,Y,N,N,N,Y,Y - Icon on left side of plate.,N,N
+50,Air Force Veteran,,,,Y,N,N,N,Y,Y - Visible branch logo/name  appear on tag,N,N
+61,Ambulance,,,,Y,N,N,Y - Stacked characters must be entered as seen.,Y,N,Y - Ambulance,N
+46,Amateur Radio,2004-2012,2013-2016,Since 2017,Y,N,N,N,Y,Y - Standard plate with FCC Radio Call sign for registration.,N,N
+46,American Diabetes,,,,Y,N,N,N,Y,Y - Icon on left side of plate.,N,N
+46,American Legion,,,,Y,N,N,N,Y,Y- 'HOOSIER LEGIONNAIRE' on bottom of plate.,N,N
+46,Anderson University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+31,Apportioned,2005-2012,Since 2013,,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Allied,Ashland,Atlas,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Baylor Trucking,Bowman,Brinks Security,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Carter Express,Celadon,Covenant,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Crossroads,CT,England,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,FedEx,FedEx Freight 2005-2016,FedEx Freight since 2017,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Frontier,Hub Group,Hulcher,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Hunt,Knight,Landstar 2007-2009,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Landstar Since 2010,Marathon,Marten Transport,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Martin Bower,Maverick Transportation,Myr,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Nesco Rentals,NFI,North American Van Lines,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Pam Cartage Carriers,Penske,Pilot Logistics,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Pitt Ohio,Precision Motor,Priority Transportation,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,PTR,Red Ball Movers,RL Carriers,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Road Link,Roehl,Ryder2005-2016,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Ryder Since 2017,Smith Transport,Southern Refrigerated,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Stoops,Swift,Sysco,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,Transport America,United Rentals,UPS,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,US Foods,USA Truck,Venture Logistics,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+31,Apportioned,XPO Logistics,Semi Apportioned,Permanent,Y,N,N,N,Y,"Y - APP appears in top left corner. Company name and logo may appear on plate. PWR may appear in top right corner. The weight class must be greater than 10,000 lbs.",N,N
+50,Army Veteran,,,,Y,N,N,N,Y,Y - Visible branch logo/name  appear on tag,N,N
+49,Army Veteran Motorcycle,,,,Y,N,N,N,Y,Y - Visible branch logo/name  appear on tag; 'M CYCLE' on bottom of plate.,Y- Motorcycle,N
+46,Arts Trust,Before 2012,Since 2012,,Y,N,N,N,Y,Y- 'CELEBRATE THE ARTS' on bottom of plate.,N,N
+46,Autism Awareness,,,,Y,N,N,N,Y,N,N,N
+46,Ball State University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Be a Nurse,,,,Y,N,N,N,Y,N,N,N
+46,Black Expo,,,,Y,N,N,N,Y,N,N,N
+46,Boy Scouts,,,,Y,N,N,N,Y,N,N,N
+46,Breast Cancer Awareness,,,,Y,N,N,N,Y,N,N,N
+64,Bus,For Hire,Not For Hire,Commercial,Y,N,N,Y - OMIT BUS when stacked on side of plate. Enter all small characters as seen.,Y,Y - BUS vertical on left of plate.,Y - Bus,N
+64,Bus,Church,,,Y,N,N,N,Y,N,Y-Bus,N
+46,Butler University,2013-2018,Since 2019,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Cancer Support Community,,,,Y,N,N,N,Y,N,N,N
+46,Choose Life,,,,Y,N,N,N,Y,N,N,N
+67,City Police,,,,Y,N,N,N,Y,N,N,N
+46,Collegiate (Other),Hanover College,Huntington Univ,IIT,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Collegiate (Other),Martin University,SMWC,St. Mary's,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Collegiate (Other),Taylor Univ,Trine University,Univ of Evansville,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Collegiate (Other),Valparaiso Univ,Vincennes Univ,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+71,Commercial,Commercial,,,Y,N,N,N,Y,N,N,N
+46,DARE,,,,Y,N,N,N,Y,N,N,N
+47,Dealer (New),,,Motorcycle,Y,N,N,N,Y,Y - Dealer New appear across bottom of plate and a letter will appear in the registration.,N,N
+48,Dealer (Used),,,Motorcycle,Y,N,N,N,Y,Y - Dealer Used appear across bottom of plate and a letter will appear in the registration.,N,N
+46,DePauw University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+34,Disabled American Veteran,,,,Y,N,N,N,Y,Y - Plates contain a wheelchair logo with small letters DAV underneath that are NOT keyed in registration.,N,N
+34,Disabled Hoosier Veteran,2013-2019,Since 2020,,Y,N,N,N,Y,Y - Plates contain a wheelchair logo. Newer plates will have a military logo on the side of the plates.,N,N
+35,Disabled,2008-2012,Since 2013,,Y,N,N,N,Y,Y - Plates contain a wheelchair logo.,N,N
+35,Disabled Motorcycle,,,,Y,N,N,N,Y,Y - Plates contain a wheelchair logo.,Y-Motorcycle,N
+46,Donate Life,,,,Y,N,N,N,Y,"Y- 'Be an Organ , Tissue & Eye Donor' on bottom of plate.",N,N
+46,Driver's Education Municipal Training Car,,,,Y,N,N,N,Y,N,N,N
+46,Ducks Unlimited,,,,Y,N,N,N,Y,N,N,N
+46,Electronic,,,,Y,N,N,N,Y,Y - Electronic Plate appears across bottom of plate. *NOTE: Similar markings to Historic plate.,N,N
+46,Environment,,,,Y,N,N,N,Y,N,N,N
+46,Ex-POW,,,,Y,N,N,N,Y,Y - Ex-POW will appear on the left side of the plate and the registration begins with PW.,N,N
+46,Farm Truck,2008-2012,Since 2013,,Y,N,N,Y - Omit vertical series name on left.,Y,Y - Vertical FARM on left of plate. Newer plate registration starts with 'F'. Omit Farm.,Y- Truck,N
+46,FFA Foundation,,,,Y,N,N,N,Y,N,N,N
+46,Firefighters,,,,Y,N,N,N,Y,N,N,N
+46,Fleet,,,,Y,N,N,N,Y,Y - Fleet appears across bottom of plate. Plate registration starts with FL.,N,N
+46,Fort Wayne Zoological,,,,Y,N,N,N,Y,Y- 'CONNECTING KIDS & ANIMALS' on bottom of plate.,N,N
+46,Franklin College,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Fraternal Order of Police,2005-2012,Since 2013,,Y,N,N,N,Y,Y - Vertical 'FP' is keyed in registration.,N,N
+46,Freemason,,,,Y,N,N,N,Y,N,N,N
+46,Go Colts,,,,Y,N,N,N,Y,N,N,N
+46,Gold Star Family,,,,Y,N,N,N,Y,N,N,N
+46,Golf Foundation,,,,Y,N,N,N,Y,Y- 'THE FIRST TEE OF INDIANA' on bottom of plate.,N,N
+46,Governor,,,,Y,N,N,N,Y,N,N,Y
+46,Greenways Foundation,,,,Y,N,N,N,Y,Y- 'I SUPPORT TRAILS!' on bottom of plate.,N,N
+46,Habitat,,,,Y,N,N,N,Y,Y- 'Help build it!' on bottom of plate.,N,N
+46,Hall of Fame Museum,,,,Y,N,N,N,Y,N,N,N
+46,Health Foundation,,,,Y,N,N,N,Y,Y- 'To Your Health' on bottom of plate.,N,N
+46,Historic,,,,Y,N,N,N,Y,Y- Seal on left of plate.,N,N
+50,Hoosier Veteran,,,,Y,N,N,N,Y,Y- Flags on left of plate.,N,N
+46,Indiana Association of Chiefs of police foundation,,,,Y,N,N,N,Y,Y- 'CHIEFS OF POLICE' on bottom of plate.,N,N
+46,Indiana Coal Mining Institute,,,,Y,N,N,N,Y,Y- 'COAL KEEPS THE LIGHTS ON!' on bottom of plate; Symbol on left side of plate.,N,N
+46,Indiana Department of Education,,,,Y,N,N,N,Y,Y- 'Hoosier Family of Readers' on bottom of plate.,N,N
+46,Indiana Emergency Medical Services Association,,,,Y,N,N,N,Y,Y- 'Supporting EMS' on bottom of plate.,N,N
+46,Indiana Farm Bureau,,,,Y,N,N,N,Y,N,N,N
+46,Indiana Music Education Association Foundation,,,,Y,N,N,N,Y,Y- 'MUSIC IN OUR SCHOOLS' on bottom of plate.,N,N
+46,Indiana Patriot Guard Riders,,,,Y,N,N,N,Y,N,N,N
+46,Indiana Shriner,,,,Y,N,N,N,Y,N,N,N
+46,Indiana Soccer,,,,Y,N,N,N,Y,Y- 'WE SUPPORT INDY ELEVEN' on bottom of plate.,N,N
+46,Indiana State University,2013-2018,Since 2019,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Indiana University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Indiana Wesleyan University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Indiana Youth Group,,,,Y,N,N,N,Y,N,N,N
+46,Indianapolois Motor Speedway Museum,,,,Y,N,N,N,Y,Y- 'www.indyracingmuseum.org' on bottom of plate; Symbol on left side of plate.,N,N
+46,Indianapolis Zoo,,,,Y,N,N,N,Y,Y- 'Advancing Animal Conservation' on bottom of plate; Symbol on left side of plate.,N,N
+46,IUPUI Jaguars,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Ivy Tech College,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Juvenile Diabetes Research Foundation,,,,Y,N,N,N,Y,Y- 'IMPROVING LIVES CURING TYPE I DIABETES' on bottom of plate.,N,N
+46,Kids First Trust,,,,Y,N,N,N,Y,Y- 'PREVENTING CHILD ABUSE' on bottom of plate.,N,N
+46,Lincoln Boyhood Home,,,,Y,N,N,N,Y,Y - Lincoln picture on left side of plate.,N,N
+46,Lions of Indiana,,,,Y,N,N,N,Y,Y- 'WE SERVE' on bottom of plate;  Symbol on left side of plate.,N,N
+46,Lupus Foundation of America,,,,Y,N,N,N,Y,Y- 'SOLVING THE CRUEL MYSTERY' on bottom of plate;  Symbol on left side of plate.,N,N
+46,Manchester University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Marian University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+50,Marine Corps Veteran,,,,Y,N,N,N,Y,Y - Visible branch logo/name  appear on tag,N,N
+46,Marine Foundation of Indiana,,,,Y,N,N,N,Y,Y- 'SEMPER FI or HELPING MARINES' on bottom of plate;  Symbol on left side of plate.,N,N
+79,Mini-Truck,,,,Y,Y-Plate begins with 'MT',N,N,Y,"Y - MINI TRUCK appear across bottom of plate. The registration begins with 'MT'. The weight class will be less than 10,000 lbs.",Y-Truck,N
+45,Motorcycle,Class B,Historic,Native American,Y,N,N,N,Y,Y- 'M CYCLE or MDC B' on bottom of plate.,Y-Motorcycle,N
+45,Motorcycle,2009-2015,Since 2016,Specialty,Y,N,N,N,Y,Y- 'M CYCLE or MDC B' on bottom of plate.,Y-Motorcycle,N
+67,Municipal,,,,Y,N,N,N,Y,Y - Municipal appears across bottom of plate.,N,N
+68,Municipal Motorcycle,,,,Y,N,N,N,Y,Y - Municipal appears across bottom of plate. **AUTHORITY MOTORCYCLE DROPDOWN**,Y - Motorcycle,N
+30,National Guard,,,,Y,N,N,N,Y,Y - Plates registration starts with NG and has a militiaman Logo.,N,N
+46,Native American,,,,Y,Y-Non Personalized Plate begin with 'NA',N,N,Y,N,N,N
+50,Navy Veteran,,,,Y,N,N,N,Y,Y - Visible branch logo/name  appear on tag,N,N
+49,Navy Veteran Motorcycle,,,,Y,N,N,N,Y,Y - Visible branch logo/name  appear on tag,Y - Motorcycle,N
+46,Notre Dame,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Operating Engineers,,,,Y,N,N,N,Y,N,N,N
+46,Organization (Misc),A Kid Again,ALS Therapy,Amer Legion Auxilary,Y,N,N,N,Y,Y - Organization is at bottom.,N,N
+46,Organization (Misc),Boys & Girls Club,Cancer Support,Circular Indiana,Y,N,N,N,Y,Y - Organization is at bottom.,N,N
+46,Organization (Misc),Delta Sigma Beta,Downs Syndrome,Family First,Y,N,N,N,Y,Y - Organization is at bottom.,N,N
+46,Organization (Misc),First Responders,Golf,Realtors,Y,N,N,N,Y,Y - Organization is at bottom.,N,N
+46,Organization (Misc),Respiratory Care,Knights of Columbus,Indianapolis Colts,Y,N,N,N,Y,Y - Organization is at bottom.,N,N
+46,Organization (Misc),Foster Success,Lewis & Clark Exp,Ovarian Cancer,Y,N,N,N,Y,Y - Organization is at bottom.,N,N
+46,Organization (Misc),Linemen,Merchant Marine,Special Olympics,Y,N,N,N,Y,Y - Organization is at bottom.,N,N
+46,Organization (Misc),Tony Stewart,Versiti Blood Ctr,,Y,N,N,N,Y,Y - Organization is at bottom.,N,N
+46,Pacers Foundation,,,,Y,N,N,N,Y,N,N,N
+46,Passenger,2007,2008-2010,2011-2012,Y,N,N,N,Y,N,N,N
+46,Passenger,2013-2016,Since 2017,,Y,N,N,N,Y,N,N,N
+71,Permanent Trailer,,,,Y,N,N,N,Y,"Y - PERM appears in top left corner. 'CROSSROADS OF AMERICA' on bottom of plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,001 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),Allied,American Van Lines,Ashland,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),Atlas,ATS,Baylor Trucking,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),Bowman,Carter Express,Carvana,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),Celedon,CT,Eagle Logistics,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),ECM,England,FedEx Ground,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),FedEx 2005-2016,FedEx Since 2017,Gypsum,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),Hulcher Services,Hunt,Knight Refrigerated,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),Landstar,Martin Transport,Martin-Brower,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),NFI,Omnisource,Penske Racing,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),Penske,Perkins,Precision Motor Transport,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),R & L,Roehl,Ryder,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),Schneider,Smith Transport,Swift,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),Sysco,Transport America,United Rentals,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),UPS,US Foods,Venture Logistics,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+71,Permanent Trailer (Company),Wal-Mart,XPO,,Y,Y-Plate must start with 'P',N,N,Y,"Y - PERM appears in top left corner. Company name and logo may appear on plate. Vertical 'TRAILER'  appears on right of plate. The weight class must be greater than 10,000 lbs.",Y - Semi-Trailer,N
+46,Pet Friendly,,,,Y,N,N,N,Y,N,N,N
+46,Payton Manning Childrens Hospital at St. Vincent,,,,Y,N,N,N,Y,N,N,N
+46,Pearl Harbor Survivor,,,,Y,N,N,N,Y,N,N,N
+46,POW/MIA,,,,Y,N,N,N,Y,Y- 'NOT FORGOTTEN' at bottom of plate.,N,N
+45,POW/MIA Motorcycle,,,,Y,N,N,N,Y,Y- 'M CYCLE' at bottom of plate.,Y - Motorcycle,N
+46,Purdue University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+88,Purple Heart,Disability,,,Y,N,N,N,Y,Y - The registration begins with 'C' or 'PH' and may also contain a wheelchair logo. Purple Heart appears across bottom of plate. ,N,N
+46,Put the Phone Down,,,,Y,N,N,N,Y,Y- 'INTRUCKING.ORG' at bottom of plate.,N,N
+46,Recovery Vehicle,,,,Y,Y- Must start with 'RC',N,N,Y,N,"Y - Tow Truck,  Wrecker, or Roll-Back.",N
+65,Recreational Vehicle,,,,Y,N,N,Y - Stacked characters must be entered as seen.,Y,N,"Y - Camper, RV, or Motorhome",N
+46,Riley Hospital for Children,,,,Y,N,N,N,Y,N,N,N
+46,Ronald McDonald House,,,,Y,N,N,N,Y,Y- 'KEEPING FAMILIES CLOSE' at bottom of plate.,N,N
+46,Rose Hulman,2013-2016,Since 2017,,Y,N,N,N,Y,N,N,N
+46,Rotary International,,,,Y,N,N,N,Y,N,N,N
+77,Semi Tractor,2008-2009,Since 2010,,Y,N,N,N,Y,"Y - 'TRUCK' or 'Semi Tractor'/ weight class may appear across bottom of plate. The registration may begin with TC. The weight class will be greater than 11,000 lbs.",Y - Truck,N
+71,Semi Trailer,Non-Permanent,Permanent,Farm,Y,N,N,N,Y,Y - 'Semi Trailer'  appears across bottom of plate.,Y - Trailer,N
+46,I Share the Road,,,,Y,N,N,N,Y,N,N,N
+46,Sheriff,,,,Y,N,N,N,Y,Y - Sheriff star noted on left of plate.,N,Y
+46,Sheriff's Supporter,,,,Y,N,N,N,Y,"Y - 'LAW ENFORCEMENT, CORRECTIONS, COURT SECURITY'  appears across bottom of plate.",N,N
+46,Special Machinery,,,,Y,N,N,N,Y,Y - Plate starts with SM.,N,N
+73,State,,,,Y,N,N,N,Y,N,N,N
+72,State motorcycle,,,,Y,N,N,N,Y,N,Y - Motorcycle,N
+72,State motorcycle,Representative,Senator,US Senator,Y,N,N,N,Y,N,Y - Motorcycle,N
+73,State Official,,,,Y,N,N,N,Y,Y - White star noted on left of plate.,N,N
+46,State Owned University,,,,Y,N,N,N,Y,N,N,N
+73,State Police,2008-2012,Since 2013,,Y,N,N,N,Y,Y - 'STATE POLICE' or 'REMEMBERING OUR HEROES'  appears across bottom of plate.,N,N
+73,State Representative,Automobile,,,Y,N,N,N,Y,Y - State Representative appears on plate . , N,Y
+73,State Senator,Automobile,In God We Trust,,Y,N,N,N,Y,Y - State Senator appears on plate .,N,Y
+46,Studebaker Museum,,,,Y,N,N,N,Y,N,N,N
+46,Suicide Prevention,,,,Y,N,N,N,Y,Y - 'American Foundation for Suicide Prevention'  appears across bottom of plate.,N,N
+27,Support Our Troops,,,,Y,N,N,N,Y,Y - Ribbon on left of the plate. Tag says 'Support Our Troops'.,N,N
+46,Teaching Freedom,,,,Y,N,N,N,Y,N,N,N
+46,Temporary,Disabled,2012-2014 Type I,2012-2014 Type II,Y,N,N,N,Y,Y - preprinted or electronic printed paper tags. Do not accept hand written tags.,N,N
+46,Temporary,Since 2015,Motorcycle,,Y,N,N,N,Y,Y - preprinted or electronic printed paper tags. Do not accept hand written tags.,N,N
+79,Trailer 10000 LBS or Less,> 10000 LBS,,,Y,N,N,N,Y,"Y - Any trailer with a weight class that is less than or equal to 10,000 lbs. 'TRAILER/weight' appears across bottom of plate. The registration may begins with""TR"" or ""PT"".",Y - Trailer,N
+46,Transfer,,,,Y,N,N,N,Y,N,N,N
+46,Transport,,,,Y,N,N,N,Y,N,N,N
+79,Truck 10000 LBS or Less,2008-2012,Since 2013,,Y,N,N,N,Y,"Y - Any truck with a weight class that is less than or equal to 10,000 lbs. 'TRUCK/weight' appears across top or bottom of plate. The registration may begin with""TK"".",Y - Truck,N
+46,University of Indianapolis,Type I,Type II,,Y,N,N,N,Y,Y-'UI' will appear at beginning or end of registration; Visible college logo/name  appear on tag.,N,N
+46,University of Southern Indiana,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,University of Saint Francis,,,,Y,Y-Begins with 'SF',N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+73,US Senator,,,,Y,N,N,N,Y,Y - US Senator appears on plate .,N,Y
+46,Volunteer Firefighter,,,,Y,N,N,N,Y,Y - 'SAVING INDIANA LIVES'  appears across bottom of plate.,N,N
+46,Wabash College,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Wild Turkey,,,,Y,N,N,N,Y,N,N,N
+46,YMCA,,,,Y,N,N,N,Y,N,N,N
+,,,,,,,,,,,,

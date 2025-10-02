@@ -1,0 +1,64 @@
+46,Passenger,Illinois,,,"Does not mix alpha and numeric together on license plates, personalized or otherwise. Passenger plates must have a space separating letters and numbers.",,,,,,,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+31,Apportioned,Truck,Trailer,Tow Truck,Y,N,N,N,Y,Y - Has notched border around plate,N,N
+35,Disabled/ Handicapped,Disabled / Handicapped,,,Y,N,N,N,Y,Y - Wheelchair logo,N,Y
+44,Disabled Vanity,Vanity (Personalized),,,Y,N,N,N,Y,Y - Wheelchair logo. Registration is Personalized and must be entered as seen.,N,N
+46,Passenger ,,,,Y,N,N,N,Y,N,N,N
+57,Semi Trailer,,,,Y,N,N,N,Y,Y - plate ends with Vertical ST.,Y - Trailer,N
+77,B Truck,use plate type code,use plate type code,Enter B and Code,Y,N,N,Y - OMIT B Truck verticals when seen. Enter all small characters as seen.,Y,Y - Plate ends with  B Truck vertical.,Y - Truck,Y
+46,Amateur Radio,"Enter ""HAM"" not ""RADIO""",,,Y,N,N,Y - Series name on left.,Y,Y - Ham Radio appears on left of plate.,N,N
+46,Ambulance,,,,Y,N,N,N,Y,Y- Ambulance appears across bottom of plate.,Y - Ambulance,Y
+46,Antique ,,,,Y,N,N,N,Y,Y - Plate ends with Vertical AV,N,N
+46,Antique Motorcycle,,,,N,N,N,N,N,N,N,N
+46,Armed Forces Reserves,,,,Y,N,N,Y - Series name on left.,Y,Y - Armed Forces Reserve appears on plate. Plate ends with vertical RF.,N,N
+46,Authority / Police,,,,N,N,N,N,Y,N,N,N
+46,Authority Motorcycle/Police,,,,N,N,N,N,Y,N,N,N
+46,Bus,,,,N,N,N,N,Y,N,N,N
+46,Camper,Recreational Vehicle,Recreational Trailer,,Y,N,N,Y - Verticals must be entered as seen.,Y,Y - Plate ends with vertical RV.,Y - Camper /RV / Motorhome,N
+46,Chicago Police Department,,,,Y,N,N,N,Y,Y - Plate ends with CP,N,N
+46,City,,,,N,N,N,N,Y,N,N,N
+46,City Motorcycle,,,,N,N,N,N,Y,N,N,N
+46,Collegiate,Univ. of Illinois,Illinois State Univ.,Delta Sigma Rho,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+46,Combination,,,,N,N,N,N,Y,N,N,N
+46,Commercial,,,,N,N,N,N,Y,N,N,N
+46,Dealer,Dealer Passenger,Dealer Trailer,DLR/MFR Transport,Y,N,N,N,Y,Y- Starts with vertical DL,N,N
+46,Disabled Veteran ,Disabled Veteran,Service Connected,,Y,N,N,N,Y,Y - Plate ends with vertical DV or IS.,N,N
+46,Disabled Veteran Motorcycle,,,,N,N,N,N,Y,N,N,N
+46,Electric Vehicle,,,,Y,N,N,N,Y,Y - Plate ends with vertical AE,N,N
+46,Farm,Truck,Trailer,,Y,N,N,"Y - Vertical characters must be entered as seen. Omit small offset ""T"" commercial identifier.",Y,N,N,N
+46,Handicapped Motorcycle,Disabled,,,Y,N,N,N,Y,Y - Wheelchair Logo. Smaller plate size.,Y - Motorcycle,N
+46,Hearing Impaired,Hearing Impaired,,,Y,N,N,N,Y,Y - Plate ends with vertical HI.,N,N
+46,House of Representative / Official House,,,,Y,N,N,Y - OMIT vertical series titles.,Y,Y - Official House appears on plate.,N,Y
+46,Illinois State Police,,,,Y,N,N,N,Y,Y- Plate ends with HF,N,N
+46,Initial Commercial plate ,,,,N,N,N,N,Y,N,N,N
+46,Initial Disabled Veteran,,,,N,N,N,N,Y,N,N,N
+46,Initial Handicapped,,,,N,N,N,N,Y,N,N,N
+46,Initial Moose Conservation,,,,N,N,N,N,Y,N,N,N
+46,Initial Motorcycle,,,,N,N,N,N,Y,N,N,N
+46,Initial Passenger,,,,N,N,N,N,Y,N,N,N
+46,Initial Regular Veteran,,,,N,N,N,N,Y,N,N,N
+46,Initial Veteran Motorcycle,,,,N,N,N,N,Y,N,N,N
+46,Livery,,,,Y,N,N,Y - Series name on left,Y,Y - Livery vertical on left of plate. Plate ends with LY.,Y,N
+46,Medal of Honor,,,,Y,N,N,Y - Enter all small characters as seen.,Y,Y - Plate ends with CMH,N,N
+46,Moose Conservation,,,,N,N,N,N,Y,N,N,N
+46,Motorcycle,Motorcycle,Autocycle,Specialty,Y,N,N,N,Y,Y - Smaller plate size,Y - Motorcycle,N
+46,National Guard ,,,,Y,N,N,N,Y,Y - Plate ends with vertical NG.,N,N
+46,New& Used Dealer,,,,N,N,N,N,Y,N,N,N
+46,Pearl Harbor Survivor,,,,Y,N,N,Y - Series name on left.,Y,Y - Pearl Harbor Survivor appears on left of plate. Plate starts with P.,N,N
+46,Purple heart,,,,Y,N,N,Y - Verticals must be entered as seen.,Y,Y - Purple Heart Medal appears on left.,N,N
+46,Regular Veteran Plate,Universal,Branch of Service/Award,Women Veteran,Y,N,N,N,Y,"Y - Campaign, Military Awards, or Veteran and abbreviations appear on plate.",N,N
+46,Repocessor,,,,Y,N,N,N,Y,Y - Repocessor appears across bottom of plate.,N,N
+46,School Bus,,,,N,N,N,N,Y,N,N,N
+46,School Bus Pupil,,,,N,N,N,N,Y,N,N,N
+46,Senate,,,,Y - Currently ROV Lookup under review.,N,N,Y - Series name on left.,Y,Y - Vertical series name on left of plate.,N,N
+46,State,,,,N,N,N,N,Y,N,N,N
+46,State motorcycle,,,,N,N,N,N,Y,N,N,N
+46,State Representative,,,,Y - Currently ROV Lookup under review.,N,N,Y - Series name on left.,Y,Y - Vertical series name on left of plate.,N,N
+46,Taxi,,,,N,N,N,N,Y,N,N,N
+46,Temporary,,,,Y,N,N,N,Y,Y - Printed Paper Temporary tags. Do not accept hand written tags.,N,N
+46,Trailer,,,,N,N,N,N,Y,N,N,N
+46,Truck Heavy,8000 lbs.,12000 lbs.,16000 lbs.,Y,N,N,Y - Enter all small characters as seen.,Y,"Y - Identified by Weight class markings:  TB Truck vertical (8000 lbs.), Small letter D (12,000 lbs.), Small letter F (16,000 lbs.)",Y - Truck,N
+46,Van Pool,,,,N,N,N,N,Y,N,N,N
+46,Vessel- Dealer Automobile ,,,,N,N,N,N,Y,N,N,N
+46,Veteran Motorcycle,Universal,Purple Heart,Branch of Service/Award,Y,N,N,N,Y,Y - Campaign or Military Awards and abbreviations appear on plate. Smaller plate size.,N,N

@@ -1,0 +1,282 @@
+{
+  "name": "Quebec",
+  "abbreviation": "QC",
+  "slogan": "Je me souviens",
+  "uses_zero_for_o": true,
+  "allows_letter_o": false,
+  "zero_is_slashed": false,
+  "primary_colors": [
+    "#FFFFFF",
+    "#0055A4"
+  ],
+  "main_font": "Modified FE-Schrift with Quebec-specific numerals",
+  "main_logo": "Blue fleur-de-lis embossed on white background",
+  "main_plate_text": "QUEBEC or Je me souviens (I remember)",
+  "sticker_format": {
+    "color": "#FFFFFF",
+    "format": "Month/Year",
+    "position": "top-right",
+    "description": "White validation stickers with blue text"
+  },
+  "character_formatting": {
+    "stacked_characters": false,
+    "slanted_characters": false,
+    "slant_direction": null,
+    "stack_position": null
+  },
+  "images": {
+    "state_logo": "images/states/QC/logo.png",
+    "character_font_reference": "images/states/QC/font_sample.png",
+    "blank_plate_template": "images/states/QC/blank_template.png",
+    "sticker_sample": "images/states/QC/sticker.png"
+  },
+  "notes": "Quebec uses French language on plates. Standard format is ABC-123 (3 letters, dash, 3 numbers). Does NOT allow the letter 'O' - zero '0' must be used. Quebec plates feature the provincial motto 'Je me souviens' and the iconic fleur-de-lis symbol. Commercial plates use different color schemes. PROCESSING: Quebec typically uses standard processing with the letter-dash-number format being most common.",
+  "processing_metadata": {
+    "description": "Official Quebec SAAQ (Société de l'assurance automobile du Québec) processing rules",
+    "global_rules": {
+      "character_restrictions": "Does not allow the letter 'O'. The number '0' must always be used. Standard format uses dash separator: ABC-123",
+      "font_changes": "Quebec has used consistent embossed characters with some design updates to the fleur-de-lis positioning",
+      "code_system": "Quebec uses type codes for different vehicle classifications",
+      "has_variable_processing_types": false
+    }
+  },
+  "plate_types": [
+    {
+      "type_name": "Passenger Standard",
+      "pattern": "ABC-123",
+      "character_count": 7,
+      "description": "Standard Quebec passenger plate with fleur-de-lis - White background with blue text",
+      "background_color": "#FFFFFF",
+      "text_color": "#0055A4",
+      "has_stickers": true,
+      "sticker_description": "White validation stickers with month and year",
+      "category": "passenger",
+      "subtype": null,
+      "code_number": "0",
+      "processing_type": "standard",
+      
+      "plate_characteristics": {
+        "font": "Quebec embossed font (FE-Schrift variant)",
+        "logo": "Blue fleur-de-lis embossed on left or right side",
+        "plate_text": "QUEBEC or Je me souviens",
+        "design_variants": [
+          "Fleur-de-lis on left (older)",
+          "Fleur-de-lis on right (current)",
+          "Blue on white standard",
+          "White on blue (commercial)"
+        ],
+        "character_formatting": {
+          "stacked_characters": false,
+          "slanted_characters": false,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Dash separator between letters and numbers: ABC-123",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Fleur-de-lis symbol",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": "1978-2020: Fleur-de-lis on left side",
+          "period_2": "2020-present: Fleur-de-lis on right side"
+        },
+        "plate_images_available": null
+      },
+      
+      "images": {
+        "plate_sample": "images/plates/QC/0/sample.jpg",
+        "character_font_sample": "images/plates/QC/0/font_sample.png",
+        "blank_template": null,
+        "variations": []
+      },
+      
+      "visual_identifier": "Y - Fleur-de-lis symbol identifies Quebec plates",
+      "processing_rules": "Standard processing with dash separator",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Commercial",
+      "pattern": "ABC-123",
+      "character_count": 7,
+      "description": "Quebec commercial vehicle plate - White text on blue background",
+      "background_color": "#0055A4",
+      "text_color": "#FFFFFF",
+      "has_stickers": true,
+      "sticker_description": "White validation stickers",
+      "category": "commercial",
+      "subtype": null,
+      "code_number": "C",
+      "processing_type": "standard",
+      
+      "plate_characteristics": {
+        "font": "Quebec embossed font (FE-Schrift variant)",
+        "logo": "White fleur-de-lis on blue background",
+        "plate_text": "QUEBEC",
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": false,
+          "slanted_characters": false,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Dash separator between letters and numbers",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Blue background with white text",
+        "vehicle_type_identification": "Commercial vehicle",
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      },
+      
+      "images": {
+        "plate_sample": "images/plates/QC/C/sample.jpg",
+        "character_font_sample": "images/plates/QC/C/font_sample.png",
+        "blank_template": null,
+        "variations": []
+      },
+      
+      "visual_identifier": "Y - Blue background distinguishes commercial plates",
+      "processing_rules": "Standard processing",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Motorcycle",
+      "pattern": "A12-34B",
+      "character_count": 7,
+      "description": "Quebec motorcycle plate - Smaller size with fleur-de-lis",
+      "background_color": "#FFFFFF",
+      "text_color": "#0055A4",
+      "has_stickers": true,
+      "sticker_description": "Smaller validation stickers",
+      "category": "motorcycle",
+      "subtype": null,
+      "code_number": "M",
+      "processing_type": "standard",
+      
+      "plate_characteristics": {
+        "font": "Quebec embossed font (smaller size)",
+        "logo": "Blue fleur-de-lis",
+        "plate_text": "QUEBEC or MOTO",
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": false,
+          "slanted_characters": false,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Dash separator, mixed format for motorcycles",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Smaller plate size",
+        "vehicle_type_identification": "Motorcycle",
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      },
+      
+      "images": {
+        "plate_sample": "images/plates/QC/M/sample.jpg",
+        "character_font_sample": "images/plates/QC/M/font_sample.png",
+        "blank_template": null,
+        "variations": []
+      },
+      
+      "visual_identifier": "Y - Smaller size motorcycle plate",
+      "processing_rules": "Standard processing with motorcycle format",
+      "requires_prefix": false
+    },
+    {
+      "type_name": "Personalized",
+      "pattern": "CUSTOM",
+      "character_count": 6,
+      "description": "Quebec personalized/vanity plate - Custom text chosen by owner",
+      "background_color": "#FFFFFF",
+      "text_color": "#0055A4",
+      "has_stickers": true,
+      "sticker_description": "Standard validation stickers",
+      "category": "vanity",
+      "subtype": "passenger",
+      "code_number": "P",
+      "processing_type": "standard",
+      
+      "plate_characteristics": {
+        "font": "Quebec embossed font",
+        "logo": "Blue fleur-de-lis",
+        "plate_text": "QUEBEC",
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": false,
+          "slanted_characters": false,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Custom text format, no dash required",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Custom text",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false,
+        "dot_processing_type": "always_standard",
+        "dot_dropdown_identifier": null,
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null
+      },
+      
+      "images": {
+        "plate_sample": "images/plates/QC/P/sample.jpg",
+        "character_font_sample": "images/plates/QC/P/font_sample.png",
+        "blank_template": null,
+        "variations": []
+      },
+      
+      "visual_identifier": "Y - Custom text chosen by owner",
+      "processing_rules": "Y - Custom text requires special handling",
+      "requires_prefix": false
+    }
+  ]
+}

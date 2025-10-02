@@ -1,0 +1,263 @@
+46,Passenger,OHIO,,,Zero (0) cannot be used alone. Zero (0) must be led by or followed by another number (1-9).,,,,,,,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+46,4H,,,,Y,N,N,N,Y,Y - 'HEAD HEART HANDS HEALTH' appears across bottom of plate.,N,N
+46,A Kid Again,,,,Y,N,N,N,Y,N,N,N
+50,Air Force Veteran,2004-2009,2010-2012,2013-2021,Y,N,N,N,Y,Y-'U.S. ARMED FORCES VETERAN' appears across bottom of plate.,N,N
+50,Air Force Veteran,Since 2022,Woman Veteran,,Y,N,N,N,Y,Y-'U.S. ARMED FORCES VETERAN' appears across bottom of plate.,N,N
+46,Alpha Kappa Alpha Sorority,2013-2022,Since 2023,,Y,N,N,N,Y,N,N,N
+46,ALS Awareness,,,,Y,N,N,N,Y,Y - 'Ohio ALS.org' appears across bottom of plate.,N,N
+46,Amateur Radio,2004-2009,2010-2012,2013-2021,Y,N,N,N,Y,N,N,N
+46,Amateur Radio,Since 2022,,,Y,N,N,N,Y,N,N,N
+46,Ambulance/ Ambulette,Ambulance,Ambulette,,Y,N,N,N,Y,N,Y-Ambulance/ Ambulette,N
+31,Apportioned,1997-2000,2001-2003,2004-2012,Y,N,N,N,Y,"Y - 'Apportioned' appears across bottom of plate; On Company Series, logo appears at left.",N,N
+31,Apportioned,Since 2013,Company,,Y,N,N,N,Y,"Y - 'Apportioned' appears across bottom of plate; On Company Series, logo appears at left.",N,N
+50,Armed Forces Reserves,,,,Y,N,N,N,Y,Y- Branch of Service logo appears at left.,N,N
+50,Armed Forces Retired,Air Force,Navy,,Y,N,N,N,Y,Y- Branch of Service logo appears at left.,N,N
+50,Army Veteran,Aviation,2010-2012,2013-2021,Y,N,N,N,Y,Y-'U.S. ARMED FORCES VETERAN' appears across bottom of plate.  (Except Aviation),N,N
+50,Army Veteran,Since 2022,,,Y,N,N,N,Y,Y-'U.S. ARMED FORCES VETERAN' appears across bottom of plate.  (Except Aviation),N,N
+46,Ashland University,,,,Y,N,N,N,Y,N,N,N
+46,Autism Ohio.org,,,,Y,N,N,N,Y,N,N,N
+46,Baseball For All,2022,Since 2023,,Y,N,N,N,Y,N,N,N
+46,Bottoms Up,,,,Y,N,N,N,Y,N,N,N
+46,Bowling Green State University,2013-2021,Since 2022,,Y,N,N,N,Y,N,N,N
+46,Breast Cancer Awareness,,,,Y,N,N,N,Y,Y - 'Breast cancer Fund of Ohio' appears across bottom of plate.,N,N
+46,Brecksville Broadview,,,,Y,N,N,N,Y,Y - 'WHERE FINE EDUCATION IS A HERITAGE' appears across bottom of plate.,N,N
+46,Buckeye Corvettes,,,,Y,N,N,N,Y,N,N,N
+46,Camp Bus,,,,Y,N,N,N,Y,Y-'CAMP BUS' at top; Expiration Date at left; Year of Manufacture at bottom of plate.,Y-Bus,N
+46,Canton McKinley Bulldogs,,,,Y,N,N,N,Y,Y- School logo at left,N,N
+46,Capital University,,,,Y,N,N,N,Y,Y- School logo at left,N,N
+46,Case Western Reserve University,,,,Y,N,N,N,Y,Y- School logo at left,N,N
+46,Cat Friendly,,,,Y,N,N,N,Y,N,N,N
+46,Celebrate Kids,,,,Y,N,N,N,Y,N,N,N
+46,Central State University,,,,Y,N,N,N,Y,Y- School logo at left,N,N
+46,Chagrin Falls,,,,Y,N,N,N,Y,Y - 'We are Chagrin' appears across bottom of plate.,N,N
+46,Chardon High School Hilltoppers,,,,Y,N,N,N,Y,Y - 'HILLTOPPERS' appears across bottom of plate.,N,N
+46,Choose Life,Red Heart 2013-2021,Red Heart Since 2022,"Adoption"" Yellow Since 2022",Y,N,N,N,Y,Y - 'CHOOSE LIFE' appears across bottom of plate.,N,N
+46,Church Bus,,,,Y,N,N,N,Y,Y - Church Bus appears across bottom of plate.,Y-Bus,N
+46,Cincinnati Bengals,,,,Y,N,N,N,Y,Y - 'WHO DEY' appears across bottom of plate.,N,N
+46,Cincinnati Reds,,,,Y,N,N,N,Y,Y - 'REDS ON RADIO' appears across bottom of plate.,N,N
+46,Circleville Pumpkin Show,,,,Y,N,N,N,Y,N,N,N
+46,City,,,,Y,N,N,N,Y,N,N,N
+46,Cleveland Browns,2004-2021,Since 2022,,Y,N,N,N,Y,N,N,N
+46,Cleveland Cavaliers,,,,Y,N,N,N,Y,N,N,N
+46,Cleveland Clinic Children's,,,,Y,N,N,N,Y,N,N,N
+46,Cleveland Guardians,,,,Y,N,N,N,Y,N,N,N
+46,Cleveland Indians,,,,Y,N,N,N,Y,N,N,N
+50,Coast Guard Veteran,,,,Y,N,N,N,Y,Y- 'U.S. ARMED FORCES VETERAN' appears on bottom of plate; Branch of Service logo appears at left.,N,N
+46,Coast to Coast,,,,Y,N,N,N,Y,Y - 'FIRST COAST-TO-COAST ROAD' appears across bottom of plate.,N,N
+46,Collector,2013,,,Y,N,N,N,Y,N,N,N
+46,Columbus Blue Jackets,,,,Y,N,N,N,Y,N,N,N
+46,Columbus Crew SC,2013-2021,Since 2022,Alternate Logo,Y,N,N,N,Y,N,N,N
+46,Commercial Demonstrator,,,,Y,N,N,N,Y,Y - 'COMMERCIAL' appears across bottom of plate.,N,N
+46,Commodore,,,,Y,N,N,N,Y,N,N,N
+46,Conquer Child Cancer,,,,Y,N,N,N,Y,Y - 'StBaldricks.org' appears across bottom of plate.,N,N
+46,Cops,2013-2021,Since 2022,,Y,N,N,N,Y,Y - 'Ohio COPS' appears across bottom of plate.,N,N
+46,Creatives Drive Ohio,,,,Y,N,N,N,Y,N,N,N
+46,Cuyahoga Heights Schools,,,,Y,N,N,N,Y,N,N,N
+46,Cuyahoga Valley Career Center,,,,Y,N,N,N,Y,N,N,N
+46,Cuyahoga Valley,,,,Y,N,N,N,Y,N,N,N
+46,Cuyahoga Valley Scenic Railroad,,,,Y,N,N,N,Y,N,N,N
+47,Dealer,2001-2003,2004-2009,2010-2012,Y,N,N,Y - Omit all small numbers,Y,Y - Dealer appears across bottom of plate.,N,N
+47,Dealer,2013-2021,Since 2022,,Y,N,N,Y - Omit all small numbers,Y,Y - Dealer appears across bottom of plate.,N,N
+46,Delta Sigma Theta Sorority,2013-2022,Since 2023,,Y,N,N,N,Y,N,N,N
+46,Disabled American Veterans (Organization),,,,Y,N,N,N,Y,N,N,N
+50,Disabled Veteran,2004-2012,Since 2013,,Y,N,N,N,Y,Y - Red wheelchair logo. Veteran appears across bottom of plate.,N,N
+46,Distributor,,,,Y,N,N,Y - Small characters must be verified as seen.,Y,Y - Distributor appears across bottom of plate.,N,N
+46,Donate Life,2013-2021,Since 2022,,Y,N,N,N,Y,Y - 'Organ Donors Save Lives' appears across bottom of plate.,N,N
+46,Down Syndrome Awareness,,,,Y,N,N,N,Y,Y -'downsyndromeohio. org' appears across bottom of plate.,N,N
+46,Ducks Unlimited,,,,Y,N,N,N,Y,N,N,N
+46,DUI Passenger ,,,,Y,N,N,N,Y,Y - Plate is yellow with red letters.,N,Y
+46,Eagle Scouts,2013-2022,Since 2023,,Y,N,N,N,Y,N,N,N
+46,East Europeans of Ohio,,,,Y,N,N,N,Y,N,N,N
+46,Edward High School,,,,Y,N,N,N,Y,Y - 'ST EDWARD HIGH SCHOOL' appears across bottom of plate.,N,N
+46,Elder High School,,,,Y,N,N,N,Y,N,N,N
+46,Emergency Medical Service,,,,Y - Emergency Vehicles (Police and Fire) are still rejected accordingly,N,N,N,Y,Y - 'EMS VEHICLE' appears across bottom of plate.,N,N
+46,Erie,,,,Y,N,N,N,Y,Y - 'ERIE…OUR GREAT LAKE' appears across bottom of plate.,N,N
+46,Essential Ohio Energy,,,,Y,N,N,N,Y,Y - 'ABUNDANT AFFORDABLE AMERICAN MADE' appears across bottom of plate.,N,N
+46,Fallen Lineworker,,,,Y,N,N,N,Y,Y - 'HONORING FALLEN LINEWORKERS' appears across bottom of plate.,N,N
+46,Fallen Timbers Battlefield,,,,Y,N,N,N,Y,Y - series title & Date appear across bottom of plate.,N,N
+46,Farm Bus,,,,Y,N,N,N,Y,N,Y-Bus,N
+46,FBI National Academy 58th Convention,,,,Y,N,N,N,Y,N,N,N
+46,FC Cincinnati,2018-2021,Since 2022,,Y,N,N,N,Y,N,N,N
+46,Fire Department,,,,Y - Emergency Vehicles (Police and Fire) are still rejected accordingly,N,N,N,Y,Y - FIRE DEPT appears on bottom of plate.,N,N
+46,Fish Ohio,2013-2022,Since 2023,,Y,N,N,N,Y,N,N,N
+46,Folds of Honor,,,,Y,N,N,N,Y,Y - 'FREEDOM IS NOT FREE' appears across bottom of plate.,N,N
+46,Fraternal Order of Police,1996-2021,Since 2022,,Y,N,N,N,Y,N,N,N
+46,Fraternal Order of Police (Associate Member),2004-2012,2013-2021,Since 2022,Y,N,N,N,Y,Y - 'ASSOCIATE MEMBER' appears across bottom of plate.,N,N
+46,Freemason,2013-2022,Since 2023,,Y,N,N,N,Y,N,N,N
+46,Friends of Coal,,,,Y,N,N,N,Y,Y - 'COAL KEEPS THE LIGHTS ON' appears across bottom of plate.,N,N
+46,Girl Scouts,,,,Y,N,N,N,Y,Y - 'Proud to support Girl Scouts' appears across bottom of plate.,N,N
+46,Glen Helen,,,,Y,N,N,N,Y,N,N,N
+46,Gold Ribbon Awareness,,,,Y,N,N,N,Y,Y - 'Childhood Cancer Awareness' appears across bottom of plate.,N,N
+46,Gold Star Family,Afghanistan,Korea,,Y,N,N,N,Y,Y - Gold star icon and area appear at left of plate.,N,N
+46,Government,Regular,Disabled,,Y,N,N,N,Y,N,N,N
+46,Habitat for Humanity,,,,Y,N,N,N,Y,N,N,N
+35,Handicapped,2009-2012,2013-2021,Since 2022,Y,N,N,N,Y,Y - Blue wheelchair logo.,N,N
+46,Healthy New Albany,,,,Y,N,N,N,Y,N,N,N
+46,Heidelberg College,2013-2021,Since 2022,,Y,N,N,N,Y,N,N,N
+80,Historical,,Motorcycle,,Y,N,N,Y - OMIT Vertical OHIO when present.,Y,Y - Historical Vehicle or Collector appear on plate.,N,N
+46,Honor our Fallen,2013-2022,Since 2023,,Y,N,N,N,Y,Y - Sheriff Star & Shield icon appear at left of plate; 'HONOROURFALLEN.US' at bottom of plate.,N,N
+50,Honorably Discharged,Marine,,,Y,N,N,N,Y,Y- 'U.S. ARMED FORCES VETERAN' at bottom of plate.,N,N
+46,Honoring Fallen Linemen,,,,Y,N,N,N,Y,N,N,N
+46,Hope Brain Tumor,,,,Y,N,N,N,Y,Y - 'PrayersFromMaria.org' at bottom of plate.,N,N
+46,Horses,2013-2021,Since 2022,Since 2022,Y,N,N,N,Y,Y- 'Ohios Horses.com' at bottom of plate; Horse icon at left.,N,N
+46,International Association of Fire Fighters,,,,Y,N,N,N,Y,Y- 'Ohio Association of Professional Firefighters' at bottom of plate; IAFF icon at left.,N,N
+46,In God we Trust,,,,Y,N,N,N,Y,N,N,N
+46,In Transit,,,,Y,N,N,Y - Key all small numbers,Y,Y - In Transit appears across bottom of plate.,N,N
+46,Independence Schools,,,,Y,N,N,N,Y,N,N,N
+50,Joint Service Commendation Medal,2013-2021,Since 2022,,Y,N,N,N,Y,Y - 'FOR VALOR' appears across bottom of plate.,N,N
+46,Kent State University,,,,Y,N,N,N,Y,Y - 'YOU BELONG HERE!' appears across bottom of plate; School Icon at left.,N,N
+50,Korea Defense,,,,Y,N,N,N,Y,Y - 'KOREA DEFENSE' appears across bottom of plate.,N,N
+50,Korea Veteran,,,,Y,N,N,N,Y,Y - 'VETERAN' appears across bottom of plate; Theater Ribbon at left.,N,N
+46,La Salle High School,,,,Y,N,N,N,Y,N,N,N
+46,Lake Erie Life Ring,,,,Y,N,N,N,Y,Y - 'OUR GREAT LAKE' appears across bottom of plate; Ring Icon at left.,N,N
+46,Lake Erie Lighthouses,Marblehead,Toledo Harbor,,Y,N,N,N,Y,Y - 'ERIE...OUR GREAT LAKE' appears across bottom of plate.,N,N
+46,Leader in Flight,,,,Y,N,N,N,Y,N,N,N
+46,Livery,,,,Y,N,N,N,Y,N,N,N
+46,Manufacturer,,,,Y,N,N,N,Y,N,N,N
+50,Marine Corps,Veteran,Active Duty,,Y,N,N,N,Y,N,N,N
+46,Massillon Tigers,,,,Y,N,N,N,Y,N,N,N
+50,Medal of Honor,Type I,Type II,,Y,N,N,N,Y,Y - Medal of Honor Appears on plate.,N,N
+46,Medina County Historical Society,,,,Y,N,N,N,Y,Y - 'HEART OF THE WESTERN RESERVE' appears across bottom of plate.,N,N
+46,Miami University,Red Hawks Icon,School Icon,,Y,N,N,N,Y,N,N,N
+46,Military Sacrifice,,,,Y,N,N,N,Y,N,N,N
+46,Moeller High School Crusaders,,,,Y,N,N,N,Y,N,N,N
+46,Monarch Butterfly,,,,Y,N,N,N,Y,Y - 'Keeping Monarchs in Flight' appears across bottom of plate.,N,N
+46,"More Trees, Healthy Forests",,,,Y,N,N,N,Y,Y - Smokey the Bear Icon at left.,N,N
+45,Motorcycle,2004-2009,2010-2012,2013-2021,Y,N,N,N,Y,Y - Smaller plate size,Y - Motorcycle,N
+45,Motorcycle,Since 2022,,,Y,N,N,N,Y,Y - Smaller plate size,Y - Motorcycle,N
+45,Motorcycle (Misc),APV 2010-2012,APV Since 2013,Breast Cancer Aware,Y,N,N,N,Y,Y-Smaller Plate Size,Y-Motorcycle,N
+45,Motorcycle (Misc),Dealer2004-2012,Dealer Since 2013,,Y,N,N,N,Y,Y-Smaller Plate Size,Y-Motorcycle,N
+45,Motorcycle (Misc),Horses Silhouette,Horses,Pets (Cat),Y,N,N,N,Y,Y-Smaller Plate Size,Y-Motorcycle,N
+45,Motorcycle (Misc),Pets (Bulldog),Dog Friendly,POW/MIA 2013-2021,Y,N,N,N,Y,Y-Smaller Plate Size,Y-Motorcycle,N
+45,Motorcycle (Misc),POW/MIA Since 2022,,,Y,N,N,N,Y,Y-Smaller Plate Size,Y-Motorcycle,N
+35,Motorcycle (Handicapped),,,,Y,N,N,N,Y,Y - Blue wheelchair logo. Smaller plate size,Y - Motorcycle,N
+45,Motorcycle (Temporary),,,,Y,N,N,N,Y,Y - Paper plate,Y - Motorcycle,N
+45,Motorcycle (Veteran),2004-2009,2010-2012,2013-2021,Y,N,N,Y - VET vertical must be omitted.,Y,Y - Smaller plate size. VET appear on left of plate.,Y - Motorcycle,N
+45,Motorcycle (Veteran),Since 2022,Disabled,,Y,N,N,Y - VET vertical must be omitted.,Y,Y - Smaller plate size. VET appear on left of plate.,Y - Motorcycle,N
+68,Municipal Motorcycle,State Police,Sheriff's Department,,Y,N,N,N,Y,Y - Smaller plate size. Ohio appears across bottom of plate. Starts with OSP.,Y - Motorcycle,N
+46,National Aviation Hall of Fame,,,,Y,N,N,N,Y,N,N,N
+50,National Defense,,,,Y,N,N,N,Y,N,N,N
+50,National Guard,2013-2021,Since 2022,Retired Air,Y,N,N,N,Y,Y - National Guard icon at left of plate.,N,N
+50,National Guard,Retired Army,,,Y,N,N,N,Y,Y - National Guard icon at left of plate.,N,N
+46,Nationwide Children's Hospital,,,,Y,N,N,N,Y,N,N,N
+46,Nature Preserves,2013-2021,Since 2022,,Y,N,N,N,Y,N,N,N
+50,Navy Veteran,,Women,,Y,N,N,N,Y,N,N,N
+75,Non-Commercial Trailer,2004-2009,Since 2022,,Y,N,N,N,Y,N,N,N
+46,Non-Transport,,,,Y,N,N,N,Y,N,N,N
+46,North Royalton,,,,Y,N,N,N,Y,Y- North Royalton City Schools at bottom of plate.,N,N
+46,NRA Foundation,2013-2021,Since 2022,,Y,N,N,N,Y,N,N,N
+46,Ohio Beef,,,,Y,N,N,N,Y,N,N,N
+46,Ohio Bike,2004-2009,Since 2010,,Y,N,N,N,Y,Y- 'Share the Road' at bottom of plate.,N,N
+46,Ohio Bird Sanctuary,,,,Y,N,N,N,Y,N,N,N
+46,Ohio Carpenters,,,,Y,N,N,N,Y,Y- 'PROUD UNION MEMBER' at bottom of plate.,N,N
+46,Ohio Children's Alliance,,,,Y,N,N,N,Y,Y- 'Kids First' at bottom of plate.,N,N
+46,Ohio House Rabbit Rescue,,,,Y,N,N,N,Y,N,N,N
+46,Ohio Moose Lodges,,,,Y,N,N,N,Y,N,N,N
+46,Ohio Northern University,Icon Type I,Icon Type II,,Y,N,N,N,Y,N,N,N
+46,Ohio Pets (Dog Friendly),2013-2021,Since 2022,Bulldog,Y,N,N,N,Y,N,N,N
+46,Ohio Pets (Dog Friendly),Retriever 2022,Retriever Since 2023,Pet Friendly,Y,N,N,N,Y,N,N,N
+46,Ohio Pupil Transportation,,,,Y,N,N,N,Y,N,N,N
+46,Ohio Realtors,,,,Y,N,N,N,Y,N,N,N
+46,Ohio State Parks,,,,Y,N,N,N,Y,N,N,N
+46,Ohio State University,Buckeyes,Red Ohio,2004-2010,Y,N,N,N,Y,N,N,N
+46,Ohio State University,2010-2012,2013-2021,Since 2022,Y,N,N,N,Y,N,N,N
+46,Ohio State University,Small,TBDBITL,,Y,N,N,N,Y,N,N,N
+46,Ohio University,,,,Y,N,N,N,Y,N,N,N
+46,Omega Psi Phi,,,,Y,N,N,N,Y,N,N,N
+46,One Nation Under God,2013-2021,Since 2022,,Y,N,N,N,Y,N,N,N
+46,Order of the Eastern Star,,,,Y,N,N,N,Y,N,N,N
+46,Ottawa Wildlife,,,,Y,N,N,N,Y,N,N,N
+46,Otterbein University,,,,Y,N,N,N,Y,N,N,N
+46,Padua Franciscan High School,,,,Y,N,N,N,Y,N,N,N
+46,Pancreatic Cancer,,,,Y,N,N,N,Y,N,N,N
+50,Paratrooper (U.S.),2013-2021,Since 2022,,Y,N,N,N,Y,N,N,N
+46,Party,,,,Y,N,N,N,Y,N,N,N
+46,Passenger,1996,1997-2000,2001-2003,Y,N,N,N,Y,N,N,N
+46,Passenger,2004-2008,2009-2012,2013-2021,Y,N,N,N,Y,N,N,N
+46,Passenger,Since 2022,,,Y,N,N,N,Y,N,N,N
+46,PAWS,,,,Y,N,N,N,Y,Y-'RESCUE SAVES LIVES' at bottom of plate.,N,N
+50,Pearl Harbor Survivor,,,,Y,N,N,N,Y,Y- Pearl Harbor appears across bottom of plate,N,N
+75,Permanent,,,,Y,N,N,Y - OMIT Company names when present.,Y,Y - PERMANENT appears across bottom of plate.,Y - Trailer,N
+50,Persian Gulf Veteran,2013-2021,Since 2022,,Y,N,N,N,Y,N,N,N
+46,PetsOhio.com,2004-2012,Since 2013,,Y,N,N,N,Y,Y-PetsOhio.com icon at left of plate.,N,N
+46,Phi Theta Kappa,,,,Y,N,N,N,Y,N,N,N
+46,Physician,,,,Y,N,N,N,Y,N,N,N
+46,Playhouse Square,,,,Y,N,N,N,Y,N,N,N
+46,Post Traumatic Stress Awareness,,,,Y,N,N,N,Y,N,N,N
+46,POW/MIA,,,,Y,N,N,N,Y,Y-'NOT FORGOTTEN' at bottom of plate.,N,N
+46,Power Squadrons,,,,Y,N,N,N,Y,Y-US Power Squadrons icon at left of plate.,N,N
+46,Preserve Ohio's History,,,,Y,N,N,N,Y,Y-Mastidon icon at left of plate.,N,N
+46,Prince Hall Freemason,,,,Y,N,N,N,Y,N,N,N
+46,Pro Football Hall of Fame,,,,Y,N,N,N,Y,N,N,N
+46,Professional Firefighters,,,,Y,N,N,N,Y,Y-'Ohio Association of Professional Firefighters' at bottom of plate.,N,N
+50,Purple Heart Disability,,,,Y,N,N,N,Y,Y-Purple Heart Medal on plate; Wheelchair icon at left; 'COMBAT WOUNDED' at bottom.,N,N
+50,Purple Heart,2013-2019,2020-2021,Since 2022,Y,N,N,N,Y,N,N,N
+46,Put-In-Bay,,,,Y,N,N,N,Y,N,N,N
+46,Red Cross,2013-2021,Since 2022,,Y,N,N,N,Y,Y-'PROUD SUPPORTER' at bottom of plate.,N,N
+46,Representative,,,,Y,N,N,N,Y,N,N,N
+46,Revere Local Schools,,,,Y,N,N,N,Y,N,N,N
+46,Rock & Roll Hall of Fame,,,,Y,N,N,N,Y,Y-Rock & Roll Hall of Fame icon at left of plate; 'LONG LIVE ROCK' at bottom.,N,N
+46,Ronald McDonald House,,,,Y,N,N,N,Y,Y-RMH icon at left of plate; 'Keeping families close' at bottom.,N,N
+46,Rotary International,,,,Y,N,N,N,Y,Y-Rotary icon at left of plate.,N,N
+46,Saint Albert the Great,,,,Y,N,N,N,Y,N,N,N
+46,Saint Ignatius High School,,,,Y,N,N,N,Y,N,N,N
+46,Scenic Rivers,2013-2021,Since 2022,,Y,N,N,N,Y,N,N,N
+46,Share the Road,,,,Y,N,N,N,Y,Y-'Same Roads ->SAME RIGHTS' at bottom of plate.,N,N
+46,Shriners,,,,Y,N,N,N,Y,N,N,N
+46,"Sigma Gamma Rho Sorority, Inc.",,,,Y,N,N,N,Y,N,N,N
+50,Silver Star Medal,,,,Y,N,N,N,Y,Y - Silver Star Medal appears on plate.,N,N
+46,Solon City Schools,,,,Y,N,N,N,Y,N,N,N
+50,Somali Veteran,,,,Y,N,N,N,Y,N,N,N
+46,Sons of American Legion,2013-2021,Since 2022,,Y,N,N,N,Y,Y - Icon appears on left of plate.,N,N
+46,Special,2004-2009,2010-2012,Since 2013,Y,N,N,Y - Small characters must be verified as seen.,Y,Y - Special appears across bottom of plate.,N,N
+46,St. Charles Prep School,100 Year Anniversary,Regular,,Y,N,N,N,Y,"Y-'ST CHARLES or ST CHARLES, HAIL!' appear at bottom of plate.",N,N
+46,St. Johns Jesuit,,,,Y,N,N,N,Y,N,N,N
+46,Stan Hywet Hall & Gardens,,,,Y,N,N,N,Y,N,N,N
+46,State Highway Patrol,2013-2023,2016-2023,Since 2024,Y,N,N,N,Y,Y -State Highway Patrol icon appears on left of plate.,N,N
+46,State Highway Patrol Supporter,,,,Y,N,N,N,Y,Y -'Supporter' is under State Highway Patrol icon on left of plate.,N,N
+46,State Vehicle,,State Disabled,,Y,N,N,N,Y,N,N,N
+46,Statehouse,,,,Y,N,N,N,Y,Y-'Ohio Statehouse' at bottom of plate.,N,N
+46,Stop Bullying,,,,Y,N,N,N,Y,Y-'BULLY FREE CAR' at bottom of plate.,N,N
+46,Stow Monroe Falls,,,,Y,N,N,N,Y,N,N,N
+46,Street Rod,2013-2021,Since 2022,,Y,N,N,N,Y,N,N,N
+46,Suicide Prevention,,,,Y,N,N,N,Y,N,N,N
+46,Summit Metro Parks,,,,Y,N,N,N,Y,Y-'WE'RE YOUR BACK YARD' at bottom of plate.,N,N
+46,Superman,2013-2021,Since 2022,,Y,N,N,N,Y,"Y-'Truth, Justice and the American Way' at bottom of plate.",N,N
+46,Support Nursing,,,,Y,N,N,N,Y,N,N,N
+46,Support our Troops,,,,Y,N,N,N,Y,N,N,N
+46,Support Wildlife,,,,Y,N,N,N,Y,N,N,N
+46,Temporary,2013-2019,Since 2020,,Y,N,N,N,Y,N,N,N
+46,Tiffin University,,,,Y,N,N,N,Y,N,N,N
+46,Tiger Proud,,,,Y,N,N,N,Y,N,N,N
+75,Trailer,1997-2000,2001-2003,2004-2010,Y,N,N,Y - OMIT Company names when present.,Y,Y - Trailer appears across bottom of plate.,Y - Trailer,N
+75,Trailer,Since 2013,,,Y,N,N,Y - OMIT Company names when present.,Y,Y - Trailer appears across bottom of plate.,Y - Trailer,N
+46,Transit Bus,Transit Bus,,,Y,N,N,N,Y,N,N,N
+46,Trees4ohio.org,,,,Y,N,N,N,Y,N,N,N
+77,Truck,1997-2000,2001-2003,2004-2009,Y,N,N,N,Y,Y - Truck appears across bottom of plate.,Y- Vehicle is a truck.,N
+77,Truck,2010-2012,2013-2021,Since 2022,Y,N,N,N,Y,Y - Truck appears across bottom of plate.,Y- Vehicle is a truck.,N
+77,Truck,FFA,Ohio Beef,,Y,N,N,N,Y,Y - Truck appears across bottom of plate.,Y- Vehicle is a truck.,N
+46,Turnpike,,,,Y,N,N,N,Y,N,N,N
+46,University,Akron,Alabama,Conncinati,Y,N,N,N,Y,Y- School Name at bottom of plate.,N,N
+46,University,Dayton,Notre Dame,,Y,N,N,N,Y,Y- School Name at bottom of plate.,N,N
+46,University of Toledo,2013-2021,Since 2022,Yellow Icon,Y,N,N,N,Y,Y- School Name at bottom of plate.,N,N
+46,University School,,,,Y,N,N,N,Y,N,N,N
+50,US Armed Forces - Space Force,,,,Y,N,N,N,Y,N,N,N
+50,Veteran,Award/Citation,Badge/Campaign,Veteran,Y,N,N,N,Y,Y - Any plate with Veteran or Combat Veteran  across bottom of plate.,N,N
+50,Vietnam Veteran,,,,Y,N,N,N,Y,Y - 'VETERAN' appears across bottom of plate; Theater Ribbon at left.,N,N
+46,Visit our Zoos,2013-2021,Since 2022,,Y,N,N,N,Y,Y -Cheetah icon appears on left of plate.,N,N
+46,Volunteer Fire/Rescue Services,Volunteer Fire,Volunteer Rescue,,Y,N,N,N,Y,N,N,N
+46,Walsh Jesuit,,,,Y,N,N,N,Y,N,N,N
+46,West Technical,,,,Y,N,N,N,Y,N,N,N
+46,Westerville Parks Foundation,,,,Y,N,N,N,Y,N,N,N
+46,Wetlands,,,,Y,N,N,N,Y,N,N,N
+46,Wild Ohio,Deer,Turkey,,Y,N,N,N,Y,N,N,N
+46,Wildlife Cardinal,2013-2016,2017-2021,Since 2022,Y,N,N,N,Y,N,N,N
+50,Women Veterans,Marine Corps,,,Y,N,N,N,Y,Y - 'WOMEN VETERANS & US ARMED FORCES VETERAN' appears across bottom of plate; Branch of Service icon at left.,N,N
+50,WWII Veteran,,,,Y,N,N,N,Y,N,N,N
+46,Wright State University,,,,Y,N,N,N,Y,N,N,N
+46,Xavier University,,,,Y,N,N,N,Y,N,N,N
+46,Youngstown State University,Regular,Penguin,,Y,N,N,N,Y,N,N,N
+46,Zero Prostate Cancer,,,,Y,N,N,N,Y,N,N,N
+,,,,,,,,,,,,

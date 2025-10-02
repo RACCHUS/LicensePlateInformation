@@ -76,7 +76,7 @@
   "zero_is_slashed": false,
   "notes": "US Government O/0 character usage pattern unknown. Requires research with official documentation. Government service plates - special federal formatting and security features.",
   "main_font": "Standard government plate font",
-  "main_logo": "State Logo Description",
+  "main_logo": "Federal government seal or \"U.S. GOVERNMENT\" text",
   "main_plate_text": "State Name or Abbreviation",
   "sticker_format": {
     "color": "#FFFFFF",
