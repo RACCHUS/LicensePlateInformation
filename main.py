@@ -19,6 +19,7 @@ from gui.components.plate_type.plate_type_dropdown import SmartPlateTypeDropdown
 from gui.components.info_display.state_info_panel import StateInfoPanel
 from gui.components.info_display.plate_info_panel import PlateInfoPanel
 from gui.components.info_display.char_rules_panel import CharacterRulesPanel
+from gui.components.font_display.character_font_panel import CharacterFontPanel
 from gui.utils.json_search_engine import JSONSearchEngine
 from gui.components.image_display.image_viewer import PlateImageViewer
 
@@ -235,60 +236,8 @@ class LicensePlateApp:
         )
         font_preview_label.pack(anchor='w', pady=(0, 2))
         
-        self.character_font_panel = self._create_character_font_panel(font_column)
-        
-    def _create_character_font_panel(self, parent):
-        """Create character font preview panel"""
-        # Main frame with border
-        main_frame = tk.Frame(
-            parent,
-            bg='#2a2a2a',
-            relief='solid',
-            borderwidth=1
-        )
-        main_frame.pack(fill='both', expand=True, pady=(0, 5))
-        
-        # Content frame
-        content_frame = tk.Frame(main_frame, bg='#2a2a2a')
-        content_frame.pack(fill='both', expand=True, padx=10, pady=10)
-        
-        # Character grid (A-Z, 0-9)
-        characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
-        
-        # Create grid of character samples
-        for i, char in enumerate(characters):
-            row = i // 6  # 6 characters per row
-            col = i % 6
-            
-            char_frame = tk.Frame(content_frame, bg='#3a3a3a', relief='solid', borderwidth=1)
-            char_frame.grid(row=row, column=col, padx=1, pady=1, sticky='ew')
-            
-            char_label = tk.Label(
-                char_frame,
-                text=char,
-                bg='#3a3a3a',
-                fg='#ffffff',
-                font=('Courier New', 10, 'bold'),  # Smaller font for better fit
-                width=2,
-                height=1
-            )
-            char_label.pack()
-        
-        # Configure grid weights
-        for col in range(6):
-            content_frame.columnconfigure(col, weight=1)
-        
-        # Status label
-        self.font_status_label = tk.Label(
-            main_frame,
-            text="Select a state to see character font examples",
-            bg='#2a2a2a',
-            fg='#888888',
-            font=('Segoe UI', 9)
-        )
-        self.font_status_label.pack(pady=(0, 5))
-        
-        return main_frame
+        # Use CharacterFontPanel component
+        self.character_font_panel = CharacterFontPanel(font_column, self.widget_factory)
     
     def _create_search_results_panel(self, parent):
         """Create search results panel"""
@@ -412,15 +361,6 @@ class LicensePlateApp:
         
         print(f"🔍 Updated search results for '{search_term}' - {len(results)} total results")
     
-    def update_character_font_preview(self, state_code):
-        """Update character font preview for selected state"""
-        if state_code:
-            self.font_status_label.config(text=f"Character fonts for {state_code} license plates")
-            print(f"🔤 Updated character font preview for {state_code}")
-        else:
-            self.font_status_label.config(text="Select a state to see character font examples")
-            print("🔤 Cleared character font preview")
-    
     def on_state_selected(self, state_code: str, state_name: str):
         """Handle state selection"""
         self.current_state = state_code
@@ -438,7 +378,7 @@ class LicensePlateApp:
         self.char_rules_panel.update_rules(state_code)
         
         # Update character font preview
-        self.update_character_font_preview(state_code)
+        self.character_font_panel.update_state(state_code, state_name)
         
         # Update image viewer with state images
         self.image_viewer.update_state(state_code)
@@ -476,7 +416,7 @@ class LicensePlateApp:
         self.char_rules_panel.update_rules(None)
         
         # Clear character font preview
-        self.update_character_font_preview(None)
+        self.character_font_panel.clear()
         
         # Clear search results
         self.update_search_results("", [])
