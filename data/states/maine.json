@@ -10,10 +10,48 @@
     "description": "Official Maine DMV processing rules and validation requirements",
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
-      "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "O only on personalized plates; standard uses 0",
-      "has_variable_processing_types": true
-    }
+      "code_system": "Maine uses code numbers to identify plate types",
+      "character_restrictions": "Do not make new plates using letter O or I because they are easily confused with numbers 0 and 1. If someone already had plates with those letters, they have been allowed to keep them.",
+      "has_variable_processing_types": true,
+      "processing_note": "Processing rules vary by plate type and are defined in the CSV matrix. Custom processing types will be provided separately.",
+      "no_prefix_suffix": "Maine does not have a prefix or suffix system. Duplicated plates can only be identified by plate type (class of plate).",
+      "no_duplication_new_plates": "Maine does not allow duplication on new vanity plates or specialty plates to prevent further duplication.",
+      "letter_restrictions": "Do not make new plates using letter O or I because they are easily confused with numbers 0 and 1. Existing plates with these letters are grandfathered.",
+      "temporary_plates": "Maine issues temporary plates",
+      "emergency_vehicle_rule": "Reject images of Marked Emergency Vehicles for codes 61 and 67",
+      "omit_stacked_rule": "Omit stacked characters: COM (31), BUS (64), TLR (71)",
+      "omit_large_characters_rule": "Omit large characters: V (34, 50), D (47)",
+      "include_stacked_rule": "Include stacked characters: MC (45), PH (50)",
+      "include_small_characters_rule": "Include smaller D (48)",
+      "omit_text_rule": "Omit UMS text (97)"
+    },
+    "code_numbers_used": [
+      "26",
+      "31",
+      "32",
+      "34",
+      "35",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "61",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "71",
+      "73",
+      "75",
+      "78",
+      "80",
+      "87",
+      "97"
+    ],
+    "processing_types_defined": 24
   },
   "plate_types": [
     {
@@ -36,14 +74,16 @@
         "visual_identifier": null,
         "vehicle_type_identification": null,
         "all_numeric_plate": false,
-        "dot_processing_type": "always_standard",
-        "dot_dropdown_identifier": null,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
         "dot_conditional_rules": null,
         "date_ranges": {
           "period_1": null,
           "period_2": null
         },
-        "plate_images_available": null
+        "plate_images_available": null,
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "visual_identifier": "",
       "processing_rules": "",
@@ -62,7 +102,7 @@
         "sticker_override": null
       },
       "subtype": null,
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "images": {
         "plate_sample": "data/images/ME/agplate.jpg",
         "character_font_sample": null,
@@ -98,8 +138,8 @@
         "visual_identifier": null,
         "vehicle_type_identification": null,
         "all_numeric_plate": false,
-        "dot_processing_type": "conditional",
-        "dot_dropdown_identifier": "PERSONALIZED_PLATES",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
         "dot_conditional_rules": {
           "plate_type": {
             "action": "allow_letter_o",
@@ -110,7 +150,9 @@
           "period_1": null,
           "period_2": null
         },
-        "plate_images_available": null
+        "plate_images_available": null,
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 1 - defaulted to Passenger Vehicle"
       },
       "visual_identifier": "",
       "processing_rules": "Allows letter O",
@@ -129,7 +171,7 @@
         "sticker_override": null
       },
       "subtype": null,
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "images": {
         "plate_sample": "data/images/ME/DX.gif",
         "character_font_sample": null,
@@ -156,7 +198,7 @@
       "category": "passenger",
       "subtype": "agriculture_-_passenger",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -176,7 +218,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Agriculture - Passenger"
+        "notes": "Generated from Kaggle dataset for Agriculture - Passenger",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -206,7 +252,7 @@
       "category": "specialty",
       "subtype": "agriculture_-_commerical",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -226,7 +272,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Agriculture - Commerical"
+        "notes": "Generated from Kaggle dataset for Agriculture - Commerical",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -255,8 +305,8 @@
       "sticker_description": "Standard validation stickers",
       "category": "antique",
       "subtype": "antique_auto",
-      "code_number": "0",
-      "processing_type": "standard",
+      "code_number": "80",
+      "processing_type": "antique_auto",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -271,12 +321,24 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Antique Auto"
+        "notes": "Generated from Kaggle dataset for Antique Auto",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "antique_auto",
+        "csv_processing_rules": "Y",
+        "csv_plate_images": "",
+        "dot_dropdown_identifier": "Antique Auto",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "ANTIQUE AUTO or ANTIQUE on bottom",
+        "processing_note": "Motorcycles also use this plate type"
       },
       "date_ranges": {
         "period_1": null,
@@ -306,7 +368,7 @@
       "category": "specialty",
       "subtype": "animal_welfare",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -326,7 +388,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Animal Welfare"
+        "notes": "Generated from Kaggle dataset for Animal Welfare",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -356,7 +422,7 @@
       "category": "specialty",
       "subtype": "barbara_bush_childrens_hospital",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -376,7 +442,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Barbara Bush Childrens Hospital"
+        "notes": "Generated from Kaggle dataset for Barbara Bush Childrens Hospital",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -406,7 +476,7 @@
       "category": "specialty",
       "subtype": "black_bear",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -426,7 +496,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Black Bear"
+        "notes": "Generated from Kaggle dataset for Black Bear",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -456,7 +530,7 @@
       "category": "specialty",
       "subtype": "breast_cancer_support",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -476,7 +550,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Breast Cancer Support"
+        "notes": "Generated from Kaggle dataset for Breast Cancer Support",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -505,8 +583,8 @@
       "sticker_description": "Standard validation stickers",
       "category": "specialty",
       "subtype": "combination",
-      "code_number": "0",
-      "processing_type": "standard",
+      "code_number": "78",
+      "processing_type": "combination",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -521,12 +599,23 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Combination"
+        "notes": "Generated from Kaggle dataset for Combination",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "combination",
+        "csv_processing_rules": "Y",
+        "csv_plate_images": "",
+        "dot_dropdown_identifier": "Combination",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "COMBINATION on bottom"
       },
       "date_ranges": {
         "period_1": null,
@@ -556,7 +645,7 @@
       "category": "passenger",
       "subtype": "conservation_-_passenger",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -576,7 +665,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Conservation - Passenger"
+        "notes": "Generated from Kaggle dataset for Conservation - Passenger",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -606,7 +699,7 @@
       "category": "commercial",
       "subtype": "conservation_-_commercial",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -626,7 +719,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Conservation - Commercial"
+        "notes": "Generated from Kaggle dataset for Conservation - Commercial",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -655,8 +752,8 @@
       "sticker_description": "Standard validation stickers",
       "category": "specialty",
       "subtype": "custom_vehicle",
-      "code_number": "0",
-      "processing_type": "standard",
+      "code_number": "46",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -671,12 +768,23 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Custom Vehicle"
+        "notes": "Generated from Kaggle dataset for Custom Vehicle",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "csv_processing_rules": "Y",
+        "csv_plate_images": "",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
       },
       "date_ranges": {
         "period_1": null,
@@ -706,7 +814,7 @@
       "category": "specialty",
       "subtype": "disability",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -726,7 +834,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Disability"
+        "notes": "Generated from Kaggle dataset for Disability",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -755,8 +867,8 @@
       "sticker_description": "Standard validation stickers",
       "category": "recreational",
       "subtype": "emergency_medical_services",
-      "code_number": "0",
-      "processing_type": "standard",
+      "code_number": "61",
+      "processing_type": "ambulance",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -771,12 +883,24 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Emergency Medical Services"
+        "notes": "Generated from Kaggle dataset for Emergency Medical Services",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "ambulance",
+        "csv_processing_rules": "Y",
+        "csv_plate_images": "",
+        "dot_dropdown_identifier": "Ambulance",
+        "character_handling_rule": "All characters must be KEYED",
+        "visual_identifier_detail": "AMBULANCE/COACH on bottom",
+        "reject_rule": "REJECT if Marked Emergency Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -805,8 +929,8 @@
       "sticker_description": "Standard validation stickers",
       "category": "government",
       "subtype": "firefighter",
-      "code_number": "0",
-      "processing_type": "standard",
+      "code_number": "46",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -821,12 +945,23 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Firefighter"
+        "notes": "Generated from Kaggle dataset for Firefighter",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "csv_processing_rules": "Y",
+        "csv_plate_images": "",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
       },
       "date_ranges": {
         "period_1": null,
@@ -856,7 +991,7 @@
       "category": "specialty",
       "subtype": "lighthouse_trust",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -876,7 +1011,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Lighthouse Trust"
+        "notes": "Generated from Kaggle dataset for Lighthouse Trust",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -905,8 +1044,8 @@
       "sticker_description": "Standard validation stickers",
       "category": "specialty",
       "subtype": "lobster",
-      "code_number": "0",
-      "processing_type": "standard",
+      "code_number": "87",
+      "processing_type": "lobster",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -921,12 +1060,23 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Lobster"
+        "notes": "Generated from Kaggle dataset for Lobster",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "lobster",
+        "csv_processing_rules": "Y",
+        "csv_plate_images": "Standard",
+        "dot_dropdown_identifier": "Lobster Plate",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "LOBSTER on bottom of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -956,7 +1106,7 @@
       "category": "specialty",
       "subtype": "wabanaki_recognition_plate",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -976,7 +1126,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Wabanaki Recognition Plate"
+        "notes": "Generated from Kaggle dataset for Wabanaki Recognition Plate",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1005,8 +1159,8 @@
       "sticker_description": "Standard validation stickers",
       "category": "specialty",
       "subtype": "street_rod",
-      "code_number": "0",
-      "processing_type": "standard",
+      "code_number": "26",
+      "processing_type": "street_rod",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1021,12 +1175,23 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Street Rod"
+        "notes": "Generated from Kaggle dataset for Street Rod",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "street_rod",
+        "csv_processing_rules": "Y",
+        "csv_plate_images": "",
+        "dot_dropdown_identifier": "Street Rod",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "STREET ROD on bottom of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1056,7 +1221,7 @@
       "category": "specialty",
       "subtype": "support_troops",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1076,7 +1241,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Support Troops"
+        "notes": "Generated from Kaggle dataset for Support Troops",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1106,7 +1275,7 @@
       "category": "specialty",
       "subtype": "sportsman",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1126,7 +1295,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Sportsman"
+        "notes": "Generated from Kaggle dataset for Sportsman",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1155,8 +1328,8 @@
       "sticker_description": "Standard validation stickers",
       "category": "specialty",
       "subtype": "hire",
-      "code_number": "0",
-      "processing_type": "standard",
+      "code_number": "66",
+      "processing_type": "hire",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1171,12 +1344,23 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Hire"
+        "notes": "Generated from Kaggle dataset for Hire",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "hire",
+        "csv_processing_rules": "Y",
+        "csv_plate_images": "",
+        "dot_dropdown_identifier": "Hire Plate",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "HIRE on bottom of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1206,7 +1390,7 @@
       "category": "specialty",
       "subtype": "university_of_maine",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1226,7 +1410,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Maine"
+        "notes": "Generated from Kaggle dataset for University of Maine",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1256,7 +1444,7 @@
       "category": "specialty",
       "subtype": "wabanaki",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1276,7 +1464,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Wabanaki"
+        "notes": "Generated from Kaggle dataset for Wabanaki",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1306,7 +1498,7 @@
       "category": "commercial",
       "subtype": "agriculture_commercial",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1326,7 +1518,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Agriculture Commercial"
+        "notes": "Generated from Kaggle dataset for Agriculture Commercial",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1355,8 +1551,8 @@
       "sticker_description": "Standard validation stickers",
       "category": "commercial",
       "subtype": "commercial",
-      "code_number": "0",
-      "processing_type": "standard",
+      "code_number": "32",
+      "processing_type": "commercial",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1371,12 +1567,23 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Commercial"
+        "notes": "Generated from Kaggle dataset for Commercial",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "commercial",
+        "csv_processing_rules": "Y",
+        "csv_plate_images": "Lobster",
+        "dot_dropdown_identifier": "Commercial Plate",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "COMMERCIAL/EQUIPMENT on bottom of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1406,7 +1613,7 @@
       "category": "commercial",
       "subtype": "conservation_commercial",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1426,7 +1633,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Conservation Commercial"
+        "notes": "Generated from Kaggle dataset for Conservation Commercial",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1455,8 +1666,8 @@
       "sticker_description": "Standard validation stickers",
       "category": "specialty",
       "subtype": "motor_home",
-      "code_number": "0",
-      "processing_type": "standard",
+      "code_number": "65",
+      "processing_type": "motorhome",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1471,12 +1682,23 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Motor Home"
+        "notes": "Generated from Kaggle dataset for Motor Home",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "motorhome",
+        "csv_processing_rules": "Y",
+        "csv_plate_images": "Conservation",
+        "dot_dropdown_identifier": "Motorhome Plate",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "MOTOR HOME on bottom of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1505,8 +1727,8 @@
       "sticker_description": "Standard validation stickers",
       "category": "commercial",
       "subtype": "trailer",
-      "code_number": "0",
-      "processing_type": "standard",
+      "code_number": "75",
+      "processing_type": "trailer",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1521,12 +1743,23 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Trailer"
+        "notes": "Generated from Kaggle dataset for Trailer",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "trailer",
+        "csv_processing_rules": "Y",
+        "csv_plate_images": "Transit Since 2017",
+        "dot_dropdown_identifier": "Trailer",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "TRAILER/L.T. TRAILER on bottom"
       },
       "date_ranges": {
         "period_1": null,
@@ -1555,8 +1788,8 @@
       "sticker_description": "Standard validation stickers",
       "category": "motorcycle",
       "subtype": "motorcycle",
-      "code_number": "0",
-      "processing_type": "standard",
+      "code_number": "45",
+      "processing_type": "motorcycle_include_mc",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1571,12 +1804,23 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Motorcycle"
+        "notes": "Generated from Kaggle dataset for Motorcycle",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "motorcycle_include_mc",
+        "csv_processing_rules": "Y",
+        "csv_plate_images": "Handicapped",
+        "dot_dropdown_identifier": "Motorcycle Plate",
+        "character_handling_rule": "Stacked \"MC\" IS KEYED",
+        "visual_identifier_detail": "RIDE SAFE on bottom, stacked MC"
       },
       "date_ranges": {
         "period_1": null,
@@ -1606,7 +1850,7 @@
       "category": "antique",
       "subtype": "antique_motorcycle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1626,7 +1870,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Antique Motorcycle"
+        "notes": "Generated from Kaggle dataset for Antique Motorcycle",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1656,7 +1904,7 @@
       "category": "specialty",
       "subtype": "autocycle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1676,7 +1924,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Autocycle"
+        "notes": "Generated from Kaggle dataset for Autocycle",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1706,7 +1958,7 @@
       "category": "military",
       "subtype": "disabled_veteran_motorcycle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1726,7 +1978,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Disabled Veteran Motorcycle"
+        "notes": "Generated from Kaggle dataset for Disabled Veteran Motorcycle",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1756,7 +2012,7 @@
       "category": "motorcycle",
       "subtype": "disability_motorcycle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1776,7 +2032,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Disability Motorcycle"
+        "notes": "Generated from Kaggle dataset for Disability Motorcycle",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1806,7 +2066,7 @@
       "category": "motorcycle",
       "subtype": "moped",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1826,7 +2086,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Moped"
+        "notes": "Generated from Kaggle dataset for Moped",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1856,7 +2120,7 @@
       "category": "motorcycle",
       "subtype": "purple_heart_motorcycle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1876,7 +2140,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Purple Heart Motorcycle"
+        "notes": "Generated from Kaggle dataset for Purple Heart Motorcycle",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1906,7 +2174,7 @@
       "category": "military",
       "subtype": "special_veteran_motorcycle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1926,7 +2194,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Special Veteran Motorcycle"
+        "notes": "Generated from Kaggle dataset for Special Veteran Motorcycle",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -1956,7 +2228,7 @@
       "category": "specialty",
       "subtype": "gold_star_family_-_purple",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1976,7 +2248,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Gold Star Family - Purple"
+        "notes": "Generated from Kaggle dataset for Gold Star Family - Purple",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -2006,7 +2282,7 @@
       "category": "specialty",
       "subtype": "gold_star_family_-_gold",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2026,7 +2302,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Gold Star Family - Gold"
+        "notes": "Generated from Kaggle dataset for Gold Star Family - Gold",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -2056,7 +2336,7 @@
       "category": "military",
       "subtype": "disability_special_veteran_plate",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2076,7 +2356,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Disability Special Veteran Plate"
+        "notes": "Generated from Kaggle dataset for Disability Special Veteran Plate",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -2106,7 +2390,7 @@
       "category": "military",
       "subtype": "disability_special_veteran_plate_-_decal",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2126,7 +2410,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Disability Special Veteran Plate - Decal"
+        "notes": "Generated from Kaggle dataset for Disability Special Veteran Plate - Decal",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -2156,7 +2444,7 @@
       "category": "military",
       "subtype": "special_veteran_plate",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2176,7 +2464,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Special Veteran Plate"
+        "notes": "Generated from Kaggle dataset for Special Veteran Plate",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -2206,7 +2498,7 @@
       "category": "military",
       "subtype": "special_veteran_plate_-_decal",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2226,7 +2518,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Special Veteran Plate - Decal"
+        "notes": "Generated from Kaggle dataset for Special Veteran Plate - Decal",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -2256,7 +2552,7 @@
       "category": "recreational",
       "subtype": "pearl_harbor_survivor_plate",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2276,7 +2572,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Pearl Harbor Survivor Plate"
+        "notes": "Generated from Kaggle dataset for Pearl Harbor Survivor Plate",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -2306,7 +2606,7 @@
       "category": "military",
       "subtype": "amputee/loss_of_use_of_limb(s),_or_blind_veteran",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2326,7 +2626,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Amputee/Loss of Use of Limb(s), or Blind Veteran"
+        "notes": "Generated from Kaggle dataset for Amputee/Loss of Use of Limb(s), or Blind Veteran",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -2356,7 +2660,7 @@
       "category": "military",
       "subtype": "disabled_veteran_plate",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2376,7 +2680,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Disabled Veteran Plate"
+        "notes": "Generated from Kaggle dataset for Disabled Veteran Plate",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -2406,7 +2714,7 @@
       "category": "military",
       "subtype": "disabled_veteran_parking_plate",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2426,7 +2734,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Disabled Veteran Parking Plate"
+        "notes": "Generated from Kaggle dataset for Disabled Veteran Parking Plate",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -2456,7 +2768,7 @@
       "category": "specialty",
       "subtype": "purple_heart",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2476,7 +2788,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Purple Heart"
+        "notes": "Generated from Kaggle dataset for Purple Heart",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -2506,7 +2822,7 @@
       "category": "motorcycle",
       "subtype": "purple_heart_-_motorcycle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2526,7 +2842,11 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Purple Heart - Motorcycle"
+        "notes": "Generated from Kaggle dataset for Purple Heart - Motorcycle",
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "Code 0 - defaulted to Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -2543,6 +2863,2691 @@
       "visual_identifier": "N",
       "processing_rules": "N",
       "requires_prefix": false
+    },
+    {
+      "type_name": "Ambulance",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Ambulance plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "61",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "ambulance",
+        "dot_dropdown_identifier": "Ambulance",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be KEYED",
+        "visual_identifier_detail": "AMBULANCE/COACH on bottom",
+        "reject_rule": "REJECT if Marked Emergency Vehicle"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "ambulance",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Apportioned",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Apportioned plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "31",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "apportioned_omit_com",
+        "dot_dropdown_identifier": "Apportioned",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Bus",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "Stacked characters \"COM\" IS NOT KEYED",
+        "visual_identifier_detail": "APPORTIONED on bottom of plate"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "apportioned_omit_com",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Barbara Bush Children's Hospital",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Barbara Bush Children's Hospital plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Bus",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "64",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "bus_omit_bus",
+        "dot_dropdown_identifier": "Bus Plate",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "Stacked \"BUS\" IS NOT KEYED",
+        "visual_identifier_detail": "BUS on left of plate"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "bus_omit_bus",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Congressional Medal of Honor",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Congressional Medal of Honor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "50",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "veteran_omit_v_include_ph",
+        "dot_dropdown_identifier": "Veteran",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "Large \"V\" IS NOT KEYED. INCLUDE stacked \"PH\"",
+        "visual_identifier_detail": "VETERAN, FORMER POW, COMBAT WOUNDED, or CONGRESSIONAL MEDAL OF HONOR on bottom. PEARL HARBOR SURVIVOR on left",
+        "processing_note": "Decals and insignia seen on veteran plates"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "veteran_omit_v_include_ph",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "County",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine County plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Christmastree",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Christmastree plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "34",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "disabled_veteran_omit_v",
+        "dot_dropdown_identifier": "Disabled Veteran",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Handicapped",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "Large \"V\" IS NOT KEYED",
+        "visual_identifier_detail": "DISABLED VETERAN on bottom, may have flag logo/wheelchair symbol"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "disabled_veteran_omit_v",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "34",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "disabled_veteran_omit_v",
+        "dot_dropdown_identifier": "Disabled Veteran",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Since 2018",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "Large \"V\" IS NOT KEYED",
+        "visual_identifier_detail": "DISABLED VETERAN on bottom, may have flag logo/wheelchair symbol"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "disabled_veteran_omit_v",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Equipment (Commercial)",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Equipment (Commercial) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "32",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "commercial",
+        "dot_dropdown_identifier": "Commercial Plate",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Regular",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "COMMERCIAL/EQUIPMENT on bottom of plate"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "commercial",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Farm",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Farm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Regular",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Former POW",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Former POW plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Gold Star Family",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Gold Star Family plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "35",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "disabled_handicapped",
+        "dot_dropdown_identifier": "Disabled/Handicapped",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Conservation",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "Wheelchair symbol on left side"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "disabled_handicapped",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Heavy Trailer Dealer",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Heavy Trailer Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Heavy Wrecker",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Heavy Wrecker plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Honorary Consul",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Honorary Consul plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Horseless Carriage",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Horseless Carriage plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Light Trailer Dealer",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Light Trailer Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Loaner",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Loaner plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Long Term Trailer",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Long Term Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "75",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "trailer",
+        "dot_dropdown_identifier": "Trailer",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Type I",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "TRAILER/L.T. TRAILER on bottom"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "trailer",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Low Speed",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Low Speed plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Maine Senate District",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Maine Senate District plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "73",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "state_vehicle",
+        "dot_dropdown_identifier": "State Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "STATE/US SENATE on bottom or STATE on top"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "state_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Municipal",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Municipal plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "67",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "municipal",
+        "dot_dropdown_identifier": "Municipal",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "MUNICIPAL on bottom of plate",
+        "reject_rule": "REJECT if Marked Emergency Vehicle"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "municipal",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Municipal Motorcycle",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Municipal Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "68",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "municipal_motorcycle",
+        "dot_dropdown_identifier": "Municipal Motorcycle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "Plate on motorcycle"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "municipal_motorcycle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "National Guard ",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine National Guard  plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "New Car Dealer",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine New Car Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "47",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "new_car_dealer_omit_d",
+        "dot_dropdown_identifier": "New Car Dealer",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "Large \"D\" IS NOT KEYED",
+        "visual_identifier_detail": "NEW CAR DEALER on bottom"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "new_car_dealer_omit_d",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Agriculture",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Conservation",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Support Our Troops",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Pearl Harbor Survivor",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Pearl Harbor Survivor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "50",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "veteran_omit_v_include_ph",
+        "dot_dropdown_identifier": "Veteran",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "Large \"V\" IS NOT KEYED. INCLUDE stacked \"PH\"",
+        "visual_identifier_detail": "VETERAN, FORMER POW, COMBAT WOUNDED, or CONGRESSIONAL MEDAL OF HONOR on bottom. PEARL HARBOR SURVIVOR on left",
+        "processing_note": "Decals and insignia seen on veteran plates"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "veteran_omit_v_include_ph",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Semi Permanent Trailer",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Semi Permanent Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "75",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "trailer",
+        "dot_dropdown_identifier": "Trailer",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "2003-2017",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "TRAILER/L.T. TRAILER on bottom"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "trailer",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Sheriff",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Sheriff plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Type I",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State House of Representatives",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine State House of Representatives plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "73",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "state_vehicle",
+        "dot_dropdown_identifier": "State Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "STATE/US SENATE on bottom or STATE on top"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "state_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State Police",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine State Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "73",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "state_vehicle",
+        "dot_dropdown_identifier": "State Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "STATE/US SENATE on bottom or STATE on top"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "state_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine State plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "73",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "state_vehicle",
+        "dot_dropdown_identifier": "State Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Type I",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "STATE/US SENATE on bottom or STATE on top"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "state_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Temporary",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Temporary",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Tractor",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Tractor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Transporter",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Transporter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Turnpike",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Turnpike plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "University of Maine Systems",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine University of Maine Systems plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Black Bear",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "University",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "processing_note": "All Maine plates not previously mentioned are Passenger Vehicles"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "US Senate",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine US Senate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "73",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "state_vehicle",
+        "dot_dropdown_identifier": "State Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "STATE/US SENATE on bottom or STATE on top"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "state_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Used Car Dealer (Preowned)",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Used Car Dealer (Preowned) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "48",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "used_car_dealer_include_d",
+        "dot_dropdown_identifier": "Used Car Dealer",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "UC660D",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "Smaller \"D\" IS KEYED",
+        "visual_identifier_detail": "USED CAR DEALER on bottom"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "used_car_dealer_include_d",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Veteran",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "50",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "veteran_omit_v_include_ph",
+        "dot_dropdown_identifier": "Veteran",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "2001-2017",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "Large \"V\" IS NOT KEYED. INCLUDE stacked \"PH\"",
+        "visual_identifier_detail": "VETERAN, FORMER POW, COMBAT WOUNDED, or CONGRESSIONAL MEDAL OF HONOR on bottom. PEARL HARBOR SURVIVOR on left",
+        "processing_note": "Decals and insignia seen on veteran plates"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "veteran_omit_v_include_ph",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Veteran",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "50",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "veteran_omit_v_include_ph",
+        "dot_dropdown_identifier": "Veteran",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Branch of Service",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "Large \"V\" IS NOT KEYED. INCLUDE stacked \"PH\"",
+        "visual_identifier_detail": "VETERAN, FORMER POW, COMBAT WOUNDED, or CONGRESSIONAL MEDAL OF HONOR on bottom. PEARL HARBOR SURVIVOR on left",
+        "processing_note": "Decals and insignia seen on veteran plates"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "veteran_omit_v_include_ph",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Veteran Motorcycle",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Maine Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "49",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "veteran_motorcycle",
+        "dot_dropdown_identifier": "Veteran Motorcycle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Purple Heart",
+        "csv_processing_rules": "Y",
+        "character_handling_rule": "All characters must be keyed",
+        "visual_identifier_detail": "RIDE SAFE or VETERAN on bottom"
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "veteran_motorcycle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
     }
   ],
   "uses_zero_for_o": true,

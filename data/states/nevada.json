@@ -11,7 +11,30 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
+      "character_restrictions": {
+        "standard_plates": {
+          "uses_letter_o": true,
+          "uses_number_zero": false,
+          "description": "Standard plates (Home Means Nevada series) do NOT include the number zero ('0'). These plates feature alphanumeric combinations like 123·ABC and only use the letter 'O', never the number zero.",
+          "plate_types": [
+            "sequential",
+            "standard_passenger",
+            "specialty_sequential"
+          ]
+        },
+        "personalized_plates": {
+          "uses_letter_o": true,
+          "uses_number_zero": true,
+          "description": "Personalized/vanity plates DO include the number zero ('0'). To avoid confusion with letter 'O', the number zero is designed with a diamond-shaped or slightly rounded rectangular appearance, while the letter 'O' is more circular or oval in shape.",
+          "visual_distinction": "Number '0' has diamond-shaped or slightly rounded rectangular design; Letter 'O' is circular or oval",
+          "plate_types": [
+            "personalized",
+            "vanity",
+            "custom"
+          ]
+        },
+        "summary": "Nevada uses BOTH letter 'O' and number '0', but in different contexts. Standard plates use only letter 'O' (no zeros). Personalized plates use both, with the zero designed to be visually distinct (diamond-shaped vs circular)."
+      },
       "stacked_characters": {
         "include": [
           "DT"
@@ -22,7 +45,8 @@
         "prefix_rules": null,
         "symbols_allowed": null,
         "notes": "Include DT stacked characters"
-      }
+      },
+      "has_variable_processing_types": false
     }
   },
   "plate_types": [
@@ -3439,10 +3463,22 @@
       "requires_prefix": false
     }
   ],
-  "uses_zero_for_o": true,
-  "allows_letter_o": false,
+  "uses_zero_for_o": false,
+  "allows_letter_o": true,
   "zero_is_slashed": false,
-  "notes": "Nevada does not use the letter 'O' on standard plates. Only the number zero '0' is used to avoid confusion. Source: OOS.txt compilation - requires verification with official DMV documentation. Does not use letter 'O' on standard plates. Always use zero '0'.",
+  "letter_o_and_zero_usage": {
+    "standard_plates": {
+      "uses_letter_o": true,
+      "uses_number_zero": false,
+      "description": "Standard sequential plates use ONLY letter 'O', never number zero '0'"
+    },
+    "personalized_plates": {
+      "uses_letter_o": true,
+      "uses_number_zero": true,
+      "visual_distinction": "Number '0' is diamond-shaped or slightly rounded rectangular; Letter 'O' is circular or oval"
+    }
+  },
+  "notes": "Nevada uses BOTH letter 'O' and number '0', but in different contexts. STANDARD PLATES: Use only letter 'O' (no zeros) - plates like 123·ABC from the 'Home Means Nevada' series do not contain the number zero. PERSONALIZED PLATES: Use both letter 'O' and number '0', with the zero designed with a diamond-shaped or slightly rounded rectangular appearance to distinguish it from the circular/oval letter 'O'. This is a unique system where character usage depends on plate type (standard vs personalized).",
   "main_font": "Custom sans serif, proprietary",
   "main_logo": "Mountain range with sun rays",
   "main_plate_text": "State Name or Abbreviation",

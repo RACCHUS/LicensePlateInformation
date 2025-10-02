@@ -39,6 +39,74 @@
       "font_changes": "Font changes in 2008 & 2019.",
       "code_system": "Florida uses Plate Type Code numbers to apply proper prefix/suffix currently. The only plate type code used is Passenger Plate Default: 0",
       "has_variable_processing_types": true
+    },
+    "processing_types": {
+      "standard": {
+        "description": "Standard processing - key all characters from license plate",
+        "character_modifications": null,
+        "special_rules": null,
+        "dropdown_required": false
+      },
+      "dropdown_seminole_indian": {
+        "description": "Seminole Indian - Select from dropdown THEN key license plate",
+        "character_modifications": null,
+        "special_rules": "Select 'Seminole Indian' from dropdown, then key the license plate number",
+        "dropdown_required": true,
+        "dropdown_identifier": "Seminole Indian",
+        "code_numbers": [
+          "125"
+        ]
+      },
+      "dropdown_miccosukee_indian": {
+        "description": "Miccosukee Indian - Select from dropdown THEN key license plate",
+        "character_modifications": null,
+        "special_rules": "Select 'Miccosukee Indian' from dropdown, then key the license plate number",
+        "dropdown_required": true,
+        "dropdown_identifier": "Miccosukee Indian",
+        "code_numbers": [
+          "129"
+        ]
+      },
+      "dropdown_state_senator": {
+        "description": "State Senator - Select from dropdown THEN key license plate",
+        "character_modifications": null,
+        "special_rules": "Select 'State Senator' from dropdown, then key the license plate number",
+        "dropdown_required": true,
+        "dropdown_identifier": "State Senator",
+        "code_numbers": [
+          "127"
+        ]
+      },
+      "dropdown_house_speaker": {
+        "description": "House Speaker - Select from dropdown THEN key license plate",
+        "character_modifications": null,
+        "special_rules": "Select 'House Speaker' from dropdown, then key the license plate number",
+        "dropdown_required": true,
+        "dropdown_identifier": "House Speaker",
+        "code_numbers": [
+          "123"
+        ]
+      },
+      "dropdown_member_of_congress": {
+        "description": "Member of Congress - Select from dropdown THEN key license plate",
+        "character_modifications": null,
+        "special_rules": "Select 'Member of Congress' from dropdown, then key the license plate number",
+        "dropdown_required": true,
+        "dropdown_identifier": "Member of Congress",
+        "code_numbers": [
+          "124"
+        ]
+      },
+      "dropdown_us_senator": {
+        "description": "US Senator - Select from dropdown THEN key license plate",
+        "character_modifications": null,
+        "special_rules": "Select 'US Senator' from dropdown, then key the license plate number",
+        "dropdown_required": true,
+        "dropdown_identifier": "US Senator",
+        "code_numbers": [
+          "128"
+        ]
+      }
     }
   },
   "plate_types": [
@@ -133,6 +201,12 @@
           "data/images/FL/Police.png",
           "data/images/FL/Public Service Commission.png"
         ]
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -187,6 +261,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -246,6 +326,12 @@
           "data/images/FL/FL_image-064.jpg",
           "data/images/FL/dealer.png"
         ]
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -300,6 +386,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -354,6 +446,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -408,6 +506,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -471,6 +575,12 @@
           "data/images/FL/FL_image-194.jpg",
           "data/images/FL/former-mil-vehicle.png"
         ]
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -525,6 +635,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -579,6 +695,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -633,6 +755,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -687,6 +815,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -741,6 +875,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -804,6 +944,12 @@
           "data/images/FL/antique.png",
           "data/images/FL/Amateur Radio.png"
         ]
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -885,6 +1031,12 @@
           "data/images/FL/motorcycle-Seminole Indian.png",
           "data/images/FL/motorcycle-Paralyzed Veterans of America.png"
         ]
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -939,6 +1091,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -993,6 +1151,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1047,6 +1211,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1101,6 +1271,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1155,6 +1331,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1209,6 +1391,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1263,6 +1451,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1317,6 +1511,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1371,6 +1571,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1425,6 +1631,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1493,6 +1705,12 @@
           "data/images/FL/FL_image-195.jpg",
           "data/images/FL/Florida National Guard.png"
         ]
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1547,6 +1765,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1601,6 +1825,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1655,6 +1885,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1709,6 +1945,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1781,6 +2023,12 @@
           "data/images/FL/gov-state.png",
           "data/images/FL/Water Management District.png"
         ]
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1835,6 +2083,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1889,6 +2143,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1943,6 +2203,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -1997,6 +2263,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2051,6 +2323,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2105,6 +2383,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2159,6 +2443,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2213,6 +2503,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2267,6 +2563,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2321,6 +2623,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2375,6 +2683,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2429,6 +2743,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2483,6 +2803,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2537,6 +2863,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2603,6 +2935,12 @@
           "data/images/FL/FL_image-186.jpg",
           "data/images/FL/Emergency Medical Services.png"
         ]
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2657,6 +2995,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2711,6 +3055,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2765,6 +3115,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2819,6 +3175,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2873,6 +3235,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -2954,6 +3322,12 @@
           "data/images/FL/disabled-wheelchair.png",
           "data/images/FL/Paralyzed Veterans of America.png"
         ]
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3016,6 +3390,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3070,6 +3450,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3132,6 +3518,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3186,6 +3578,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3240,6 +3638,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3294,6 +3698,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3348,6 +3758,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3402,6 +3818,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3456,6 +3878,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3510,6 +3938,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3564,6 +3998,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3618,6 +4058,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3672,6 +4118,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3726,6 +4178,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3780,6 +4238,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3834,6 +4298,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3888,6 +4358,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -3942,6 +4418,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4004,6 +4486,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4058,6 +4546,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4112,6 +4606,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4166,6 +4666,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4220,6 +4726,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4274,6 +4786,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4328,6 +4846,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4382,6 +4906,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4436,6 +4966,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4490,6 +5026,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4544,6 +5086,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4598,6 +5146,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4652,6 +5206,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4706,6 +5266,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4760,6 +5326,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4822,6 +5394,12 @@
           "data/images/FL/apportioned-irp.png",
           "data/images/FL/Stop Heart Disease.png"
         ]
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4876,6 +5454,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4930,6 +5514,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -4984,6 +5574,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5038,6 +5634,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5092,6 +5694,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5146,6 +5754,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5200,6 +5814,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5254,6 +5874,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5308,6 +5934,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5362,6 +5994,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5416,6 +6054,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5470,6 +6114,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5524,6 +6174,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5578,6 +6234,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5632,6 +6294,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5686,6 +6354,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5740,6 +6414,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5794,6 +6474,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5848,6 +6534,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5902,6 +6594,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -5956,6 +6654,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6010,6 +6714,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6064,6 +6774,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6118,6 +6834,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6166,12 +6888,19 @@
         "sticker_override": null
       },
       "subtype": null,
-      "processing_type": "standard",
+      "processing_type": "dropdown_house_speaker",
       "images": {
         "plate_sample": null,
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "dropdown_house_speaker",
+        "description": "House Speaker - Select from dropdown THEN key license plate",
+        "requires_dropdown": true,
+        "dropdown_identifier": "House Speaker",
+        "workflow": "1) Select from dropdown, 2) Key license plate number"
       }
     },
     {
@@ -6226,6 +6955,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6280,6 +7015,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6334,6 +7075,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6388,6 +7135,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6442,6 +7195,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6496,6 +7255,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6550,6 +7315,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6604,6 +7375,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6658,6 +7435,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6712,6 +7495,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6766,6 +7555,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6828,6 +7623,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6890,6 +7691,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6944,6 +7751,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -6998,6 +7811,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7052,6 +7871,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7106,6 +7931,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7160,6 +7991,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7214,6 +8051,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7268,6 +8111,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7322,6 +8171,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7376,6 +8231,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7430,6 +8291,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7478,12 +8345,19 @@
         "sticker_override": null
       },
       "subtype": null,
-      "processing_type": "standard",
+      "processing_type": "dropdown_member_of_congress",
       "images": {
         "plate_sample": null,
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "dropdown_member_of_congress",
+        "description": "Member of Congress - Select from dropdown THEN key license plate",
+        "requires_dropdown": true,
+        "dropdown_identifier": "Member of Congress",
+        "workflow": "1) Select from dropdown, 2) Key license plate number"
       }
     },
     {
@@ -7538,6 +8412,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7592,6 +8472,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7646,6 +8532,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7694,12 +8586,19 @@
         "sticker_override": null
       },
       "subtype": null,
-      "processing_type": "standard",
+      "processing_type": "dropdown_miccosukee_indian",
       "images": {
         "plate_sample": null,
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "dropdown_miccosukee_indian",
+        "description": "Miccosukee Indian - Select from dropdown THEN key license plate",
+        "requires_dropdown": true,
+        "dropdown_identifier": "Miccosukee Indian",
+        "workflow": "1) Select from dropdown, 2) Key license plate number"
       }
     },
     {
@@ -7748,12 +8647,19 @@
         "sticker_override": null
       },
       "subtype": null,
-      "processing_type": "standard",
+      "processing_type": "dropdown_miccosukee_indian",
       "images": {
         "plate_sample": null,
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "dropdown_miccosukee_indian",
+        "description": "Miccosukee Indian - Select from dropdown THEN key license plate",
+        "requires_dropdown": true,
+        "dropdown_identifier": "Miccosukee Indian",
+        "workflow": "1) Select from dropdown, 2) Key license plate number"
       }
     },
     {
@@ -7808,6 +8714,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7862,6 +8774,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7916,6 +8834,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -7970,6 +8894,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8024,6 +8954,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8078,6 +9014,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8132,6 +9074,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8186,6 +9134,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8240,6 +9194,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8294,6 +9254,13 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "special_note": "Has Official/Retired - Do NOT use dropdown",
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8348,6 +9315,13 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "special_note": "Has Official/Retired - Do NOT use dropdown",
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8402,6 +9376,13 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "special_note": "Has Official/Retired - Do NOT use dropdown",
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8456,6 +9437,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8518,6 +9505,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8580,6 +9573,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8634,6 +9633,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8688,6 +9693,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8742,6 +9753,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8796,6 +9813,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8850,6 +9873,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8904,6 +9933,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -8958,6 +9993,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9012,6 +10053,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9066,6 +10113,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9120,6 +10173,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9174,6 +10233,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9228,6 +10293,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9282,6 +10353,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9336,6 +10413,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9390,6 +10473,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9444,6 +10533,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9498,6 +10593,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9552,6 +10653,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9606,6 +10713,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9660,6 +10773,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9714,6 +10833,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9768,6 +10893,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9822,6 +10953,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9884,6 +11021,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9938,6 +11081,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -9992,6 +11141,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10046,6 +11201,13 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "special_note": "Has Official/Retired - Do NOT use dropdown",
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10100,6 +11262,13 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "special_note": "Has Official/Retired - Do NOT use dropdown",
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10154,6 +11323,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10208,6 +11383,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10262,6 +11443,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10316,6 +11503,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10370,6 +11563,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10432,6 +11631,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10486,6 +11691,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10540,6 +11751,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10594,6 +11811,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10648,6 +11871,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10696,12 +11925,19 @@
         "sticker_override": null
       },
       "subtype": null,
-      "processing_type": "standard",
+      "processing_type": "dropdown_seminole_indian",
       "images": {
         "plate_sample": null,
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "dropdown_seminole_indian",
+        "description": "Seminole Indian - Select from dropdown THEN key license plate",
+        "requires_dropdown": true,
+        "dropdown_identifier": "Seminole Indian",
+        "workflow": "1) Select from dropdown, 2) Key license plate number"
       }
     },
     {
@@ -10750,12 +11986,19 @@
         "sticker_override": null
       },
       "subtype": null,
-      "processing_type": "standard",
+      "processing_type": "dropdown_seminole_indian",
       "images": {
         "plate_sample": null,
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "dropdown_seminole_indian",
+        "description": "Seminole Indian - Select from dropdown THEN key license plate",
+        "requires_dropdown": true,
+        "dropdown_identifier": "Seminole Indian",
+        "workflow": "1) Select from dropdown, 2) Key license plate number"
       }
     },
     {
@@ -10810,6 +12053,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10864,6 +12113,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10918,6 +12173,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -10972,6 +12233,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11026,6 +12293,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11080,6 +12353,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11134,6 +12413,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11188,6 +12473,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11242,6 +12533,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11296,6 +12593,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11350,6 +12653,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11404,6 +12713,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11458,6 +12773,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11512,6 +12833,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11566,6 +12893,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11620,6 +12953,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11674,6 +13013,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11728,6 +13073,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11776,12 +13127,19 @@
         "sticker_override": null
       },
       "subtype": null,
-      "processing_type": "standard",
+      "processing_type": "dropdown_state_senator",
       "images": {
         "plate_sample": null,
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "dropdown_state_senator",
+        "description": "State Senator - Select from dropdown THEN key license plate",
+        "requires_dropdown": true,
+        "dropdown_identifier": "State Senator",
+        "workflow": "1) Select from dropdown, 2) Key license plate number"
       }
     },
     {
@@ -11836,6 +13194,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11890,6 +13254,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11944,6 +13314,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -11998,6 +13374,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12052,6 +13434,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12106,6 +13494,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12160,6 +13554,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12214,6 +13614,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12268,6 +13674,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12322,6 +13734,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12376,6 +13794,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12430,6 +13854,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12484,6 +13914,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12538,6 +13974,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12592,6 +14034,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12646,6 +14094,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12700,6 +14154,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12754,6 +14214,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12808,6 +14274,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12862,6 +14334,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12916,6 +14394,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -12970,6 +14454,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13024,6 +14514,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13078,6 +14574,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13132,6 +14634,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13186,6 +14694,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13240,6 +14754,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13294,6 +14814,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13348,6 +14874,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13402,6 +14934,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13456,6 +14994,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13510,6 +15054,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13564,6 +15114,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13618,6 +15174,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13672,6 +15234,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13726,6 +15294,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13780,6 +15354,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13834,6 +15414,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13888,6 +15474,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13942,6 +15534,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -13990,12 +15588,19 @@
         "sticker_override": null
       },
       "subtype": null,
-      "processing_type": "standard",
+      "processing_type": "dropdown_us_senator",
       "images": {
         "plate_sample": null,
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "dropdown_us_senator",
+        "description": "US Senator - Select from dropdown THEN key license plate",
+        "requires_dropdown": true,
+        "dropdown_identifier": "US Senator",
+        "workflow": "1) Select from dropdown, 2) Key license plate number"
       }
     },
     {
@@ -14058,6 +15663,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -14120,6 +15731,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -14174,6 +15791,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -14228,6 +15851,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -14282,6 +15911,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -14336,6 +15971,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -14390,6 +16031,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -14444,6 +16091,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -14506,6 +16159,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -14560,6 +16219,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -14614,6 +16279,12 @@
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
+      },
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
       }
     },
     {
@@ -14666,7 +16337,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Standard  - County",
@@ -14720,7 +16397,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Go Fishing (Largemouth Bass)",
@@ -14771,7 +16454,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "HOSPICE: Every Day Is A Gift",
@@ -14821,7 +16510,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Scouting Teaches Values (Boy Scouts of America)",
@@ -14871,7 +16566,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Alpha Phi Alpha",
@@ -14921,7 +16622,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Alpha Kappa Alpha",
@@ -14971,7 +16678,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Delta Sigma Theta",
@@ -15022,7 +16735,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Iota Phi Theta",
@@ -15073,7 +16792,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Kappa Alpha Psi",
@@ -15124,7 +16849,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Omega Psi Phi",
@@ -15177,7 +16908,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Phi Beta Sigma",
@@ -15229,7 +16966,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Sigma Gamma Rho",
@@ -15279,7 +17022,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Zeta Phi Beta",
@@ -15330,7 +17079,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Gadsden Flag (DTOM)",
@@ -15381,7 +17136,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Authenticated (The owner provides the license plate, not the State.)",
@@ -15431,7 +17192,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Ex-Prisoner of War",
@@ -15484,7 +17251,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Veteran of U.S. Armed Forces",
@@ -15542,7 +17315,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Heavy Truck Dual Plates",
@@ -15593,7 +17372,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Wrecker - Gross Vehicle Weight",
@@ -15644,7 +17429,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Vet disabled",
@@ -15699,7 +17490,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Fire",
@@ -15760,7 +17557,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Emergency Medical Services",
@@ -15813,7 +17616,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Emergency Management Personnel",
@@ -15863,7 +17672,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "FWC Oficer",
@@ -15919,7 +17734,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     },
     {
       "type_name": "Water Managment District",
@@ -15973,7 +17794,13 @@
       },
       "visual_identifier": "N",
       "processing_rules": "N",
-      "requires_prefix": false
+      "requires_prefix": false,
+      "processing_info": {
+        "processing_type_name": "standard",
+        "description": "Standard processing - key all characters from license plate",
+        "requires_dropdown": false,
+        "workflow": "Key all characters from license plate"
+      }
     }
   ]
 }

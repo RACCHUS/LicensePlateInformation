@@ -10,9 +10,13 @@
     "description": "Official Illinois DMV processing rules and validation requirements",
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
-      "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
-      "has_variable_processing_types": true
+      "code_system": "Illinois uses code numbers: 31=Apportioned, 35=Disabled/Handicapped, 44=Disabled Vanity, 46=Passenger Vehicle, 57=Semi Trailer, 77=B Truck",
+      "character_restrictions": "Illinois DOES NOT MIX ALPHA and NUMERIC CHARACTERS together on their License Plates. This applies to all plates including PERSONALIZED plates.",
+      "has_variable_processing_types": true,
+      "processing_note": "Processing rules vary by plate type and are defined in the CSV matrix. Custom processing types will be provided separately.",
+      "passenger_format": "Passenger plates MUST have a SPACE separating letters from the numbers (Ex: MARY 124)",
+      "passenger_pickup_format": "Passenger Pickup Truck plates are the same, EXCEPT the NUMERIC CHARACTERS come before the ALPHA CHARACTERS (Ex: 124 MARY)",
+      "personalized_format": "Personalized plates can have ALL ALPHA or ALL NUMERIC CHARACTERS"
     }
   },
   "plate_types": [
@@ -62,7 +66,7 @@
         "sticker_override": null
       },
       "subtype": null,
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "images": {
         "plate_sample": "data/images/IL/passengervanity.gif",
         "character_font_sample": null,
@@ -132,7 +136,7 @@
         "sticker_override": null
       },
       "subtype": null,
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "images": {
         "plate_sample": "data/images/IL/education.gif",
         "character_font_sample": null,
@@ -159,7 +163,7 @@
       "category": "commercial",
       "subtype": "b-truck",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -209,7 +213,7 @@
       "category": "specialty",
       "subtype": "persons_with_disabilities",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -259,7 +263,7 @@
       "category": "motorcycle",
       "subtype": "motorcycle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -274,12 +278,19 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Motorcycle"
+        "notes": "Generated from Kaggle dataset for Motorcycle",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "pending_custom_definition",
+        "csv_processing_rules": "Y"
       },
       "date_ranges": {
         "period_1": null,
@@ -309,7 +320,7 @@
       "category": "specialty",
       "subtype": "alzheimer's_awareness",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -359,7 +370,7 @@
       "category": "specialty",
       "subtype": "amateur_radio",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_ham_radio",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -374,12 +385,21 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Amateur Radio"
+        "notes": "Generated from Kaggle dataset for Amateur Radio",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_ham_radio",
+        "csv_processing_rules": "Y",
+        "special_instructions": "You will INCLUDE \"HAM\" and OMIT \"RADIO\". Example: HAM000000 or HAMN9BVG",
+        "dot_dropdown_identifier": "Passenger Vehicle"
       },
       "date_ranges": {
         "period_1": null,
@@ -409,7 +429,7 @@
       "category": "specialty",
       "subtype": "america_remembers",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -459,7 +479,7 @@
       "category": "antique",
       "subtype": "antique_vehicle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -509,7 +529,7 @@
       "category": "antique",
       "subtype": "antique_vehicle_–_expanded-use",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -559,7 +579,7 @@
       "category": "specialty",
       "subtype": "autism_awareness",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -609,7 +629,7 @@
       "category": "specialty",
       "subtype": "autocycle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -659,7 +679,7 @@
       "category": "specialty",
       "subtype": "charitable_vehicle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -709,7 +729,7 @@
       "category": "specialty",
       "subtype": "chicago_bears",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -759,7 +779,7 @@
       "category": "specialty",
       "subtype": "chicago_blackhawks",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -809,7 +829,7 @@
       "category": "specialty",
       "subtype": "chicago_bulls",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -859,7 +879,7 @@
       "category": "specialty",
       "subtype": "chicago_cubs",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -909,7 +929,7 @@
       "category": "specialty",
       "subtype": "chicago_white_sox",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -959,7 +979,7 @@
       "category": "specialty",
       "subtype": "collegiate_series",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1009,7 +1029,7 @@
       "category": "specialty",
       "subtype": "ducks_unlimited",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1059,7 +1079,7 @@
       "category": "specialty",
       "subtype": "eagle_scout",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1109,7 +1129,7 @@
       "category": "specialty",
       "subtype": "education",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1159,7 +1179,7 @@
       "category": "specialty",
       "subtype": "electric_vehicle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1174,12 +1194,19 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Electric Vehicle"
+        "notes": "Generated from Kaggle dataset for Electric Vehicle",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "pending_custom_definition",
+        "csv_processing_rules": "Y"
       },
       "date_ranges": {
         "period_1": null,
@@ -1209,7 +1236,7 @@
       "category": "specialty",
       "subtype": "environmental",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1259,7 +1286,7 @@
       "category": "government",
       "subtype": "fire_chief",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1309,7 +1336,7 @@
       "category": "government",
       "subtype": "firefighters_memorial",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1359,7 +1386,7 @@
       "category": "specialty",
       "subtype": "hearing_impaired",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1374,12 +1401,19 @@
         "design_variants": []
       },
       "processing_metadata": {
-        "currently_processed": true,
+        "currently_processed": false,
         "requires_prefix": false,
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Hearing Impaired"
+        "notes": "Generated from Kaggle dataset for Hearing Impaired",
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "pending_custom_definition",
+        "csv_processing_rules": "Y"
       },
       "date_ranges": {
         "period_1": null,
@@ -1409,7 +1443,7 @@
       "category": "government",
       "subtype": "illinois_chicago_police_memorial_foundation",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1459,7 +1493,7 @@
       "category": "government",
       "subtype": "illinois_fraternal_order_of_police",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1509,7 +1543,7 @@
       "category": "specialty",
       "subtype": "illinois_hospice",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1559,7 +1593,7 @@
       "category": "specialty",
       "subtype": "illinois_michigan_canal",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1609,7 +1643,7 @@
       "category": "specialty",
       "subtype": "illinois_nurses",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1659,7 +1693,7 @@
       "category": "specialty",
       "subtype": "illinois_pan_hellenic_series",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1709,7 +1743,7 @@
       "category": "government",
       "subtype": "illinois_police_association",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1759,7 +1793,7 @@
       "category": "specialty",
       "subtype": "illinois_retired_law_enforcement",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1809,7 +1843,7 @@
       "category": "government",
       "subtype": "illinois_state_police_memorial_park",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1859,7 +1893,7 @@
       "category": "specialty",
       "subtype": "international_brotherhood_of_teamsters",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1909,7 +1943,7 @@
       "category": "specialty",
       "subtype": "law_enforcement_torch_run_for_special_olympics",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -1959,7 +1993,7 @@
       "category": "specialty",
       "subtype": "mammogram",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2009,7 +2043,7 @@
       "category": "specialty",
       "subtype": "master_mason",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2059,7 +2093,7 @@
       "category": "military",
       "subtype": "military_series",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2109,7 +2143,7 @@
       "category": "government",
       "subtype": "municipal_fire",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2159,7 +2193,7 @@
       "category": "specialty",
       "subtype": "organ_donor",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2209,7 +2243,7 @@
       "category": "specialty",
       "subtype": "ovarian_cancer_awareness",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2259,7 +2293,7 @@
       "category": "specialty",
       "subtype": "park_district_youth",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2309,7 +2343,7 @@
       "category": "specialty",
       "subtype": "person's_with_disabilities",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2359,7 +2393,7 @@
       "category": "specialty",
       "subtype": "pet_friendly",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2409,7 +2443,7 @@
       "category": "government",
       "subtype": "police_memorial",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2459,7 +2493,7 @@
       "category": "specialty",
       "subtype": "president_of_a_village_or_incorporated_town_or_mayor",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2509,7 +2543,7 @@
       "category": "specialty",
       "subtype": "prince_hall_freemasonry",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2559,7 +2593,7 @@
       "category": "motorcycle",
       "subtype": "professional_sports_team_motorcycles",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2609,7 +2643,7 @@
       "category": "specialty",
       "subtype": "prevent_violence",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2659,7 +2693,7 @@
       "category": "specialty",
       "subtype": "route_66",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2709,7 +2743,7 @@
       "category": "specialty",
       "subtype": "rotary_international",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2759,7 +2793,7 @@
       "category": "specialty",
       "subtype": "saluting_agriculture",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2809,7 +2843,7 @@
       "category": "specialty",
       "subtype": "share_the_road",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2859,7 +2893,7 @@
       "category": "specialty",
       "subtype": "sheet_metal_workers_international_association",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2909,7 +2943,7 @@
       "category": "specialty",
       "subtype": "sporting_series",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -2959,7 +2993,7 @@
       "category": "specialty",
       "subtype": "st._louis_cardinals",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3009,7 +3043,7 @@
       "category": "specialty",
       "subtype": "support_our_troops",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3059,7 +3093,7 @@
       "category": "specialty",
       "subtype": "support_youth_golf",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3109,7 +3143,7 @@
       "category": "specialty",
       "subtype": "tinted_windows",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3159,7 +3193,7 @@
       "category": "commercial",
       "subtype": "trailers",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3209,7 +3243,7 @@
       "category": "commercial",
       "subtype": "trucks",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3259,7 +3293,7 @@
       "category": "commercial",
       "subtype": "c-truck",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3309,7 +3343,7 @@
       "category": "commercial",
       "subtype": "farm_truck_-_16,000_lbs._or_less",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3359,7 +3393,7 @@
       "category": "commercial",
       "subtype": "farm_truck_-_24,001_lbs._to_28,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3409,7 +3443,7 @@
       "category": "commercial",
       "subtype": "farm_truck_-_36,001_lbs._to_45,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3459,7 +3493,7 @@
       "category": "commercial",
       "subtype": "farm_truck_-_64,001_lbs._to_73,280_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3509,7 +3543,7 @@
       "category": "commercial",
       "subtype": "farm_truck_-_16,001_lbs._to_20,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3559,7 +3593,7 @@
       "category": "commercial",
       "subtype": "farm_truck_-_28,001_lbs._to_32,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3609,7 +3643,7 @@
       "category": "commercial",
       "subtype": "farm_truck_-_45,001_lbs._to_54,999_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3659,7 +3693,7 @@
       "category": "commercial",
       "subtype": "farm_truck_-_73,281_lbs._to_77,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3709,7 +3743,7 @@
       "category": "commercial",
       "subtype": "farm_truck_-_20,001_lbs._to_24,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3759,7 +3793,7 @@
       "category": "commercial",
       "subtype": "farm_truck_-_32,001_lbs._to_36,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3809,7 +3843,7 @@
       "category": "commercial",
       "subtype": "farm_truck_-_55,000_lbs._to_64,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3859,7 +3893,7 @@
       "category": "commercial",
       "subtype": "farm_truck_-_77,001_lbs._to_80,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3909,7 +3943,7 @@
       "category": "commercial",
       "subtype": "farm_trailers_-_10,000_lbs._or_less",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -3959,7 +3993,7 @@
       "category": "commercial",
       "subtype": "farm_trailers_-_20,001_lbs._to_28,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4009,7 +4043,7 @@
       "category": "commercial",
       "subtype": "farm_trailers_-_10,001_lbs._to_14,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4059,7 +4093,7 @@
       "category": "commercial",
       "subtype": "farm_trailers_-_28,001_lbs._to_36,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4109,7 +4143,7 @@
       "category": "commercial",
       "subtype": "farm_trailers_-_14,001_lbs._to_20,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4159,7 +4193,7 @@
       "category": "recreational",
       "subtype": "recreational_vehicle",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4209,7 +4243,7 @@
       "category": "commercial",
       "subtype": "recreational_trailer",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4259,7 +4293,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_12,000_lbs._or_less",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4309,7 +4343,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_24,001_lbs._to_28,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4359,7 +4393,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_40,001_lbs._to_45,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4409,7 +4443,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_64,001_lbs._to_73,280_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4459,7 +4493,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_12,001_lbs._to_16,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4509,7 +4543,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_28,001_lbs._to_32,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4559,7 +4593,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_45,001_lbs._to_54,999_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4609,7 +4643,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_73,281_lbs._to_77,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4659,7 +4693,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_16,001_lbs._to_20,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4709,7 +4743,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_32,001_lbs._to_36,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4759,7 +4793,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_55,000_lbs._to_59,500_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4809,7 +4843,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_77,001_lbs._to_80,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4859,7 +4893,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_20,001_lbs._to_24,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4909,7 +4943,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_36,001_lbs._to_40,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -4959,7 +4993,7 @@
       "category": "commercial",
       "subtype": "mileage_truck_-_59,501_lbs._to_64,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5009,7 +5043,7 @@
       "category": "commercial",
       "subtype": "mileage_trailer_-_14,000_lbs._or_less",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5059,7 +5093,7 @@
       "category": "commercial",
       "subtype": "mileage_trailer_-_14,001_lbs._or_20,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5109,7 +5143,7 @@
       "category": "commercial",
       "subtype": "mileage_trailer_-_20,001_lbs._or_36,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5159,7 +5193,7 @@
       "category": "commercial",
       "subtype": "mileage_trailer_-_36,001_lbs._or_40,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5209,7 +5243,7 @@
       "category": "commercial",
       "subtype": "flat_weight_trailers_-_3,001_lbs._to_5,000_lbs",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5259,7 +5293,7 @@
       "category": "commercial",
       "subtype": "flat_weight_trailers_-_5,001_lbs._to_8,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5309,7 +5343,7 @@
       "category": "commercial",
       "subtype": "flat_weight_trailers_-_8,000_lbs._to_10,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5359,7 +5393,7 @@
       "category": "commercial",
       "subtype": "flat_weight_trailers_-_10,001_lbs._to_14,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5409,7 +5443,7 @@
       "category": "commercial",
       "subtype": "flat_weight_trailers_-_14,000_lbs._to_20,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5459,7 +5493,7 @@
       "category": "commercial",
       "subtype": "flat_weight_trailers_-_20,001_lbs._to_32,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5509,7 +5543,7 @@
       "category": "commercial",
       "subtype": "flat_weight_trailers_-_32,000_lbs._to_36,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5559,7 +5593,7 @@
       "category": "commercial",
       "subtype": "flat_weight_trailers_-_36,001_lbs._to_40,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5609,7 +5643,7 @@
       "category": "commercial",
       "subtype": "motorcycle_ta_trailer",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5659,7 +5693,7 @@
       "category": "commercial",
       "subtype": "ta_trailer",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5709,7 +5743,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_d_-_10,001-12,000_lbs",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5759,7 +5793,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_f_-_12,001-16,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5809,7 +5843,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_h_-_16,001-26,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5859,7 +5893,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_j_-_26,001-28,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5909,7 +5943,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_k_-_28,001-32,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -5959,7 +5993,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_l_-_32,001-36,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -6009,7 +6043,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_n_-_36,001-40,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -6059,7 +6093,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_p_-_40,001-45,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -6109,7 +6143,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_q_-_45,001-50,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -6159,7 +6193,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_r_-_50,001-54,999_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -6209,7 +6243,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_s_-_55,000-59,500_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -6259,7 +6293,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_t_-_59,501-64,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -6309,7 +6343,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_v_-_64,001-73,280_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -6359,7 +6393,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_x_-_73,281-77,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -6409,7 +6443,7 @@
       "category": "commercial",
       "subtype": "flat_weight_truck_class_z_-_77,001-80,000_lbs.",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -6459,7 +6493,7 @@
       "category": "specialty",
       "subtype": "wildlife_prairie_park",
       "code_number": "0",
-      "processing_type": "standard",
+      "processing_type": "passenger_vehicle",
       "plate_characteristics": {
         "font": null,
         "logo": null,
@@ -6496,6 +6530,3206 @@
       "visual_identifier": "N",
       "processing_rules": "N",
       "requires_prefix": false
+    },
+    {
+      "type_name": "Apportioned",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Apportioned plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "31",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Plate displays 'Apportioned' text",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "apportioned",
+        "dot_dropdown_identifier": "Apportioned Plate",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Truck",
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Apportioned Plate' from Plate Type drop-down for all Illinois plates that display 'Apportioned' on them."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "apportioned",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Disabled/ Handicapped",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Disabled/ Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "35",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "WHEELCHAIR SYMBOL will appear on the LEFT side of the plate",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "disabled_numeric",
+        "dot_dropdown_identifier": "Disabled/Handicapped Plate",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Disabled / Handicapped",
+        "csv_processing_rules": "Y",
+        "special_instructions": "Will contain only NUMERIC CHARACTERS. Both Disabled/Handicapped and Disabled Vanity plates will have the wheelchair logo on Left. When they are not all numeric – they are considered Disabled Vanity plates.",
+        "processing_description": "Select 'Disabled/Handicapped Plate' from the Plate Type drop-down when you see an Illinois plate with the WHEELCHAIR symbol and the characters are ALL NUMERIC."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "disabled_numeric",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Disabled Vanity",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Disabled Vanity plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "44",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "WHEELCHAIR SYMBOL will appear on the LEFT side of the Plate",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "disabled_vanity",
+        "dot_dropdown_identifier": "Disabled Vanity Plate",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Vanity (Personalized)",
+        "csv_processing_rules": "Y",
+        "special_instructions": "Will contain ALL ALPHA or ALPHA-NUMERIC CHARACTERS",
+        "processing_description": "Select 'Disabled Vanity Plate' from the Plate Type drop-down when you see the wheelchair symbol and the characters are ALPHA or ALPHA-NUMERIC."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "disabled_vanity",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Passenger ",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Passenger  plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Semi Trailer",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Semi Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "57",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "The letters 'ST' MUST BE KEYED!",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "'ST' will appear VERTICALLY on the RIGHT side of the plate",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "semi_trailer_with_suffix",
+        "dot_dropdown_identifier": "Semi Trailer Plate",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "special_instructions": "Any trailer plate other than Apportioned or Semi-Trailer will be considered a Passenger Vehicle plate. 'ST' MUST BE KEYED!",
+        "processing_description": "Select 'Semi Trailer Plate' from the Plate Type drop-down when you see the letters 'ST' vertically stacked on Illinois plates."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "semi_trailer_with_suffix",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "B Truck",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois B Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "77",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "The letter 'B' MUST BE MANUALLY ADDED AT THE END OF THE PLATE # displayed",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "'B TRUCK/B' will appear on the RIGHT side of the plate",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "b_truck_with_suffix",
+        "dot_dropdown_identifier": "B Truck",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "use plate type code",
+        "csv_processing_rules": "Y",
+        "special_instructions": "You must MANUALLY KEY the letter 'B' at the END of the plate. Example: 3107003B",
+        "processing_description": "Select 'B Truck' Plate Type from the drop-down when you see the letter 'B' following the plate number or 'B TRUCK' displayed vertically on the right side of plate."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "b_truck_with_suffix",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Ambulance",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Ambulance plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_ambulance_suffix",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'.",
+        "special_instructions": "You must KEY the letters \"AM\" at the END of the plate number. Example: 000000AM or 797002AM. If the vehicle is a clearly marked Emergency Vehicle, REJECT the image using the \"Emergency Vehicle\" reject code."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_ambulance_suffix",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Antique ",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Antique  plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Antique Motorcycle",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Antique Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Armed Forces Reserves",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Armed Forces Reserves plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Authority / Police",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Authority / Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Authority Motorcycle/Police",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Authority Motorcycle/Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Bus",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Camper",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Camper plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Recreational Vehicle",
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Chicago Police Department",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Chicago Police Department plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "City",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois City plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "City Motorcycle",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois City Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Collegiate",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Collegiate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Univ. of Illinois",
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Combination",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Combination plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Commercial",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Commercial plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_commercial_omit_t",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'.",
+        "special_instructions": "Illinois commercial plates include a small letter \"T\" before the last character on the plate. This small letter \"T\" IS NOT KEYED. OMIT the small \"T\"."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_commercial_omit_t",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dealer",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Dealer Passenger",
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Disabled Veteran ",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Disabled Veteran  plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Disabled Veteran",
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Disabled Veteran Motorcycle",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Disabled Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Farm",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Farm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Truck",
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped Motorcycle",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Handicapped Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Disabled",
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "House of Representative / Official House",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois House of Representative / Official House plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Illinois State Police",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Illinois State Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Commercial plate ",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Initial Commercial plate  plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_commercial_omit_t",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'.",
+        "special_instructions": "Illinois commercial plates include a small letter \"T\" before the last character on the plate. This small letter \"T\" IS NOT KEYED. OMIT the small \"T\"."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_commercial_omit_t",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Disabled Veteran",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Initial Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Handicapped",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Initial Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Moose Conservation",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Initial Moose Conservation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Motorcycle",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Initial Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Passenger",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Initial Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Regular Veteran",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Initial Regular Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Veteran Motorcycle",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Initial Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Livery",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Livery plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Medal of Honor",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Medal of Honor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Moose Conservation",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Moose Conservation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "National Guard ",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois National Guard  plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "New& Used Dealer",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois New& Used Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Pearl Harbor Survivor",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Pearl Harbor Survivor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Purple heart",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Purple heart plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Regular Veteran Plate",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Regular Veteran Plate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Universal",
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Repocessor",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Repocessor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "School Bus",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois School Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "School Bus Pupil",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois School Bus Pupil plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Senate",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Senate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y - Currently ROV Lookup under review.",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y - Currently ROV Lookup under review.",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois State plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State motorcycle",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois State motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State Representative",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois State Representative plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y - Currently ROV Lookup under review.",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y - Currently ROV Lookup under review.",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Taxi",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Taxi plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Temporary",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_temporary",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'.",
+        "special_instructions": "Illinois Temporary plates are considered Passenger Vehicle plates. Select \"Passenger Vehicle\" from the Plate Type drop-down."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_temporary",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Trailer",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Truck Heavy",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Truck Heavy plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "8000 lbs.",
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Van Pool",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Van Pool plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Vessel- Dealer Automobile ",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Vessel- Dealer Automobile  plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": null,
+        "csv_processing_rules": "N",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "N",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Veteran Motorcycle",
+      "pattern": "TBD",
+      "character_count": null,
+      "description": "Illinois Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "category": "specialty",
+      "code_number": "46",
+      "processing_metadata": {
+        "currently_processed": false,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "",
+        "vehicle_type_identification": "",
+        "all_numeric_plate": false,
+        "dot_processing_type": "passenger_vehicle",
+        "dot_dropdown_identifier": "Passenger Vehicle",
+        "dot_conditional_rules": null,
+        "date_ranges": {
+          "period_1": null,
+          "period_2": null
+        },
+        "plate_images_available": "Universal",
+        "csv_processing_rules": "Y",
+        "processing_description": "Select 'Passenger Vehicle' from the Plate Type drop-down. ALL Illinois plates that were not previously mentioned will be considered 'Passenger Vehicles'."
+      },
+      "visual_identifier": "",
+      "processing_rules": "Y",
+      "requires_prefix": false,
+      "plate_characteristics": {
+        "font": null,
+        "logo": null,
+        "plate_text": null,
+        "design_variants": null,
+        "character_formatting": {
+          "stacked_characters": null,
+          "slanted_characters": null,
+          "slant_direction": null,
+          "stack_position": null
+        },
+        "sticker_override": null
+      },
+      "subtype": null,
+      "processing_type": "passenger_vehicle",
+      "images": {
+        "plate_sample": null,
+        "character_font_sample": null,
+        "blank_template": null,
+        "variations": []
+      }
     }
   ],
   "uses_zero_for_o": true,
