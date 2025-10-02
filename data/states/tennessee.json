@@ -9901,16 +9901,16 @@
       "character_restrictions": "Mixed O/0 usage - requires verification",
       "stacked_characters": {
         "include": [
+          "WB",
+          "V",
           "V0"
         ],
-        "omit": [
-          "T"
-        ],
-        "position": null,
+        "omit": [],
+        "position": "INCLUDE stacked WB, V, V0 characters throughout plate",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "Volunteers plates: DO NOT include T. Include V0 characters."
+        "notes": "Stacked characters must be keyed (e.g., TN-6WB799, TN-V03964, TN-3907V0, TN-0V0000). O and 0 both used on Drive Out Tags and Temporary Operating Permits."
       }
     }
   },

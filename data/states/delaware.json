@@ -13,15 +13,13 @@
       "code_system": "Information needed - research plate type code system",
       "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
       "stacked_characters": {
-        "include": [
-          "CL"
-        ],
+        "include": [],
         "omit": [],
         "position": null,
         "max_characters": null,
         "prefix_rules": null,
-        "symbols_allowed": null,
-        "notes": "Include CL stacked characters"
+        "symbols_allowed": true,
+        "notes": "Include all stacked characters"
       }
     }
   },

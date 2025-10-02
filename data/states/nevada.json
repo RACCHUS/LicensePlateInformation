@@ -40,7 +40,7 @@
           "DT"
         ],
         "omit": [],
-        "position": null,
+        "position": "INCLUDE 'DT' stacked characters as part of plate number",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

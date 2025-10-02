@@ -17,7 +17,7 @@
         "omit": [
           "E"
         ],
-        "position": null,
+        "position": "OMIT letter 'E' on TOP RIGHT CORNER (it's a sticker, not part of plate number)",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

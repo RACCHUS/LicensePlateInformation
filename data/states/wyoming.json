@@ -18,7 +18,7 @@
           "22T"
         ],
         "omit": [],
-        "position": null,
+        "position": "INCLUDE slanted 'TRL' characters, INCLUDE 'T' for TRUCK tags (e.g., 22T). Leading zero required for single digit before horse icon.",
         "max_characters": null,
         "prefix_rules": {
           "single_digit_before_horse": "Include 0 in front (e.g., WY-013918)"

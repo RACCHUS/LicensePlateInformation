@@ -17,7 +17,7 @@
         "omit": [
           "UD013"
         ],
-        "position": null,
+        "position": "OMIT 'UD013' on Used Dealer plates",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

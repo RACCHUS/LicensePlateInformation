@@ -17,7 +17,7 @@
         "omit": [
           "TRK"
         ],
-        "position": null,
+        "position": "OMIT 'TRK' stacked characters",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

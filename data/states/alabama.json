@@ -54,7 +54,7 @@
           "200",
           "T"
         ],
-        "position": "Middle of plate for include; left side for omit",
+        "position": "OMIT '200' on LEFT side, OMIT 'T' on LEFT side, INCLUDE 'X2' stacked in MIDDLE, INCLUDE 'TL'/'TR' stacked, INCLUDE 'DV'/'Q1' stacked",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

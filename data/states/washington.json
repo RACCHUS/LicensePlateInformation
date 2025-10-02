@@ -20,7 +20,7 @@
         "omit": [
           "TRAN"
         ],
-        "position": null,
+        "position": "INCLUDE 'AR'/'GRN' stacked characters. OMIT word 'TRAN'.",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

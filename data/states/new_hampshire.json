@@ -17,7 +17,7 @@
           "CH"
         ],
         "omit": [],
-        "position": null,
+        "position": "INCLUDE 'CH' and other stacked characters throughout plate. Symbols (&, +, -) can appear anywhere in plate number.",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": [

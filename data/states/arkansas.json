@@ -26,7 +26,7 @@
           "TRUCK",
           "ARK"
         ],
-        "position": null,
+        "position": "INCLUDE military/service codes (AB, EM, US, PHS, Ex, FX, PF) throughout. OMIT 'TRUCK', OMIT 'ARK'.",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

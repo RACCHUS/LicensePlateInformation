@@ -21,7 +21,7 @@
         "omit": [
           "E"
         ],
-        "position": null,
+        "position": "OMIT stacked on LEFT side if plate exceeds 10 characters. Omit 'E' in symbol area.",
         "max_characters": 10,
         "prefix_rules": null,
         "symbols_allowed": null,

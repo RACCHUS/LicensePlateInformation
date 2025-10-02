@@ -13,19 +13,15 @@
       "code_system": "Information needed - research plate type code system",
       "character_restrictions": "O only on personalized plates; standard uses 0",
       "stacked_characters": {
-        "include": [
-          "BX",
-          "AY",
-          "GX",
-          "HK",
-          "V"
-        ],
+        "include": [],
         "omit": [],
-        "position": null,
+        "position": "INCLUDE all stacked characters throughout. Year prefix '22' required for paper tags.",
         "max_characters": null,
-        "prefix_rules": null,
-        "symbols_allowed": null,
-        "notes": "Include military/service stacked codes"
+        "prefix_rules": {
+          "22": "Include year prefix for paper tags"
+        },
+        "symbols_allowed": true,
+        "notes": "Include all stacked characters. Year prefix 22 is required for paper tags."
       }
     }
   },

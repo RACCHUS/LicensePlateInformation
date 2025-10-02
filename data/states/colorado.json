@@ -13,16 +13,17 @@
       "code_system": "Information needed - research plate type code system",
       "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
       "stacked_characters": {
-        "include": [],
-        "omit": [
-          "FLT",
+        "include": [
           "DV"
         ],
-        "position": null,
+        "omit": [
+          "FLT"
+        ],
+        "position": "INCLUDE 'DV' stacked characters for disabled veteran tags",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "Omit fleet and disabled veteran codes"
+        "notes": "Include DV (disabled veteran) stacked, omit FLT (fleet)"
       }
     }
   },

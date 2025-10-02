@@ -13,19 +13,22 @@ from typing import List, Dict, Optional, Tuple
 class PlateImageViewer:
     """Advanced image viewer for license plates with navigation and smart ordering"""
     
-    # Priority order for plate types (most generic first)
+    # Priority order for plate types (generic first, then commercial, then passenger)
     TYPE_PRIORITY = {
-        'passenger': 1,
-        'standard': 1,
-        'commercial': 2,
-        'truck': 2,
+        'generic': 0,         # plate_sample without type specified
+        'truck': 1,
+        'trailer': 1,
+        'semi-trailer': 1,
+        'semi': 1,
+        'commercial': 1,
+        'passenger': 2,
+        'standard': 2,
         'motorcycle': 3,
-        'trailer': 4,
-        'specialty': 5,
-        'vanity': 6,
-        'government': 7,
-        'dealer': 8,
-        'apportioned': 9
+        'specialty': 4,
+        'vanity': 5,
+        'government': 6,
+        'dealer': 7,
+        'apportioned': 8
     }
     
     # Priority order for image types within each plate type
@@ -258,16 +261,24 @@ class PlateImageViewer:
             image_type = 'variation'
         
         # Determine plate type category
-        plate_type_category = 'passenger'  # default (most generic)
+        # Check if this is a generic plate_sample (no type keywords)
+        plate_type_category = None
         
-        if 'passenger' in name_lower or 'standard' in name_lower:
-            plate_type_category = 'passenger'
-        elif 'commercial' in name_lower or 'truck' in name_lower:
-            plate_type_category = 'commercial'
-        elif 'motorcycle' in name_lower or 'mc' in name_lower:
-            plate_type_category = 'motorcycle'
+        # Check for specific types first
+        if 'semi-trailer' in name_lower or 'semitrailer' in name_lower:
+            plate_type_category = 'semi-trailer'
+        elif 'semi' in name_lower:
+            plate_type_category = 'semi'
         elif 'trailer' in name_lower:
             plate_type_category = 'trailer'
+        elif 'truck' in name_lower:
+            plate_type_category = 'truck'
+        elif 'commercial' in name_lower:
+            plate_type_category = 'commercial'
+        elif 'passenger' in name_lower or 'standard' in name_lower:
+            plate_type_category = 'passenger'
+        elif 'motorcycle' in name_lower or 'mc' in name_lower:
+            plate_type_category = 'motorcycle'
         elif 'specialty' in name_lower or 'special' in name_lower:
             plate_type_category = 'specialty'
         elif 'vanity' in name_lower or 'personalized' in name_lower:
@@ -278,6 +289,13 @@ class PlateImageViewer:
             plate_type_category = 'dealer'
         elif 'apportioned' in name_lower:
             plate_type_category = 'apportioned'
+        
+        # If no specific type found and it's a generic "plate" file, mark as generic
+        if plate_type_category is None:
+            if 'plate' in name_lower and ('sample' in name_lower or 'blank' in name_lower or 'template' in name_lower):
+                plate_type_category = 'generic'
+            else:
+                plate_type_category = 'passenger'  # default fallback
         
         # Create display name
         display_name = name_without_ext.replace('_', ' ').title()

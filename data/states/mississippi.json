@@ -24,7 +24,7 @@
         "omit": [
           "TLR on red plates ending with A"
         ],
-        "position": null,
+        "position": "INCLUDE 'TLR' as prefix (except red plates ending with A), ADD 'NG' prefix for National Guard, small numbers on B/F plates throughout",
         "max_characters": null,
         "prefix_rules": {
           "B_F_small_numbers": "MUST be keyed",

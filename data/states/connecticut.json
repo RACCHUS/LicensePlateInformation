@@ -15,7 +15,16 @@
     "global_rules": {
       "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
       "font_changes": "Information needed - check historical changes",
-      "code_system": "Information needed - research plate type code system"
+      "code_system": "Information needed - research plate type code system",
+      "stacked_characters": {
+        "include": [],
+        "omit": [],
+        "position": null,
+        "max_characters": null,
+        "prefix_rules": null,
+        "symbols_allowed": null,
+        "notes": "No specific stacked character rules documented"
+      }
     }
   },
   "plate_types": [

@@ -21,14 +21,13 @@
           "FD"
         ],
         "omit": [
-          "DV",
-          "VET"
+          "vertical/diagonal with different font or color"
         ],
-        "position": null,
+        "position": "INCLUDE 'RS' in SYMBOL, INCLUDE 'FD' from Fire Fighter LOGO on left side, INCLUDE 'ID'/'ZE'/'TR' stacked. OMIT vertical/diagonal with different font/color.",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "Include stacked ID, ZE, TR, RS. Include FD from Fire Fighter logo. Omit vertical/diagonal DV, VET with different font/color."
+        "notes": "INCLUDE: ID, ZE, TR (e.g., VA-730591TR), RS in symbol (VA-FD48917, VA-RSVESTA), FD from Fire Fighter logo. OMIT vertical or diagonal characters with different font or color. Letter O is rounder than number 0."
       }
     }
   },

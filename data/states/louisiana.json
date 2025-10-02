@@ -14,22 +14,22 @@
       "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
       "stacked_characters": {
         "include": [
-          "MA",
-          "NA",
-          "AR",
           "MH",
-          "NG"
+          "AR",
+          "NG",
+          "MA",
+          "NA"
         ],
         "omit": [
           "USMC",
           "NAVY",
           "ARMY"
         ],
-        "position": null,
+        "position": "ALWAYS INCLUDE stacked (MH, AR, NG, MA, NA) codes. OMIT slanted branch names (USMC, NAVY, ARMY). Include slanted if no stacked available.",
         "max_characters": null,
         "prefix_rules": null,
-        "symbols_allowed": null,
-        "notes": "ALWAYS include state codes. OMIT slanted branch names. Include slanted if no stacked (e.g., LA-ARMY453)"
+        "symbols_allowed": true,
+        "notes": "ALWAYS include stacked characters including MH, AR, NG, MA, NA codes. OMIT slanted branch names (USMC, NAVY, ARMY). Include slanted text if no stacked available (e.g., LA-ARMY453)"
       }
     }
   },

@@ -17,7 +17,7 @@
         "omit": [
           "PRP"
         ],
-        "position": null,
+        "position": "OMIT 'PRP' on LEFT SIDE of plate",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

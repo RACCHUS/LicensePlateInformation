@@ -19,7 +19,7 @@
         "omit": [
           "dash (-)"
         ],
-        "position": null,
+        "position": "INCLUDE 'TRL' stacked as part of plate number",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

@@ -20,7 +20,7 @@
           "KID"
         ],
         "omit": [],
-        "position": null,
+        "position": "ALL stacked characters (MI, LC, SU, KID) are keyed throughout plate",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

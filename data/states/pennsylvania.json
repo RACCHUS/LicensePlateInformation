@@ -18,20 +18,18 @@
       "code_system": "Information needed - research plate type code system",
       "stacked_characters": {
         "include": [
-          "US ARMY VETERAN",
-          "US AIR VETERAN",
-          "VETERAN",
-          "NATIONAL GUARD",
-          "EMERGENCY MEDICAL SERVICES",
-          "FIRE FIGHTER",
-          "PD"
+          "US",
+          "NG",
+          "PD",
+          "EM",
+          "FF"
         ],
         "omit": [],
-        "position": null,
+        "position": "INCLUDE 'PD' by WHEELCHAIR SYMBOL, INCLUDE 'FF' in SYMBOL, INCLUDE 'US'/'NG'/'EM' stacked codes on service plates",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "Include stacked on veteran/service plates. Include small PD by wheelchair symbol."
+        "notes": "Stacked characters must be keyed (e.g., PA-00447US, PA-NG250, PA-PD4161A, PA-71067PD - include small PD by wheelchair, PA-EM0000, PA-FF0000 - FF in symbol must be keyed)"
       }
     }
   },

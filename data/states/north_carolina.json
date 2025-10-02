@@ -10650,7 +10650,7 @@
         "omit": [
           "ALL symbols (-)"
         ],
-        "position": null,
+        "position": "INCLUDE stacked DV, IC, NC, NG throughout. ADD 'SC' prefix for Supreme Court tags. OBX first character always letter O.",
         "max_characters": null,
         "prefix_rules": {
           "supreme_court": "ADD prefix SC"

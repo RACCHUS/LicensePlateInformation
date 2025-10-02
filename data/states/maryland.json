@@ -13,16 +13,13 @@
       "code_system": "Information needed - research plate type code system",
       "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
       "stacked_characters": {
-        "include": [
-          "AF",
-          "HDV"
-        ],
+        "include": [],
         "omit": [],
         "position": null,
         "max_characters": null,
         "prefix_rules": null,
-        "symbols_allowed": null,
-        "notes": "ALWAYS include Air Force and handicapped disabled veteran codes"
+        "symbols_allowed": true,
+        "notes": "ALWAYS include ALL stacked characters"
       }
     }
   },

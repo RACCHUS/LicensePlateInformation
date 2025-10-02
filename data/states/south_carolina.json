@@ -11243,17 +11243,18 @@
       "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
       "stacked_characters": {
         "include": [
+          "BC",
           "CC",
           "EA",
           "VT",
           "ZD"
         ],
         "omit": [],
-        "position": null,
+        "position": "Stacked characters (BC, CC, EA, VT, ZD) must be keyed as part of plate number",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "Include stacked characters CC, EA, VT, ZD"
+        "notes": "Stacked characters MUST be keyed (e.g., SC-BC3056CC, SC-EA354, SC-ZD00000)"
       }
     }
   },

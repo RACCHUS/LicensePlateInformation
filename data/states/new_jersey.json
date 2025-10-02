@@ -22,7 +22,7 @@
         "omit": [
           "small characters on dealer plates"
         ],
-        "position": null,
+        "position": "INCLUDE stacked/small numbers throughout (WD, NG, HM, NJ). OMIT small characters on dealer plates. Non-dealer plates include ALL small characters.",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

@@ -23,7 +23,7 @@
         "omit": [
           "T"
         ],
-        "position": null,
+        "position": "INCLUDE 'DV' stacked characters. OMIT letter 'T' in white part of plate.",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

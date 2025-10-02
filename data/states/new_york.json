@@ -24,7 +24,7 @@
           "MD"
         ],
         "omit": [],
-        "position": null,
+        "position": "INCLUDE stacked EMTP, VAS, DAV, MD codes as part of plate number",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,

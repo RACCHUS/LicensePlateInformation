@@ -20,15 +20,13 @@
         ],
         "omit": [
           "EX POW",
-          "DV",
-          "IRAQ",
-          "VIETNAM"
+          "DV"
         ],
-        "position": null,
+        "position": "INCLUDE 'M' as prefix (Michigan State Univ), INCLUDE 'S' as prefix (Michigan State Univ), INCLUDE smaller 'M' in MIDDLE, INCLUDE smaller 'D' in MIDDLE. OMIT 'EX POW', OMIT one 'DV' if both present.",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "Include university M, S and smaller M, D in middle. Omit one DV if both present. Omit branch/campaign names."
+        "notes": "INCLUDE: MSU 'M' (MI-MAA00A), MSU 'S' (MI-SAA00A), smaller 'M' (MI-105M540), smaller 'D' (MI-001D255). OMIT: 'EX POW', one 'DV' if both present. OMIT ALL branch of service or campaign names."
       }
     }
   },

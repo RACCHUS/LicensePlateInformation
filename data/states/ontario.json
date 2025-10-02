@@ -18,7 +18,7 @@
         "omit": [
           "PRP"
         ],
-        "position": null,
+        "position": "OMIT 'PRP' on YOURS TO DISCOVER plates",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
