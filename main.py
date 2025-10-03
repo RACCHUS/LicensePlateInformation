@@ -49,17 +49,28 @@ class LicensePlateApp:
         
     def setup_interface(self):
         """Create the main interface layout"""
-        # Main container
+        # Main container using grid for consistent proportions
         main_container = tk.Frame(self.root, bg='#1a1a1a')
         main_container.pack(fill='both', expand=True, padx=10, pady=10)
         
+        # Configure main container grid - 3 rows with fixed proportions
+        main_container.grid_rowconfigure(0, weight=2, minsize=150)   # Top section: 20%
+        main_container.grid_rowconfigure(1, weight=4, minsize=300)   # Middle section: 40%
+        main_container.grid_rowconfigure(2, weight=4, minsize=300)   # Bottom section: 40%
+        main_container.grid_columnconfigure(0, weight=1)
+        
         # Top section: Search/Plate Type (left) and State Selection (right) side by side
         top_section = tk.Frame(main_container, bg='#1a1a1a')
-        top_section.pack(fill='both', pady=(0, 10))
+        top_section.grid(row=0, column=0, sticky='nsew', pady=(0, 10))
+        
+        # Configure top section grid - 2 equal columns
+        top_section.grid_columnconfigure(0, weight=1, uniform='top')  # Left column
+        top_section.grid_columnconfigure(1, weight=1, uniform='top')  # Right column
+        top_section.grid_rowconfigure(0, weight=1)
         
         # Left column: Search bar + Plate Type (stacked, matches state panel height)
         left_column = tk.Frame(top_section, bg='#1a1a1a')
-        left_column.pack(side='left', fill='both', expand=True, padx=(0, 10))
+        left_column.grid(row=0, column=0, sticky='nsew', padx=(0, 5))
         
         # Search section (no title to save space)
         self.search_bar = SearchBar(left_column, self.widget_factory, 
@@ -72,7 +83,7 @@ class LicensePlateApp:
         
         # Right column: State selection panel  
         state_column = tk.Frame(top_section, bg='#1a1a1a')
-        state_column.pack(side='right', fill='both', expand=True)
+        state_column.grid(row=0, column=1, sticky='nsew', padx=(5, 0))
         
         state_header_frame = tk.Frame(state_column, bg='#1a1a1a')
         state_header_frame.pack(fill='x')
@@ -104,11 +115,16 @@ class LicensePlateApp:
         
         # Middle section: Search Results (left) and Image Display (right)
         middle_section = tk.Frame(main_container, bg='#1a1a1a')
-        middle_section.pack(fill='both', expand=True, pady=(5, 5))
+        middle_section.grid(row=1, column=0, sticky='nsew', pady=(5, 5))
+        
+        # Configure middle section grid - 2 equal columns
+        middle_section.grid_columnconfigure(0, weight=1, uniform='middle')  # Search results
+        middle_section.grid_columnconfigure(1, weight=1, uniform='middle')  # Images
+        middle_section.grid_rowconfigure(0, weight=1)
         
         # Left: Search Results
         search_results_column = tk.Frame(middle_section, bg='#1a1a1a')
-        search_results_column.pack(side='left', fill='both', expand=True, padx=(0, 5))
+        search_results_column.grid(row=0, column=0, sticky='nsew', padx=(0, 5))
         
         search_results_label = tk.Label(
             search_results_column, 
@@ -123,7 +139,7 @@ class LicensePlateApp:
         
         # Right: Image Display
         image_column = tk.Frame(middle_section, bg='#1a1a1a')
-        image_column.pack(side='right', fill='both', expand=True)
+        image_column.grid(row=0, column=1, sticky='nsew', padx=(5, 0))
         
         image_label = tk.Label(
             image_column, 
@@ -140,11 +156,18 @@ class LicensePlateApp:
         
         # Bottom section: Information Panels (4 columns for better space usage)
         info_section = tk.Frame(main_container, bg='#1a1a1a')
-        info_section.pack(fill='both', expand=True)
+        info_section.grid(row=2, column=0, sticky='nsew')
+        
+        # Configure info section grid - 4 equal columns
+        info_section.grid_columnconfigure(0, weight=1, uniform='info')  # State info
+        info_section.grid_columnconfigure(1, weight=1, uniform='info')  # Plate info
+        info_section.grid_columnconfigure(2, weight=1, uniform='info')  # Char rules
+        info_section.grid_columnconfigure(3, weight=1, uniform='info')  # Font preview
+        info_section.grid_rowconfigure(0, weight=1)
         
         # Column 1: State Information (compact)
         state_info_column = tk.Frame(info_section, bg='#1a1a1a')
-        state_info_column.pack(side='left', fill='both', expand=True, padx=(0, 5))
+        state_info_column.grid(row=0, column=0, sticky='nsew', padx=(0, 3))
         
         state_info_label = tk.Label(
             state_info_column, 
@@ -177,7 +200,7 @@ class LicensePlateApp:
         
         # Column 2: Plate Type Information (compact)
         plate_info_column = tk.Frame(info_section, bg='#1a1a1a')
-        plate_info_column.pack(side='left', fill='both', expand=True, padx=(0, 5))
+        plate_info_column.grid(row=0, column=1, sticky='nsew', padx=(3, 3))
         
         plate_info_label = tk.Label(
             plate_info_column, 
@@ -210,7 +233,7 @@ class LicensePlateApp:
         
         # Column 3: Character Handling Rules
         char_rules_column = tk.Frame(info_section, bg='#1a1a1a')
-        char_rules_column.pack(side='left', fill='both', expand=True, padx=(0, 5))
+        char_rules_column.grid(row=0, column=2, sticky='nsew', padx=(3, 3))
         
         char_rules_label = tk.Label(
             char_rules_column, 
@@ -225,7 +248,7 @@ class LicensePlateApp:
         
         # Column 4: Character Font Preview
         font_column = tk.Frame(info_section, bg='#1a1a1a')
-        font_column.pack(side='left', fill='both', expand=True, padx=(0, 5))
+        font_column.grid(row=0, column=3, sticky='nsew', padx=(3, 0))
         
         font_preview_label = tk.Label(
             font_column, 

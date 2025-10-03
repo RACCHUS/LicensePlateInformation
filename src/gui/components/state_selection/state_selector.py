@@ -74,17 +74,14 @@ class StateSelectionPanel:
         # Main container with border for visibility
         self.main_frame = self.widget_factory.create_frame(self.parent, padding="2")
         self.main_frame.configure(relief='solid', borderwidth=1)
-        self.main_frame.pack(fill='x', padx=2, pady=2)
+        self.main_frame.pack(fill='both', expand=True, padx=2, pady=2)
         
-        # Create inner container with tiny size
+        # Create inner container that fills all available space (no scrollbar)
         self.inner_frame = self.widget_factory.create_frame(self.main_frame)
-        self.inner_frame.pack(anchor='nw', fill='x', padx=2, pady=2)  # Fill x to ensure visibility
+        self.inner_frame.pack(fill='both', expand=True, padx=2, pady=2)
         
         # Create unified button grid with all jurisdictions
         self._create_unified_grid()
-        
-        # Bind resize event for responsive behavior (minimal handling needed with fixed sizing)
-        self.main_frame.bind('<Configure>', self._on_window_resize)
         
         return self.main_frame
         
@@ -137,24 +134,29 @@ class StateSelectionPanel:
             else:
                 style = 'OtherState.TButton'
             
-            # Create button with responsive sizing (smaller for windowed mode)
+            # Create button with responsive sizing
             button = ttk.Button(
                 parent,
                 text=code,  # Only show state code - clean and compact
                 style=style,
-                width=4,  # Reduced from 6 to 4 for better windowed mode appearance
+                width=4,  # Minimum width to ensure text is visible
                 command=lambda state_code=code: self._handle_state_selection(state_code)
             )
             
-            # Grid with consistent 1px spacing all around
-            button.grid(row=row, column=column, padx=1, pady=1, sticky='ew')
+            # Grid with consistent spacing - buttons will expand beyond minimum width
+            button.grid(row=row, column=column, padx=1, pady=1, sticky='nsew', ipadx=2, ipady=2)
             
             # Store button reference
             self.state_buttons[code] = button
             
-        # Configure columns for consistent spacing and sizing
+        # Configure columns and rows for responsive layout
         for col in range(columns):
             parent.grid_columnconfigure(col, weight=1, uniform="button")
+        
+        # Configure rows to allow vertical expansion
+        num_rows = (len(items_list) + columns - 1) // columns
+        for row in range(num_rows):
+            parent.grid_rowconfigure(row, weight=1)
             
     def _handle_state_selection(self, state_code: str):
         """Handle state button click"""

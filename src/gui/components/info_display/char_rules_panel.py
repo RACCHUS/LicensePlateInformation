@@ -54,36 +54,31 @@ class CharacterRulesPanel:
         )
         self.main_frame.pack(fill='both', expand=True)
         
-        # Scrollable content area
-        canvas = tk.Canvas(self.main_frame, bg='#2a2a2a', highlightthickness=0)
-        scrollbar = tk.Scrollbar(self.main_frame, orient='vertical', command=canvas.yview)
-        self.content_frame = tk.Frame(canvas, bg='#2a2a2a')
+        # Scrollable content area - scrollbar always visible
+        self.canvas = tk.Canvas(self.main_frame, bg='#2a2a2a', highlightthickness=0)
+        self.scrollbar = tk.Scrollbar(self.main_frame, orient='vertical', command=self.canvas.yview, 
+                                      bg='#404040', troughcolor='#2a2a2a', width=15)
+        self.content_frame = tk.Frame(self.canvas, bg='#2a2a2a')
         
         self.content_frame.bind(
             "<Configure>",
-            lambda e: self._configure_scroll_region(canvas, scrollbar)
+            lambda e: self._configure_scroll_region()
         )
         
-        canvas.create_window((0, 0), window=self.content_frame, anchor="nw")
-        canvas.configure(yscrollcommand=scrollbar.set)
+        self.canvas.create_window((0, 0), window=self.content_frame, anchor="nw")
+        self.canvas.configure(yscrollcommand=self.scrollbar.set)
         
-        canvas.pack(side="left", fill="both", expand=True)
+        # Pack scrollbar first (always visible), then canvas
+        self.scrollbar.pack(side="right", fill="y")
+        self.canvas.pack(side="left", fill="both", expand=True)
         
         # Default content
         self._show_default_message()
     
-    def _configure_scroll_region(self, canvas, scrollbar):
-        """Configure scroll region and show/hide scrollbar"""
-        canvas.configure(scrollregion=canvas.bbox("all"))
-        
-        canvas.update_idletasks()
-        canvas_height = canvas.winfo_height()
-        content_height = canvas.bbox("all")[3] if canvas.bbox("all") else 0
-        
-        if content_height > canvas_height:
-            scrollbar.pack(side="right", fill="y")
-        else:
-            scrollbar.pack_forget()
+    def _configure_scroll_region(self):
+        """Configure scroll region - scrollbar is always visible"""
+        self.canvas.configure(scrollregion=self.canvas.bbox("all"))
+        self.canvas.update_idletasks()
     
     def _show_default_message(self):
         """Show default message when no state is selected"""
@@ -126,6 +121,10 @@ class CharacterRulesPanel:
         
         # Display rules
         self._display_rules(state_data, state_code)
+        
+        # Force scroll region update after content changes
+        self.content_frame.update_idletasks()
+        self._configure_scroll_region()
     
     def _load_state_data(self, state_code: str) -> Optional[dict]:
         """Load state JSON data"""
@@ -191,7 +190,8 @@ class CharacterRulesPanel:
             text=f"{state_name} Character Rules",
             bg='#2a2a2a',
             fg='#4CAF50',
-            font=('Segoe UI', 10, 'bold')
+            font=('Segoe UI', 10, 'bold'),
+            wraplength=220  # Wrap text to fit panel width
         )
         header.pack(anchor='w', padx=10, pady=(10, 5))
         
@@ -203,6 +203,10 @@ class CharacterRulesPanel:
         
         # Add some padding at bottom
         tk.Frame(self.content_frame, bg='#2a2a2a', height=10).pack()
+        
+        # Update scroll region after all content is displayed
+        self.content_frame.update_idletasks()
+        self._configure_scroll_region()
     
     def _display_o_vs_zero_rules(self, state_data: dict):
         """Display O vs 0 usage rules"""
@@ -241,7 +245,8 @@ class CharacterRulesPanel:
             bg='#2a2a2a',
             fg=color,
             font=('Segoe UI', 8),
-            justify='left'
+            justify='left',
+            wraplength=200  # Wrap to fit panel
         )
         rule_label.pack(anchor='w', padx=20, pady=2)
     
@@ -288,7 +293,7 @@ class CharacterRulesPanel:
                 bg='#2a2a2a',
                 fg='#81C784',
                 font=('Segoe UI', 8),
-                wraplength=400,
+                wraplength=180,  # Narrower to fit panel
                 justify='left'
             )
             include_value.pack(anchor='w', padx=35, pady=1)
@@ -312,7 +317,7 @@ class CharacterRulesPanel:
                 bg='#2a2a2a',
                 fg='#ff9999',
                 font=('Segoe UI', 8),
-                wraplength=400,
+                wraplength=180,  # Narrower to fit panel
                 justify='left'
             )
             omit_value.pack(anchor='w', padx=35, pady=1)
@@ -335,7 +340,7 @@ class CharacterRulesPanel:
                 bg='#2a2a2a',
                 fg='#90CAF9',
                 font=('Segoe UI', 8),
-                wraplength=400,
+                wraplength=180,  # Narrower to fit panel
                 justify='left'
             )
             notes_value.pack(anchor='w', padx=35, pady=1)
@@ -394,7 +399,7 @@ class CharacterRulesPanel:
                     bg='#2a2a2a',
                     fg='#FFCC80',
                     font=('Segoe UI', 8),
-                    wraplength=400,
+                    wraplength=180,  # Narrower to fit panel
                     justify='left'
                 )
                 prefix_value.pack(anchor='w', padx=35, pady=1)

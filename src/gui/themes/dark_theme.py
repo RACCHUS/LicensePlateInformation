@@ -101,8 +101,9 @@ class DarkTheme:
                            foreground='#FFFFFF',
                            borderwidth=1,
                            focuscolor='none',
-                           font=('Segoe UI', 7, 'bold'),  # Adjusted for smaller buttons
+                           font=('Segoe UI', 8, 'bold'),  # Readable at all sizes
                            relief='solid',
+                           padding=(2, 2),  # Internal padding for text
                            fieldbackground='#FF6B35')  # Force background
                            
         # Plate type states - special blue color with border
@@ -111,8 +112,9 @@ class DarkTheme:
                            foreground='#FFFFFF',
                            borderwidth=1,
                            focuscolor='none',
-                           font=('Segoe UI', 7, 'bold'),  # Adjusted for smaller buttons
+                           font=('Segoe UI', 8, 'bold'),  # Readable at all sizes
                            relief='solid',
+                           padding=(2, 2),  # Internal padding for text
                            fieldbackground='#4A90E2')  # Force background
                            
         # Florida adjacent states - green color with border
@@ -121,8 +123,9 @@ class DarkTheme:
                            foreground='#FFFFFF',
                            borderwidth=1,
                            focuscolor='none',
-                           font=('Segoe UI', 7, 'bold'),  # Adjusted for smaller buttons
+                           font=('Segoe UI', 8, 'bold'),  # Readable at all sizes
                            relief='solid',
+                           padding=(2, 2),  # Internal padding for text
                            fieldbackground='#7ED321')  # Force background
                            
         # Other states - gray color with border
@@ -131,8 +134,9 @@ class DarkTheme:
                            foreground='#FFFFFF',
                            borderwidth=1,
                            focuscolor='none',
-                           font=('Segoe UI', 7),  # Adjusted for smaller buttons
+                           font=('Segoe UI', 8),  # Readable at all sizes
                            relief='solid',
+                           padding=(2, 2),  # Internal padding for text
                            fieldbackground='#9B9B9B')  # Force background
                            
         # Other jurisdictions - purple color with border
@@ -141,8 +145,9 @@ class DarkTheme:
                            foreground='#FFFFFF',
                            borderwidth=1,
                            focuscolor='none',
-                           font=('Segoe UI', 7),  # Adjusted for smaller buttons
+                           font=('Segoe UI', 8),  # Readable at all sizes
                            relief='solid',
+                           padding=(2, 2),  # Internal padding for text
                            fieldbackground='#BD10E0')  # Force background
                            
         # Configure hover effects for all button styles
