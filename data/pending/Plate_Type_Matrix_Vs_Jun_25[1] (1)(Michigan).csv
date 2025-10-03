@@ -1,0 +1,124 @@
+0,Passenger Plate Default,Michigan,,,"Uses the number zero “0” on personalized plates to represent both a number zero “0” or a letter “O”. Thus, if someone is issued personalized plate “70 FORD”, the personalized plate will show the number “0” like this: 70 F0RD. The letter “O” is not used. A letter “O” is shown by using the number “0”.",,,,,"Current, standarrd issue plates DO NOT use the letter 'O'.",,
+ONYH58,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+0,Afghanistan Campaign Medal Veteran,Type I,Type II,,Y,N,N,N,Y,Y-'Veteran' across the bottom of plate. Military logo or medal design on left side of plate.,N,N
+0,Afghanistan Conflict Veteran,Type I,Type II,Type III,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Agriculture Heritage,,,,Y,N,N,N,Y,Y- Barn logo at left of plate.,N,N
+0,Air Force Veteran (2007-2009),Type I,Type II,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Air Force Veteran (2010-2012),Type I,Type II,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Air Force Veteran (Since 2013),,,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Antique ,Type I,Type II,Type III,Y,N,N,N,Y,Y - Historical or older version of plates with year noted.,N,N
+0,Antique Motorcycle,,,,Y,N,N,N,Y,Y - Smaller plate size. Older style plates noted.,Y - Motorcycle,N
+0,Amateur Radio (2007-2009),Type I,Type II,,Y,N,N,N,Y,N,N,N
+0,Amateur Radio (2010-2012),,,,Y,N,N,N,Y,Y- 'AMATEUR RADIO' at left of plate.,N,N
+0,Amateur Radio (Since 2013),,,,Y,N,N,N,Y,Y- Radio Tower logo at left of plate.,N,N
+0,Apportioned,2007-2012,Since 2013,,Y,N,N,N,Y,Y - Apportioned appears across bottom of plate.,N,N
+0,Army,Type I,Type II,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Army Veteran,Type I,Type II,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Boy Scout of America,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+0,Breast Cancer,,,,Y,N,N,N,Y,Y- Organization logo at left of plate; 'EARLY DETECTION SAVES LIVES' on bottom.,N,N
+0,Central Michigan University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+0,Children ,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+0,Children's Trust Fund,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+0,Coast Guard Veteran,Type I,Type II,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Commercial ,Type I,Type II,Type III,Y,N,N,N,Y,N,N,N
+0,Commercial ,Mackinac Bridge,,,Y,N,N,N,Y,N,N,N
+0,Conserve Wildlife Habitat (Elk),,,,Y,N,N,N,Y,Y- Animal logo at left of plate.,N,N
+0,Conserve Wildlife Habitat (Loon),2007-2013,Since 2014,,Y,N,N,N,Y,Y- Animal logo at left of plate.,N,N
+0,Conserve Wildlife Habitat (Warbler),,,,Y,N,N,N,Y,Y- Animal logo at left of plate.,N,N
+0,Cuban Missile Crisis Veteran,,,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Dealer,,,,Y,N,N,Y-Verify small character in center of plate.,Y,Y - Dealer appears across bottom of plate.,N,N
+0,Delta Sigma Theta Sorority,,,,Y,N,N,N,Y,Y- Sorority logo at left of plate.,N,N
+0,Detroit Sports Teams,Lions,Pistons,Tigers,Y,N,N,N,Y,Y- Team logo at left of plate.,N,N
+0,Digital,,,,Y,N,N,N,Y,Y- 'michigan.org' at bottom of plate.,N,N
+0,Disabled,Type I,Type II,Type III,Y,N,N,N,Y,Y- Wheelchair logo at left of plate.,N,N
+0,Disabled,Mackinac Bridge I,Mackinac Bridge II,Winter Wonderland,Y,N,N,N,Y,Y- Wheelchair logo at left of plate.,N,N
+0,Disabled Veteran (2007-2019),Type I,Type II,Type III,Y,N,N,Y - Omit Slanted DV.,Y,Y - Plate starts with DV. Wheelchair logo sticker may be seen on plate.,N,N
+0,Disabled Veteran (Since 2020),,,,Y,N,N,N,Y,Y- Registration begins with 'DV' ; 'DISABLED VETERAN' at bottom of plate.,N,N
+0,Dominican Republic Veteran,,,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Donate Life,,,,Y,N,N,N,Y,"Y- 'Be an Organ, Eye & Tissue Donor' at bottom of plate;  Organization logo at left.",N,N
+0,Ducks Unlimited,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+0,Eastern Michigan University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+0,Ex-POW,2007-2012,Since 2013,,Y,N,N,Y -OMIT Vertical EX POW,Y,Y - Vertical EX POW at left; 'Ex Prisoner of War' appears across bottom of plate.,N,N
+0,Farm,,,,Y,N,N,Y-Verify small character in center of plate.,Y,Y- 'Farm' appears across the bottom of plate.,N,N
+0,Ferris State University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+0,Firefighter,,,,Y,N,N,N,Y,Y - Firemen logo at left of plate.,N,N
+0,Fleet,,,,Y,N,N,N,Y,N,N,N
+0,Fraternal Order of Police,2007-2012,Since 2013,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+0,Freemasonry,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+0,Gold Star Family,2007-2012,Since 2013,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+0,Grand Valley State University,,,,Y,N,N,N,Y,N,N,N
+0,Historical,2007-2012,Since 2013,,Y,N,N,N,Y,N,N,N
+0,In Transit Repair,2007-2012,Since 2013,,Y,N,N,Y-Verify small character in center of plate.,Y,Y - In Transit Repair appears across bottom of plate. Small G in center must be verified.,N,N
+0,Iraq Campaign Medal,,,,Y,N,N,N,Y,Y-'Veteran' across the bottom of plate. Military logo or medal design on left side of plate.,N,N
+0,Iraq Conflict Veteran,2007-2012,Since 2013,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Korean War Veteran,2007-2012,Since 2013,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Lake Superior State University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+0,Laos Conflict Veteran,,,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Lebanon Conflict Veteran,2007-2012,Since 2013,Type II,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Lighthouse Preservation,2007-2016,Since 2017,,Y,N,N,N,Y,Y- 'Save Our Lights' on plate.,N,N
+0,Log Farm,2007-2012,Since 2013,,Y,N,N,N,Y,N,N,N
+0,Manufacturer,2007-2012,Since 2013,,Y,N,N,Y-Verify small character in center of plate.,Y,Y - Manufacturer appears across bottom of plate. Small M in center must be verified.,N,N
+0,Marine Corps Veteran,,,,Y,N,N,N,Y,Y- Branch logo at left of plate.,N,N
+0,Marines Veteran,Type I,Type II,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Medal of Honor Veteran,Type I,Type II,,Y,N,N,Y - OMIT Medal of Honor in center of plate.,Y,Y - Medal logo may appear on left of plate.,N,N
+0,Michigan State University,2007-2012,Since 2013,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+0,Michigan Tech University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+0,Military Reserve Veteran,2007-2012,Since 2013,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Motorcycle Army Veteran,,,,Y,N,N,N,Y,Y - Smaller plate size. Branch of service appears on plate.,Y - Motorcycle,N
+0,Motorcycle Coast Guard Veteran,,,,Y,N,N,N,Y,Y - Smaller plate size. Branch of service appears on plate.,Y - Motorcycle,N
+0,Motorcycle Dealer,2007-2012,Since 2013,,Y,N,N,N,Y,Y - Smaller plate size. Key the small 'D' in the registration.,Y - Motorcycle,N
+0,Motorcycle Disabled,,,,Y,N,Y,N,Y,Y - Smaller plate size. Wheelchair logo. 'CYCLE' on bottom of plate.,Y - Motorcycle,N
+0,Motorcycle Govt,,,,Y,N,Y,N,Y,Y - Smaller plate size. 'STATE GOVT' on bottom of plate.,Y - Motorcycle,N
+0,Motorcycle Historical,2007-2012,Since 2013,,Y,N,Y,N,Y,Y - Smaller plate size. 'HISTORICAL' on bottom of plate.,Y - Motorcycle,N
+0,Motorcycle Manufacturer,,,,Y,N,Y,N,Y,Y - Smaller plate size. 'MFG' on bottom of plate.,Y - Motorcycle,N
+0,Motorcycle Marine Corps Veteran,2007-2012,Since 2013,,Y,N,N,N,Y,Y - Smaller plate size. Branch of service appears on plate.,Y - Motorcycle,N
+0,Motorcycle National Guard,,,,Y,N,Y,N,Y,Y - Smaller plate size. 'CYCLE' on bottom of plate; Branch of service at left.,Y - Motorcycle,N
+0,Motorcycle Navy,Type I,Type II,,Y,N,N,N,Y,Y - Smaller plate size. Branch of service appears on plate.,Y - Motorcycle,N
+0,Motorcycle Sheriff,,,,Y,N,Y,N,Y,Y - Smaller plate size. 'SHERIFF' on bottom of plate.,Y - Motorcycle,N
+0,Motorcycle,Type I,Type II,Type III,Y,N,N,N,Y,N,Y - Motorcycle,N
+0,Motorcycle,Type IV,Type V,,Y,N,N,N,Y,N,Y - Motorcycle,N
+0,Motorcycle State Police,2007-2012,Since 2013,,Y,N,Y,N,Y,Y - Smaller plate size. 'STATE POLICE' on bottom of plate; Branch of service at left.,Y - Motorcycle,N
+0,Municipal,,,,Y,N,N,Y-Verify small character in center of plate.,Y,Y - Municipal appears across bottom of plate. Small X in center must be verified.,N,N
+0,National Guard,Type I,Type II,Type III,Y,N,N,Y,Y,Y - Militiaman logo. National Guard appears across bottom of plate.,N,N
+0,National Guard (Since 2013),,,,Y,N,N,Y,Y,Y - Militiaman logo. National Guard appears across bottom of plate.,N,N
+0,Navy Veteran,Type I,Type II,Type III,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Non-Profit,,,,Y,N,N,Y-Verify small character in center of plate.,Y,Y - Non Profit appears across bottom of plate.,N,N
+0,Oakland University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+0,Olympic Education,,,,Y,N,N,N,Y,Y- Organization logo at left;  'Go Team USA' appears across the bottom of plate.,N,N
+0,Panama Veteran,,,,Y,N,N,N,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Passenger,Since 2013,Spectacular Peninsulas,MacKinac Bridge I,Y,N,N,N,Y,N,N,N
+0,Passenger,MacKinac Bridge II,Water Wndrlnd,Water/Winter Wndrlnd,Y,N,N,N,Y,N,N,N
+0,Patriotic,2007-2012,Since 2013,,Y,N,N,N,Y,N,N,N
+0,Pearl Harbor Survivor,Type I,Type II,,Y,N,N,N,Y,Y - Pearl Harbor Survivor appears across bottom of plate.,N,N
+0,Permanent Trailer,2007-2012,Since 2013,,Y,N,N,N,Y,N,N,N
+0,Persian Gulf Veteran,2007-2012,Since 2013,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Police Officer's Association of Michigan,2007-2012,Since 2013,,Y,N,N,N,Y,Y- Organization logo at left;  'THE CHOICE OF PROFESSIONALS' appears across the bottom of plate.,N,N
+0,Professional Firefighter,2007-2012,Since 2013,,Y,N,N,N,Y,Y - Firefighter logo appear on left of plate.,N,N
+0,Protecting Our Waters,,,,Y,N,N,N,Y,Y - Orginational logo appear on left of plate.,N,N
+0,Purple Heart,Type I,Type II,Type III,Y,N,N,N,Y,Y- Medal logo at left;  'COMBAT WOUNDED VETERAN' appears across the bottom of plate.,N,N
+0,Purple Heart,Type IV,,,Y,N,N,N,Y,Y- Medal logo at left;  'COMBAT WOUNDED VETERAN' appears across the bottom of plate.,N,N
+0,Red Wings,,,,Y,N,N,N,Y,Y- Team logo at left;  'DETROIT RED WINGS' appears across the bottom of plate.,N,N
+0,Repossession,,,,Y,N,N,Y-Verify small character in center of plate.,Y,Y - Repossession appears across bottom of plate. Small 'R' in center must be verified.,N,N
+0,Saginaw Valley State University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+0,Senator,,,,Y,N,N,N,Y,Y- Registration begins with 'SEN'.,N,N
+0,Sheriff,2007-2012,Since 2013,,Y,N,N,N,Y,Y - Sheriff's logo appear on center of tag,N,N
+0,Somolia Veteran,,,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Specialty,,,,Y,N,N,N,Y,Y- Organization logo at left;  'Help cure blood cancer' appears across the bottom of plate.,N,N
+0,State Govt,2007-2012,Since 2013,Type II,Y,N,N,N,Y,N,N,N
+0,State Police,2007-2012,Since 2013,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+0,Support Michigan Veterans,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+0,Temporary,2008-2018,Since 2019,,Y,N,N,N,Y,N,N,N
+0,Transporter,,,,Y,N,N,Y-Verify small character in center of plate.,Y,Y - Transporter appears across bottom of plate. Small 'T' in center must be verified.,N,N
+0,Truck,,,,Y,N,N,N,Y,N,N,N
+0,University of Michigan,Dearborn,Flint,2007-2012,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+0,University of Michigan,Since 2013,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+0,US Congress,2007-2012,Since 2013,,Y,N,N,N,Y,N,N,N
+0,Veterans Memorial,,,,Y,N,N,N,Y,Y- Dog Tags logo at left;  'LEST WE FORGET' appears across the bottom of plate.,N,N
+0,Vietnam Service Medal,2007-2012,Since 2013,,Y,N,N,N,Y,Y-'Veteran' across the bottom of plate. Military logo or medal design on left side of plate.,N,N
+0,Vietnam War Veteran,Type I,Type II,Type III,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Wayne State University,2007-2012,Since 2013,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+0,Western Michigan University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+0,WWII Veteran,2007-2012,Since 2013,,Y,N,N,Y - Omit all branch of service or campaign names visible on plate.,Y,Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.,N,N
+0,Wrecker,,,,Y,N,N,N,Y,N,N,N
+,,,,,,,,,,,,

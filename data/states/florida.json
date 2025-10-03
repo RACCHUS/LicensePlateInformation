@@ -38,7 +38,16 @@
       "no_letter_o": "Does not use the Letter 'O', we only use the number zero '0'. If the letter 'O' is entered it automatically changes to zero '0' in our motor vehicle database.",
       "font_changes": "Font changes in 2008 & 2019.",
       "code_system": "Florida uses Plate Type Code numbers to apply proper prefix/suffix currently. The only plate type code used is Passenger Plate Default: 0",
-      "has_variable_processing_types": true
+      "has_variable_processing_types": true,
+      "stacked_characters": {
+        "include": [],
+        "omit": [],
+        "position": "No specific stacked character rules for Florida. All visible characters should be keyed unless specific plate type has omit rules.",
+        "max_characters": null,
+        "prefix_rules": {},
+        "symbols_allowed": null,
+        "notes": "Florida does NOT use letter 'O' - automatically converts to zero '0' in database. Include all visible registration characters unless plate-specific rules indicate omission (see individual plate types for dropdown requirements and omit rules like 'DV', 'EX-POW', 'City', 'County', 'CO', 'CY', etc.)."
+      }
     },
     "processing_types": {
       "standard": {

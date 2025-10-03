@@ -1,0 +1,159 @@
+0,Passenger Plate Default,New Jersey,,,"Does not use the letter “O”, only the number zero “0”.",,,,,,,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+0,Agriculture,,,,Y,N,N,N,Y,N,N,N
+0,Air Force Reserve,1992-2013,Since 2014,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Air Force Retired,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Air National Guard,,,,Y,N,N,N,Y,N,N,N
+0,Airborne,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Alpha Kappa Alpha Sorority,,,,Y,N,N,N,Y,Y- Sorority logo appears on left of plate; 'Service to All Mankind' below logo.,N,N
+0,Amateur Radio,,,,Y,N,N,N,Y,N,N,N
+0,Ambulance,,,,Y,N,N,N,Y,N,N,N
+0,American Legion,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Amvets,1992-2013,Since 2014,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Animal Friendly,,,,Y,N,N,N,Y,N,N,N
+0,Apportioned ,1996-2013,Since 2014,,Y,N,N,N,Y,Y - 'APPORTIONED' appears across bottom of plate.,N,N
+0,Army National Guard,,,,Y,N,N,N,Y,N,N,N
+0,Army Reserve,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Assembly,,,,Y,N,N,N,Y,N,N,N
+0,Atlantic City Expressway,,,,Y,N,N,N,Y,N,N,N
+0,Autocycle,,,,Y,N,N,N,Y,N,N,N
+0,Battleship,1996-2015,Since2016,,Y,N,N,N,Y,N,N,N
+0,Baymen's Heritage,1998-2013,Since 2014,,Y,N,N,N,Y,N,N,N
+0,Cabinet,,,,Y,N,N,N,Y,N,N,N
+0,Chiropractor,,,,Y,N,N,N,Y,N,N,N
+0,Choose Life,2010-2013,Since 2014,,Y,N,N,N,Y,Y- Organization logo on left side of plate; ' NJ CHOOSE LIFE' at bottom of plate.,N,N
+0,Civil Air Patrol,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Coast Guard Auxiliary,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Coast Guard Reserve,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Combat Veteran,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Commercial,1993-2013,Since 2014,Optional,Y,N,N,N,Y,Y - Commercial appears across bottom of plate.,N,N
+0,Conquer Cancer,,,,Y,N,N,N,Y,Y- Organization logo at left of plate; 'We Care' at left of plate.,N,N
+0,Conserve Wildlife Eagle,,,,Y,N,N,N,Y,N,N,N
+0,Conserve Wildlife Woodpecker,,,,Y,N,N,N,Y,N,N,N
+0,County Government,,,,Y,N,N,N,Y,N,N,N
+0,County Officer,,,,Y,N,N,N,Y,N,N,N
+0,Dealer Temporary ,,,,Y,N,N,N,Y,Y- 'Temporary' at bottom of plate.,N,N
+0,Dealer Temporary Rental Leasing,,,,Y,N,N,N,Y,Y- 'TEMP R-L' at bottom of plate,N,N
+0,Dentist,,,,Y,N,N,N,Y,N,N,N
+0,Disabled American Veteran,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Disabled Veteran or Disabled American Veteran appears across bottom of plate.,N,N
+0,Disabled Veteran,,,,Y,N,N,N,Y,N,N,N
+0,Discover New Jersey History,,,,Y,N,N,N,Y,N,N,N
+0,Driving School,,,,Y,N,N,N,Y,N,N,N
+0,EMT- A,,,,Y,N,N,N,Y,Y- Medical logo at left of plate; 'EMT-A' at bottom of plate.,N,N
+0,Equipment in Transit,,,,Y,N,N,Y - Small Numbers must be entered as seen.,Y,Y - 'EQUIP IN TRANSIT' appears across bottom of plate.,N,N
+0,Ex Prisoner of War,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y -' P.O.W.' appears at bottom of plate.,N,N
+0,Farm Use,1992-2022,Since2023,,Y,N,N,N,Y,N,N,N
+0,Farmer ,,,,Y,N,N,N,Y,N,N,N
+0,Firefighter ,,,,Y,N,N,N,Y,Y- Firefighter logo appears at center of plate.,N,N
+0,Firefighter IAFF,,,,Y,N,N,N,Y,Y- International Association of Firefighters logo at left of plate.,N,N
+0,First Aider,1992-2013 ,Since 2014,,Y,N,N,N,Y,Y- First Aider logo at left of plate.,N,N
+0,Freeholder,,,,Y,N,N,N,Y,N,N,N
+0,Freemason,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+0,Gold Star Family,,,,Y,N,N,N,Y,Flag logo at left of plate.,N,N
+0,Governor,Picture,,,Y,N,N,N,Y,Y - Governor appears across bottom of plate.,N,N
+0,Handicapped,1983-1991,1992-2013,Since 2014,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y- Wheelchair logo,N,N
+0,Handicapped Motorcycle,,,,Y,N,N,N,Y,Y- Wheelchair logo,Y- Motorcycle,N
+0,Healing Hearts,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+0,Highway Authority,,,,Y,N,N,N,Y,N,N,N
+0,Historic,,,,Y,N,N,N,Y,Y - Historic appears across bottom of plate.,N,N
+0,Historic Motorcycle,,,,Y,N,N,N,Y,N,Y- Motorcycle,N
+0,Hotel Bus,,,,Y,N,N,N,Y,N,N,N
+0,Institute of Technology,,,,Y,N,N,N,Y,Y- School logo on left side of plate.,N,N
+0,Intransit Empty,,,,Y,N,N,N,Y,N,N,N
+0,Jitney,,,,Y,N,N,N,Y,N,N,N
+0,Kiwanis International,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Knights of Columbus,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Leatherneck,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Branch logo at left of plate.,N,N
+0,Liberty State Park,,,,Y,N,N,N,Y,Y- Statue of Liberty on left side of plate.,N,N
+0,Limousine,,,,Y,N,N,N,Y,Y - Limousine appears across bottom of plate.,N,N
+0,Livery,,,,Y,N,N,N,Y,Y - Livery appears across bottom of plate.,N,N
+0,Low Speed Vehicle,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Marine Reserve,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Mayor,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Mayor appears across bottom of plate.,N,N
+0,Mayor Emeritus,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Mayor Emeritus appears across bottom of plate.,N,N
+0,Meadowlands,,,,Y,N,N,N,Y,N,N,N
+0,Merchant Marine,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Mobility Assistance Vehicle,,,,Y,N,N,N,Y,N,N,N
+0,Motorcycle,1994-2014 ,Since 2015,,Y,N,N,N,Y,Y - Motorcycle appears across bottom of plate.,Y - Motorcycle,N
+0,Motorcycle Dealer,,,,Y,N,N,Y - Omit small numbers on dealer plates.,Y,N,Y - Motorcycle,N
+0,Municipal Government,1992-2015,Since 2015,,Y,N,N,N,Y,N,N,N
+0,National Guard,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Plate starts with vertical 'NG'.,N,N
+0,National Police Defense Foundation,,,,Y,N,N,N,Y,Y- Organization logo on the left; 'NPDF SAFE COP' on the bottom of plate.,N,N
+0,Navy Cross,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Navy Lakehurst,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Navy League,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Navy Reserve,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,New Car Dealer,,,,Y,N,N,N,Y,N,N,N
+0,New Jersey Devils,,,,Y,N,N,N,Y,Y- Team logo on left side of plate.,N,N
+0,New Jersey Press,,,,Y,N,N,N,Y,N,N,N
+0,New York Press,,,,Y,N,N,N,Y,N,N,N
+0,Newark Firefighter,,,,Y,N,N,N,Y,Y- Firehouse logo on left side of plate; 'Newark F/F' at bottom of plate.,N,N
+0,No Fee,,,,Y,N,N,N,Y,N,N,N
+0,Non Conventional Dealer,,,,Y,N,N,N,Y,Y- 'NON-CONV. DLR' at bottom of plate.,N,N
+0,Olympic Spirit,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Omega Psi Phi,,,,Y,N,N,N,Y,N,N,N
+0,Omnibus,,,,Y,N,N,N,Y,Y - Omnibus appears across bottom of plate.,Y - Bus or van,N
+0,Omnibus 2,,,,Y,N,N,N,Y,Y - Omnibus appears across bottom of plate.,Y - Bus or van,N
+0,Operating Engineers,,,,Y,N,N,N,Y,N,N,N
+0,Organ Donors,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Para Transit,,,,Y,N,N,N,Y,N,N,N
+0,Passenger,1979-1991,1992-2013,Since 2014,Y,N,N,N,Y,N,N,N
+0,Pearl Harbor 41,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Penn State University Alum,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Philadelphia Eagles,,,,Y,N,N,N,Y,Y- Team logo on left side of plate.,N,N
+0,Philadelphia Flyers,,,,Y,N,N,N,Y,Y- Team logo on left side of plate.,N,N
+0,Physician ,,,,Y,N,N,N,Y,N,N,N
+0,Pinelands,,,,Y,N,N,N,Y,N,N,N
+0,Podiatrist,,,,Y,N,N,N,Y,N,N,N
+0,Police Honor Legion,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Price of Honor ,2002-2013,Since 2014,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Professional Engineer,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Purple Heart,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Medal logo at left of plate; 'Combat Wounded' appears across bottom of plate.,N,N
+0,Rotarian,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Rutgers University,Type I,Type II,,Y,N,N,N,Y,Y- School logo on left side of plate.,N,N
+0,School Vehicle 1,,,,Y,N,N,N,Y,N,N,N
+0,School Vehicle 2,,,,Y,N,N,N,Y,N,N,N
+0,Senate Majority Leader,,,,Y,N,N,N,Y,N,N,N
+0,Seton Hall University,,,,Y,N,N,N,Y,Y- School logo on left side of plate.,N,N
+0,Sheriff,,,,Y,N,N,N,Y,N,N,N
+0,Shore to Please,1993-2013,Since 2014,,Y,N,N,N,Y,Y- Lighthouse on left side of plate; 'Shore to Please' at bottom of plate.,N,N
+0,Silent Service ,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Silver Star,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Medal logo at left of plate.,N,N
+0,Square Dancer,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,State Firemen's Benevolent Association,,,,Y,N,N,N,Y,Y- Firehouse logo on left of plate.,N,N
+0,State Fraternal Order of Police,,,,Y,N,N,N,Y,Y- Organization logo on left of plate; 'STATE F.O.P.' at bottom of plate.,N,N
+0,State Government,,,,Y,N,N,N,Y,N,N,N
+0,State Police,,,,Y,N,N,N,Y,N,N,N
+0,State Policemen's Benevolent Association,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate; 'STATE P.B.A.' at bottom of plate.,N,N
+0,State Senate,,,,Y,N,N,N,Y,N,N,N
+0,Stevens Institute of Technology,,,,Y,N,N,N,Y,Y- School logo on left side of plate; 'STEVENS TECH.' at bottom of plate.,N,N
+0,Streed Rod,,,,Y,N,N,N,Y,Y- Car logo at center of plate.,N,N
+0,Taxicab,,,,Y,N,N,N,Y,N,N,N
+0,Teamsters,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Telephone Pioneers,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.'TELE. PIONEER' at bottom of plate.,N,N
+0,Temple University Alumni,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Temporary,2012-2020,2021,Since 2022,Y,N,N,N,Y,Y - preprinted or electronic printed paper tags. Do not accept hand written tags.,N,N
+0,Temporary Motorcycle,,,,Y,N,N,N,Y,Y - preprinted or electronic printed paper tags. Do not accept hand written tags.,Y- Motorcycle,N
+0,Tin Can Sailors,1992-2013,Since 2014,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,Tractor,,,,Y,N,N,N,Y,N,N,N
+0,Trailer,1993-2013,Since 2014,,Y,N,N,N,Y,Y - Trailer appears across bottom of plate.,Y - Trailer,N
+0,Transportation Department,,,,Y,Plate begins with 'TD',N,N,Y,Y- 'STATE GOVT' at the bottom of plate.,N,N
+0,Treasure Our Trees,,,,Y,N,N,N,Y,N,N,N
+0,Turnpike Authority,,,,Y,N,N,N,Y,N,N,N
+0,United Bowhunters,,,,Y,N,N,N,Y,Y- Organization logo on left side of plate.,N,N
+0,United We Stand,2004-2015,Since 2016,,Y,N,N,N,Y,Y- Flag logo on left side of plate.,N,N
+0,University of Delaware,,,,Y,N,N,N,Y,Y- School logo on left side of plate; 'UNIV DELAWARE'  at bottom of plate.,N,N
+0,University of Michigan,,,,Y,N,N,N,Y,Y- School logo on left side of plate; 'Univ. of Michigan'  at bottom of plate.,N,N
+0,University of Notre Dame,,,,Y,N,N,N,Y,Y- School logo on left side of plate; 'NOTRE DAME'  at bottom of plate.,N,N
+0,US Army Retired,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Congress,,,,Y,N,N,N,Y,N,N,N
+0,US Merchant Marine Academy,,,,Y,N,N,N,Y,Y- School logo on left side of plate; 'USMMA'  at bottom of plate.,N,N
+0,US Senate,Type I,Type II,,Y,N,N,Y - Stacked Characters or Small Numbers must be entered as seen.,Y,Y - Senate appears across bottom of plate.,N,N
+0,Used Car Dealer,,,,Y,N,N,Y - Small numbers are not entered.,Y,Y - New Car DLR or Used Car DLR appear across bottom of plate.,N,N
+0,Van Pool,,,,Y,N,N,N,Y,Y - Commuter van appears across bottom of plate.,Y - Van or bus,N
+0,Vehicle Converter,,,,Y,N,N,N,Y,N,N,N
+0,Vehicle Manufacturer,,,,Y,N,N,Y - Small Numbers must be entered as seen.,Y,Y - Vehicle MFR appears across bottom of plate,N,N
+0,Veterans of Foreign Wars,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Vietnam Veteran,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,West Point Military Academy,,,,Y,N,N,N,Y,Y- School logo on left side of plate; 'West Point'  at bottom of plate.,N,N

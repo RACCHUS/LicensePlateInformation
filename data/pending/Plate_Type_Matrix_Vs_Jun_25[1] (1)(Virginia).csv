@@ -1,0 +1,60 @@
+0,Passenger Plate Default,Virginia,,,Uses both the Letter “O” and the Number Zero “0” on their plates. The letter “O” is rounder than the number “0”.,,,,,"* NOTE :  DO NOT enter any symbols (!,&,$,@,etc..)",,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+,Farm,,,,Y,N,N,N,Y,Y - Farm Vehicle appears across bottom of plate. Plate begins with F.,N,N
+,National Guard ,,,,Y - must be classified as National Guard,N,N,N,Y,Y - Militiaman logo in circle.,N,Y
+,Apportioned plate,,,,Y,N,N,N,Y,Y - Apportioned appears on plate. ,N,N
+,Commercial,Truck,Company Logo,Truck Permanent,Y,N,N,N,Y,Y - Some Company logos appear on plate.,Y - Truck,N
+,Moose Conservation,,,,N,N,N,N,Y,N,N,N
+,Disabled Veteran ,,,,Y,N,N,Y - Omit printed vertical or diagonal characters with different font or color.,Y,Y - Disabled Veteran appears across bottom of plate.,N,N
+,Handicapped,Standard,Specialty,,Y - must be classified as Handicapped,N,N,N,Y,Y - Wheelchair logo appears on plate. Any specialty plate can be used.,N,N
+,Initial Commercial plate ,,,,N,N,N,N,Y,N,N,N
+,Initial Moose Conservation,,,,N,N,N,N,Y,N,N,N
+,Initial Disabled Veteran,,,,N,N,N,N,Y,N,N,N
+,Initial Handicapped,,,,N,N,N,N,Y,N,N,N
+,Initial Motorcycle,,,,N,N,N,N,Y,N,N,N
+,Initial Passenger,,,,N,N,N,N,Y,N,N,N
+,Initial Veteran Motorcycle,,,,N,N,N,N,Y,N,N,N
+,Initial Regular Veteran,,,,N,N,N,N,Y,N,N,N
+,Motorcycle,Standard,Specialty,Antique Black,Y,N,N,N,Y,Y - Smaller plate size. State abbreviation VA appears on plate. Any Specialty plate available.,Y - Motorcycle,N
+,Passenger ,,,,Y,N,N,N,Y,N,N,N
+,Dealer,Dealer,Independent Dealer,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Dealer or Independent Dealer appears on plate.,N,N
+,New& Used Dealer,,,,N,N,N,N,Y,N,N,N
+,Veteran Motorcycle,,,,N,N,N,Y - Omit Red VET or DV verticals when seen.,Y,N,N,N
+,Regular Veteran Plate,Branch of Service,Branch of Service,Award,Y,N,N,"Y - Omit printed vertical or diagonal characters with different font or color, such as VET.",Y,"Y - Branch of service, Military awards, campaign, or VET appear on plate.",N,N
+,,Vietnam Veteran,VET,,Y,N,N,,Y,,N,N
+,Vessel- Dealer Automobile ,,,,N,N,N,N,Y,N,N,N
+,Ambulance,Standard Ambulance,VA Ambulance,,Y,N,N,N,Y,Y - Emergency Vehicle appears on plate.,Y - Ambulance,N
+,Authority Motorcycle/Police,,,,N,N,N,N,Y,N,N,N
+,Authority / Police,,,,N,N,N,N,Y,N,N,N
+,Bus,,,,Y,N,N,N,Y,"Y - ""For Hire"" appears across bottom of plate.",N,N
+,Camper,,,,N,N,N,N,Y,N,N,N
+,Livery,,,,N,N,N,N,Y,N,N,N
+,City,Virginia Beach,City of Fairfax,Chesapeake City,Y,N,N,N,Y,Y - Name and City Logo appear on plate.,N,N
+,City Motorcycle,,,,N,N,N,N,Y,N,N,N
+,School Bus,,,,N,N,N,N,Y,N,N,N
+,School Bus Pupil,,,,N,N,N,N,Y,N,N,N
+,Semi Trailer,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Permanent Trailer appears on plate.,N,N
+,State motorcycle,,,,N,N,N,N,Y,N,N,N
+,State,,,,Y,N,N,N,Y,N,N,N
+,Taxi,Taxi For Hire,Taxi Permanent,,Y,N,N,N,Y,"Y - ""Taxi"" appears across top of plate.",N,N
+,Trailer,Trailer,Permanent Trailer,Trailer Rental,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Trailer appears on plate,Y - Trailer,N
+,Van Pool,,,,N,N,N,N,Y,N,N,N
+,Truck,Truck,Permanent Truck,Truck Private,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Truck or Tractor appears on plate.,Y - Truck,N
+,Military Surplus Vehicle,,,,Y,N,N,N,Y,"Y - ""MSV"" appears in red across bottom of plate.",N,N
+,Truck Heavy,,,,N,N,N,N,Y,N,N,N
+,Antique ,,,,Y,N,N,N,Y,Y - Antique appears on plate. VA is not verified.,N,N
+,Purple heart,,,,Y,N,N,N,Y,Y - Purple heart ribbon appears on plate.,N,N
+,Amateur Radio,,,,Y,N,N,N,Y,Y - Amateur Radio appears across bottom of plate,N,N
+,Firefighter,FDSAMPLE,SAMPLE,FD62798,Y,N,N,Y - FD in symbol MUST be entered as seen for verification.,Y,Y - Maltese cross with FD appear on left of plate.,N,N
+,Collegiate,In State,Out of State,Fraternity,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+,Temporary,,Motorcycle,,Y,N,N,N,Y,Y - preprinted or electronic printed paper tags. Do not accept hand written tags.,N,N
+,Tractor ,Tractor For Hire,For Hire Permanent,Tractor Private,Y,N,N,N,Y,N,N,N
+,Tow Truck,Tow Truck Permanent,Tow Truck For Hire,,Y,N,N,N,Y,N,N,N
+,Non-Emergency Transport For Hire,,,,Y,N,N,N,Y,N,N,N
+,Rescue Squad,RSSAMPLE,RSEMTDVR,,Y,N,N,Y - RS in symbol MUST be entered as seen for verification,Y,Y - Star of Life symbol with RS appears on left of plate.,N,N
+,Reserve,Marine Reserve,Coast Guard Reserve,Air Force Reserve,Y,N,N,N,Y,Y - Series title and Branch of Service appears on plate.,N,Y
+,Drive Away,,,,Y,N,N,N,Y,Y - Drive away appears on plate.,N,N
+,Rental Trailer,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Smaller plate size. ,Y - Trailer,N
+,State Seal Plate,,,,Y,N,N,N,Y,Y - State seal seen in center of registration.,N,Y
+,Alternate Fuel,,,,Y,N,N,N,Y,Y - Clean Special Fuel appears across bottom of plate.,N,N

@@ -1,0 +1,41 @@
+0,Passenger Plate Default,Hawaii,,,Allows the use of the letter O only in personalized plates. Does not use verticals.,,,,,,,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+,Antique ,,,,Y,N,N,N,N,N,N,N
+,Apportioned plate,,,,Y,N,N,N,N,N,N,N
+,Bus,,,,Y,N,N,N,N,N,N,N
+,Camper,,,,Y,N,N,N,N,N,N,N
+,Collegiate,,,,Y,N,N,N,N,N,N,N
+,Commercial,,,,Y,N,N,N,N,N,N,N
+,Dealer,,,,Y,N,N,N,N,N,N,N
+,Dealer Motorcycle,,,,Y,N,N,N,N,N,N,N
+,Disabled Veteran ,,,,Y,N,N,N,N,N,N,N
+,Farm,,,,Y,N,N,N,N,N,N,N
+,Handicapped,,,,Y,N,N,N,N,N,N,N
+,Handicapped Motorcycle,,,,Y,N,N,N,N,N,N,N
+,Initial Commercial plate ,,,,Y,N,N,N,N,N,N,N
+,Initial Disabled Veteran,,,,Y,N,N,N,N,N,N,N
+,Initial Handicapped,,,,Y,N,N,N,N,N,N,N
+,Initial Motorcycle,,,,Y,N,N,N,N,N,N,N
+,Initial Passenger,,,,Y,N,N,N,N,N,N,N
+,Initial Regular Veteran,,,,Y,N,N,N,N,N,N,N
+,Initial Veteran Motorcycle,,,,Y,N,N,N,N,N,N,N
+,Livery,,,,Y,N,N,N,N,N,N,N
+,Manufacturer,,,,Y,N,N,N,N,N,N,N
+,Motorcycle,,,,Y,N,N,N,N,Y - Motorcycle,Y - Motorcycle,N
+,National Guard ,,,,Y,N,N,N,N,N,N,N
+,New& Used Dealer,,,,Y,N,N,N,N,N,N,N
+,Passenger ,,,,Y,N,N,N,N,"Y-""Aloha State"" at bottom of the plate",N,N
+,Passenger ,,,,Y,N,N,N,N,"Y-""Aloha State"" at bottom of the plate",N,N
+,Purple heart,,,,Y,N,N,N,N,N,N,N
+,Regular Veteran Plate,,,,Y,N,N,N,N,N,N,N
+,Semi Trailer,,,,Y,N,N,N,N,N,N,N
+,State,,,,Y,N,N,N,N,N,N,N
+,State motorcycle,,,,Y,N,N,N,N,N,N,N
+,Temporary,,,,Y,N,N,N,N,N,N,N
+,Trailer,,,,Y,N,N,N,N,Y - Trailer,Y - Trailer,N
+,Truck,,,,Y,N,N,N,N,N,N,N
+,Truck Heavy,,,,Y,N,N,N,N,N,N,N
+,Veteran Motorcycle,,,,Y,N,N,N,N,N,N,N
+,Speciality,,,,Y,N,N,N,N,N,N,N
+,,,,,,,,,,,,

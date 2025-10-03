@@ -1,0 +1,54 @@
+0,Passenger Plate Default,Mississippi,,,Does not use the letter “O” in its standard issued plates. They do use the letter “O” and the number zero “0” on their vanity/personalized plates. You can tell the difference on the plate because the letter “O” is much rounder where as the number zero “0” is slimmer,,,,,** Stacked characters are entered as seen (unless noted below).,,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+0,Alabama University,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Visible college logo/name  appear on tag,N,N
+0,Amateur Radio,,,,Y,N,N,N,Y,Y - Amateur Radio vertical on left side of antenna symbol.,N,N
+0,Ambulance,,,,Y,N,N,N,Y,Y - Ambulance appears across bottom of plate. Plate starts with AM.,Y - Ambulance.,N
+0,Antique ,Antique Car,Antique Truck,Motorcycle,Y,N,N,N,Y,Y - Antique car or truck and symbol appear on left of plate. Antique Motorcycle across bottom of plate.,Y - May be a motorcycle plate.,N
+0,Apportioned,2003-2008,2009-2013,2014-2018,Y,N,N,N,Y,Y - Apportioned appears on bottom of plate.,N,N
+0,Apportioned,Since 2019,,,Y,N,N,N,Y,Y - Apportioned appears on bottom of plate.,N,N
+0,Authority / Police,,,,Y,N,N,N,Y,N,N,N
+0,Church Bus,,,,Y,N,N,N,Y,Y - Church Bus appears across bottom of plate.,N,N
+0,Collegiate,In State,Out of State,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Visible college logo/name  appear on tag,N,N
+0,Collegiate Fraternity or Sorority,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Visible greek logo appear on tag,N,N
+0,Commercial,Commercial Truck,Commercial Bus,,Y,N,N,Y - Small numbers must be verified as seen.,Y,Y - Plate start with B. Small numbers must be verified as seen.,N,N
+0,Conserving Wildlife,Bass I,Bass II,Butterfly,Y,N,N,N,N,Y- Animal logo appears at left of plate.,N,N
+0,Conserving Wildlife,Deer,Hummingbird I,Hummingbird II,Y,N,N,N,N,Y- Animal logo appears at left of plate.,N,N
+0,Dealer Motorcycle,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Dealer appears across bottom of plate. Smaller plate size. Different color based on year of issue.,Y - Motorcycle,N
+0,Disabled Veteran ,100% DAV,,,Y,N,N,N,Y,Y - 100% DAV or Handicapped Veteran appears across bottom of plate.,N,N
+0,Emergency Vehicle,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - EMS logo at left of plate. Registration ends with stacked 'EM'.  'EMS SAVES LIVES' at bottom.,N,N
+0,Farm,10000 lbs. GVW,Over 10000 lbs. GVW,,Y,N,N,Y - Small numbers must be verified as seen.,Y,Y - Farm appears across bottom of plate. Plate starts with F.,N,N
+0,Fleet,,,,Y,N,N,N,Y,Y - Fleet appears across bottom of plate. Plate starts with FL.,N,N
+0,Handicapped Driver,2002-2006,2007-2011,Since 2012,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Wheelchair logo at left of plate. Registration begins with stacked 'DB'.,N,N
+0,Handicapped Motorcycle,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Wheelchair logo at left of plate. Registration begins with stacked 'MC'.  Smaller plate size.,Y- Motorcycle,N
+0,Hearing Impaired,,,,Y,N,N,N,Y,Y - Hearing Impaired and symbol appear on plate.,N,N
+0,House of Representatives,,,,Y,N,N,Y - OMIT series title on plate.,Y,Y - Series title appears on left of plate.,N,N
+0,Magnolia,,,,N,N,N,N,Y,N,N,N
+0,Medal of Honor,,,,Y,N,N,Y - OMIT series title on plate.,Y,Y - Series appears on Left. Plate starts with MH.,N,N
+0,Motorcycle,2002-2006,2007-2011,Since 2012,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Registration begins with stacked 'MC'.  Smaller plate size.,Y- Motorcycle,N
+0,National Champions,,,,Y,N,N,N,N,Y - Visible college logo appears at left of plate.,N,N
+0,National Guard ,,,,Y,N,N,N,Y,Y - Militiaman logo. National Guard appears on bottom of plate. No identifier need but can result in multiple hits.,N,Y
+0,New & Used Dealer,,,,Y,N,N,N,Y,Y - New Dealer appears across bottom of plate. Plates are color coded for year of issue.,N,Y
+0,Permanent Trailer,,,,Y,N,N,Y - OMIT TLR on red plates that end with A.,N,Y - Permanent appears across bottom of red plate and ends with A.,Y- Trailer,N
+0,Petal Schools,2005-2017,Since 2018,,Y,N,N,N,N,Y - Organization logo appears at left of plate.,N,N
+0,Purple heart,,,,Y,N,N,N,Y,Y - Purple Heart appears at bottom of plate.,N,N
+0,Retired Armed Forces,Army,Navy,,Y,N,N,N,N,Y - 'US ARMED FORCES RETIRED' appears at left of plate; Branch of Service at bottom.,N,N
+0,School Bus,,,,Y,Y,N,N,Y,N,Y - School Bus,N
+0,Semi Trailer,2003-2004,2005-2008,2009,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - 'SEMI' appears on bottom of tag; Registration ends with 'T'.,N,N
+0,Semi Trailer,Since 2010,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Visible college logo/name  appear on tag,N,N
+0,Senate,,,,Y,N,N,Y - OMIT series title on plate.,Y,Y - Series title appears on left of plate.,N,N
+0,Southern Miss,2005-2015,Since 2016,,Y,N,N,N,N,Y - Visible college logo appears at left of plate.,N,N
+0,Standard,2002-2006,2007-2011,2012-2018,Y,N,N,N,N,N,N,N
+0,Standard,2019-2023,Since 2024,,Y,N,N,N,N,N,N,N
+0,State,,,,Y,N,N,Y - Omit Vertical Tax Exempt.,Y,Y - Government appears across bottom of plate. Tax Exempt vertical on left.,N,N
+0,State motorcycle,,,,Y,N,N,N,Y,N,Y - Motorcycle,N
+0,State College,,,,Y,N,N,N,N,Y - Visible college logo appears at left of plate.,N,N
+0,Taxi,1998-2006,2007-2011,Since 2012,Y,N,N,N,N,Y - 'TAXI' appears on bottom of tag; Registration begins with 'TX'.,N,N
+0,Temporary,,,,Y,N,N,N,Y,Y - preprinted or electronic printed paper tags. Do not accept hand written tags.,N,N
+0,Trailer Dealer,Trailer Dealer,,,Y,N,N,Y - OMIT Dealer seen on left of plate.,Y,Y - Omit Dealer as appears on left of plate. Trailer appears on bottom of plate.,N,Y
+0,Trailer,2002-2006,2007-2011,Since 2012,Y,N,N,N,N,Y - 'TRAILER' appears on bottom of tag.,N,N
+0,Truck,1988-2002,Since 2019,,Y,N,N,N,N,,N,N
+0,Veteran,Awards,Branch of Service,Iraq,Y,N,N,N,Y,"Y - Armed Forces Retired, Campaign, Branch of Service, or Military Awards appear on plate.",N,N
+0,Veteran,Vietnam,,,Y,N,N,N,Y,"Y - Armed Forces Retired, Campaign, Branch of Service, or Military Awards appear on plate.",N,N
+0,Veteran Motorcycle,,,,Y,N,N,N,Y,"Y - Armed Forces Retired, Campaign, Branch of Service, or Military Awards appear on plate.  Smaller plate size.",Y - Motorcycle,N
+,,,,,,,,,,,,

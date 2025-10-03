@@ -1,0 +1,116 @@
+0,Passenger Plate Default,Arkansas,,,"Follow the syntax pattern.  The letter 'O' is blocky and the number '0' is more oblong.  Key all verticals except ""TRUCK"" & ""ARK"" as seen",,,,,Vertical characters must be entered as seen.,,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+0,Agricultural Education,,,,Y,N,N,N,Y,N,N,N
+0,Amateur Radio,,,,Y,N,N,N,Y,Y - 'AMATEUR RADIO' on bottom of plate.,N,N
+0,Ambulance,Ambulance,Emer Med Services,,Y,N,N,N,Y,N,Y - Vehicle will be a Ambulance.,N
+0,Antique ,,,,Y,N,N,N,Y,Y - Antique Car appears across top of plate. ,N,N
+0,Apportioned,Semi Trailer 1980-1997,Semi Trailer 1998-,,Y,N,N,Y - Omit the word 'TRUCK' on the plate.,Y,Y - Apportioned appears across the bottom of plate,Y - Vehicle will be a Semi-Truck or Trailer.,N
+0,Authority / Police,,,,Y,N,N,N,Y,Y- Official Business Only appears across bottom of plate.,N,N
+0,Autism Awareness,,,,Y,N,N,N,Y,Y - 'AUTISM AWARENESS' appears across the bottom of plate.,N,N
+0,Border City Taxi,,,,Y,N,N,N,Y,Y - 'BORDER CITY' appears across the bottom of plate.,N,N
+0,Boy/Girl Scout,Orphanages,,,Y,N,N,N,Y,Y - 'B S & O' or 'BOY SCOUTS OF AMERICA' appears across the bottom of plate.,N,N
+0,Buffalo River,,,,Y,N,N,N,Y,Y - 'BUFFALO RIVER' appears across the bottom of plate.,N,N
+0,Bus,Not for Hire,Farm to Market,Church,Y,N,N,N,Y,N,N,N
+0,Bus,City,,,Y,N,N,N,Y,N,N,N
+0,Cattlemen's Foundation,,,,Y,N,N,N,Y,Y - 'ARKANSAS CATTLEMEN' appears across the bottom of plate.,N,N
+0,Choose Life,,,,Y,N,N,N,Y,Y - 'CHOOSE LIFE' appears across the bottom of plate.,N,N
+0,Civil Air Patrol,,,,Y,N,N,N,Y,Y - 'CIVIL AIR PATROL' appears across the bottom of plate.,N,N
+0,Cold War Veteran,,,,Y,N,N,N,Y,N,N,N
+0,Committed to Education,1993-2005,Since 2006,,Y,N,N,N,Y,N,N,N
+0,Congressional Medal of Honor,,,,Y,N,N,N,Y,N,N,N
+0,Court Appointed Special Advocates,,,,Y,N,N,N,Y,Y - CASA logo on the left side of plate; 'I am for the Child' on the bottom of the plate.,N,N
+0,Cure Breast Cancer,,,,Y,N,N,N,Y,Y - Pink Ribbon logo on the left side of plate; 'Cure Breast Cancer' on bottom of plate.,N,N
+0,Dept of Conservation,,,,Y,N,N,N,Y,Y - 'FOR THE LOVE OF THE LAND' appears across the bottom of plate.,N,N
+0,Disabled,1990-1995,Since 1996,,Y,N,N,N,Y,Y - 'DISABLED' appears across the bottom of plate; Wheelchair Symbol on left side of plate.,N,N
+0,Disabled Motorcycle,,,,Y,N,N,N,Y,Y - 'ARK. M CYCLE' appears across the top of plate; Wheelchair symbol on left side of plate.,Y - Vehicle will be a Motorcycle,N
+0,Disabled Veteran ,,,,Y,N,N,N,Y,Y - Plate starts with DV or DAV. ,N,N
+0,Distinguished Flying Cross,,,,Y,N,N,N,Y,Y - Distinguished Flying Cross Medal on the right side of plate; 'Distinguished Flying Cross' on bottom of plate.,N,N
+0,Down Syndrome,,,,Y,N,N,N,Y,Y - 'DOWN SYNDROM AWARENESS' appears across the bottom of plate.,N,N
+0,Dr. Martin Luther King,,,,Y,N,N,N,Y,N,N,N
+0,Drive Out,,,,Y,N,N,Y - OMIT ARK verticals on left side of plate. ,Y,Y - Drive Out appears across top of paper temporary tag.  Does not require prefix/suffix/ identifier but can get multiple hits.,N,Y
+0,Ducks Unlimited,1996-2010,2011-2014,Since 2015,Y,N,N,N,Y,Y - 'DUCKS UNLIMITED' appears across the bottom of plate.,N,N
+0,Ex-POW,,,,Y,N,N,N,Y,Y - Ex Prisoner of War appears across bottom of plate. Plate starts with POW.,N,N
+0,Fire Department,,,Retired,Y,N,N,N,Y,N,N,N
+0,Fire Fighter's Memorial,,,,Y,N,N,N,Y,Y - 'FIREFIGHTER'S MEMORIAL' appears across the bottom of plate.,N,N
+0,Freemason,,,,Y,N,N,N,Y,Y - 'FREEMASON' or 'Grand Lodge of Arkansas appears across the bottom of plate.,N,N
+0,Game and Fish,Bird Dog,Bear 2008-2022,Bear Since 2023,Y,N,N,N,Y,"Y - 'The Natural State' or ""Arkansas Game and Fish Commission' appears across the bottom of plate.",N,N
+0,Game and Fish,Black Labrador,Butterfly,Crappie Fish,Y,N,N,N,Y,"Y - 'The Natural State' or ""Arkansas Game and Fish Commission' appears across the bottom of plate.",N,N
+0,Game and Fish,Deer 2000-2010,Deer 2011-2017,Deer Since 2018,Y,N,N,N,Y,"Y - 'The Natural State' or ""Arkansas Game and Fish Commission' appears across the bottom of plate.",N,N
+0,Game and Fish,Eagle,Elk,Hummingbird,Y,N,N,N,Y,"Y - 'The Natural State' or ""Arkansas Game and Fish Commission' appears across the bottom of plate.",N,N
+0,Game and Fish,Woodpecker,Largemouth Bass,Longear Sunfish,Y,N,N,N,Y,"Y - 'The Natural State' or ""Arkansas Game and Fish Commission' appears across the bottom of plate.",N,N
+0,Game and Fish,Mallard Duck,Monarch Butterfly,Pintail Duck,Y,N,N,N,Y,"Y - 'The Natural State' or ""Arkansas Game and Fish Commission' appears across the bottom of plate.",N,N
+0,Game and Fish,Rainbow Trout,Red Cardinal,Red Fox,Y,N,N,N,Y,"Y - 'The Natural State' or ""Arkansas Game and Fish Commission' appears across the bottom of plate.",N,N
+0,Game and Fish,Smallmouth Bass,Squirrel,Turkey,Y,N,N,N,Y,"Y - 'The Natural State' or ""Arkansas Game and Fish Commission' appears across the bottom of plate.",N,N
+0,Game and Fish Commission,,,,Y,N,N,N,Y,"Y - 'The Natural State' or ""Arkansas Game and Fish Commission' appears across the bottom of plate.",N,N
+0,Golf Association,,,,Y,N,N,N,Y,Y - 'Golf the Natural State' appears across the bottom of plate.,N,N
+0,Harding University,,,,Y,N,N,N,Y,Y - 'HARDING' appears across the bottom of plate.,N,N
+0,Hearse,,,,Y,N,N,N,Y,Y - 'FUNERAL COACH' appears across the bottom of plate.,N,N
+0,Henderson State University,,,,Y,N,N,N,Y,N,N,N
+0,Hendrix College,,,,Y,N,N,N,Y,N,N,N
+0,Hospice and Pallative,,,,Y,N,N,N,Y,N,N,N
+0,Humane Society of the Ozarks,,,,Y,N,N,N,Y,"Y - 'Get Rescued, Adopt a Pet' appears across bottom of plate.",N,N
+0,In God we Trust,,,,Y,N,N,N,Y,N,N,N
+0,John Brown University,,,,Y,N,N,N,Y,N,N,N
+0,Justice of the Peace,,,,Y,N,N,N,Y,N,N,N
+0,Kappa Alpha Psi Fraternity,,,,Y,N,N,N,Y,Y - Fraternity logo on the left side of plate.,N,N
+0,Korean War Veteran,2005,Since 2006,,Y,N,N,N,Y,Y - Korean War Veteran appears across bottom of plate.,N,N
+0,Little Rock Air Force Base,,,,Y,N,N,N,Y,Y - 'ROCK & ROLE' appears across bottom of plate.,N,N
+0,Lyon College,,,,Y,N,N,N,Y,N,N,N
+0,Mid-South Community College,,,,Y,N,N,N,Y,N,N,N
+0,Motorcycle,1994-2014,Since 2014,Personalized,Y,N,N,N,Y,Y - Smaller plate size. ARK M CYCYLE appears across top of plate.,Y - Vehicle will be a Motorcycle,N
+0,Municipal Police Assn,,,,Y,N,N,N,Y,Y - 'PROTECT & SERVE' appears across bottom of plate.,N,N
+0,National Guard ,2006-2011,Since 2012,,Y,N,N,N,Y,N,N,N
+0,National Multiple Sclerosis Society,,,,Y,N,N,N,Y,N,N,N
+0,National Park Community College,,,,Y,N,N,N,Y,N,N,N
+0,National Wild Turkey Federation,,,,Y,N,N,N,Y,Y - 'save the HABITAT / save the HUNT' appears across bottom of plate.,N,N
+0,Northwest Community College,,,,Y,N,N,N,Y,N,N,N
+0,Omega Psi Phi Fraternity,,,,Y,N,N,N,Y,Y - Fraternity logo on the left side of plate.,N,N
+0,Operation Enduring Freedom Veteran,2005,Since 2006,,Y,N,N,N,Y,N,N,N
+0,Operation Iraqi Freedom Veteran,,,,Y,N,N,N,Y,N,N,N
+0,Organ Donor Awareness,,,,Y,N,N,N,Y,Y - 'BECOME AN ORGAN DONOR - GIVE HOPE' appears across bottom of plate;  Ribbon / Heart logo on the left side of plate. ,N,N
+0,Ouachita Baptist University,,,,Y,N,N,N,Y,N,N,N
+0,Passenger ,1978-1988,1989-1995,1996-2005,Y,N,N,N,Y,"Y - On bottom of plate -Prior to 1989, 'LAND OF OPPORTUNITY'; Since 1989 'THE NATURAL STATE' appears.",N,N
+0,Passenger,2006-2020,Since 2021,,Y,N,N,N,Y,"Y - On bottom of plate -Prior to 1989, 'LAND OF OPPORTUNITY'; Since 1989 'THE NATURAL STATE' appears.",N,N
+0,Pearl Harbor Survivor,,,,Y,N,N,Y - Smaller characters are entered as seen.,Y,N,N,N
+0,Permanent Trailer,1994-2000,AA Series 2001-,AB Series 2001-,Y,N,N,N,Y,Y- Perm Trailer or Permanent appears across bottom of plate.,Y - Vehicle will be a Trailer,N
+0,Persian Gulf Veteran,,,,Y,N,N,N,Y,N,N,N
+0,Phi Beta Sigma Fraternity,,,,Y,N,N,N,Y,Y - Fraternity logo on the right side of plate.,N,N
+0,Prince Hall Grand Lodge,,,,Y,N,N,N,Y,N,N,N
+0,Purple heart,,Motorcyle,,Y,N,N,N,Y,Y - Plate ends with PH,N,N
+0,Quail Forever,,,,Y,N,N,N,Y,N,N,N
+0,Realtor,,,,Y,N,N,N,Y,N,N,N
+0,Rice Council,,,,Y,N,N,N,Y,N,N,N
+0,School for the Deaf,,,,Y,N,N,N,Y,Y - Sign Language logo on the right side of plate; 'ARKANSAS SCHOOL FOR THE DEAF' on bottom of plate.,N,N
+0,School Vehicle,,,,Y,N,N,N,Y,N,N,N
+0,Search & Rescue,,,,Y,N,N,N,Y,Y - Logo on the left side of plate.,N,N
+0,Sheep Dog Impact Assistance,,,,Y,N,N,N,Y,N,N,N
+0,Sheriff's Association,,,,Y,N,N,N,Y,Y - Logo on the left side of plate.,N,N
+0,Southern Arkansas University,,,,Y,N,N,N,Y,N,N,N
+0,State Parks,2012-2014,Since 2015,,Y,N,N,N,Y,N,N,N
+0,State Police,Since 2002,,,Y,N,N,N,Y,Y - State Police appears on plate,N,N
+0,State University,1989-2009,Since 2010,,Y,N,N,N,Y,N,N,N
+0,Street Rod,,,,Y,N,N,N,Y,N,N,N
+0,Support our Troops,,,,Y,N,N,N,Y,N,N,N
+0,Taxi Cab,,,,Y,N,N,N,Y,Y - 'FOR HIRE' appears across bottom of plate. ,N,N
+0,Tech University,,,,Y,N,N,N,Y,N,N,N
+0,Temporary,,,,Y,N,N,N,Y,Y - Printed Paper Temporary tags. Do not accept hand written tags.,N,N
+0,Tennis,,,,Y,N,N,N,Y,Y - 'PLAY TENNIS' appears across bottom of plate. ,N,N
+0,Transporter,1992-1995,Since 1996,,Y,N,N,Y - Verticals on right are NOT keyed.,Y,Y - 'TRANSPORTER' appears across bottom of plate. ,N,N
+0,Truck,Single Letter Series,Dual Letter Series,,Y,N,N,N,Y,N,N,N
+0,University,Little Rock,Monticello,Pine Bluff,Y,N,N,N,Y,N,N,N
+0,University,Fort Smith,Fort Smith after 2005,Medical Sciences,Y,N,N,N,Y,N,N,N
+0,University,Fayetteville,,,Y,N,N,N,Y,N,N,N
+0,University of Central Arkansas,,,,Y,N,N,N,Y,Y- Registration always begins with the number '3'.,N,N
+0,US Reserve,,Retired,,Y,N,N,N,Y,N,N,N
+0,US Merchant Marine Veteran,Retired,,,Y,N,N,N,Y,N,N,N
+0,New & Used Dealer,,,,Y,N,N,Y - Smaller characters are entered as seen.,Y,Y - 'Dealer' or 'New Car Dealer' appears across bottom of plate.,N,N
+0,New & Used Dealer,Used Dual Letter,Used Single Letter,,Y,N,N,Y - Smaller characters are entered as seen.,Y,Y - 'Used Car Dealer' appears across bottom of plate.,N,N
+0,Vietnam War Veteran,2005,Since 2006,,Y,N,N,N,Y,N,N,N
+0,Veteran Motorcycle,,,,Y,N,N,N,Y,Y - Smaller plate size.,Y - Vehicle will be a Motorcycle,N
+0,World War II Veteran,,,,Y,N,N,N,Y,N,N,N
+0,Zeta Phi Beta Sorority,,,,Y,N,N,N,Y,Y - Sorority logo on the right side of plate.,N,N
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,

@@ -1,0 +1,39 @@
+0,Passenger Plate Default,California,,,"Uses both the letter ""O"" and number ""0"". Standard syntax patterns is 1 digit – 3 letter – 3 digit  (# LLL ###). The letters I, O, & Q are not used in the first or third alpha positions of the 3 letters.  They may be used in the second position.",,,,,"* The letter I and O are not used in the 6 digit patterns.                                                                                    * I, O, and Q are not used in the 7 digit patterns.                                                    ",,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+0,Amateur Radio,Regular,Blue,,Y,N,N,N,Y,N,N,N
+0,Apportioned,1980-1986,1987-1989,1990-2010,Y,N,N,N,Y,Y - CAL Apportioned appears across top of plate.,N,N
+0,Apportioned,Since 2011,,,Y,N,N,N,Y,Y - CAL Apportioned appears across top of plate.,N,N
+0,Collegiate,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+0,Commercial,1987-1993,1994-1997,1998-2010,Y,N,N,N,Y,N,N,N
+0,Commercial,Since 2011,Sunset Type,Blue Type,Y,N,N,N,Y,N,N,N
+0,Commercial,Black Type,,,Y,N,N,N,Y,N,N,N
+0,Dealer Motorcycle,,,,Y,N,N,Y - Max 10 characters. OMIT DLR as needed. All small characters must be legible.,Y,Y - Starts with vertical DLR,Y - Motorcycle,N
+0,Dealer,Regular,Reviver,,Y,N,N,Y - Max 10 characters. OMIT DLR as needed. See first two samples.,Y,Y - Starts with vertical DLR.,N,N
+0,Disabled,Person DP in front,Person DP at end,Veteran,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Wheelchair logo. Person plate has vertical DP somewhere on plate; Veteran plate ends with vertical DV. ,N,N
+0,Distributor ,DST999924A,1957394F OMIT DST,,Y,N,N,Y - Max 10 characters. OMIT DST as needed. See samples.,Y,Y - Starts with vertical DST,N,N
+0,Distributor Motorcycle,,,,Y,N,N,Y - Max 10 characters. OMIT DST as needed. All small characters must be legible.,Y,Y - Starts with vertical DST,Y - Motorcycle,N
+0,Environmental Specialty,Cal Agriculture,Lake tahoe Cons,Whale Tail,Y,N,N,N,Y,N,N,N
+0,Exempt,Regular,Reviver,State Vehicle,Y,N,N,"Y - OMIT ""E"" in symbol on left of plate.",Y,Y - 'CA EXEMPT' on top of plate; E in symbol on left of plate on state vehicles.,N,N
+0,Kids Plates,Star,Heart,Hand,Y,N,N,N,Y,Y- Symbol appears somewhere on plate.,N,N
+0,Livery,,,,Y,N,N,N,Y,N,N,N
+0,Livestock Trailer tag,,,,Y,N,N,N,Y,Y - LP in registration.,Y - Trailer,N
+0,Manufacturer,MFG999924A,5506B99B Omit MFR,,Y,N,N,Y - Max 10 characters. OMIT MFG as needed. See sample.,Y,Y - Starts with vertical MFG,N,N
+0,Motorcycle,,,,Y,N,N,N,Y,Y - Smaller plate size.,Y - Motorcycle,N
+0,Passenger ,1969-1986,1987-1993,1994-1997,Y,N,N,N,Y,"Y- ""dmv.ca.gov""  at bottom of Standard Issue Plates",N,N
+0,Passenger ,1998-2010,2011-2014,Black,Y,N,N,N,Y,"Y- ""dmv.ca.gov""  at bottom of Standard Issue Plates",N,N
+0,Passenger ,Reviver Black,Reviver White,,Y,N,N,N,Y,"Y- ""dmv.ca.gov""  at bottom of Standard Issue Plates",N,N
+0,Pearl Harbor Survivor,,,,Y,N,N,Y - OMIT series on left of plate.,Y,Y - Pearl Harbor Survivor appears on left of plate.,N,Y
+0,Permanent Trailer,,,,Y,N,N,"Y - Omit the letters I, O, and Q.",Y,Y - California Perm Trailer appears across top of plate.,N,N
+0,Purple heart,,,,Y,N,N,N,Y,Y - PH appears in registration. Combat Wounded appears across bottom of plate.,N,N
+0,Special Equipment,,,,Y,N,N,N,Y,Y - Plate starts with vertical SE.,N,N
+0,Special Interest,Arts Council,Breast Cancer I,Breast Cancer II,Y,N,N,N,Y,N,N,N
+0,Special Interest,Bill of Rights,1960's Legacy,Museums,Y,N,N,N,Y,N,N,N
+0,Special Interest,Firefighters,Memorial,1984 Olympics,Y,N,N,N,Y,N,N,N
+0,Special Interest,Olympic Spirit,Pet Lovers,,Y,N,N,N,Y,N,N,N
+0,Temporary,2019,Since 2020,,Y,N,N,N,Y,N,N,N
+0,Trailer,1987-1997,Since 1998,,Y,N,N,N,Y,N,N,N
+0,Transporter,,,,Y,N,N,Y - Max 10 characters omit left three verticals as needed,Y,Y - Starts with vertical TRN,N,N
+0,Veteran Motorcycle,,,,Y,N,N,N,Y,Y - Smaller plate size.,Y - Motorcycle,N
+0,Veteran Plate,,,,Y,N,N,N,Y,Y - Veteran appears across bottom of plate.,N,N
+,,,,,,,,,,,,

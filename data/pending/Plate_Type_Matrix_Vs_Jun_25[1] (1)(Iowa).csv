@@ -1,0 +1,51 @@
+0,Passenger Plate Default,Iowa,,,Standard pattern is 3 letters and 3 numbers.,,,,,"Uses the letter ""O"". Zeros will have a slash through it.",,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+,Ambulance,,,,Y,N,N,N,Y,N,N,N
+,Antique ,,,,Y,N,N,N,Y,N,N,N
+,Apportioned plate,,,,Y,N,N,N,Y,"Y - ""APP"" appears in the upper left corner.",Y - Plate will be on the front of a Semi-Truck.,N
+,Authority / Police,,,,Y,N,N,N,Y,N,N,N
+,Authority Motorcycle/Police,,,,Y,N,N,N,Y,N,N,N
+,Bus,,,,Y,N,N,N,Y,N,N,N
+,Camper,,,,Y,N,N,N,Y,N,N,N
+,City,,,,Y,N,N,N,Y,N,N,N
+,City Motorcycle,,,,Y,N,N,N,Y,N,N,N
+,Collegiate,,,,Y,N,N,N,Y,N,N,N
+,Commercial,,,,Y,N,N,N,Y,N,N,N
+,Dealer,,,,Y,N,N,N,Y,N,N,N
+,Dealer Motorcycle,,,,Y,N,N,Y - Verify small numbers on right side.,Y,Y - 3 small numbers will appear on the right side of the plate.,N,N
+,Disabled Veteran ,,,,Y,N,N,N,Y,N,N,N
+,Farm,,,,Y,N,N,N,Y,N,N,N
+,Fire Department,,,,Y,N,N,N,Y,N,N,N
+,Handicapped,,,,Y,N,N,N,Y,Y - Wheel chair logo will appear on the plate.,N,N
+,Handicapped Motorcycle,,,,Y,N,N,N,Y,N,N,N
+,Initial Commercial plate ,,,,Y,N,N,N,Y,N,N,N
+,Initial Disabled Veteran,,,,Y,N,N,N,Y,N,N,N
+,Initial Handicapped,,,,Y,N,N,N,Y,N,N,N
+,Initial Motorcycle,,,,Y,N,N,N,Y,N,N,N
+,Initial Passenger,,,,Y,N,N,N,Y,N,N,N
+,Initial Regular Veteran,,,,Y,N,N,N,Y,N,N,N
+,Initial Veteran Motorcycle,,,,Y,N,N,N,Y,N,N,N
+,Livery,,,,Y,N,N,N,Y,N,N,N
+,Manufacturer,,,,Y,N,N,N,Y,N,N,N
+,Motorcycle,,,,Y,N,N,N,Y,N,Y- Vehicle will be a motorcycle.,N
+,National Guard ,,,,Y,N,N,N,Y,N,N,N
+,New& Used Dealer,,,,Y,N,N,N,Y,N,N,N
+,Passenger ,,,,Y,N,N,N,Y,N,N,N
+,Passenger ,,,,Y,N,N,N,Y,N,N,N
+,Purple heart,,,,Y,N,N,N,Y,N,N,N
+,Regular Veteran Plate,,,,Y,N,N,N,Y,N,N,N
+,School Bus,,,,Y,N,N,N,Y,N,N,N
+,Semi Trailer,,,,Y,N,N,N,Y,N,N,N
+,Sheriff,,,,Y,N,N,N,Y,N,N,N
+,State,,,,Y,N,N,N,Y,N,N,N
+,State motorcycle,,,,Y,N,N,N,Y,N,N,N
+,Taxi,,,,Y,N,N,N,Y,N,N,N
+,Temporary,,,,Y,N,N,N,Y,N,N,N
+,Trailer,,,,Y,N,N,N,Y,N,N,N
+,Truck,,,,Y,N,N,N,Y,N,N,N
+,Truck Heavy,,,,Y,N,N,N,Y,N,N,N
+,Veteran Motorcycle,,,,Y,N,N,N,Y,N,N,N
+,Speciality,,,,Y,N,N,N,Y,N,N,N
+,Speciality,,,,Y,N,N,N,Y,N,N,N
+,,,,,,,,,,,,

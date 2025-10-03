@@ -1,0 +1,533 @@
+0,Passenger Plate Default,Pennsylvania,,,Uses both the letter “O” and the number zero “0”. You can tell the difference on the plate because all numbers are ¼ inch taller than letters.,,,,,**All verticles must be keyed**,,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+0,4th Youth Program,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,82nd Airborne Division Association,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Abington Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Action for Animals Humane Society,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Afghanistan and Iraq Veteran,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,AFSCME Council,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Air Force Cross,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Albright College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Alexs Lemonade Stand Foundation,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Allegheny College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Alpha Kappa Alpha Sorority,,,,Y,N,N,N,Y,Y- Fraternity/ Sorority logo appears on left of plate; 'ALPHA KAPPA ALPHA SORORITY INC.' appears on bottom of the plate.,N,N
+0,Alpha Phi Alpha Fraternity,,,,Y,N,N,N,Y,"Y- Fraternity/ Sorority logo appears on left of plate; 'ALPHA PHI ALPHA FRATERNITY, INC.' appears on bottom of the plate.",N,N
+0,Alvernia University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Amateur Radio,1999-2003,2004-2016,Since 2017,Y,N,N,N,Y,N,N,N
+0,American Cancer Society,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,American Legion,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,American Motorcyclist Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate; ' AMERICAN MOTORCYCLIST ASSN.' appears on bottom of plate.,N,N
+0,AMVETS,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Ancient Order of Hibernians,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Animal Friends,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Antique Vehicle,2005-2012,2013-2016,Since 2017,Y,N,N,Y - OMIT all small print series names when seen.,Y,"Y - Classic, Antique, or Historic appear on plate",N,N
+0,Antique Motorcycle,,,,Y,N,N,N,Y,N,Y- Motorcycle,N
+0,Appalachian Trail Conservancy,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Apportioned Bus,1999-2016,2017-2018,Since 2019,Y,N,N,N,Y,Y- Plate begins with 'BN'.,Y- Bus,N
+0,Apportioned,1999-2006,2007-2016,Since 2017,Y,N,N,N,Y,Y - Apportioned appears across bottom of plate.,N,N
+0,APSCUF,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Arcadia University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Arizona State University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Associated Alumni of Central High School,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Autism Society of America,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Avondale Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Barbershopper,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Barren Hill volunteer Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Berwyn Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Bethlehem Township Volunteer fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Big brothers Big Sisters,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Birdsboro Union Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Blackthorn Rugby Football Club,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Bloomsburg University,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Blue Knights Motorcycle Club,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Blue Knights Motorcycle Club Motorcycle,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,Y- Motorcycle,N
+0,Blue Lodge ,1999-2005,Since 2006,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Blue Moon Cruisers Rod & Custom Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Blue Mountain Jeep Alliance,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Boy Scouts of America,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,B.P. Order of Elks,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Bronze Star for Valor,Type I,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Bronze Star ,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Brookhaven Fire Company No. 1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Brookline Fire Company ,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Bucknell University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Bucks County Community College Foundation,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Bus,1999-2003,2004-2016,Since 2017,Y,N,N,N,Y,Y - Bus or Omnibus appears across bottom of plate.,Y - Bus or Van,Y
+0,California University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Camp Papillon Animal Shelter,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Carnegie Mellon University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Carpenters Union,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Cathedral Preparatory School,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Cedar Crest College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Cetronia Ambulance Corps,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Chatham College University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,ChildFirst Pennsylvania,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Christian Homeschool Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Circus Carnival Truck,,,,Y,N,N,N,Y,N,N,N
+0,Citizens Hose Fire company No. 5,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Civil Air Patrol,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Clarion University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Classic Vehicle,2013-2016,Since 2017,,Y,N,N,N,Y,N,N,N
+0,Classic Motorcycle,,,,Y,N,N,N,Y,N,Y- Motorcycle,N
+0,Collectible Vehicle,,,,Y,N,N,N,Y,N,N,N
+0,Colonial Park Fire Company #1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Combat Action Badge,2014-2018,Since 2019,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Combat Action Medal,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Combat Action Ribbon,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Combat Infantryman,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Combat Medical Badge,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Combat Wounded Veteran,Type I,Type II,,Y,N,N,Y - Vertical PH must be verified as seen for verification.,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Commercial Implement of Husbandry,,,,Y,N,N,N,Y,N,N,N
+0,Commonwealth Constables Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Commonwealth Court,,,,Y,N,N,N,Y,N,N,N
+0,Commonwealth ,1985-2017,Since 2018,,Y,N,N,N,Y,N,N,N
+0,Community for Pittsburgh Ultimate ,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Community Lifeteam EMS,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Concordville Fire Protective Association,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Conserve Wild Resources,1993-1998,1999- 2013,2014-2022,Y,N,N,N,Y,N,N,N
+0,Conserve Wild Resources,Since 2023,,,Y,N,N,N,Y,N,N,N
+0,Conshohocken Fire Company No. 2,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Corvette Club of Delaware Valley,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Cumberland Valley Corvette Club,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Dealer-Farm Equip.,,,,Y,N,N,N,Y,Y - Dealer appears across bottom of plate.,N,N
+0,Dealer-Multi Purpose,,,,Y,N,N,N,Y,Y - Dealer appears across bottom of plate.,N,N
+0,Dealer,1999-2003,2004-2016,Since 2017,Y,N,N,N,Y,Y - Dealer appears across bottom of plate.,N,N
+0,Deborah Grand OES -PHA,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Delaware Co Fallen Firefighter & EMS Memorial Com.,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Delaware Valley Chapter of the BMW Car Club of America,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Delaware Valley Golden Retriever Rescue,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Delaware Valley Triumphs,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Delta Sigma Theta Sorority,,,,Y,N,N,N,Y,"Y- Fraternity/ Sorority logo appears on left of plate; 'DELTA SIGMA THETA SORORITY, INC.' appears on bottom of the plate.",N,N
+0,Delta Waterfowl,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Desales University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Dickinson College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Disabled Veteran Severe Disability,2014-2020,Since 2021,,Y,N,N,Y - DV or HV verticals must be verified as seen.,Y,Y - Disabled Veteran appears across top of plate. Wheelchair logo may be present.,N,N
+0,Disabled Veteran,,,,Y,N,N,Y - DV or HV verticals must be verified as seen.,Y,Y - Disabled Veteran appears across top of plate. Wheelchair logo may be present.,N,N
+0,Distinguished Flying Cross ,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Distracted Driving Awareness,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Distracted Driving Awareness Motorcycle,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,Y- Motorcycle,N
+0,District Kiwanis International,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Drug Abuse Resistance Education,1996-2004,Since 2005,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Ducks Unlimited,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Duquesne University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Eagle Scout,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Eagles Youth Partnership,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,East Allen TWP. Vol. Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,East Brandywine Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,East Stroudsburg University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Eastern Berks Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Eastern University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Eddington Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Edge Hill Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Edinboro University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Elizabeth City State University Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Elizabethtown College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Emergency Medical Services,,,,Y,N,N,N,Y,Y - Emergency Vehicle or Emergency appears on bottom of plate. Plate starts with EV or EM.,Y - Ambulance,N
+0,Emergency Vehicle,2007-2016,Since 2017,,Y,N,N,N,Y,Y - Emergency Vehicle or Emergency appears on bottom of plate. Plate starts with EV or EM.,Y - Ambulance,N
+0,Enterprise Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Erie Yacht Club,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Eureka Volunteer Fire and Ambulance,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Exempt,Type I,Type II,,N - not valid license plates. DO NOT verify.,N,N,N,N,Y - Exempt appears on plate.,Y - Appears on Carnival Ride Trailers or Trucks.,N
+0,Exeter TWP Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Expeditionary Forces Veteran,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Fairview Township Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Farm Truck,2014-2018,Since 2019,,Y,N,N,N,Y,N,N,N
+0,Fearnots Volunteer Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,FFA Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Fire Fighter,,,,Y,N,N,Y - FF in symbol must be entered for verification.,Y,Y - Firefighter appears across bottom of plate.,N,N
+0,Flagship Niagara,,,,Y,N,N,N,Y,N,N,N
+0,Fleet Transporter,,,,Y,N,N,N,Y,N,N,N
+0,Flourtown Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Flyers Charities,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Flyers Wives Charities,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Fort Mifflin on the Delaware,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Franklin & Marshall College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Fraternal Order of Professional Paramedics,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Fraternal Order of Police,2006-2011,Since 2012,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Friends of Drake Well Inc.,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Friends of Valley Forge Park,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Friendship Fire Company of Bressler,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Friendship Hook Ladder Hose Ambulance,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Gannon University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Geneva College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Gettysburg College Orange & Blue Club,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Gettysburg Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Gettysburg Fire & Rescue Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Gilbertsville Fire & Rescue Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Girl Scouts of the USA,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Gladwyne Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Going Home Greyhounds,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Gold Star Family,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Good Intent Fire Company #1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Goshen Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Grand Commandery of Knights Templar of PA,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Greenfield TWP VFC of Lackawanna County,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Grove City College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Gwynedd Mercy College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Hampden Township Volunteer Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Handicapped,1999-2003,2004-2016,Since 2017,Y,N,N,Y - 'PD' is keyed,Y,Y - Wheelchair logo with PD.,N,N
+0,Harcum College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Harley Owners Group,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Harleysville Community Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Harmonville Fire Company No. 1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Harrisburg University of Science and Technology,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Hartsville Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Hearing Impaired,,,,Y,N,N,N,Y,N,N,N
+0,Heritage Region Jeep Alliance,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Historic Military Vehicle,,,,Y,N,N,N,Y,N,N,N
+0,Holy Family University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Honoring Our Veterans,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Honoring Our Veterans Motorcycle,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,Y- Motorcycle,N
+0,Honoring Our Women Veterans,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Horsham Fire company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Hummelstown Chemical Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Implement of Husbandry,,,,Y,N,N,N,Y,N,N,N
+0,In God We Trust,,,,Y,N,N,N,Y,N,N,N
+0,Indiana County Humane Society,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Indiana University of PA Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Ingomar Volunteer Fire Company No. 2,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,International Association Fire Fighters,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,International Brotherhood of Boilermakers,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,International Union of Operating Engineers,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Jefferson Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Juniata College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Keystone Elk Country Alliance,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Keystone State Corvette Club,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Kings College Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Knights of Columbus,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Korean Defense Service,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Kuhl Hose Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Kutztown University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate; 'www.kutztown.edu' at the bottom of the plate.,N,N
+0,Lafayette College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Lancaster TWP. Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Lansdowne Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,La Roche University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,La Salle college High School,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,La Salle University,2001-2011,Since 2012,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Lebanon Valley College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Legion of Merit,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Legislator Retired,,,,Y,N,N,N,Y,N,N,N
+0,Lehigh Township Volunteer Fire Company No. 1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Lehigh University Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Let Freedom Ring,,,,Y,N,N,N,Y,N,N,N
+0,Let Freedom Ring Motorcycle,,,,Y,N,N,N,Y,N,Y- Motorcycle,N
+0,Limerick Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Limerick Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,PA Limousine,1999-2003,Since 2004,,Y,N,N,N,Y,N,N,N
+0,Lincoln University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Linglestown Fire Company #1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Lion Member,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Little League Baseball,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Lock Haven University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Lower Fredrick Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Lower Macungie Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Lung Cancer Alliance,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Lycoming College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Malvern Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Mansfield University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Marine Corps League,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Marshall University Alumni,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Marywood University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Masonic Learning Centers for Children ,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Mass Transit,,,,Y,N,N,N,Y,N,N,N
+0,Mayflower Descendant,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,McDonald Volunteer Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,"M Club Foundation, University of Maryland",,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Mercedes Benz Club of America,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Mercyhurst University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Michigan State Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Midway Volunteer fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Millersburg Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Millersville University of Pennsylvania,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Misericordia University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Monroeville Volunteer Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Moped Dealer ,,,,Y,N,N,N,Y,N,Y- Moped,N
+0,Moped,,,,Y,N,N,N,Y,N,Y- Moped,N
+0,Moravian College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Motor Home,2001-2005,2006-2016,Since 2017,Y,N,N,N,Y,N,N,N
+0,Motorcycle Dealer,2005- 2022,Since 2023,,Y,N,N,N,Y,N,Y - Motorcycle,N
+0,Motorcycle,2004-2009,2010-2013,Since 2014,Y,N,N,N,Y,Y - Smaller plate size. MC appears on bottom of plate.,Y - Motorcycle,N
+0,Mount Aloysius College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Mount St. Mary's University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Mt. Penn Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Muhlenberg Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Municipal,1994- 2016,Since 2017,,Y,N,N,N,Y,N,N,N
+0,National Constitution Center,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,National Greyhound Adoption Program,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,National Guard,2007-2017,Since2018,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,Y - Militiaman Logo. National Guard appears across bottom of plate.,N,N
+0,National MS Society,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,National Ovarian Cancer Coalition,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,National Police Defense Foundation,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,National Ski Patrol ,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,National Wild Turkey Federation,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Navy Cross,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Nazareth Area Chamber of Commerce,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Neumann University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,New Vehicle Dealer,,,,Y,N,N,N,Y,Y - Dealer appears across bottom of plate.,N,N
+0,Newtown Fire Association,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,North Penn Volunteer Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,North Strabane Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Northampton Fire Department ,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Northampton Township Volunteer Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Norwin Band Aides,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Norwood Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Notary Public,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,NRA Foundation,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Oakmont Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Official Use PA State Police,,,,Y,N,N,N,Y,N,N,N
+0,Ohio River Trial Council,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Ohio State Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Omega Psi Phi Fraternity,,,,Y,N,N,N,Y,"Y- Fraternity/ Sorority logo appears on left of plate; 'OMEGA PSI PHI FRATERNITY, INC.' appears on bottom of the plate.",N,N
+0,Omnibus,2004-2016,Since 2017,,Y,N,N,N,Y,Y - Omnibus appears across bottom of plate.,Y - Van or small Bus,N
+0,Operation Enduring Freedom,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Operation Iraqi Freedom,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Oreland Volunteer Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Organ Donors Save Lives,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA Association of Realtors,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA Breast Cancer Coalition,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA Chiropractic Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA Choose Life,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA College of Technology,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,PA Council on Independent Living,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA DUI Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA Equine Council,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA Fraternal Order of Constables,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA Hunting Heritage,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA Resources Council,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA Society of Physician Assistants,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA Society Sons of American Revolution,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA State Corrections Officers Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,PA State Society Daughters of the American Revolution,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Passavant Memorial Homes Family of Services,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Passenger,1991-1998,1999-2003,2004-2016,Y,N,N,N,Y,N,N,N
+0,Passenger,Since2017,Black Series,,Y,N,N,N,Y,N,N,N
+0,Penn Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Penn State Alumni Association,2004,2005-2016,Since 2017,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Penn State University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Penn Wynn Overbrook Hills Fire Company ,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Penn DOT Commercial,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Penn DOT Passenger,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Pennsylvania Auctioneers Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Pennsylvania Career Fire Chiefs Association,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Pennsylvania Coal Alliance,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Pennsylvania Monuments Gettysburg,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Pennsylvania SPCA,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Pennsylvania State University,,,,Y,N,N,N,Y,N,N,N
+0,Pennsylvanians for Nebraska Alumni Chapter,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Permanent Trailer,1999-2003,2004-2016,Since 2017,Y,N,N,N,Y,Y - Perm Trailer appears across bottom of plate.,Y - Trailer,N
+0,Perseverance Volunteer Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Persian Gulf War Veteran,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Phila Fire Fighter's Union,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Philadelphia Animal Welfare Society,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Philadelphia Centurions Motorcycle Club,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Philadelphia Folksong Society,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Philadelphia Museum of Art ,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Philadelphia Union Foundation,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Philadelphia University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Pinnacle Health System,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Pittsburgh Central Catholic,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Pittsburgh Harlequins Rugby Football Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Pittsburgh Vintage Grand Prix,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Planned Parenthood of PA,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Pleasant Hall Volunteer Fire EMS ,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Plymouth Fire Company #1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Pocono Mountain Volunteer Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Point Park University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Police Athletic League,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Pollinator Habitat,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Porche Club of America,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Potter County Visitors Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Pottsville Area EMS,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Pre Owned Dealer,,,,Y,N,N,N,Y,Y - Dealer appears across bottom of plate.,N,N
+0,Preserve Our Heritage,,,,Y,N,N,N,Y,N,N,N
+0,Presidential Service Badge,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Presque Isle Partnership,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Press Photographer,1999-2006,Since 2007,,Y,N,N,N,Y,N,N,N
+0,Prince Hall F&AM,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Prisoner of War,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Purdue University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Quality Deer Management Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Radnor Fire Company of Wayne ,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Rails to Trails Conservancy,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,"Reading Buccaneers, Inc.",,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Reliance Hook And Ladder Co.1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Repair Towing,2004-2016,2017-2021,Since 2022,Y,N,N,N,Y,Y - Repair Towing appears across bottom of plate,Y - Wrecker/Roll back/tow trucks,N
+0,Repossessor,2004-2022,Since 2023,,Y,N,N,N,Y,Y - Repair Towing appears across bottom of plate,Y - Wrecker/Roll back/tow trucks,N
+0,Rescue Hose Company No.1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Retired Senator,,,,Y,N,N,N,Y,N,N,N
+0,Ridley School District,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Ringing Hill Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Robert Morris University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Rocky Mountain Elk Foundation,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Rose Tree Fire Company No.1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Rosedale Technical College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Rotary International,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Royersford Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Ruffed Grouse Society,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Rutgers University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Saint Francis University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Salvage Yard,2005-2022,Since 2023,,Y,N,N,N,Y,Y - Repair Towing appears across bottom of plate,Y - Wrecker/Roll back/tow trucks,N
+0,Sanatoga Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Save Wild Animals,,,,Y,N,N,N,Y,Y- Tiger graphic in the background; 'Save Wild Animals' appears on top of plate.,N,N
+0,Saxonburg Volunteer Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,School Bus,2004-2016,Since 2017,,Y,N,N,N,Y,N,N,N
+0,School Vehicle,2004-2016,Since 2017,,Y,N,N,N,Y,N,N,N
+0,Second Alarmers Rescue Squad,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Senator,,,,Y,N,N,N,Y,N,N,N
+0,Seton Hill University ,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Shady Side Academy,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Share the Road,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Shippensburg University Alumni ,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Shriners,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,"Sigma Gamma Rho Sorority, Inc.",,,,Y,N,N,N,Y,"Y- Fraternity/ Sorority logo appears on left of plate; 'SIGMA GAMMA RHO SORORITY, INC.' appears on bottom of the plate.",N,N
+0,Silver Star,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Sixers Charities,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Slippery Rock University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Soldier's Medal,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Sons of the American Legion,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,South Newton TWP Vol Fire Co.,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Spay/ Neuter Saves Lives,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Special Mobil,2013-2016,Since 2017,,Y,N,N,N,Y,N,N,N
+0,Sports Car Club of America ,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Spring Mill Fire Company No.1 ,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Springfield Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Square & Round Dancers,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,St. Charles Borromeo Seminary,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,St. James Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,St. Joseph's University,2001-2012,Since 2013,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,St. Thomas More Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,St. Vincent Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,State Representative,2004-2016,Since 2017,,Y,N,N,N,Y,N,N,N
+0,Steel Worker,2007-2012,Since 2013,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Streed Rod,,,,Y,N,N,N,Y,N,N,N
+0,Superior Court ,,,,Y,N,N,N,Y,N,N,N
+0,Support Our Troops,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Support Your Zoo,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Supreme Court,,,,Y,N,N,N,Y,N,N,N
+0,Susquehanna University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Syracuse University Alumni Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Syria Aaonms,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Tall Cedars of Lebanon,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Taxi,1999-2003,Since 2004,,Y,N,N,N,Y,N,N,N
+0,Teen Driver,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Telephone Pioneers America,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Temple University Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Temple University,,,,Y,N,N,N,Y,N,N,N
+0,Temporary,2010-2020,Since 2021,,Y,N,N,N,Y,Y - Preprinted or electronic printed paper tags. Do not accept hand written tags.,N,N
+0,The Children's Hospital of Philadelphia,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,The Colebrookdale Railroad,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,The Video Game Clubs of America,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Therapy Dogs United,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Thiel College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Thomas Jefferson University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Tinicum Township Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Trailer Dealer,1999-2022,Since 2023,,Y,N,N,N,Y,N,N,N
+0,Trailer,1993-2003,Since 2004,,Y,N,N,N,Y,Y - Trailer appears across bottom of plate.,Y - Trailer,N
+0,Transporter,2005-2022,Since 2023,,Y,N,N,N,Y,N,N,N
+0,Trevose Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Trout Unlimited,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Truck,1999-2003,Since 2004,,Y,N,N,N,Y,Y - Truck appears across bottom of plate.,Y - Truck,N
+0,Turnpike Commercial,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Turnpike Non Commercial,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Twin Valley Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Union Fire Company No.1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Union Hose Company of Annville Inc.,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,United Bowhunters of PA,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,University of Delaware,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,University of Michigan,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,University of Notre Dame,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,University of Pittsburgh,2010-2015,Since 2016,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,University of Scranton,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Upper Gwynedd Township Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Ursinus College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,US Air Force Active Duty,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Air Force Reserve,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Air Force Veteran,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Army Reserve,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Army Active Duty,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Army Veteran,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Coast Guard Auxiliary,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Coast Guard Reserve,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Coast Guard,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Coast Guard Veteran,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Congress,,,,Y,N,N,N,Y,N,N,N
+0,US Constitution 200th Anniversary,,,,Y,N,N,N,Y,N,N,N
+0,US Marine Corps Active Duty,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Marine Corps Veteran,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Marine Reserve,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Merchant Marine,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Military Airborne Units,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Naval Academy,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,US Naval Reserve,,,,Y,N,N,N,Y,N,N,N
+0,US Navy Active Duty,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Navy Veteran,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,US Submarine Veterans Inc.,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Utility Trailer,,,,Y,N,N,N,Y,N,Y - Trailer,N
+0,Veteran,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Veteran Motorcycle,,,,Y,N,N,Y - Stacked Characters must be entered as seen.,Y,N,N,N
+0,Veterans of an Allied Foreign Country,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Veterans of Foreign Wars,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Vietnam Vets of America,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Vietnam Vets,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Vietnam War Veteran,1999-2016,Since 2017,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,Villanova University Alumni Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Villanova University ,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Virginia Tech,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,VMSC of Lower Merion & Narberth,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Warminster Volunteer Ambulance Corps,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Warwick TWP Volunteer Fire Company No.1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Washington & Jefferson College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Watercraft Trailer Dealer,,,,Y,N,N,N,Y,N,N,N
+0,Waynesburg University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,West Catholic High School,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,West Chester University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,West Grove Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,West Manchester TWP Fire Department,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,West Point Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,West Shore EMS,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,West Virginia Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Westminster College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,WHYY,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Widener University,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Wilkes University Alumni,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,William Penn Charter School,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Williamson College of the Trades,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Willow Grove Volunteer Fire Company  #1,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Wisconsin Alumni Association,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,Wissahickon Fire Company,,,,Y,N,N,N,Y,Y- Firehouse logo appears on left of plate.,N,N
+0,Women in Transition Inc. ,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,World War II Veteran,,,,Y,N,N,N,Y,"Y - Combat Veteran, Military Award, Branch of Service, Facility, or Campaign appear on plate.",N,N
+0,York College,,,,Y,N,N,N,Y,Y- School logo appears on left of plate.,N,N
+0,Zem Zem Temple,,,,Y,N,N,N,Y,Y- Organization logo appears on left of plate.,N,N
+0,"Zeta Phi Beta Sorority, Inc.",,,,Y,N,N,N,Y,"Y- Fraternity/ Sorority logo appears on left of plate; 'Zeta Phi Beta Sorority, INC.' appears on bottom of the plate.",N,N
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,

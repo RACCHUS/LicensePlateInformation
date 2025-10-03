@@ -1,0 +1,51 @@
+0,Passenger Plate Default,Delaware,,,Vertical characters are keyed as seen. The letter O is verified as a letter.,,,,,,,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+,Ambulance,,,,Y,N,N,N,N,N,N,N
+,Antique ,,,,Y,N,N,N,N,N,N,N
+,Apportioned plate,,,,Y,Y,N,N,N,Y- The Registration begins with the letters CL. ,Y - Semi Truck/Trailer,N
+,Authority / Police,,,,Y,N,N,N,N,N,N,N
+,Authority Motorcycle/Police,,,,Y,N,N,N,N,N,N,N
+,Bus,,,,Y,N,N,N,N,N,N,N
+,Camper,,,,Y,N,N,N,N,Y - The registraion begins with the letters RV.,Y- RV / Camper,N
+,City,,,,Y,N,N,N,N,N,N,N
+,City Motorcycle,,,,Y,N,N,N,N,N,N,N
+,Collegiate,,,,Y,N,N,N,N,N,N,N
+,Commercial,,,,Y,N,N,N,N,Y- The Registration begins with the letters C.,N,N
+,Dealer,,,,Y,N,N,N,N,N,N,N
+,Dealer Motorcycle,,,,Y,N,N,N,N,N,N,N
+,Disabled Veteran ,,,,Y,N,Y - DAV is verified at the end of the registration.,N,N,N,N,N
+,Farm,,,,Y,N,N,N,N,N,N,N
+,Fire Department,,,,Y,N,N,N,N,N,N,N
+,Handicapped,,,,Y,Y,N,N,N,Y- Wheel chair logo on Left and the registration begin with HP.,N,N
+,Handicapped Motorcycle,,,,Y,N,N,N,N,N,N,N
+,Initial Commercial plate ,,,,Y,N,N,N,N,N,N,N
+,Initial Disabled Veteran,,,,Y,N,N,N,N,N,N,N
+,Initial Handicapped,,,,Y,N,N,N,N,N,N,N
+,Initial Motorcycle,,,,Y,N,N,N,N,N,N,N
+,Initial Passenger,,,,Y,N,N,N,N,N,N,N
+,Initial Regular Veteran,,,,Y,N,N,N,N,N,N,N
+,Initial Veteran Motorcycle,,,,Y,N,N,N,N,N,N,N
+,Livery,,,,Y,N,N,N,N,N,N,N
+,Manufacturer,,,,Y,N,N,N,N,N,N,N
+,Motorcycle,,,,Y,Y,N,N,N,Y - Vertical MC on left.,Y - Motorcycle,N
+,National Guard ,,,,Y,Y,N,N,N,Y - National Guard logo on the left and begins with vertical NG.,N,N
+,New& Used Dealer,,,,Y,N,N,N,N,N,N,N
+,Passenger ,,,,Y,Y - If verticals are there.,N,N,N,"Y-""The First State"" at the top of the plate",N,N
+,,,,,Y,Y - If verticals are there.,N,N,N,"Y-""The First State"" at the top of the plate",N,N
+,Purple heart,,,,Y,Y,N,N,N,Y - Purple Heart appears on the left and verticals begin with PH.,N,N
+,Regular Veteran Plate,,,,Y,N,N,N,N,N,N,N
+,School Bus,,,,Y,N,N,N,N,N,N,N
+,Semi Trailer,,,,Y,N,N,N,N,N,N,N
+,Sheriff,,,,Y,N,N,N,N,N,N,N
+,State,,,,Y,Y,N,N,N,N,N,N
+,State motorcycle,,,,Y,N,N,N,N,N,N,N
+,Taxi,,,,Y,N,N,N,N,N,N,N
+,Temporary,,,,Y,N,N,N,N,N,N,N
+,Trailer,,,,Y,Y,N,N,N,N,N,N
+,Truck,,,,Y,N,N,N,N,N,N,N
+,Truck Heavy,,,,Y,N,N,N,N,N,N,N
+,Veteran Motorcycle,,,,Y,N,N,N,N,N,N,N
+,Wild Rivers,,,,Y,N,N,N,N,N,N,N
+,Specialty,,,,Y,Y,N,N,N,N,N,N
+,Centennial,,,,Y,N,N,N,N,N,N,N

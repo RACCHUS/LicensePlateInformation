@@ -1,0 +1,149 @@
+0,Passenger Plate Default,South Carolina,,,"Does not use the letter “O”, only the number zero “0”.",,,,,"* NOTE :  DO NOT enter any symbols (!,&,$,@,etc..)",,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+,250th Anniversary Revolutionary War,,,,N,N,N,N,Y,N,N,N
+,30 Day Temporary,2005-2018,Since 2019,,Y,N,N,N,Y,Y - preprinted or electronic printed paper tags. Do not accept hand written tags; '30 DAY PLATE' at top of plate.,N,N
+,45 Day Temporary,,,,Y,N,N,N,Y,Y - preprinted or electronic printed paper tags. Do not accept hand written tags; '45 Day Plate' at top of plate.,N,N
+,Agriculture,2009-2018,Since 2019,,Y,N,N,N,Y,Y- 'Our Farms - Our Future' at top of plate; Barn icon at left.,N,N
+,Allen University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Amateur Radio,2015-2016,Since 2017,,Y,N,N,N,Y,Y - Amateur Radio appears across top of plate. Call sign as registration.,N,N
+,Anderson College,Type I,Type II,Type III,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Antique Auto,1974-2007,2008-2016,Since 2017,Y,N,N,N,Y,N,N,N
+,Antique Motorcycle,,,,Y,N,N,N,Y,N,Y- Motorcycle,N
+,Appalachian State University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Apportioned Bus,2014-2016,Since 2017,,Y,Y- Registration begins with 'BC',N,Y- Omit verticals at end.,Y,N,N,N
+,Apportioned Truck Trailer,2010-2016,Since 2017,,Y,Y- Registration begins with 'A' or 'P',N,N,Y,N,N,N
+,Arts Awareness,2012-2018,Since 2019,,Y,N,N,N,Y,Y- 'Driven by the Arts' at top of plate.,N,N
+,Autism Awareness,,,,Y,N,N,N,Y,N,N,N
+,Benedict College,Type I,Type II,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Bob Jones University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Boy Scouts of America,2008-2018,Since 2019,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Boykin Spaniel Foundation,2010-2018,Since 2019,,Y,N,N,N,Y,Y- Dog logo at left of plate.,N,N
+,Breast Cancer Awareness,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Bronze Star,,,,Y,N,N,N,Y,Y- Medal logo at left of plate; 'Combat Veteran' at top.,N,N
+,Bus,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Bus appears across bottom of plate.,Y - Bus,N
+,Camp Sertoma,,,,Y,N,N,N,Y,N,N,N
+,Camper,Type I,Type II,Type III,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Camper appears on plate.,Y - Camper / RV,N
+,Carolina Concerns of Police Survivors,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Carolina Panthers,,,,Y,N,N,N,Y,Y- Team logo at left of plate.,N,N
+,Charleston Animal Society,,,,Y,N,N,N,Y,N,N,N
+,Charleston Southern University,Type I,Type II,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Circuit Court,,,,Y,N,N,N,Y,Y - Circuit Court appears on top of plate,N,N
+,Clemson University,Regular,2016 Nat Champs,2018 Nat Champs,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Coker College,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,College of Charleston,Type I,Type II,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Collegiate (Other),Auburn,Clafin Univ,Coast Car Univ,Y,N,N,N,Y,N,N,N
+,Collegiate (Other),Converse College,Denmark Tech College,,Y,N,N,N,Y,N,N,N
+,Columbia College,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Combat Disabled Veteran,,,,Y,N,N,N,Y,Y- Kneeling Soldier logo at left of plate; 'Veteran' at top.,N,N
+,Darlington Raceway,Darlington Est 1950,Darlington Raceway,Darlington: Too Tough,Y,N,N,N,Y,N,N,N
+,Dealer,2015-2016,Since 2017,,Y,N,N,N,Y,Y - Dealer appears across top of plate; Registration begins with 'X'.,N,N
+,Disabled,1989-2009,2010-2020,,Y,N,N,N,Y,Y- Wheelchair logo at left of plate.,N,N
+,Disabled Veteran,2013-2016,Since 2017,Type III,Y,N,N,N,Y,N,N,N
+,Disabled Veteran Wheelchair,2013-2014,Since 2015,Type III,Y,N,N,N,Y,Y- Wheelchair logo on plate; 'DISABLED VETERAN' at top.,N,N
+,Distinguished Flying Cross,,,,Y,N,N,Y- Key Verticals,Y,Y- Medal logo at left of plate.,N,N
+,Ducks Unlimited,,,,Y,N,N,N,Y,Y- Duck logo at left of plate.,N,N
+,Emergency Medical Services,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Plate starts with EA,N,N
+,Emergency Medical Technician,,,,Y,N,N,N,Y,N,N,N
+,Erskine College,Type I,Type II,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Farm Vehicle,Type I,Type II,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Farm appears on plate.,N,N
+,Federal Court,,,,Y,N,N,N,Y,N,N,N
+,Firefighter,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Plate starts with FF,N,N
+,First in Golf,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Fleet,,,,Y,N,N,N,Y,Y - Fleet appears on plate. Plate starts with FV.,N,N
+,Forestry Association of SC,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Francis Marion University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Fraternity/Sorority,Alpha Phi Alpha,Alpha Kappa Alpha,Delta Sigma Theta,Y,N,N,N,Y,N,N,N
+,Friends of Hunting Island,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Furman University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,General Assembly,FL104,,,Y,N,N,OMIT Series title on left. Vertical characters must be verified as seen.,Y,Y - General Assembly appears on left of plate.,N,Y
+,Georgia Tech Foundation,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Gold Star Family,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Government,Prior to 2017 Type I,Prior to 2017 Type II,Since 2017,Y,N,N,N,Y,Y - Permanent appears across top of plate.,N,N
+,Government Disabled,Prior to 2009,Since 2009,,Y,N,N,N,Y,Y - Permanent appears across top of plate.,N,N
+,Government Low Speed Vehicle,,,,Y,N,N,N,Y,N,N,N
+,Government Motorcycle,,,,Y,N,N,N,Y,Y - Permanent appears across bottom of plate.,Y- Motorcycle,N
+,Handicapped,,,,Y,N,N,N,Y,Y - Wheelchair logo.,N,N
+,Handicapped Motorcycle,,,,Y,N,Y,N,Y,Y - Wheelchair logo. Smaller plate size,Y - Motorcycle,N
+,Heavy Truck Dealer,1995-2012,Since 2013,,Y,N,N,N,Y,Y - 'Dealer' or 'Heavy Duty Truck Dealer' appears across top of plate' Registration begins with 'XP'.,Y- Heavy Duty Truck,N
+,Heritage Classic Foundation,2008-2017,Since 2018,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Homeownership: The American Dream,2012-2017,Since 2018,,Y,N,N,N,Y,Y- Real Estate logo at left of plate.,N,N
+,Hunley,,,,Y,N,N,N,Y,Y- Civil War Submarine logo at left of plate.,N,N
+,In God We Trust,2003-2006,2007-2016,Since 2016,Y,N,N,N,Y,Y- US & State flag logo on plate.,N,N
+,In Reason We Trust,1989-2007,2008-2018,Since 2019,Y,N,N,N,Y,Y- US flag logo on plate.,N,N
+,Keep it Beautiful,1989-2015,2016-2018,Since 2019,Y,N,N,N,Y,Y- Flower logo at left of plate.,N,N
+,Korean Veteran,2009-2014,Since 2015,,Y,N,N,N,Y,Y- Medal logo at left of plate.,N,N
+,Lander University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Legislator,,,,Y,N,N,N,Y,N,N,N
+,Limestone College,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Livery,Taxi,Taxi,Limousine,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Taxi or Limousine appears on plate.,N,N
+,Manufacturer (Motor Vehicle),,,,Y,N,N,N,Y,N,N,N
+,Medal of Honor,,,,Y,N,N,OMIT Series title on left,Y,Y - Medal of Honor appears on plate.,N,Y
+,Medical University of South Carolina,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Mothers Against Drunk Driving,Type I,Type II,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Motorcycle,,,,Y,N,N,N,Y,N,Y- Motorcycle,N
+,Motorcycle Awareness Alliance,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,Y- Motorcycle,N
+,Motorcycle Dealer,,,,Y,N,N,Y- Do NOT key vertical 'DEALER',Y,N,Y- Motorcycle,N
+,National Guard ,Type I,Type II,,Y,N,N,N,Y,Y -  National Guard appears across bottom of plate,N,N
+,Newberry College,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,North Greenville University,Type I,Type II,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Nurses Care,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Omega Psi Phi Fraternity,,,,Y,N,N,N,Y,Y- Fraternity logo at left of plate.,N,N
+,Organizations,American Red Cross,Free Masons,Beaufort Water Fest,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Organizations,Child Cancer,Child Hosp- Grnville,Choose Life,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Organizations,Coast Conservation,Connie Maxwell,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Parrot Head,2009-2016,Since 2017,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Passenger,1999-2006,2007,2008-2015,Y,N,N,N,Y,N,N,N
+,Passenger,2016-2022,Since 2023,,Y,N,N,N,Y,N,N,N
+,Pearl Harbor Survivor,1995-2016,2017-2018,,Y,N,N,OMIT Series title on left,Y,Y - Series title appears on left of plate,N,Y
+,Permanent Trailer,,,,Y,N,N,N,Y,Y - Permanent appears across top of plate.,Y- Trailer,N
+,Powering the Palmetto State,,,,Y,N,N,N,Y,Y - Lineman logo appears on left of plate,N,N
+,Presbyterian College,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Prisoner of War,,,,Y,N,N,N,Y,Y - Plate starts with POW,N,N
+,Private Bus,,,,Y,N,N,N,Y,N,Y- Bus,N
+,Property Carrying,,,,Y,N,N,N,Y,N,N,N
+,Protect Endangered Species (Eagle),,,,Y,N,N,N,Y,Y- Eagle logo at left of plate.,N,N
+,Protect Endangered Species (Turtle),1989-2011,2012-2014,Since 2015,Y,N,N,N,Y,Y- Turtle logo at left of plate.,N,N
+,Public Education: A Great Investment,2000-2015,Since 2016,,Y,N,N,N,Y,Y- Apple logo at left of plate.,N,N
+,Purdue University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Purple Heart,,Disabled,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Purple Heart appears across top of plate; Medal logo at left.,N,Y
+,Repair / Wrecker,,,,Y,N,N,N,Y,Y - Plate starts with SM,Y - Wrecker/Roll back/tow trucks,N
+,Research and Development,,,,Y,N,N,N,Y,N,N,N
+,Retired Guard,2009-2014,Since 2015,,Y,N,N,N,Y,Y- National Guard logo at left of plate.,N,N
+,Riverbanks Society,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Rotary International,,,,Y,N,N,N,Y,Y- Organization logo at left of plate; 'Service Above Self' at top.,N,N
+,Semi Trailer,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Permanent appears on plate.,Y - Trailer,N
+,Senator,,,,Y,N,N,N,Y,N,N,N
+,Shag State Dance,,,,Y,N,N,Y - OMIT series name on left.,Y,Y - Series name and symbol appear on left.,N,Y
+,Share the Road,2010-2018,Since 2019,,Y,N,N,N,Y,N,N,N
+,Silver Star,,,,Y,N,N,N,Y,Y- Medal logo at left of plate.,N,N
+,Sons of Confederate Veterans,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,South Carolina stands with Israel,,,,Y,N,N,N,Y,Y- State & Israeli flag logo at left of plate.,N,N
+,Southern Wesleyan University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,South Carolina State University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,State Guard,,,,Y,N,N,N,Y,Y -  symbol appears on left of plate. Plate starts with SC.,N,N
+,Surfrider Foundation,2005-2018,Since 2019,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Taxi,Taxi,Taxi,Limousine,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Taxi or Limousine appears on plate.,N,N
+,Temporary,Type I,Type II,,Y,N,N,N,Y,Y - preprinted or electronic printed paper tags. Do not accept hand written tags.,N,N
+,The Citadel,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Trailer,1989-2015,Since 2016,,Y,N,N,N,Y,N,Y- Trailer,N
+,Trout Unlimited,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Truck,1996-2006,Since 2007,,Y,N,N,N,Y,Y - Truck appears on plate.,Y- Truck,N
+,United We Stand,,,,Y,N,N,N,Y,Y- US & State flag logo on plate.,N,N
+,University of South Carolina,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,University of Tennessee,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,US Armed Forces Retired,,,,Y,N,N,N,Y,N,N,N
+,US Military Reserves,,,,Y,N,N,N,Y,N,N,N
+,USC Baseball National Champions,,,,Y,N,N,N,Y,Y- School logo at left of plate; '2010 & 2011 NATIONAL BASEBALL CHAMPIONS' at top.,N,N
+,Utility Trailer,2015,Since 2016,,Y,N,N,N,Y,N,N,N
+,Vanity,1991-2007,Since 2008,,Y,N,N,N,Y,N,N,N
+,Veteran,2009-2014,Since 2015,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,"Y - Military awards, campaigns, or Veteran appears on plate.",N,N
+,Veteran Motorcycle,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Smaller plate size. ,Y - Motorcycle,N
+,Vietnam Veteran,2005-2014,Since 2015,,Y,N,N,N,Y,Y- Medal logo at left of plate.,N,N
+,Wholesale Auction,,,,Y,N,N,N,Y,N,N,N
+,Wildlife Bunting,2014,Since 2015,,Y,N,N,N,Y,Y- Animal logo at left of plate.,N,N
+,Wildlife Deer,,,,Y,N,N,N,Y,Y- Animal logo at left of plate.,N,N
+,Winthrop University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Working for the Wild Turkey,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,WWII Veteran,2004-2014,Since 2015,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,,,,,,,,,,,,

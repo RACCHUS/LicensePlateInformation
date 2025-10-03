@@ -1,0 +1,215 @@
+0,Passenger Plate Default,Tennessee,,,Does not use the Letter “O” on their standard license plates. Both the Letter “O” and Number Zero “0” are used on our Specialty Tags and Temporary Operating Permits.,,,,,"*FLAT designated plates are printed, not pressed.",,
+Code Number,Plate Type Description,Plate Images,,,Processing Rules,,,,,,,
+,,,,,Current being processed,Add Prefix to plate string?,Add Suffix to plate string?,Omit or Add any characters?,Verify State 2 alpha character abbreviation here,Is there any viewable plate type identifier on plate of any kind?,Is the plate type identified by Vehicle type as viewed in the image?,Is the plate all numeric?
+,Agriculture,1997-2000,Since 2001,,Y,N,N,N,Y,Y- Barn logo at left of plate.,N,N
+,Air Force Cross,,,,Y,N,N,N,Y,Y- Medal logo at left of plate.,N,N
+,Air Medal,Pressed,Meritorius,,Y,N,N,N,Y,Y- Medal logo at left of plate.,N,N
+,Alabama University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Alpha Kappa Alpha Sorority,2001-2006,Since 2007,,Y,N,N,N,Y,Y- Sorority logo at left of plate.,N,N
+,Alpha Phi Alpha Fraternity,Type I,Type II,,Y,N,N,N,Y,Y- Fraternity logo at left of plate.,N,N
+,Amateur Radio,,,,Y,N,N,N,Y,Y - Emergency appears across bottom of plate.,N,N
+,Animal Friendly,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Antique Auto,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Antique auto appears across bottom of plate. Plate starts with AA.,N,N
+,Antique Motorcycle,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Antique appears across bottom of plate. Smaller plate size. Plate starts with A.,Y - Motorcycle,N
+,Appalachian Trail,,,,Y,N,N,N,Y,N,N,N
+,Apportioned,1990-1999,2000-2005,2006,Y,N,N,N,Y,N,Y- Truck,N
+,Apportioned,2007-2011,Since 2012,,Y,N,N,N,Y,N,N,N
+,Art is a Rainbow,Pressed,Flat,,Y,N,N,N,Y,N,N,N
+,Auburn University,Pressed,Flat,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Austin Peay State University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Autism,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Belmont University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Blue Star Family,,,,Y,N,N,N,Y,Y- Blue Star logo at center of plate.,N,N
+,Boat Dealer,,,,Y,N,N,N,Y,N,N,N
+,Bosnia Era Veteran,,,,Y,N,N,N,Y,Y- American Flag logo at center of plate.,N,N
+,Bronze Star,Meritorius,Valor,,Y,N,N,N,Y,Y- Registration starts with 'BS'; May or may NOT have Medal icon at center of plate.,N,N
+,Carson-Newman University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Chattanooga FC,Chattanooga FC,,,Y,N,N,N,Y,Y - Visible logo/name  appear on tag,N,N
+,Children First,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Children's Hospital at Erlanger,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Children's Hospital at Vanderbilt,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Choose Life,,,,Y,N,N,N,Y,Y-Babyface graphic at left of plate.,N,N
+,Christian Brothers University,2011-2016,Since 2017,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Civil War Presevation,,,,Y,N,N,N,Y,Y- Organization logo at left of plate; Cannon icon at right.,N,N
+,Clemson University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Cold War Era Veteran,,,,Y,N,N,N,Y,Y- American Flag logo at center of plate.,N,N
+,Commercial (Bus),,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Comm Bus appears across bottom of plate. Plate starts with CB.,Y - Bus,N
+,Commercial for Hire (Non-Apportioned),,,,Y,N,N,N,Y,N,N,N
+,Commercial for Hire (Truck),2000-2006,2007-2009,2010-2011,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y- Weight limit at bottom of plate.,Y- Truck,N
+,Commercial for Hire (Truck),Since 2012,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,N,N,N
+,Commercial Private (Truck),,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y- Weight limit at bottom of plate.,Y- Truck,N
+,Conservation Trout Unlimited,,,,Y,N,N,N,Y,N,N,N
+,Cool Cat,Pressed,Flat,,Y,N,N,N,Y,Y- Cat w/sax logo at left of plate.,N,N
+,Creating the Future,,,,Y,N,N,N,Y,Y- ART logo at left of plate.,N,N
+,Dealer (2006-2019),Burgandy,Red,White,Y,N,N,N,Y,Y- 'AUTO DEALER' at bottom of plate.,N,N
+,Dealer (Since 2020),Burgandy,Red,,Y,N,N,N,Y,Y- 'AUTO DEALER' at bottom of plate.,N,N
+,Delta Sigma Theta,,,,Y,N,N,N,Y,Y - Visible Greek logo/name  appear on tag,N,N
+,Desert Storm Veteran,2014-2017,2018-2020,Since 2021,Y,N,N,N,Y,N,N,N
+,Disabled Driver,2001-2004,2005,2006,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Wheelchair logo.,N,N
+,Disabled Driver,2007-2011,Since 2012,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Wheelchair logo. Vertical DD appears on plate.,N,N
+,Disabled Persons,2017-2018,2019-2022,Since 2023,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Wheelchair logo.,N,N
+,Disabled Motorcycle,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Wheelchair logo. Smaller plate size,Y - Motorcycle,N
+,Disabled Veteran,2006,2007-2018,Since 2019,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Disabled Veteran appears across bottom of plate. Wheelchair logo may be present.,N,N
+,Disabled Veteran Motorcycle,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,"Y - Smaller plate size. Military awards, Veteran and Campaigns appear on plate.",Y - Motorcycle,N
+,Distinguished Flying Cross,,,,Y,N,N,N,Y,Y- Medal logo at left of plate.,N,N
+,Distinguished Service Cross,,,,Y,N,N,N,Y,Y- Medal logo at left of plate.,N,N
+,Dolly Parton,,,,Y,N,N,N,Y,Y- 'Imagination Library' at bottom of plate.,N,N
+,Don't Tread on Me,,,,Y,N,N,N,Y,Y- Coiled Snake logo at left of plate.,N,N
+,Down Syndrome Awareness,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Ducks Unlimited,Pressed,Flat,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,East Tennessee Children's Hospital,,,,Y,N,N,N,Y,Y- Organization logo at left of plate; 'We Get Kids' banner at bottom.,N,N
+,East Tennessee State University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Elvis Presley Memorial Trauma Center,,,,Y,N,N,N,Y,Y- Elvis logo at left of plate.,N,N
+,Emergency,2001-2011,Since 2012,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Emergency appears across bottom of plate.,N,N
+,Emergency Trauma Physician,,,,Y,N,N,N,Y,Y- Medical logo at left of plate.,N,N
+,Explore TN,,,,Y,N,N,N,Y,Y- Jeep logo at left of plate.,N,N
+,Firefighter IAFF,2001-2009,Since 2010,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Firefighter,2001-2006,Since 2007,,Y,N,N,N,Y,Y- Registration contains an 'F'.,N,N
+,Firefighter Motorcycle,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Smaller Plate size. Firefighter appears on bottom  of plate. Plate starts with F.,Y - Motorcycle,N
+,Fish,Pressed,Flat,,Y,N,N,N,Y,N,N,N
+,Florida State University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Fraternal Order of Police,Associate Member,Active Member,,Y,N,N,N,Y,Y- Organization logo on plate.,N,N
+,Freed Hardeman University,,,,Y,N,N,N,Y,N,N,N
+,Friends of Great Smoky Mountains,,,,Y,N,N,N,Y,Y- Series title at left of plate; 'Preserve & Protect Our National Park' on bottom.,N,N
+,Friends of Shelby Bottom,,,,N,N,N,N,Y,N,N,N
+,Friends of the Smokies,,,,Y,N,N,N,Y,Y- Bear logo at left of plate.,N,N
+,Georgia Tech,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Gold Star Family,,,,Y,N,N,N,Y,Y- Gold Star logo at left of plate.,N,N
+,Govt. Service,,,,Y,N,N,N,Y,N,N,N
+,Harpeth River Watershed,,,,Y,N,N,N,Y,Y- Canoeing Family logo at left of plate; 'Protecting Rivers and Clean Water' on bottom.,N,N
+,Hearing Impaired,,,,Y,N,N,N,Y,N,N,N
+,Historic Franklin,,,,Y,N,N,N,Y,N,N,N
+,Honorably Discharged Veteran,,,,Y,N,N,N,Y,Y- American Flag logo at left of plate.,N,N
+,House,,,,Y,N,N,N,Y,Y - HOUSE appears across bottom of plate.,N,N
+,Imp. Hendersonville,,,,N,N,N,N,Y,N,N,N
+,In God We Trust,Type I,Type II,Type III,Y,N,N,N,Y,Y- 'IN GOD WE TRUST' on plate.,N,N
+,Indiana University,Pressed,Flat,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Jackson State University,,,,Y,N,N,N,Y,Y- School logo at left of plate; 'THEE I LOVE' at bottom.,N,N
+,Joint Commercial Farm,,Farm or Private,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Weight class appear across bottom of plate. Plate starts with Vertical J.,N,N
+,Judiciary,,,,Y,N,N,N,Y,Y - Judiciary appears across the bottom of the plate.,N,N
+,Kappa Alpha Psi,,,,Y,N,N,N,Y,Y- Sorority logo at left of plate.,N,N
+,King University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Korean Defense Service Medal,,,,Y,N,N,N,Y,Y- Medal logo at left of plate.,N,N
+,Korean War Era Veteran,,,,Y,N,N,N,Y,Y- American Flag logo at center of plate.,N,N
+,Korean War Veteran,,,,Y,N,N,N,Y,Y- American Flag logo at left of plate.,N,N
+,Lane College,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Le Bonheur Children's Hospital,,,,Y,N,N,N,Y,Y- Heart logo at left of plate.,N,N
+,Lee University,,,,Y,N,N,N,Y,Y- School logo at center of plate.,N,N
+,Legion of Merit Medal,,,,Y,N,N,N,Y,Y- Medal logo at left of plate.,N,N
+,LeMoyne-Owen College,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Lincoln Memorial University,Lincoln Mem Univ,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+,Linemen Power Tennessee,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Lipscomb University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Manufacturer / Transporter,2018-2019,Since 2020 Type I,Since 2020 Type II,Y,N,N,N,Y,Y- 'Manufacturer' at bottom of plate on Type II.,N,N
+,Maryville College,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Masonic Lodge,,,,Y,N,N,N,Y,Y- Masonic logo at left of plate; 'MASON' on bottom.,N,N
+,Medal of Honor,,,,Y,N,N,N,Y,Y- Medal logo at right of plate.,N,N
+,Memphis Grizzlies,2015-2017,Since 2018,,Y,N,N,N,Y,Y- Team logo at left of plate.,N,N
+,Methodist Le Bonheur Healthcare,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Middle Tennessee State University,2003-2009,Since 2010,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Military,2003-2007,2008,Since 2009,Y,N,N,N,Y,Y- Branch & Status appear at left of plate.,N,N
+,Milligan University,Milligan Univ,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Mississippi State University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Motorcycle,,,,Y,N,N,N,Y,Y - Smaller plate size.,Y - Motorcycle,N
+,Motorcycle (Veteran),Air Medal,Op. Enduring Freedom,Op. Iraqi Freedom,Y,N,N,N,Y,Y - Smaller plate size.,Y- Motorcycle,N
+,Motorcycle (Veteran),Op. New Dawn,Purple Heart,Army,Y,N,N,N,Y,Y - Smaller plate size.,N,N
+,Motorcycle (Veteran),Navy Retired,Navy,Vietnam,Y,N,N,N,Y,Y - Smaller plate size.,N,N
+,Nashville Predators,,,,Y,N,N,N,Y,Y- Team logo at right of plate.,N,N
+,National Champions,Pressed,Flat,,Y,N,N,N,Y,N,N,N
+,National Guard,2002-2005,Since 2006,,Y,N,N,N,Y,Y- Branch logo at left of plate.,N,N
+,National Rifle Association,,,,Y,N,N,N,Y,Y- Organization logo at center of plate.,N,N
+,National Wild Turkey Federation,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Navy Cross,,,,Y,N,N,N,Y,Y- Medal logo at left of plate.,N,N
+,Niswonger Children's Hospital,,,,Y,N,N,N,Y,Y- Teddy Bear logo at right of plate.,N,N
+,Non-Apportioned For Hire,,,,Y,N,N,N,Y,N,N,N
+,Nurses Change Lives,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Ole Miss University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Omega Psi Phi Fraternity,,,,Y,N,N,N,Y,Y- Fraternity logo at left of plate.,N,N
+,Operation Enduring Freedom Era,,,,Y,N,N,N,Y,Y- American Flag w/VETERAN logo at center of plate.,N,N
+,Operation Enduring Freedom,2018-2020,Since 2021,,Y,N,N,N,Y,N,N,N
+,Operation Inherent Resolve Era,,,,Y,N,N,N,Y,Y- American Flag w/VETERAN logo at center of plate.,N,N
+,Operation Inherent Resolve,,,,Y,N,N,N,Y,Y- American Flag w/VETERAN logo at left of plate.,N,N
+,Operation Iraqi Freedom Era,,,,Y,N,N,N,Y,Y- American Flag w/VETERAN logo at center of plate.,N,N
+,Operation Iraqi Freedom,2007,Since 2008,,Y,N,N,N,Y,N,N,N
+,Operation New Dawn Era,,,,Y,N,N,N,Y,Y- American Flag w/VETERAN logo at center of plate.,N,N
+,Operation New Dawn,,,,Y,N,N,N,Y,Y- American Flag w/VETERAN logo at left of plate.,N,N
+,Passenger,2000-2005,2006-2010,2011-2021,Y,N,N,N,Y,N,N,N
+,Passenger,Since 2022,,,Y,N,N,N,Y,N,N,N
+,Pat Summit Foundation,,,,Y,N,N,N,Y,Y- Pat Summit graphic at right of plate.,N,N
+,Pearl Harbor Survivor,,,,Y,N,N,N,Y,Y - Series title appears on left of plate,N,Y
+,Penn State University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+,Phi Beta Sigma,,,,Y,N,N,N,Y,Y- Fraternity logo at left of plate.,N,N
+,Physician,,,,Y,N,N,N,Y,Y - 'Physician' on bottom of tag.,N,N
+,"Police Benevolent Association, Inc.",,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Promise Hope Cure,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Purdue University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Purple Heart Veteran,2007,2008-2017,Since 2018,Y,N,N,N,Y,Y- Medal logo at center of plate; 'COMBAT WOUNDED' at bottom.,N,N
+,Radnor Lake,2000-2006,Since 2007,,Y,N,N,N,Y,N,N,N
+,Rakkasan,,,,Y,N,N,N,Y,N,N,N
+,Realtor,,,,Y,N,N,N,Y,Y- Realtor logo at right of plate; 'Celebrating Home Ownership' at bottom.,N,N
+,Rescue Squad,2000-2007,Since 2008,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Rescue Squad appears across bottom of plate.,N,N
+,Retired Female Firefighter,,,,Y,N,N,N,Y,N,N,N
+,Rhodes College,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Save the Honey Bee,,,,Y,N,N,N,Y,Y- Organization logo at right of plate.,N,N
+,Semi-Trailer,1994-1996,1997-2004,2005,Y,N,N,N,Y,Y - Semi appears on bottom of plate.,Y - Trailer,N
+,Semi-Trailer,Since 2006,,,Y,N,N,N,Y,Y - Semi appears on bottom of plate.,Y - Trailer,N
+,Senate,,,,Y,N,N,N,Y,Y - SENATE appears across bottom of plate.,N,N
+,Sewanee University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Share the Road,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Sheriff,,,,Y,N,N,N,Y,N,N,N
+,Sheriff's Association,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Silver Star - Valor,2000-2006,Since 2007,,Y,N,N,N,Y,Y- Medal logo at center of plate.,N,N
+,Smallmouth Bass,,,,Y,N,N,N,Y,Y- Fish logo at left of plate.,N,N
+,Somalia Era Veteran,,,,Y,N,N,N,Y,Y- American Flag logo at center of plate.,N,N
+,Sons of the Confederate Veterans Motorcycles,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Sons of the Confederate Veterans ,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Spay and Neuter,,,,Y,N,N,N,Y,N,N,N
+,Special Interest,Drive Electric,Driving to a Cure,Equity Alliance,Y,N,N,N,Y,Y - Visible logo/name  appear on tag,N,N
+,Special Interest,Helping Schools,Isaiah 117,Millennial Debt Fund,Y,N,N,N,Y,Y - Visible logo/name  appear on tag,N,N
+,Special Interest,Old Friends Dog Sanct,Service Dogs,,Y,N,N,N,Y,Y - Visible logo/name  appear on tag,N,N
+,Special Purpose,,,,Y,N,N,N,Y,N,N,N
+,Sportsman,2000-2006,Since 2007,,Y,N,N,N,Y,N,N,N
+,St. Jude Children's Hospital,2007-2020,Since 2021,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,State Guard,,,,Y,N,N,N,Y,Y- State Guard logo at left of plate.,N,N
+,State of American Music,,,,Y,N,N,N,Y,N,N,N
+,State Parks,,,,Y,N,N,N,Y,N,N,N
+,State University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Submarine Veteran,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,"Y - Military awards, Veteran and Campaigns appear on plate.",N,N
+,Support our Troops,,,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Tennessee Tech,2003-2017,Since 2018,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Temporary,,,,Y,N,N,N,Y,Y - preprinted or electronic printed paper tags. Do not accept hand written tags.,N,N
+,Temporary Trailer,,,,Y,N,N,N,Y,Y - preprinted or electronic printed paper tags. Do not accept hand written tags.,N,N
+,Titans,2003-2017,Since 2018,,Y,N,N,N,Y,Y- Team logo at left of plate.,N,N
+,Trailer,2000-2005,2006-2011,2012-2019,Y,N,N,N,Y,N,N,N
+,Trailer,Since 2020,"""E"" Class",,Y,N,N,N,Y,N,N,N
+,Trevecca University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Tusculum University,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Union University,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+,University of Arkansas,Pressed Type I,Pressed Type II,Flat,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,University of Florida,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,University of Kentucky,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,University of Memphis,2003-2017,Since 2018,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,University of Tennessee-Knoxville,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,University of Tennessee,Pressed,Flat,UT Hlth Sci Ctr,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,US Coast Guard Auxiliary,,,,Y,N,N,N,Y,Y- Coast Guard logo at left of plate.,N,N
+,USTA,,,,Y,N,N,N,Y,Y - Visible logo/name  appear on tag,N,N
+,UT Chattanooga,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,UT Knoxville Collegiate,,,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,UT Lady Vols,,,,Y,N,N,N,Y,Y- School logo at left of plate; '8 Time National Champions' at bottom.,N,N
+,UT Martin,,,,Y,N,N,N,Y,Y - Visible college logo/name  appear on tag,N,N
+,Vanderbilt Children's Hospital,2004-2016,Since 2017,,Y,N,N,N,Y,Y- Organization logo at left of plate.,N,N
+,Vanderbilt University,2012-2013,Since 2014,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Vehicle Prep Service,2006-2008,2009-2019,Since 2020,Y,N,N,N,Y,N,N,N
+,Vietnam Era Veteran,,,,Y,N,N,N,Y,Y- American flag in center of plate.,N,N
+,Vietnam Veteran,1996-2017,Since 2018,,Y,N,N,N,Y,N,N,N
+,Virginia Tech University,,,,Y,N,N,N,Y,Y- School logo at left of plate; 'GO HOKIES' at bottom.,N,N
+,Volunteer for Wildlife,Bear Icon,Turkey Icon,,Y,N,N,N,Y,Y- Animal logo at left of plate.,N,N
+,Walking Horse,Pressed,Flat,,Y,N,N,N,Y,Y- Prancing Horse logo at left of plate.,N,N
+,Watchable Wildlife,1996-2000,2001 Pressed,2001 Flat,Y,N,N,N,Y,Y- Bird logo at left of plate.,N,N
+,Wesleyan University,Pressed,Flat,,Y,N,N,N,Y,Y- School logo at left of plate.,N,N
+,Wildlife,Deer,Hummingbird,,Y,N,N,N,Y,Y- Animal logo at left of plate.,N,N
+,Women Veteran,,,,Y,N,N,Y - Vertical characters must be verified as seen.,Y,Y - Women Veteran appears across bottom of plate. Plate starts with WV.,N,N
+,WWII Era Veteran,,,,Y,N,N,N,Y,Y- American flag in center of plate.,N,N
+,Youth Villages,,,,Y,N,N,N,Y,Y- Kite logo at left of plate.,N,N
+,Zeta Phi Beta Sorority,,,,Y,N,N,N,Y,Y- Sorority logo at left of plate.,N,N
+,,,,,,,,,,,,
