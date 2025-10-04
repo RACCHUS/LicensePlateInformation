@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - research historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: Allows the letter O and the number 0. Key verticals as seen.",
       "stacked_characters": {
         "include": [],
         "omit": [],
@@ -2467,7 +2467,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Gold Star Family"
+        "notes": "Generated from Kaggle dataset for Gold Star Family",
+        "character_modifications": "Y - Key verticals as seen."
       },
       "date_ranges": {
         "period_1": null,
@@ -5534,6 +5535,1110 @@
       "visual_identifier": "N",
       "processing_rules": "N",
       "requires_prefix": false
+    },
+    {
+      "type_name": "Ambulance",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia Ambulance plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Antique",
+      "code_number": "0",
+      "category": "antique",
+      "description": "West Virginia Antique plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Apportioned plate",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "West Virginia Apportioned plate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y - Semi Tractor",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Authority / Police",
+      "code_number": "0",
+      "category": "government",
+      "description": "West Virginia Authority / Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Authority Motorcycle/Police",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "West Virginia Authority Motorcycle/Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Bus",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Camper",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "West Virginia Camper plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "City",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia City plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "City Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "West Virginia City Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Collegiate",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "West Virginia Collegiate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Commercial /  B-Class",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "West Virginia Commercial /  B-Class plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Key verticals as seen.",
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dealer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "West Virginia Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dealer Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "West Virginia Dealer Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "West Virginia Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Key verticals as seen.",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y- The red V for veterans appears on plate. Do Not Key.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Farm",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia Farm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Fire Department",
+      "code_number": "0",
+      "category": "government",
+      "description": "West Virginia Fire Department plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y - Wheel Chair appears on the left side of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "West Virginia Handicapped Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Commercial plate",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "West Virginia Initial Commercial plate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Disabled Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "West Virginia Initial Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Handicapped",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia Initial Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "West Virginia Initial Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "West Virginia Initial Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Regular Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "West Virginia Initial Regular Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Veteran Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "West Virginia Initial Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Livery",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia Livery plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Manufacturer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "West Virginia Manufacturer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "West Virginia Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "National Guard",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "New& Used Dealer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "West Virginia New& Used Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "West Virginia Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y- \"Wild, Wonderful\" at bottom, State outline as separator",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Purple heart",
+      "code_number": "0",
+      "category": "military",
+      "description": "West Virginia Purple heart plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Key verticals as seen.",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y - Purple Heart logo appears on the plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Regular Veteran Plate",
+      "code_number": "0",
+      "category": "military",
+      "description": "West Virginia Regular Veteran Plate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Key verticals as seen.",
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "School Bus",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia School Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Semi Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "West Virginia Semi Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Sheriff",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia Sheriff plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia State plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "West Virginia State motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Taxi",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia Taxi plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Temporary",
+      "code_number": "0",
+      "category": "temporary",
+      "description": "West Virginia Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "West Virginia Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Key verticals as seen.",
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y - Permanent Trailer appears across the bottom of the plate.",
+        "vehicle_type_identification": "Y - Semi Trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "West Virginia Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Truck Heavy",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "West Virginia Truck Heavy plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Veteran Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "West Virginia Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Speciality",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia Speciality plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Key verticals as seen.",
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Speciality",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "West Virginia Speciality plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Key verticals as seen.",
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
     }
   ],
   "uses_zero_for_o": false,

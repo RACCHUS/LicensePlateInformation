@@ -1,0 +1,1151 @@
+{
+  "state": "Delaware",
+  "abbreviation": "DE",
+  "character_rules": {
+    "uses_zero_for_o": false,
+    "letter_restrictions": [],
+    "font_changes": null,
+    "code_system": null,
+    "special_notes": [
+      "Full rules: Vertical characters are keyed as seen. The letter O is verified as a letter."
+    ]
+  },
+  "stacked_character_rules": {
+    "omit": [],
+    "include": [],
+    "position": "Varies by plate type",
+    "prefix_rules": null,
+    "notes": "Extracted from 0 plate types with character modifications"
+  },
+  "plate_types": [
+    {
+      "type_name": "Ambulance",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware Ambulance plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Antique",
+      "code_number": "0",
+      "category": "antique",
+      "description": "Delaware Antique plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Apportioned plate",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Delaware Apportioned plate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y- The Registration begins with the letters CL.",
+        "vehicle_type_identification": "Y - Semi Truck/Trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Authority / Police",
+      "code_number": "0",
+      "category": "government",
+      "description": "Delaware Authority / Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Authority Motorcycle/Police",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Delaware Authority Motorcycle/Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Bus",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Camper",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Delaware Camper plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y - The registraion begins with the letters RV.",
+        "vehicle_type_identification": "Y- RV / Camper",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "City",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware City plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "City Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Delaware City Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Collegiate",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Delaware Collegiate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Commercial",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Delaware Commercial plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y- The Registration begins with the letters C.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dealer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Delaware Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dealer Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Delaware Dealer Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Delaware Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Farm",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware Farm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Fire Department",
+      "code_number": "0",
+      "category": "government",
+      "description": "Delaware Fire Department plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y- Wheel chair logo on Left and the registration begin with HP.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Delaware Handicapped Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Commercial plate",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Delaware Initial Commercial plate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Disabled Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Delaware Initial Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Handicapped",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware Initial Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Delaware Initial Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Delaware Initial Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Regular Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Delaware Initial Regular Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Veteran Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Delaware Initial Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Livery",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware Livery plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Manufacturer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Delaware Manufacturer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Delaware Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y - Vertical MC on left.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "National Guard",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y - National Guard logo on the left and begins with vertical NG.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "New& Used Dealer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Delaware New& Used Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Delaware Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y-\"The First State\" at the top of the plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Purple heart",
+      "code_number": "0",
+      "category": "military",
+      "description": "Delaware Purple heart plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": "Y - Purple Heart appears on the left and verticals begin with PH.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Regular Veteran Plate",
+      "code_number": "0",
+      "category": "military",
+      "description": "Delaware Regular Veteran Plate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "School Bus",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware School Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Semi Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Delaware Semi Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Sheriff",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware Sheriff plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware State plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Delaware State motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Taxi",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware Taxi plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Temporary",
+      "code_number": "0",
+      "category": "temporary",
+      "description": "Delaware Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Delaware Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Delaware Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Truck Heavy",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Delaware Truck Heavy plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Veteran Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Delaware Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Wild Rivers",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware Wild Rivers plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Specialty",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware Specialty plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Centennial",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Delaware Centennial plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": false,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    }
+  ],
+  "total_count": 47
+}

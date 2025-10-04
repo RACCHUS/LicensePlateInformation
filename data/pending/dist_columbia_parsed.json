@@ -1,0 +1,1200 @@
+{
+  "state": "Dist Columbia",
+  "abbreviation": "DC",
+  "character_rules": {
+    "uses_zero_for_o": false,
+    "letter_restrictions": [],
+    "font_changes": null,
+    "code_system": null,
+    "special_notes": []
+  },
+  "stacked_character_rules": {
+    "omit": [],
+    "include": [],
+    "position": "Y - Verifiy Verticals as seen",
+    "prefix_rules": null,
+    "notes": "Extracted from 17 plate types with character modifications"
+  },
+  "plate_types": [
+    {
+      "type_name": "Ambulance",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia Ambulance plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y-Ambulance",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Antique / Historic Motor Vehicle",
+      "code_number": "0",
+      "category": "antique",
+      "description": "Dist Columbia Antique / Historic Motor Vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Displays the vertical HMV. Displyas the words Historic Motor Vehicle",
+        "vehicle_type_identification": "Y - Displayed on an older vehicle.",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Apportioned plate",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Dist Columbia Apportioned plate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - It will began with the letter \"C\"",
+        "vehicle_type_identification": "Y - It will be on the front of a Semi Cab",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Authority / Police",
+      "code_number": "0",
+      "category": "government",
+      "description": "Dist Columbia Authority / Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Authority Motorcycle/Police",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Dist Columbia Authority Motorcycle/Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Bus",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Camper",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Dist Columbia Camper plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "City",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia City plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "City Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Dist Columbia City Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Collegiate",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Dist Columbia Collegiate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Commercial",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Dist Columbia Commercial plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - The yellow plate will be on the cab and the green plate will be on the trailer.",
+        "vehicle_type_identification": "Y - The yellow plate will be on the cab and the green plate will be on the trailer.",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Special Cab Permit",
+          "Special Trailer Permit"
+        ]
+      }
+    },
+    {
+      "type_name": "Dealer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Dist Columbia Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Dealer appears across the bottem and begins with DLR.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dealer Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Dist Columbia Dealer Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Dist Columbia Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Disabled American Veteran appears across the bottem and it begins the DAV.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Farm",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia Farm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Fire Department",
+      "code_number": "0",
+      "category": "government",
+      "description": "Dist Columbia Fire Department plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Wheel Chair symbol appears on the plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Dist Columbia Handicapped Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Commercial plate",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Dist Columbia Initial Commercial plate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Disabled Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Dist Columbia Initial Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Handicapped",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia Initial Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Dist Columbia Initial Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Any plate that relates a message is considerred personalized/Initial.",
+        "vehicle_type_identification": "Y - Vehicle will be a motorcycle.",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Dist Columbia Initial Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Any plate that relates a message is considerred personalized/Initial.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Regular Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Dist Columbia Initial Regular Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Initial Veteran Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Dist Columbia Initial Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Livery",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia Livery plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Manufacturer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Dist Columbia Manufacturer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Dist Columbia Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y - Vehicle will be a motorcycle.",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "National Guard",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "New& Used Dealer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Dist Columbia New& Used Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Dist Columbia Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-\"Taxation without Representation\" at bottom of the plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Dist Columbia Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Purple heart",
+      "code_number": "0",
+      "category": "military",
+      "description": "Dist Columbia Purple heart plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Regular Veteran Plate",
+      "code_number": "0",
+      "category": "military",
+      "description": "Dist Columbia Regular Veteran Plate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - US and DC flags icons appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "School Bus",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia School Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Semi Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Dist Columbia Semi Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Sheriff",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia Sheriff plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia State plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Dist Columbia State motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Taxi",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia Taxi plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Temporary",
+      "code_number": "0",
+      "category": "temporary",
+      "description": "Dist Columbia Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Dist Columbia Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Dist Columbia Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Truck Heavy",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Dist Columbia Truck Heavy plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Veteran Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Dist Columbia Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Specialty",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia Specialty plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Specialty",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia Specialty plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Specialty",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia Specialty plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Specialty",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Dist Columbia Specialty plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": true,
+        "requires_suffix": true,
+        "character_modifications": "Y - Verifiy Verticals as seen",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    }
+  ],
+  "total_count": 49
+}

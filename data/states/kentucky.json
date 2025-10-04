@@ -11,17 +11,19 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "O only on personalized plates; standard uses 0",
+      "character_restrictions": "O only on personalized plates; standard uses 0; Full rules: Systematically the letter O is only accepted on personalized plates. Any number zero 0 on personalized plates is defaulted to the letter O. * NOTE :  Vertical characters must be entered when present. Verticals are not unique to plate designs.  Silkscreen plate production begins in 2021.",
       "stacked_characters": {
-        "include": [],
+        "include": [
+          "YEARLY"
+        ],
         "omit": [],
-        "position": "INCLUDE all stacked characters throughout. Year prefix '22' required for paper tags.",
+        "position": "Y - Stacked Characters must be entered as seen.",
         "max_characters": null,
         "prefix_rules": {
           "22": "Include year prefix for paper tags"
         },
         "symbols_allowed": true,
-        "notes": "Include all stacked characters. Year prefix 22 is required for paper tags."
+        "notes": "Include all stacked characters. Year prefix 22 is required for paper tags.; Extracted from 7 plate types with character modifications"
       }
     }
   },
@@ -1146,7 +1148,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Bobcat"
+        "notes": "Generated from Kaggle dataset for Bobcat",
+        "visual_identifier": "Y- 'Nature's Finest' at bottom of the plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -1296,7 +1299,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Bronze Star"
+        "notes": "Generated from Kaggle dataset for Bronze Star",
+        "visual_identifier": "Y- Medal logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -1746,7 +1750,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Civil Air Patrol"
+        "notes": "Generated from Kaggle dataset for Civil Air Patrol",
+        "visual_identifier": "Y- Propeller Triangle logo on plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2096,7 +2101,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Crusade for Children"
+        "notes": "Generated from Kaggle dataset for Crusade for Children",
+        "visual_identifier": "Y - 'WHASCRUSADE.ORG' appears across bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2796,7 +2802,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Emergency Management"
+        "notes": "Generated from Kaggle dataset for Emergency Management",
+        "visual_identifier": "Y - State logo appears on left. EM appears in State logo."
       },
       "date_ranges": {
         "period_1": null,
@@ -2996,7 +3003,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Friends of Coal"
+        "notes": "Generated from Kaggle dataset for Friends of Coal",
+        "visual_identifier": "Y- Logo at left of plate; 'Coal Keeps the Lights On!' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -3846,7 +3854,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Horse Council"
+        "notes": "Generated from Kaggle dataset for Horse Council",
+        "visual_identifier": "Y- Horse icon on plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4046,7 +4055,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Judiciary"
+        "notes": "Generated from Kaggle dataset for Judiciary",
+        "visual_identifier": "Y - Judiciary appears across bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4746,7 +4756,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Limited"
+        "notes": "Generated from Kaggle dataset for Limited",
+        "visual_identifier": "Y - Weight Limit appears across bottom of plate; 'LIMITED' across top."
       },
       "date_ranges": {
         "period_1": null,
@@ -4846,7 +4857,9 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Linemen"
+        "notes": "Generated from Kaggle dataset for Linemen",
+        "character_modifications": "Y - Stacked Characters must be entered as seen.",
+        "visual_identifier": "Y-Organizational logo or design on left side of plate; 'Power for your Community' on bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -4946,7 +4959,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Louisville Zoo"
+        "notes": "Generated from Kaggle dataset for Louisville Zoo",
+        "visual_identifier": "Y- 'GO WILD! SUPPORT OUR ZOO' at bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -5146,7 +5160,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Masonic Order"
+        "notes": "Generated from Kaggle dataset for Masonic Order",
+        "visual_identifier": "Y- Freemason icon at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -5596,7 +5611,9 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for National Guard"
+        "notes": "Generated from Kaggle dataset for National Guard",
+        "character_modifications": "Y - Stacked Characters must be entered as seen.",
+        "visual_identifier": "Y - Militiaman Logo. National Guard appears across bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6096,7 +6113,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Official"
+        "notes": "Generated from Kaggle dataset for Official",
+        "visual_identifier": "Y - Official appears across bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6846,7 +6864,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Small Mouth Bass"
+        "notes": "Generated from Kaggle dataset for Small Mouth Bass",
+        "visual_identifier": "Y- 'Home of the WORLD RECORD SMALLMOUTH BASS' on the bottom of the plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7196,7 +7215,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for State Senator"
+        "notes": "Generated from Kaggle dataset for State Senator",
+        "visual_identifier": "Y - State Senator appears across bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7246,7 +7266,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Street Rod"
+        "notes": "Generated from Kaggle dataset for Street Rod",
+        "visual_identifier": "Y- Street Rod appears across bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7496,7 +7517,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Travel Trailer"
+        "notes": "Generated from Kaggle dataset for Travel Trailer",
+        "visual_identifier": "Y - Travel trailer appears across bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7546,7 +7568,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Truck Trailer"
+        "notes": "Generated from Kaggle dataset for Truck Trailer",
+        "visual_identifier": "Y - Truck Trailer appears across bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7813,6 +7836,2783 @@
       "visual_identifier": "N",
       "processing_rules": "N",
       "requires_prefix": false
+    },
+    {
+      "type_name": "200th Anniversary (Univ of Louisville)",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky 200th Anniversary (Univ of Louisville) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Torch logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Air Force Veteran Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Kentucky Air Force Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Standard",
+          "Theater"
+        ]
+      }
+    },
+    {
+      "type_name": "Alice Lloyd College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Alice Lloyd College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- College logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Apportioned",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Kentucky Apportioned plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Apportioned appears across bottom of plate.",
+        "vehicle_type_identification": "Y-vehicle will be a semi truck.",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1987-2010",
+          "2011-2021",
+          "Since 2022"
+        ]
+      }
+    },
+    {
+      "type_name": "Army Veteran Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Kentucky Army Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Standard",
+          "Theater"
+        ]
+      }
+    },
+    {
+      "type_name": "Asbury College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Asbury College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- College logo at left of plate; 'ASBURY.EDU' at bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1999-2020"
+        ]
+      }
+    },
+    {
+      "type_name": "Bardstown Community",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Bardstown Community plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'BOURBON CAPITAL OF THE WORLD' at bottom of the plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Be Kind",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Be Kind plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'BE THE DIFFERENCE' at bottom of the plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Bellarmine University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Bellarmine University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- College logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2008-2017",
+          "2018-2020",
+          "Since 2021"
+        ]
+      }
+    },
+    {
+      "type_name": "Berea College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Berea College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- College logo at left of plate; 'Investing in Lives of Great Promise' at bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Birthplace of Lincoln",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Birthplace of Lincoln plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Brescia University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Brescia University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- College logo at left of plate; 'OWENSBORO, KENTUCKY' at bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Bus",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - BUS appears across bottom of plate.",
+        "vehicle_type_identification": "Y - Bus",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Camper Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Kentucky Camper Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1976-2007",
+          "2008-2021",
+          "Since 2022"
+        ]
+      }
+    },
+    {
+      "type_name": "Centre College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Centre College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- College logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1999-2007",
+          "Since 2008"
+        ]
+      }
+    },
+    {
+      "type_name": "Children's Hospital",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Children's Hospital plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'Norton CHILDREN'S Hospital' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Chiropractic Association",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Chiropractic Association plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'GO GREEN WITH CHIROPRACTIC' appears across bottom of plate; Association Hands icon at left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Christian University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Christian University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- College logo at left of plate; 'Kentucky Christian University' at bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Colon Cancer Prevention",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Colon Cancer Prevention plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'GET SCREENED!' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Colonel",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Colonel plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Congress",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Congress plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "County",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky County plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Stacked Characters must be entered as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Plate ends with vertical CY. State logo appears on left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Court of Appeals",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Court of Appeals plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Cumberland College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Cumberland College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- College logo at left of plate; 'KENTUCKY Independent Higher Education' at top.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Cumberland Falls",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Cumberland Falls plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007",
+          "Since 2008"
+        ]
+      }
+    },
+    {
+      "type_name": "Cure Breast Cancer",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Cure Breast Cancer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'Driving for a Cure' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2008-2020",
+          "Since 2021"
+        ]
+      }
+    },
+    {
+      "type_name": "Dental Association",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Dental Association plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'A Lifetime of Oral Health' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Disabled Former POW",
+      "code_number": "0",
+      "category": "military",
+      "description": "Kentucky Disabled Former POW plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Kentucky Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1990-2003",
+          "2004- 2006",
+          "2007- 2020"
+        ]
+      }
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Kentucky Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Since2021"
+        ]
+      }
+    },
+    {
+      "type_name": "Disaster Emergency",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Disaster Emergency plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Donate Life",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Donate Life plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dragonfly",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Dragonfly plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2005- 2007",
+          "Since 2008"
+        ]
+      }
+    },
+    {
+      "type_name": "Drive A Way",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Drive A Way plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Plate starts with DW.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Eastern Kentucky University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Eastern Kentucky University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1999- 2007",
+          "2008",
+          "Since 2009"
+        ]
+      }
+    },
+    {
+      "type_name": "End Alzheimer's",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky End Alzheimer's plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2015-2020",
+          "Since 2021"
+        ]
+      }
+    },
+    {
+      "type_name": "Extended Weight",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Extended Weight plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Farm Foundation",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Farm Foundation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Stacked Characters must be entered as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - FARM appears across bottom of plate. FFA and 4-H logos also on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1999- 2007",
+          "2008- 2002",
+          "2003- 2020"
+        ]
+      }
+    },
+    {
+      "type_name": "Farm Foundation",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Farm Foundation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Stacked Characters must be entered as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - FARM appears across bottom of plate. FFA and 4-H logos also on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Since 2021"
+        ]
+      }
+    },
+    {
+      "type_name": "Firefighters",
+      "code_number": "0",
+      "category": "government",
+      "description": "Kentucky Firefighters plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2008-2014",
+          "Since 2015"
+        ]
+      }
+    },
+    {
+      "type_name": "Former POW",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Former POW plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Friends of Coal Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Kentucky Friends of Coal Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Logo at left of plate; 'Coal Keeps the Lights On!' at bottom.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2020",
+          "Since 2021"
+        ]
+      }
+    },
+    {
+      "type_name": "Georgetown College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Georgetown College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- College logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1999-2005",
+          "2006-2007",
+          "Since 2008"
+        ]
+      }
+    },
+    {
+      "type_name": "Governor",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Governor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped Parking",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Handicapped Parking plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'PARKING' at bottom of plate; Wheelchair logo at left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1990-2002",
+          "2003-2004",
+          "Since 2005"
+        ]
+      }
+    },
+    {
+      "type_name": "Handicapped",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- County at bottom of plate; Wheelchair logo at left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2005-2019",
+          "Since 2020"
+        ]
+      }
+    },
+    {
+      "type_name": "Handicapped Vet",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Handicapped Vet plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1982-1989",
+          "Since 1990"
+        ]
+      }
+    },
+    {
+      "type_name": "Heavy Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Kentucky Heavy Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Highway Department",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Highway Department plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Historic Motor Vehicle",
+      "code_number": "0",
+      "category": "antique",
+      "description": "Kentucky Historic Motor Vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1990-2019",
+          "Since 2020",
+          "Black"
+        ]
+      }
+    },
+    {
+      "type_name": "Historic Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Kentucky Historic Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'HISTORIC MOTOR VEH' at bottom of plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "House Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Kentucky House Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Hummingbird",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Hummingbird plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "I Support Veterans Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Kentucky I Support Veterans Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2001-2020",
+          "Since 2021"
+        ]
+      }
+    },
+    {
+      "type_name": "Keeneland",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Keeneland plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'Investing in racing's future since 1936' appears across bottom of plate; Racing horse icon at left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Keep Foundation",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Keep Foundation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'www.HORSESWORK.com' appears across bottom of plate; Horse icon at left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2015-2020",
+          "Since 2021"
+        ]
+      }
+    },
+    {
+      "type_name": "Kentucky CASA Network",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Kentucky CASA Network plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'ADVOCATES FOR KIDS' appears across bottom of plate; CASA icon at left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Kentucky Nurses Foundation",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Kentucky Nurses Foundation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'HONOR KENTUCKY NURSES' appears across bottom of plate; Foundation icon at left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Kentucky State University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Kentucky State University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- College logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Kentucky COPS",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Kentucky COPS plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Kentucky C.O.P.S. at bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Kentucky COPS Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Kentucky Kentucky COPS Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Kentucky C.O.P.S. at bottom of plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Kentucky Fallen Officer's Trust",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Kentucky Fallen Officer's Trust plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2005-2007",
+          "Since 2008"
+        ]
+      }
+    },
+    {
+      "type_name": "Kentucky Fallen Officer's Trust Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Kentucky Kentucky Fallen Officer's Trust Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Kentucky Law Enforcement Memorial Foundation",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Kentucky Law Enforcement Memorial Foundation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2005-2020",
+          "Since 2021"
+        ]
+      }
+    },
+    {
+      "type_name": "Library Association",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Library Association plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Lindsey Wilson College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Lindsey Wilson College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2009",
+          "Since 2010"
+        ]
+      }
+    },
+    {
+      "type_name": "Marine Veteran Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Kentucky Marine Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Midway College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Midway College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Military Reserve",
+      "code_number": "0",
+      "category": "military",
+      "description": "Kentucky Military Reserve plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Military Reserve appears across bottom o plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Morehead State University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Morehead State University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1999-2007",
+          "2008-2011",
+          "Since 2012"
+        ]
+      }
+    },
+    {
+      "type_name": "Motorcycle Dealer",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Kentucky Motorcycle Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1986- 1999",
+          "2000- 2003",
+          "Since 2004"
+        ]
+      }
+    },
+    {
+      "type_name": "Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Kentucky Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. Motorcycle appears across bottom of plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1999- 2003",
+          "2004- 2019",
+          "Since 2020"
+        ]
+      }
+    },
+    {
+      "type_name": "Murray State University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Murray State University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1989- 2020",
+          "Since 2020"
+        ]
+      }
+    },
+    {
+      "type_name": "National Guard Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Kentucky National Guard Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size; Militiaman Logo; Motorcycle appears across bottom of plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Navy Veteran Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Kentucky Navy Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Northern Kentucky University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Northern Kentucky University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2001-2007",
+          "2008-2019",
+          "2020"
+        ]
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Kentucky Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2003-2004",
+          "2005-2007",
+          "2008-2019"
+        ]
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Kentucky Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2020-2021",
+          "Since 2022"
+        ]
+      }
+    },
+    {
+      "type_name": "Passenger (Optional in God We Trust Series)",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Kentucky Passenger (Optional in God We Trust Series) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'In God We Trust' on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2011-2019",
+          "2020-2021",
+          "Since 2022"
+        ]
+      }
+    },
+    {
+      "type_name": "Passenger (Optional Bluegrass State Series)",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Kentucky Passenger (Optional Bluegrass State Series) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Pearl Harbor Survivor",
+      "code_number": "0",
+      "category": "military",
+      "description": "Kentucky Pearl Harbor Survivor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Permanent Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Kentucky Permanent Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Pikeville College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Pikeville College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1999-2008",
+          "2009-2020"
+        ]
+      }
+    },
+    {
+      "type_name": "Promoting Wildlife (Quail)",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Promoting Wildlife (Quail) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Purple Heart Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Kentucky Purple Heart Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Stacked Characters must be entered as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Combat wounded appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1989-1999",
+          "2000-2007",
+          "2008-2020"
+        ]
+      }
+    },
+    {
+      "type_name": "Share the Road",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Share the Road plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Spalding University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Spalding University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Spay or Neuter your Pets",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Spay or Neuter your Pets plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2003-2005",
+          "Since 2006"
+        ]
+      }
+    },
+    {
+      "type_name": "Sportsmen",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Sportsmen plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2001-2020",
+          "Since 2021"
+        ]
+      }
+    },
+    {
+      "type_name": "State Police",
+      "code_number": "0",
+      "category": "government",
+      "description": "Kentucky State Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - State Police logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1983-2007",
+          "Since 2008"
+        ]
+      }
+    },
+    {
+      "type_name": "Supreme Court",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Supreme Court plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'SUPREME COURT' appears across bottom of plate; Registration starts with 'JSC'.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1977",
+          "Since 1978"
+        ]
+      }
+    },
+    {
+      "type_name": "Taxi",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Taxi plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1977-2008",
+          "Since 2009"
+        ]
+      }
+    },
+    {
+      "type_name": "Temporary",
+      "code_number": "0",
+      "category": "temporary",
+      "description": "Kentucky Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y- As of Sept. 01,2024 add yearly prefix in front of registration.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2005-2018",
+          "Since 2019"
+        ]
+      }
+    },
+    {
+      "type_name": "Thomas More College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Thomas More College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2014-2021",
+          "Since 2022"
+        ]
+      }
+    },
+    {
+      "type_name": "Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Kentucky Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Trailer appears across bottom of plate.",
+        "vehicle_type_identification": "Y - Trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Transportation",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Transportation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Transylvainia University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Transylvainia University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2002-2007",
+          "2008-2020"
+        ]
+      }
+    },
+    {
+      "type_name": "Truck (Light)",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Kentucky Truck (Light) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Weight class appear across bottom of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Kentucky Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Weight class appear across bottom of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1995-2004",
+          "2005-2020",
+          "Since 2021"
+        ]
+      }
+    },
+    {
+      "type_name": "Union College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Union College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2008-2013",
+          "2014-2020"
+        ]
+      }
+    },
+    {
+      "type_name": "University of Louisville",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky University of Louisville plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1989-2002",
+          "2003-2007",
+          "2008-2018"
+        ]
+      }
+    },
+    {
+      "type_name": "University of Louisville",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky University of Louisville plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2019-2020",
+          "Since 2021"
+        ]
+      }
+    },
+    {
+      "type_name": "University of Kentucky",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky University of Kentucky plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2001-2002",
+          "2003-2007",
+          "Since 2008"
+        ]
+      }
+    },
+    {
+      "type_name": "Utility Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Kentucky Utility Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2000-2008",
+          "Since 2009"
+        ]
+      }
+    },
+    {
+      "type_name": "Volunteer Firefighter",
+      "code_number": "0",
+      "category": "government",
+      "description": "Kentucky Volunteer Firefighter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Volunteer Firefighter appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Prior to 2000",
+          "Since 2000"
+        ]
+      }
+    },
+    {
+      "type_name": "Warbler",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Kentucky Warbler plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'Nature's Finest' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Wesleyan College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Wesleyan College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2008-2015",
+          "Since 2016"
+        ]
+      }
+    },
+    {
+      "type_name": "Western Kentucky University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Kentucky Western Kentucky University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2008-2019",
+          "2020",
+          "Since 2021"
+        ]
+      }
     }
   ],
   "uses_zero_for_o": true,

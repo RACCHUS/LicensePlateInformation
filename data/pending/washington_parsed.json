@@ -1,0 +1,22 @@
+{
+  "state": "Washington",
+  "abbreviation": "WA",
+  "character_rules": {
+    "uses_zero_for_o": false,
+    "letter_restrictions": [],
+    "font_changes": null,
+    "code_system": null,
+    "special_notes": [
+      "Full rules: 123-ABC Pattern (1987 - 2010)     ABC1234 Pattern (2010 - Present)"
+    ]
+  },
+  "stacked_character_rules": {
+    "omit": [],
+    "include": [],
+    "position": "Varies by plate type",
+    "prefix_rules": null,
+    "notes": "Extracted from 0 plate types with character modifications"
+  },
+  "plate_types": [],
+  "total_count": 0
+}

@@ -1,0 +1,23 @@
+{
+  "state": "Wyoming",
+  "abbreviation": "WY",
+  "character_rules": {
+    "uses_zero_for_o": true,
+    "letter_restrictions": [],
+    "font_changes": null,
+    "code_system": null,
+    "special_notes": [
+      "State does not use letter 'O', only number '0'",
+      "Full rules: Wyoming does not user the letter O in the regisgration. Uses a 2 digit county code. If a single digit is seen to the left of the hourse icon, add a zero to the front. Key all verticals and letters as seen. Do not key diagonals."
+    ]
+  },
+  "stacked_character_rules": {
+    "omit": [],
+    "include": [],
+    "position": "Varies by plate type",
+    "prefix_rules": null,
+    "notes": "Extracted from 0 plate types with character modifications"
+  },
+  "plate_types": [],
+  "total_count": 0
+}

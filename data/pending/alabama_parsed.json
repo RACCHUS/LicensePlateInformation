@@ -1,0 +1,2421 @@
+{
+  "state": "Alabama",
+  "abbreviation": "AL",
+  "character_rules": {
+    "uses_zero_for_o": false,
+    "letter_restrictions": [],
+    "font_changes": null,
+    "code_system": null,
+    "special_notes": [
+      "Full rules: Does not allow the use of the letter \"O\". The number \"0\" must always be used. Vertical characters must be entered as seen. Do not key 3 character verticals. On the currect standard plates, the registration begins with a 1 or 2 number county code. "
+    ]
+  },
+  "stacked_character_rules": {
+    "omit": [],
+    "include": [],
+    "position": "Y-Verify vertical characters as seen.",
+    "prefix_rules": null,
+    "notes": "Extracted from 13 plate types with character modifications"
+  },
+  "plate_types": [
+    {
+      "type_name": "Antique",
+      "code_number": "0",
+      "category": "antique",
+      "description": "Alabama Antique plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Vintage Vehicle appears on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Bicentennial",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Bicentennial plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "A & M University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Alabama A & M University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1998-2006",
+          "Since 2007",
+          "1998-2006 Personalized"
+        ]
+      }
+    },
+    {
+      "type_name": "A & M University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Alabama A & M University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Since 2007 Personalized"
+        ]
+      }
+    },
+    {
+      "type_name": "Active Reserve",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Alabama Active Reserve plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2001-2008",
+          "2009-2013",
+          "Since 2014"
+        ]
+      }
+    },
+    {
+      "type_name": "Amateur Radio",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Amateur Radio plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Radio antenna appears on left or right of plate. Amateur Radio appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1998-2007",
+          "2008-2019",
+          "2020-2021"
+        ]
+      }
+    },
+    {
+      "type_name": "Amateur Radio",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Amateur Radio plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Radio antenna appears on left or right of plate. Amateur Radio appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Since 2022"
+        ]
+      }
+    },
+    {
+      "type_name": "Ambulance",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Ambulance plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - K# stacked series appears on 2007 plate.  \"AMBULANCE' appears on bottom after 2013",
+        "vehicle_type_identification": "Y - Vehicle will be an Ambulance",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "2013-2021",
+          "Since 2022"
+        ]
+      }
+    },
+    {
+      "type_name": "Apportioned",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Alabama Apportioned plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Apportioned appears across the bottom of plate.",
+        "vehicle_type_identification": "Y - Vehicle will be a Semi-Tractor Trailer.",
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1993-2003",
+          "2004-2011",
+          "2012-2016"
+        ]
+      }
+    },
+    {
+      "type_name": "Apportioned",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Alabama Apportioned plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Apportioned appears across the bottom of plate.",
+        "vehicle_type_identification": "Y - Vehicle will be a Semi-Tractor Trailer.",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Since 2017"
+        ]
+      }
+    },
+    {
+      "type_name": "Atomic Nuked Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Alabama Atomic Nuked Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'ATOMIC VETERAN/ATOMIC NUKED VETERAN' on bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1998-1999",
+          "2000-2008",
+          "Since 2009"
+        ]
+      }
+    },
+    {
+      "type_name": "Atomic Nuked Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Alabama Atomic Nuked Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'ATOMIC VETERAN/ATOMIC NUKED VETERAN' on bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Disabled"
+        ]
+      }
+    },
+    {
+      "type_name": "Auburn University at Montgomery",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Alabama Auburn University at Montgomery plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'AUBURN UNIVERSITY AT MONTGOMERY' appears on bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Auburn University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Alabama Auburn University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1999-2006",
+          "2007-2009",
+          "2010-2014"
+        ]
+      }
+    },
+    {
+      "type_name": "Auburn University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Alabama Auburn University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2015",
+          "Since 2016"
+        ]
+      }
+    },
+    {
+      "type_name": "Autism Awareness",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Autism Awareness plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'AUTISM-ALABAMA.ORG' appear on bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Barber Vintage Motorsports",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Barber Vintage Motorsports plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2005-2009",
+          "Since 2010"
+        ]
+      }
+    },
+    {
+      "type_name": "Birmingham Southern College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Alabama Birmingham Southern College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2006-2021",
+          "Since 2022"
+        ]
+      }
+    },
+    {
+      "type_name": "Breast Cancer Research Foundation",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Breast Cancer Research Foundation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2013",
+          "Since 2014"
+        ]
+      }
+    },
+    {
+      "type_name": "Bronze Star",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Bronze Star plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'BRONZE STAR MEDAL' across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Camper",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Alabama Camper plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - R# stacked series appears on plate.",
+        "vehicle_type_identification": "Y - Vehicle will be a Camper or a RV.",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Cattlemen Association",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Cattlemen Association plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'STEWARDS OF THE LAND' across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2010",
+          "2011-2013",
+          "Since 2014"
+        ]
+      }
+    },
+    {
+      "type_name": "Children's Trust Fund",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Children's Trust Fund plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Choose Life",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Choose Life plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2009-2012",
+          "2013-2016",
+          "Since 2017"
+        ]
+      }
+    },
+    {
+      "type_name": "City/Municipal",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama City/Municipal plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Ends with MU or PUD. Municipal appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Municipal",
+          "Municipal Disability Access",
+          "Public Utility Department"
+        ]
+      }
+    },
+    {
+      "type_name": "City Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Alabama City Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size.",
+        "vehicle_type_identification": "Y - Vehicle will be a Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Cold War Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Alabama Cold War Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Collegiate",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Alabama Collegiate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Visible college logo/name   appear on tag.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "University of Alabama",
+          "Talladega College",
+          "Alpha Kappa Alpha Sorority"
+        ]
+      }
+    },
+    {
+      "type_name": "Commercial Bus",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Alabama Commercial Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Q# stacked Vertical",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Consular Official",
+      "code_number": "0",
+      "category": "government",
+      "description": "Alabama Consular Official plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'CONSULAR OFFICIAL' at bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Cotton Module",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Cotton Module plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'COTTON MODULE' at bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "County Government",
+      "code_number": "0",
+      "category": "government",
+      "description": "Alabama County Government plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Plate ends with CO. County appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Since 2005",
+          "Disabled"
+        ]
+      }
+    },
+    {
+      "type_name": "County Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Alabama County Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size.",
+        "vehicle_type_identification": "Y - Vehicle will be a Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Curing Childhood Cancer",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Curing Childhood Cancer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2009-2017",
+          "2018-2021",
+          "Since 2022"
+        ]
+      }
+    },
+    {
+      "type_name": "Dealer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Alabama Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Dealer appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dealer Transit",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Alabama Dealer Transit plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Dealer Transit appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Desert Shield/Desert Storm",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Desert Shield/Desert Storm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Desert Shield Desert Storm appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2011",
+          "Since 2012"
+        ]
+      }
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Alabama Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Disabled Veteran appears on plate. On Service plates, Branch of Service appears on bottom of Plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1997-2006",
+          "2007 Service",
+          "2015 Merchant Marine"
+        ]
+      }
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Alabama Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Disabled Veteran appears on plate. On Service plates, Branch of Service appears on left of Plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2015 Air Force",
+          "2015 Army",
+          "2015 Marine"
+        ]
+      }
+    },
+    {
+      "type_name": "Disabled Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Alabama Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Disabled Veteran appears on plate. On Service plates, Branch of Service appears on left of Plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2015 Navy",
+          "2022 Coast Guard",
+          "2022 National Guard"
+        ]
+      }
+    },
+    {
+      "type_name": "Disabled Veteran Wheelchair",
+      "code_number": "0",
+      "category": "military",
+      "description": "Alabama Disabled Veteran Wheelchair plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Disabled Veteran appears on plate. On Service plates, Branch of Service appears on left of Plate. Wheel Chair appears on the plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007",
+          "2015 Air Force",
+          "2015 Army"
+        ]
+      }
+    },
+    {
+      "type_name": "Disabled Veteran Wheelchair",
+      "code_number": "0",
+      "category": "military",
+      "description": "Alabama Disabled Veteran Wheelchair plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Disabled Veteran appears on plate. On Service plates, Branch of Service appears on left of Plate. Wheel Chair appears on the plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2015 Marine",
+          "2015 Vietnam Veteran"
+        ]
+      }
+    },
+    {
+      "type_name": "Don't Tread on Me",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Don't Tread on Me plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'DON'T TREAD ON ME' at bottom of plate, Coiled Snake Symbol on left side of plate..",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2014-2017",
+          "Since 2018"
+        ]
+      }
+    },
+    {
+      "type_name": "Ducks Unlimited",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Ducks Unlimited plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'DUCKS UNLIMITED' at top or bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2010-2014",
+          "Since 2015"
+        ]
+      }
+    },
+    {
+      "type_name": "Educator",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Educator plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'EDUCATOR' at bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2009-2021",
+          "Since 2022"
+        ]
+      }
+    },
+    {
+      "type_name": "Farm",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Farm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - F# series stacked series appears on plate. Farm appears across  bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Farming Feeds",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Farming Feeds plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Faulkner University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Alabama Faulkner University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'FAULKNER UNIVERSITY' at bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Fighting Breast Cancer",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Fighting Breast Cancer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Pink ribbon appears on the plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2006",
+          "2007-2020",
+          "Since 2021"
+        ]
+      }
+    },
+    {
+      "type_name": "Fire Fighter",
+      "code_number": "0",
+      "category": "government",
+      "description": "Alabama Fire Fighter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2005-2014",
+          "Since 2015",
+          "Emergency Medical Services"
+        ]
+      }
+    },
+    {
+      "type_name": "First to the Moon",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama First to the Moon plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-Rocket Ship Icon on left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2010",
+          "Since 20011"
+        ]
+      }
+    },
+    {
+      "type_name": "Fish Alabama",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Fish Alabama plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Since 2007 Personalized",
+          "Since 2017"
+        ]
+      }
+    },
+    {
+      "type_name": "Fleet",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Fleet plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'FLEET' on bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Fleet Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Alabama Fleet Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Fraternal Order of Police",
+      "code_number": "0",
+      "category": "government",
+      "description": "Alabama Fraternal Order of Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "God Bless America",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama God Bless America plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2006-2013",
+          "Since 2014"
+        ]
+      }
+    },
+    {
+      "type_name": "Handicapped",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Wheelchair logo appears on any standard design.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Helping Schools",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Helping Schools plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'HELPING SCHOOLS' on bottom of plate; Apple & Notebook symbol to left or right of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2006-2009",
+          "Since 2010"
+        ]
+      }
+    },
+    {
+      "type_name": "Livestock Trailer tag",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Alabama Livestock Trailer tag plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Plate starts with LSH.",
+        "vehicle_type_identification": "Y - Vehicle will be a Trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Manufacturer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Alabama Manufacturer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Manufacturer appears on bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Medal of Honor",
+      "code_number": "0",
+      "category": "military",
+      "description": "Alabama Medal of Honor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Alabama Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. Any standard or special design available.",
+        "vehicle_type_identification": "Y - Vehicle will be a Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Mobile Bay",
+          "Sweet Home",
+          "Support Education"
+        ]
+      }
+    },
+    {
+      "type_name": "Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Alabama Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. Any standard or special design available.",
+        "vehicle_type_identification": "Y - Vehicle will be a Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Barber Vintage",
+          "Disabled Veteran",
+          "Manufacturer"
+        ]
+      }
+    },
+    {
+      "type_name": "Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Alabama Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. Any standard or special design available.",
+        "vehicle_type_identification": "Y - Vehicle will be a Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Since 2022",
+          "Veteran",
+          "Dealer"
+        ]
+      }
+    },
+    {
+      "type_name": "National Guard",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - National Guard appears across bottom of the plate. Flags appear at bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Ovarian Cancer Research",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Ovarian Cancer Research plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Blue ribbon appears on the plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Alabama Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "January 2022 New Design",
+          "Mobile Bay",
+          "Sweet Home"
+        ]
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Alabama Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Heart of Dixie",
+          "Stars Fell On"
+        ]
+      }
+    },
+    {
+      "type_name": "Pearl Harbor Survivor",
+      "code_number": "0",
+      "category": "military",
+      "description": "Alabama Pearl Harbor Survivor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Permanent Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Alabama Permanent Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y - Tag will be on a trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "POW",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama POW plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Purple heart",
+      "code_number": "0",
+      "category": "military",
+      "description": "Alabama Purple heart plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Combat Wounded  appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Regular Veteran Plate",
+      "code_number": "0",
+      "category": "military",
+      "description": "Alabama Regular Veteran Plate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Campaign  or Branch of Service appear across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Branch of Service",
+          "Campaign"
+        ]
+      }
+    },
+    {
+      "type_name": "Rental Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Alabama Rental Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y - Tag will be on a trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Rescue Squad",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Rescue Squad plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Rescue Squad appears across the bottom of the plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Reserve",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Alabama Reserve plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Active Reserve appears on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Roll Tide",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Roll Tide plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2009-2014",
+          "Since 2015"
+        ]
+      }
+    },
+    {
+      "type_name": "Semi Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Alabama Semi Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - TR stacked series appears on plate.",
+        "vehicle_type_identification": "Y - Vehicle will be a Semi-Trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1998-2004",
+          "Since 2005"
+        ]
+      }
+    },
+    {
+      "type_name": "State motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Alabama State motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - State Government appear across bottom of plate. Smaller plate size.",
+        "vehicle_type_identification": "Y - Vehicle will be a Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama State plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Starts with S or SMP. State Government appear across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "State",
+          "State Disability Access",
+          "State Motor Pool"
+        ]
+      }
+    },
+    {
+      "type_name": "State Defense Force",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama State Defense Force plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - State Defense Force appears on plate. Plate starts with SDF.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State National Guard",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama State National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - National Guard appears across bottom of the plate. Flags appear at bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Taxi",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Alabama Taxi plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Z# stacked series appears on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1993-1999",
+          "Since 2000"
+        ]
+      }
+    },
+    {
+      "type_name": "Temporary",
+      "code_number": "0",
+      "category": "temporary",
+      "description": "Alabama Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Printed paper tags. Do not accept hand written tags.",
+        "vehicle_type_identification": "Y",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Alabama Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - RT or TL stacked series appears on plate.",
+        "vehicle_type_identification": "Y - Vehicle will be a Trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Travel Trailer",
+          "Rental Trailer"
+        ]
+      }
+    },
+    {
+      "type_name": "Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Alabama Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - RT or TL stacked series appears on plate.",
+        "vehicle_type_identification": "Y - Vehicle will be a Trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Stars Fell On",
+          "Sweet Home",
+          "Mobile Bay"
+        ]
+      }
+    },
+    {
+      "type_name": "Truck for Hire",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Alabama Truck for Hire plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-There must be an 'X' in the registration; 'XA' Series is 10,001-12,000 lbs.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1988-2004",
+          "Stars fell On",
+          "2005-2006"
+        ]
+      }
+    },
+    {
+      "type_name": "Truck for Hire",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Alabama Truck for Hire plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-There must be an 'X' in the registration; 'XA' Series is 10,001-12,000 lbs.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Since 2006",
+          "Mobile Bay"
+        ]
+      }
+    },
+    {
+      "type_name": "Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Alabama Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - P1 stacked series is 8,001 -10,000 lbs.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Stars Fell On",
+          "Sweet Home",
+          "Mobile Bay"
+        ]
+      }
+    },
+    {
+      "type_name": "Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Alabama Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - P1 stacked series is 8,001 -10,000 lbs.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Truck/Tractor"
+        ]
+      }
+    },
+    {
+      "type_name": "Utility Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Alabama Utility Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify vertical characters as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - UT stacked series appears on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Stars Fell On",
+          "Sweet Home",
+          "Mobile Bay"
+        ]
+      }
+    },
+    {
+      "type_name": "Volunteer Fire",
+      "code_number": "0",
+      "category": "government",
+      "description": "Alabama Volunteer Fire plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Volunteer Fire Department appears on bottom of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    }
+  ],
+  "total_count": 92
+}

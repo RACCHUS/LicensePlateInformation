@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: Allows both the Letter O and the Number Zero 0. The letter O is rounder than the number zero 0. The number zero 0 cannot be used in place of the letter O on a personalized plate. **All verticals are keyed",
       "stacked_characters": {
         "include": [
           "MH",
@@ -257,7 +257,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Afghanistan Campaign Veteran"
+        "notes": "Generated from Kaggle dataset for Afghanistan Campaign Veteran",
+        "visual_identifier": "Y - Campaign Ribbon appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -407,7 +408,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Bronze Star Medal"
+        "notes": "Generated from Kaggle dataset for Bronze Star Medal",
+        "visual_identifier": "Y - Medal logo appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -557,7 +559,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Disabled Veteran"
+        "notes": "Generated from Kaggle dataset for Disabled Veteran",
+        "visual_identifier": "Y- Registration begins with 'DV'"
       },
       "date_ranges": {
         "period_1": null,
@@ -857,7 +860,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Marine Corps"
+        "notes": "Generated from Kaggle dataset for Marine Corps",
+        "visual_identifier": "Y - 'U S VETERAN' appears across bottom of plate; Diagonals are NOT keyed."
       },
       "date_ranges": {
         "period_1": null,
@@ -907,7 +911,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Merchant Marine Veteran"
+        "notes": "Generated from Kaggle dataset for Merchant Marine Veteran",
+        "visual_identifier": "Y - 'U S VETERAN' appears across bottom of plate; Diagonals are NOT keyed."
       },
       "date_ranges": {
         "period_1": null,
@@ -957,7 +962,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Military Honors"
+        "notes": "Generated from Kaggle dataset for Military Honors",
+        "visual_identifier": "Y - Wheelchair logo. Military Honors appears across bottom of plate. Plate starts with vertical MH."
       },
       "date_ranges": {
         "period_1": null,
@@ -1007,7 +1013,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for National Guard"
+        "notes": "Generated from Kaggle dataset for National Guard",
+        "visual_identifier": "Y - Militiaman logo. National Guard appears across bottom of plate. Plate starts with vertical NG."
       },
       "date_ranges": {
         "period_1": null,
@@ -1107,7 +1114,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Pearl Harbor Survivor"
+        "notes": "Generated from Kaggle dataset for Pearl Harbor Survivor",
+        "visual_identifier": "Y - American Flag logo appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3157,7 +3165,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Louisiana Tech University"
+        "notes": "Generated from Kaggle dataset for Louisiana Tech University",
+        "visual_identifier": "Y - School logo appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4307,7 +4316,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Agricultural Education"
+        "notes": "Generated from Kaggle dataset for Agricultural Education",
+        "visual_identifier": "Y - FFA logo appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4457,7 +4467,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Autism Society"
+        "notes": "Generated from Kaggle dataset for Autism Society",
+        "visual_identifier": "Y - Society logo appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4507,7 +4518,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Boy Scouts of America"
+        "notes": "Generated from Kaggle dataset for Boy Scouts of America",
+        "visual_identifier": "Y - Boy Scouts logo appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4557,7 +4569,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Civil Air Patrol"
+        "notes": "Generated from Kaggle dataset for Civil Air Patrol",
+        "visual_identifier": "Y - Civil Air Patrol logo appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4707,7 +4720,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Fraternal Order of Police"
+        "notes": "Generated from Kaggle dataset for Fraternal Order of Police",
+        "visual_identifier": "Y - FOP logo appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4807,7 +4821,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Grand Lodge"
+        "notes": "Generated from Kaggle dataset for Grand Lodge",
+        "visual_identifier": "Y - Freemason logo appears at left of plate; 'The Grand Lodge of the State of Louisiana, F&AM' on bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -5157,7 +5172,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Louisiana AIDS Advocacy"
+        "notes": "Generated from Kaggle dataset for Louisiana AIDS Advocacy",
+        "visual_identifier": "Y - 'HIV AWARENESS' appears across bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -5207,7 +5223,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Louisiana Realtors"
+        "notes": "Generated from Kaggle dataset for Louisiana Realtors",
+        "visual_identifier": "Y - 'Proud Member of Louisiana REALTORS' appears across bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -5357,7 +5374,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Merchant Marine Kings Point"
+        "notes": "Generated from Kaggle dataset for Merchant Marine Kings Point",
+        "visual_identifier": "Y - Merchant marine logo at left;. 'KINGS POINT' appears on bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -5407,7 +5425,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for National Rifle Association"
+        "notes": "Generated from Kaggle dataset for National Rifle Association",
+        "visual_identifier": "Y - NRA logo at left;. 'TEACH FREEDOM' appears on bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -5507,7 +5526,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Private Shriner"
+        "notes": "Generated from Kaggle dataset for Private Shriner",
+        "visual_identifier": "Y - Shriner logo at left;. 'SHRINER' appears on bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -5658,7 +5678,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Retired Law Officer"
+        "notes": "Generated from Kaggle dataset for Retired Law Officer",
+        "visual_identifier": "Y - Badge logos appears at right of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7008,7 +7029,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Feeding Hope"
+        "notes": "Generated from Kaggle dataset for Feeding Hope",
+        "visual_identifier": "Y - 'Solving HungerFeeding Hope' appears across bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7158,7 +7180,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Honey Bee"
+        "notes": "Generated from Kaggle dataset for Honey Bee",
+        "visual_identifier": "Y - Bee logo. 'SAVE THE HONEY BEE' appears on bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8358,7 +8381,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Motorcycle Awareness"
+        "notes": "Generated from Kaggle dataset for Motorcycle Awareness",
+        "visual_identifier": "Y - 'Watch for motorcycles' appears across bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8408,7 +8432,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for New Orleans Saints"
+        "notes": "Generated from Kaggle dataset for New Orleans Saints",
+        "visual_identifier": "Y - Team logo at left;. 'WORLD XLIV CHAMPIONS' appears on bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8558,7 +8583,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Protect Wild Dolphins"
+        "notes": "Generated from Kaggle dataset for Protect Wild Dolphins",
+        "visual_identifier": "Y - Dolphins logo appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8658,7 +8684,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Sabine Pass Lighthouse"
+        "notes": "Generated from Kaggle dataset for Sabine Pass Lighthouse",
+        "visual_identifier": "Y - Lighthouse logo appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8858,7 +8885,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Sons of Confederate Veterans"
+        "notes": "Generated from Kaggle dataset for Sons of Confederate Veterans",
+        "visual_identifier": "Y - Confederate Flag logo appears at left of plate'."
       },
       "date_ranges": {
         "period_1": null,
@@ -9358,7 +9386,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for White Tail Deer"
+        "notes": "Generated from Kaggle dataset for White Tail Deer",
+        "visual_identifier": "Y - 'Preserve our Hunting Heritage' appears at bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9558,7 +9587,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Archbishop Rummel High School"
+        "notes": "Generated from Kaggle dataset for Archbishop Rummel High School",
+        "visual_identifier": "Y - School logo appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10658,7 +10688,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for West Feliciana High School"
+        "notes": "Generated from Kaggle dataset for West Feliciana High School",
+        "visual_identifier": "Y - School logo appears at left of plate; 'WEST FELICIANA SAINTS' on bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -11075,6 +11106,2764 @@
       "visual_identifier": "N",
       "processing_rules": "N",
       "requires_prefix": false
+    },
+    {
+      "type_name": "100% DAV",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana 100% DAV plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Wheelchair logo. '100% DAV' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "100% DAV Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Louisiana 100% DAV Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Wheelchair logo. '100% DAV' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "300th Anniversary of New Orleans",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana 300th Anniversary of New Orleans plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - City Coat of Arms logo at left; '1718 NEW ORLEANS 2018' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "4H",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana 4H plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'Support 4-H Youth Development' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Agriculture",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Agriculture plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'AGRICULTUREGROWING OUR FUTURE' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Air Force Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Louisiana Air Force Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'U S VETERAN' appears across bottom of plate; Diagonals are NOT keyed.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1993-2011",
+          "Since 2012"
+        ]
+      }
+    },
+    {
+      "type_name": "Antique Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Louisiana Antique Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration begins with 'AM'",
+        "vehicle_type_identification": "Y-Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Apportioned",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Louisiana Apportioned plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration begins with 'P'",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Army Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Louisiana Army Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'U S VETERAN' appears across bottom of plate; Diagonals are NOT keyed.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2003-2019",
+          "Since 2020"
+        ]
+      }
+    },
+    {
+      "type_name": "Bass Angler",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Bass Angler plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Baton Rouge Community College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Louisiana Baton Rouge Community College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Boat Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Louisiana Boat Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Books for School",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Books for School plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'HELPING SCHOOLS' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Bring Back The Bobwhite",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Bring Back The Bobwhite plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Bus",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Titles: Apportioned Bus, Private Bus, High Passenger appear on plate.",
+        "vehicle_type_identification": "Y - Bus",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Civil Law",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Civil Law plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'CIVIL LAW/Louisiana Notary' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Coalition Against Violence",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Coalition Against Violence plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'www.lcadv.org/Hope, Strength, Courage.' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Coastal Conservation Assn",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Louisiana Coastal Conservation Assn plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Picture"
+        ]
+      }
+    },
+    {
+      "type_name": "Collegiate",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Louisiana Collegiate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Vertical characters must be entered as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Visible college logo/name  appear on tag",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "University of Louisiana",
+          "University of Miami"
+        ]
+      }
+    },
+    {
+      "type_name": "Commercial",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Louisiana Commercial plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Commercial appears on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Picture"
+        ]
+      }
+    },
+    {
+      "type_name": "Commisioned Police Officer",
+      "code_number": "0",
+      "category": "government",
+      "description": "Louisiana Commisioned Police Officer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'Law Enforcement Officer' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Picture"
+        ]
+      }
+    },
+    {
+      "type_name": "Cure Breast Cancer",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Cure Breast Cancer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Picture"
+        ]
+      }
+    },
+    {
+      "type_name": "Dealer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Louisiana Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Plate starts with DI. Dealer appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Delgado Community College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Louisiana Delgado Community College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Dolphin logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Delta Sigma Theta Sorority, Inc.",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Delta Sigma Theta Sorority, Inc. plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Sorority logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Desert Storm",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Desert Storm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Branch diagonal appears at left of plate. 'DESERT STORM' appears across bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Air Force",
+          "Army",
+          "Coast Guard"
+        ]
+      }
+    },
+    {
+      "type_name": "Desert Storm",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Desert Storm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Branch diagonal appears at left of plate. 'DESERT STORM' appears across bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Marine Corps",
+          "Navy"
+        ]
+      }
+    },
+    {
+      "type_name": "Disabled Veteran Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Louisiana Disabled Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration begins with 'VH'",
+        "vehicle_type_identification": "Y-Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "EBRSO",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana EBRSO plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Esther Grand Eastern Star",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Esther Grand Eastern Star plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Sorority logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Ex Prisoner of War",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Ex Prisoner of War plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Plate starts with vertical XP. XPOW is not verified.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Farm Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Louisiana Farm Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration begins with 'F'",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Forest Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Louisiana Forest Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration begins with 'J'",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Global War on Terrorism",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Global War on Terrorism plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Medal logo appears at left of plate; 'EXPEDITIONARY MEDAL' on bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Gold Star Family",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Gold Star Family plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Gold Star logo appears at left of plate; 'REMEMBER THE FALLEN' on bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Grambling State University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Louisiana Grambling State University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Ham Radio",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Ham Radio plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'HAM OPERATOR' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicap Dealer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Louisiana Handicap Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Wheelchair logo. Dealer appears on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Wheelchair logo.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Heavy Private Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Louisiana Heavy Private Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "High School Systems",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana High School Systems plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Vertical characters must be entered as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Catholic High School",
+          "University High School"
+        ]
+      }
+    },
+    {
+      "type_name": "High School Systems",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana High School Systems plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Vertical characters must be entered as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "St Augustine High",
+          "Holy Cross High"
+        ]
+      }
+    },
+    {
+      "type_name": "Honorary Consul",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Honorary Consul plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Honorary Consul appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "House of Representatives",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana House of Representatives plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - House of Representative appears across top of plate. Do not enter District.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "House Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Louisiana House Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "I'm Creole and Proud",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana I'm Creole and Proud plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Stew Pot logo. 'I'M CREOLEAND PROUD!' appears on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Iraq Campaign",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Iraq Campaign plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Medal logo. 'IRAQ CAMPAIGN VETERAN' appears on bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "K9's for Cops",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana K9's for Cops plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - K9 logo at left. 'SUPPORTING LAW ENFORCEMENT K9 UNITS' appears on bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Korean War",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Korean War plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Branch diagonal appears at left of plate. 'DESERT STORM' appears across bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Air Force",
+          "Coast Guard",
+          "Marine Corps"
+        ]
+      }
+    },
+    {
+      "type_name": "Korean War",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Korean War plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Branch diagonal appears at left of plate. 'DESERT STORM' appears across bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Navy"
+        ]
+      }
+    },
+    {
+      "type_name": "Korean War Medal",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Korean War Medal plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Medal logo. 'Korean Defense Service Veteran' appears on bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Krewe de Nxy",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Krewe de Nxy plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Light Farm Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Louisiana Light Farm Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Light Farm Truck appears across bottom of plate. Plate starts with F.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Light Semi-Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Louisiana Light Semi-Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Light Farm Truck appears across bottom of plate. Plate starts with D.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Louisiana State University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Louisiana Louisiana State University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1993-2011",
+          "Since 2012"
+        ]
+      }
+    },
+    {
+      "type_name": "LSU Geaux Tigers",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana LSU Geaux Tigers plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Medal of Honor",
+      "code_number": "0",
+      "category": "military",
+      "description": "Louisiana Medal of Honor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'CONGRESSIONAL MEDAL OF HONOR' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle Dealer",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Louisiana Motorcycle Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'DEALER' appears across bottom of plate; Registration begins with 'MI'.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Louisiana Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'MC' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Native American",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Native American plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Dreamcatcher Eagle logo at left;. 'AMERICAN INDIAN' appears on bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Navy Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Louisiana Navy Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'U S VETERAN' appears across bottom of plate; Diagonals are NOT keyed.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "New Orleans Limousine",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana New Orleans Limousine plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "New Orleans Taxi",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana New Orleans Taxi plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Nicholls State University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Louisiana Nicholls State University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Our Environment - Our Future",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Our Environment - Our Future plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Pelican logo at right; 'OUR ENVIRONMENTOUR FUTURE' appears on bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2000-2009",
+          "Since 2010"
+        ]
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Louisiana Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1993-2001",
+          "2002-2004",
+          "2005-2010"
+        ]
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Louisiana Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2011-2012",
+          "2013",
+          "2014-2017"
+        ]
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Louisiana Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Since 2018"
+        ]
+      }
+    },
+    {
+      "type_name": "Phi Beta Sigma Fraternity, Inc",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Phi Beta Sigma Fraternity, Inc plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Fraternity logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Preserve the Wild Turkey",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Louisiana Preserve the Wild Turkey plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Turkey logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Prince Hall Affiliated",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Prince Hall Affiliated plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Society logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Private Bus",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Private Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Private Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Louisiana Private Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1993-2002",
+          "Since 2003"
+        ]
+      }
+    },
+    {
+      "type_name": "Professional Firefighter",
+      "code_number": "0",
+      "category": "government",
+      "description": "Louisiana Professional Firefighter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Firefighter logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Public",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Public plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - PUBLIC verticals at left are NOT keyed.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Handicapped"
+        ]
+      }
+    },
+    {
+      "type_name": "Purple heart",
+      "code_number": "0",
+      "category": "military",
+      "description": "Louisiana Purple heart plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Purple Heart appears across bottom of plate. Plate starts with vertical PH.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Small Medal",
+          "Large Medal"
+        ]
+      }
+    },
+    {
+      "type_name": "Registered Nurse",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Registered Nurse plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Retired Firefighter",
+      "code_number": "0",
+      "category": "government",
+      "description": "Louisiana Retired Firefighter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Firefighter logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Retired Military",
+      "code_number": "0",
+      "category": "military",
+      "description": "Louisiana Retired Military plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Branch diagonal & 'Retired' appears at left of plate. 'U S VETERAN' appears across bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Air Force",
+          "Army",
+          "Coast Guard"
+        ]
+      }
+    },
+    {
+      "type_name": "Retired Military",
+      "code_number": "0",
+      "category": "military",
+      "description": "Louisiana Retired Military plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Branch diagonal & 'Retired' appears at left of plate. 'U S VETERAN' appears across bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Marine Corps",
+          "Navy"
+        ]
+      }
+    },
+    {
+      "type_name": "Retired Reserve Forces",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Louisiana Retired Reserve Forces plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Eagle logo appears at right of plate; 'U.S. RESERVE FORCES RETIRED' at bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Save the Louisiana Black Bear",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Save the Louisiana Black Bear plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Bear logo appears at left of plate; 'SAVE THE LOUISIANA BLACK BEAR' at bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "School Bus",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana School Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration begins with 'A0'",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Seafood",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Seafood plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'I Love Louisiana Seafood' logo appears at left of plate; 'LOUISIANASEAFOOD.COM' at bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Senate",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Senate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Senate appears across top of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Seymore D'Fair",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Seymore D'Fair plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Pelican logo appears at left of plate; 'drug-free!' at bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Southern University at Baton Rouge",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Louisiana Southern University at Baton Rouge plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1993-2011",
+          "Since 2012"
+        ]
+      }
+    },
+    {
+      "type_name": "Southern University at New Orleans",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Louisiana Southern University at New Orleans plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Southern University Marching Band",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Louisiana Southern University Marching Band plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'HUMAN JUKEBOX' logo appears at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Special Olympics",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Special Olympics plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Speciality",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Speciality plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Sport Fishing",
+          "Support our Troops",
+          "Support our Veterans"
+        ]
+      }
+    },
+    {
+      "type_name": "Speciality",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Speciality plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "WWOZ Radio",
+          "Rotary"
+        ]
+      }
+    },
+    {
+      "type_name": "State Police",
+      "code_number": "0",
+      "category": "government",
+      "description": "Louisiana State Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1993-2010",
+          "Since 2011"
+        ]
+      }
+    },
+    {
+      "type_name": "Taxi",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Taxi plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration begins with 'A8'; 'HIRE PASSENGER' at bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Tchefuncte River Lighthouse",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Tchefuncte River Lighthouse plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Lighthouse logo appears at right of plate; 'SHINE ON' at bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Temporary",
+      "code_number": "0",
+      "category": "temporary",
+      "description": "Louisiana Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - preprinted or electronic printed paper tags. Do not accept hand written tags.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1999",
+          "Since 2000",
+          "Dealer"
+        ]
+      }
+    },
+    {
+      "type_name": "Temporary Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Louisiana Temporary Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - preprinted or electronic printed paper tags. Do not accept hand written tags.",
+        "vehicle_type_identification": "Y-Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Think Safe Kids",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Think Safe Kids plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Tow/Recovery",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Tow/Recovery plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'TOW/RECOVERY' appears at top of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "Louisiana Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Louisiana Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "University of Louisiana-Munroe",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Louisiana University of Louisiana-Munroe plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - School logo appears at left of plate. 'ULM WARHAWKS' at bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "US Army Airborne",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana US Army Airborne plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "US Armed Forces Active Duty",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana US Armed Forces Active Duty plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Army",
+          "Marine Corps"
+        ]
+      }
+    },
+    {
+      "type_name": "US Reserve Forces",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Louisiana US Reserve Forces plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Vietnam Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Louisiana Vietnam Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Branch diagonal appears at left of plate. 'VIETNAM VETERAN' appears across bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Air Force",
+          "Army",
+          "Coast Guard"
+        ]
+      }
+    },
+    {
+      "type_name": "Vietnam Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Louisiana Vietnam Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Branch diagonal appears at left of plate. 'VIETNAM VETERAN' appears across bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Marine Corps",
+          "Navy"
+        ]
+      }
+    },
+    {
+      "type_name": "Volunteer Fire",
+      "code_number": "0",
+      "category": "government",
+      "description": "Louisiana Volunteer Fire plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Vol Fire Fighter appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Waste Water Operator",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Waste Water Operator plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Pelican logo appears at left of plate; 'Professional Operator' at bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "WWII Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Louisiana WWII Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Zulu Social Aid & Pleasure Club",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Louisiana Zulu Social Aid & Pleasure Club plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
     }
   ],
   "uses_zero_for_o": true,

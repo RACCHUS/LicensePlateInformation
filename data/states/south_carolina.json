@@ -468,7 +468,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Allen University"
+        "notes": "Generated from Kaggle dataset for Allen University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -618,7 +619,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Amateur Radio"
+        "notes": "Generated from Kaggle dataset for Amateur Radio",
+        "visual_identifier": "Y - Amateur Radio appears across top of plate. Call sign as registration."
       },
       "date_ranges": {
         "period_1": null,
@@ -868,7 +870,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Appalachian State University"
+        "notes": "Generated from Kaggle dataset for Appalachian State University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -1268,7 +1271,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Benedict College"
+        "notes": "Generated from Kaggle dataset for Benedict College",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -1318,7 +1322,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Bob Jones University"
+        "notes": "Generated from Kaggle dataset for Bob Jones University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -1368,7 +1373,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Boy Scouts of America"
+        "notes": "Generated from Kaggle dataset for Boy Scouts of America",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -1418,7 +1424,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Boykin Spaniel Foundation"
+        "notes": "Generated from Kaggle dataset for Boykin Spaniel Foundation",
+        "visual_identifier": "Y- Dog logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -1468,7 +1475,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Breast Cancer Awareness"
+        "notes": "Generated from Kaggle dataset for Breast Cancer Awareness",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -1518,7 +1526,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Bronze Star"
+        "notes": "Generated from Kaggle dataset for Bronze Star",
+        "visual_identifier": "Y- Medal logo at left of plate; 'Combat Veteran' at top."
       },
       "date_ranges": {
         "period_1": null,
@@ -1668,7 +1677,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Carolina Panthers"
+        "notes": "Generated from Kaggle dataset for Carolina Panthers",
+        "visual_identifier": "Y- Team logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -1768,7 +1778,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Charleston Southern University"
+        "notes": "Generated from Kaggle dataset for Charleston Southern University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2018,7 +2029,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Clemson University"
+        "notes": "Generated from Kaggle dataset for Clemson University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2418,7 +2430,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for College of Charleston"
+        "notes": "Generated from Kaggle dataset for College of Charleston",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2468,7 +2481,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Columbia College"
+        "notes": "Generated from Kaggle dataset for Columbia College",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3066,7 +3080,9 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Distinguished Flying Cross"
+        "notes": "Generated from Kaggle dataset for Distinguished Flying Cross",
+        "character_modifications": "Y- Key Verticals",
+        "visual_identifier": "Y- Medal logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3316,7 +3332,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Ducks Unlimited"
+        "notes": "Generated from Kaggle dataset for Ducks Unlimited",
+        "visual_identifier": "Y- Duck logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3466,7 +3483,9 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Emergency Medical Services"
+        "notes": "Generated from Kaggle dataset for Emergency Medical Services",
+        "character_modifications": "Y - Vertical characters must be verified as seen.",
+        "visual_identifier": "Y - Plate starts with EA"
       },
       "date_ranges": {
         "period_1": null,
@@ -3616,7 +3635,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Erskine College"
+        "notes": "Generated from Kaggle dataset for Erskine College",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3666,7 +3686,9 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Farm Vehicle"
+        "notes": "Generated from Kaggle dataset for Farm Vehicle",
+        "character_modifications": "Y - Vertical characters must be verified as seen.",
+        "visual_identifier": "Y - Farm appears on plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3766,7 +3788,9 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Firefighter"
+        "notes": "Generated from Kaggle dataset for Firefighter",
+        "character_modifications": "Y - Vertical characters must be verified as seen.",
+        "visual_identifier": "Y - Plate starts with FF"
       },
       "date_ranges": {
         "period_1": null,
@@ -3816,7 +3840,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for First in Golf"
+        "notes": "Generated from Kaggle dataset for First in Golf",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3966,7 +3991,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Francis Marion University"
+        "notes": "Generated from Kaggle dataset for Francis Marion University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4066,7 +4092,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Furman University"
+        "notes": "Generated from Kaggle dataset for Furman University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4166,7 +4193,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Georgia Tech Foundation"
+        "notes": "Generated from Kaggle dataset for Georgia Tech Foundation",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4216,7 +4244,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Gold Star Family"
+        "notes": "Generated from Kaggle dataset for Gold Star Family",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4316,7 +4345,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Heritage Classic Foundation"
+        "notes": "Generated from Kaggle dataset for Heritage Classic Foundation",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4416,7 +4446,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Homeownership: The American Dream"
+        "notes": "Generated from Kaggle dataset for Homeownership: The American Dream",
+        "visual_identifier": "Y- Real Estate logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4516,7 +4547,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for In God We Trust"
+        "notes": "Generated from Kaggle dataset for In God We Trust",
+        "visual_identifier": "Y- US & State flag logo on plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4566,7 +4598,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for In Reason We Trust"
+        "notes": "Generated from Kaggle dataset for In Reason We Trust",
+        "visual_identifier": "Y- US flag logo on plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4666,7 +4699,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Keep it Beautiful"
+        "notes": "Generated from Kaggle dataset for Keep it Beautiful",
+        "visual_identifier": "Y- Flower logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4766,7 +4800,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Korean Veteran"
+        "notes": "Generated from Kaggle dataset for Korean Veteran",
+        "visual_identifier": "Y- Medal logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4816,7 +4851,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Lander University"
+        "notes": "Generated from Kaggle dataset for Lander University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -5616,7 +5652,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Mothers Against Drunk Driving"
+        "notes": "Generated from Kaggle dataset for Mothers Against Drunk Driving",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -5716,7 +5753,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Motorcycle Awareness Alliance"
+        "notes": "Generated from Kaggle dataset for Motorcycle Awareness Alliance",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6066,7 +6104,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Newberry College"
+        "notes": "Generated from Kaggle dataset for Newberry College",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6266,7 +6305,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for North Greenville University"
+        "notes": "Generated from Kaggle dataset for North Greenville University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7116,7 +7156,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Powering the Palmetto State"
+        "notes": "Generated from Kaggle dataset for Powering the Palmetto State",
+        "visual_identifier": "Y - Lineman logo appears on left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -7166,7 +7207,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Presbyterian College"
+        "notes": "Generated from Kaggle dataset for Presbyterian College",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7316,7 +7358,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Prisoner of War"
+        "notes": "Generated from Kaggle dataset for Prisoner of War",
+        "visual_identifier": "Y - Plate starts with POW"
       },
       "date_ranges": {
         "period_1": null,
@@ -7466,7 +7509,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Purdue University"
+        "notes": "Generated from Kaggle dataset for Purdue University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7516,7 +7560,9 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Purple Heart"
+        "notes": "Generated from Kaggle dataset for Purple Heart",
+        "character_modifications": "Y - Vertical characters must be verified as seen.",
+        "visual_identifier": "Y - Purple Heart appears across top of plate; Medal logo at left."
       },
       "date_ranges": {
         "period_1": null,
@@ -7866,7 +7912,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Rotary International"
+        "notes": "Generated from Kaggle dataset for Rotary International",
+        "visual_identifier": "Y- Organization logo at left of plate; 'Service Above Self' at top."
       },
       "date_ranges": {
         "period_1": null,
@@ -8716,7 +8763,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Silver Star"
+        "notes": "Generated from Kaggle dataset for Silver Star",
+        "visual_identifier": "Y- Medal logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8866,7 +8914,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Sons of Confederate Veterans"
+        "notes": "Generated from Kaggle dataset for Sons of Confederate Veterans",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8916,7 +8965,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Southern Wesleyan University"
+        "notes": "Generated from Kaggle dataset for Southern Wesleyan University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9066,7 +9116,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for State Guard"
+        "notes": "Generated from Kaggle dataset for State Guard",
+        "visual_identifier": "Y -  symbol appears on left of plate. Plate starts with SC."
       },
       "date_ranges": {
         "period_1": null,
@@ -9166,7 +9217,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Surfrider Foundation"
+        "notes": "Generated from Kaggle dataset for Surfrider Foundation",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9266,7 +9318,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for The Citadel"
+        "notes": "Generated from Kaggle dataset for The Citadel",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9516,7 +9569,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for United We Stand"
+        "notes": "Generated from Kaggle dataset for United We Stand",
+        "visual_identifier": "Y- US & State flag logo on plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9766,7 +9820,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of South Carolina"
+        "notes": "Generated from Kaggle dataset for University of South Carolina",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9816,7 +9871,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Tennessee"
+        "notes": "Generated from Kaggle dataset for University of Tennessee",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10366,7 +10422,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for USC Baseball National Champions"
+        "notes": "Generated from Kaggle dataset for USC Baseball National Champions",
+        "visual_identifier": "Y- School logo at left of plate; '2010 & 2011 NATIONAL BASEBALL CHAMPIONS' at top."
       },
       "date_ranges": {
         "period_1": null,
@@ -10516,7 +10573,9 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Veteran"
+        "notes": "Generated from Kaggle dataset for Veteran",
+        "character_modifications": "Y - Vertical characters must be verified as seen.",
+        "visual_identifier": "Y - Military awards, campaigns, or Veteran appears on plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10566,7 +10625,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Vietnam Veteran"
+        "notes": "Generated from Kaggle dataset for Vietnam Veteran",
+        "visual_identifier": "Y- Medal logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10816,7 +10876,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Wildlife Deer"
+        "notes": "Generated from Kaggle dataset for Wildlife Deer",
+        "visual_identifier": "Y- Animal logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10966,7 +11027,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Winthrop University"
+        "notes": "Generated from Kaggle dataset for Winthrop University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -11066,7 +11128,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Working for the Wild Turkey"
+        "notes": "Generated from Kaggle dataset for Working for the Wild Turkey",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -11233,6 +11296,1947 @@
       "visual_identifier": "N",
       "processing_rules": "N",
       "requires_prefix": false
+    },
+    {
+      "type_name": "30 Day Temporary",
+      "code_number": "0",
+      "category": "temporary",
+      "description": "South Carolina 30 Day Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - preprinted or electronic printed paper tags. Do not accept hand written tags; '30 DAY PLATE' at top of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2005-2018",
+          "Since 2019"
+        ]
+      }
+    },
+    {
+      "type_name": "45 Day Temporary",
+      "code_number": "0",
+      "category": "temporary",
+      "description": "South Carolina 45 Day Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - preprinted or electronic printed paper tags. Do not accept hand written tags; '45 Day Plate' at top of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Agriculture",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Agriculture plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'Our Farms - Our Future' at top of plate; Barn icon at left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2009-2018",
+          "Since 2019"
+        ]
+      }
+    },
+    {
+      "type_name": "Anderson College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "South Carolina Anderson College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "Antique Auto",
+      "code_number": "0",
+      "category": "antique",
+      "description": "South Carolina Antique Auto plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1974-2007",
+          "2008-2016",
+          "Since 2017"
+        ]
+      }
+    },
+    {
+      "type_name": "Antique Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "South Carolina Antique Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y- Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Apportioned Bus",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "South Carolina Apportioned Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y- Omit verticals at end.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2014-2016",
+          "Since 2017"
+        ]
+      }
+    },
+    {
+      "type_name": "Apportioned Truck Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "South Carolina Apportioned Truck Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2010-2016",
+          "Since 2017"
+        ]
+      }
+    },
+    {
+      "type_name": "Arts Awareness",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Arts Awareness plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'Driven by the Arts' at top of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2012-2018",
+          "Since 2019"
+        ]
+      }
+    },
+    {
+      "type_name": "Bus",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Vertical characters must be verified as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Bus appears across bottom of plate.",
+        "vehicle_type_identification": "Y - Bus",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Camper",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "South Carolina Camper plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Vertical characters must be verified as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Camper appears on plate.",
+        "vehicle_type_identification": "Y - Camper / RV",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "Carolina Concerns of Police Survivors",
+      "code_number": "0",
+      "category": "government",
+      "description": "South Carolina Carolina Concerns of Police Survivors plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Circuit Court",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Circuit Court plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Circuit Court appears on top of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Coker College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "South Carolina Coker College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Collegiate (Other)",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "South Carolina Collegiate (Other) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Auburn",
+          "Clafin Univ",
+          "Coast Car Univ"
+        ]
+      }
+    },
+    {
+      "type_name": "Collegiate (Other)",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "South Carolina Collegiate (Other) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Converse College",
+          "Denmark Tech College"
+        ]
+      }
+    },
+    {
+      "type_name": "Combat Disabled Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "South Carolina Combat Disabled Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Kneeling Soldier logo at left of plate; 'Veteran' at top.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dealer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "South Carolina Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Dealer appears across top of plate; Registration begins with 'X'.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2015-2016",
+          "Since 2017"
+        ]
+      }
+    },
+    {
+      "type_name": "Disabled",
+      "code_number": "0",
+      "category": "military",
+      "description": "South Carolina Disabled plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Wheelchair logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1989-2009",
+          "2010-2020"
+        ]
+      }
+    },
+    {
+      "type_name": "Disabled Veteran Wheelchair",
+      "code_number": "0",
+      "category": "military",
+      "description": "South Carolina Disabled Veteran Wheelchair plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Wheelchair logo on plate; 'DISABLED VETERAN' at top.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2013-2014",
+          "Since 2015",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "Federal Court",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Federal Court plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Fleet",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Fleet plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Fleet appears on plate. Plate starts with FV.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Forestry Association of SC",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Forestry Association of SC plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Fraternity/Sorority",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Fraternity/Sorority plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Alpha Phi Alpha",
+          "Alpha Kappa Alpha",
+          "Delta Sigma Theta"
+        ]
+      }
+    },
+    {
+      "type_name": "Friends of Hunting Island",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Friends of Hunting Island plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "General Assembly",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina General Assembly plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "OMIT Series title on left. Vertical characters must be verified as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - General Assembly appears on left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "FL104"
+        ]
+      }
+    },
+    {
+      "type_name": "Government",
+      "code_number": "0",
+      "category": "government",
+      "description": "South Carolina Government plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Permanent appears across top of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Prior to 2017 Type I",
+          "Prior to 2017 Type II",
+          "Since 2017"
+        ]
+      }
+    },
+    {
+      "type_name": "Government Disabled",
+      "code_number": "0",
+      "category": "military",
+      "description": "South Carolina Government Disabled plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Permanent appears across top of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Prior to 2009",
+          "Since 2009"
+        ]
+      }
+    },
+    {
+      "type_name": "Government Low Speed Vehicle",
+      "code_number": "0",
+      "category": "government",
+      "description": "South Carolina Government Low Speed Vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Government Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "South Carolina Government Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Permanent appears across bottom of plate.",
+        "vehicle_type_identification": "Y- Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Handicapped plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Wheelchair logo.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "South Carolina Handicapped Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Wheelchair logo. Smaller plate size",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Heavy Truck Dealer",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "South Carolina Heavy Truck Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'Dealer' or 'Heavy Duty Truck Dealer' appears across top of plate' Registration begins with 'XP'.",
+        "vehicle_type_identification": "Y- Heavy Duty Truck",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1995-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Hunley",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Hunley plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Civil War Submarine logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Legislator",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Legislator plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Limestone College",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "South Carolina Limestone College plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Livery",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Livery plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Vertical characters must be verified as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Taxi or Limousine appears on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Taxi",
+          "Limousine"
+        ]
+      }
+    },
+    {
+      "type_name": "Manufacturer (Motor Vehicle)",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "South Carolina Manufacturer (Motor Vehicle) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Medal of Honor",
+      "code_number": "0",
+      "category": "military",
+      "description": "South Carolina Medal of Honor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "OMIT Series title on left",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Medal of Honor appears on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Medical University of South Carolina",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "South Carolina Medical University of South Carolina plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle Dealer",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "South Carolina Motorcycle Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y- Do NOT key vertical 'DEALER'",
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y- Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "National Guard",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y -  National Guard appears across bottom of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Nurses Care",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Nurses Care plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Omega Psi Phi Fraternity",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Omega Psi Phi Fraternity plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Fraternity logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Organizations",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Organizations plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "American Red Cross",
+          "Free Masons",
+          "Beaufort Water Fest"
+        ]
+      }
+    },
+    {
+      "type_name": "Organizations",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Organizations plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Child Cancer",
+          "Child Hosp- Grnville",
+          "Choose Life"
+        ]
+      }
+    },
+    {
+      "type_name": "Organizations",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Organizations plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Coast Conservation",
+          "Connie Maxwell"
+        ]
+      }
+    },
+    {
+      "type_name": "Parrot Head",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Parrot Head plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2009-2016",
+          "Since 2017"
+        ]
+      }
+    },
+    {
+      "type_name": "Pearl Harbor Survivor",
+      "code_number": "0",
+      "category": "military",
+      "description": "South Carolina Pearl Harbor Survivor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "OMIT Series title on left",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Series title appears on left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1995-2016",
+          "2017-2018"
+        ]
+      }
+    },
+    {
+      "type_name": "Permanent Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "South Carolina Permanent Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Permanent appears across top of plate.",
+        "vehicle_type_identification": "Y- Trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Private Bus",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Private Bus plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y- Bus",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Property Carrying",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Property Carrying plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Protect Endangered Species (Eagle)",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Protect Endangered Species (Eagle) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Eagle logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Protect Endangered Species (Turtle)",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Protect Endangered Species (Turtle) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Turtle logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1989-2011",
+          "2012-2014",
+          "Since 2015"
+        ]
+      }
+    },
+    {
+      "type_name": "Public Education: A Great Investment",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Public Education: A Great Investment plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Apple logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2000-2015",
+          "Since 2016"
+        ]
+      }
+    },
+    {
+      "type_name": "Repair / Wrecker",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Repair / Wrecker plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Plate starts with SM",
+        "vehicle_type_identification": "Y - Wrecker/Roll back/tow trucks",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Research and Development",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Research and Development plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Retired Guard",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Retired Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- National Guard logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2009-2014",
+          "Since 2015"
+        ]
+      }
+    },
+    {
+      "type_name": "Riverbanks Society",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Riverbanks Society plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Semi Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "South Carolina Semi Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Vertical characters must be verified as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Permanent appears on plate.",
+        "vehicle_type_identification": "Y - Trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Senator",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Senator plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Shag State Dance",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Shag State Dance plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - OMIT series name on left.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Series name and symbol appear on left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "South Carolina stands with Israel",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina South Carolina stands with Israel plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- State & Israeli flag logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "South Carolina State University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "South Carolina South Carolina State University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Taxi",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Taxi plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Vertical characters must be verified as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Taxi or Limousine appears on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Taxi",
+          "Limousine"
+        ]
+      }
+    },
+    {
+      "type_name": "Temporary",
+      "code_number": "0",
+      "category": "temporary",
+      "description": "South Carolina Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - preprinted or electronic printed paper tags. Do not accept hand written tags.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "South Carolina Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y- Trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1989-2015",
+          "Since 2016"
+        ]
+      }
+    },
+    {
+      "type_name": "Trout Unlimited",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Trout Unlimited plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "South Carolina Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Truck appears on plate.",
+        "vehicle_type_identification": "Y- Truck",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1996-2006",
+          "Since 2007"
+        ]
+      }
+    },
+    {
+      "type_name": "US Military Reserves",
+      "code_number": "0",
+      "category": "military",
+      "description": "South Carolina US Military Reserves plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Utility Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "South Carolina Utility Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2015",
+          "Since 2016"
+        ]
+      }
+    },
+    {
+      "type_name": "Vanity",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Vanity plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "1991-2007",
+          "Since 2008"
+        ]
+      }
+    },
+    {
+      "type_name": "Veteran Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "South Carolina Veteran Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Vertical characters must be verified as seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Wholesale Auction",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Wholesale Auction plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Wildlife Bunting",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "South Carolina Wildlife Bunting plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Animal logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2014",
+          "Since 2015"
+        ]
+      }
+    },
+    {
+      "type_name": "WWII Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "South Carolina WWII Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2004-2014",
+          "Since 2015"
+        ]
+      }
     }
   ],
   "processing_metadata": {
@@ -11240,7 +13244,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; State does not use letter 'O', only number '0'",
       "stacked_characters": {
         "include": [
           "BC",
@@ -11249,12 +13253,18 @@
           "VT",
           "ZD"
         ],
-        "omit": [],
-        "position": "Stacked characters (BC, CC, EA, VT, ZD) must be keyed as part of plate number",
+        "omit": [
+          "SERIES",
+          "SERIES NAME",
+          "SERIES TITLE",
+          "VERTICALS",
+          "VERTICALS AT"
+        ],
+        "position": "Y- Omit verticals at end.; Y - Vertical characters must be verified as seen.; Y- Key Verticals",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "Stacked characters MUST be keyed (e.g., SC-BC3056CC, SC-EA354, SC-ZD00000)"
+        "notes": "Stacked characters MUST be keyed (e.g., SC-BC3056CC, SC-EA354, SC-ZD00000); Extracted from 18 plate types with character modifications"
       }
     }
   },

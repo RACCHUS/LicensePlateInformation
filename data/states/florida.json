@@ -40,14 +40,36 @@
       "code_system": "Florida uses Plate Type Code numbers to apply proper prefix/suffix currently. The only plate type code used is Passenger Plate Default: 0",
       "has_variable_processing_types": true,
       "stacked_characters": {
-        "include": [],
-        "omit": [],
+        "include": [
+          "ZEROS"
+        ],
+        "omit": [
+          "CITY",
+          "CO",
+          "COLLEGE",
+          "COUNTY",
+          "CY",
+          "DV",
+          "EX",
+          "HC",
+          "HONORARY",
+          "HORSELESS",
+          "LETTER",
+          "PRES",
+          "SERIES",
+          "SERIES TITLE",
+          "ST",
+          "STATE",
+          "THE",
+          "VOL"
+        ],
         "position": "No specific stacked character rules for Florida. All visible characters should be keyed unless specific plate type has omit rules.",
         "max_characters": null,
         "prefix_rules": {},
         "symbols_allowed": null,
-        "notes": "Florida does NOT use letter 'O' - automatically converts to zero '0' in database. Include all visible registration characters unless plate-specific rules indicate omission (see individual plate types for dropdown requirements and omit rules like 'DV', 'EX-POW', 'City', 'County', 'CO', 'CY', etc.)."
-      }
+        "notes": "Florida does NOT use letter 'O' - automatically converts to zero '0' in database. Include all visible registration characters unless plate-specific rules indicate omission (see individual plate types for dropdown requirements and omit rules like 'DV', 'EX-POW', 'City', 'County', 'CO', 'CY', etc.).; Extracted from 26 plate types with character modifications"
+      },
+      "character_restrictions": "State does not use letter 'O', only number '0'"
     },
     "processing_types": {
       "standard": {
@@ -8868,7 +8890,7 @@
         "requires_suffix": false,
         "character_modifications": "Y - Omit Series title on left",
         "verify_state_abbreviation": true,
-        "visual_identifier": "Y - \"National Guard\" seen on left",
+        "visual_identifier": "Y - \"National Guard\" seen on bottom",
         "vehicle_type_identification": null,
         "all_numeric_plate": false,
         "date_ranges": {

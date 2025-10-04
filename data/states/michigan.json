@@ -11,22 +11,30 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: Uses the number zero 0 on personalized plates to represent both a number zero 0 or a letter O. Thus, if someone is issued personalized plate 70 FORD, the personalized plate will show the number 0 like this: 70 F0RD. The letter O is not used. A letter O is shown by using the number 0. Current, standa",
       "stacked_characters": {
         "include": [
+          "D",
           "M",
-          "S",
-          "D"
+          "S"
         ],
         "omit": [
+          "ALL",
+          "ALL BRANCH",
+          "DV",
           "EX POW",
-          "DV"
+          "MEDAL",
+          "MEDAL OF",
+          "SLANTED",
+          "SLANTED DV",
+          "VERTICAL",
+          "VERTICAL EX"
         ],
-        "position": "INCLUDE 'M' as prefix (Michigan State Univ), INCLUDE 'S' as prefix (Michigan State Univ), INCLUDE smaller 'M' in MIDDLE, INCLUDE smaller 'D' in MIDDLE. OMIT 'EX POW', OMIT one 'DV' if both present.",
+        "position": "Y -OMIT Vertical EX POW",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "INCLUDE: MSU 'M' (MI-MAA00A), MSU 'S' (MI-SAA00A), smaller 'M' (MI-105M540), smaller 'D' (MI-001D255). OMIT: 'EX POW', one 'DV' if both present. OMIT ALL branch of service or campaign names."
+        "notes": "INCLUDE: MSU 'M' (MI-MAA00A), MSU 'S' (MI-SAA00A), smaller 'M' (MI-105M540), smaller 'D' (MI-001D255). OMIT: 'EX POW', one 'DV' if both present. OMIT ALL branch of service or campaign names.; Extracted from 33 plate types with character modifications"
       }
     }
   },
@@ -670,7 +678,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Gold Star Family"
+        "notes": "Generated from Kaggle dataset for Gold Star Family",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2020,7 +2029,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Ducks Unlimited"
+        "notes": "Generated from Kaggle dataset for Ducks Unlimited",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2070,7 +2080,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Lighthouse Preservation"
+        "notes": "Generated from Kaggle dataset for Lighthouse Preservation",
+        "visual_identifier": "Y- 'Save Our Lights' on plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2120,7 +2131,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Olympic Education"
+        "notes": "Generated from Kaggle dataset for Olympic Education",
+        "visual_identifier": "Y- Organization logo at left;  'Go Team USA' appears across the bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2220,7 +2232,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Support Michigan Veterans"
+        "notes": "Generated from Kaggle dataset for Support Michigan Veterans",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2270,7 +2283,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Veterans Memorial"
+        "notes": "Generated from Kaggle dataset for Veterans Memorial",
+        "visual_identifier": "Y- Dog Tags logo at left;  'LEST WE FORGET' appears across the bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2920,7 +2934,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Central Michigan University"
+        "notes": "Generated from Kaggle dataset for Central Michigan University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2970,7 +2985,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Eastern Michigan University"
+        "notes": "Generated from Kaggle dataset for Eastern Michigan University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3020,7 +3036,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Ferris State University"
+        "notes": "Generated from Kaggle dataset for Ferris State University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3120,7 +3137,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Lake Superior State University"
+        "notes": "Generated from Kaggle dataset for Lake Superior State University",
+        "visual_identifier": "Y- School logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3170,7 +3188,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Michigan State University"
+        "notes": "Generated from Kaggle dataset for Michigan State University",
+        "visual_identifier": "Y - Visible college logo/name  appear on tag"
       },
       "date_ranges": {
         "period_1": null,
@@ -3320,7 +3339,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Oakland University"
+        "notes": "Generated from Kaggle dataset for Oakland University",
+        "visual_identifier": "Y - Visible college logo/name  appear on tag"
       },
       "date_ranges": {
         "period_1": null,
@@ -3370,7 +3390,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Saginaw Valley State University"
+        "notes": "Generated from Kaggle dataset for Saginaw Valley State University",
+        "visual_identifier": "Y - Visible college logo/name  appear on tag"
       },
       "date_ranges": {
         "period_1": null,
@@ -3420,7 +3441,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Michigan"
+        "notes": "Generated from Kaggle dataset for University of Michigan",
+        "visual_identifier": "Y - Visible college logo/name  appear on tag"
       },
       "date_ranges": {
         "period_1": null,
@@ -3570,7 +3592,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Wayne State University"
+        "notes": "Generated from Kaggle dataset for Wayne State University",
+        "visual_identifier": "Y - Visible college logo/name  appear on tag"
       },
       "date_ranges": {
         "period_1": null,
@@ -3620,7 +3643,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Western Michigan University"
+        "notes": "Generated from Kaggle dataset for Western Michigan University",
+        "visual_identifier": "Y - Visible college logo/name  appear on tag"
       },
       "date_ranges": {
         "period_1": null,
@@ -3737,6 +3761,2555 @@
       "visual_identifier": "N",
       "processing_rules": "N",
       "requires_prefix": false
+    },
+    {
+      "type_name": "Afghanistan Campaign Medal Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Afghanistan Campaign Medal Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'Veteran' across the bottom of plate. Military logo or medal design on left side of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Afghanistan Conflict Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Afghanistan Conflict Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "Agriculture Heritage",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Agriculture Heritage plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Barn logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Air Force Veteran (2007-2009)",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Air Force Veteran (2007-2009) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Air Force Veteran (2010-2012)",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Air Force Veteran (2010-2012) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Air Force Veteran (Since 2013)",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Air Force Veteran (Since 2013) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Antique",
+      "code_number": "0",
+      "category": "antique",
+      "description": "Michigan Antique plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Historical or older version of plates with year noted.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "Antique Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Antique Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. Older style plates noted.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Amateur Radio (2007-2009)",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Amateur Radio (2007-2009) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Amateur Radio (2010-2012)",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Amateur Radio (2010-2012) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'AMATEUR RADIO' at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Amateur Radio (Since 2013)",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Amateur Radio (Since 2013) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Radio Tower logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Apportioned",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Michigan Apportioned plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Apportioned appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Army",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Army plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Army Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Army Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Boy Scout of America",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Boy Scout of America plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Breast Cancer",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Breast Cancer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate; 'EARLY DETECTION SAVES LIVES' on bottom.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Children",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Children plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Children's Trust Fund",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Children's Trust Fund plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Coast Guard Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Coast Guard Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Commercial",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Michigan Commercial plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "Commercial",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Michigan Commercial plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Mackinac Bridge"
+        ]
+      }
+    },
+    {
+      "type_name": "Conserve Wildlife Habitat (Elk)",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Michigan Conserve Wildlife Habitat (Elk) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Animal logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Conserve Wildlife Habitat (Loon)",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Michigan Conserve Wildlife Habitat (Loon) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Animal logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2013",
+          "Since 2014"
+        ]
+      }
+    },
+    {
+      "type_name": "Conserve Wildlife Habitat (Warbler)",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Michigan Conserve Wildlife Habitat (Warbler) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Animal logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Cuban Missile Crisis Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Cuban Missile Crisis Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dealer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Michigan Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify small character in center of plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Dealer appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Delta Sigma Theta Sorority",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Delta Sigma Theta Sorority plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Sorority logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Detroit Sports Teams",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Detroit Sports Teams plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Team logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Lions",
+          "Pistons",
+          "Tigers"
+        ]
+      }
+    },
+    {
+      "type_name": "Digital",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Digital plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'michigan.org' at bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Disabled",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Disabled plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Wheelchair logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "Disabled",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Disabled plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Wheelchair logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Mackinac Bridge I",
+          "Mackinac Bridge II",
+          "Winter Wonderland"
+        ]
+      }
+    },
+    {
+      "type_name": "Disabled Veteran (2007-2019)",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Disabled Veteran (2007-2019) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit Slanted DV.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Plate starts with DV. Wheelchair logo sticker may be seen on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "Disabled Veteran (Since 2020)",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Disabled Veteran (Since 2020) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration begins with 'DV' ; 'DISABLED VETERAN' at bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dominican Republic Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Dominican Republic Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Donate Life",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Donate Life plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'Be an Organ, Eye & Tissue Donor' at bottom of plate;  Organization logo at left.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Ex-POW",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Ex-POW plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y -OMIT Vertical EX POW",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Vertical EX POW at left; 'Ex Prisoner of War' appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Farm",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Farm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify small character in center of plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'Farm' appears across the bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Firefighter",
+      "code_number": "0",
+      "category": "government",
+      "description": "Michigan Firefighter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Firemen logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Fleet",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Fleet plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Fraternal Order of Police",
+      "code_number": "0",
+      "category": "government",
+      "description": "Michigan Fraternal Order of Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Freemasonry",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Freemasonry plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "In Transit Repair",
+      "code_number": "0",
+      "category": "temporary",
+      "description": "Michigan In Transit Repair plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify small character in center of plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - In Transit Repair appears across bottom of plate. Small G in center must be verified.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Iraq Campaign Medal",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Iraq Campaign Medal plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'Veteran' across the bottom of plate. Military logo or medal design on left side of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Iraq Conflict Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Iraq Conflict Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Korean War Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Korean War Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Laos Conflict Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Laos Conflict Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Lebanon Conflict Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Lebanon Conflict Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Log Farm",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Log Farm plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Manufacturer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "Michigan Manufacturer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify small character in center of plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Manufacturer appears across bottom of plate. Small M in center must be verified.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Marine Corps Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Marine Corps Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Branch logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Marines Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Marines Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Medal of Honor Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Medal of Honor Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - OMIT Medal of Honor in center of plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Medal logo may appear on left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Michigan Tech University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "Michigan Michigan Tech University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Visible college logo/name  appear on tag",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Military Reserve Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Military Reserve Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Motorcycle Army Veteran",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle Army Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. Branch of service appears on plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle Coast Guard Veteran",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle Coast Guard Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. Branch of service appears on plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle Dealer",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. Key the small 'D' in the registration.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Motorcycle Disabled",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle Disabled plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. Wheelchair logo. 'CYCLE' on bottom of plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle Govt",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle Govt plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. 'STATE GOVT' on bottom of plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle Historical",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle Historical plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. 'HISTORICAL' on bottom of plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Motorcycle Manufacturer",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle Manufacturer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. 'MFG' on bottom of plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle Marine Corps Veteran",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle Marine Corps Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. Branch of service appears on plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Motorcycle National Guard",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. 'CYCLE' on bottom of plate; Branch of service at left.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle Navy",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle Navy plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. Branch of service appears on plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Motorcycle Sheriff",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle Sheriff plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. 'SHERIFF' on bottom of plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type IV",
+          "Type V"
+        ]
+      }
+    },
+    {
+      "type_name": "Motorcycle State Police",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "Michigan Motorcycle State Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": true,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Smaller plate size. 'STATE POLICE' on bottom of plate; Branch of service at left.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Municipal",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Municipal plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify small character in center of plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Municipal appears across bottom of plate. Small X in center must be verified.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "National Guard",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Militiaman logo. National Guard appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "National Guard (Since 2013)",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan National Guard (Since 2013) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Militiaman logo. National Guard appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Navy Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Navy Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "Non-Profit",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Non-Profit plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify small character in center of plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Non Profit appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Panama Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Panama Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Michigan Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Since 2013",
+          "Spectacular Peninsulas",
+          "MacKinac Bridge I"
+        ]
+      }
+    },
+    {
+      "type_name": "Passenger",
+      "code_number": "0",
+      "category": "passenger",
+      "description": "Michigan Passenger plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "MacKinac Bridge II",
+          "Water Wndrlnd",
+          "Water/Winter Wndrlnd"
+        ]
+      }
+    },
+    {
+      "type_name": "Pearl Harbor Survivor",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Pearl Harbor Survivor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Pearl Harbor Survivor appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Persian Gulf Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Persian Gulf Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Police Officer's Association of Michigan",
+      "code_number": "0",
+      "category": "government",
+      "description": "Michigan Police Officer's Association of Michigan plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left;  'THE CHOICE OF PROFESSIONALS' appears across the bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Professional Firefighter",
+      "code_number": "0",
+      "category": "government",
+      "description": "Michigan Professional Firefighter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Firefighter logo appear on left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Protecting Our Waters",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Protecting Our Waters plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Orginational logo appear on left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Purple Heart",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Purple Heart plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Medal logo at left;  'COMBAT WOUNDED VETERAN' appears across the bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "Purple Heart",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Purple Heart plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Medal logo at left;  'COMBAT WOUNDED VETERAN' appears across the bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type IV"
+        ]
+      }
+    },
+    {
+      "type_name": "Red Wings",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Red Wings plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Team logo at left;  'DETROIT RED WINGS' appears across the bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Repossession",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Repossession plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify small character in center of plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Repossession appears across bottom of plate. Small 'R' in center must be verified.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Senator",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Senator plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration begins with 'SEN'.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Sheriff",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Sheriff plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Sheriff's logo appear on center of tag",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Somolia Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Somolia Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Specialty",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Specialty plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left;  'Help cure blood cancer' appears across the bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State Govt",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan State Govt plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "State Police",
+      "code_number": "0",
+      "category": "government",
+      "description": "Michigan State Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Temporary",
+      "code_number": "0",
+      "category": "temporary",
+      "description": "Michigan Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2008-2018",
+          "Since 2019"
+        ]
+      }
+    },
+    {
+      "type_name": "Transporter",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Transporter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Verify small character in center of plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Transporter appears across bottom of plate. Small 'T' in center must be verified.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "Michigan Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "US Congress",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan US Congress plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Vietnam Service Medal",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "Michigan Vietnam Service Medal plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-'Veteran' across the bottom of plate. Military logo or medal design on left side of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Vietnam War Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan Vietnam War Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Type III"
+        ]
+      }
+    },
+    {
+      "type_name": "WWII Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "Michigan WWII Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Omit all branch of service or campaign names visible on plate.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Veteran appears across bottom of plate. Branch of service or campaign appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2007-2012",
+          "Since 2013"
+        ]
+      }
+    },
+    {
+      "type_name": "Wrecker",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Michigan Wrecker plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
     }
   ],
   "uses_zero_for_o": true,

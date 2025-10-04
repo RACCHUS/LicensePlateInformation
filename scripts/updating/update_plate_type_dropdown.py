@@ -34,14 +34,14 @@ class PlateTypeDropdownUpdater:
         self.data_dir = self.project_root / "data" / "states"
         self.plate_types_file = self.project_root / "data" / "extracted_plate_types.json"
         
-    def extract_from_json_files(self) -> Dict[str, Any]:
-        """Extract all plate types from state JSON files"""
+    def extract_from_json_files(self, batch_size: int = 1000) -> Dict[str, Any]:
+        """Extract all plate types from state JSON files (optimized for large datasets)"""
         print("🔍 Scanning JSON files for plate types...")
         
         all_plate_types = set()
         state_counts = {}
         extraction_metadata = {
-            "extraction_date": "2025-09-30",
+            "extraction_date": "2025-10-03",
             "source_files": [],
             "total_unique_types": 0,
             "state_breakdown": {}
@@ -49,16 +49,21 @@ class PlateTypeDropdownUpdater:
         
         # Process all JSON files in the states directory
         json_files = list(self.data_dir.glob("*.json"))
+        total_files = len(json_files)
         
-        for json_file in json_files:
+        print(f"📁 Found {total_files} state files to process\n")
+        
+        for idx, json_file in enumerate(json_files, 1):
             try:
+                print(f"  [{idx}/{total_files}] Processing {json_file.name}...", end=" ", flush=True)
+                
                 with open(json_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                 
                 state_name = data.get('name', json_file.stem.title())
                 state_abbr = data.get('abbreviation', json_file.stem.upper())
                 
-                # Extract plate types
+                # Extract plate types - only type names, not full objects
                 plate_types = data.get('plate_types', [])
                 state_plate_types = set()
                 
@@ -68,25 +73,26 @@ class PlateTypeDropdownUpdater:
                         all_plate_types.add(type_name)
                         state_plate_types.add(type_name)
                 
-                # Track state information
+                # Track state information (without storing full type lists to save memory)
                 state_counts[state_abbr] = len(state_plate_types)
                 extraction_metadata["state_breakdown"][state_abbr] = {
                     "name": state_name,
-                    "plate_count": len(state_plate_types),
-                    "types": sorted(list(state_plate_types))
+                    "plate_count": len(state_plate_types)
+                    # Removed "types" array to reduce file size
                 }
                 extraction_metadata["source_files"].append(str(json_file.name))
                 
-                print(f"  ✅ {state_abbr}: {len(state_plate_types)} plate types")
+                print(f"✅ {len(state_plate_types)} types")
                 
             except Exception as e:
-                print(f"  ❌ Error processing {json_file.name}: {e}")
+                print(f"❌ Error: {e}")
         
         # Sort and prepare final data
+        print(f"\n🔄 Sorting {len(all_plate_types)} unique plate types...")
         sorted_plate_types = sorted(list(all_plate_types))
         extraction_metadata["total_unique_types"] = len(sorted_plate_types)
         
-        # Create the final data structure
+        # Create the final data structure (simplified for performance)
         plate_types_data = {
             "metadata": extraction_metadata,
             "plate_types": sorted_plate_types

@@ -25,7 +25,7 @@
         "currently_processed": true,
         "requires_prefix": false,
         "requires_suffix": false,
-        "character_modifications": null,
+        "character_modifications": "Y - OMIT all Symbols seen in registration.",
         "verify_state_abbreviation": true,
         "visual_identifier": null,
         "vehicle_type_identification": null,
@@ -162,7 +162,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for 82nd Airborne"
+        "notes": "Generated from Kaggle dataset for 82nd Airborne",
+        "visual_identifier": "Y- Airborne icon at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -362,7 +363,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Afghanistan Veteran"
+        "notes": "Generated from Kaggle dataset for Afghanistan Veteran",
+        "visual_identifier": "Y- Medal icon at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -412,7 +414,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Air Force Reserve"
+        "notes": "Generated from Kaggle dataset for Air Force Reserve",
+        "visual_identifier": "Y- Branch logo at left of plate;"
       },
       "date_ranges": {
         "period_1": null,
@@ -462,7 +465,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Air Medal"
+        "notes": "Generated from Kaggle dataset for Air Medal",
+        "visual_identifier": "Y- Medal icon at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -562,7 +566,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Alpha Phi Alpha Fraternity"
+        "notes": "Generated from Kaggle dataset for Alpha Phi Alpha Fraternity",
+        "visual_identifier": "Y- Fraternity logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -612,7 +617,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for American Legion"
+        "notes": "Generated from Kaggle dataset for American Legion",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -662,7 +668,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Amran Temple"
+        "notes": "Generated from Kaggle dataset for Amran Temple",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -712,7 +719,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Animal Lovers"
+        "notes": "Generated from Kaggle dataset for Animal Lovers",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -962,7 +970,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Army Reserve"
+        "notes": "Generated from Kaggle dataset for Army Reserve",
+        "visual_identifier": "Y- Branch logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1012,7 +1021,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Auburn University"
+        "notes": "Generated from Kaggle dataset for Auburn University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1062,7 +1072,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Autism Society of North Carolina"
+        "notes": "Generated from Kaggle dataset for Autism Society of North Carolina",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1162,7 +1173,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Big Rock Blue Marlin Tournament"
+        "notes": "Generated from Kaggle dataset for Big Rock Blue Marlin Tournament",
+        "visual_identifier": "Y- Marlin logo at left of plate; 'BIG ROCK' at top."
       },
       "date_ranges": {
         "period_1": null,
@@ -1212,7 +1224,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Blue Ridge Parkway Foundation"
+        "notes": "Generated from Kaggle dataset for Blue Ridge Parkway Foundation",
+        "visual_identifier": "Y- Organization logo at left of plate; 'SHARE THE JOURNEY' at top."
       },
       "date_ranges": {
         "period_1": null,
@@ -1362,7 +1375,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Bronze Star"
+        "notes": "Generated from Kaggle dataset for Bronze Star",
+        "visual_identifier": "Y- Medal icon at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1462,7 +1476,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Buddy Pelletier Surfing Foundation"
+        "notes": "Generated from Kaggle dataset for Buddy Pelletier Surfing Foundation",
+        "visual_identifier": "Y- Organization logo at left of plate; 'Buddy Pelletier Surfing Foundation' at top."
       },
       "date_ranges": {
         "period_1": null,
@@ -1512,7 +1527,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Campbell University"
+        "notes": "Generated from Kaggle dataset for Campbell University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1562,7 +1578,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Carolina Hurricanes"
+        "notes": "Generated from Kaggle dataset for Carolina Hurricanes",
+        "visual_identifier": "Y- Team logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1612,7 +1629,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Carolina Panthers"
+        "notes": "Generated from Kaggle dataset for Carolina Panthers",
+        "visual_identifier": "Y- Team logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1662,7 +1680,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Carolinas Golf Association"
+        "notes": "Generated from Kaggle dataset for Carolinas Golf Association",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1712,7 +1731,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Charlotte Hornets"
+        "notes": "Generated from Kaggle dataset for Charlotte Hornets",
+        "visual_identifier": "Y- Team logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1762,7 +1782,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Charlotte Motor Speedway"
+        "notes": "Generated from Kaggle dataset for Charlotte Motor Speedway",
+        "visual_identifier": "Y- Race Graphic at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1812,7 +1833,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Choose Life"
+        "notes": "Generated from Kaggle dataset for Choose Life",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1862,7 +1884,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Clemson University"
+        "notes": "Generated from Kaggle dataset for Clemson University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -1962,7 +1985,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Coast Guard Reserve"
+        "notes": "Generated from Kaggle dataset for Coast Guard Reserve",
+        "visual_identifier": "Y- Branch logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -2062,7 +2086,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Congressional Medal of Honor"
+        "notes": "Generated from Kaggle dataset for Congressional Medal of Honor",
+        "visual_identifier": "Y- Medal icon at center of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -2112,7 +2137,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Core Sound Waterfowl Museum"
+        "notes": "Generated from Kaggle dataset for Core Sound Waterfowl Museum",
+        "visual_identifier": "Y- Lighthouse icon at left of plate; 'WWW.CORESOUND.COM' at top."
       },
       "date_ranges": {
         "period_1": null,
@@ -2262,7 +2288,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Davidson College"
+        "notes": "Generated from Kaggle dataset for Davidson College",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -2312,7 +2339,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Delta Sigma Theta Sorority"
+        "notes": "Generated from Kaggle dataset for Delta Sigma Theta Sorority",
+        "visual_identifier": "Y- Sorority logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -2412,7 +2440,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Desert Storm Veteran"
+        "notes": "Generated from Kaggle dataset for Desert Storm Veteran",
+        "visual_identifier": "Y- Medal logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -2462,7 +2491,9 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Disabled Veteran"
+        "notes": "Generated from Kaggle dataset for Disabled Veteran",
+        "character_modifications": "Y - OMIT vertical series title.",
+        "visual_identifier": "Y - Wheelchair logo and Disabled Veteran appears on plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2512,7 +2543,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Distinguished Flying Cross"
+        "notes": "Generated from Kaggle dataset for Distinguished Flying Cross",
+        "visual_identifier": "Y- Medal logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -2612,7 +2644,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Donate Life"
+        "notes": "Generated from Kaggle dataset for Donate Life",
+        "visual_identifier": "Y- Organization logo at left of plate; 'Organ Donors Save Lives' at top."
       },
       "date_ranges": {
         "period_1": null,
@@ -2712,7 +2745,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Duke University"
+        "notes": "Generated from Kaggle dataset for Duke University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -2762,7 +2796,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Durham Bulls"
+        "notes": "Generated from Kaggle dataset for Durham Bulls",
+        "visual_identifier": "Y- Team logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -2812,7 +2847,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Eagle Scout"
+        "notes": "Generated from Kaggle dataset for Eagle Scout",
+        "visual_identifier": "Y- Medal logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -2862,7 +2898,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for East Carolina University"
+        "notes": "Generated from Kaggle dataset for East Carolina University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -2912,7 +2949,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Eastern Band of Cherokee Indians"
+        "notes": "Generated from Kaggle dataset for Eastern Band of Cherokee Indians",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -2962,7 +3000,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Elizabeth City State University"
+        "notes": "Generated from Kaggle dataset for Elizabeth City State University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -3012,7 +3051,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Elon University"
+        "notes": "Generated from Kaggle dataset for Elon University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -3112,7 +3152,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Fayetteville State University"
+        "notes": "Generated from Kaggle dataset for Fayetteville State University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -3312,7 +3353,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Florida State University"
+        "notes": "Generated from Kaggle dataset for Florida State University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -3462,7 +3504,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Gardner Webb University"
+        "notes": "Generated from Kaggle dataset for Gardner Webb University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -3512,7 +3555,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Georgia Tech"
+        "notes": "Generated from Kaggle dataset for Georgia Tech",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -3562,7 +3606,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Gold Star Lapel Button"
+        "notes": "Generated from Kaggle dataset for Gold Star Lapel Button",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -3612,7 +3657,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Guilford Battleground Company"
+        "notes": "Generated from Kaggle dataset for Guilford Battleground Company",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -3762,7 +3808,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for High Point University"
+        "notes": "Generated from Kaggle dataset for High Point University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -3812,7 +3859,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Historic Lighthouse"
+        "notes": "Generated from Kaggle dataset for Historic Lighthouse",
+        "visual_identifier": "Y- Lighthouse logo & 'GUARDIAN OF THE GRAVEYARD OF THE ATLANTIC' at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -3862,7 +3910,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Home Care and Hospice"
+        "notes": "Generated from Kaggle dataset for Home Care and Hospice",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -3962,7 +4011,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Iraq Veteran"
+        "notes": "Generated from Kaggle dataset for Iraq Veteran",
+        "visual_identifier": "Y- Campaign Ribbon logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -4062,7 +4112,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Kappa Alpha Psi"
+        "notes": "Generated from Kaggle dataset for Kappa Alpha Psi",
+        "visual_identifier": "Y- Fraternity logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -4262,7 +4313,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Kids First"
+        "notes": "Generated from Kaggle dataset for Kids First",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -4312,7 +4364,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Knights of Columbus"
+        "notes": "Generated from Kaggle dataset for Knights of Columbus",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -4362,7 +4415,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Korean Conflict"
+        "notes": "Generated from Kaggle dataset for Korean Conflict",
+        "visual_identifier": "Y- Campaign Ribbon logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -4462,7 +4516,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Legion of Merit"
+        "notes": "Generated from Kaggle dataset for Legion of Merit",
+        "visual_identifier": "Y- Medal logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -4512,7 +4567,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Legion of Valor"
+        "notes": "Generated from Kaggle dataset for Legion of Valor",
+        "visual_identifier": "Y- Medal logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -4712,7 +4768,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Marine Corps League"
+        "notes": "Generated from Kaggle dataset for Marine Corps League",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -4762,7 +4819,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Marine Corps Reserve"
+        "notes": "Generated from Kaggle dataset for Marine Corps Reserve",
+        "visual_identifier": "Y- Branch logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -4812,7 +4870,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Maritime Museum"
+        "notes": "Generated from Kaggle dataset for Maritime Museum",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -4862,7 +4921,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Masonic Temple"
+        "notes": "Generated from Kaggle dataset for Masonic Temple",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -4912,7 +4972,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Meredith College"
+        "notes": "Generated from Kaggle dataset for Meredith College",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -4962,7 +5023,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Methodist University"
+        "notes": "Generated from Kaggle dataset for Methodist University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -5012,7 +5074,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Michigan State University"
+        "notes": "Generated from Kaggle dataset for Michigan State University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -5412,7 +5475,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for NC Central University"
+        "notes": "Generated from Kaggle dataset for NC Central University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -5662,7 +5726,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for NC State University"
+        "notes": "Generated from Kaggle dataset for NC State University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -5712,7 +5777,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for NC Wildlife Habitat Foundation"
+        "notes": "Generated from Kaggle dataset for NC Wildlife Habitat Foundation",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -5762,7 +5828,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for National Multiple Sclerosis Society"
+        "notes": "Generated from Kaggle dataset for National Multiple Sclerosis Society",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -5812,7 +5879,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for National Rifle Association"
+        "notes": "Generated from Kaggle dataset for National Rifle Association",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -5862,7 +5930,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for National Wild Turkey Federation"
+        "notes": "Generated from Kaggle dataset for National Wild Turkey Federation",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -5912,7 +5981,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Native American"
+        "notes": "Generated from Kaggle dataset for Native American",
+        "visual_identifier": "Y- Dreamcatcher logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -6012,7 +6082,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Naval Reserve"
+        "notes": "Generated from Kaggle dataset for Naval Reserve",
+        "visual_identifier": "Y- Branch logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -6062,7 +6133,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for North Carolina Coastal Federation"
+        "notes": "Generated from Kaggle dataset for North Carolina Coastal Federation",
+        "visual_identifier": "Y- 'Protect Our Coast' at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -6212,7 +6284,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for North Carolina Tennis Foundation"
+        "notes": "Generated from Kaggle dataset for North Carolina Tennis Foundation",
+        "visual_identifier": "Y - 'Play Tennis' appears top center of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6262,7 +6335,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for North Carolina Trout Unlimited"
+        "notes": "Generated from Kaggle dataset for North Carolina Trout Unlimited",
+        "visual_identifier": "Y - 'Back the Brookie' appears top center of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6312,7 +6386,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for North Carolina Zoological Society"
+        "notes": "Generated from Kaggle dataset for North Carolina Zoological Society",
+        "visual_identifier": "Y- Zebra logo & 'Support the NC ZOO' at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -6362,7 +6437,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Nurses"
+        "notes": "Generated from Kaggle dataset for Nurses",
+        "visual_identifier": "Y- Oil Lamp logo & 'First in Nursing' at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -6412,7 +6488,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Oasis Temple"
+        "notes": "Generated from Kaggle dataset for Oasis Temple",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -6462,7 +6539,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Olympic Games"
+        "notes": "Generated from Kaggle dataset for Olympic Games",
+        "visual_identifier": "Y- Olympic rings logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -6512,7 +6590,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Omega Psi Phi Fraternity"
+        "notes": "Generated from Kaggle dataset for Omega Psi Phi Fraternity",
+        "visual_identifier": "Y- Fraternity logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -6662,7 +6741,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for POW/MIA"
+        "notes": "Generated from Kaggle dataset for POW/MIA",
+        "visual_identifier": "Y- Organization logo at left of plate; 'BRING THEM HOME' at top"
       },
       "date_ranges": {
         "period_1": null,
@@ -6762,7 +6842,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Partially Disabled Veteran"
+        "notes": "Generated from Kaggle dataset for Partially Disabled Veteran",
+        "visual_identifier": "Y - 'PD' and Partially Disabled Veteran appears on plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6812,7 +6893,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Pearl Harbor Survivor"
+        "notes": "Generated from Kaggle dataset for Pearl Harbor Survivor",
+        "visual_identifier": "Y- Eagle in Circle logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -6862,7 +6944,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Penn State University"
+        "notes": "Generated from Kaggle dataset for Penn State University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -6912,7 +6995,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Phi Beta Sigma Fraternity"
+        "notes": "Generated from Kaggle dataset for Phi Beta Sigma Fraternity",
+        "visual_identifier": "Y- Fraternity logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -6962,7 +7046,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Piedmont Airlines"
+        "notes": "Generated from Kaggle dataset for Piedmont Airlines",
+        "visual_identifier": "Y- Airline logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -7062,7 +7147,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Prince Hall Mason"
+        "notes": "Generated from Kaggle dataset for Prince Hall Mason",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -7512,7 +7598,9 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Rescue Squad"
+        "notes": "Generated from Kaggle dataset for Rescue Squad",
+        "character_modifications": "Y - OMIT small print series title on left when seen.",
+        "visual_identifier": "Y - Series title appears on left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -7562,7 +7650,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Retired Air Force"
+        "notes": "Generated from Kaggle dataset for Retired Air Force",
+        "visual_identifier": "Y- Branch logo appears on left of plate; 'Retired' on plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -7612,7 +7701,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Retired Army"
+        "notes": "Generated from Kaggle dataset for Retired Army",
+        "visual_identifier": "Y- Branch logo appears on left of plate; 'Retired' on plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -7712,7 +7802,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Retired Marine"
+        "notes": "Generated from Kaggle dataset for Retired Marine",
+        "visual_identifier": "Y- Branch logo appears on left of plate; 'Retired' on plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -7762,7 +7853,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Retired National Guard"
+        "notes": "Generated from Kaggle dataset for Retired National Guard",
+        "visual_identifier": "Y- Militiaman logo appears on left of plate; 'Retired' on plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -7812,7 +7904,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Retired Navy"
+        "notes": "Generated from Kaggle dataset for Retired Navy",
+        "visual_identifier": "Y- Branch logo appears on left of plate; 'Retired' on plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -8012,7 +8105,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Ronald McDonald House"
+        "notes": "Generated from Kaggle dataset for Ronald McDonald House",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -8112,7 +8206,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Ruritan Club"
+        "notes": "Generated from Kaggle dataset for Ruritan Club",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -8262,7 +8357,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Save the Honey Bee"
+        "notes": "Generated from Kaggle dataset for Save the Honey Bee",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -8412,7 +8508,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Shag Dancing"
+        "notes": "Generated from Kaggle dataset for Shag Dancing",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -8512,7 +8609,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Shaw University"
+        "notes": "Generated from Kaggle dataset for Shaw University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -8662,7 +8760,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Square Dance Club"
+        "notes": "Generated from Kaggle dataset for Square Dance Club",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -8712,7 +8811,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Sudan Temple"
+        "notes": "Generated from Kaggle dataset for Sudan Temple",
+        "visual_identifier": "Y- Organization logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -8812,7 +8912,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Support Soccer"
+        "notes": "Generated from Kaggle dataset for Support Soccer",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8862,7 +8963,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for The Pisgah Conservancy"
+        "notes": "Generated from Kaggle dataset for The Pisgah Conservancy",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8912,7 +9014,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for The V Foundation"
+        "notes": "Generated from Kaggle dataset for The V Foundation",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8962,7 +9065,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Tobacco Heritage"
+        "notes": "Generated from Kaggle dataset for Tobacco Heritage",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9462,7 +9566,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for US Naval Academy"
+        "notes": "Generated from Kaggle dataset for US Naval Academy",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -9512,7 +9617,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Alabama"
+        "notes": "Generated from Kaggle dataset for University of Alabama",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -9562,7 +9668,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Florida"
+        "notes": "Generated from Kaggle dataset for University of Florida",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -9612,7 +9719,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Georgia"
+        "notes": "Generated from Kaggle dataset for University of Georgia",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -9662,7 +9770,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Kentucky"
+        "notes": "Generated from Kaggle dataset for University of Kentucky",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -9712,7 +9821,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Michigan"
+        "notes": "Generated from Kaggle dataset for University of Michigan",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -10012,7 +10122,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of South Carolina"
+        "notes": "Generated from Kaggle dataset for University of South Carolina",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -10062,7 +10173,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Veterans of Foreign Wars"
+        "notes": "Generated from Kaggle dataset for Veterans of Foreign Wars",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10162,7 +10274,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Virginia Tech"
+        "notes": "Generated from Kaggle dataset for Virginia Tech",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -10212,7 +10325,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Wake Forest University"
+        "notes": "Generated from Kaggle dataset for Wake Forest University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -10312,7 +10426,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Watermelon"
+        "notes": "Generated from Kaggle dataset for Watermelon",
+        "visual_identifier": "Y- Watermelon image on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10362,7 +10477,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Western Carolina University"
+        "notes": "Generated from Kaggle dataset for Western Carolina University",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -10412,7 +10528,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Wildlife Resources"
+        "notes": "Generated from Kaggle dataset for Wildlife Resources",
+        "visual_identifier": "Y- School logo at left of plate"
       },
       "date_ranges": {
         "period_1": null,
@@ -10562,7 +10679,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Wrightsville Beach"
+        "notes": "Generated from Kaggle dataset for Wrightsville Beach",
+        "visual_identifier": "Y- Organization logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10612,7 +10730,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Zeta Phi Beta Sorority"
+        "notes": "Generated from Kaggle dataset for Zeta Phi Beta Sorority",
+        "visual_identifier": "Y- Sorority logo at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10629,6 +10748,2954 @@
       "visual_identifier": "N",
       "processing_rules": "N",
       "requires_prefix": false
+    },
+    {
+      "type_name": "A & T State University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "North Carolina A & T State University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Alpha Kappa Alpha Sorority",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Alpha Kappa Alpha Sorority plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Sorority logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Amateur Radio",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Amateur Radio plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Amateur Radio appears across top of plate. Call sign for registration",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Antique Auto",
+      "code_number": "0",
+      "category": "antique",
+      "description": "North Carolina Antique Auto plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'ANTIQUE AUTO' at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Antique Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "North Carolina Antique Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'ANTIQUE MOTORCYCLE' at left of plate",
+        "vehicle_type_identification": "Y- Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Appalachian State",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Appalachian State plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Apportioned",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "North Carolina Apportioned plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Apportioned appears on plate depending on vehicle type.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "ArtsNC.org",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina ArtsNC.org plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate; 'The CREATIVE State' at top.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Association of Fire Chiefs",
+      "code_number": "0",
+      "category": "government",
+      "description": "North Carolina Association of Fire Chiefs plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate; 'NC FIRE OFFICER' at top.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Aurora Fossil Museum",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Aurora Fossil Museum plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate; 'Dig the Past!' at top.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Battle of King's Mountain",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Battle of King's Mountain plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Militiaman logo at left of plate; 'TURNING POINT of the REVOLUTION' at top.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Picture"
+        ]
+      }
+    },
+    {
+      "type_name": "Breast Cancer",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Breast Cancer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Bronze Star with Valor",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Bronze Star with Valor plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Medal icon at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Citizen's Band Radio",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Citizen's Band Radio plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'CITIZENS BAND RADIO' at center of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Civil Air Patrol",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Civil Air Patrol plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Clerk of Superior Court",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Clerk of Superior Court plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Coast Guard Auxiliary",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Coast Guard Auxiliary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Coastal Land Trust.org",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Coastal Land Trust.org plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'Coastal Land Trust.org' at top of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Consular Corps",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Consular Corps plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Court of Appeals",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Court of Appeals plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dealer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "North Carolina Dealer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Dealer appears across top of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Dealer Transporter",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "North Carolina Dealer Transporter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Transporter appears across bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Distinguished Service Cross",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "North Carolina Distinguished Service Cross plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Medal logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Drive Away",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Drive Away plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'DRIVE AWAY' at top of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Farm Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "North Carolina Farm Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - FARM TRUCK NC appears across bottom of plate. Commercial appears at the top of the plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Firefighter Rescue Squad",
+      "code_number": "0",
+      "category": "government",
+      "description": "North Carolina Firefighter Rescue Squad plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Firefighter",
+      "code_number": "0",
+      "category": "government",
+      "description": "North Carolina Firefighter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "For Hire",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina For Hire plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - For Hire appears across top of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Fraternal Order of Police",
+      "code_number": "0",
+      "category": "government",
+      "description": "North Carolina Fraternal Order of Police plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Friends of the Appalachian Trail",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Friends of the Appalachian Trail plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate; 'www.AppalachianTrail.org' on top.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Friends of the Smokies",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Friends of the Smokies plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Global Trans Park",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Global Trans Park plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y -Plate starts with GTP.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Handicapped Driver",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Handicapped Driver plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Wheelchair logo.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Handicapped Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "North Carolina Handicapped Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Wheelchair logo appears on plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Harley Owners Group (HOG)",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Harley Owners Group (HOG) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Homes 4 NC",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Homes 4 NC plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Horseless Carriage",
+      "code_number": "0",
+      "category": "antique",
+      "description": "North Carolina Horseless Carriage plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Series title appears on right of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": true
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "International Association of Firefighters",
+      "code_number": "0",
+      "category": "government",
+      "description": "North Carolina International Association of Firefighters plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Juvenile Diabetes Research",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Juvenile Diabetes Research plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Kick Cancer for Kids",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Kick Cancer for Kids plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Lenoir-Rhyne University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "North Carolina Lenoir-Rhyne University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Lion's Club",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Lion's Club plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Manufacturer",
+      "code_number": "0",
+      "category": "dealer",
+      "description": "North Carolina Manufacturer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Marine Corps Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "North Carolina Marine Corps Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Branch logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Master Gardner",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Master Gardner plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Watercan logo & 'Extension Master Gardner' at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "North Carolina Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - N.C. appears top center of plate.",
+        "vehicle_type_identification": "Y - Motorcycle",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Temporary",
+          "Veteran"
+        ]
+      }
+    },
+    {
+      "type_name": "Mountains to Sea Trail",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Mountains to Sea Trail plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "NASCAR",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina NASCAR plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "National Guard",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina National Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Militiaman logo and National guard appear on plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "NC Department of Transportation",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina NC Department of Transportation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Blue rectangle DOT logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "NC District Attorney",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina NC District Attorney plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration starts with 'DA'",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "NC House",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina NC House plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Blue rectangle HOUSE logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "NC Judicial",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina NC Judicial plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration starts with 'J'",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "NC Magistrate",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina NC Magistrate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration starts with 'MJ'",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "NC Senate",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina NC Senate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Blue rectangle SENATE logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "North Carolina Aquariums",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina North Carolina Aquariums plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Order of the Easter Star",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Order of the Easter Star plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Sorority logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Order of the Long Leaf",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Order of the Long Leaf plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Outer Banks",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Outer Banks plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - Must use letter O for first character.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y -Plate starts with OBX.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II"
+        ]
+      }
+    },
+    {
+      "type_name": "Permanent Apportioned Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "North Carolina Permanent Apportioned Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'NC PERMANENT' appears top center of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Permanent Apportioned Vehicle",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "North Carolina Permanent Apportioned Vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'NC PERMANENT' appears top center of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Permanent Commercial Truck",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "North Carolina Permanent Commercial Truck plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'NC PERMANENT' appears top center of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Permanent Motorcycle",
+      "code_number": "0",
+      "category": "motorcycle",
+      "description": "North Carolina Permanent Motorcycle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'NC PERMANENT' appears top center of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Permanent For Hire",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Permanent For Hire plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'NC PERMANENT' appears top center of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Permanent  Private Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "North Carolina Permanent  Private Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'NC PERMANENT' appears top center of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Permanent Multi-Year Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "North Carolina Permanent Multi-Year Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'MULTI YEAR' at bottom of plate.",
+        "vehicle_type_identification": "Y-Trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Permanent Vehicle",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Permanent Vehicle plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'PERMANENT' at bottom of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2012-2014",
+          "Since 2015"
+        ]
+      }
+    },
+    {
+      "type_name": "Pilot Mountain National Landmark",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Pilot Mountain National Landmark plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Landmark logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Police Benevolent Association",
+      "code_number": "0",
+      "category": "government",
+      "description": "North Carolina Police Benevolent Association plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Prince Hall Shrine",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Prince Hall Shrine plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Prisoner of War",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Prisoner of War plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y-Do NOT key verticals",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-Registration begins with 'P0W'",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Private Commercial",
+      "code_number": "0",
+      "category": "commercial",
+      "description": "North Carolina Private Commercial plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Weighted appears across top of plate.",
+        "vehicle_type_identification": "Y-Truck",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2006-2014",
+          "Since 2015"
+        ]
+      }
+    },
+    {
+      "type_name": "Private  Small Trailer",
+      "code_number": "0",
+      "category": "trailer",
+      "description": "North Carolina Private  Small Trailer plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": "Y-Trailer",
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Purdue",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Purdue plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Purple Heart Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "North Carolina Purple Heart Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - OMIT small print series title on right when seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Plate starts with vertical PH.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Register of Deeds",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Register of Deeds plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - OMIT small print series title on left when seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Series title appears on left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Retired Clerk of Supreme Court",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Retired Clerk of Supreme Court plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'Retired' on plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Retired Coast  Guard",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Retired Coast  Guard plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Branch logo appears on left of plate; 'Retired' on plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Retired Highway Patrol",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Retired Highway Patrol plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'Retired' on plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Retired Law Enforcement",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Retired Law Enforcement plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'Retired' on plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Retired Legislator (House)",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Retired Legislator (House) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'Retired' on plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Retired legislator (Senate)",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Retired legislator (Senate) plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'Retired' on plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Retired Magistrate",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Retired Magistrate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- 'Retired' on plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Retired Sheriff",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Retired Sheriff plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Sheriff Star logo appears on left of plate; 'Retired' on plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Rocky Mountain Elk Federation",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Rocky Mountain Elk Federation plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Elk logo at left of plate; Series Title at top.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Rotary International",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Rotary International plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Save the Sea Turtles",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Save the Sea Turtles plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "SCUBA Diver",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina SCUBA Diver plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- SCUBA logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Share the Road",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Share the Road plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Sheriff",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Sheriff plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Registration starts with 'S'",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Sheriff's Association",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Sheriff's Association plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Silver Star Recipient",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Silver Star Recipient plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Medal Icon at left; Disabled Vet Series has Wheelchair Icon as well.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Regular",
+          "Disabled"
+        ]
+      }
+    },
+    {
+      "type_name": "Sons of Confederate Veterans",
+      "code_number": "0",
+      "category": "military",
+      "description": "North Carolina Sons of Confederate Veterans plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Special Mobile Equipment",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Special Mobile Equipment plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - 'Spec Mobile' appears across top of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State Government Official",
+      "code_number": "0",
+      "category": "government",
+      "description": "North Carolina State Government Official plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "State Highway Patrol",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina State Highway Patrol plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Motorcycle"
+        ]
+      }
+    },
+    {
+      "type_name": "State Owned",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina State Owned plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Regular",
+          "Motorcycle"
+        ]
+      }
+    },
+    {
+      "type_name": "Support our Troops",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Support our Troops plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo at left of plate; 'SupportOurTroops.org' under the logo.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Supreme Court Judge",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Supreme Court Judge plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": "Y - OMIT small print series title on left when seen.",
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - Series title appears on left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Surveyors",
+      "code_number": "0",
+      "category": "recreational",
+      "description": "North Carolina Surveyors plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Surveyor logo & 'Following in Their Footsteps' at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Taxi",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Taxi plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Temporary",
+      "code_number": "0",
+      "category": "temporary",
+      "description": "North Carolina Temporary plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y - preprinted or electronic printed paper tags. Do not accept hand written tags.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "Type I",
+          "Type II",
+          "Truck"
+        ]
+      }
+    },
+    {
+      "type_name": "Transporter",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Transporter plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "UNC - Chapel Hill",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina UNC - Chapel Hill plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "UNC - Charlotte",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina UNC - Charlotte plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2000-2018",
+          "Since 2019"
+        ]
+      }
+    },
+    {
+      "type_name": "UNC - Greensboro",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina UNC - Greensboro plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "UNC - Pembroke",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina UNC - Pembroke plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2000-2015",
+          "Since 2016"
+        ]
+      }
+    },
+    {
+      "type_name": "UNC - Wilmington",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina UNC - Wilmington plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2000-2014",
+          "Since 2015"
+        ]
+      }
+    },
+    {
+      "type_name": "US Air Force Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "North Carolina US Air Force Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Branch logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "US Army Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "North Carolina US Army Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Branch logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "US District Attorney",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina US District Attorney plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "US House",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina US House plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "US Marshal",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina US Marshal plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "US Navy Submarine Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "North Carolina US Navy Submarine Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Branch logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "US Senate",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina US Senate plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "US Supreme Court Judge",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina US Supreme Court Judge plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": null,
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Van Pool",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "North Carolina Van Pool plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Series title at top of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Vietnam Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "North Carolina Vietnam Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-Ribbon logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "War on Terror Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "North Carolina War on Terror Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-Ribbon logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Winston-Salem State University",
+      "code_number": "0",
+      "category": "collegiate",
+      "description": "North Carolina Winston-Salem State University plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- School logo at left of plate",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": [
+          "2000-2017",
+          "Since 2018"
+        ]
+      }
+    },
+    {
+      "type_name": "WWII Veteran",
+      "code_number": "0",
+      "category": "military",
+      "description": "North Carolina WWII Veteran plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y-Ribbon logo at left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
     }
   ],
   "processing_metadata": {
@@ -10636,27 +13703,33 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Mixed O/0 usage - requires verification",
+      "character_restrictions": "Mixed O/0 usage - requires verification; State does not use letter 'O', only number '0'",
       "stacked_characters": {
         "include": [
           "DV",
           "IC",
-          "VF",
-          "PH",
-          "PD",
           "NC",
-          "NG"
+          "NG",
+          "PD",
+          "PH",
+          "VF"
         ],
         "omit": [
-          "ALL symbols (-)"
+          "ALL",
+          "ALL SYMBOLS",
+          "ALL symbols (-)",
+          "SMALL",
+          "SMALL PRINT",
+          "VERTICAL",
+          "VERTICAL SERIES"
         ],
-        "position": "INCLUDE stacked DV, IC, NC, NG throughout. ADD 'SC' prefix for Supreme Court tags. OBX first character always letter O.",
+        "position": "Y - OMIT vertical series title.; Y-Do NOT key verticals",
         "max_characters": null,
         "prefix_rules": {
           "supreme_court": "ADD prefix SC"
         },
         "symbols_allowed": null,
-        "notes": "Include stacked chars. Vertical/small NC or NG must be keyed. Omit dashes. Add SC prefix for Supreme Court plates."
+        "notes": "Include stacked chars. Vertical/small NC or NG must be keyed. Omit dashes. Add SC prefix for Supreme Court plates.; Extracted from 9 plate types with character modifications"
       }
     }
   },

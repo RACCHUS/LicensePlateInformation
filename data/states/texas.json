@@ -13,17 +13,20 @@
   "processing_metadata": {
     "description": "Official Texas DMV processing rules and validation requirements",
     "global_rules": {
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; State does not use letter 'O', only number '0'",
       "font_changes": "Information needed - check historical changes",
       "code_system": "Code Number system used - most plates use Code Number 0",
       "stacked_characters": {
         "include": [
-          "DV"
+          "DV",
+          "PH"
         ],
         "omit": [
+          "PH if not in registration",
+          "SERIES",
+          "SERIES NAME",
           "T",
-          "series names on Antique plates",
-          "PH if not in registration"
+          "series names on Antique plates"
         ],
         "position": "INCLUDE 'DV' stacked characters on Disabled Veteran plates (appears in registration). OMIT letter 'T' in white part of plate. OMIT series names on Antique plates. DO NOT add 'PH' to Purple Heart plates if not already in registration characters.",
         "max_characters": null,
@@ -33,7 +36,7 @@
           "disabled_veteran": "DV appears in registration and must be keyed"
         },
         "symbols_allowed": null,
-        "notes": "INCLUDE 'DV' stacked on Disabled Veteran plates. OMIT letter 'T' in white part of plate. OMIT series names on Antique plates. Purple Heart: DO NOT add PH if not in registration. Temporary tags must be preprinted or electronic - DO NOT accept hand written tags."
+        "notes": "INCLUDE 'DV' stacked on Disabled Veteran plates. OMIT letter 'T' in white part of plate. OMIT series names on Antique plates. Purple Heart: DO NOT add PH if not in registration. Temporary tags must be preprinted or electronic - DO NOT accept hand written tags.; Extracted from 4 plate types with character modifications"
       },
       "temporary_tags": {
         "accepted": "Preprinted or electronic printed paper tags only",
@@ -2709,7 +2712,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for USA Pride"
+        "notes": "Generated from Kaggle dataset for USA Pride",
+        "visual_identifier": "Y- American Flag logo appears on left of plate; 'FREEDOM' at the bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -2859,7 +2863,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Yellow Rose of Texas"
+        "notes": "Generated from Kaggle dataset for Yellow Rose of Texas",
+        "visual_identifier": "Y- Yellow Rose logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2909,7 +2914,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Arizona State University"
+        "notes": "Generated from Kaggle dataset for Arizona State University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -2959,7 +2965,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Auburn University"
+        "notes": "Generated from Kaggle dataset for Auburn University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3059,7 +3066,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Baylor University"
+        "notes": "Generated from Kaggle dataset for Baylor University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3109,7 +3117,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Brigham Young University"
+        "notes": "Generated from Kaggle dataset for Brigham Young University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3259,7 +3268,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Florida State University"
+        "notes": "Generated from Kaggle dataset for Florida State University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3359,7 +3369,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Iowa State University"
+        "notes": "Generated from Kaggle dataset for Iowa State University",
+        "visual_identifier": "Y- School logo appears on left of plate; 'CYCLONES' on bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -3409,7 +3420,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Kansas State University"
+        "notes": "Generated from Kaggle dataset for Kansas State University",
+        "visual_identifier": "Y- School logo appears on left of plate 'GO WILDCATS!' on bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -3509,7 +3521,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Louisiana State University"
+        "notes": "Generated from Kaggle dataset for Louisiana State University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3609,7 +3622,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Louisiana Tech University"
+        "notes": "Generated from Kaggle dataset for Louisiana Tech University",
+        "visual_identifier": "Y- School logo appears on left of plate; 'GO BULLDOGS!' on bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -3659,7 +3673,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Michigan State University"
+        "notes": "Generated from Kaggle dataset for Michigan State University",
+        "visual_identifier": "Y- School logo appears on left of plate; 'GO SPARTANS' on bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -3709,7 +3724,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Mississippi State University"
+        "notes": "Generated from Kaggle dataset for Mississippi State University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3759,7 +3775,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Oklahoma State University"
+        "notes": "Generated from Kaggle dataset for Oklahoma State University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3859,7 +3876,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Prairie View A&M University"
+        "notes": "Generated from Kaggle dataset for Prairie View A&M University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -3909,7 +3927,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Purdue University"
+        "notes": "Generated from Kaggle dataset for Purdue University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4009,7 +4028,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Southern Methodist University"
+        "notes": "Generated from Kaggle dataset for Southern Methodist University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4059,7 +4079,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Southern University"
+        "notes": "Generated from Kaggle dataset for Southern University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4159,7 +4180,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Tarleton State University"
+        "notes": "Generated from Kaggle dataset for Tarleton State University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4359,7 +4381,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Texas Christian University"
+        "notes": "Generated from Kaggle dataset for Texas Christian University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4459,7 +4482,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Texas State University"
+        "notes": "Generated from Kaggle dataset for Texas State University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4509,7 +4533,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Texas Tech University"
+        "notes": "Generated from Kaggle dataset for Texas Tech University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -4659,7 +4684,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Alabama"
+        "notes": "Generated from Kaggle dataset for University of Alabama",
+        "visual_identifier": "Y- School logo appears on left of plate; 'ROLL TIDE ROLL' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -4759,7 +4785,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Colorado"
+        "notes": "Generated from Kaggle dataset for University of Colorado",
+        "visual_identifier": "Y- School logo appears on left of plate; 'ForeverBuffs' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -4859,7 +4886,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Georgia"
+        "notes": "Generated from Kaggle dataset for University of Georgia",
+        "visual_identifier": "Y- School logo appears on left of plate; 'UGA BULLDOGS' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -4959,7 +4987,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Iowa"
+        "notes": "Generated from Kaggle dataset for University of Iowa",
+        "visual_identifier": "Y- School logo appears on left of plate; 'HAWKEYES' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -5009,7 +5038,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Kansas"
+        "notes": "Generated from Kaggle dataset for University of Kansas",
+        "visual_identifier": "Y- School logo appears on left of plate; 'JAYHAWKS' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -5059,7 +5089,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Louisiana"
+        "notes": "Generated from Kaggle dataset for University of Louisiana",
+        "visual_identifier": "Y- School logo appears on left of plate; 'RAGIN' CAJUNS' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -5109,7 +5140,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Michigan"
+        "notes": "Generated from Kaggle dataset for University of Michigan",
+        "visual_identifier": "Y- School logo appears on left of plate; 'GO BLUE' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -5159,7 +5191,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Mississippi"
+        "notes": "Generated from Kaggle dataset for University of Mississippi",
+        "visual_identifier": "Y- School logo appears on left of plate; 'HOTTY TODDY' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -5209,7 +5242,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Nebraska"
+        "notes": "Generated from Kaggle dataset for University of Nebraska",
+        "visual_identifier": "Y- School logo appears on left of plate; 'HUSKERS' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -5259,7 +5293,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of North Texas"
+        "notes": "Generated from Kaggle dataset for University of North Texas",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -5359,7 +5394,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for University of Oklahoma"
+        "notes": "Generated from Kaggle dataset for University of Oklahoma",
+        "visual_identifier": "Y- School logo appears on left of plate; 'BOOMER SOONER' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -5809,7 +5845,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Delta Sigma Theta"
+        "notes": "Generated from Kaggle dataset for Delta Sigma Theta",
+        "visual_identifier": "Y-Sorority logo appears at left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -5959,7 +5996,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Carroll ISD"
+        "notes": "Generated from Kaggle dataset for Carroll ISD",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6009,7 +6047,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Austin FC"
+        "notes": "Generated from Kaggle dataset for Austin FC",
+        "visual_identifier": "Y- Team logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6209,7 +6248,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Dallas Mavericks"
+        "notes": "Generated from Kaggle dataset for Dallas Mavericks",
+        "visual_identifier": "Y- Team logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6309,7 +6349,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Dallas Stars"
+        "notes": "Generated from Kaggle dataset for Dallas Stars",
+        "visual_identifier": "Y- Team logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6359,7 +6400,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Houston Rockets"
+        "notes": "Generated from Kaggle dataset for Houston Rockets",
+        "visual_identifier": "Y- Team logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6409,7 +6451,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Houston Texans"
+        "notes": "Generated from Kaggle dataset for Houston Texans",
+        "visual_identifier": "Y- Team logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6509,7 +6552,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for San Antonio Spurs"
+        "notes": "Generated from Kaggle dataset for San Antonio Spurs",
+        "visual_identifier": "Y- Team logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6609,7 +6653,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Texas Trophy Hunters Association"
+        "notes": "Generated from Kaggle dataset for Texas Trophy Hunters Association",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -6659,7 +6704,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Breast Cancer Ribbon"
+        "notes": "Generated from Kaggle dataset for Breast Cancer Ribbon",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7009,7 +7055,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Texas State Rifle Association"
+        "notes": "Generated from Kaggle dataset for Texas State Rifle Association",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7059,7 +7106,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Mighty Fine Burgers"
+        "notes": "Generated from Kaggle dataset for Mighty Fine Burgers",
+        "visual_identifier": "Y- Burger logo appears on left of plate; 'MIGHTY FINE' on bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -7109,7 +7157,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Remax"
+        "notes": "Generated from Kaggle dataset for Remax",
+        "visual_identifier": "Y- Remax logo appears on left of plate; 'GET IT SOLD WITH REMAX' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -7259,7 +7308,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Adopt a Beach"
+        "notes": "Generated from Kaggle dataset for Adopt a Beach",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7309,7 +7359,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Aerospace Commission"
+        "notes": "Generated from Kaggle dataset for Aerospace Commission",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7909,7 +7960,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Childhood Cancer Awareness"
+        "notes": "Generated from Kaggle dataset for Childhood Cancer Awareness",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -7959,7 +8011,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Choose Life"
+        "notes": "Generated from Kaggle dataset for Choose Life",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8109,7 +8162,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for College for all Texans"
+        "notes": "Generated from Kaggle dataset for College for all Texans",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8259,7 +8313,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Daughters of the American Revolution"
+        "notes": "Generated from Kaggle dataset for Daughters of the American Revolution",
+        "visual_identifier": "Y- 'God - Home - Country' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -8309,7 +8364,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Deaf and Hard of Hearing"
+        "notes": "Generated from Kaggle dataset for Deaf and Hard of Hearing",
+        "visual_identifier": "Y- 'I Love Texas' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -8509,7 +8565,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Eastern Star"
+        "notes": "Generated from Kaggle dataset for Eastern Star",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8659,7 +8716,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Family First"
+        "notes": "Generated from Kaggle dataset for Family First",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8709,7 +8767,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Fight Terrorism"
+        "notes": "Generated from Kaggle dataset for Fight Terrorism",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8759,7 +8818,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Girl Scouts"
+        "notes": "Generated from Kaggle dataset for Girl Scouts",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8909,7 +8969,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for God Bless America"
+        "notes": "Generated from Kaggle dataset for God Bless America",
+        "visual_identifier": "Y- Eagle logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -8959,7 +9020,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for God Bless Texas"
+        "notes": "Generated from Kaggle dataset for God Bless Texas",
+        "visual_identifier": "Y- Texas Flag logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9059,7 +9121,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Houston Livestock Show and Rodeo"
+        "notes": "Generated from Kaggle dataset for Houston Livestock Show and Rodeo",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9159,7 +9222,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Insure Texas Kids"
+        "notes": "Generated from Kaggle dataset for Insure Texas Kids",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9209,7 +9273,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Juneteenth"
+        "notes": "Generated from Kaggle dataset for Juneteenth",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9309,7 +9374,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Keep Texas Beautiful"
+        "notes": "Generated from Kaggle dataset for Keep Texas Beautiful",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9359,7 +9425,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Knights of Columbus"
+        "notes": "Generated from Kaggle dataset for Knights of Columbus",
+        "visual_identifier": "Y- Organization logo appears on left of plate; 'ONE NATION UNDER GOD' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -9459,7 +9526,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for March of Dimes"
+        "notes": "Generated from Kaggle dataset for March of Dimes",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9559,7 +9627,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Master Gardener"
+        "notes": "Generated from Kaggle dataset for Master Gardener",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9759,7 +9828,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for PGA Foundation"
+        "notes": "Generated from Kaggle dataset for PGA Foundation",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9859,7 +9929,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Read to Succeed"
+        "notes": "Generated from Kaggle dataset for Read to Succeed",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -9909,7 +9980,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Register to Vote"
+        "notes": "Generated from Kaggle dataset for Register to Vote",
+        "visual_identifier": "Y- Organization logo appears on left of plate; 'Are You Registered?' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -9959,7 +10031,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Rotary International"
+        "notes": "Generated from Kaggle dataset for Rotary International",
+        "visual_identifier": "Y- Organization logo appears on left of plate; 'SERVICE ABOVE SELF' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -10009,7 +10082,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for San Jacinto Texas Historic District"
+        "notes": "Generated from Kaggle dataset for San Jacinto Texas Historic District",
+        "visual_identifier": "Y- Monument appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10059,7 +10133,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Save Texas Ocelots"
+        "notes": "Generated from Kaggle dataset for Save Texas Ocelots",
+        "visual_identifier": "Y- Organization logo appears on left of plate; 'Save Texas Ocelots.org' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -10159,7 +10234,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Share The Road"
+        "notes": "Generated from Kaggle dataset for Share The Road",
+        "visual_identifier": "Y- Organization logo appears on left of plate; 'Share the Road Y'all' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -10259,7 +10335,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Smile Texas Style"
+        "notes": "Generated from Kaggle dataset for Smile Texas Style",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10459,7 +10536,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Stop Child Abuse"
+        "notes": "Generated from Kaggle dataset for Stop Child Abuse",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10509,7 +10587,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Stop Human Trafficking"
+        "notes": "Generated from Kaggle dataset for Stop Human Trafficking",
+        "visual_identifier": "Y- Organization logo appears on left of plate; 'report:iWatchTX.org' appears at the bottom of the plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10559,7 +10638,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Take Care of Texas"
+        "notes": "Generated from Kaggle dataset for Take Care of Texas",
+        "visual_identifier": "Y- Organization logo appears on left of plate; 'TakeCareOfTexas.org' appears at the bottom of the plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10659,7 +10739,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Texas is Home"
+        "notes": "Generated from Kaggle dataset for Texas is Home",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10809,7 +10890,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Texas Masons"
+        "notes": "Generated from Kaggle dataset for Texas Masons",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10859,7 +10941,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Texas Medical Center"
+        "notes": "Generated from Kaggle dataset for Texas Medical Center",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -10909,7 +10992,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Texas Music"
+        "notes": "Generated from Kaggle dataset for Texas Music",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -11509,7 +11593,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Texas Reads"
+        "notes": "Generated from Kaggle dataset for Texas Reads",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -11809,7 +11894,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for YMCA"
+        "notes": "Generated from Kaggle dataset for YMCA",
+        "visual_identifier": "Y- YMCA logo appears on left of plate; 'SPIRIT - MIND - BODY' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -11909,7 +11995,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Abilene Christian University"
+        "notes": "Generated from Kaggle dataset for Abilene Christian University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -11959,7 +12046,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Angelo State University"
+        "notes": "Generated from Kaggle dataset for Angelo State University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -12009,7 +12097,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Austin College"
+        "notes": "Generated from Kaggle dataset for Austin College",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -12109,7 +12198,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Lubbock Christian University"
+        "notes": "Generated from Kaggle dataset for Lubbock Christian University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -12159,7 +12249,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Rice University"
+        "notes": "Generated from Kaggle dataset for Rice University",
+        "visual_identifier": "Y- School logo appears on left of plate; 'Unconventional Wisdom' at bottom of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -12509,7 +12600,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Texas Southern University"
+        "notes": "Generated from Kaggle dataset for Texas Southern University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -12859,7 +12951,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for West Texas A&M University"
+        "notes": "Generated from Kaggle dataset for West Texas A&M University",
+        "visual_identifier": "Y- School logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -12959,7 +13052,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Houston Astros"
+        "notes": "Generated from Kaggle dataset for Houston Astros",
+        "visual_identifier": "Y- Team logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -13059,7 +13153,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Love Honey Bees"
+        "notes": "Generated from Kaggle dataset for Love Honey Bees",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -13159,7 +13254,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Special Olympics"
+        "notes": "Generated from Kaggle dataset for Special Olympics",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -13259,7 +13355,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Texas Rangers"
+        "notes": "Generated from Kaggle dataset for Texas Rangers",
+        "visual_identifier": "Y- Team logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -13459,7 +13556,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for American Legion"
+        "notes": "Generated from Kaggle dataset for American Legion",
+        "visual_identifier": "Y- Organization logo appears on left of plate; 'STILL SERVING AMERICA' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -13559,7 +13657,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Deaf Driver Awareness"
+        "notes": "Generated from Kaggle dataset for Deaf Driver Awareness",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -13709,7 +13808,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for 173rd Airborne Brigade"
+        "notes": "Generated from Kaggle dataset for 173rd Airborne Brigade",
+        "visual_identifier": "Y- Unit logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -13759,7 +13859,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for 36th Infantry Division"
+        "notes": "Generated from Kaggle dataset for 36th Infantry Division",
+        "visual_identifier": "Y- Unit logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -13859,7 +13960,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Air Medal"
+        "notes": "Generated from Kaggle dataset for Air Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -13959,7 +14061,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Airman's Medal"
+        "notes": "Generated from Kaggle dataset for Airman's Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -14009,7 +14112,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Armed Forces Expeditionary Medal"
+        "notes": "Generated from Kaggle dataset for Armed Forces Expeditionary Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -14109,7 +14213,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Armed Forces Service Medal"
+        "notes": "Generated from Kaggle dataset for Armed Forces Service Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -14459,7 +14564,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for China Service Medal"
+        "notes": "Generated from Kaggle dataset for China Service Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -14509,7 +14615,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Civil Air Patrol"
+        "notes": "Generated from Kaggle dataset for Civil Air Patrol",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -14609,7 +14716,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Coast Guard Medal"
+        "notes": "Generated from Kaggle dataset for Coast Guard Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -14659,7 +14767,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Combat Action Badge"
+        "notes": "Generated from Kaggle dataset for Combat Action Badge",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -14709,7 +14818,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Combat Action Medal"
+        "notes": "Generated from Kaggle dataset for Combat Action Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -15559,7 +15669,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Desert Storm Southwest Asia Service Medal"
+        "notes": "Generated from Kaggle dataset for Desert Storm Southwest Asia Service Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -15609,7 +15720,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Disabled Veteran"
+        "notes": "Generated from Kaggle dataset for Disabled Veteran",
+        "visual_identifier": "Y- Branch of Service, Medal, or Ribbon appears to the left of plate; 'DV' in the registration."
       },
       "date_ranges": {
         "period_1": null,
@@ -19509,7 +19621,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Distinguished Flying Cross Medal"
+        "notes": "Generated from Kaggle dataset for Distinguished Flying Cross Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -20309,7 +20422,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Gold Star Family"
+        "notes": "Generated from Kaggle dataset for Gold Star Family",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -20359,7 +20473,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Gold Star Father"
+        "notes": "Generated from Kaggle dataset for Gold Star Father",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -20959,7 +21074,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Kosovo Campaign Medal"
+        "notes": "Generated from Kaggle dataset for Kosovo Campaign Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -21009,7 +21125,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Legion of Merit Medal"
+        "notes": "Generated from Kaggle dataset for Legion of Merit Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -21109,7 +21226,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Marine Corps League"
+        "notes": "Generated from Kaggle dataset for Marine Corps League",
+        "visual_identifier": "Y- Organization logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -21209,7 +21327,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Merchant Marine"
+        "notes": "Generated from Kaggle dataset for Merchant Marine",
+        "visual_identifier": "Y- Branch logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -21859,7 +21978,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Operation Iraqi Freedom Medal"
+        "notes": "Generated from Kaggle dataset for Operation Iraqi Freedom Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -21909,7 +22029,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Pearl Harbor Survivor"
+        "notes": "Generated from Kaggle dataset for Pearl Harbor Survivor",
+        "visual_identifier": "Y- Organization logo appears on left of plate; 'December 7, 1941' at bottom."
       },
       "date_ranges": {
         "period_1": null,
@@ -23159,7 +23280,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Vietnam Service Medal"
+        "notes": "Generated from Kaggle dataset for Vietnam Service Medal",
+        "visual_identifier": "Y- Medal logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -23259,7 +23381,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Woman Veteran"
+        "notes": "Generated from Kaggle dataset for Woman Veteran",
+        "visual_identifier": "Y- Woman Veteran logo appears on left of plate."
       },
       "date_ranges": {
         "period_1": null,
@@ -23609,7 +23732,8 @@
         "requires_suffix": false,
         "allows_custom_text": false,
         "special_validation": null,
-        "notes": "Generated from Kaggle dataset for Star of Texas"
+        "notes": "Generated from Kaggle dataset for Star of Texas",
+        "visual_identifier": "Y - Occupation appears on tag"
       },
       "date_ranges": {
         "period_1": null,
@@ -29217,6 +29341,54 @@
         "all_numeric_plate": false
       },
       "plate_characteristics": {
+        "variations": []
+      }
+    },
+    {
+      "type_name": "Army of Occupation Medal",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Texas Army of Occupation Medal plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Medal logo appears on left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
+        "variations": []
+      }
+    },
+    {
+      "type_name": "I'd Rather be Golfing",
+      "code_number": "0",
+      "category": "specialty",
+      "description": "Texas I'd Rather be Golfing plate",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "processing_metadata": {
+        "currently_processed": true,
+        "requires_prefix": false,
+        "requires_suffix": false,
+        "character_modifications": null,
+        "verify_state_abbreviation": true,
+        "visual_identifier": "Y- Organization logo appears on left of plate.",
+        "vehicle_type_identification": null,
+        "all_numeric_plate": false
+      },
+      "plate_characteristics": {
+        "stacked_characters": null,
         "variations": []
       }
     }

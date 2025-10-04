@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: 123-ABC Pattern (1987 - 2010)     ABC1234 Pattern (2010 - Present)",
       "stacked_characters": {
         "include": [
           "AR",
