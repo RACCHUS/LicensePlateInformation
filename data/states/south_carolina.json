@@ -57,7 +57,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/SC/SC-US-Air-Force-11-15-21-AE-DLP.png",
+        "plate_sample": "data/images/Plates/South Carolina/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -11507,6 +11507,9 @@
           "2010-2016",
           "Since 2017"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/South Carolina/trailer_sample.png"
       }
     },
     {
@@ -12578,6 +12581,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/South Carolina/permanent-trailer_sample.png"
       }
     },
     {
@@ -13005,6 +13011,9 @@
           "1989-2015",
           "Since 2016"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/South Carolina/trailer_sample.png"
       }
     },
     {
@@ -13107,6 +13116,9 @@
           "2015",
           "Since 2016"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/South Carolina/trailer_sample.png"
       }
     },
     {

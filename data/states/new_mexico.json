@@ -77,7 +77,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/NM/NM_Las_Cruces.jpg",
+        "plate_sample": "data/images/Plates/New Mexico/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -130,7 +130,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/NM/TurquoiseNM100-1.jpg",
+        "plate_sample": "data/images/Plates/New Mexico/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -180,7 +180,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/NM/Standard-Red-and-Yellow-License-Plate.png",
+        "plate_sample": "data/images/Plates/New Mexico/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [

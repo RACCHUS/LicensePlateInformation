@@ -79,7 +79,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/NH/NH-plates_image-006.jpg",
+        "plate_sample": "data/images/Plates/New Hampshire/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1642,7 +1642,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/NH/NH-plates_image-036.jpg",
+        "plate_sample": "data/images/Plates/New Hampshire/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1692,7 +1692,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/NH/NH-plates_image-037.jpg",
+        "plate_sample": "data/images/Plates/New Hampshire/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1742,7 +1742,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/NH/NH-plates_image-038.jpg",
+        "plate_sample": "data/images/Plates/New Hampshire/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [

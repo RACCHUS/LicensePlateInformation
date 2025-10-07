@@ -188,12 +188,14 @@ class LicensePlateApp:
         
         self.state_info_scrollable_frame.bind(
             "<Configure>",
-            lambda e: self._configure_scroll_region(state_info_canvas, state_info_scrollbar)
+            lambda e: state_info_canvas.configure(scrollregion=state_info_canvas.bbox("all"))
         )
         
         state_info_canvas.create_window((0, 0), window=self.state_info_scrollable_frame, anchor="nw")
         state_info_canvas.configure(yscrollcommand=state_info_scrollbar.set)
         
+        # Pack scrollbar first (always visible), then canvas
+        state_info_scrollbar.pack(side="right", fill="y")
         state_info_canvas.pack(side="left", fill="both", expand=True)
         
         self.state_info_panel = StateInfoPanel(self.state_info_scrollable_frame, self.widget_factory)
@@ -221,12 +223,14 @@ class LicensePlateApp:
         
         self.plate_info_scrollable_frame.bind(
             "<Configure>",
-            lambda e: self._configure_scroll_region(plate_info_canvas, plate_info_scrollbar)
+            lambda e: plate_info_canvas.configure(scrollregion=plate_info_canvas.bbox("all"))
         )
         
         plate_info_canvas.create_window((0, 0), window=self.plate_info_scrollable_frame, anchor="nw")
         plate_info_canvas.configure(yscrollcommand=plate_info_scrollbar.set)
         
+        # Pack scrollbar first (always visible), then canvas
+        plate_info_scrollbar.pack(side="right", fill="y")
         plate_info_canvas.pack(side="left", fill="both", expand=True)
         
         self.plate_info_panel = PlateInfoPanel(self.plate_info_scrollable_frame, self.widget_factory)
@@ -376,7 +380,7 @@ class LicensePlateApp:
                     bg='#2a2a2a',
                     fg='#81C784',
                     font=('Segoe UI', 8),
-                    wraplength=400,
+                    wraplength=450,
                     anchor='w',
                     justify='left'
                 )

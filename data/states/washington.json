@@ -77,7 +77,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/WA/airforcePlate.png",
+        "plate_sample": "data/images/Plates/Washington/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [

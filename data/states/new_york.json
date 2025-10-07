@@ -12432,6 +12432,9 @@
           "2010-2019",
           "Since 2020"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/New York/semi-trailer_sample.png"
       }
     },
     {
@@ -13188,6 +13191,9 @@
           "2010-2019",
           "Since 2020"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/New York/trailer_sample.png"
       }
     },
     {

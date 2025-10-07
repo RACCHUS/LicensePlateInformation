@@ -57,7 +57,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/TN/Antique Auto.jpg",
+        "plate_sample": "data/images/Plates/Tennessee/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -383,7 +383,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/Tennessee/semi-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13045,6 +13045,9 @@
           "2006-2010",
           "2011-2021"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Tennessee/plate_sample.png"
       }
     },
     {
@@ -13071,6 +13074,9 @@
         "variations": [
           "Since 2022"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Tennessee/plate_sample.png"
       }
     },
     {
@@ -14112,6 +14118,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Tennessee/trailer_sample.png"
       }
     },
     {
@@ -14167,6 +14176,9 @@
           "2006-2011",
           "2012-2019"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Tennessee/trailer_sample.png"
       }
     },
     {
@@ -14194,6 +14206,9 @@
           "Since 2020",
           "\"E\" Class"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Tennessee/trailer_sample.png"
       }
     },
     {

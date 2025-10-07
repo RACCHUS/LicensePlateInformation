@@ -85,7 +85,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/PA/American_Cancer_Society.jpg",
+        "plate_sample": "data/images/Plates/Pennsylvania/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -9267,7 +9267,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/PA/Let Freedom Ring Sample Plate.png",
+        "plate_sample": "data/images/Plates/Pennsylvania/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -12551,7 +12551,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/PA/PA Sample Standard Issue Registration Plate.jpg",
+        "plate_sample": "data/images/Plates/Pennsylvania/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -26161,6 +26161,9 @@
           "1999-2003",
           "2004-2016"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Pennsylvania/plate_sample.png"
       }
     },
     {
@@ -26188,6 +26191,9 @@
           "Since2017",
           "Black Series"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Pennsylvania/plate_sample.png"
       }
     },
     {
@@ -26284,6 +26290,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Pennsylvania/plate_sample.png"
       }
     },
     {
@@ -26480,6 +26489,9 @@
           "2004-2016",
           "Since 2017"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Pennsylvania/permanent-trailer_sample.png"
       }
     },
     {
@@ -28269,6 +28281,9 @@
           "1999-2022",
           "Since 2023"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Pennsylvania/trailer_sample.png"
       }
     },
     {
@@ -28296,6 +28311,9 @@
           "1993-2003",
           "Since 2004"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Pennsylvania/trailer_sample.png"
       }
     },
     {
@@ -29073,6 +29091,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Pennsylvania/trailer_sample.png"
       }
     },
     {
@@ -29265,6 +29286,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Pennsylvania/trailer_sample.png"
       }
     },
     {

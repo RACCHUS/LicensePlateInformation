@@ -82,7 +82,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/LA/AirForce AF.jpg",
+        "plate_sample": "data/images/Plates/Louisiana/plate_sample.png",
         "character_font_sample": null,
         "blank_template": "data/images/LA/Blank_ImageNotAvailable.jpg",
         "variations": [
@@ -11399,6 +11399,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Louisiana/trailer_sample.png"
       }
     },
     {
@@ -12215,6 +12218,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Louisiana/trailer_sample.png"
       }
     },
     {
@@ -12735,6 +12741,9 @@
           "2002-2004",
           "2005-2010"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Louisiana/plate_sample.png"
       }
     },
     {
@@ -12763,6 +12772,9 @@
           "2013",
           "2014-2017"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Louisiana/plate_sample.png"
       }
     },
     {
@@ -12789,6 +12801,9 @@
         "variations": [
           "Since 2018"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Louisiana/plate_sample.png"
       }
     },
     {
@@ -13589,6 +13604,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Louisiana/trailer_sample.png"
       }
     },
     {

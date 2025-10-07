@@ -87,7 +87,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/MI/SpecialCause_BreastCancerAwareness.jpg",
+        "plate_sample": "data/images/Plates/Michigan/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -2891,7 +2891,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/MI/Standard_PermanentTrailer.jpg",
+        "plate_sample": "data/images/Plates/Michigan/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5685,6 +5685,9 @@
           "Spectacular Peninsulas",
           "MacKinac Bridge I"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Michigan/plate_sample.png"
       }
     },
     {
@@ -5713,6 +5716,9 @@
           "Water Wndrlnd",
           "Water/Winter Wndrlnd"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Michigan/plate_sample.png"
       }
     },
     {

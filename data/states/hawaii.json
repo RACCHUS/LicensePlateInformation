@@ -72,7 +72,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/Hawaii/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -267,7 +267,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/HI/standard-plate.jpg",
+        "plate_sample": "data/images/Plates/Hawaii/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1184,6 +1184,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Hawaii/plate_sample.png"
       }
     },
     {
@@ -1208,6 +1211,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Hawaii/plate_sample.png"
       }
     },
     {
@@ -1376,6 +1382,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Hawaii/plate_sample.png"
       }
     },
     {
@@ -1400,6 +1409,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Hawaii/plate_sample.png"
       }
     },
     {
@@ -1448,6 +1460,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Hawaii/plate_sample.png"
       }
     },
     {
@@ -1568,6 +1583,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Hawaii/trailer_sample.png"
       }
     },
     {

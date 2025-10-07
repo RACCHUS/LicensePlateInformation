@@ -197,6 +197,10 @@ class PlateImageViewer:
         """Scan for all available images for a state, ordered by priority"""
         images = []
         
+        # Load state JSON to get plate type information
+        state_json = self._load_state_json(state_code)
+        plate_types_map = self._build_plate_types_map(state_json)
+        
         # Base path for images
         base_path = os.path.join(
             os.path.dirname(__file__), '..', '..', '..', '..', 
@@ -210,10 +214,23 @@ class PlateImageViewer:
         # Check for plates subdirectory
         plates_dir = os.path.join(base_path, 'plates')
         
+        # Also check the Plates directory with state name
+        state_folder_name = self._get_state_folder_name(state_code)
+        if state_folder_name:
+            plates_state_dir = os.path.join(
+                os.path.dirname(__file__), '..', '..', '..', '..', 
+                'data', 'images', 'Plates', state_folder_name
+            )
+            plates_state_dir = os.path.normpath(plates_state_dir)
+        else:
+            plates_state_dir = None
+        
         # Scan both base directory and plates subdirectory
         search_dirs = [base_path]
         if os.path.exists(plates_dir):
             search_dirs.append(plates_dir)
+        if plates_state_dir and os.path.exists(plates_state_dir):
+            search_dirs.append(plates_state_dir)
         
         for search_dir in search_dirs:
             if not os.path.exists(search_dir):
@@ -229,7 +246,7 @@ class PlateImageViewer:
                     file_path = os.path.join(search_dir, filename)
                     
                     # Parse filename to determine type and plate type
-                    image_info = self._parse_image_filename(filename, state_code)
+                    image_info = self._parse_image_filename(filename, state_code, plate_types_map)
                     image_info['path'] = file_path
                     
                     images.append(image_info)
@@ -243,13 +260,24 @@ class PlateImageViewer:
         
         return images
     
-    def _parse_image_filename(self, filename: str, state_code: str) -> Dict:
+    def _parse_image_filename(self, filename: str, state_code: str, plate_types_map: Optional[Dict] = None) -> Dict:
         """Parse filename to extract image information"""
+        if plate_types_map is None:
+            plate_types_map = {}
+            
         # Remove extension
         name_without_ext = os.path.splitext(filename)[0]
         
         # Common patterns
         name_lower = name_without_ext.lower()
+        
+        # Try to find matching plate type from JSON
+        plate_type_name = None
+        for img_path, type_name in plate_types_map.items():
+            img_name = os.path.basename(img_path).lower()
+            if img_name == filename.lower() or img_name == name_lower:
+                plate_type_name = type_name
+                break
         
         # Determine image type
         image_type = 'sample'  # default
@@ -305,6 +333,7 @@ class PlateImageViewer:
             'display_name': display_name,
             'image_type': image_type,
             'plate_type_category': plate_type_category,
+            'plate_type_name': plate_type_name,  # Actual plate type name from JSON
             'state_code': state_code
         }
     
@@ -386,18 +415,36 @@ class PlateImageViewer:
                 fg='#ff5555'
             )
         else:
-            # Name
+            # Name - show plate type name if available, otherwise display name
+            plate_type_name = image_info.get('plate_type_name')
+            if plate_type_name:
+                display_text = f"{plate_type_name}"
+            else:
+                display_text = image_info['display_name']
+            
             self.image_name_label.configure(
-                text=image_info['display_name'],
+                text=display_text,
                 fg='#ffffff'
             )
             
-            # Details
-            image_type = image_info['image_type'].title()
-            plate_type = image_info['plate_type_category'].title()
+            # Details - show filename and category
             state = image_info['state_code']
+            filename = image_info['filename']
             
-            details_text = f"{state} • {plate_type} • {image_type} • {image_info['filename']}"
+            # Build details text
+            details_parts = [state]
+            
+            if plate_type_name:
+                # If we have the actual plate type name, show it
+                details_parts.append(f"Plate Type: {plate_type_name}")
+            else:
+                # Otherwise show the category we detected
+                plate_type = image_info['plate_type_category'].title()
+                details_parts.append(f"Category: {plate_type}")
+            
+            details_parts.append(f"File: {filename}")
+            
+            details_text = " • ".join(details_parts)
             self.image_details_label.configure(
                 text=details_text,
                 fg='#888888'
@@ -469,3 +516,101 @@ class PlateImageViewer:
     def get_frame(self) -> tk.Frame:
         """Get the main frame"""
         return self.main_frame
+    
+    def _load_state_json(self, state_code: str) -> Optional[Dict]:
+        """Load the state JSON file to get plate type information"""
+        try:
+            # Get the state filename
+            state_filename = self._get_state_json_filename(state_code)
+            if not state_filename:
+                return None
+            
+            json_path = os.path.join(
+                os.path.dirname(__file__), '..', '..', '..', '..', 
+                'data', 'states', state_filename
+            )
+            json_path = os.path.normpath(json_path)
+            
+            if not os.path.exists(json_path):
+                return None
+            
+            with open(json_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception:
+            return None
+    
+    def _build_plate_types_map(self, state_json: Optional[Dict]) -> Dict[str, str]:
+        """Build a mapping of image paths to plate type names from JSON"""
+        plate_types_map = {}
+        
+        if not state_json:
+            return plate_types_map
+        
+        # Get plate types
+        plate_types = state_json.get('plate_types', [])
+        
+        for plate_type in plate_types:
+            type_name = plate_type.get('type_name', '')
+            images = plate_type.get('images', {})
+            
+            # Map all image paths to this plate type name
+            for img_key, img_path in images.items():
+                if img_path:
+                    # Handle both single paths and lists of paths (variations)
+                    if isinstance(img_path, list):
+                        for path in img_path:
+                            if path:
+                                plate_types_map[path] = type_name
+                    else:
+                        plate_types_map[img_path] = type_name
+        
+        return plate_types_map
+    
+    def _get_state_json_filename(self, state_code: str) -> Optional[str]:
+        """Get the JSON filename for a state code"""
+        # Mapping of state codes to JSON filenames
+        state_map = {
+            'AL': 'alabama.json', 'AK': 'alaska.json', 'AZ': 'arizona.json',
+            'AR': 'arkansas.json', 'CA': 'california.json', 'CO': 'colorado.json',
+            'CT': 'connecticut.json', 'DE': 'delaware.json', 'FL': 'florida.json',
+            'GA': 'georgia.json', 'HI': 'hawaii.json', 'ID': 'idaho.json',
+            'IL': 'illinois.json', 'IN': 'indiana.json', 'IA': 'iowa.json',
+            'KS': 'kansas.json', 'KY': 'kentucky.json', 'LA': 'louisiana.json',
+            'ME': 'maine.json', 'MD': 'maryland.json', 'MA': 'massachusetts.json',
+            'MI': 'michigan.json', 'MN': 'minnesota.json', 'MS': 'mississippi.json',
+            'MO': 'missouri.json', 'MT': 'montana.json', 'NE': 'nebraska.json',
+            'NV': 'nevada.json', 'NH': 'new_hampshire.json', 'NJ': 'new_jersey.json',
+            'NM': 'new_mexico.json', 'NY': 'new_york.json', 'NC': 'north_carolina.json',
+            'ND': 'north_dakota.json', 'OH': 'ohio.json', 'OK': 'oklahoma.json',
+            'OR': 'oregon.json', 'PA': 'pennsylvania.json', 'RI': 'rhode_island.json',
+            'SC': 'south_carolina.json', 'SD': 'south_dakota.json', 'TN': 'tennessee.json',
+            'TX': 'texas.json', 'UT': 'utah.json', 'VT': 'vermont.json',
+            'VA': 'virginia.json', 'WA': 'washington.json', 'WV': 'west_virginia.json',
+            'WI': 'wisconsin.json', 'WY': 'wyoming.json'
+        }
+        return state_map.get(state_code)
+    
+    def _get_state_folder_name(self, state_code: str) -> Optional[str]:
+        """Get the folder name in data/images/Plates for a state code"""
+        # Mapping of state codes to folder names in Plates directory
+        folder_map = {
+            'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona',
+            'AR': 'Arkansas', 'CA': 'California', 'CO': 'Colorado',
+            'CT': 'Connecticut', 'DE': 'Delaware', 'FL': 'Florida',
+            'GA': 'Georgia', 'HI': 'Hawaii', 'ID': 'Idaho',
+            'IL': 'Illinios',  # Note: typo in folder name
+            'IN': 'Indiana', 'IA': 'Iowa', 'KS': 'Kansas',
+            'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine',
+            'MD': 'Maryland', 'MA': 'Massachusetts', 'MI': 'Michigan',
+            'MN': 'Minnesota', 'MS': 'Mississippi', 'MO': 'Missouri',
+            'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada',
+            'NH': 'New Hampshire', 'NJ': 'New Jersey', 'NM': 'New Mexico',
+            'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota',
+            'OH': 'Ohio', 'OK': 'Oklahoma', 'OR': 'Oregon',
+            'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina',
+            'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas',
+            'UT': 'Utah', 'VT': 'Vermont', 'VA': 'Virginia',
+            'WA': 'Washington', 'WV': 'West Virginia', 'WI': 'Wisconsin',
+            'WY': 'Wyoming'
+        }
+        return folder_map.get(state_code)

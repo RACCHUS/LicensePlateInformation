@@ -74,7 +74,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/ND/unconventional.jpg",
+        "plate_sample": "data/images/Plates/North Dakota/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -182,7 +182,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/ND/standard.jpg",
+        "plate_sample": "data/images/Plates/North Dakota/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -282,7 +282,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/ND/trailer.jpg",
+        "plate_sample": "data/images/Plates/North Dakota/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [

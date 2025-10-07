@@ -113,7 +113,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/ME/agplate.jpg",
+        "plate_sample": "data/images/Plates/Maine/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -238,7 +238,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/ME/agplate.jpg",
+        "plate_sample": "data/images/Plates/Maine/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -685,7 +685,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/ME/Cr.jpg",
+        "plate_sample": "data/images/Plates/Maine/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1775,7 +1775,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/ME/TL.gif",
+        "plate_sample": "data/images/Plates/Maine/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3724,7 +3724,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/Maine/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -3952,7 +3952,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/Maine/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -4066,7 +4066,7 @@
       "subtype": null,
       "processing_type": "trailer",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/Maine/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -4466,7 +4466,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/Maine/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -4523,7 +4523,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/Maine/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -4580,7 +4580,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/Maine/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []

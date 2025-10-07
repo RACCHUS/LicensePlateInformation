@@ -81,7 +81,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/NJ/Airborne.gif",
+        "plate_sample": "data/images/Plates/New Jersey/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5532,7 +5532,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/NJ/standard.jpg",
+        "plate_sample": "data/images/Plates/New Jersey/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7232,6 +7232,9 @@
           "1992-2013",
           "Since 2014"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/New Jersey/plate_sample.png"
       }
     },
     {
@@ -7893,6 +7896,9 @@
           "1993-2013",
           "Since 2014"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/New Jersey/trailer_sample.png"
       }
     },
     {

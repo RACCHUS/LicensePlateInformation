@@ -76,7 +76,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/KY/Alzheimers.png",
+        "plate_sample": "data/images/Plates/Kentucky/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1507,7 +1507,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/KY/Camping_Trailer.png",
+        "plate_sample": "data/images/Plates/Kentucky/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -6171,7 +6171,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/KY/Official_Trailer.png",
+        "plate_sample": "data/images/Plates/Kentucky/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7022,7 +7022,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/KY/Standard_Motorcycle.png",
+        "plate_sample": "data/images/Plates/Kentucky/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7072,7 +7072,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/KY/Standard_Vehicle.png",
+        "plate_sample": "data/images/Plates/Kentucky/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7122,7 +7122,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/KY/Standard_Vehicle_-_In_God_We_Trust.png",
+        "plate_sample": "data/images/Plates/Kentucky/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7324,7 +7324,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/KY/Team_Kentucky_Standard_Vehicle.png",
+        "plate_sample": "data/images/Plates/Kentucky/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7374,7 +7374,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/KY/Team_Kentucky_Standard_Vehicle_-_In_God_We_Trust.png",
+        "plate_sample": "data/images/Plates/Kentucky/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7525,7 +7525,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/KY/Travel_Trailer.png",
+        "plate_sample": "data/images/Plates/Kentucky/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7576,7 +7576,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/KY/Truck_Trailer.png",
+        "plate_sample": "data/images/Plates/Kentucky/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -8191,6 +8191,9 @@
           "2008-2021",
           "Since 2022"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kentucky/trailer_sample.png"
       }
     },
     {
@@ -9158,6 +9161,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kentucky/trailer_sample.png"
       }
     },
     {
@@ -9799,6 +9805,9 @@
           "2005-2007",
           "2008-2019"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kentucky/plate_sample.png"
       }
     },
     {
@@ -9826,6 +9835,9 @@
           "2020-2021",
           "Since 2022"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kentucky/plate_sample.png"
       }
     },
     {
@@ -9854,6 +9866,9 @@
           "2020-2021",
           "Since 2022"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kentucky/plate_sample.png"
       }
     },
     {
@@ -9878,6 +9893,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kentucky/plate_sample.png"
       }
     },
     {
@@ -10266,6 +10284,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kentucky/trailer_sample.png"
       }
     },
     {
@@ -10506,6 +10527,9 @@
           "2000-2008",
           "Since 2009"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kentucky/trailer_sample.png"
       }
     },
     {

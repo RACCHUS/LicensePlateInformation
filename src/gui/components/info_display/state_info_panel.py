@@ -44,37 +44,21 @@ class StateInfoPanel:
         
     def setup_panel(self):
         """Create the state information panel"""
-        # Main container with border
-        self.main_frame = self.widget_factory.create_frame(self.parent)
-        self.main_frame.configure(relief='solid', borderwidth=1)
-        self.main_frame.pack(fill='both', expand=True, padx=2, pady=2)
+        # Note: parent is already the scrollable frame from main.py
+        # No need for additional canvas/scrollbar wrapping
         
-        # Text display with scrollbar
-        text_frame = tk.Frame(self.main_frame, bg='#1a1a1a')
-        text_frame.pack(fill='both', expand=True, padx=2, pady=2)
-        
-        # Scrollbar
-        scrollbar = tk.Scrollbar(text_frame)
-        scrollbar.pack(side='right', fill='y')
-        
-        self.info_text = tk.Text(
-            text_frame,
-            bg='#1a1a1a',
-            fg='#ffffff',
-            font=('Segoe UI', 9),
-            wrap=tk.WORD,
-            insertbackground='#ffffff',
-            state='disabled',
-            yscrollcommand=scrollbar.set
-        )
-        self.info_text.pack(side='left', fill='both', expand=True)
-        scrollbar.config(command=self.info_text.yview)
+        # Adjustable wrap length for text (similar to search results panel)
+        self.wrap_length = 300
         
         # Show default message
         self.show_default_message()
         
     def show_default_message(self):
         """Show default instructional message"""
+        # Clear existing content
+        for widget in self.parent.winfo_children():
+            widget.destroy()
+        
         message = (
             "Select a state to view information:\n\n"
             "• State name and slogan\n"
@@ -88,14 +72,25 @@ class StateInfoPanel:
             "• Special notes"
         )
         
-        self.info_text.configure(state='normal')
-        self.info_text.delete('1.0', 'end')
-        self.info_text.insert('1.0', message)
-        self.info_text.configure(state='disabled')
+        default_label = tk.Label(
+            self.parent,
+            text=message,
+            bg='#2a2a2a',
+            fg='#888888',
+            font=('Segoe UI', 9),
+            justify='left',
+            anchor='nw',
+            wraplength=self.wrap_length
+        )
+        default_label.pack(fill='x', padx=5, pady=5)
         
     def update_state_info(self, state_code: str):
         """Update panel with state information from JSON file"""
         self.current_state = state_code
+        
+        # Clear existing content
+        for widget in self.parent.winfo_children():
+            widget.destroy()
         
         # Load state data
         state_data = self._load_state_data(state_code)
@@ -104,13 +99,8 @@ class StateInfoPanel:
             self._show_error_message(state_code)
             return
             
-        # Build information display
-        info_text = self._build_state_info_text(state_code, state_data)
-        
-        self.info_text.configure(state='normal')
-        self.info_text.delete('1.0', 'end')
-        self.info_text.insert('1.0', info_text)
-        self.info_text.configure(state='disabled')
+        # Build and display information using labels
+        self._display_state_info(state_code, state_data)
         
     def _load_state_data(self, state_code: str):
         """Load state data from JSON file"""
@@ -129,98 +119,102 @@ class StateInfoPanel:
             print(f"Error loading state data for {state_code}: {e}")
             return None
             
-    def _build_state_info_text(self, state_code: str, state_data: dict) -> str:
-        """Build formatted state information text"""
-        lines = []
+    def _display_state_info(self, state_code: str, state_data: dict):
+        """Display formatted state information using labels with wraplength"""
+        # Helper function to create a label
+        def create_label(text, bold=False, color='#ffffff', pady_val=(2, 0)):
+            font_style = ('Segoe UI', 9, 'bold') if bold else ('Segoe UI', 9)
+            label = tk.Label(
+                self.parent,
+                text=text,
+                bg='#2a2a2a',
+                fg=color,
+                font=font_style,
+                justify='left',
+                anchor='w',
+                wraplength=self.wrap_length
+            )
+            label.pack(fill='x', padx=5, pady=pady_val)
+            return label
         
         # Header
         name = state_data.get('name', state_code)
-        lines.append(f"STATE: {name} ({state_code})")
-        lines.append("=" * (len(name) + len(state_code) + 10))
-        lines.append("")
+        create_label(f"STATE: {name} ({state_code})", bold=True, color='#4CAF50', pady_val=(5, 2))
+        create_label("=" * 40, color='#4CAF50')
         
         # Basic Information
         slogan = state_data.get('slogan', 'N/A')
-        lines.append(f"Slogan: {slogan}")
-        lines.append("")
+        create_label(f"Slogan: {slogan}", color='#81C784', pady_val=(5, 2))
         
         # Character Rules
-        lines.append("CHARACTER RULES:")
+        create_label("CHARACTER RULES:", bold=True, color='#FFD54F', pady_val=(8, 2))
         uses_zero = state_data.get('uses_zero_for_o', False)
         allows_o = state_data.get('allows_letter_o', False)
         zero_slashed = state_data.get('zero_is_slashed', False)
-        lines.append(f"• Uses zero for O: {uses_zero}")
-        lines.append(f"• Allows letter O: {allows_o}")
-        lines.append(f"• Zero is slashed: {zero_slashed}")
-        lines.append("")
+        create_label(f"• Uses zero for O: {uses_zero}")
+        create_label(f"• Allows letter O: {allows_o}")
+        create_label(f"• Zero is slashed: {zero_slashed}")
         
         # Visual Characteristics
-        lines.append("VISUAL CHARACTERISTICS:")
+        create_label("VISUAL CHARACTERISTICS:", bold=True, color='#FFD54F', pady_val=(8, 2))
         main_font = state_data.get('main_font', 'Not specified')
         main_logo = state_data.get('main_logo', 'Not specified')
         main_text = state_data.get('main_plate_text', 'Not specified')
-        lines.append(f"• Font: {main_font}")
-        lines.append(f"• Logo: {main_logo}")
-        lines.append(f"• Plate Text: {main_text}")
+        create_label(f"• Font: {main_font}")
+        create_label(f"• Logo: {main_logo}")
+        create_label(f"• Plate Text: {main_text}")
         
         # Primary Colors
         colors = state_data.get('primary_colors', [])
         if colors:
             color_str = ", ".join(colors)
-            lines.append(f"• Primary Colors: {color_str}")
-        lines.append("")
+            create_label(f"• Primary Colors: {color_str}")
         
         # Sticker Information
         sticker_format = state_data.get('sticker_format', {})
         if sticker_format:
-            lines.append("STICKER FORMAT:")
-            lines.append(f"• Color: {sticker_format.get('color', 'Not specified')}")
-            lines.append(f"• Format: {sticker_format.get('format', 'Not specified')}")
-            lines.append(f"• Position: {sticker_format.get('position', 'Not specified')}")
-            lines.append(f"• Description: {sticker_format.get('description', 'Not specified')}")
-            lines.append("")
+            create_label("STICKER FORMAT:", bold=True, color='#FFD54F', pady_val=(8, 2))
+            create_label(f"• Color: {sticker_format.get('color', 'Not specified')}")
+            create_label(f"• Format: {sticker_format.get('format', 'Not specified')}")
+            create_label(f"• Position: {sticker_format.get('position', 'Not specified')}")
+            create_label(f"• Description: {sticker_format.get('description', 'Not specified')}")
         
         # Character Formatting
         char_format = state_data.get('character_formatting', {})
         if char_format:
-            lines.append("CHARACTER FORMATTING:")
-            lines.append(f"• Stacked: {char_format.get('stacked_characters', False)}")
-            lines.append(f"• Slanted: {char_format.get('slanted_characters', False)}")
+            create_label("CHARACTER FORMATTING:", bold=True, color='#FFD54F', pady_val=(8, 2))
+            create_label(f"• Stacked: {char_format.get('stacked_characters', False)}")
+            create_label(f"• Slanted: {char_format.get('slanted_characters', False)}")
             if char_format.get('slant_direction'):
-                lines.append(f"• Slant Direction: {char_format.get('slant_direction')}")
+                create_label(f"• Slant Direction: {char_format.get('slant_direction')}")
             if char_format.get('stack_position'):
-                lines.append(f"• Stack Position: {char_format.get('stack_position')}")
-            lines.append("")
+                create_label(f"• Stack Position: {char_format.get('stack_position')}")
         
         # Weather and Processing
         weather = state_data.get('weather_inclusion', True)
-        lines.append(f"Weather Inclusion: {weather}")
-        lines.append("")
+        create_label(f"Weather Inclusion: {weather}", pady_val=(8, 2))
         
         # Processing Metadata
         processing = state_data.get('processing_metadata', {})
         if processing:
-            lines.append("PROCESSING METADATA:")
+            create_label("PROCESSING METADATA:", bold=True, color='#FFD54F', pady_val=(8, 2))
             description = processing.get('description', 'Not specified')
-            lines.append(f"• Description: {description}")
+            create_label(f"• Description: {description}")
             
             global_rules = processing.get('global_rules', {})
             if global_rules:
                 char_restrictions = global_rules.get('character_restrictions', 'None')
                 font_changes = global_rules.get('font_changes', 'None')
                 code_system = global_rules.get('code_system', 'Standard')
-                lines.append(f"• Character Restrictions: {char_restrictions}")
-                lines.append(f"• Font Changes: {font_changes}")
-                lines.append(f"• Code System: {code_system}")
-            lines.append("")
+                create_label(f"• Character Restrictions: {char_restrictions}")
+                create_label(f"• Font Changes: {font_changes}")
+                create_label(f"• Code System: {code_system}")
         
         # Special Notes
         notes = state_data.get('notes', 'No special notes')
-        lines.append("SPECIAL NOTES:")
-        lines.append(notes)
-        
-        return "\n".join(lines)
-        
+        create_label("SPECIAL NOTES:", bold=True, color='#FFD54F', pady_val=(8, 2))
+        create_label(notes, color='#888888')
+    
     def _show_error_message(self, state_code: str):
         """Show error message when state data cannot be loaded"""
         message = (
@@ -232,16 +226,19 @@ class StateInfoPanel:
             f"Please check the data/states/ directory"
         )
         
-        self.info_text.configure(state='normal')
-        self.info_text.delete('1.0', 'end')
-        self.info_text.insert('1.0', message)
-        self.info_text.configure(state='disabled')
+        error_label = tk.Label(
+            self.parent,
+            text=message,
+            bg='#2a2a2a',
+            fg='#ff5555',
+            font=('Segoe UI', 9),
+            justify='left',
+            anchor='nw',
+            wraplength=self.wrap_length
+        )
+        error_label.pack(fill='x', padx=5, pady=5)
         
     def clear_info(self):
         """Clear current information and show default"""
         self.current_state = None
         self.show_default_message()
-        
-    def get_main_frame(self) -> tk.Widget:
-        """Get the main panel frame"""
-        return self.main_frame

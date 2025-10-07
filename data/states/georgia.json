@@ -57,7 +57,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/GA/MX_Large.jpg",
+        "plate_sample": "data/images/Plates/Georgia/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -123,7 +123,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/Georgia/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -177,7 +177,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/Georgia/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -771,7 +771,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/Georgia/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -16978,6 +16978,9 @@
           "2003-2006",
           "2007-2011"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Georgia/plate_sample.png"
       }
     },
     {
@@ -17005,6 +17008,9 @@
           "2012-2015",
           "Since 2016"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Georgia/plate_sample.png"
       }
     },
     {
@@ -17059,6 +17065,9 @@
           "1997-2016",
           "Since 2017"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Georgia/permanent-trailer_sample.png"
       }
     },
     {
@@ -17111,6 +17120,9 @@
           "War in Iraq",
           "Bronze Star"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Georgia/plate_sample.png"
       }
     },
     {
@@ -17139,6 +17151,9 @@
           "Army Ranger",
           "War In Iraq"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Georgia/plate_sample.png"
       }
     },
     {
@@ -17165,6 +17180,9 @@
         "variations": [
           "War In Afghanistan"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Georgia/plate_sample.png"
       }
     },
     {

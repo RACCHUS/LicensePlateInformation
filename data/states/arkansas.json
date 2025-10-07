@@ -86,7 +86,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/Arkansas/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -8786,6 +8786,9 @@
           "1989-1995",
           "1996-2005"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Arkansas/plate_sample.png"
       }
     },
     {
@@ -8813,6 +8816,9 @@
           "2006-2020",
           "Since 2021"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Arkansas/plate_sample.png"
       }
     },
     {
@@ -8865,6 +8871,9 @@
           "AA Series 2001-",
           "AB Series 2001-"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Arkansas/permanent-trailer_sample.png"
       }
     },
     {
@@ -9765,7 +9774,7 @@
   },
   "images": {
     "state_logo": null,
-    "character_font_reference": null,
+    "character_font_reference": "data/images/Plates/Arkansas/fontO.png",
     "blank_plate_template": null,
     "sticker_sample": null
   }

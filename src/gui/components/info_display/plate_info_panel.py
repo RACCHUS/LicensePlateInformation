@@ -45,37 +45,21 @@ class PlateInfoPanel:
         
     def setup_panel(self):
         """Create the plate information panel"""
-        # Main container with border
-        self.main_frame = self.widget_factory.create_frame(self.parent)
-        self.main_frame.configure(relief='solid', borderwidth=1)
-        self.main_frame.pack(fill='both', expand=True, padx=2, pady=2)
+        # Note: parent is already the scrollable frame from main.py
+        # No need for additional canvas/scrollbar wrapping
         
-        # Text display with scrollbar
-        text_frame = tk.Frame(self.main_frame, bg='#1a1a1a')
-        text_frame.pack(fill='both', expand=True, padx=2, pady=2)
-        
-        # Scrollbar
-        scrollbar = tk.Scrollbar(text_frame)
-        scrollbar.pack(side='right', fill='y')
-        
-        self.info_text = tk.Text(
-            text_frame,
-            bg='#1a1a1a',
-            fg='#ffffff',
-            font=('Segoe UI', 9),
-            wrap=tk.WORD,
-            insertbackground='#ffffff',
-            state='disabled',
-            yscrollcommand=scrollbar.set
-        )
-        self.info_text.pack(side='left', fill='both', expand=True)
-        scrollbar.config(command=self.info_text.yview)
+        # Adjustable wrap length for text (similar to state info panel)
+        self.wrap_length = 300
         
         # Show default message
         self.show_default_message()
         
     def show_default_message(self):
         """Show default instructional message"""
+        # Clear existing content
+        for widget in self.parent.winfo_children():
+            widget.destroy()
+        
         message = (
             "Select a plate type to view details:\n\n"
             "• Pattern and character count\n"
@@ -89,15 +73,26 @@ class PlateInfoPanel:
             "• Processing metadata"
         )
         
-        self.info_text.configure(state='normal')
-        self.info_text.delete('1.0', 'end')
-        self.info_text.insert('1.0', message)
-        self.info_text.configure(state='disabled')
-        
+        default_label = tk.Label(
+            self.parent,
+            text=message,
+            bg='#2a2a2a',
+            fg='#888888',
+            font=('Segoe UI', 9),
+            justify='left',
+            anchor='nw',
+            wraplength=self.wrap_length
+        )
+        default_label.pack(fill='x', padx=5, pady=5)
+    
     def update_plate_info(self, plate_type: str, state_code: str | None = None):
         """Update panel with plate type information from JSON file"""
         self.current_plate_type = plate_type
         self.current_state_code = state_code
+        
+        # Clear existing content
+        for widget in self.parent.winfo_children():
+            widget.destroy()
         
         # Load plate data
         plate_data = self._load_plate_data(plate_type, state_code)
@@ -106,13 +101,8 @@ class PlateInfoPanel:
             self._show_error_message(plate_type, state_code)
             return
             
-        # Build information display
-        info_text = self._build_plate_info_text(plate_type, plate_data, state_code or "Unknown")
-        
-        self.info_text.configure(state='normal')
-        self.info_text.delete('1.0', 'end')
-        self.info_text.insert('1.0', info_text)
-        self.info_text.configure(state='disabled')
+        # Build and display information using labels
+        self._display_plate_info(plate_type, plate_data, state_code or "Unknown")
         
     def _load_plate_data(self, plate_type: str, state_code: str | None = None):
         """Load plate data from JSON file"""
@@ -141,126 +131,131 @@ class PlateInfoPanel:
             print(f"Error loading plate data for {plate_type} in {state_code}: {e}")
             return None
             
-    def _build_plate_info_text(self, plate_type: str, plate_data: dict, state_code: str) -> str:
-        """Build formatted plate information text"""
-        lines = []
+    def _display_plate_info(self, plate_type: str, plate_data: dict, state_code: str):
+        """Display formatted plate information using labels with wraplength"""
+        # Helper function to create a label
+        def create_label(text, bold=False, color='#ffffff', pady_val=(2, 0)):
+            font_style = ('Segoe UI', 9, 'bold') if bold else ('Segoe UI', 9)
+            label = tk.Label(
+                self.parent,
+                text=text,
+                bg='#2a2a2a',
+                fg=color,
+                font=font_style,
+                justify='left',
+                anchor='w',
+                wraplength=self.wrap_length
+            )
+            label.pack(fill='x', padx=5, pady=pady_val)
+            return label
         
         # Header
-        lines.append(f"PLATE TYPE: {plate_type}")
+        create_label(f"PLATE TYPE: {plate_type}", bold=True, color='#4CAF50', pady_val=(5, 2))
         if state_code:
-            lines.append(f"STATE: {state_code}")
-        lines.append("=" * 30)
-        lines.append("")
+            create_label(f"STATE: {state_code}", bold=True, color='#4CAF50')
+        create_label("=" * 40, color='#4CAF50')
         
         # Basic Information
         pattern = plate_data.get('pattern', 'Not specified')
         char_count = plate_data.get('character_count', 'Not specified')
         description = plate_data.get('description', 'Not specified')
-        lines.append(f"Pattern: {pattern}")
-        lines.append(f"Character Count: {char_count}")
-        lines.append(f"Description: {description}")
-        lines.append("")
+        create_label(f"Pattern: {pattern}", color='#81C784', pady_val=(5, 2))
+        create_label(f"Character Count: {char_count}", color='#81C784')
+        create_label(f"Description: {description}", color='#888888')
         
         # Category and Type Information
         category = plate_data.get('category', 'Not specified')
         subtype = plate_data.get('subtype', 'None')
         code_number = plate_data.get('code_number', 'Not specified')
         processing_type = plate_data.get('processing_type', 'Not specified')
-        lines.append(f"Category: {category}")
+        create_label(f"Category: {category}", pady_val=(5, 2))
         if subtype:
-            lines.append(f"Subtype: {subtype}")
-        lines.append(f"Code Number: {code_number}")
-        lines.append(f"Processing Type: {processing_type}")
-        lines.append("")
+            create_label(f"Subtype: {subtype}")
+        create_label(f"Code Number: {code_number}")
+        create_label(f"Processing Type: {processing_type}")
         
         # Visual Design
-        lines.append("VISUAL DESIGN:")
+        create_label("VISUAL DESIGN:", bold=True, color='#FFD54F', pady_val=(8, 2))
         bg_color = plate_data.get('background_color', 'Not specified')
         text_color = plate_data.get('text_color', 'Not specified')
-        lines.append(f"• Background Color: {bg_color}")
-        lines.append(f"• Text Color: {text_color}")
-        lines.append("")
+        create_label(f"• Background Color: {bg_color}")
+        create_label(f"• Text Color: {text_color}")
         
         # Sticker Information
         has_stickers = plate_data.get('has_stickers', False)
         sticker_desc = plate_data.get('sticker_description', 'Not specified')
-        lines.append(f"Stickers: {has_stickers}")
+        create_label(f"Stickers: {has_stickers}", pady_val=(5, 2))
         if has_stickers:
-            lines.append(f"• Description: {sticker_desc}")
-        lines.append("")
+            create_label(f"• Description: {sticker_desc}")
         
         # Plate-Specific Characteristics
         plate_chars = plate_data.get('plate_characteristics', {})
         if plate_chars:
-            lines.append("PLATE CHARACTERISTICS:")
+            create_label("PLATE CHARACTERISTICS:", bold=True, color='#FFD54F', pady_val=(8, 2))
             
             font = plate_chars.get('font', 'Uses state default')
             logo = plate_chars.get('logo', 'Uses state default')
             plate_text = plate_chars.get('plate_text', 'Uses state default')
             weather = plate_chars.get('weather_inclusion', 'Uses state default')
             
-            lines.append(f"• Font: {font}")
-            lines.append(f"• Logo: {logo}")
-            lines.append(f"• Plate Text: {plate_text}")
-            lines.append(f"• Weather Inclusion: {weather}")
+            create_label(f"• Font: {font}")
+            create_label(f"• Logo: {logo}")
+            create_label(f"• Plate Text: {plate_text}")
+            create_label(f"• Weather Inclusion: {weather}")
             
             # Character Formatting
             char_format = plate_chars.get('character_formatting', {})
             if char_format and any(v is not None for v in char_format.values()):
-                lines.append("• Character Formatting:")
+                create_label("• Character Formatting:", color='#81C784')
                 stacked = char_format.get('stacked_characters', 'Default')
                 slanted = char_format.get('slanted_characters', 'Default')
                 slant_dir = char_format.get('slant_direction', 'Default')
                 stack_pos = char_format.get('stack_position', 'Default')
                 
-                lines.append(f"  - Stacked: {stacked}")
-                lines.append(f"  - Slanted: {slanted}")
-                lines.append(f"  - Slant Direction: {slant_dir}")
-                lines.append(f"  - Stack Position: {stack_pos}")
+                create_label(f"  - Stacked: {stacked}")
+                create_label(f"  - Slanted: {slanted}")
+                create_label(f"  - Slant Direction: {slant_dir}")
+                create_label(f"  - Stack Position: {stack_pos}")
             
             # Sticker Override
             sticker_override = plate_chars.get('sticker_override')
             if sticker_override:
-                lines.append("• Sticker Override:")
-                lines.append(f"  - Color: {sticker_override.get('color', 'Not specified')}")
-                lines.append(f"  - Format: {sticker_override.get('format', 'Not specified')}")
-                lines.append(f"  - Position: {sticker_override.get('position', 'Not specified')}")
-            
-            lines.append("")
+                create_label("• Sticker Override:", color='#81C784')
+                create_label(f"  - Color: {sticker_override.get('color', 'Not specified')}")
+                create_label(f"  - Format: {sticker_override.get('format', 'Not specified')}")
+                create_label(f"  - Position: {sticker_override.get('position', 'Not specified')}")
         
         # Processing Metadata
         processing_meta = plate_data.get('processing_metadata', {})
         if processing_meta:
-            lines.append("PROCESSING METADATA:")
+            create_label("PROCESSING METADATA:", bold=True, color='#FFD54F', pady_val=(8, 2))
             currently_processed = processing_meta.get('currently_processed', 'Unknown')
             requires_prefix = processing_meta.get('requires_prefix', False)
             requires_suffix = processing_meta.get('requires_suffix', False)
             verify_state = processing_meta.get('verify_state_abbreviation', True)
             all_numeric = processing_meta.get('all_numeric_plate', False)
             
-            lines.append(f"• Currently Processed: {currently_processed}")
-            lines.append(f"• Requires Prefix: {requires_prefix}")
-            lines.append(f"• Requires Suffix: {requires_suffix}")
-            lines.append(f"• Verify State Abbreviation: {verify_state}")
-            lines.append(f"• All Numeric Plate: {all_numeric}")
+            create_label(f"• Currently Processed: {currently_processed}")
+            create_label(f"• Requires Prefix: {requires_prefix}")
+            create_label(f"• Requires Suffix: {requires_suffix}")
+            create_label(f"• Verify State Abbreviation: {verify_state}")
+            create_label(f"• All Numeric Plate: {all_numeric}")
             
             dot_processing = processing_meta.get('dot_processing_type')
             if dot_processing:
-                lines.append(f"• DOT Processing Type: {dot_processing}")
+                create_label(f"• DOT Processing Type: {dot_processing}")
                 
             dot_dropdown = processing_meta.get('dot_dropdown_identifier')
             if dot_dropdown:
-                lines.append(f"• DOT Dropdown ID: {dot_dropdown}")
+                create_label(f"• DOT Dropdown ID: {dot_dropdown}")
             
             visual_id = processing_meta.get('visual_identifier')
             if visual_id:
-                lines.append(f"• Visual Identifier: {visual_id}")
+                create_label(f"• Visual Identifier: {visual_id}")
                 
             vehicle_type = processing_meta.get('vehicle_type_identification')
             if vehicle_type:
-                lines.append(f"• Vehicle Type ID: {vehicle_type}")
-            
-            lines.append("")
+                create_label(f"• Vehicle Type ID: {vehicle_type}")
         
         # Visual Identifiers and Processing Rules
         visual_identifier = plate_data.get('visual_identifier')
@@ -268,14 +263,12 @@ class PlateInfoPanel:
         requires_prefix = plate_data.get('requires_prefix', False)
         
         if visual_identifier or processing_rules is not None:
-            lines.append("ADDITIONAL INFO:")
+            create_label("ADDITIONAL INFO:", bold=True, color='#FFD54F', pady_val=(8, 2))
             if visual_identifier:
-                lines.append(f"• Visual Identifier: {visual_identifier}")
+                create_label(f"• Visual Identifier: {visual_identifier}")
             if processing_rules is not None:
-                lines.append(f"• Processing Rules: {processing_rules}")
-            lines.append(f"• Requires Prefix: {requires_prefix}")
-        
-        return "\n".join(lines)
+                create_label(f"• Processing Rules: {processing_rules}")
+            create_label(f"• Requires Prefix: {requires_prefix}")
         
     def _show_error_message(self, plate_type: str, state_code: str | None):
         """Show error message when plate data cannot be loaded"""
@@ -289,16 +282,19 @@ class PlateInfoPanel:
             f"Please verify the plate type exists in the selected state"
         )
         
-        self.info_text.configure(state='normal')
-        self.info_text.delete('1.0', 'end')
-        self.info_text.insert('1.0', message)
-        self.info_text.configure(state='disabled')
+        error_label = tk.Label(
+            self.parent,
+            text=message,
+            bg='#2a2a2a',
+            fg='#ff5555',
+            font=('Segoe UI', 9),
+            justify='left',
+            anchor='nw',
+            wraplength=self.wrap_length
+        )
+        error_label.pack(fill='x', padx=5, pady=5)
         
     def clear_info(self):
         """Clear current information and show default"""
         self.current_plate_type = None
         self.show_default_message()
-        
-    def get_main_frame(self) -> tk.Widget:
-        """Get the main panel frame"""
-        return self.main_frame

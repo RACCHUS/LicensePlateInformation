@@ -74,7 +74,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/KS/KS-plates_image-001.jpg",
+        "plate_sample": "data/images/Plates/Kansas/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3176,7 +3176,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/KS/KS-plates_image-129.jpg",
+        "plate_sample": "data/images/Plates/Kansas/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3276,7 +3276,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/KS/KS-plates_image-133.jpg",
+        "plate_sample": "data/images/Plates/Kansas/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5013,6 +5013,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kansas/plate_sample.png"
       }
     },
     {
@@ -5037,6 +5040,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kansas/plate_sample.png"
       }
     },
     {
@@ -5181,6 +5187,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kansas/plate_sample.png"
       }
     },
     {
@@ -5205,6 +5214,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kansas/plate_sample.png"
       }
     },
     {
@@ -5253,6 +5265,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Kansas/semi-trailer_sample.png"
       }
     },
     {

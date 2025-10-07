@@ -63,7 +63,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/AK/breast-cancer.png",
+        "plate_sample": "data/images/Plates/Alaska/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -173,7 +173,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/AK/blue-n-gold.png",
+        "plate_sample": "data/images/Plates/Alaska/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -2893,6 +2893,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Alaska/plate_sample.png"
       }
     },
     {
@@ -3149,6 +3152,9 @@
           "2007-2022",
           "Since 2023"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Alaska/plate_sample.png"
       }
     },
     {
@@ -3177,6 +3183,9 @@
           "Celebrating Statehood",
           "Grizzly Optional"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Alaska/plate_sample.png"
       }
     },
     {
@@ -3204,6 +3213,9 @@
           "Artistic Optional",
           "Personalized"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Alaska/plate_sample.png"
       }
     },
     {
@@ -3582,7 +3594,7 @@
   },
   "images": {
     "state_logo": null,
-    "character_font_reference": null,
+    "character_font_reference": "data/images/Plates/Alaska/fontO.png",
     "blank_plate_template": null,
     "sticker_sample": null
   }

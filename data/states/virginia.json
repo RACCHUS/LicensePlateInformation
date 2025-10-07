@@ -81,7 +81,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/VA/emenonte.gif",
+        "plate_sample": "data/images/Plates/Virginia/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -15522,7 +15522,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/VA/ls.jpg",
+        "plate_sample": "data/images/Plates/Virginia/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -16526,7 +16526,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/VA/TRLPM_tn.jpg",
+        "plate_sample": "data/images/Plates/Virginia/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -16626,7 +16626,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/VA/smtrl.jpg",
+        "plate_sample": "data/images/Plates/Virginia/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -16935,6 +16935,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Virginia/plate_sample.png"
       }
     },
     {
@@ -16989,6 +16992,9 @@
           "Branch of Service",
           "Award"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Virginia/plate_sample.png"
       }
     },
     {

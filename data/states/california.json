@@ -90,7 +90,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/CA/DismSun.gif",
+        "plate_sample": "data/images/Plates/California/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3799,7 +3799,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/CA/pass-1.gif",
+        "plate_sample": "data/images/Plates/California/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3849,7 +3849,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/CA/pass-2.gif",
+        "plate_sample": "data/images/Plates/California/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3899,7 +3899,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/CA/pass-3.gif",
+        "plate_sample": "data/images/Plates/California/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3949,7 +3949,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/CA/pass-4.gif",
+        "plate_sample": "data/images/Plates/California/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3999,7 +3999,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/CA/pass-5.gif",
+        "plate_sample": "data/images/Plates/California/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -4049,7 +4049,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/CA/pass-6.gif",
+        "plate_sample": "data/images/Plates/California/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5902,7 +5902,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/CA/trailer-1.gif",
+        "plate_sample": "data/images/Plates/California/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5952,7 +5952,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/CA/trailer-2.gif",
+        "plate_sample": "data/images/Plates/California/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -6002,7 +6002,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/CA/trailer-3.gif",
+        "plate_sample": "data/images/Plates/California/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -6052,7 +6052,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/CA/trailer-4.gif",
+        "plate_sample": "data/images/Plates/California/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7460,6 +7460,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/California/trailer_sample.png"
       }
     },
     {
@@ -7539,6 +7542,9 @@
           "1987-1993",
           "1994-1997"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/California/plate_sample.png"
       }
     },
     {
@@ -7567,6 +7573,9 @@
           "2011-2014",
           "Black"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/California/plate_sample.png"
       }
     },
     {
@@ -7594,6 +7603,9 @@
           "Reviver Black",
           "Reviver White"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/California/plate_sample.png"
       }
     },
     {
@@ -7807,6 +7819,9 @@
           "1987-1997",
           "Since 1998"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/California/trailer_sample.png"
       }
     },
     {
@@ -7899,7 +7914,7 @@
   },
   "images": {
     "state_logo": null,
-    "character_font_reference": null,
+    "character_font_reference": "data/images/Plates/California/fontO.png",
     "blank_plate_template": null,
     "sticker_sample": null
   }

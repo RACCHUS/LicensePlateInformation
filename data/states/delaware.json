@@ -72,7 +72,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/DE/al.jpg",
+        "plate_sample": "data/images/Plates/Delaware/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5991,7 +5991,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/DE/standardbred_owners_assn.jpg",
+        "plate_sample": "data/images/Plates/Delaware/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7702,6 +7702,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Delaware/plate_sample.png"
       }
     },
     {
@@ -7726,6 +7729,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Delaware/plate_sample.png"
       }
     },
     {
@@ -7870,6 +7876,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Delaware/plate_sample.png"
       }
     },
     {
@@ -7918,6 +7927,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Delaware/plate_sample.png"
       }
     },
     {
@@ -8110,6 +8122,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Delaware/trailer_sample.png"
       }
     },
     {

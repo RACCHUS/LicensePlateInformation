@@ -63,7 +63,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": null,
+        "plate_sample": "data/images/Plates/South Dakota/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -408,7 +408,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/SD/standard-plate.png",
+        "plate_sample": "data/images/Plates/South Dakota/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -4497,6 +4497,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/South Dakota/plate_sample.png"
       }
     },
     {
@@ -4521,6 +4524,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/South Dakota/plate_sample.png"
       }
     },
     {
@@ -4689,6 +4695,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/South Dakota/plate_sample.png"
       }
     },
     {
@@ -4713,6 +4722,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/South Dakota/plate_sample.png"
       }
     },
     {
@@ -4761,6 +4773,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/South Dakota/plate_sample.png"
       }
     },
     {
@@ -4857,6 +4872,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/South Dakota/trailer_sample.png"
       }
     },
     {

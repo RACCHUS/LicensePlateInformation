@@ -72,7 +72,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/IA/personal.gif",
+        "plate_sample": "data/images/Plates/Iowa/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -187,7 +187,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/IA/personal.gif",
+        "plate_sample": "data/images/Plates/Iowa/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -4724,6 +4724,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Iowa/plate_sample.png"
       }
     },
     {
@@ -4748,6 +4751,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Iowa/plate_sample.png"
       }
     },
     {
@@ -4916,6 +4922,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Iowa/plate_sample.png"
       }
     },
     {
@@ -4940,6 +4949,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Iowa/plate_sample.png"
       }
     },
     {
@@ -4988,6 +5000,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Iowa/plate_sample.png"
       }
     },
     {
@@ -5036,6 +5051,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Iowa/semi-trailer_sample.png"
       }
     },
     {
@@ -5180,6 +5198,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Iowa/trailer_sample.png"
       }
     },
     {
@@ -5324,7 +5345,7 @@
   },
   "images": {
     "state_logo": null,
-    "character_font_reference": null,
+    "character_font_reference": "data/images/Plates/Iowa/fontO.png",
     "blank_plate_template": null,
     "sticker_sample": null
   }

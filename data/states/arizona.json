@@ -63,7 +63,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/AZ/license-plate-woman-veteran-marine-corps.jpg",
+        "plate_sample": "data/images/Plates/Arizona/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5082,7 +5082,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/AZ/standard-plate.jpg",
+        "plate_sample": "data/images/Plates/Arizona/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5674,6 +5674,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Arizona/trailer_sample.png"
       }
     },
     {
@@ -6625,6 +6628,9 @@
           "1996-2007",
           "2008-2020"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Arizona/plate_sample.png"
       }
     },
     {
@@ -6651,6 +6657,9 @@
         "variations": [
           "Since 2021"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Arizona/plate_sample.png"
       }
     },
     {
@@ -6807,6 +6816,9 @@
           "Since 2006",
           "Permanent"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Arizona/trailer_sample.png"
       }
     },
     {
@@ -7030,6 +7042,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Arizona/trailer_sample.png"
       }
     },
     {
@@ -7058,6 +7073,9 @@
           "1996-2007",
           "2008-2015"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Arizona/trailer_sample.png"
       }
     },
     {
@@ -7084,6 +7102,9 @@
         "variations": [
           "Since 2016"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Arizona/trailer_sample.png"
       }
     },
     {

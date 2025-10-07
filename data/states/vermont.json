@@ -74,7 +74,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/VT/VT-plates_image-051.jpg",
+        "plate_sample": "data/images/Plates/Vermont/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -778,7 +778,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/VT/VT-plates_image-022.jpg",
+        "plate_sample": "data/images/Plates/Vermont/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -828,7 +828,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/VT/VT-plates_image-024.jpg",
+        "plate_sample": "data/images/Plates/Vermont/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -928,7 +928,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/VT/VT-plates_image-028.jpg",
+        "plate_sample": "data/images/Plates/Vermont/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1878,7 +1878,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/VT/VT-plates_image-066.jpg",
+        "plate_sample": "data/images/Plates/Vermont/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [

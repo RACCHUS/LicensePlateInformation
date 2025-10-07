@@ -72,7 +72,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/MT/pioneer-montanaThumb.jpg",
+        "plate_sample": "data/images/Plates/Montana/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -11761,6 +11761,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Montana/plate_sample.png"
       }
     },
     {
@@ -11785,6 +11788,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Montana/plate_sample.png"
       }
     },
     {
@@ -11932,6 +11938,9 @@
           "MT - 0668450B",
           "MT - 3P2294B"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Montana/plate_sample.png"
       }
     },
     {
@@ -11980,6 +11989,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Montana/plate_sample.png"
       }
     },
     {
@@ -12172,6 +12184,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Montana/trailer_sample.png"
       }
     },
     {

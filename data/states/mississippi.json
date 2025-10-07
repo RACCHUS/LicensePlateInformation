@@ -92,7 +92,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/MS/Ambulance_jpg.jpg",
+        "plate_sample": "data/images/Plates/Mississippi/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -6129,7 +6129,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/MS/House of Representative (MS)_jpg.jpg",
+        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -9377,7 +9377,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/MS/National Wild Turkey Federation_jpg.jpg",
+        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -9477,7 +9477,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/MS/New Dealer_jpg.jpg",
+        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -9827,7 +9827,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/MS/Omega Psi Phi Motorcycle_jpg.jpg",
+        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -13476,7 +13476,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/MS/Veteran Coast Guard_jpg.jpg",
+        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -15146,6 +15146,9 @@
       "plate_characteristics": {
         "stacked_characters": null,
         "variations": []
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Mississippi/permanent-trailer_sample.png"
       }
     },
     {
@@ -15252,6 +15255,9 @@
           "2005-2008",
           "2009"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Mississippi/semi-trailer_sample.png"
       }
     },
     {
@@ -15278,6 +15284,9 @@
         "variations": [
           "Since 2010"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Mississippi/semi-trailer_sample.png"
       }
     },
     {
@@ -15357,6 +15366,9 @@
           "2007-2011",
           "2012-2018"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Mississippi/plate_sample.png"
       }
     },
     {
@@ -15384,6 +15396,9 @@
           "2019-2023",
           "Since 2024"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Mississippi/plate_sample.png"
       }
     },
     {
@@ -15506,6 +15521,9 @@
         "variations": [
           "Trailer Dealer"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png"
       }
     },
     {
@@ -15534,6 +15552,9 @@
           "2007-2011",
           "Since 2012"
         ]
+      },
+      "images": {
+        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png"
       }
     },
     {
