@@ -9,7 +9,17 @@ import sys
 import os
 
 # Add the src directory to Python path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+# Handle both regular execution and PyInstaller bundled execution
+if getattr(sys, 'frozen', False):
+    # Running as compiled executable
+    application_path = sys._MEIPASS
+else:
+    # Running as script
+    application_path = os.path.dirname(os.path.abspath(__file__))
+
+src_path = os.path.join(application_path, 'src')
+if src_path not in sys.path:
+    sys.path.insert(0, src_path)
 
 from gui.themes.theme_manager import ThemeManager
 from gui.utils.widget_factory import WidgetFactory

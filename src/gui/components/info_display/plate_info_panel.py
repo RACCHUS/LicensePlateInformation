@@ -6,6 +6,7 @@ import tkinter as tk
 from tkinter import ttk
 import json
 import os
+import sys
 from ...utils.widget_factory import WidgetFactory
 
 
@@ -113,8 +114,14 @@ class PlateInfoPanel:
             filename = self.state_filename_map.get(state_code)
             if not filename:
                 return None
+            
+            # Get base application path (works for both script and PyInstaller)
+            if getattr(sys, 'frozen', False):
+                application_path = sys._MEIPASS  # type: ignore
+            else:
+                application_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
                 
-            file_path = os.path.join('data', 'states', f'{filename}.json')
+            file_path = os.path.join(application_path, 'data', 'states', f'{filename}.json')
             
             if os.path.exists(file_path):
                 with open(file_path, 'r', encoding='utf-8') as f:

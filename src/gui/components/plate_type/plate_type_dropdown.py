@@ -6,6 +6,7 @@ import tkinter as tk
 from tkinter import ttk
 import json
 import os
+import sys
 from typing import Callable, Optional, List, Dict, Set
 from ...utils.widget_factory import WidgetFactory
 
@@ -117,24 +118,29 @@ class SmartPlateTypeDropdown:
         
     def _load_mapping_data(self) -> Dict:
         """Load the state-plate-type mapping data"""
-        current_dir = os.path.dirname(__file__)
+        # Get base application path (works for both script and PyInstaller)
+        if getattr(sys, 'frozen', False):
+            project_root = sys._MEIPASS  # type: ignore
+        else:
+            current_dir = os.path.dirname(__file__)
+            
+            # Find project root
+            search_dir = current_dir
+            project_root = None
+            
+            for _ in range(10):
+                if os.path.exists(os.path.join(search_dir, "main.py")):
+                    project_root = search_dir
+                    break
+                parent = os.path.dirname(search_dir)
+                if parent == search_dir:
+                    break
+                search_dir = parent
+            
+            if not project_root:
+                print("❌ Could not find project root")
+                return {"plate_type_to_states": {}, "state_to_plate_types": {}}
         
-        # Find project root
-        search_dir = current_dir
-        project_root = None
-        
-        for _ in range(10):
-            if os.path.exists(os.path.join(search_dir, "main.py")):
-                project_root = search_dir
-                break
-            parent = os.path.dirname(search_dir)
-            if parent == search_dir:
-                break
-            search_dir = parent
-        
-        if not project_root:
-            print("❌ Could not find project root")
-            return {"plate_type_to_states": {}, "state_to_plate_types": {}}        
         mapping_file = os.path.join(project_root, "data", "state_plate_type_mapping.json")
         
         try:

@@ -6,6 +6,7 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
 import os
+import sys
 import json
 from typing import List, Dict, Optional, Tuple
 
@@ -201,36 +202,39 @@ class PlateImageViewer:
         state_json = self._load_state_json(state_code)
         plate_types_map = self._build_plate_types_map(state_json)
         
-        # Base path for images
-        base_path = os.path.join(
-            os.path.dirname(__file__), '..', '..', '..', '..', 
-            'data', 'images', state_code
-        )
-        base_path = os.path.normpath(base_path)
+        # Get base application path (works for both script and PyInstaller)
+        if getattr(sys, 'frozen', False):
+            application_path = sys._MEIPASS  # type: ignore
+        else:
+            application_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
         
-        if not os.path.exists(base_path):
-            return []
+        # Build list of directories to search for images
+        search_dirs = []
         
-        # Check for plates subdirectory
-        plates_dir = os.path.join(base_path, 'plates')
-        
-        # Also check the Plates directory with state name
+        # Priority 1: Check the Plates directory with state name (primary location)
         state_folder_name = self._get_state_folder_name(state_code)
         if state_folder_name:
             plates_state_dir = os.path.join(
-                os.path.dirname(__file__), '..', '..', '..', '..', 
-                'data', 'images', 'Plates', state_folder_name
+                application_path, 'data', 'images', 'Plates', state_folder_name
             )
             plates_state_dir = os.path.normpath(plates_state_dir)
-        else:
-            plates_state_dir = None
+            if os.path.exists(plates_state_dir):
+                search_dirs.append(plates_state_dir)
         
-        # Scan both base directory and plates subdirectory
-        search_dirs = [base_path]
-        if os.path.exists(plates_dir):
-            search_dirs.append(plates_dir)
-        if plates_state_dir and os.path.exists(plates_state_dir):
-            search_dirs.append(plates_state_dir)
+        # Priority 2: Check state code directory (legacy location)
+        base_path = os.path.join(application_path, 'data', 'images', state_code)
+        base_path = os.path.normpath(base_path)
+        if os.path.exists(base_path):
+            search_dirs.append(base_path)
+            
+            # Also check plates subdirectory
+            plates_dir = os.path.join(base_path, 'plates')
+            if os.path.exists(plates_dir):
+                search_dirs.append(plates_dir)
+        
+        # If no directories found, return empty list
+        if not search_dirs:
+            return []
         
         for search_dir in search_dirs:
             if not os.path.exists(search_dir):
@@ -472,11 +476,17 @@ class PlateImageViewer:
     
     def _show_no_images_message(self, state_code: str):
         """Show message when no images are available"""
+        state_folder_name = self._get_state_folder_name(state_code)
+        if state_folder_name:
+            path_hint = f"data/images/Plates/{state_folder_name}/"
+        else:
+            path_hint = f"data/images/{state_code}/plates/"
+        
         message = (
             f"📷\n\n"
             f"No images available for {state_code}\n\n"
             f"Add images to:\n"
-            f"data/images/{state_code}/plates/\n\n"
+            f"{path_hint}\n\n"
             f"Supported formats: PNG, JPG, JPEG, GIF"
         )
         
@@ -525,10 +535,13 @@ class PlateImageViewer:
             if not state_filename:
                 return None
             
-            json_path = os.path.join(
-                os.path.dirname(__file__), '..', '..', '..', '..', 
-                'data', 'states', state_filename
-            )
+            # Get base application path (works for both script and PyInstaller)
+            if getattr(sys, 'frozen', False):
+                application_path = sys._MEIPASS  # type: ignore
+            else:
+                application_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
+            
+            json_path = os.path.join(application_path, 'data', 'states', state_filename)
             json_path = os.path.normpath(json_path)
             
             if not os.path.exists(json_path):

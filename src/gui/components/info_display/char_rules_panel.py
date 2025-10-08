@@ -7,6 +7,7 @@ import tkinter as tk
 from tkinter import ttk
 import json
 import os
+import sys
 from typing import Optional
 
 
@@ -129,23 +130,27 @@ class CharacterRulesPanel:
     def _load_state_data(self, state_code: str) -> Optional[dict]:
         """Load state JSON data"""
         try:
-            # Find project root
-            current_dir = os.path.dirname(__file__)
-            search_dir = current_dir
-            project_root = None
-            
-            for _ in range(10):
-                if os.path.exists(os.path.join(search_dir, "main.py")):
-                    project_root = search_dir
-                    break
-                parent = os.path.dirname(search_dir)
-                if parent == search_dir:
-                    break
-                search_dir = parent
-            
-            if not project_root:
-                print("❌ Could not find project root")
-                return None
+            # Get base application path (works for both script and PyInstaller)
+            if getattr(sys, 'frozen', False):
+                project_root = sys._MEIPASS  # type: ignore
+            else:
+                # Find project root
+                current_dir = os.path.dirname(__file__)
+                search_dir = current_dir
+                project_root = None
+                
+                for _ in range(10):
+                    if os.path.exists(os.path.join(search_dir, "main.py")):
+                        project_root = search_dir
+                        break
+                    parent = os.path.dirname(search_dir)
+                    if parent == search_dir:
+                        break
+                    search_dir = parent
+                
+                if not project_root:
+                    print("❌ Could not find project root")
+                    return None
             
             # Load state JSON using filename mapping
             filename = self.state_filename_map.get(state_code)
@@ -369,7 +374,12 @@ class CharacterRulesPanel:
             )
             symbol_label.pack(anchor='w', padx=20, pady=(5, 2))
             
-            symbol_text = ", ".join(symbols)
+            # Handle both list and non-list values
+            if isinstance(symbols, (list, tuple)):
+                symbol_text = ", ".join(str(s) for s in symbols)
+            else:
+                symbol_text = str(symbols)
+            
             symbol_value = tk.Label(
                 section_frame,
                 text=symbol_text,

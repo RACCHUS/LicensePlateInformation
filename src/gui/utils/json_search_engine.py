@@ -4,6 +4,8 @@ JSON Search Engine - Handles searching through license plate JSON data
 
 import json
 import re
+import os
+import sys
 from typing import Dict, List, Any, Optional
 from pathlib import Path
 
@@ -12,7 +14,17 @@ class JSONSearchEngine:
     """Advanced search engine for license plate JSON data"""
     
     def __init__(self, data_directory: Optional[str] = None):
-        self.data_directory = data_directory or "data/states"
+        # Get base application path (works for both script and PyInstaller)
+        if getattr(sys, 'frozen', False):
+            application_path = sys._MEIPASS  # type: ignore
+        else:
+            application_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+        
+        if data_directory:
+            self.data_directory = data_directory
+        else:
+            self.data_directory = os.path.join(application_path, 'data', 'states')
+        
         self.loaded_data: Dict[str, Any] = {}
         self.search_cache: Dict[str, List[Dict]] = {}
         

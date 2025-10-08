@@ -5,6 +5,7 @@ Handles SQLite database creation, updates, and queries
 
 import sqlite3
 import os
+import sys
 import json
 from typing import List, Dict, Optional, Tuple
 
@@ -18,8 +19,15 @@ class DatabaseManager:
             db_path: Path to SQLite database file. If None, uses default location.
         """
         if db_path is None:
+            # Get base application path (works for both script and PyInstaller)
+            if getattr(sys, 'frozen', False):
+                # When frozen, use the directory where the executable is located (writable)
+                application_path = os.path.dirname(sys.executable)
+            else:
+                application_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+            
             # Create data directory if it doesn't exist
-            data_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data', 'database')
+            data_dir = os.path.join(application_path, 'data', 'database')
             os.makedirs(data_dir, exist_ok=True)
             db_path = os.path.join(data_dir, 'license_plates.db')
         
@@ -231,9 +239,14 @@ class DatabaseManager:
     
     def _load_initial_data(self):
         """Load initial state data into database"""
+        # Get base application path (works for both script and PyInstaller)
+        if getattr(sys, 'frozen', False):
+            application_path = sys._MEIPASS  # type: ignore
+        else:
+            application_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+        
         # This will load from JSON files in data/states/ directory
-        states_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 
-                                 'data', 'states')
+        states_dir = os.path.join(application_path, 'data', 'states')
         
         if not os.path.exists(states_dir):
             # Create sample states if directory doesn't exist
