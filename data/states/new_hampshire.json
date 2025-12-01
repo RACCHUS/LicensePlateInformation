@@ -11,13 +11,15 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "O only on personalized plates; standard uses 0",
+      "character_restrictions": "O only on personalized plates; standard uses 0; Letter 'O' on personalized tags ONLY. Standard tags use number '0'. Symbols (AMPERSAND [&], PLUS [+], DASH [-]) must ALWAYS be included. Do NOT key stacked character CH. Example: NH-5926C, NH:-CACHE-, NH:&SQIRL, NH:+139+, NH:-G00D&U. For tags with symbols, dropdown is ALWAYS set to STANDARD, not 'DASH IN tag'. Do NOT accept symbols for other states.",
       "stacked_characters": {
         "include": [
           "CH"
         ],
-        "omit": [],
-        "position": "INCLUDE 'CH' and other stacked characters throughout plate. Symbols (&, +, -) can appear anywhere in plate number.",
+        "omit": [
+          "CH"
+        ],
+        "position": "Do NOT key stacked character CH.",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": [
@@ -26,7 +28,7 @@
           "and",
           "-"
         ],
-        "notes": "INCLUDE CH. ALWAYS INCLUDE symbols (&, +, and, -). Dropdown always Standard, not 'DASH IN tag'. NH ONLY accepts these symbols."
+        "notes": "INCLUDE CH. ALWAYS INCLUDE symbols (&, +, and, -). Dropdown always Standard, not 'DASH IN tag'. NH ONLY accepts these symbols.; Symbols must be included for NH only."
       }
     }
   },

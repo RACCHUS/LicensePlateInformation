@@ -7,7 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "Full rules: The letter \"O\" is to be verified as a letter. The letter \"O\" and the number \"0\" are identical. Use the patterns to identify which character to use.The Stacked COMB and COMM are not verified."
+      "Uses both the letter 'O' and the number '0'. Syntax patterns: ###LLL, #LLLL#, LL#####. Example: CT-NINNY is acceptable. If in doubt, MARK FOR REVIEW."
     ]
   },
   "stacked_character_rules": {

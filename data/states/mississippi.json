@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; State does not use letter 'O', only number '0'",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; State does not use letter 'O', only number '0'; Does not use the letter 'O' on standard tags. Letter 'O' used ONLY with stacked characters. Letter 'O' is rounder, number '0' is slimmer. Example tags: MS-TLR78918P (TLR included), MS-BLKOUT, MS-HAT0001 (both 'O' and '0' used), MS-NG28624 (prefix 'NG' must be keyed), MS-145281A (omit TLR on red tags ending with A), MS-B169396, MS-B6210, MS-B201367 (tags beginning with 'B', small numbers must be keyed), MS-F7650131, MS-F54140, MS-F4250063 (tags beginning with 'F', small numbers must be keyed), MS-DBK9165 (stacked must be keyed). Standard tags use number '0'. Stacked characters must be keyed.",
       "stacked_characters": {
         "include": [
           "AU",

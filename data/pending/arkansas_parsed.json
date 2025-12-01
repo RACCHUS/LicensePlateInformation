@@ -7,17 +7,12 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "Full rules: Follow the syntax pattern.  The letter 'O' is blocky and the number '0' is more oblong.  Key all verticals except \"TRUCK\" & \"ARK\" as seen Vertical characters must be entered as seen."
+      "Uses both O and 0 - O with letters, 0 with numbers. The letter 'O' is blocky and the number '0' is more oblong. Key all verticals except 'TRUCK' & 'ARK' as seen. Vertical characters must be entered as seen. Follow the syntax pattern."
     ]
   },
   "stacked_character_rules": {
-    "omit": [
-      "THE",
-      "ARK",
-      "ARK VERTICALS",
-      "WORD"
-    ],
-    "include": [],
+    "omit": ["ARK", "ARK VERTICALS", "THE", "TRUCK", "WORD"],
+    "include": ["AB", "EM", "Ex", "FX", "PF", "PHS", "US"],
     "position": "Y - OMIT ARK verticals on left side of plate.; Y - Verticals on right are NOT keyed.",
     "prefix_rules": null,
     "notes": "Extracted from 6 plate types with character modifications"

@@ -7,8 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "State uses both letter 'O' and number '0'",
-      "Full rules: Uses both the Letter O and the Number Zero 0 on their plates. The letter O is rounder than the number 0. * NOTE :  DO NOT enter any symbols (!,&,$,@,etc..)"
+      "Letter 'O' with letters and on personalized tags. Number '0' with numbers. The letter 'O' is rounder than the number '0'. OMIT vertical or diagonal characters with different font or color. Example tags: VA-ID36477, VA-730591TR, VA-8949ZE, VA-UNSKOL (personalized), VA-08328 (all numeric, first character is zero), VA-FD48917 (Fire Fighter logo on left, RS in symbol must be keyed), VA-RSVESTA (RS in symbol must be keyed). Stacked characters must be keyed."
     ]
   },
   "stacked_character_rules": {

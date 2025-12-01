@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: Follow the syntax pattern.  The letter 'O' is blocky and the number '0' is more oblong.  Key all verticals except \"TRUCK\" & \"ARK\" as seen Vertical characters must be entered as seen.",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: Follow the syntax pattern.  The letter 'O' is blocky and the number '0' is more oblong.  Key all verticals except \"TRUCK\" & \"ARK\" as seen Vertical characters must be entered as seen.; Uses both O and 0 - O with letters, 0 with numbers. The letter 'O' is blocky and the number '0' is more oblong. Key all verticals except 'TRUCK' & 'ARK' as seen. Vertical characters must be entered as seen. Follow the syntax pattern.",
       "stacked_characters": {
         "include": [
           "AB",
@@ -76,7 +76,29 @@
         "plate_text": null,
         "design_variants": null,
         "character_formatting": {
-          "stacked_characters": null,
+          "stacked_characters": {
+            "include": [
+              "AB",
+              "EM",
+              "Ex",
+              "FX",
+              "PF",
+              "PHS",
+              "US"
+            ],
+            "omit": [
+              "ARK",
+              "ARK VERTICALS",
+              "THE",
+              "TRUCK",
+              "WORD"
+            ],
+            "position": "Y - OMIT ARK verticals on left side of plate.; Y - Verticals on right are NOT keyed.",
+            "max_characters": null,
+            "prefix_rules": null,
+            "symbols_allowed": null,
+            "notes": "Include military/service codes, omit vehicle type; Extracted from 6 plate types with character modifications"
+          },
           "slanted_characters": null,
           "slant_direction": null,
           "stack_position": null
@@ -9756,7 +9778,7 @@
   "uses_zero_for_o": true,
   "allows_letter_o": true,
   "zero_is_slashed": false,
-  "notes": "Arkansas uses letter 'O' with letters/personalized plates and number '0' with numbers. Standard format varies. Source: OOS.txt compilation - requires verification with official DMV documentation. Uses 'O' with letters/personalized plates; uses '0' with numbers.",
+  "notes": "Letter O with letters/Letter O on personalized plates/Zero 0 will be with numbers. Has a three letter/three number format. Letter with stacked letters.",
   "main_font": "Narrow block sans serif, proprietary",
   "main_logo": "Diamond emblem (state gem)",
   "main_plate_text": "State Name or Abbreviation",

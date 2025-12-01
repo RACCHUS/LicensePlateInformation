@@ -7,7 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "Full rules: Standard pattern is 3 letters and 3 numbers. Uses the letter \"O\". Zeros will have a slash through it."
+      "Letter 'O' with letters and on personalized tags; number '0' with numbers. GROUP of LETTERS, GROUP of NUMBERS. Example: IA-FGZ064 (fourth character is '0'), IA-322ZMO (last character is 'O'). If unsure, MARK FOR REVIEW. Sometimes zero '0' has a slash; if not, use context: with numbers it's '0', with letters it's 'O'."
     ]
   },
   "stacked_character_rules": {

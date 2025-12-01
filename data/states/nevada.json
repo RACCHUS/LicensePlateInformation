@@ -11,30 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": {
-        "standard_plates": {
-          "uses_letter_o": true,
-          "uses_number_zero": false,
-          "description": "Standard plates (Home Means Nevada series) do NOT include the number zero ('0'). These plates feature alphanumeric combinations like 123·ABC and only use the letter 'O', never the number zero.",
-          "plate_types": [
-            "sequential",
-            "standard_passenger",
-            "specialty_sequential"
-          ]
-        },
-        "personalized_plates": {
-          "uses_letter_o": true,
-          "uses_number_zero": true,
-          "description": "Personalized/vanity plates DO include the number zero ('0'). To avoid confusion with letter 'O', the number zero is designed with a diamond-shaped or slightly rounded rectangular appearance, while the letter 'O' is more circular or oval in shape.",
-          "visual_distinction": "Number '0' has diamond-shaped or slightly rounded rectangular design; Letter 'O' is circular or oval",
-          "plate_types": [
-            "personalized",
-            "vanity",
-            "custom"
-          ]
-        },
-        "summary": "Nevada uses BOTH letter 'O' and number '0', but in different contexts. Standard plates use only letter 'O' (no zeros). Personalized plates use both, with the zero designed to be visually distinct (diamond-shaped vs circular)."
-      },
+      "character_restrictions": "{'standard_plates': {'uses_letter_o': True, 'uses_number_zero': False, 'description': \"Standard plates (Home Means Nevada series) do NOT include the number zero ('0'). These plates feature alphanumeric combinations like 123·ABC and only use the letter 'O', never the number zero.\", 'plate_types': ['sequential', 'standard_passenger', 'specialty_sequential']}, 'personalized_plates': {'uses_letter_o': True, 'uses_number_zero': True, 'description': \"Personalized/vanity plates DO include the number zero ('0'). To avoid confusion with letter 'O', the number zero is designed with a diamond-shaped or slightly rounded rectangular appearance, while the letter 'O' is more circular or oval in shape.\", 'visual_distinction': \"Number '0' has diamond-shaped or slightly rounded rectangular design; Letter 'O' is circular or oval\", 'plate_types': ['personalized', 'vanity', 'custom']}, 'summary': \"Nevada uses BOTH letter 'O' and number '0', but in different contexts. Standard plates use only letter 'O' (no zeros). Personalized plates use both, with the zero designed to be visually distinct (diamond-shaped vs circular).\"}; Letter 'O' on personalized tags ONLY. Standard tags use the number '0'. Stacked characters are included and must be keyed.",
       "stacked_characters": {
         "include": [
           "DT"

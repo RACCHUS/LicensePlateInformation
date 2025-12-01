@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: Allows the letter O for all plates. On personalized plates, use the letter O.",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: Allows the letter O for all plates. On personalized plates, use the letter O.; Uses both the letter 'O' and the number '0'. Personalized plates use the letter 'O'. Use syntax patterns to identify which character to use: L####, A1234, LL###L, AB123C, LLL##L, ABC12D, #L####L, 1A2345B, #LL###L, 1AB234C, #LLL##L, 1ABC23D, #LLLL#L, 1ABC2D, 10L###L, 10123A, 10LL##L, 10AB12C. Example: ID-AK7554. OMIT 'PRP' (not keyed).",
       "stacked_characters": {
         "include": [],
         "omit": [

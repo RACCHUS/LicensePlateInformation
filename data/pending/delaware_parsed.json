@@ -7,7 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "Full rules: Vertical characters are keyed as seen. The letter O is verified as a letter."
+      "Letter 'O' with letters and on personalized tags; number '0' with numbers. Example: DE-CL51015. Include stacked characters for Delaware. Example: DE-86868. Top of tag may show 'DEL' abbreviation."
     ]
   },
   "stacked_character_rules": {

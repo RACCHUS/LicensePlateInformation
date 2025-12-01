@@ -1,2 +1,8 @@
 # Required packages for License Plate Information System
 pillow>=9.0.0
+
+# Testing dependencies
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+pytest-timeout>=2.1.0

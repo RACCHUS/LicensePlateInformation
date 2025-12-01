@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; State does not use letter 'O', only number '0'",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; State does not use letter 'O', only number '0'; Does NOT use the letter 'O'. Example tags: NJ-NGN000, NJ-WD1873, NJ-HM4151, NJ-DUN75, NJ-34DMK, NJ-5647DTM, NJ-T0SNJ, NJ-WHNJ, NJ-NJ12B. Stacked characters must be keyed. OMIT SMALL characters for NEW AND USED DEALER tags. For other tags, INCLUDE all characters including small characters. Stacked characters or small numbers must be keyed.",
       "stacked_characters": {
         "include": [
           "HM",

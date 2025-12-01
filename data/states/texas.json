@@ -13,7 +13,7 @@
   "processing_metadata": {
     "description": "Official Texas DMV processing rules and validation requirements",
     "global_rules": {
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; State does not use letter 'O', only number '0'",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; State does not use letter 'O', only number '0'; Does NOT use the letter 'O'. Example tags: TX-155B692, TX-LHD8448, TX-032KKL. State indicator (map) in center of tag. TX-DVB01BB (stacked DV must be keyed). OMIT the letter 'T' in the white part of the tag.",
       "font_changes": "Information needed - check historical changes",
       "code_system": "Code Number system used - most plates use Code Number 0",
       "stacked_characters": {

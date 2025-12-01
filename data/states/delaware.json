@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: Vertical characters are keyed as seen. The letter O is verified as a letter.",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: Vertical characters are keyed as seen. The letter O is verified as a letter.; Letter 'O' with letters and on personalized tags; number '0' with numbers. Example: DE-CL51015. Include stacked characters for Delaware. Example: DE-86868. Top of tag may show 'DEL' abbreviation.",
       "stacked_characters": {
         "include": [],
         "omit": [],

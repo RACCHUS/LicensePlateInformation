@@ -7,8 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "State does not use letter 'O', only number '0'",
-      "Full rules: Does not use the letter O in its standard issued plates. They do use the letter O and the number zero 0 on their vanity/personalized plates. You can tell the difference on the plate because the letter O is much rounder where as the number zero 0 is slimmer * Key all Verticals"
+      "Does not use the letter 'O' on standard tags. Letter 'O' and number '0' used on personalized tags. Letter 'O' is much rounder, number '0' is slimmer. Example tags: NY-LILY05 (fifth character is '0'), NY-EENSKOOT (sixth and seventh are 'O'), NY-527EMTP (EMTP keyed), NY-MD95409 (MD keyed), NY-VAS1128 (VAS keyed), NY-DAV999 (DAV keyed). State indicator (map) in center of tag."
     ]
   },
   "stacked_character_rules": {

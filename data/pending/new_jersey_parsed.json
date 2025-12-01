@@ -7,8 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "State does not use letter 'O', only number '0'",
-      "Full rules: Does not use the letter O, only the number zero 0."
+      "Does NOT use the letter 'O'. Example tags: NJ-NGN000, NJ-WD1873, NJ-HM4151, NJ-DUN75, NJ-34DMK, NJ-5647DTM, NJ-T0SNJ, NJ-WHNJ, NJ-NJ12B. Stacked characters must be keyed. OMIT SMALL characters for NEW AND USED DEALER tags. For other tags, INCLUDE all characters including small characters. Stacked characters or small numbers must be keyed."
     ]
   },
   "stacked_character_rules": {

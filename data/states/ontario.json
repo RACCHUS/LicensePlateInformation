@@ -11,18 +11,18 @@
     "global_rules": {
       "font_changes": "Information needed - research historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Does NOT use the letter 'O'. Example tags: ON-PP4057, ON-PH7663. OMIT 'PRP'.",
       "international": "Canadian province with different standards",
       "stacked_characters": {
         "include": [],
         "omit": [
           "PRP"
         ],
-        "position": "OMIT 'PRP' on YOURS TO DISCOVER plates",
+        "position": "OMIT 'PRP' stacked characters. Stacked characters must be keyed for other tags.",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "Omit PRP on YOURS TO DISCOVER plate"
+        "notes": "Omit PRP on YOURS TO DISCOVER plate; OMIT 'PRP' stacked characters. Stacked characters must be keyed for other tags."
       }
     }
   },

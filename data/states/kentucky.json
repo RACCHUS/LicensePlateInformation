@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "O only on personalized plates; standard uses 0; Full rules: Systematically the letter O is only accepted on personalized plates. Any number zero 0 on personalized plates is defaulted to the letter O. * NOTE :  Vertical characters must be entered when present. Verticals are not unique to plate designs.  Silkscreen plate production begins in 2021.",
+      "character_restrictions": "O only on personalized plates; standard uses 0; Full rules: Systematically the letter O is only accepted on personalized plates. Any number zero 0 on personalized plates is defaulted to the letter O. * NOTE :  Vertical characters must be entered when present. Verticals are not unique to plate designs.  Silkscreen plate production begins in 2021.; Letter 'O' on personalized tags ONLY. Always include stacked characters for Kentucky. TIP: Handicap tags display 'PARKING' across the bottom. Example: KY-24A755101, KY-24A48901. Preprinted paper tags require current 'Year' prefix and must be keyed.",
       "stacked_characters": {
         "include": [
           "YEARLY"

@@ -2,16 +2,18 @@
   "name": "Arizona",
   "abbreviation": "AZ",
   "slogan": "Grand Canyon State",
+
   "primary_colors": [
     "#FFFFFF",
     "#000000"
   ],
+  "notes": "Letter O used on personalized plates ONLY.",
   "processing_metadata": {
     "description": "Official Arizona DMV processing rules and validation requirements",
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "O only on personalized plates; standard uses 0; Full rules: Allows the use of the letter \"O\" and on standand plates the fourth character will always be a number; Plate font changed to block style in 2008."
+      "character_restrictions": "O only on personalized plates; standard uses 0; Full rules: Allows the use of the letter \"O\" and on standand plates the fourth character will always be a number; Plate font changed to block style in 2008.; O only on personalized plates; standard uses 0. In standard plates, the fourth character will always be a number. Plate font changed to block style in 2008. Allows the use of the letter 'O' and on standard plates the fourth character will always be a number."
     }
   },
   "plate_types": [
@@ -7266,7 +7268,7 @@
   "uses_zero_for_o": true,
   "allows_letter_o": true,
   "zero_is_slashed": false,
-  "notes": "Arizona uses letter 'O' only on personalized/vanity plates. Standard plates use only number zero '0'. Source: OOS.txt compilation - requires verification with official DMV documentation. Letter 'O' only appears on personalized/vanity plates; standard plates use '0'.",
+  "notes": "Letter O used on personalized plates ONLY.",
   "main_font": "Modified block sans serif, similar to Highway Gothic",
   "main_logo": "Desert scene with mountains and cactus",
   "main_plate_text": "State Name or Abbreviation",

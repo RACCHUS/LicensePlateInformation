@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: AB 123 & 12345 Patterns (1996-2007)     123456 (2007-Present)                          1AB 234 (2020 - Present)",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: AB 123 & 12345 Patterns (1996-2007)     123456 (2007-Present)                          1AB 234 (2020 - Present); Letter 'O' with letters and on personalized tags; number '0' with numbers. Example tags: RI-570184 (do not add dash), RI-TRL98420 (TRL included and must be keyed).",
       "stacked_characters": {
         "include": [
           "TRL"

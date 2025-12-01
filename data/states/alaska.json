@@ -2,16 +2,19 @@
   "name": "Alaska",
   "abbreviation": "AK",
   "slogan": "Last Frontier",
+
   "primary_colors": [
     "#FFFFFF",
     "#000000"
   ],
+  "notes": "Letter O with letters/Letter O on personalized plates/Zero 0 will be with numbers. O and 0 are visually distinct.",
+  
   "processing_metadata": {
     "description": "Official Alaska DMV processing rules and validation requirements",
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: \"The Last Frontier\" at bottom.  Standard ABC 123 pattern. Use the syntax to determine the letter \"O\". The letter \"O\" is Verified as a letter.  The number 0 has a slash through the number in plates made after 2022"
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: \"The Last Frontier\" at bottom.  Standard ABC 123 pattern. Use the syntax to determine the letter \"O\". The letter \"O\" is Verified as a letter.  The number 0 has a slash through the number in plates made after 2022; Uses both O and 0 - O with letters, 0 with numbers. Full rules: 'The Last Frontier' at bottom. Standard ABC 123 pattern. Use the syntax to determine the letter 'O'. The letter 'O' is verified as a letter. The number 0 has a slash through the number in plates made after 2022. Letter O allowed on personalized plates."
     }
   },
   "plate_types": [
@@ -3576,7 +3579,7 @@
   "uses_zero_for_o": true,
   "allows_letter_o": true,
   "zero_is_slashed": false,
-  "notes": "Alaska uses letter 'O' with letters/personalized plates and number '0' with numbers. Standard format varies. Source: OOS.txt compilation - requires verification with official DMV documentation. Uses 'O' with letters/personalized plates; uses '0' with numbers.",
+  "notes": "Letter O with letters/Letter O on personalized plates/Zero 0 will be with numbers. O and 0 are visually distinct.",
   "main_font": "Custom condensed sans serif, proprietary",
   "main_logo": "Grizzly bear and North Star / Big Dipper",
   "main_plate_text": "State Name or Abbreviation",
@@ -3587,7 +3590,7 @@
     "description": "Standard validation stickers"
   },
   "character_formatting": {
-    "stacked_characters": false,
+    "stacked_characters": null,
     "slanted_characters": false,
     "slant_direction": null,
     "stack_position": null

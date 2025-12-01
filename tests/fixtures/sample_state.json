@@ -1,0 +1,96 @@
+{
+  "state_info": {
+    "name": "Test State",
+    "abbreviation": "TS",
+    "slogan": "Testing Excellence",
+    "primary_colors": ["#FF0000", "#0000FF"],
+    "uses_zero_for_o": false,
+    "allows_letter_o": true,
+    "zero_is_slashed": false,
+    "logo": "test_logo.png",
+    "notes": "This is sample test data for unit testing"
+  },
+  "plate_types": [
+    {
+      "type_name": "Passenger",
+      "pattern": "^[0-9][A-Z]{3}[0-9]{3}$",
+      "character_count": 7,
+      "description": "Standard passenger vehicle plate",
+      "category": "standard",
+      "is_active": true,
+      "example_plate": "1ABC123",
+      "background_color": "#FF0000",
+      "text_color": "#FFFFFF",
+      "has_stickers": true,
+      "sticker_description": "Month/Year validation stickers",
+      "notes": "Most common plate type"
+    },
+    {
+      "type_name": "Commercial",
+      "pattern": "^[A-Z]{2}[0-9]{5}$",
+      "character_count": 7,
+      "description": "Commercial vehicle plate",
+      "category": "commercial",
+      "is_active": true,
+      "example_plate": "AB12345",
+      "background_color": "#0000FF",
+      "text_color": "#FFFFFF",
+      "has_stickers": false,
+      "notes": "For commercial vehicles"
+    },
+    {
+      "type_name": "Motorcycle",
+      "pattern": "^[0-9]{3}[A-Z]{3}$",
+      "character_count": 6,
+      "description": "Motorcycle plate",
+      "category": "motorcycle",
+      "is_active": true,
+      "example_plate": "123ABC",
+      "background_color": "#FF0000",
+      "text_color": "#000000",
+      "has_stickers": true
+    }
+  ],
+  "character_references": [
+    {
+      "character": "0",
+      "type": "number",
+      "confusion_chars": ["O"],
+      "is_letter": false,
+      "is_number": true,
+      "allowed_positions": [0, 1, 2, 3, 4, 5, 6],
+      "notes": "Zero can be confused with letter O"
+    },
+    {
+      "character": "O",
+      "type": "letter",
+      "confusion_chars": ["0"],
+      "is_letter": true,
+      "is_number": false,
+      "allowed_positions": [1, 2, 3],
+      "notes": "Letter O can be confused with zero"
+    },
+    {
+      "character": "I",
+      "type": "letter",
+      "confusion_chars": ["1", "L"],
+      "is_letter": true,
+      "is_number": false,
+      "allowed_positions": [1, 2, 3],
+      "notes": "Letter I can be confused with 1 and L"
+    }
+  ],
+  "handling_rules": {
+    "uses_zero_for_o": false,
+    "allows_letter_o": true,
+    "zero_is_slashed": false,
+    "omit_characters": [],
+    "stacked_characters": false,
+    "slanted_characters": false,
+    "character_restrictions": {
+      "no_leading_zero": false,
+      "no_vowels": false,
+      "no_profanity": true
+    }
+  }
+}

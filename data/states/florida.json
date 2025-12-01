@@ -69,7 +69,7 @@
         "symbols_allowed": null,
         "notes": "Florida does NOT use letter 'O' - automatically converts to zero '0' in database. Include all visible registration characters unless plate-specific rules indicate omission (see individual plate types for dropdown requirements and omit rules like 'DV', 'EX-POW', 'City', 'County', 'CO', 'CY', etc.).; Extracted from 26 plate types with character modifications"
       },
-      "character_restrictions": "State does not use letter 'O', only number '0'"
+      "character_restrictions": "State does not use letter 'O', only number '0'; Florida does NOT use letter 'O' - only zero '0'. If the letter 'O' is entered it automatically changes to zero '0' in the motor vehicle database. Font changes in 2008 & 2019. Florida uses Plate Type Code numbers to apply proper prefix/suffix currently. Does not use letter 'O' on standard plates. Always use zero '0'."
     },
     "processing_types": {
       "standard": {

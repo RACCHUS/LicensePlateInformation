@@ -1,0 +1,21 @@
+{
+  "state": "New Hampshire",
+  "abbreviation": "NH",
+  "character_rules": {
+    "uses_zero_for_o": true,
+    "letter_restrictions": [],
+    "font_changes": null,
+    "code_system": null,
+    "special_notes": [
+      "Letter 'O' on personalized tags ONLY. Standard tags use number '0'. Symbols (AMPERSAND [&], PLUS [+], DASH [-]) must ALWAYS be included. Do NOT key stacked character CH. Example: NH-5926C, NH:-CACHE-, NH:&SQIRL, NH:+139+, NH:-G00D&U. For tags with symbols, dropdown is ALWAYS set to STANDARD, not 'DASH IN tag'. Do NOT accept symbols for other states."
+    ]
+  },
+  "stacked_character_rules": {
+    "omit": ["CH"],
+    "include": [],
+    "position": "Do NOT key stacked character CH.",
+    "prefix_rules": null,
+    "notes": "Symbols must be included for NH only."
+  },
+  "plate_types": []
+}

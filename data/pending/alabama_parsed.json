@@ -2,20 +2,20 @@
   "state": "Alabama",
   "abbreviation": "AL",
   "character_rules": {
-    "uses_zero_for_o": false,
+  "uses_zero_for_o": true,
     "letter_restrictions": [],
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "Full rules: Does not allow the use of the letter \"O\". The number \"0\" must always be used. Vertical characters must be entered as seen. Do not key 3 character verticals. On the currect standard plates, the registration begins with a 1 or 2 number county code. "
+      "Alabama does NOT allow the use of the letter 'O'. The number '0' must always be used. Vertical characters must be entered as seen. Do not key 3 character verticals. On current standard plates, the registration begins with a 1 or 2 number county code. OMIT '200' on LEFT side, OMIT 'T' on LEFT side, INCLUDE 'X2' stacked in MIDDLE, INCLUDE 'TL'/'TR' stacked, INCLUDE 'DV'/'Q1' stacked."
     ]
   },
   "stacked_character_rules": {
-    "omit": [],
-    "include": [],
-    "position": "Y-Verify vertical characters as seen.",
+    "omit": ["200", "T"],
+    "include": ["X2", "TL", "TR", "DV", "Q1"],
+    "position": "OMIT '200' on LEFT side, OMIT 'T' on LEFT side, INCLUDE 'X2' stacked in MIDDLE, INCLUDE 'TL'/'TR' stacked, INCLUDE 'DV'/'Q1' stacked",
     "prefix_rules": null,
-    "notes": "Extracted from 13 plate types with character modifications"
+    "notes": "Include stacked in middle, omit on left side"
   },
   "plate_types": [
     {

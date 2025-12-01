@@ -6,7 +6,9 @@
     "letter_restrictions": [],
     "font_changes": null,
     "code_system": null,
-    "special_notes": []
+    "special_notes": [
+      "Does NOT use the letter 'O'. Example tags: MT-250892D, MT-N0K1DS (second character is '0')."
+    ]
   },
   "stacked_character_rules": {
     "omit": [],

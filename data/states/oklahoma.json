@@ -11,17 +11,17 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Letter 'O' with letters and on personalized tags; number '0' with numbers. Key indicator for Oklahoma. Example tags: OK-1459LI, OK-2835 (OMIT 'UD013'), OK-LANDO31 (personalized, 'O' between D and 3).",
       "stacked_characters": {
         "include": [],
         "omit": [
           "UD013"
         ],
-        "position": "OMIT 'UD013' on Used Dealer plates",
+        "position": "Stacked characters must be keyed.",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "Omit UD013 on Used Dealer plates"
+        "notes": "Omit UD013 on Used Dealer plates; Stacked characters must be keyed."
       }
     }
   },

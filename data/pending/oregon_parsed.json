@@ -7,15 +7,15 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "Full rules: ABC 123 Pattern (1990-2004)     123 ABC (2004-Present)"
+      "Does NOT use the letter 'O'. Example tags: OR-Y119652 (include small 'Y'), OR-HP27450, OR-HU21079. Stacked characters must be keyed."
     ]
   },
   "stacked_character_rules": {
-    "omit": [],
-    "include": [],
-    "position": "Varies by plate type",
-    "prefix_rules": null,
-    "notes": "Extracted from 0 plate types with character modifications"
+  "omit": [],
+  "include": ["Y"],
+  "position": "Include small 'Y' for apportioned Oregon tags. Stacked characters must be keyed.",
+  "prefix_rules": null,
+  "notes": "Include small 'Y' for apportioned Oregon tags. Stacked characters must be keyed."
   },
   "plate_types": [],
   "total_count": 0

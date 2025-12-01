@@ -7,8 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "State does not use letter 'O', only number '0'",
-      "Full rules: Does not use the Letter O, only the number zero 0."
+      "Does NOT use the letter 'O'. Example tags: TX-155B692, TX-LHD8448, TX-032KKL. State indicator (map) in center of tag. TX-DVB01BB (stacked DV must be keyed). OMIT the letter 'T' in the white part of the tag."
     ]
   },
   "stacked_character_rules": {

@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - research historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Does NOT use the letter 'O'. Only the number '0' is used. Verify this tag as VT-185A253. OMIT the STACKED CHARACTERS 'TRK'.",
       "stacked_characters": {
         "include": [],
         "omit": [

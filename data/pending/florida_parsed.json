@@ -7,8 +7,7 @@
     "font_changes": "Does not use the Letter \"O\", we only use the number zero \"0\". If the letter \"O\" is entered it automatically changes to zero \"0\" in our motor vehicle database. Font changes in 2008 & 2019. Florida uses",
     "code_system": null,
     "special_notes": [
-      "State does not use letter 'O', only number '0'",
-      "Full rules: Does not use the Letter \"O\", we only use the number zero \"0\". If the letter \"O\" is entered it automatically changes to zero \"0\" in our motor vehicle database. Font changes in 2008 & 2019. Florida uses Plate Type Code numbers to apply proper prefix/suffix currently. The only plate type code used is P"
+      "Florida does NOT use letter 'O' - only zero '0'. If the letter 'O' is entered it automatically changes to zero '0' in the motor vehicle database. Font changes in 2008 & 2019. Florida uses Plate Type Code numbers to apply proper prefix/suffix currently. Does not use letter 'O' on standard plates. Always use zero '0'."
     ]
   },
   "stacked_character_rules": {

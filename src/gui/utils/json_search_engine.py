@@ -241,7 +241,12 @@ class JSONSearchEngine:
             'slogan': data.get('slogan', ''),
             'name': data.get('name', ''),
             'abbreviation': data.get('abbreviation', ''),
-            'notes': data.get('notes', '')
+            'notes': data.get('notes', ''),
+            'main_logo': data.get('main_logo', ''),
+            'main_font': data.get('main_font', ''),
+            'main_plate_text': data.get('main_plate_text', ''),
+            'main_background': data.get('main_background', ''),
+            'description': data.get('description', '')
         }
         
         for field_name, field_value in searchable_state_fields.items():

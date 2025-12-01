@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Does NOT use the letter 'O'. DO NOT ACCEPT THE LETTER 'E'. OMIT the letter 'E' on the top right corner (sticker, not keyed). If state name is covered but characters are clear, mark for review if unsure. Example tags: MN-2CV30, MN-YNE9241 (omit 'E'), MN-G00SE14 (second and third characters are '0'), MN-8208AB (third character is '0'). REMINDER: THE STATE OF MINNESOTA DOES NOT USE THE LETTER 'O'.",
       "stacked_characters": {
         "include": [],
         "omit": [

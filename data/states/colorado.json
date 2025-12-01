@@ -11,12 +11,13 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: The letter \"O\" is to be verified as a letter. Key only the unusal three letter verticials",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: The letter \"O\" is to be verified as a letter. Key only the unusal three letter verticials; Letter 'O' with letters and on personalized tags; number '0' with numbers. Common pattern: 3 letters and 3 numbers (e.g., CO-BSO068: 'BSO' are letters, '068' are numbers). New pattern: 4 letters and 2 numbers. Pay attention to the shape difference between 'O' and '0'. Example: CO-CFM280. OMIT 'FLT' (not keyed). Disabled Veteran tags: OMIT 'DV' (not keyed). Verification examples: CO-ADDW00, CO-886YVY.",
       "stacked_characters": {
         "include": [
           "DV"
         ],
         "omit": [
+          "DV",
           "DV IN",
           "FLT",
           "THE",
@@ -69,7 +70,23 @@
         "plate_text": null,
         "design_variants": null,
         "character_formatting": {
-          "stacked_characters": null,
+          "stacked_characters": {
+            "include": [
+              "DV"
+            ],
+            "omit": [
+              "DV",
+              "DV IN",
+              "FLT",
+              "THE",
+              "VERTICAL TRL"
+            ],
+            "position": "Y - Omit the vertical TRL.",
+            "max_characters": null,
+            "prefix_rules": null,
+            "symbols_allowed": null,
+            "notes": "Include DV (disabled veteran) stacked, omit FLT (fleet); Extracted from 5 plate types with character modifications"
+          },
           "slanted_characters": null,
           "slant_direction": null,
           "stack_position": null
@@ -16741,7 +16758,7 @@
   "uses_zero_for_o": true,
   "allows_letter_o": true,
   "zero_is_slashed": false,
-  "notes": "Colorado uses letter 'O' with letters/personalized plates and number '0' with numbers. Standard format varies. Source: OOS.txt compilation - requires verification with official DMV documentation. Uses 'O' with letters/personalized plates; uses '0' with numbers.",
+  "notes": "Letter O with letters/Letter O on personalized plates/Zero 0 will be with numbers. Has a three letter/three number format or four letters/two numbers. Letter O’s and Number 0’s LOOK DIFFERENT. 'B' and '8' look similar. Vertical/Diagonal. Trailer Plates OMIT 'FLT'. Disabled Veteran Plates Omit 'DV'.",
   "main_font": "Modified block sans serif, Highway Gothic influence",
   "main_logo": "Green mountain range silhouette",
   "main_plate_text": "State Name or Abbreviation",

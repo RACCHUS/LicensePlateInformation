@@ -20,7 +20,24 @@
     "description": "Standard validation stickers"
   },
   "character_formatting": {
-    "stacked_characters": true,
+    "stacked_characters": {
+      "include": [
+        "DV",
+        "Q1",
+        "TL",
+        "TR",
+        "X2"
+      ],
+      "omit": [
+        "200",
+        "T"
+      ],
+      "position": "OMIT '200' on LEFT side, OMIT 'T' on LEFT side, INCLUDE 'X2' stacked in MIDDLE, INCLUDE 'TL'/'TR' stacked, INCLUDE 'DV'/'Q1' stacked",
+      "max_characters": null,
+      "prefix_rules": null,
+      "symbols_allowed": null,
+      "notes": "Include stacked in middle, omit on left side"
+    },
     "slanted_characters": false,
     "slant_direction": null,
     "stack_position": "Various positions depending on plate type"
@@ -31,11 +48,11 @@
     "blank_plate_template": "images/states/AL/blank_template.png",
     "sticker_sample": "images/states/AL/sticker.png"
   },
-  "notes": "Alabama does NOT allow the use of the letter 'O'. The number '0' must always be used. Vertical characters must be entered as seen. Do not key 3 character verticals. On current standard plates, the registration begins with a 1 or 2 number county code. PROCESSING: Always uses standard processing regardless of plate type.",
+  "notes": "Alabama does NOT allow the use of the letter 'O'; the number '0' must always be used. Vertical characters must be entered as seen. Do not key 3 character verticals. On current standard plates, the registration begins with a 1 or 2 number county code. OMIT the '200' on the left side of the plate. OMIT the 'T' on the left side of the tag for Troy University. INCLUDE all stacked characters, especially those for Troy University and others (e.g., 'DV', 'Q1', 'TL', 'TR', 'X2'). Ensure all vertical/stacked instructions and omissions/inclusions are followed. PROCESSING: Always uses standard processing regardless of plate type.",
   "processing_metadata": {
     "description": "Official Alabama DMV processing rules and validation requirements",
     "global_rules": {
-      "character_restrictions": "Does not allow the use of the letter 'O'. The number '0' must always be used. Vertical characters must be entered as seen.; Full rules: Does not allow the use of the letter \"O\". The number \"0\" must always be used. Vertical characters must be entered as seen. Do not key 3 character verticals. On the currect standard plates, the registration begins with a 1 or 2 number county code. ",
+      "character_restrictions": "Does not allow the use of the letter 'O'. The number '0' must always be used. Vertical characters must be entered as seen.; Full rules: Does not allow the use of the letter \"O\". The number \"0\" must always be used. Vertical characters must be entered as seen. Do not key 3 character verticals. On the currect standard plates, the registration begins with a 1 or 2 number county code. ; Alabama does NOT allow the use of the letter 'O'. The number '0' must always be used. Vertical characters must be entered as seen. Do not key 3 character verticals. On current standard plates, the registration begins with a 1 or 2 number county code. OMIT '200' on LEFT side, OMIT 'T' on LEFT side, INCLUDE 'X2' stacked in MIDDLE, INCLUDE 'TL'/'TR' stacked, INCLUDE 'DV'/'Q1' stacked.",
       "font_changes": "Information needed - check historical changes",
       "code_system": "All plate types use Code Number 0",
       "county_coding": "Current standard plates begin with 1 or 2 number county code",
@@ -44,11 +61,11 @@
       "has_variable_processing_types": false,
       "stacked_characters": {
         "include": [
-          "X2",
+          "DV",
+          "Q1",
           "TL",
           "TR",
-          "DV",
-          "Q1"
+          "X2"
         ],
         "omit": [
           "200",

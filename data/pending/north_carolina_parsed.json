@@ -7,8 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "State does not use letter 'O', only number '0'",
-      "Full rules: Does not use the letter O in its plates except on Outer banks tags that start with OBX. Key ALL small letters.* NOTE :  DO NOT enter any symbols (!,&,$,@,etc..)"
+      "Letter 'O' with Outer banks tags that start with OBX. OMIT all symbols. Example tags: NC-70A8DV (stacked DV keyed), NC-0LLAIC (stacked IC keyed), NC-OBX70975, NC-OBX99999 (first character is 'O'), NC-SC3A (prefix SC added), NC-2343NG, NC-NC3208 (vertical/small characters keyed). Stacked characters must be keyed."
     ]
   },
   "stacked_character_rules": {

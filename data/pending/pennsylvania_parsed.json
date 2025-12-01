@@ -7,19 +7,15 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "State uses both letter 'O' and number '0'",
-      "Full rules: Uses both the letter O and the number zero 0. You can tell the difference on the plate because all numbers are  inch taller than letters. **All verticles must be keyed**"
+  "Both letter 'O' and number '0' used. All numbers are 1/4 inch taller than letters. Example tags: PA-0SE59 (first character is '0'), PA-NG250, PA-00447US, PA-PD4161A (include small 'PD'), PA-71067PD (include small 'PD'), PA-EM0000 (include stacked), PA-FF0000 (FF in symbol must be keyed). Stacked characters must be keyed. Not valid license tags should NOT be verified."
     ]
   },
   "stacked_character_rules": {
-    "omit": [
-      "ALL",
-      "ALL SMALL"
-    ],
-    "include": [],
-    "position": "Y - Vertical PH must be verified as seen for verification.; Y - DV or HV verticals must be verified as seen.; Y - Stacked Characters must be entered as seen.",
+    "omit": [],
+    "include": ["PD", "DV", "HV", "PH", "FF"],
+    "position": "Stacked and small characters must be keyed as seen.",
     "prefix_rules": null,
-    "notes": "Extracted from 8 plate types with character modifications"
+    "notes": "Stacked and small characters must be keyed as seen."
   },
   "plate_types": [
     {

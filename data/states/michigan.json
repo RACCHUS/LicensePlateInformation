@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: Uses the number zero 0 on personalized plates to represent both a number zero 0 or a letter O. Thus, if someone is issued personalized plate 70 FORD, the personalized plate will show the number 0 like this: 70 F0RD. The letter O is not used. A letter O is shown by using the number 0. Current, standa",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: Uses the number zero 0 on personalized plates to represent both a number zero 0 or a letter O. Thus, if someone is issued personalized plate 70 FORD, the personalized plate will show the number 0 like this: 70 F0RD. The letter O is not used. A letter O is shown by using the number 0. Current, standa; Does not use the letter 'O'. The number zero '0' represents both a number zero '0' or a letter 'O'. The first character will ALWAYS be a numeric character. Michigan State University 'M' and 'S' must be keyed. Smaller letters 'M' and 'D' must be keyed. Example tags: MI-0KLH43, MI-MAA00A, MI-SAA00A, MI-105M540, MI-001D255, MI-00B99. OMIT EX POW (not keyed). DV: OMIT one of the 'DV', both are not keyed. OMIT ALL branch of service or campaign names.",
       "stacked_characters": {
         "include": [
           "D",

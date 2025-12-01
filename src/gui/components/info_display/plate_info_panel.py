@@ -19,6 +19,9 @@ class PlateInfoPanel:
         self.current_plate_type = None
         self.current_state_code = None
         
+        # Load state-plate-type mapping for finding states when none selected
+        self.plate_type_mapping = self._load_plate_type_mapping()
+        
         # State filename mapping
         self.state_filename_map = {
             'AL': 'alabama', 'AK': 'alaska', 'AS': 'american_samoa', 'AZ': 'arizona',
@@ -54,6 +57,43 @@ class PlateInfoPanel:
         
         # Show default message
         self.show_default_message()
+    
+    def _load_plate_type_mapping(self) -> dict:
+        """Load the state-plate-type mapping data"""
+        # Get base application path (works for both script and PyInstaller)
+        if getattr(sys, 'frozen', False):
+            application_path = sys._MEIPASS  # type: ignore
+        else:
+            # Find project root by searching for main.py
+            current_dir = os.path.dirname(__file__)
+            search_dir = current_dir
+            application_path = None
+            
+            for _ in range(10):
+                if os.path.exists(os.path.join(search_dir, "main.py")):
+                    application_path = search_dir
+                    break
+                parent = os.path.dirname(search_dir)
+                if parent == search_dir:
+                    break
+                search_dir = parent
+            
+            if not application_path:
+                print("❌ Could not find project root")
+                return {"plate_type_to_states": {}}
+        
+        mapping_file = os.path.join(application_path, 'data', 'state_plate_type_mapping.json')
+        
+        try:
+            if os.path.exists(mapping_file):
+                with open(mapping_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            else:
+                print(f"⚠️  Plate type mapping file not found: {mapping_file}")
+                return {"plate_type_to_states": {}}
+        except Exception as e:
+            print(f"❌ Error loading plate type mapping: {e}")
+            return {"plate_type_to_states": {}}
         
     def show_default_message(self):
         """Show default instructional message"""
@@ -95,31 +135,62 @@ class PlateInfoPanel:
         for widget in self.parent.winfo_children():
             widget.destroy()
         
-        # Load plate data
+        # Load plate data (this may auto-select a state if none provided)
         plate_data = self._load_plate_data(plate_type, state_code)
         
         if not plate_data:
             self._show_error_message(plate_type, state_code)
             return
+        
+        # Get the actual state code used (may have been auto-selected)
+        actual_state = self.current_state_code or "Unknown"
             
         # Build and display information using labels
-        self._display_plate_info(plate_type, plate_data, state_code or "Unknown")
+        self._display_plate_info(plate_type, plate_data, actual_state, state_code is None)
         
     def _load_plate_data(self, plate_type: str, state_code: str | None = None):
         """Load plate data from JSON file"""
+        # If no state provided, find one that has this plate type
         if not state_code:
-            return None
+            states_with_type = self.plate_type_mapping.get("plate_type_to_states", {}).get(plate_type, [])
+            if states_with_type:
+                # Use the first state alphabetically
+                state_code = states_with_type[0]
+                print(f"📋 No state selected, using {state_code} for plate type '{plate_type}'")
+            else:
+                print(f"❌ Plate type '{plate_type}' not found in any state")
+                return None
+        
+        # At this point, state_code is guaranteed to be a string
+        assert state_code is not None, "state_code should not be None here"
             
         try:
             filename = self.state_filename_map.get(state_code)
             if not filename:
+                print(f"❌ No filename mapping for state code: {state_code}")
                 return None
             
             # Get base application path (works for both script and PyInstaller)
             if getattr(sys, 'frozen', False):
                 application_path = sys._MEIPASS  # type: ignore
             else:
-                application_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+                # Find project root by searching for main.py
+                current_dir = os.path.dirname(__file__)
+                search_dir = current_dir
+                application_path = None
+                
+                for _ in range(10):
+                    if os.path.exists(os.path.join(search_dir, "main.py")):
+                        application_path = search_dir
+                        break
+                    parent = os.path.dirname(search_dir)
+                    if parent == search_dir:
+                        break
+                    search_dir = parent
+                
+                if not application_path:
+                    print(f"❌ Could not find project root from {current_dir}")
+                    return None
                 
             file_path = os.path.join(application_path, 'data', 'states', f'{filename}.json')
             
@@ -131,14 +202,18 @@ class PlateInfoPanel:
                 plate_types = state_data.get('plate_types', [])
                 for plate in plate_types:
                     if plate.get('type_name') == plate_type:
+                        # Store which state we actually loaded from
+                        self.current_state_code = state_code
                         return plate
+                
+                print(f"⚠️  Plate type '{plate_type}' not found in {state_code} data")
                         
             return None
         except Exception as e:
             print(f"Error loading plate data for {plate_type} in {state_code}: {e}")
             return None
             
-    def _display_plate_info(self, plate_type: str, plate_data: dict, state_code: str):
+    def _display_plate_info(self, plate_type: str, plate_data: dict, state_code: str, auto_selected: bool = False):
         """Display formatted plate information using labels with wraplength"""
         # Helper function to create a label
         def create_label(text, bold=False, color='#ffffff', pady_val=(2, 0)):
@@ -159,7 +234,16 @@ class PlateInfoPanel:
         # Header
         create_label(f"PLATE TYPE: {plate_type}", bold=True, color='#4CAF50', pady_val=(5, 2))
         if state_code:
-            create_label(f"STATE: {state_code}", bold=True, color='#4CAF50')
+            if auto_selected:
+                # Get all states that have this plate type
+                states_with_type = self.plate_type_mapping.get("plate_type_to_states", {}).get(plate_type, [])
+                if len(states_with_type) > 1:
+                    create_label(f"STATE: {state_code} (showing data from {state_code})", bold=True, color='#FFD54F')
+                    create_label(f"Also available in: {', '.join([s for s in states_with_type if s != state_code])}", color='#888888')
+                else:
+                    create_label(f"STATE: {state_code}", bold=True, color='#4CAF50')
+            else:
+                create_label(f"STATE: {state_code}", bold=True, color='#4CAF50')
         create_label("=" * 40, color='#4CAF50')
         
         # Basic Information

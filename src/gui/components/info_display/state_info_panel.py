@@ -33,12 +33,12 @@ class StateInfoPanel:
             'OH': 'ohio', 'OK': 'oklahoma', 'OR': 'oregon', 'PW': 'palau', 'PA': 'pennsylvania',
             'PR': 'puerto_rico', 'RI': 'rhode_island', 'SC': 'south_carolina', 'SD': 'south_dakota',
             'TN': 'tennessee', 'TX': 'texas', 'UT': 'utah', 'VT': 'vermont',
-            'VI': 'virgin_islands', 'VA': 'virginia', 'WA': 'washington', 'WV': 'west_virginia',
+            'VI': 'us_virgin_islands', 'VA': 'virginia', 'WA': 'washington', 'WV': 'west_virginia',
             'WI': 'wisconsin', 'WY': 'wyoming', 'AB': 'alberta', 'BC': 'british_columbia',
             'MB': 'manitoba', 'NB': 'new_brunswick', 'NL': 'newfoundland_and_labrador',
             'NT': 'northwest_territories', 'NS': 'nova_scotia', 'NU': 'nunavut', 'ON': 'ontario',
             'PE': 'prince_edward_island', 'QC': 'quebec', 'SK': 'saskatchewan', 'YT': 'yukon',
-            'DIP': 'diplomatic'
+            'DIP': 'government_services', 'GS': 'government_services'
         }
         
         self.setup_panel()
@@ -107,23 +107,53 @@ class StateInfoPanel:
         """Load state data from JSON file"""
         try:
             filename = self.state_filename_map.get(state_code)
+            print(f"[DEBUG] State code: {state_code}, mapped filename: {filename}")
             if not filename:
+                print(f"[ERROR] No filename mapping for state code: {state_code}")
                 return None
             
             # Get base application path (works for both script and PyInstaller)
             if getattr(sys, 'frozen', False):
+                # Running as compiled executable
                 application_path = sys._MEIPASS  # type: ignore
+                print(f"[DEBUG] Running as compiled exe, using _MEIPASS: {application_path}")
             else:
-                application_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+                # Running as script - find project root by searching for main.py
+                current_dir = os.path.dirname(__file__)
+                search_dir = current_dir
+                application_path = None
                 
-            file_path = os.path.join(application_path, 'data', 'states', f'{filename}.json')
+                for _ in range(10):
+                    if os.path.exists(os.path.join(search_dir, "main.py")):
+                        application_path = search_dir
+                        break
+                    parent = os.path.dirname(search_dir)
+                    if parent == search_dir:
+                        break
+                    search_dir = parent
+                
+                if not application_path:
+                    print(f"[ERROR] Could not find project root from {current_dir}")
+                    return None
+                print(f"[DEBUG] Running as script, project root: {application_path}")
             
-            if os.path.exists(file_path):
+            file_path = os.path.join(application_path, 'data', 'states', f'{filename}.json')
+            print(f"[DEBUG] Looking for state JSON at: {file_path}")
+            
+            if not os.path.exists(file_path):
+                print(f"[ERROR] File does not exist: {file_path}")
+                return None
+            
+            try:
                 with open(file_path, 'r', encoding='utf-8') as f:
-                    return json.load(f)
-            return None
+                    data = json.load(f)
+                print(f"[DEBUG] Successfully loaded JSON for {state_code}")
+                return data
+            except Exception as file_exc:
+                print(f"[ERROR] Exception while loading/parsing JSON for {state_code}: {file_exc}")
+                return None
         except Exception as e:
-            print(f"Error loading state data for {state_code}: {e}")
+            print(f"[ERROR] Unexpected error in _load_state_data for {state_code}: {e}")
             return None
             
     def _display_state_info(self, state_code: str, state_data: dict):

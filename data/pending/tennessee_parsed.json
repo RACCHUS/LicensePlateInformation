@@ -7,8 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "State does not use letter 'O', only number '0'",
-      "Full rules: Does not use the Letter O on their standard license plates. Both the Letter O and Number Zero 0 are used on our Specialty Tags and Temporary Operating Permits. *FLAT designated plates are printed, not pressed."
+      "Does NOT use the letter 'O' except on Drive Out Tags and Temporary Operating Permits. Letter 'O' and number '0' are used on those tags. Example tags: TN-V03964, TN-3907V0, TN-0V0000, TN-6WB799 (stacked WB must be keyed). Stacked characters must be keyed."
     ]
   },
   "stacked_character_rules": {

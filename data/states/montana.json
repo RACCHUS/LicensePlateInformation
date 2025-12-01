@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Does NOT use the letter 'O'. Example tags: MT-250892D, MT-N0K1DS (second character is '0').",
       "stacked_characters": {
         "include": [],
         "omit": [],

@@ -18062,7 +18062,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: The letter \"O\" cannot be used on personalized plates.  Only the number zero \"0\" can be used",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: The letter \"O\" cannot be used on personalized plates.  Only the number zero \"0\" can be used; Georgia does NOT use the letter 'O'. Only the number '0' is used. Standard pattern: three letters then four numbers. Example: GA-680ZFV. Personalized tags: number '0' may appear in fourth and seventh positions (e.g., GA-LAG0TT0). Emergency vehicles should be REJECTED to 'EMERGENCY' in all queues.",
       "stacked_characters": {
         "include": [],
         "omit": [

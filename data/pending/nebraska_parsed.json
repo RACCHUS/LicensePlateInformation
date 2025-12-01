@@ -6,7 +6,9 @@
     "letter_restrictions": [],
     "font_changes": null,
     "code_system": null,
-    "special_notes": []
+    "special_notes": [
+      "Does NOT use the letter 'O'. Example: NE-37E545."
+    ]
   },
   "stacked_character_rules": {
     "omit": [],

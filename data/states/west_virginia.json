@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - research historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: Allows the letter O and the number 0. Key verticals as seen.",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: Allows the letter O and the number 0. Key verticals as seen.; Uses the letter 'O' in the FIRST character placement ONLY. If it is NOT the FIRST character it is the number '0'. Verify this tag as WV-03P498. REMINDER: West Virginia DOES NOT USE the LETTER 'O' except as the first character.",
       "stacked_characters": {
         "include": [],
         "omit": [],

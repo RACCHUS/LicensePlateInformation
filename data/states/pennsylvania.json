@@ -13,26 +13,29 @@
   "processing_metadata": {
     "description": "Official Pennsylvania DMV processing rules and validation requirements",
     "global_rules": {
-      "character_restrictions": "Both O and 0 used together; numbers are 1/4 inch taller than letters; State uses both letter 'O' and number '0'",
+      "character_restrictions": "Both O and 0 used together; numbers are 1/4 inch taller than letters; State uses both letter 'O' and number '0'; Both letter 'O' and number '0' used. All numbers are 1/4 inch taller than letters. Example tags: PA-0SE59 (first character is '0'), PA-NG250, PA-00447US, PA-PD4161A (include small 'PD'), PA-71067PD (include small 'PD'), PA-EM0000 (include stacked), PA-FF0000 (FF in symbol must be keyed). Stacked characters must be keyed. Not valid license tags should NOT be verified.",
       "font_changes": "Numbers are 1/4 inch taller than letters",
       "code_system": "Information needed - research plate type code system",
       "stacked_characters": {
         "include": [
+          "DV",
           "EM",
           "FF",
+          "HV",
           "NG",
           "PD",
+          "PH",
           "US"
         ],
         "omit": [
           "ALL",
           "ALL SMALL"
         ],
-        "position": "Y - Vertical PH must be verified as seen for verification.; Y - DV or HV verticals must be verified as seen.; Y - Stacked Characters must be entered as seen.",
+        "position": "Stacked and small characters must be keyed as seen.",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "Stacked characters must be keyed (e.g., PA-00447US, PA-NG250, PA-PD4161A, PA-71067PD - include small PD by wheelchair, PA-EM0000, PA-FF0000 - FF in symbol must be keyed); Extracted from 8 plate types with character modifications"
+        "notes": "Stacked characters must be keyed (e.g., PA-00447US, PA-NG250, PA-PD4161A, PA-71067PD - include small PD by wheelchair, PA-EM0000, PA-FF0000 - FF in symbol must be keyed); Extracted from 8 plate types with character modifications; Stacked and small characters must be keyed as seen."
       }
     }
   },

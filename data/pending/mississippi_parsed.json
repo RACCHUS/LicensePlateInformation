@@ -7,8 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "State does not use letter 'O', only number '0'",
-      "Full rules: Does not use the letter O in its standard issued plates. They do use the letter O and the number zero 0 on their vanity/personalized plates. You can tell the difference on the plate because the letter O is much rounder where as the number zero 0 is slimmer ** Stacked characters are entered as seen ("
+      "Does not use the letter 'O' on standard tags. Letter 'O' used ONLY with stacked characters. Letter 'O' is rounder, number '0' is slimmer. Example tags: MS-TLR78918P (TLR included), MS-BLKOUT, MS-HAT0001 (both 'O' and '0' used), MS-NG28624 (prefix 'NG' must be keyed), MS-145281A (omit TLR on red tags ending with A), MS-B169396, MS-B6210, MS-B201367 (tags beginning with 'B', small numbers must be keyed), MS-F7650131, MS-F54140, MS-F4250063 (tags beginning with 'F', small numbers must be keyed), MS-DBK9165 (stacked must be keyed). Standard tags use number '0'. Stacked characters must be keyed."
     ]
   },
   "stacked_character_rules": {

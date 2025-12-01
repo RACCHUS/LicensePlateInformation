@@ -11,13 +11,13 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Does NOT use the letter 'O'. ALL stacked characters are keyed.",
       "stacked_characters": {
         "include": [
-          "MI",
+          "KID",
           "LC",
-          "SU",
-          "KID"
+          "MI",
+          "SU"
         ],
         "omit": [],
         "position": "ALL stacked characters (MI, LC, SU, KID) are keyed throughout plate",

@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; State uses both letter 'O' and number '0'",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; State uses both letter 'O' and number '0'; Letter 'O' with letters and on personalized tags. Number '0' with numbers. The letter 'O' is rounder than the number '0'. OMIT vertical or diagonal characters with different font or color. Example tags: VA-ID36477, VA-730591TR, VA-8949ZE, VA-UNSKOL (personalized), VA-08328 (all numeric, first character is zero), VA-FD48917 (Fire Fighter logo on left, RS in symbol must be keyed), VA-RSVESTA (RS in symbol must be keyed). Stacked characters must be keyed.",
       "stacked_characters": {
         "include": [
           "FD",

@@ -7,8 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "State does not use letter 'O', only number '0'",
-      "Full rules: Wyoming does not user the letter O in the regisgration. Uses a 2 digit county code. If a single digit is seen to the left of the hourse icon, add a zero to the front. Key all verticals and letters as seen. Do not key diagonals."
+      "Does NOT use the letter 'O'. Only the number '0' is used. Verify this tag as WY-11TRL11481 (INCLUDE slanted 'TRL'). For apportioned tags, verify as is. INCLUDE the letter 'T' when verifying TRUCK tags. If there is only 1 digit in front of the horse, include the number '0' in front of the single digit (e.g., WY-0139181). If the tag contains a LETTER in front of the horse, the zero is not needed."
     ]
   },
   "stacked_character_rules": {

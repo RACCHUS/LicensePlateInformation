@@ -7,8 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "State does not use letter 'O', only number '0'",
-      "Full rules: Does not use the letter O, only the number zero 0. * NOTE :  DO NOT enter any symbols (!,&,$,@,etc..)"
+      "Uses the letter 'O' when it is shaped like an 'o'. Example tags: SC-BC3056CC (stacked must be keyed), SC-EA354, VT00000, SC-ZD00000 (stacked must be keyed). Stacked characters must be keyed."
     ]
   },
   "stacked_character_rules": {

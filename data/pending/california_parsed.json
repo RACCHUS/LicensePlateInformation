@@ -11,30 +11,29 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "State uses both letter 'O' and number '0'",
-      "Letters Q, I, O are not used in certain positions",
-      "Full rules: Uses both the letter \"O\" and number \"0\". Standard syntax patterns is 1 digit  3 letter  3 digit  (# LLL ###). The letters I, O, & Q are not used in the first or third alpha positions of the 3 letters.  They may be used in the second position. * The letter I and O are not used in the 6 digit patterns"
+      "California uses both the letter 'O' and number '0'. Standard pattern is #LLL###. Maximum tag length is 10 characters. If the tag exceeds 10 characters, OMIT the stacked characters on the LEFT side of the tag. For tags with 9 or fewer characters, include all characters. HANDICAP/WHEELCHAIR plates: include the stacked characters. OMIT 'E' in symbol, it is not keyed. Pay close attention to the difference between letter 'O' and letter 'Q'. Example verifications: CA-1957346E, CA-DST20261B (9 chars, include all), CA-DP596LN (handicap, include stacked), CA-463025 (omit 'E' symbol), CA-8JOC001 (the character after 'J' is letter 'O'), CA-8EQN468 (third character is letter 'Q', not zero '0')."
     ]
   },
   "stacked_character_rules": {
     "omit": [
-      "DLR",
-      "DST",
-      "MFG AS",
-      "SERIES ON",
-      "THE",
-      "I",
-      "DLR AS",
-      "DST AS",
-      "LEFT",
-      "LEFT THREE",
-      "MFG",
-      "SERIES"
+  "DLR",
+  "DST",
+  "MFG AS",
+  "SERIES ON",
+  "THE",
+  "I",
+  "DLR AS",
+  "DST AS",
+  "LEFT",
+  "LEFT THREE",
+  "MFG",
+  "SERIES",
+  "E"
     ],
     "include": [],
-    "position": "Y - Stacked Characters must be entered as seen.; Y - Max 10 characters omit left three verticals as needed",
+    "position": "Y - Stacked Characters must be entered as seen. If tag exceeds 10 characters, omit left stacked characters. HANDICAP/WHEELCHAIR: include stacked characters.",
     "prefix_rules": null,
-    "notes": "Extracted from 10 plate types with character modifications"
+    "notes": "Updated per 2025 rules: Max 10 characters, omit left stacked if exceeded; include all for 9 or fewer; pay attention to O vs Q; see examples in special_notes."
   },
   "plate_types": [
     {

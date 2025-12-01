@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: 123-ABC Pattern (1987 - 2010)     ABC1234 Pattern (2010 - Present)",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: 123-ABC Pattern (1987 - 2010)     ABC1234 Pattern (2010 - Present); Letter 'O' with letters and on personalized tags. Number '0' with numbers. Example tags: WA-BJS3288 (pattern: three letters, four numbers), WA-AR11920 (stacked 'AR' must be keyed), WA-GRN1279 (include stacked characters), WA-9457AA (OMIT the word 'TRAN').",
       "stacked_characters": {
         "include": [
           "AR",

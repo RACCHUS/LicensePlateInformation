@@ -13,7 +13,7 @@
   "processing_metadata": {
     "description": "Official New York DMV processing rules and validation requirements",
     "global_rules": {
-      "character_restrictions": "No O on standard plates; O and 0 allowed on vanity/personalized (O rounder, 0 slimmer); State does not use letter 'O', only number '0'",
+      "character_restrictions": "No O on standard plates; O and 0 allowed on vanity/personalized (O rounder, 0 slimmer); State does not use letter 'O', only number '0'; Does not use the letter 'O' on standard tags. Letter 'O' and number '0' used on personalized tags. Letter 'O' is much rounder, number '0' is slimmer. Example tags: NY-LILY05 (fifth character is '0'), NY-EENSKOOT (sixth and seventh are 'O'), NY-527EMTP (EMTP keyed), NY-MD95409 (MD keyed), NY-VAS1128 (VAS keyed), NY-DAV999 (DAV keyed). State indicator (map) in center of tag.",
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
       "stacked_characters": {

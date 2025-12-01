@@ -13256,7 +13256,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; State does not use letter 'O', only number '0'",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; State does not use letter 'O', only number '0'; Uses the letter 'O' when it is shaped like an 'o'. Example tags: SC-BC3056CC (stacked must be keyed), SC-EA354, VT00000, SC-ZD00000 (stacked must be keyed). Stacked characters must be keyed.",
       "stacked_characters": {
         "include": [
           "BC",

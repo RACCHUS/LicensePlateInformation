@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - research historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: Allows both the letter O and the number 0. Follow the pattern. Key verticals as seen."
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: Allows both the letter O and the number 0. Follow the pattern. Key verticals as seen.; Use both the letter 'O' and the number '0'. Use syntax patterns to identify which character to use: #L####, #LL###, ##L###, ##LL##, 1A2345, 1AB234, 12A345, 12AB34, ##LLL#, L####, 12ABC3, A1234. Example tags: SD-1X8945, SD-1BP186. Stacked characters are keyed. Letter 'O' used on vanity/personalized tags."
     }
   },
   "plate_types": [

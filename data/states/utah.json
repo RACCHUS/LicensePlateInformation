@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: A12 3BC Pattern (Greatest Snow on Earth & Life Elevated)                                   1A23BC Pattern (In God We Trust)",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: A12 3BC Pattern (Greatest Snow on Earth & Life Elevated)                                   1A23BC Pattern (In God We Trust); Does NOT use the letter 'O'. Only the number '0' is used. Verify the tag as UT-8589005. State name is visible in the top right corner of the tag.",
       "stacked_characters": {
         "include": [],
         "omit": [],

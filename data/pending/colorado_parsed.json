@@ -7,14 +7,16 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "Full rules: The letter \"O\" is to be verified as a letter. Key only the unusal three letter verticials"
+      "Letter 'O' with letters and on personalized tags; number '0' with numbers. Common pattern: 3 letters and 3 numbers (e.g., CO-BSO068: 'BSO' are letters, '068' are numbers). New pattern: 4 letters and 2 numbers. Pay attention to the shape difference between 'O' and '0'. Example: CO-CFM280. OMIT 'FLT' (not keyed). Disabled Veteran tags: OMIT 'DV' (not keyed). Verification examples: CO-ADDW00, CO-886YVY."
     ]
   },
   "stacked_character_rules": {
     "omit": [
       "THE",
       "VERTICAL TRL",
-      "DV IN"
+      "DV IN",
+      "FLT",
+      "DV"
     ],
     "include": [],
     "position": "Y - Omit the vertical TRL.",

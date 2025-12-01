@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: ABC 123 Pattern (1990-2004)     123 ABC (2004-Present)",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: ABC 123 Pattern (1990-2004)     123 ABC (2004-Present); Does NOT use the letter 'O'. Example tags: OR-Y119652 (include small 'Y'), OR-HP27450, OR-HU21079. Stacked characters must be keyed.",
       "stacked_characters": {
         "include": [
           "HP",
@@ -19,11 +19,11 @@
           "Y"
         ],
         "omit": [],
-        "position": "INCLUDE HP, HU stacked. INCLUDE small 'Y' on apportioned plates.",
+        "position": "Include small 'Y' for apportioned Oregon tags. Stacked characters must be keyed.",
         "max_characters": null,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "INCLUDE stacked HP, HU. Apportioned plates INCLUDE small Y."
+        "notes": "INCLUDE stacked HP, HU. Apportioned plates INCLUDE small Y.; Include small 'Y' for apportioned Oregon tags. Stacked characters must be keyed."
       }
     }
   },

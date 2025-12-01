@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: Uses a two letter county code sticker. Usually in the upper left conner of the plate. Do not key the three letter commercial identifiers (ie: APP, ect) except PWR. The letter \"O\" is verified as a letter. ",
+      "character_restrictions": "Does not use letter 'O' on standard plates - only number zero '0'; Full rules: Uses a two letter county code sticker. Usually in the upper left conner of the plate. Do not key the three letter commercial identifiers (ie: APP, ect) except PWR. The letter \"O\" is verified as a letter. ; Letter 'O' on personalized tags ONLY. Standard tags use number '0'. Example: KS-PWR156589 (stacked PWR is keyed), KS-038ADQ2 (first character is '0').",
       "stacked_characters": {
         "include": [
           "PWR"

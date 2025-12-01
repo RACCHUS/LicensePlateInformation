@@ -6,9 +6,9 @@
     "letter_restrictions": [],
     "font_changes": null,
     "code_system": null,
-    "special_notes": [
-      "Full rules: Allows the letter O and the number 0. Key verticals as seen."
-    ]
+        "special_notes": [
+          "Uses the letter 'O' in the FIRST character placement ONLY. If it is NOT the FIRST character it is the number '0'. Verify this tag as WV-03P498. REMINDER: West Virginia DOES NOT USE the LETTER 'O' except as the first character."
+        ]
   },
   "stacked_character_rules": {
     "omit": [],

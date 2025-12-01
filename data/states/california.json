@@ -9,11 +9,11 @@
     "#FFFFFF",
     "#000000"
   ],
-  "notes": "California uses both O and 0 - letter 'O' with letters/personalized plates and number '0' with numbers. Standard format is #LLL### (number-letter-letter-letter-number-number-number). Source: OOS.txt compilation - requires verification with official DMV documentation. Uses 'O' with letters/personalized plates; uses '0' with numbers.",
+  "notes": "Letter O with letters/Letter O on personalized plates/Zero 0 will be with numbers. Standard: a number/three letters/three numbers (#LLL###). Include the 'DP'. Include 'PP' in triangle. If tag exceeds 10 characters, omit the stacked left characters. Vertical/Diagonal. If exceeds 10 characters- OMIT the vertical letters at the front of plate.",
   "processing_metadata": {
     "description": "Official California DMV processing rules and validation requirements",
     "global_rules": {
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; State uses both letter 'O' and number '0'",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; State uses both letter 'O' and number '0'; California uses both the letter 'O' and number '0'. Standard pattern is #LLL###. Maximum tag length is 10 characters. If the tag exceeds 10 characters, OMIT the stacked characters on the LEFT side of the tag. For tags with 9 or fewer characters, include all characters. HANDICAP/WHEELCHAIR plates: include the stacked characters. OMIT 'E' in symbol, it is not keyed. Pay close attention to the difference between letter 'O' and letter 'Q'. Example verifications: CA-1957346E, CA-DST20261B (9 chars, include all), CA-DP596LN (handicap, include stacked), CA-463025 (omit 'E' symbol), CA-8JOC001 (the character after 'J' is letter 'O'), CA-8EQN468 (third character is letter 'Q', not zero '0').",
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
       "stacked_characters": {
@@ -33,11 +33,11 @@
           "SERIES ON",
           "THE"
         ],
-        "position": "Y - Stacked Characters must be entered as seen.; Y - Max 10 characters omit left three verticals as needed",
+        "position": "Y - Stacked Characters must be entered as seen. If tag exceeds 10 characters, omit left stacked characters. HANDICAP/WHEELCHAIR: include stacked characters.",
         "max_characters": 10,
         "prefix_rules": null,
         "symbols_allowed": null,
-        "notes": "OMIT stacked on LEFT if plate exceeds 10 characters. Omit letter E.; Extracted from 10 plate types with character modifications"
+        "notes": "OMIT stacked on LEFT if plate exceeds 10 characters. Omit letter E.; Extracted from 10 plate types with character modifications; Updated per 2025 rules: Max 10 characters, omit left stacked if exceeded; include all for 9 or fewer; pay attention to O vs Q; see examples in special_notes."
       }
     }
   },
@@ -80,7 +80,29 @@
         "plate_text": null,
         "design_variants": null,
         "character_formatting": {
-          "stacked_characters": null,
+          "stacked_characters": {
+            "include": [],
+            "omit": [
+              "DLR",
+              "DLR AS",
+              "DST",
+              "DST AS",
+              "E",
+              "I",
+              "LEFT",
+              "LEFT THREE",
+              "MFG",
+              "MFG AS",
+              "SERIES",
+              "SERIES ON",
+              "THE"
+            ],
+            "position": "Y - Stacked Characters must be entered as seen. If tag exceeds 10 characters, omit left stacked characters. HANDICAP/WHEELCHAIR: include stacked characters.",
+            "max_characters": 10,
+            "prefix_rules": null,
+            "symbols_allowed": null,
+            "notes": "OMIT stacked on LEFT if plate exceeds 10 characters. Omit letter E.; Extracted from 10 plate types with character modifications; Updated per 2025 rules: Max 10 characters, omit left stacked if exceeded; include all for 9 or fewer; pay attention to O vs Q; see examples in special_notes."
+          },
           "slanted_characters": null,
           "slant_direction": null,
           "stack_position": null

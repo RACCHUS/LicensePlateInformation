@@ -11,7 +11,7 @@
     "global_rules": {
       "font_changes": "Information needed - check historical changes",
       "code_system": "Information needed - research plate type code system",
-      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: Standard pattern is 3 letters and 3 numbers. Uses the letter \"O\". Zeros will have a slash through it.",
+      "character_restrictions": "Uses both O and 0 - O with letters, 0 with numbers; Full rules: Standard pattern is 3 letters and 3 numbers. Uses the letter \"O\". Zeros will have a slash through it.; Letter 'O' with letters and on personalized tags; number '0' with numbers. GROUP of LETTERS, GROUP of NUMBERS. Example: IA-FGZ064 (fourth character is '0'), IA-322ZMO (last character is 'O'). If unsure, MARK FOR REVIEW. Sometimes zero '0' has a slash; if not, use context: with numbers it's '0', with letters it's 'O'.",
       "stacked_characters": {
         "include": [],
         "omit": [],

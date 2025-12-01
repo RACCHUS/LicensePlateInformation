@@ -7,7 +7,7 @@
     "font_changes": null,
     "code_system": null,
     "special_notes": [
-      "Full rules: Allows both the Letter O and the Number Zero 0. The letter O is rounder than the number zero 0. The number zero 0 cannot be used in place of the letter O on a personalized plate. **All verticals are keyed"
+      "Letter 'O' with letters and on personalized tags; number '0' with numbers. Letter 'O' is rounder than zero '0'. Example: LA-120COD (O with letters), LA-125841 (all-numeric), LA-MA3511 (OMIT slanted 'USMC'), LA-NA7440 (OMIT slanted 'NAVY'), LA-AR14772, LA-MH8521, LA-NG0000, LA-ARMY453. Always include stacked characters for Louisiana. Stacked characters must be keyed."
     ]
   },
   "stacked_character_rules": {
