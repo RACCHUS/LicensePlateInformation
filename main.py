@@ -12,7 +12,7 @@ import os
 # Handle both regular execution and PyInstaller bundled execution
 if getattr(sys, 'frozen', False):
     # Running as compiled executable
-    application_path = sys._MEIPASS
+    application_path = sys._MEIPASS  # type: ignore
 else:
     # Running as script
     application_path = os.path.dirname(os.path.abspath(__file__))

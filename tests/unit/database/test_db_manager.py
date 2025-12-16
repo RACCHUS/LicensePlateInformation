@@ -490,7 +490,8 @@ class TestDatabaseIntegration:
             VALUES ('Utah', 'UT')
         ''')
         conn.commit()
-        manager1.connection.close()
+        if manager1.connection:
+            manager1.connection.close()
         
         # Create second manager and verify data exists
         manager2 = DatabaseManager(temp_db_path)

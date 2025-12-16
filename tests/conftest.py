@@ -190,7 +190,6 @@ def sample_plate_type_dict():
         'pattern': '^[0-9][A-Z]{3}[0-9]{3}$',
         'character_count': 7,
         'description': 'Standard passenger vehicle plate',
-        'category': 'standard',
         'is_active': True,
         'example_plate': '1ABC123',
         'background_color': '#003F87',
@@ -205,11 +204,10 @@ def sample_character_reference_dict():
     """Provide sample character reference dictionary data"""
     return {
         'character': '0',
-        'type': 'number',
+        'character_type': 'digit',
         'confusion_chars': ['O'],
-        'is_letter': False,
-        'is_number': True,
-        'notes': 'Zero vs letter O confusion'
+        'description': 'Zero vs letter O confusion',
+        'is_ambiguous': True
     }
 
 

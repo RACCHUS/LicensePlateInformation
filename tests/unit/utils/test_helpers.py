@@ -209,7 +209,7 @@ class TestExpandPlateWithAlternatives:
     def test_empty_input(self):
         """Test empty input"""
         assert expand_plate_with_alternatives('') == []
-        assert expand_plate_with_alternatives(None) == []
+        assert expand_plate_with_alternatives(None) == []  # type: ignore
     
     def test_with_state_rules(self):
         """Test expansion with state-specific rules"""
@@ -272,8 +272,8 @@ class TestValidatePlatePattern:
     
     def test_none_input(self):
         """Test None inputs"""
-        assert validate_plate_pattern(None, 'ABC') is False
-        assert validate_plate_pattern('ABC', None) is False
+        assert validate_plate_pattern(None, 'ABC') is False  # type: ignore
+        assert validate_plate_pattern('ABC', None) is False  # type: ignore
     
     def test_case_insensitivity(self):
         """Test case insensitive matching"""
@@ -303,8 +303,8 @@ class TestScorePlateMatch:
     def test_empty_inputs(self):
         """Test with empty inputs"""
         assert score_plate_match('', {}) == 0.0
-        assert score_plate_match(None, {}) == 0.0
-        assert score_plate_match('ABC', None) == 0.0
+        assert score_plate_match(None, {}) == 0.0  # type: ignore
+        assert score_plate_match('ABC', None) == 0.0  # type: ignore
     
     def test_pattern_match_score(self):
         """Test pattern matching contribution to score"""

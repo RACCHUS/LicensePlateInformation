@@ -158,7 +158,6 @@ class TestPlateTypeModel:
         assert plate_type.pattern == '^[0-9][A-Z]{3}[0-9]{3}$'
         assert plate_type.character_count == 7
         assert plate_type.description == 'Standard passenger vehicle plate'
-        assert plate_type.category == 'standard'
         assert plate_type.is_active is True
         assert plate_type.example_plate == '1ABC123'
     
@@ -223,26 +222,25 @@ class TestCharacterReferenceModel:
         char_ref = CharacterReference(**sample_character_reference_dict)
         
         assert char_ref.character == '0'
-        assert char_ref.type == 'number'
+        assert char_ref.character_type == 'digit'
         assert char_ref.confusion_chars == ['O']
-        assert char_ref.is_letter is False
-        assert char_ref.is_number is True
-        assert char_ref.notes == 'Zero vs letter O confusion'
+        assert char_ref.is_ambiguous is True
+        assert char_ref.description == 'Zero vs letter O confusion'
     
     def test_character_reference_creation_minimal(self):
         """Test creating CharacterReference with minimal fields"""
         char_ref = CharacterReference(
             character='A',
-            type='letter'
+            character_type='letter'
         )
         
         assert char_ref.character == 'A'
-        assert char_ref.type == 'letter'
+        assert char_ref.character_type == 'letter'
         assert char_ref.confusion_chars == []  # Default from __post_init__
     
     def test_character_reference_post_init(self):
         """Test __post_init__ initializes confusion_chars"""
-        char_ref = CharacterReference(character='B', type='letter')
+        char_ref = CharacterReference(character='B', character_type='letter')
         
         assert char_ref.confusion_chars == []
         assert isinstance(char_ref.confusion_chars, list)
@@ -251,7 +249,7 @@ class TestCharacterReferenceModel:
         """Test confusion_chars_json property"""
         char_ref = CharacterReference(
             character='I',
-            type='letter',
+            character_type='letter',
             confusion_chars=['1', 'L']
         )
         
@@ -266,14 +264,14 @@ class TestCharacterReferenceModel:
         char_ref = CharacterReference.from_dict(sample_character_reference_dict)
         
         assert char_ref.character == '0'
-        assert char_ref.type == 'number'
+        assert char_ref.character_type == 'digit'
         assert char_ref.confusion_chars == ['O']
     
     def test_character_reference_from_dict_with_json_confusion_chars(self):
         """Test from_dict when confusion_chars is JSON string"""
         data = {
             'character': 'I',
-            'type': 'letter',
+            'character_type': 'letter',
             'confusion_chars': '["1", "L"]'  # JSON string
         }
         
@@ -314,52 +312,52 @@ class TestLookupHistoryModel:
         """Test creating LookupHistory"""
         history = LookupHistory(
             lookup_id=1,
-            query='ABC123',
-            state_code='CA',
+            search_term='ABC123',
+            state_found='CA',
             timestamp='2024-01-15 10:30:00',
-            results_count=5
+            user_notes='Test search'
         )
         
         assert history.lookup_id == 1
-        assert history.query == 'ABC123'
-        assert history.state_code == 'CA'
+        assert history.search_term == 'ABC123'
+        assert history.state_found == 'CA'
         assert history.timestamp == '2024-01-15 10:30:00'
-        assert history.results_count == 5
+        assert history.user_notes == 'Test search'
     
     def test_lookup_history_minimal(self):
         """Test creating LookupHistory with minimal fields"""
         history = LookupHistory(
-            query='XYZ789'
+            search_term='XYZ789'
         )
         
-        assert history.query == 'XYZ789'
+        assert history.search_term == 'XYZ789'
         assert history.lookup_id is None
-        assert history.state_code is None
+        assert history.state_found is None
     
     def test_lookup_history_from_dict(self):
         """Test LookupHistory.from_dict()"""
         data = {
             'lookup_id': 42,
-            'query': 'TEST123',
-            'state_code': 'TX',
+            'search_term': 'TEST123',
+            'state_found': 'TX',
             'timestamp': '2024-01-20 15:45:00',
-            'results_count': 10
+            'plate_type_found': 'Passenger'
         }
         
         history = LookupHistory.from_dict(data)
         assert history.lookup_id == 42
-        assert history.query == 'TEST123'
-        assert history.state_code == 'TX'
-        assert history.results_count == 10
+        assert history.search_term == 'TEST123'
+        assert history.state_found == 'TX'
+        assert history.plate_type_found == 'Passenger'
     
     def test_lookup_history_from_dict_missing_fields(self):
         """Test from_dict with missing optional fields"""
         data = {
-            'query': 'MINIMAL'
+            'search_term': 'MINIMAL'
         }
         
         history = LookupHistory.from_dict(data)
-        assert history.query == 'MINIMAL'
+        assert history.search_term == 'MINIMAL'
         assert history.lookup_id is None
 
 
@@ -393,7 +391,7 @@ class TestModelIntegration:
         """Test CharacterReference confusion_chars serialization/deserialization"""
         original = CharacterReference(
             character='0',
-            type='number',
+            character_type='digit',
             confusion_chars=['O']
         )
         
@@ -401,7 +399,7 @@ class TestModelIntegration:
         json_str = original.confusion_chars_json
         data = {
             'character': original.character,
-            'type': original.type,
+            'character_type': original.character_type,
             'confusion_chars': json_str
         }
         
