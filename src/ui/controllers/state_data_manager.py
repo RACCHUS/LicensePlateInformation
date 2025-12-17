@@ -76,7 +76,7 @@ class StateDataManager(QObject):
         filepath = self.data_dir / f"{filename_base}.json"
         
         if not filepath.exists():
-            print(f"⚠️ State file not found: {filepath}")
+            print(f"[WARN] State file not found: {filepath}")
             return None
         
         try:
@@ -88,7 +88,7 @@ class StateDataManager(QObject):
             return data
             
         except Exception as e:
-            print(f"⚠️ Error loading state data for {state_code}: {e}")
+            print(f"[WARN] Error loading state data for {state_code}: {e}")
             return None
     
     def get_state_info_summary(self, state_code: str) -> Dict[str, Any]:

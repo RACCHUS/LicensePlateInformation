@@ -76,12 +76,12 @@ class ModeController(QObject):
                     self.current_mode = default
                     self._current_config = self.modes[default]
                 
-                print(f"✅ Loaded {len(self.modes)} queue modes from {self.config_path}")
+                print(f"[OK] Loaded {len(self.modes)} queue modes from {self.config_path}")
             except Exception as e:
-                print(f"⚠️ Error loading modes config: {e}")
+                print(f"[WARN] Error loading modes config: {e}")
                 self._create_default_modes()
         else:
-            print(f"⚠️ Modes config not found at {self.config_path}, using defaults")
+            print(f"[WARN] Modes config not found at {self.config_path}, using defaults")
             self._create_default_modes()
     
     def _create_default_modes(self):
@@ -125,7 +125,7 @@ class ModeController(QObject):
             True if mode was changed, False if invalid mode
         """
         if mode_name not in self.modes:
-            print(f"⚠️ Unknown mode: {mode_name}")
+            print(f"[WARN] Unknown mode: {mode_name}")
             return False
         
         if mode_name == self.current_mode:
@@ -134,7 +134,7 @@ class ModeController(QObject):
         self.current_mode = mode_name
         self._current_config = self.modes[mode_name]
         
-        print(f"🔄 Mode changed to: {mode_name}")
+        print(f"[MODE] Changed to: {mode_name}")
         self.mode_changed.emit(mode_name, self._current_config)
         return True
     
