@@ -8,7 +8,7 @@ from typing import Callable, Optional, Dict
 
 from ...utils.widget_factory import WidgetFactory
 from ...utils.layout_helpers import LayoutHelpers
-from ....utils.logger import log_error, log_warning
+from utils.logger import log_error, log_warning
 
 
 class StateSelectionPanel:

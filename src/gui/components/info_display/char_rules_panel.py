@@ -9,7 +9,7 @@ import json
 import os
 import sys
 from typing import Optional
-from ....utils.logger import log_error, log_warning, log_info
+from utils.logger import log_error, log_warning, log_info
 
 
 class CharacterRulesPanel:

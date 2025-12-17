@@ -8,7 +8,7 @@ import os
 import sys
 from typing import Dict, List, Any, Optional
 from pathlib import Path
-from ...utils.logger import log_error, log_warning
+from utils.logger import log_error, log_warning
 
 
 class JSONSearchEngine:

@@ -8,7 +8,7 @@ import json
 import os
 import sys
 from ...utils.widget_factory import WidgetFactory
-from ....utils.logger import log_error, log_warning, log_info
+from utils.logger import log_error, log_warning, log_info
 
 
 class StateInfoPanel:

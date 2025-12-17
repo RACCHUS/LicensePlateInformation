@@ -10,7 +10,7 @@ import sys
 from typing import Callable, Optional, List, Dict, Set
 
 from ...utils.widget_factory import WidgetFactory
-from ....utils.logger import log_error, log_warning, log_info
+from utils.logger import log_error, log_warning, log_info
 
 
 class SmartPlateTypeDropdown:

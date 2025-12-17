@@ -9,7 +9,7 @@ import os
 import sys
 import json
 from typing import List, Dict, Optional, Tuple
-from ....utils.logger import log_error, log_warning, log_info
+from utils.logger import log_error, log_warning, log_info
 
 
 class PlateImageViewer:

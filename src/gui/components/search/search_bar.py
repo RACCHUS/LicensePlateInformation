@@ -7,7 +7,7 @@ from tkinter import ttk
 from typing import Callable, Optional, List, Dict, Any
 
 from ...utils.widget_factory import WidgetFactory
-from ....utils.logger import log_error, log_warning
+from utils.logger import log_error, log_warning
 
 
 class SearchBar:
