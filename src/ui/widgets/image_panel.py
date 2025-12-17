@@ -5,7 +5,7 @@ Displays plate images for the selected state with navigation controls.
 """
 
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Dict, Tuple
 
 from PySide6.QtCore import Qt, Signal, QSize
 from PySide6.QtGui import QPixmap, QKeySequence, QShortcut
@@ -25,10 +25,60 @@ class ImagePanel(QWidget):
     - Image counter display
     - Keyboard navigation (Left/Right arrows)
     - Category filter dropdown
+    - Smart image ordering by plate type priority
     """
     
     # Signal emitted when image changes
     image_changed = Signal(str)  # image_path
+    
+    # Priority order for plate types (lower = shown first)
+    # Generic/common plates first, commercial vehicles, then passenger
+    PLATE_TYPE_PRIORITY: Dict[str, int] = {
+        'generic': 0,         # plate_sample without type specified
+        'apportioned': 1,     # IRP apportioned plates (commercial priority)
+        'truck': 1,
+        'trailer': 1,
+        'semi-trailer': 1,
+        'semi': 1,
+        'commercial': 1,
+        'passenger': 2,
+        'standard': 2,
+        'motorcycle': 3,
+        'government': 4,      # Government plates
+        'dealer': 5,          # Dealer plates (third to last)
+        'specialty': 6,       # Specialty plates (second to last)
+        'vanity': 7,          # Vanity/personalized (last)
+    }
+    
+    # Priority order for image types within each plate type
+    IMAGE_TYPE_PRIORITY: Dict[str, int] = {
+        'sample': 1,          # plate_sample - most common
+        'blank': 2,           # blank_template - useful reference
+        'font': 3,            # character_font_sample
+        'variation': 4        # variations
+    }
+    
+    # Mapping of state codes to folder names in data/images/Plates directory
+    STATE_FOLDER_MAP: Dict[str, str] = {
+        'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona',
+        'AR': 'Arkansas', 'CA': 'California', 'CO': 'Colorado',
+        'CT': 'Connecticut', 'DE': 'Delaware', 'FL': 'Florida',
+        'GA': 'Georgia', 'HI': 'Hawaii', 'ID': 'Idaho',
+        'IL': 'Illinios',  # Note: typo in folder name preserved
+        'IN': 'Indiana', 'IA': 'Iowa', 'KS': 'Kansas',
+        'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine',
+        'MD': 'Maryland', 'MA': 'Massachusetts', 'MI': 'Michigan',
+        'MN': 'Minnesota', 'MS': 'Mississippi', 'MO': 'Missouri',
+        'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada',
+        'NH': 'New Hampshire', 'NJ': 'New Jersey', 'NM': 'New Mexico',
+        'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota',
+        'OH': 'Ohio', 'OK': 'Oklahoma', 'OR': 'Oregon',
+        'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina',
+        'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas',
+        'UT': 'Utah', 'VT': 'Vermont', 'VA': 'Virginia',
+        'WA': 'Washington', 'WV': 'West Virginia', 'WI': 'Wisconsin',
+        'WY': 'Wyoming'
+    }
     
     def __init__(self, data_path: Path, parent=None):
         super().__init__(parent)
@@ -250,41 +300,85 @@ class ImagePanel(QWidget):
         
         self._update_nav_state()
     
+    def _get_image_search_dirs(self) -> list[Path]:
+        """
+        Get list of directories to search for images.
+        
+        Priority order:
+        1. data/images/Plates/{State Name}/ (e.g., data/images/Plates/Florida/)
+        2. data/images/{STATE_CODE}/ (e.g., data/images/FL/)
+        3. data/images/{STATE_CODE}/plates/ subdirectory if exists
+        """
+        search_dirs = []
+        
+        if not self.current_state:
+            return search_dirs
+        
+        # Priority 1: Check Plates directory with full state name
+        state_folder_name = self.STATE_FOLDER_MAP.get(self.current_state.upper())
+        if state_folder_name:
+            plates_state_dir = self.images_path / "Plates" / state_folder_name
+            if plates_state_dir.exists():
+                search_dirs.append(plates_state_dir)
+        
+        # Priority 2: Check state code directory
+        state_code_dir = self.images_path / self.current_state
+        if state_code_dir.exists():
+            search_dirs.append(state_code_dir)
+            
+            # Also check plates subdirectory
+            plates_subdir = state_code_dir / "plates"
+            if plates_subdir.exists():
+                search_dirs.append(plates_subdir)
+        
+        return search_dirs
+    
     def _load_images(self):
         """Load images for the current state and category."""
         if not self.current_state:
             self.current_images = []
             return
         
-        state_path = self.images_path / self.current_state
-        if not state_path.exists():
+        # Get all directories to search for images
+        search_dirs = self._get_image_search_dirs()
+        
+        if not search_dirs:
             self.current_images = []
             self._show_no_images()
             return
         
-        # Get all image files
+        # Get all image files from all search directories
         all_images = []
         image_extensions = {'.png', '.jpg', '.jpeg', '.gif', '.bmp'}
+        seen_names = set()  # Avoid duplicates if same image in multiple dirs
         
-        for file in state_path.iterdir():
-            if file.is_file() and file.suffix.lower() in image_extensions:
-                all_images.append(file)
+        for search_dir in search_dirs:
+            if not search_dir.exists():
+                continue
+            for file in search_dir.iterdir():
+                if file.is_file() and file.suffix.lower() in image_extensions:
+                    # Use filename as key to avoid duplicates
+                    if file.name.lower() not in seen_names:
+                        all_images.append(file)
+                        seen_names.add(file.name.lower())
         
         # Filter by category if needed
         category = self.current_category
         if category == "all":
-            self.current_images = sorted(all_images, key=lambda p: p.name.lower())
+            # Apply smart sorting by plate type and image type priority
+            self.current_images = self._sort_images_by_priority(all_images)
         elif category == "standard":
             # Standard plates typically have state code in name or "standard"
-            self.current_images = sorted([
+            filtered = [
                 f for f in all_images 
                 if 'standard' in f.name.lower() or 
                    f.name.lower().startswith(self.current_state.lower()) or
                    f.name.lower().startswith('plate')
-            ], key=lambda p: p.name.lower())
+            ]
+            self.current_images = self._sort_images_by_priority(filtered)
         elif category == "specialty":
             # Specialty plates - exclude standard patterns
-            self.current_images = sorted([
+            filtered = [
                 f for f in all_images 
                 if not f.name.lower().startswith(self.current_state.lower()) and
                    'standard' not in f.name.lower() and
@@ -293,26 +387,31 @@ class ImagePanel(QWidget):
                    'police' not in f.name.lower() and
                    'fire' not in f.name.lower() and
                    'exempt' not in f.name.lower()
-            ], key=lambda p: p.name.lower())
+            ]
+            self.current_images = self._sort_images_by_priority(filtered)
         elif category == "government":
             # Government/official plates
-            self.current_images = sorted([
+            filtered = [
                 f for f in all_images 
                 if any(kw in f.name.lower() for kw in [
                     'gov', 'police', 'fire', 'exempt', 'state', 'city', 
                     'county', 'sheriff', 'highway patrol', 'marshal'
                 ])
-            ], key=lambda p: p.name.lower())
+            ]
+            self.current_images = self._sort_images_by_priority(filtered)
         elif category == "characters":
-            # Character reference images
-            chars_path = state_path / "characters"
-            if chars_path.exists():
-                self.current_images = sorted([
-                    f for f in chars_path.iterdir()
-                    if f.is_file() and f.suffix.lower() in image_extensions
-                ], key=lambda p: p.name.lower())
-            else:
-                self.current_images = []
+            # Character reference images - search in all directories
+            char_images = []
+            seen_names = set()
+            for search_dir in search_dirs:
+                chars_path = search_dir / "characters"
+                if chars_path.exists():
+                    for f in chars_path.iterdir():
+                        if f.is_file() and f.suffix.lower() in image_extensions:
+                            if f.name.lower() not in seen_names:
+                                char_images.append(f)
+                                seen_names.add(f.name.lower())
+            self.current_images = sorted(char_images, key=lambda p: p.name.lower())
         
         # Reset to first image
         self.current_index = 0
@@ -323,6 +422,84 @@ class ImagePanel(QWidget):
             self._show_no_images()
         
         self._update_nav_state()
+    
+    def _sort_images_by_priority(self, images: list[Path]) -> list[Path]:
+        """
+        Sort images by plate type priority, then image type priority, then alphabetically.
+        
+        Priority order:
+        1. Generic/sample plates (priority 0)
+        2. Apportioned/Commercial/Truck/Trailer (priority 1)
+        3. Passenger/Standard (priority 2)
+        4. Motorcycle (priority 3)
+        5. Government (priority 4)
+        6. Dealer (priority 5)
+        7. Specialty (priority 6)
+        8. Vanity (priority 7)
+        """
+        return sorted(images, key=lambda p: self._get_image_sort_key(p))
+    
+    def _get_image_sort_key(self, image_path: Path) -> Tuple[int, int, str]:
+        """
+        Get a sort key for an image based on its filename.
+        
+        Returns a tuple of (plate_type_priority, image_type_priority, filename)
+        """
+        filename = image_path.stem.lower()
+        
+        # Determine plate type category
+        plate_type_priority = self._detect_plate_type_priority(filename)
+        
+        # Determine image type priority
+        image_type_priority = self._detect_image_type_priority(filename)
+        
+        return (plate_type_priority, image_type_priority, filename)
+    
+    def _detect_plate_type_priority(self, filename: str) -> int:
+        """Detect the plate type category from filename and return its priority."""
+        # Check for specific types (order matters - more specific first)
+        if 'semi-trailer' in filename or 'semitrailer' in filename:
+            return self.PLATE_TYPE_PRIORITY.get('semi-trailer', 99)
+        elif 'semi' in filename:
+            return self.PLATE_TYPE_PRIORITY.get('semi', 99)
+        elif 'trailer' in filename:
+            return self.PLATE_TYPE_PRIORITY.get('trailer', 99)
+        elif 'truck' in filename:
+            return self.PLATE_TYPE_PRIORITY.get('truck', 99)
+        elif 'commercial' in filename:
+            return self.PLATE_TYPE_PRIORITY.get('commercial', 99)
+        elif 'apportioned' in filename or 'irp' in filename:
+            return self.PLATE_TYPE_PRIORITY.get('apportioned', 99)
+        elif 'vanity' in filename or 'personalized' in filename:
+            return self.PLATE_TYPE_PRIORITY.get('vanity', 99)
+        elif 'specialty' in filename or 'special' in filename:
+            return self.PLATE_TYPE_PRIORITY.get('specialty', 99)
+        elif 'dealer' in filename:
+            return self.PLATE_TYPE_PRIORITY.get('dealer', 99)
+        elif any(kw in filename for kw in ['government', 'govt', 'gov', 'police', 'fire', 'exempt', 'official']):
+            return self.PLATE_TYPE_PRIORITY.get('government', 99)
+        elif 'motorcycle' in filename or filename.startswith('mc'):
+            return self.PLATE_TYPE_PRIORITY.get('motorcycle', 99)
+        elif 'passenger' in filename or 'standard' in filename:
+            return self.PLATE_TYPE_PRIORITY.get('passenger', 99)
+        # Generic plate_sample with no specific type
+        elif 'plate' in filename and ('sample' in filename or 'blank' in filename or 'template' in filename):
+            return self.PLATE_TYPE_PRIORITY.get('generic', 99)
+        else:
+            # Default to passenger priority for unrecognized
+            return self.PLATE_TYPE_PRIORITY.get('passenger', 99)
+    
+    def _detect_image_type_priority(self, filename: str) -> int:
+        """Detect the image type from filename and return its priority."""
+        if 'blank' in filename or 'template' in filename:
+            return self.IMAGE_TYPE_PRIORITY.get('blank', 99)
+        elif 'font' in filename:
+            return self.IMAGE_TYPE_PRIORITY.get('font', 99)
+        elif 'variation' in filename or 'variant' in filename:
+            return self.IMAGE_TYPE_PRIORITY.get('variation', 99)
+        else:
+            # Default to sample
+            return self.IMAGE_TYPE_PRIORITY.get('sample', 99)
     
     def _show_current_image(self):
         """Display the current image."""

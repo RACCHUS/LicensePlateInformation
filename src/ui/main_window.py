@@ -257,6 +257,20 @@ class MainWindow(QMainWindow):
         clear_history_action.triggered.connect(self._on_clear_search_history)
         tools_menu.addAction(clear_history_action)
         
+        # ===== Notes Menu (prominent for feedback) =====
+        notes_menu = menubar.addMenu("&Notes")
+        
+        edit_notes_action = QAction("Edit Notes...", self)
+        edit_notes_action.setShortcut(QKeySequence("Ctrl+N"))
+        edit_notes_action.triggered.connect(self._on_edit_notes)
+        notes_menu.addAction(edit_notes_action)
+        
+        notes_menu.addSeparator()
+        
+        open_notes_file_action = QAction("Open Notes File Location", self)
+        open_notes_file_action.triggered.connect(self._on_open_notes_location)
+        notes_menu.addAction(open_notes_file_action)
+        
         # ===== Help Menu =====
         help_menu = menubar.addMenu("&Help")
         
@@ -286,6 +300,43 @@ class MainWindow(QMainWindow):
         stacked_action = QAction("Stacked Characters", self)
         stacked_action.triggered.connect(lambda: self._on_show_help("plate_reading_tips", "stacked"))
         tips_menu.addAction(stacked_action)
+        
+        # Button Reference submenu
+        buttons_menu = help_menu.addMenu("Button Reference")
+        
+        accept_btn_action = QAction("Accept - Confirm Correct Entry", self)
+        accept_btn_action.triggered.connect(lambda: self._on_show_help("button_reference", "accept"))
+        buttons_menu.addAction(accept_btn_action)
+        
+        buttons_menu.addSeparator()
+        
+        p_btn_action = QAction("P - Plate Unreadable", self)
+        p_btn_action.triggered.connect(lambda: self._on_show_help("button_reference", "p_unreadable"))
+        buttons_menu.addAction(p_btn_action)
+        
+        o_btn_action = QAction("O - Plate Obscured", self)
+        o_btn_action.triggered.connect(lambda: self._on_show_help("button_reference", "o_obscured"))
+        buttons_menu.addAction(o_btn_action)
+        
+        n_btn_action = QAction("N - No Plate Visible", self)
+        n_btn_action.triggered.connect(lambda: self._on_show_help("button_reference", "n_no_plate"))
+        buttons_menu.addAction(n_btn_action)
+        
+        t_btn_action = QAction("T - Technical Issue", self)
+        t_btn_action.triggered.connect(lambda: self._on_show_help("button_reference", "t_technical"))
+        buttons_menu.addAction(t_btn_action)
+        
+        e_btn_action = QAction("E - Emergency Vehicle", self)
+        e_btn_action.triggered.connect(lambda: self._on_show_help("button_reference", "e_emergency"))
+        buttons_menu.addAction(e_btn_action)
+        
+        x_btn_action = QAction("X - Other", self)
+        x_btn_action.triggered.connect(lambda: self._on_show_help("button_reference", "x_other"))
+        buttons_menu.addAction(x_btn_action)
+        
+        r_btn_action = QAction("R - Mark for Review", self)
+        r_btn_action.triggered.connect(lambda: self._on_show_help("button_reference", "r_review"))
+        buttons_menu.addAction(r_btn_action)
         
         emergency_action = QAction("Emergency Vehicle Guide", self)
         emergency_action.triggered.connect(lambda: self._on_show_help("emergency_vehicles"))
@@ -1169,36 +1220,73 @@ class MainWindow(QMainWindow):
         abbrev = info.get('abbreviation', '')
         self.state_info_header.setText(f"{name} ({abbrev})")
         
-        # Build info text
+        # Build info text with color-coded sections
         lines = []
         
+        # Slogan - blue icon
         if info.get('slogan'):
-            lines.append(f"<b>Slogan:</b> {info['slogan']}")
+            lines.append(
+                f'<span style="color:#2196F3;">📝</span> '
+                f'<span style="color:#64B5F6;"><b>Slogan:</b></span> '
+                f'<span style="color:#e0e0e0;">{info["slogan"]}</span>'
+            )
         
+        # Colors - palette icon with actual color swatches
         if info.get('primary_colors'):
             colors = info['primary_colors']
-            color_boxes = ' '.join([f'<span style="background:{c}; padding:2px 8px;">&nbsp;</span>' for c in colors[:3]])
-            lines.append(f"<b>Colors:</b> {color_boxes}")
+            color_boxes = ' '.join([
+                f'<span style="background:{c}; color:{c}; padding:1px 10px; border-radius:2px; margin:0 2px;">▮</span>' 
+                for c in colors[:4]
+            ])
+            lines.append(
+                f'<span style="color:#E91E63;">🎨</span> '
+                f'<span style="color:#F48FB1;"><b>Colors:</b></span> {color_boxes}'
+            )
         
+        # Font - text icon (orange)
         if info.get('main_font'):
-            lines.append(f"<b>Font:</b> {info['main_font']}")
+            lines.append(
+                f'<span style="color:#FF9800;">🔤</span> '
+                f'<span style="color:#FFB74D;"><b>Font:</b></span> '
+                f'<span style="color:#e0e0e0;">{info["main_font"]}</span>'
+            )
         
+        # Logo - image icon (purple)
         if info.get('main_logo'):
-            lines.append(f"<b>Logo:</b> {info['main_logo']}")
+            lines.append(
+                f'<span style="color:#9C27B0;">🏷️</span> '
+                f'<span style="color:#CE93D8;"><b>Logo:</b></span> '
+                f'<span style="color:#e0e0e0;">{info["main_logo"]}</span>'
+            )
         
+        # Plate Text - license plate icon (green)
         if info.get('main_plate_text'):
-            lines.append(f"<b>Plate Text:</b> {info['main_plate_text']}")
+            lines.append(
+                f'<span style="color:#4CAF50;">🚗</span> '
+                f'<span style="color:#81C784;"><b>Plate Text:</b></span> '
+                f'<span style="color:#e0e0e0;">{info["main_plate_text"]}</span>'
+            )
         
+        # Sticker - tag icon (teal)
         sticker = info.get('sticker_format', {})
         if sticker and sticker.get('description'):
-            lines.append(f"<b>Sticker:</b> {sticker['description']}")
+            lines.append(
+                f'<span style="color:#00BCD4;">🏷️</span> '
+                f'<span style="color:#4DD0E1;"><b>Sticker:</b></span> '
+                f'<span style="color:#e0e0e0;">{sticker["description"]}</span>'
+            )
         
+        # Notes - info icon (gray/muted)
         if info.get('notes'):
             # Truncate long notes
             notes = info['notes']
             if len(notes) > 300:
                 notes = notes[:300] + "..."
-            lines.append(f"<b>Notes:</b> <span style='color:#999'>{notes}</span>")
+            lines.append(
+                f'<span style="color:#607D8B;">📋</span> '
+                f'<span style="color:#90A4AE;"><b>Notes:</b></span> '
+                f'<span style="color:#9e9e9e;">{notes}</span>'
+            )
         
         self.state_info_content.setText("<br><br>".join(lines))
     
@@ -1218,48 +1306,99 @@ class MainWindow(QMainWindow):
         # Update header
         self.char_rules_header.setText(f"Character Rules - {state_code}")
         
-        # Build rules text
+        # Build rules text with color coding
         lines = []
         
-        # O vs 0 rules
+        # O vs 0 rules - most important, prominent display
         if not rules.get('allows_letter_o', True):
-            lines.append("❌ <b>Letter 'O' NOT USED</b> - Only number '0'")
+            lines.append(
+                '<div style="background:#4a1c1c; padding:8px; border-radius:4px; border-left:4px solid #f44336;">'
+                '<span style="color:#ef5350; font-size:14px;">❌</span> '
+                '<span style="color:#ef5350;"><b>Letter \'O\' NOT USED</b></span><br>'
+                '<span style="color:#e57373;">Only number \'0\' appears on plates</span>'
+                '</div>'
+            )
         elif rules.get('uses_zero_for_o', False):
-            lines.append("⚠️ <b>Uses '0' for 'O'</b> - Zero substitutes for letter O")
+            lines.append(
+                '<div style="background:#4a3c1c; padding:8px; border-radius:4px; border-left:4px solid #ff9800;">'
+                '<span style="color:#ffb74d; font-size:14px;">⚠️</span> '
+                '<span style="color:#ffb74d;"><b>Uses \'0\' for \'O\'</b></span><br>'
+                '<span style="color:#ffe082;">Zero substitutes for letter O</span>'
+                '</div>'
+            )
         else:
-            lines.append("✅ <b>Both 'O' and '0' allowed</b>")
+            lines.append(
+                '<div style="background:#1c4a2e; padding:8px; border-radius:4px; border-left:4px solid #4caf50;">'
+                '<span style="color:#81c784; font-size:14px;">✅</span> '
+                '<span style="color:#81c784;"><b>Both \'O\' and \'0\' allowed</b></span><br>'
+                '<span style="color:#a5d6a7;">Standard letter O and number 0</span>'
+                '</div>'
+            )
         
+        # Slashed zero - cyan
         if rules.get('zero_is_slashed'):
-            lines.append("Ø <b>Slashed Zero</b> - Zero has diagonal slash")
+            lines.append(
+                f'<span style="color:#00BCD4;">Ø</span> '
+                f'<span style="color:#4DD0E1;"><b>Slashed Zero</b></span> - '
+                f'<span style="color:#b0bec5;">Zero has diagonal slash through it</span>'
+            )
         
-        # Character restrictions
+        # Character restrictions - orange warning
         if rules.get('no_letter_o'):
-            lines.append(f"<span style='color:#ff9800'>{rules['no_letter_o']}</span>")
+            lines.append(
+                f'<span style="color:#FF9800;">⚡</span> '
+                f'<span style="color:#FFB74D;"><b>O Rule:</b></span> '
+                f'<span style="color:#ffe0b2;">{rules["no_letter_o"]}</span>'
+            )
         
         if rules.get('character_restrictions') and rules['character_restrictions'] != rules.get('no_letter_o'):
-            lines.append(f"<b>Restrictions:</b> {rules['character_restrictions'][:200]}")
+            lines.append(
+                f'<span style="color:#F44336;">🚫</span> '
+                f'<span style="color:#EF9A9A;"><b>Restrictions:</b></span> '
+                f'<span style="color:#e0e0e0;">{rules["character_restrictions"][:200]}</span>'
+            )
         
-        # Stacked characters
+        # Stacked characters section - purple theme
         if rules.get('stacked_characters'):
-            lines.append(f"<b>Stacked:</b> {rules['stacked_characters']}")
+            lines.append(
+                f'<span style="color:#9C27B0;">📚</span> '
+                f'<span style="color:#CE93D8;"><b>Stacked:</b></span> '
+                f'<span style="color:#e0e0e0;">{rules["stacked_characters"]}</span>'
+            )
         
         if rules.get('stacked_include'):
             include = ', '.join(rules['stacked_include'][:10])
-            lines.append(f"<b>Include:</b> {include}")
+            lines.append(
+                f'<span style="color:#4CAF50;">✓</span> '
+                f'<span style="color:#81C784;"><b>Include:</b></span> '
+                f'<span style="color:#c8e6c9;">{include}</span>'
+            )
         
         if rules.get('stacked_omit'):
             omit = ', '.join(rules['stacked_omit'][:10])
             if len(rules['stacked_omit']) > 10:
                 omit += f" (+{len(rules['stacked_omit']) - 10} more)"
-            lines.append(f"<b>Omit:</b> {omit}")
+            lines.append(
+                f'<span style="color:#F44336;">✗</span> '
+                f'<span style="color:#EF9A9A;"><b>Omit:</b></span> '
+                f'<span style="color:#ffcdd2;">{omit}</span>'
+            )
         
         if rules.get('stacked_position'):
-            lines.append(f"<b>Position:</b> {rules['stacked_position'][:150]}")
+            lines.append(
+                f'<span style="color:#2196F3;">📍</span> '
+                f'<span style="color:#64B5F6;"><b>Position:</b></span> '
+                f'<span style="color:#e0e0e0;">{rules["stacked_position"][:150]}</span>'
+            )
         
-        # Slanted characters
+        # Slanted characters - teal
         if rules.get('slanted_characters'):
             direction = rules.get('slant_direction', '')
-            lines.append(f"<b>Slanted:</b> {rules['slanted_characters']} {direction}")
+            lines.append(
+                f'<span style="color:#009688;">↗</span> '
+                f'<span style="color:#4DB6AC;"><b>Slanted:</b></span> '
+                f'<span style="color:#e0e0e0;">{rules["slanted_characters"]} {direction}</span>'
+            )
         
         self.char_rules_content.setText("<br><br>".join(lines) if lines else "No specific character rules")
     
@@ -1347,6 +1486,44 @@ class MainWindow(QMainWindow):
     def _on_clear_search_history(self):
         """Clear search history."""
         self.status_bar.showMessage("Search history cleared", 2000)
+    
+    def _on_edit_notes(self):
+        """Open notes editor dialog."""
+        from ui.dialogs.notes_dialog import NotesDialog
+        dialog = NotesDialog(self.data_path, self)
+        dialog.exec()
+    
+    def _on_open_notes_location(self):
+        """Open the folder containing the notes file."""
+        import subprocess
+        import os
+        notes_file = self.data_path / "user_notes.txt"
+        
+        # Create file if it doesn't exist
+        if not notes_file.exists():
+            notes_file.write_text(
+                "# License Plate Information - User Notes\n"
+                "# ==========================================\n"
+                "# Use this file to record any missing information,\n"
+                "# corrections, or suggestions for the app.\n"
+                "# You can send this file to the developer for updates.\n"
+                "#\n"
+                "# Format suggestions:\n"
+                "# - State: [STATE CODE]\n"
+                "# - Issue: [Description of missing/incorrect info]\n"
+                "# - Suggested fix: [What should be added/changed]\n"
+                "# ==========================================\n\n",
+                encoding='utf-8'
+            )
+        
+        # Open folder and select file
+        folder = str(notes_file.parent)
+        if os.name == 'nt':  # Windows
+            subprocess.run(['explorer', '/select,', str(notes_file)])
+        else:
+            subprocess.run(['xdg-open', folder])
+        
+        self.status_bar.showMessage(f"Notes file: {notes_file}", 3000)
     
     def _on_show_help(self, topic: str, section: Optional[str] = None):
         """Show help dialog with specified topic."""

@@ -1,0 +1,12 @@
+# License Plate Information - User Notes
+# ==========================================
+# Use this file to record any missing information,
+# corrections, or suggestions for the app.
+# You can send this file to the developer for updates.
+#
+# Format suggestions:
+# - State: [STATE CODE]
+# - Issue: [Description of missing/incorrect info]
+# - Suggested fix: [What should be added/changed]
+# ==========================================
+Hello there, there are my notes.

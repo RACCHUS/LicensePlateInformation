@@ -43,6 +43,19 @@ class HelpDialog(QDialog):
             "file": "shortcuts.md",
             "children": {}
         },
+        "Button Reference": {
+            "file": "button_reference.md",
+            "children": {
+                "Accept": {"anchor": "accept"},
+                "P - Plate Unreadable": {"anchor": "p_unreadable"},
+                "O - Plate Obscured": {"anchor": "o_obscured"},
+                "N - No Plate Visible": {"anchor": "n_no_plate"},
+                "T - Technical Issue": {"anchor": "t_technical"},
+                "E - Emergency Vehicle": {"anchor": "e_emergency"},
+                "X - Other": {"anchor": "x_other"},
+                "R - Mark for Review": {"anchor": "r_review"},
+            }
+        },
         "Plate Reading Tips": {
             "file": "plate_reading_tips.md",
             "children": {
@@ -62,6 +75,7 @@ class HelpDialog(QDialog):
     TOPIC_MAPPING = {
         "user_guide": "Getting Started",
         "shortcuts": "Keyboard Shortcuts",
+        "button_reference": "Button Reference",
         "plate_reading_tips": "Plate Reading Tips",
         "emergency_vehicles": "Emergency Vehicle Guide",
     }
@@ -71,6 +85,14 @@ class HelpDialog(QDialog):
         "damaged": "Damaged Characters",
         "stacked": "Stacked Characters",
         "o_vs_0": "O vs 0 (Oh vs Zero)",
+        "accept": "Accept",
+        "p_unreadable": "P - Plate Unreadable",
+        "o_obscured": "O - Plate Obscured",
+        "n_no_plate": "N - No Plate Visible",
+        "t_technical": "T - Technical Issue",
+        "e_emergency": "E - Emergency Vehicle",
+        "x_other": "X - Other",
+        "r_review": "R - Mark for Review",
     }
     
     def __init__(
