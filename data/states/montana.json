@@ -1574,11 +1574,11 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/MT/platesalishkootenaiThumb.jpg",
+        "plate_sample": "data/images/MT/salishkootenaiThumb.jpg",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
-          "data/images/MT/platesalishkootenaiThumb.jpg"
+          "data/images/MT/salishkootenaiThumb.jpg"
         ]
       },
       "visual_identifier": "N",
@@ -4424,11 +4424,11 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/MT/platespecialmobileThumb.jpg",
+        "plate_sample": "data/images/MT/specialmobileThumb.jpg",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
-          "data/images/MT/platespecialmobileThumb.jpg"
+          "data/images/MT/specialmobileThumb.jpg"
         ]
       },
       "visual_identifier": "N",
@@ -10474,11 +10474,11 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/MT/platespayneuter-thumbs.jpg",
+        "plate_sample": "data/images/MT/spayneuter-thumbs.jpg",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
-          "data/images/MT/platespayneuter-thumbs.jpg"
+          "data/images/MT/spayneuter-thumbs.jpg"
         ]
       },
       "visual_identifier": "N",
@@ -10874,11 +10874,11 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/MT/platestaffordanimalshelter-thumbs.jpg",
+        "plate_sample": "data/images/MT/staffordanimalshelter-thumbs.jpg",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
-          "data/images/MT/platestaffordanimalshelter-thumbs.jpg"
+          "data/images/MT/staffordanimalshelter-thumbs.jpg"
         ]
       },
       "visual_identifier": "N",

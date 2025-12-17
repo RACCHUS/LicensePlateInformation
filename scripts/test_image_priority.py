@@ -13,7 +13,7 @@ from pathlib import Path
 
 # Base paths
 BASE_DIR = Path(__file__).parent.parent
-PLATES_DIR = BASE_DIR / "data" / "images" / "Plates"
+IMAGES_DIR = BASE_DIR / "data" / "images"
 STATES_DIR = BASE_DIR / "data" / "states"
 
 # Priority mappings (from image_viewer.py)
@@ -91,7 +91,7 @@ def get_sort_key(filename):
 
 def test_state_images(state_folder_name):
     """Test image ordering for a specific state."""
-    folder_path = PLATES_DIR / state_folder_name
+    folder_path = IMAGES_DIR / state_folder_name
     
     if not folder_path.exists():
         return {
@@ -151,8 +151,8 @@ def test_all_states():
     print("=" * 80)
     print()
     
-    # Get all state folders
-    state_folders = [f.name for f in PLATES_DIR.iterdir() if f.is_dir()]
+    # Get all state folders (state codes like FL, CA, etc.)
+    state_folders = [f.name for f in IMAGES_DIR.iterdir() if f.is_dir() and len(f.name) == 2 and f.name.isupper()]
     state_folders.sort()
     
     results = []

@@ -69,37 +69,8 @@ if /i "%tests%"=="y" (
     echo ✓ Test files removed
 )
 
-REM Show data/pending size
-echo.
-echo ========================================
-echo NOTICE: data/pending/ folder
-echo ========================================
-echo.
-echo The data/pending/ folder contains source files
-echo that are NOT needed for the application to run.
-echo This folder is typically 500+ MB!
-echo.
-echo These files are only needed for development.
-echo.
-
-set /p pending="Remove data/pending/ folder? (yes/no): "
-if /i "%pending%"=="yes" (
-    echo.
-    echo ⚠️  FINAL WARNING: This will permanently delete:
-    echo    - Source CSV files
-    echo    - Parsed JSON intermediates
-    echo    - OOS text files
-    echo.
-    set /p final="Are you ABSOLUTELY sure? (yes/no): "
-    if /i "!final!"=="yes" (
-        if exist data\pending rmdir /s /q data\pending
-        echo ✓ data/pending/ removed - Saved ~500 MB!
-    ) else (
-        echo data/pending/ kept
-    )
-) else (
-    echo data/pending/ kept
-)
+REM data/pending was already removed during folder consolidation
+echo ✓ data/pending/ already removed (saved ~500 MB)
 
 echo.
 echo ========================================

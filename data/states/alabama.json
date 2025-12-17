@@ -132,7 +132,7 @@
       },
       "images": {
         "plate_sample": "data/images/AL/plate_sample.png",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/2022-passenger-sample-image-scaled.jpg"
@@ -187,8 +187,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/antique_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/antique_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -246,8 +246,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/amateur_radio_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/amateur_radio_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/200221_AmateurRadio2020_tag_page.jpg"
@@ -312,8 +312,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/disabled_veteran_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/disabled_veteran_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LIcensePlate_Military_VietnamVet.jpg",
@@ -381,8 +381,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/a_&_m_university_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/a_&_m_university_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/ALAAM2019_CollPlate_page.jpg",
@@ -450,8 +450,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/active_reserve_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/active_reserve_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LicensePlate_Military_ActiveReserve.jpg"
@@ -510,8 +510,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/ambulance_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/ambulance_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -569,8 +569,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/apportioned_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/apportioned_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LIcensePlate_Military_OperationIraqFreedom_2009.jpg",
@@ -633,8 +633,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/atomic_nuked_veteran_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/atomic_nuked_veteran_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Atomic-Veteran.jpg",
@@ -696,8 +696,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/auburn_university_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/auburn_university_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LIcensePlate_Military_OperationEnduringFreedomAfgahanistan_2009.jpg",
@@ -753,8 +753,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/auburn_university_at_montgomery_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/auburn_university_at_montgomery_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/AUM-2019.jpg",
@@ -811,8 +811,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/autism_awareness_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/autism_awareness_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Marine-Corps.jpg",
@@ -874,8 +874,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/barber_vintage_motorsports_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/barber_vintage_motorsports_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Barber-Vintage-Motorsports-Museum-2022.jpg"
@@ -930,8 +930,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/bicentennial_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/bicentennial_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Alabama-Bicentennial-2022-1-scaled-1.jpg"
@@ -989,8 +989,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/birmingham_southern_college_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/birmingham_southern_college_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/BirminghamSouthernCollege2019_CollPlate_page.jpg",
@@ -1049,8 +1049,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/breast_cancer_research_foundation_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/breast_cancer_research_foundation_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/AL-Nurses-Foundation-2022.jpg",
@@ -1108,8 +1108,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/bronze_star_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/bronze_star_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LIcensePlate_Military_BronzeStar.jpg"
@@ -1164,8 +1164,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/camper_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/camper_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LIcensePlate_Military_WWIIAsiaticCampaign.jpg",
@@ -1226,8 +1226,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/cattlemen_association_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/cattlemen_association_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/AL-Cattlemen-2022-approved-passenger.jpg",
@@ -1284,8 +1284,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/children's_trust_fund_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/children's_trust_fund_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Child-Abuse-and-Neglect-2023.jpg"
@@ -1344,8 +1344,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/choose_life_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/choose_life_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/ChooseLifeSupportAdoption2019_tag_page.jpg"
@@ -1400,8 +1400,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/city_motorcycle_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/city_motorcycle_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LicensePlate_Governement_MunicipalMC.jpg"
@@ -1460,8 +1460,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/city/municipal_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/city/municipal_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/190802_LawEnforcementMemorial_tag_page.jpg",
@@ -1517,8 +1517,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/cold_war_veteran_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/cold_war_veteran_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Cold-War-Veteran-2022-scaled-1.jpg",
@@ -1579,8 +1579,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/collegiate_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/collegiate_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Bishop-State-Community-College.jpg",
@@ -1643,8 +1643,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/commercial_bus_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/commercial_bus_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -1697,8 +1697,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/consular_official_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/consular_official_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/CONSULAR-OFFICIAL-2022-zeros-300x148-1.jpg"
@@ -1756,8 +1756,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/cotton_module_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/cotton_module_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/190731_CottonModule_tag_page.jpg"
@@ -1815,8 +1815,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/county_government_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/county_government_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Jefferson-State-Community-College.jpg",
@@ -1873,8 +1873,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/county_motorcycle_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/county_motorcycle_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LicensePlate_Governement_CountyMC.jpg"
@@ -1933,8 +1933,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/curing_childhood_cancer_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/curing_childhood_cancer_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Curing-Childhood-Cancer-2021-front.jpg"
@@ -1989,8 +1989,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/dealer_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/dealer_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Dealer-2023-passenger-image.jpg"
@@ -2045,8 +2045,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/dealer_transit_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/dealer_transit_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -2102,8 +2102,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/desert_shield/desert_storm_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/desert_shield/desert_storm_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Desert-Storm-Shield.jpg"
@@ -2164,8 +2164,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/disabled_veteran_wheelchair_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/disabled_veteran_wheelchair_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/DISABLED-VETERAN-MERCHANT-MARINES.jpg",
@@ -2224,8 +2224,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/don't_tread_on_me_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/don't_tread_on_me_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LIcensePlate_Military_GlobalWarTerrorism.jpg",
@@ -2284,8 +2284,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/ducks_unlimited_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/ducks_unlimited_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/AL-Ducks-Unlimited-2022.jpg"
@@ -2343,8 +2343,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/educator_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/educator_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Educator-2023.jpg",
@@ -2405,8 +2405,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/farm_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/farm_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/US-Army.jpg",
@@ -2466,8 +2466,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/farming_feeds_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/farming_feeds_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/190802_FarmingFeeds_tag_page.jpg",
@@ -2524,8 +2524,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/faulkner_university_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/faulkner_university_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/ASU2019_CollPlate_page.jpg",
@@ -2591,8 +2591,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/fighting_breast_cancer_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/fighting_breast_cancer_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/APinkBreastCancerTagFightBreastCancerJoytoLife_tag_page.jpg",
@@ -2652,8 +2652,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/fire_fighter_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/fire_fighter_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/190802_Firefighter_tag_page.jpg",
@@ -2714,8 +2714,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/first_to_the_moon_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/first_to_the_moon_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -2771,8 +2771,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/fish_alabama_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/fish_alabama_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/UA2019_CollPlate_page.jpg",
@@ -2840,7 +2840,7 @@
       },
       "images": {
         "plate_sample": "data/images/AL/fleet-trailer_sample.png",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Stop-Domestic-Violence.jpg",
@@ -2897,7 +2897,7 @@
       },
       "images": {
         "plate_sample": "data/images/AL/fleet-trailer_sample.png",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -2950,8 +2950,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/fraternal_order_of_police_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/fraternal_order_of_police_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Fraternal-Order-of-Police-2023.jpg",
@@ -3010,8 +3010,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/god_bless_america_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/god_bless_america_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LicensePlate_Specilaty_GodBlessAmerica2013.jpg"
@@ -3066,8 +3066,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/handicapped_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/handicapped_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LicensePlate_Governement_CountyDA.jpg",
@@ -3126,8 +3126,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/helping_schools_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/helping_schools_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Help-End-Epilepsy-2021.jpg",
@@ -3185,7 +3185,7 @@
       },
       "images": {
         "plate_sample": "data/images/AL/trailer_sample.png",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -3238,8 +3238,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/manufacturer_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/manufacturer_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Manufacturer-passenger-2023-image.jpg",
@@ -3295,8 +3295,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/medal_of_honor_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/medal_of_honor_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LIcensePlate_Military_MedalHonor.jpg"
@@ -3361,8 +3361,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/motorcycle_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/motorcycle_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Dealer-2023-MC-image.jpg",
@@ -3418,8 +3418,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/national_guard_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/national_guard_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/US-Coast-Guard.jpg",
@@ -3479,8 +3479,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/ovarian_cancer_research_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/ovarian_cancer_research_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Ovarian-Cancer-Research-2022.jpg",
@@ -3536,8 +3536,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/pow_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/pow_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -3590,8 +3590,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/pearl_harbor_survivor_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/pearl_harbor_survivor_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LIcensePlate_Military_PearlHarbor.jpg"
@@ -3647,7 +3647,7 @@
       },
       "images": {
         "plate_sample": "data/images/AL/permanent-trailer_sample.png",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Permanent-Trailer-2022-scaled-1.jpg"
@@ -3702,8 +3702,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/purple_heart_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/purple_heart_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Purple-Heart-Combat-Wounded.jpg",
@@ -3763,7 +3763,7 @@
       },
       "images": {
         "plate_sample": "data/images/AL/plate_sample.png",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -3817,7 +3817,7 @@
       },
       "images": {
         "plate_sample": "data/images/AL/rental-trailer_sample.png",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/US-Merchant-Marine.jpg",
@@ -3873,8 +3873,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/rescue_squad_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/rescue_squad_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Rescue-Squad-2023.jpg"
@@ -3929,8 +3929,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/reserve_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/reserve_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/190802_ForeverWild_tag_page.jpg"
@@ -3988,8 +3988,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/roll_tide_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/roll_tide_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -4046,7 +4046,7 @@
       },
       "images": {
         "plate_sample": "data/images/AL/semi-trailer_sample.png",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LIcensePlate_Military_WWIIAmericanCampaign.jpg",
@@ -4107,8 +4107,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/state_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/state_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LIcensePlate_Military_SilverStar.jpg",
@@ -4166,8 +4166,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/state_defense_force_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/state_defense_force_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/US-Air-Force.jpg",
@@ -4224,8 +4224,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/state_national_guard_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/state_national_guard_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/DV-National-Guard-passenger-2022.jpg",
@@ -4281,8 +4281,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/state_motorcycle_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/state_motorcycle_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/LicensePlate_Governement_StateMotorPool.jpg",
@@ -4341,8 +4341,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/taxi_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/taxi_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/TAXI.jpg"
@@ -4397,8 +4397,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/temporary_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/temporary_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Korean-War-Vet.jpg",
@@ -4461,7 +4461,7 @@
       },
       "images": {
         "plate_sample": "data/images/AL/trailer_sample.png",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/190802_Shriners_tag_page.jpg",
@@ -4523,8 +4523,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/truck_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/truck_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/TRUCK-2021.jpg",
@@ -4588,8 +4588,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/truck_for_hire_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/truck_for_hire_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/190802_K9ForVets_tag_page.jpg",
@@ -4650,7 +4650,7 @@
       },
       "images": {
         "plate_sample": "data/images/AL/trailer_sample.png",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/United-Ability-2021.jpg"
@@ -4705,8 +4705,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AL/0/volunteer_fire_sample.jpg",
-        "character_font_sample": "images/plates/AL/0/font_sample.png",
+        "plate_sample": "data/images/AL/0/volunteer_fire_sample.jpg",
+        "character_font_sample": "data/images/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
           "data/images/AL/Vol-Fire-Dept-2022-scaled-1.jpg",

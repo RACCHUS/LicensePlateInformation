@@ -5,14 +5,20 @@ Displays plate images for the selected state with navigation controls.
 """
 
 from pathlib import Path
-from typing import Optional, Dict, Tuple
+from typing import Optional, Dict, Tuple, List
 
 from PySide6.QtCore import Qt, Signal, QSize
 from PySide6.QtGui import QPixmap, QKeySequence, QShortcut
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton,
-    QScrollArea, QSizePolicy, QComboBox, QFrame
+    QScrollArea, QSizePolicy, QComboBox, QFrame, QMenu
 )
+
+# Handle both relative and absolute imports for bundled exe compatibility
+try:
+    from ...utils.user_image_manager import UserImageManager
+except ImportError:
+    from utils.user_image_manager import UserImageManager
 
 
 class ImagePanel(QWidget):
@@ -26,10 +32,14 @@ class ImagePanel(QWidget):
     - Keyboard navigation (Left/Right arrows)
     - Category filter dropdown
     - Smart image ordering by plate type priority
+    - User image support with add button
     """
     
     # Signal emitted when image changes
     image_changed = Signal(str)  # image_path
+    
+    # Signal emitted when user wants to add an image
+    add_image_requested = Signal()
     
     # Priority order for plate types (lower = shown first)
     # Generic/common plates first, commercial vehicles, then passenger
@@ -63,9 +73,14 @@ class ImagePanel(QWidget):
         
         self.data_path = data_path
         self.images_path = data_path / "images"
+        self.user_images_path = data_path / "user_images"
+        
+        # User image manager for handling user-submitted images
+        self.user_image_manager = UserImageManager(data_path)
         
         self.current_state: Optional[str] = None
         self.current_images: list[Path] = []
+        self.user_image_indices: set = set()  # Track which indices are user images
         self.current_index: int = 0
         self.current_category: str = "all"
         self.zoom_level: float = 1.0  # 1.0 = fit to panel
@@ -97,8 +112,29 @@ class ImagePanel(QWidget):
         self.category_combo.addItem("Specialty Plates", "specialty")
         self.category_combo.addItem("Government", "government")
         self.category_combo.addItem("Characters", "characters")
+        self.category_combo.addItem("My Images", "user")
         self.category_combo.currentIndexChanged.connect(self._on_category_changed)
         header.addWidget(self.category_combo)
+        
+        # Add image button
+        self.add_image_btn = QPushButton("➕")
+        self.add_image_btn.setFixedSize(28, 28)
+        self.add_image_btn.setToolTip("Add your own image")
+        self.add_image_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #3c5c3c;
+                color: #4CAF50;
+                border: 1px solid #4CAF50;
+                border-radius: 4px;
+                font-size: 14px;
+            }
+            QPushButton:hover {
+                background-color: #4CAF50;
+                color: white;
+            }
+        """)
+        self.add_image_btn.clicked.connect(self._on_add_image_clicked)
+        header.addWidget(self.add_image_btn)
         
         layout.addLayout(header)
         
@@ -278,7 +314,7 @@ class ImagePanel(QWidget):
         
         self._update_nav_state()
     
-    def _get_image_search_dirs(self) -> list[Path]:
+    def _get_image_search_dirs(self) -> List[Path]:
         """
         Get list of directories to search for images.
         
@@ -303,19 +339,29 @@ class ImagePanel(QWidget):
         
         return search_dirs
     
+    def _get_user_images(self) -> List[Path]:
+        """Get list of user-added images for the current state."""
+        if not self.current_state:
+            return []
+        return self.user_image_manager.get_user_images(self.current_state)
+    
+    def _on_add_image_clicked(self):
+        """Handle add image button click."""
+        self.add_image_requested.emit()
+    
+    def refresh_images(self):
+        """Refresh the image list (e.g., after adding a new image)."""
+        self._load_images()
+    
     def _load_images(self):
         """Load images for the current state and category."""
         if not self.current_state:
             self.current_images = []
+            self.user_image_indices = set()
             return
         
         # Get all directories to search for images
         search_dirs = self._get_image_search_dirs()
-        
-        if not search_dirs:
-            self.current_images = []
-            self._show_no_images()
-            return
         
         # Get all image files from all search directories
         all_images = []
@@ -332,11 +378,25 @@ class ImagePanel(QWidget):
                         all_images.append(file)
                         seen_names.add(file.name.lower())
         
+        # Get user-added images
+        user_images = self._get_user_images()
+        
+        # Reset user image tracking
+        self.user_image_indices = set()
+        
         # Filter by category if needed
         category = self.current_category
-        if category == "all":
+        if category == "user":
+            # Show only user images
+            self.current_images = sorted(user_images, key=lambda p: p.stat().st_mtime, reverse=True)
+            self.user_image_indices = set(range(len(self.current_images)))
+        elif category == "all":
             # Apply smart sorting by plate type and image type priority
-            self.current_images = self._sort_images_by_priority(all_images)
+            sorted_app_images = self._sort_images_by_priority(all_images)
+            # Add user images at the end with indicator
+            self.current_images = sorted_app_images + user_images
+            # Track user image indices
+            self.user_image_indices = set(range(len(sorted_app_images), len(self.current_images)))
         elif category == "standard":
             # Standard plates typically have state code in name or "standard"
             filtered = [
@@ -491,11 +551,27 @@ class ImagePanel(QWidget):
             self._apply_zoom()
             self.image_label.setStyleSheet("")
         
-        # Update name label
-        self.image_name_label.setText(image_path.stem)
+        # Update name label with user image indicator
+        is_user_image = self.current_index in self.user_image_indices
+        if is_user_image:
+            self.image_name_label.setText(f"📷 {image_path.stem}")
+            self.image_name_label.setStyleSheet("color: #4CAF50; font-size: 11px;")
+        else:
+            self.image_name_label.setText(image_path.stem)
+            self.image_name_label.setStyleSheet("color: #b0b0b0; font-size: 11px;")
         
         # Emit signal
         self.image_changed.emit(str(image_path))
+    
+    def _is_current_user_image(self) -> bool:
+        """Check if the current image is a user-added image."""
+        return self.current_index in self.user_image_indices
+    
+    def get_current_image_path(self) -> Optional[Path]:
+        """Get the path of the current image."""
+        if self.current_images and 0 <= self.current_index < len(self.current_images):
+            return self.current_images[self.current_index]
+        return None
     
     def _show_placeholder(self):
         """Show placeholder when no state is selected."""
@@ -510,6 +586,8 @@ class ImagePanel(QWidget):
         self.image_label.clear()
         if self.current_category == "all":
             self.image_label.setText(f"No images available for {self.current_state}")
+        elif self.current_category == "user":
+            self.image_label.setText(f"No user images for {self.current_state}\n\nClick ➕ to add your own!")
         else:
             self.image_label.setText(f"No {self.current_category} images for {self.current_state}")
         self.image_label.setStyleSheet("color: #707070; font-size: 12px;")

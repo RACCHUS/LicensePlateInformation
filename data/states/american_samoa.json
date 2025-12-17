@@ -87,8 +87,8 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "images/plates/AS/0/sample.jpg",
-        "character_font_sample": "images/plates/AS/0/font_sample.png",
+        "plate_sample": "data/images/AS/0/sample.jpg",
+        "character_font_sample": "data/images/AS/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },

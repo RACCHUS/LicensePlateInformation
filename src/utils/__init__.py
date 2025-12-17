@@ -17,6 +17,7 @@ from .helpers import (
 )
 
 from .image_manager import LicensePlateImageManager
+from .user_image_manager import UserImageManager
 
 __all__ = [
     'normalize_plate_text',
@@ -30,5 +31,6 @@ __all__ = [
     'ensure_data_directories',
     'load_json_file',
     'save_json_file',
-    'LicensePlateImageManager'
+    'LicensePlateImageManager',
+    'UserImageManager'
 ]

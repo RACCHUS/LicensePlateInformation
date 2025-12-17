@@ -58,7 +58,7 @@ A desktop application for quickly identifying license plate details for toll rea
 
 ### Development Run
 ```bash
-python main_pyside.py
+python main.py
 ```
 
 ### Build Executable (PySide6)
@@ -104,7 +104,7 @@ All test files use research-backed data from Wikipedia and LicensePlates.cc to e
 
 ```
 LicensePlateInformation/
-├── main_pyside.py          # Application entry point (PySide6)
+├── main.py                 # Application entry point (PySide6)
 ├── main.py                 # Legacy entry point
 ├── run_tests.py           # Test runner utility
 ├── requirements.txt        # Python dependencies

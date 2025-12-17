@@ -41,6 +41,7 @@ from ui.controllers.state_data_manager import StateDataManager
 from ui.widgets.font_preview import FontPreviewWidget
 from ui.widgets.state_button import StateButton
 from ui.widgets.image_panel import ImagePanel
+from ui.dialogs.add_image_dialog import AddImageDialog
 
 
 class MainWindow(QMainWindow):
@@ -61,8 +62,14 @@ class MainWindow(QMainWindow):
         self.is_search_mode = False
         
         # Data path for images and other resources
-        # __file__ is src/ui/main_window.py, so go up 2 levels to project root
-        self.data_path = Path(__file__).parent.parent.parent / "data"
+        # Handle both development and PyInstaller bundled scenarios
+        if getattr(sys, 'frozen', False):
+            # Running as bundled executable - use PyInstaller's temp directory
+            base_path = Path(sys._MEIPASS)  # type: ignore
+        else:
+            # Running in development - __file__ is src/ui/main_window.py
+            base_path = Path(__file__).parent.parent.parent
+        self.data_path = base_path / "data"
         
         # Initialize search controller
         self.search_controller = SearchController(self)
@@ -77,8 +84,8 @@ class MainWindow(QMainWindow):
         # Sync mode controller with current_mode
         self.mode_controller.set_mode(self.current_mode)
         
-        # Initialize state data manager
-        self.state_data_manager = StateDataManager(self)
+        # Initialize state data manager with the correct data path
+        self.state_data_manager = StateDataManager(self, data_dir=str(self.data_path / "states"))
         
         # State button references
         self.state_buttons: dict[str, StateButton] = {}
@@ -99,8 +106,13 @@ class MainWindow(QMainWindow):
     
     def _load_modes_config(self) -> dict:
         """Load queue modes configuration."""
-        # main_window.py is in src/ui/, go up 2 levels to get to project root
-        config_path = Path(__file__).parent.parent.parent / "config" / "queue_modes.json"
+        # Handle both development and PyInstaller bundled scenarios
+        if getattr(sys, 'frozen', False):
+            base_path = Path(sys._MEIPASS)  # type: ignore
+        else:
+            base_path = Path(__file__).parent.parent.parent
+        
+        config_path = base_path / "config" / "queue_modes.json"
         try:
             with open(config_path, "r") as f:
                 config = json.load(f)
@@ -138,6 +150,14 @@ class MainWindow(QMainWindow):
         
         # ===== File Menu =====
         file_menu = menubar.addMenu("&File")
+        
+        # Add Image action
+        add_image_action = QAction("Add Image...", self)
+        add_image_action.setShortcut(QKeySequence("Ctrl+I"))
+        add_image_action.triggered.connect(self._on_add_image)
+        file_menu.addAction(add_image_action)
+        
+        file_menu.addSeparator()
         
         export_state_action = QAction("Export State Data...", self)
         export_state_action.setShortcut(QKeySequence("Ctrl+E"))
@@ -360,6 +380,15 @@ class MainWindow(QMainWindow):
         
         help_menu.addSeparator()
         
+        # State Tips submenu
+        state_tips_menu = help_menu.addMenu("State-Specific Tips")
+        
+        florida_tips_action = QAction("Florida (FL) Tips", self)
+        florida_tips_action.triggered.connect(self._on_show_florida_tips)
+        state_tips_menu.addAction(florida_tips_action)
+        
+        help_menu.addSeparator()
+        
         about_action = QAction("About License Plate Info", self)
         about_action.triggered.connect(self._on_about)
         help_menu.addAction(about_action)
@@ -445,6 +474,7 @@ class MainWindow(QMainWindow):
         
         # Image Panel
         self.image_panel = ImagePanel(self.data_path)
+        self.image_panel.add_image_requested.connect(self._on_add_image)
         self.bottom_splitter.addWidget(self.image_panel)
         
         self.content_splitter.addWidget(self.bottom_splitter)
@@ -803,6 +833,29 @@ class MainWindow(QMainWindow):
         event.accept()
     
     # ==================== Menu Action Handlers ====================
+    
+    def _on_add_image(self):
+        """Open dialog to add a user image."""
+        # Get list of state codes
+        state_codes = self.search_controller.get_all_states()
+        
+        dialog = AddImageDialog(
+            data_path=self.data_path,
+            state_codes=state_codes,
+            current_state=self.current_state,
+            parent=self
+        )
+        
+        # Connect signal to refresh images when one is added
+        dialog.image_added.connect(self._on_image_added)
+        
+        dialog.exec()
+    
+    def _on_image_added(self, state_code: str, filename: str):
+        """Handle when a new image is added."""
+        # Refresh image panel if it's for the current state
+        if state_code == self.current_state:
+            self.image_panel.refresh_images()
     
     def _on_export_state_data(self):
         """Export current state data to JSON or text file."""
@@ -1419,8 +1472,8 @@ class MainWindow(QMainWindow):
             include = ', '.join(rules['stacked_include'][:10])
             lines.append(
                 f'<span style="color:#4CAF50;">✓</span> '
-                f'<span style="color:#81C784;"><b>Include:</b></span> '
-                f'<span style="color:#c8e6c9;">{include}</span>'
+                f'<span style="color:#81C784;"><b>Include (allowed when stacked):</b></span> '
+                f'<span style="color:#c8e6c9;" title="Characters that are allowed/expected in stacked form">{include}</span>'
             )
         
         if rules.get('stacked_omit'):
@@ -1429,9 +1482,20 @@ class MainWindow(QMainWindow):
                 omit += f" (+{len(rules['stacked_omit']) - 10} more)"
             lines.append(
                 f'<span style="color:#F44336;">✗</span> '
-                f'<span style="color:#EF9A9A;"><b>Omit:</b></span> '
-                f'<span style="color:#ffcdd2;">{omit}</span>'
+                f'<span style="color:#EF9A9A;"><b>Omit (do NOT use stacked):</b></span> '
+                f'<span style="color:#ffcdd2;" title="Characters that must be omitted in stacked form">{omit}</span>'
             )
+
+        # Add an explicit tooltip summarizing include/omit lists so users can hover for clarity
+        tooltip_parts = []
+        if rules.get('stacked_include'):
+            tooltip_parts.append(f"Include (stacked): {', '.join(rules['stacked_include'][:15])}")
+        if rules.get('stacked_omit'):
+            tooltip_parts.append(f"Omit (stacked): {', '.join(rules['stacked_omit'][:15])}")
+        if tooltip_parts:
+            self.char_rules_content.setToolTip('\n'.join(tooltip_parts))
+        else:
+            self.char_rules_content.setToolTip('')
         
         if rules.get('stacked_position'):
             lines.append(
@@ -1453,36 +1517,35 @@ class MainWindow(QMainWindow):
     
     def _display_plate_types(self, state_code: str, plate_types: list):
         """Display plate types in the Plate Type panel."""
-        # Hide search results, show content
-        self.plate_type_list.setVisible(False)
-        self.plate_type_content.setVisible(True)
+        # Show list view for full, clickable set of plate types
+        self.plate_type_content.setVisible(False)
+        self.plate_type_list.setVisible(True)
+        self.plate_type_list.clear()
         
         # Update header
         count = len(plate_types)
         self.plate_type_header.setText(f"Plate Types - {state_code} ({count})")
         
         if not plate_types:
-            self.plate_type_content.setText("No plate types defined")
+            self.plate_type_list.addItem(QListWidgetItem("No plate types defined"))
             return
         
-        # Build plate types text (show first few)
-        lines = []
-        for i, pt in enumerate(plate_types[:15]):  # Show max 15
+        # Populate all plate types (no truncation) and keep metadata for click-through
+        for pt in plate_types:
             name = pt.get('type_name', 'Unknown')
             desc = pt.get('description', '')
             codes = pt.get('code_numbers', [])
-            
-            line = f"<b>{name}</b>"
+            line = name
             if codes:
-                line += f" <span style='color:#666'>[{', '.join(codes[:3])}]</span>"
-            if desc and len(desc) < 100:
-                line += f"<br><span style='color:#999'>{desc}</span>"
-            lines.append(line)
-        
-        if count > 15:
-            lines.append(f"<span style='color:#666'>... and {count - 15} more plate types</span>")
-        
-        self.plate_type_content.setText("<br><br>".join(lines))
+                line = f"{name} [{', '.join(codes)}]"
+            item = QListWidgetItem(line)
+            if desc:
+                item.setToolTip(desc)
+            item.setData(Qt.ItemDataRole.UserRole, {
+                "state_code": state_code,
+                "plate_type": name
+            })
+            self.plate_type_list.addItem(item)
     
     def _update_plate_type_dropdown(self, plate_types: list):
         """Update the plate type dropdown with types for the current state."""
@@ -1593,6 +1656,28 @@ class MainWindow(QMainWindow):
         from ui.dialogs.help_dialog import HelpDialog
         dialog = HelpDialog(self, topic, section)
         dialog.exec()
+    
+    def _on_show_florida_tips(self):
+        """Show Florida-specific plate reading tips."""
+        QMessageBox.information(
+            self,
+            "Florida (FL) Plate Tips",
+            "<b>Florida Plate Reading Tips</b><br><br>"
+            "<b>Non-Standard Processing:</b><br>"
+            "The following require dropdown selection:<br>"
+            "• <b>Seminole Indian</b> - Select from dropdown, then key plate<br>"
+            "• <b>Miccosukee Indian</b> - Select from dropdown, then key plate<br>"
+            "• <b>State Legislature</b> - Select from dropdown, then key plate<br>"
+            "• <b>State Senator</b> - Select from dropdown, then key plate<br>"
+            "• <b>House Speaker</b> - Select from dropdown, then key plate<br>"
+            "• <b>Member of Congress</b> - Select from dropdown, then key plate<br>"
+            "• <b>U.S. Senator</b> - Select from dropdown, then key plate<br><br>"
+            "<b>⚠️ Special Note:</b><br>"
+            "If the plate has <b>Official</b> or <b>Retired</b>, "
+            "do NOT use the dropdown.<br><br>"
+            "<b>Emergency Vehicles:</b><br>"
+            "All numbers (most of the time)."
+        )
     
     def _on_about(self):
         """Show about dialog."""
@@ -1748,12 +1833,18 @@ class MainWindow(QMainWindow):
             plate_name = result.plate_type or result.field
             item = QListWidgetItem(f"{result.state_code}: {plate_name}")
             item.setToolTip(f"Value: {result.value}")
-            item.setData(Qt.ItemDataRole.UserRole, result.state_code)
+            item.setData(Qt.ItemDataRole.UserRole, {
+                "state_code": result.state_code,
+                "plate_type": plate_name
+            })
             self.plate_type_list.addItem(item)
             
             # Add value sub-item
             value_item = QListWidgetItem(f"    → {result.value[:60]}")
-            value_item.setData(Qt.ItemDataRole.UserRole, result.state_code)
+            value_item.setData(Qt.ItemDataRole.UserRole, {
+                "state_code": result.state_code,
+                "plate_type": plate_name
+            })
             value_item.setForeground(Qt.GlobalColor.gray)
             self.plate_type_list.addItem(value_item)
         
@@ -1776,10 +1867,24 @@ class MainWindow(QMainWindow):
     
     def _on_plate_type_result_clicked(self, item: QListWidgetItem):
         """Handle click on a plate type search result."""
-        state_code = item.data(Qt.ItemDataRole.UserRole)
-        if state_code:
-            # Select this state
+        data = item.data(Qt.ItemDataRole.UserRole)
+        state_code = data.get("state_code") if isinstance(data, dict) else data
+        plate_type = data.get("plate_type") if isinstance(data, dict) else None
+
+        if state_code and state_code != self.current_state:
+            # Select this state (updates panels and images)
             self._select_state(state_code)
+
+        if plate_type:
+            # Align dropdown selection with the clicked plate type
+            idx = self.plate_type_combo.findData(plate_type)
+            if idx >= 0:
+                self.plate_type_combo.setCurrentIndex(idx)
+            found = self.image_panel.show_plate_type(plate_type)
+            if found:
+                self.status_bar.showMessage(f"Showing: {plate_type}", 2000)
+            else:
+                self.status_bar.showMessage(f"No image found for: {plate_type}", 2000)
     
     def _on_plate_type_changed(self, index: int):
         """Handle plate type dropdown change."""

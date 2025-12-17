@@ -94,8 +94,8 @@
       },
       
       "images": {
-        "plate_sample": "images/plates/QC/0/sample.jpg",
-        "character_font_sample": "images/plates/QC/0/font_sample.png",
+        "plate_sample": "data/images/QC/0/sample.jpg",
+        "character_font_sample": "data/images/QC/0/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -152,8 +152,8 @@
       },
       
       "images": {
-        "plate_sample": "images/plates/QC/C/sample.jpg",
-        "character_font_sample": "images/plates/QC/C/font_sample.png",
+        "plate_sample": "data/images/QC/C/sample.jpg",
+        "character_font_sample": "data/images/QC/C/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -210,8 +210,8 @@
       },
       
       "images": {
-        "plate_sample": "images/plates/QC/M/sample.jpg",
-        "character_font_sample": "images/plates/QC/M/font_sample.png",
+        "plate_sample": "data/images/QC/M/sample.jpg",
+        "character_font_sample": "data/images/QC/M/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -268,8 +268,8 @@
       },
       
       "images": {
-        "plate_sample": "images/plates/QC/P/sample.jpg",
-        "character_font_sample": "images/plates/QC/P/font_sample.png",
+        "plate_sample": "data/images/QC/P/sample.jpg",
+        "character_font_sample": "data/images/QC/P/font_sample.png",
         "blank_template": null,
         "variations": []
       },
@@ -280,3 +280,4 @@
     }
   ]
 }
+

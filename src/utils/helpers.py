@@ -313,18 +313,7 @@ def ensure_data_directories(base_path: str) -> None:
         'data/database',
         'data/images',
         'data/states',
-        'data/images/FL',
-        'data/images/FL/plates',
-        'data/images/FL/logos',
-        'data/images/FL/characters',
-        'data/images/GA',
-        'data/images/GA/plates',
-        'data/images/GA/logos', 
-        'data/images/GA/characters',
-        'data/images/AL',
-        'data/images/AL/plates',
-        'data/images/AL/logos',
-        'data/images/AL/characters'
+        'data/user_images'
     ]
     
     for dir_name in required_dirs:
