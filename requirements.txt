@@ -1,6 +1,12 @@
 # Required packages for License Plate Information System
 pillow>=9.0.0
 
+# GUI Framework
+PySide6>=6.6.0
+
+# Help content rendering
+markdown>=3.5.0
+
 # Testing dependencies
 pytest>=7.4.0
 pytest-cov>=4.1.0

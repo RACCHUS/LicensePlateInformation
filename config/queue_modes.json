@@ -1,0 +1,63 @@
+{
+  "modes": {
+    "All": {
+      "description": "All states and provinces equally",
+      "primary": [],
+      "secondary": [],
+      "excluded": [],
+      "show_all_states": true
+    },
+    "V3": {
+      "description": "Florida primary, common out-of-state",
+      "primary": ["FL"],
+      "secondary": ["GA", "AL", "SC", "NC", "TN", "MS", "LA", "TX"],
+      "excluded": [],
+      "show_all_states": true
+    },
+    "Express": {
+      "description": "Florida primary, common out-of-state",
+      "primary": ["FL"],
+      "secondary": ["GA", "AL", "SC", "NC", "TN", "MS", "LA", "TX"],
+      "excluded": [],
+      "show_all_states": true
+    },
+    "I95": {
+      "description": "Florida primary, I-95 corridor",
+      "primary": ["FL"],
+      "secondary": ["GA", "SC", "NC", "VA", "MD", "DE", "NJ", "NY", "CT", "MA", "RI", "NH", "ME"],
+      "excluded": [],
+      "show_all_states": true
+    },
+    "OOSV3": {
+      "description": "Out-of-state (excludes FL and Plate Type states)",
+      "primary": [],
+      "secondary": [
+        "GA", "AL", "SC", "NC", "TN", "MS", "LA", "AR", "OK", "KS", "MO", "KY", 
+        "WV", "VA", "MD", "DE", "NJ", "NY", "PA", "CT", "RI", "NH", "VT", "MI", 
+        "WI", "MN", "IA", "NE", "SD", "ND", "MT", "WY", "CO", "NM", "AZ", "UT", 
+        "NV", "ID", "OR", "WA", "CA", "TX", "AK", "HI", "DC",
+        "AB", "BC", "MB", "NB", "NL", "NS", "NT", "NU", "ON", "PE", "QC", "SK", "YT"
+      ],
+      "excluded": ["FL", "MA", "ME", "OH", "IN", "IL"],
+      "show_all_states": true
+    },
+    "PlateType": {
+      "description": "Plate Type queue states (MA, ME, OH, IN, IL)",
+      "primary": ["MA", "ME", "OH", "IN", "IL"],
+      "secondary": [],
+      "excluded": ["FL"],
+      "show_all_states": true
+    }
+  },
+  "default_mode": "All",
+  "us_states": [
+    "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", "ID",
+    "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO",
+    "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA",
+    "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"
+  ],
+  "canadian_provinces": [
+    "AB", "BC", "MB", "NB", "NL", "NS", "NT", "NU", "ON", "PE", "QC", "SK", "YT"
+  ],
+  "plate_type_states": ["FL", "MA", "ME", "OH", "IN", "IL"]
+}
