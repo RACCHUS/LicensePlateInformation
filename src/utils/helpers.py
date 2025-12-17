@@ -206,7 +206,7 @@ def score_plate_match(plate: str, state_data: Dict, plate_type: Optional[Dict] =
     Returns:
         Score from 0.0 to 1.0 (higher is better match)
     """
-    if not plate or not state_data:
+    if not plate or state_data is None:
         return 0.0
     
     score = 0.0

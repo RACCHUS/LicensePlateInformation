@@ -5,7 +5,9 @@ Advanced Search Bar Component - JSON field search with category filtering
 import tkinter as tk
 from tkinter import ttk
 from typing import Callable, Optional, List, Dict, Any
+
 from ...utils.widget_factory import WidgetFactory
+from ....utils.logger import log_error, log_warning
 
 
 class SearchBar:
@@ -165,15 +167,21 @@ class SearchBar:
         
     def _on_search_enter(self, event):
         """Handle Enter key in search field"""
-        self._perform_search()
+        try:
+            self._perform_search()
+        except Exception as e:
+            log_error("Error handling search enter", exc=e)
         
     def _on_search_change(self, event):
         """Handle search text changes for suggestions"""
-        search_text = self.current_search.get().strip()
-        if len(search_text) >= 2:
-            self._show_suggestions(search_text)
-        else:
-            self._hide_suggestions()
+        try:
+            search_text = self.current_search.get().strip()
+            if len(search_text) >= 2:
+                self._show_suggestions(search_text)
+            else:
+                self._hide_suggestions()
+        except Exception as e:
+            log_error("Error handling search change", exc=e)
             
     def _on_category_changed(self, event):
         """Handle category selection changes"""
@@ -202,34 +210,40 @@ class SearchBar:
         
     def _perform_search(self):
         """Execute comprehensive JSON search"""
-        search_text = self.current_search.get().strip()
-        category_display = self.selected_category.get()
-        category_key = self._get_category_key(category_display)
-        
-        if search_text:
-            # Add to search history
-            if search_text not in self.search_history:
-                self.search_history.insert(0, search_text)
-                self.search_history = self.search_history[:10]  # Keep last 10
+        try:
+            search_text = self.current_search.get().strip()
+            category_display = self.selected_category.get()
+            category_key = self._get_category_key(category_display)
             
-            # Build search parameters
-            # Only use state filter if scope is 'current' and a state is selected
-            state_filter = self.selected_state if (self.search_scope_var.get() == 'current' and self.selected_state) else None
-            
-            search_params = {
-                'query': search_text,
-                'category': category_key,
-                'state_filter': state_filter,
-                'search_scope': self.search_scope_var.get(),
-                'search_type': 'json_field_search'
-            }
-            
-            # Log search for debugging
-            state_info = f" in {self.selected_state}" if self.selected_state else " (all states)"
-            print(f"🔍 Searching '{search_text}' in {category_display}{state_info}")
-            
-            if self.on_search:
-                self.on_search(search_params)
+            if search_text:
+                # Add to search history
+                if search_text not in self.search_history:
+                    self.search_history.insert(0, search_text)
+                    self.search_history = self.search_history[:10]  # Keep last 10
+                
+                # Build search parameters
+                # Only use state filter if scope is 'current' and a state is selected
+                state_filter = self.selected_state if (self.search_scope_var.get() == 'current' and self.selected_state) else None
+                
+                search_params = {
+                    'query': search_text,
+                    'category': category_key,
+                    'state_filter': state_filter,
+                    'search_scope': self.search_scope_var.get(),
+                    'search_type': 'json_field_search'
+                }
+                
+                # Log search for debugging
+                state_info = f" in {self.selected_state}" if self.selected_state else " (all states)"
+                print(f"🔍 Searching '{search_text}' in {category_display}{state_info}")
+                
+                if self.on_search:
+                    try:
+                        self.on_search(search_params)
+                    except Exception as e:
+                        log_error(f"Search callback failed for query: {search_text}", exc=e)
+        except Exception as e:
+            log_error("Error performing search", exc=e)
                 
     def _get_category_key(self, category_display: str) -> str:
         """Get category key from display name"""

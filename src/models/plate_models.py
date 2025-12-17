@@ -37,7 +37,7 @@ class State:
         if isinstance(colors, str):
             try:
                 colors = json.loads(colors)
-            except:
+            except json.JSONDecodeError:
                 colors = []
         
         return cls(
@@ -120,7 +120,7 @@ class CharacterReference:
         if isinstance(confusion_chars, str):
             try:
                 confusion_chars = json.loads(confusion_chars)
-            except:
+            except json.JSONDecodeError:
                 confusion_chars = []
         
         return cls(

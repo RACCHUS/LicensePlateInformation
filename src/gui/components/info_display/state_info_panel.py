@@ -8,6 +8,7 @@ import json
 import os
 import sys
 from ...utils.widget_factory import WidgetFactory
+from ....utils.logger import log_error, log_warning, log_info
 
 
 class StateInfoPanel:
@@ -87,31 +88,36 @@ class StateInfoPanel:
         
     def update_state_info(self, state_code: str):
         """Update panel with state information from JSON file"""
-        self.current_state = state_code
-        
-        # Clear existing content
-        for widget in self.parent.winfo_children():
-            widget.destroy()
-        
-        # Load state data
-        state_data = self._load_state_data(state_code)
-        
-        if not state_data:
-            self._show_error_message(state_code)
-            return
+        try:
+            self.current_state = state_code
             
-        # Build and display information using labels
-        self._display_state_info(state_code, state_data)
+            # Clear existing content
+            for widget in self.parent.winfo_children():
+                widget.destroy()
+            
+            # Load state data
+            state_data = self._load_state_data(state_code)
+            
+            if not state_data:
+                self._show_error_message(state_code)
+                return
+                
+            # Build and display information using labels
+            self._display_state_info(state_code, state_data)
+        except Exception as e:
+            log_error(f"Error updating state info for {state_code}", exc=e)
+            self._show_error_message(state_code)
         
     def _load_state_data(self, state_code: str):
         """Load state data from JSON file"""
+        filename = self.state_filename_map.get(state_code)
+        print(f"[DEBUG] State code: {state_code}, mapped filename: {filename}")
+        if not filename:
+            log_warning(f"No filename mapping for state code: {state_code}")
+            print(f"[ERROR] No filename mapping for state code: {state_code}")
+            return None
+        
         try:
-            filename = self.state_filename_map.get(state_code)
-            print(f"[DEBUG] State code: {state_code}, mapped filename: {filename}")
-            if not filename:
-                print(f"[ERROR] No filename mapping for state code: {state_code}")
-                return None
-            
             # Get base application path (works for both script and PyInstaller)
             if getattr(sys, 'frozen', False):
                 # Running as compiled executable
@@ -133,6 +139,7 @@ class StateInfoPanel:
                     search_dir = parent
                 
                 if not application_path:
+                    log_error(f"Could not find project root from {current_dir}")
                     print(f"[ERROR] Could not find project root from {current_dir}")
                     return None
                 print(f"[DEBUG] Running as script, project root: {application_path}")
@@ -141,18 +148,24 @@ class StateInfoPanel:
             print(f"[DEBUG] Looking for state JSON at: {file_path}")
             
             if not os.path.exists(file_path):
+                log_warning(f"State file does not exist: {file_path}")
                 print(f"[ERROR] File does not exist: {file_path}")
                 return None
             
-            try:
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                print(f"[DEBUG] Successfully loaded JSON for {state_code}")
-                return data
-            except Exception as file_exc:
-                print(f"[ERROR] Exception while loading/parsing JSON for {state_code}: {file_exc}")
-                return None
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            print(f"[DEBUG] Successfully loaded JSON for {state_code}")
+            return data
+        except json.JSONDecodeError as e:
+            log_error(f"JSON parse error for {state_code}", exc=e)
+            print(f"[ERROR] JSON parse error for {state_code}: {e}")
+            return None
+        except OSError as e:
+            log_error(f"File read error for {state_code}", exc=e)
+            print(f"[ERROR] File read error for {state_code}: {e}")
+            return None
         except Exception as e:
+            log_error(f"Unexpected error loading state data for {state_code}", exc=e)
             print(f"[ERROR] Unexpected error in _load_state_data for {state_code}: {e}")
             return None
             

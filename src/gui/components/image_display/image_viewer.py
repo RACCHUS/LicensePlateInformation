@@ -9,6 +9,7 @@ import os
 import sys
 import json
 from typing import List, Dict, Optional, Tuple
+from ....utils.logger import log_error, log_warning, log_info
 
 
 class PlateImageViewer:
@@ -150,35 +151,39 @@ class PlateImageViewer:
         
     def update_state(self, state_code: str, plate_type: Optional[str] = None):
         """Update viewer with images from the selected state and optionally filter by plate type"""
-        self.current_state = state_code
-        self.current_index = 0
-        
-        # Scan for available images
-        all_images = self._scan_state_images(state_code)
-        
-        # Filter by plate type if specified
-        if plate_type:
-            # Normalize plate type name for matching
-            plate_type_normalized = plate_type.lower().replace(' ', '_').replace('-', '_')
-            self.current_images = [
-                img for img in all_images 
-                if plate_type_normalized in img['display_name'].lower().replace(' ', '_').replace('-', '_')
-                or plate_type_normalized in img.get('plate_type', '').lower().replace(' ', '_').replace('-', '_')
-            ]
-            # If no matches with filtered type, show all images
-            if not self.current_images:
+        try:
+            self.current_state = state_code
+            self.current_index = 0
+            
+            # Scan for available images
+            all_images = self._scan_state_images(state_code)
+            
+            # Filter by plate type if specified
+            if plate_type:
+                # Normalize plate type name for matching
+                plate_type_normalized = plate_type.lower().replace(' ', '_').replace('-', '_')
+                self.current_images = [
+                    img for img in all_images 
+                    if plate_type_normalized in img['display_name'].lower().replace(' ', '_').replace('-', '_')
+                    or plate_type_normalized in img.get('plate_type', '').lower().replace(' ', '_').replace('-', '_')
+                ]
+                # If no matches with filtered type, show all images
+                if not self.current_images:
+                    self.current_images = all_images
+            else:
                 self.current_images = all_images
-        else:
-            self.current_images = all_images
-        
-        if self.current_images:
-            # Show first image
-            self._display_current_image()
-        else:
-            # Show "no images" message
+            
+            if self.current_images:
+                # Show first image
+                self._display_current_image()
+            else:
+                # Show "no images" message
+                self._show_no_images_message(state_code)
+            
+            self._update_navigation_buttons()
+        except Exception as e:
+            log_error(f"Error updating image viewer for state {state_code}", exc=e)
             self._show_no_images_message(state_code)
-        
-        self._update_navigation_buttons()
         
     def show_next(self):
         """Show next image"""
@@ -398,6 +403,7 @@ class PlateImageViewer:
             )
             
         except Exception as e:
+            log_error(f"Error loading image: {image_path}", exc=e)
             # Show error
             self.image_label.configure(
                 image="",

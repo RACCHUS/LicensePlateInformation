@@ -8,7 +8,9 @@ import json
 import os
 import sys
 from typing import Callable, Optional, List, Dict, Set
+
 from ...utils.widget_factory import WidgetFactory
+from ....utils.logger import log_error, log_warning, log_info
 
 
 class SmartPlateTypeDropdown:
@@ -117,7 +119,11 @@ class SmartPlateTypeDropdown:
         self._update_dropdown_options()
         
     def _load_mapping_data(self) -> Dict:
-        """Load the state-plate-type mapping data"""
+        """Load the state-plate-type mapping data
+        
+        Returns:
+            Mapping dictionary with plate_type_to_states and state_to_plate_types
+        """
         # Get base application path (works for both script and PyInstaller)
         if getattr(sys, 'frozen', False):
             project_root = sys._MEIPASS  # type: ignore
@@ -138,7 +144,7 @@ class SmartPlateTypeDropdown:
                 search_dir = parent
             
             if not project_root:
-                print("❌ Could not find project root")
+                log_warning("Could not find project root for mapping data")
                 return {"plate_type_to_states": {}, "state_to_plate_types": {}}
         
         mapping_file = os.path.join(project_root, "data", "state_plate_type_mapping.json")
@@ -147,15 +153,17 @@ class SmartPlateTypeDropdown:
             if os.path.exists(mapping_file):
                 with open(mapping_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                    print(f"✅ Loaded state-plate mapping data")
+                    log_info("Loaded state-plate mapping data")
                     return data
             else:
-                print(f"⚠️  Mapping file not found: {mapping_file}")
-                print("   Run 'python scripts/dev_generate_mapping.py' to generate it")
+                log_warning(f"Mapping file not found: {mapping_file}")
                 return {"plate_type_to_states": {}, "state_to_plate_types": {}}
                 
-        except Exception as e:
-            print(f"❌ Error loading mapping data: {e}")
+        except json.JSONDecodeError as e:
+            log_error(f"Invalid JSON in mapping file: {mapping_file}", exc=e)
+            return {"plate_type_to_states": {}, "state_to_plate_types": {}}
+        except OSError as e:
+            log_error(f"Error reading mapping file: {mapping_file}", exc=e)
             return {"plate_type_to_states": {}, "state_to_plate_types": {}}
     
     def set_state_filter(self, state_code: str | None = None):
@@ -195,38 +203,47 @@ class SmartPlateTypeDropdown:
     
     def _on_selection_change(self, event):
         """Handle dropdown selection change"""
-        selected = self.plate_type_var.get()
-        if selected and selected != "Select plate type...":
-            self.selected_plate_type = selected
-            
-            # Update status
-            if self.current_state_filter:
-                self.status_label.configure(
-                    text=f"Selected: {selected} (available in {self.current_state_filter})",
-                    fg='#ffffff'
-                )
-                self.states_label.configure(text="")
-            else:
-                # Show which states have this plate type
-                states_with_type = self.mapping_data.get("plate_type_to_states", {}).get(selected, [])
-                self.status_label.configure(
-                    text=f"Selected: {selected}",
-                    fg='#ffffff'
-                )
+        try:
+            selected = self.plate_type_var.get()
+            if selected and selected != "Select plate type...":
+                self.selected_plate_type = selected
                 
-                if states_with_type:
-                    states_text = f"Available in {len(states_with_type)} states: {', '.join(states_with_type)}"
-                    self.states_label.configure(text=states_text)
-                    
-                    # Notify callback about states with this type
-                    if self.on_states_with_type_updated:
-                        self.on_states_with_type_updated(states_with_type)
+                # Update status
+                if self.current_state_filter:
+                    self.status_label.configure(
+                        text=f"Selected: {selected} (available in {self.current_state_filter})",
+                        fg='#ffffff'
+                    )
+                    self.states_label.configure(text="")
                 else:
-                    self.states_label.configure(text="No state data available for this plate type")
-            
-            # Notify main callback
-            if self.on_plate_type_selected:
-                self.on_plate_type_selected(selected)
+                    # Show which states have this plate type
+                    states_with_type = self.mapping_data.get("plate_type_to_states", {}).get(selected, [])
+                    self.status_label.configure(
+                        text=f"Selected: {selected}",
+                        fg='#ffffff'
+                    )
+                    
+                    if states_with_type:
+                        states_text = f"Available in {len(states_with_type)} states: {', '.join(states_with_type)}"
+                        self.states_label.configure(text=states_text)
+                        
+                        # Notify callback about states with this type
+                        if self.on_states_with_type_updated:
+                            try:
+                                self.on_states_with_type_updated(states_with_type)
+                            except Exception as e:
+                                log_error(f"States update callback failed for {selected}", exc=e)
+                    else:
+                        self.states_label.configure(text="No state data available for this plate type")
+                
+                # Notify main callback
+                if self.on_plate_type_selected:
+                    try:
+                        self.on_plate_type_selected(selected)
+                    except Exception as e:
+                        log_error(f"Plate type selection callback failed for {selected}", exc=e)
+        except Exception as e:
+            log_error("Error handling plate type selection change", exc=e)
                 
     def get_main_frame(self) -> tk.Widget:
         """Get the main panel frame"""

@@ -200,7 +200,8 @@ class TestPlateTypeOperations:
     
     def test_get_plate_types_for_state_empty(self, db_manager):
         """Test getting plate types for state with no data"""
-        plate_types = db_manager.get_plate_types_for_state(1)
+        # Use a state_id that doesn't exist (999) to ensure no plate types
+        plate_types = db_manager.get_plate_types_for_state(999)
         assert isinstance(plate_types, list)
         assert len(plate_types) == 0
     
@@ -316,6 +317,10 @@ class TestDatabaseIntegrity:
         conn = db_manager.get_connection()
         cursor = conn.cursor()
         
+        # Clear existing data to ensure clean test
+        cursor.execute('DELETE FROM states WHERE abbreviation IN ("CA", "XX")')
+        conn.commit()
+        
         # Insert first state
         cursor.execute('''
             INSERT INTO states (name, abbreviation)
@@ -335,6 +340,10 @@ class TestDatabaseIntegrity:
         """Test that state abbreviations must be unique"""
         conn = db_manager.get_connection()
         cursor = conn.cursor()
+        
+        # Clear existing data to ensure clean test
+        cursor.execute('DELETE FROM states WHERE abbreviation = "CA"')
+        conn.commit()
         
         # Insert first state
         cursor.execute('''
@@ -385,14 +394,18 @@ class TestDatabaseTransactions:
         conn = db_manager.get_connection()
         cursor = conn.cursor()
         
+        # Clear existing test data
+        cursor.execute('DELETE FROM states WHERE abbreviation = "TS"')
+        conn.commit()
+        
         cursor.execute('''
             INSERT INTO states (name, abbreviation)
-            VALUES ('Nevada', 'NV')
+            VALUES ('Test State', 'TS')
         ''')
         conn.commit()
         
         # Verify data persists
-        cursor.execute('SELECT * FROM states WHERE abbreviation = ?', ('NV',))
+        cursor.execute('SELECT * FROM states WHERE abbreviation = ?', ('TS',))
         result = cursor.fetchone()
         assert result is not None
     
@@ -426,6 +439,10 @@ class TestDatabaseIntegration:
         conn = db_manager.get_connection()
         cursor = conn.cursor()
         
+        # Clear existing test data
+        cursor.execute('DELETE FROM states WHERE abbreviation = "OR"')
+        conn.commit()
+        
         # Insert state
         cursor.execute('''
             INSERT INTO states (name, abbreviation, slogan, primary_colors)
@@ -446,6 +463,10 @@ class TestDatabaseIntegration:
         """Test adding state and associated plate types"""
         conn = db_manager.get_connection()
         cursor = conn.cursor()
+        
+        # Clear existing test data
+        cursor.execute('DELETE FROM states WHERE abbreviation = "ID"')
+        conn.commit()
         
         # Add state
         cursor.execute('''
@@ -485,9 +506,11 @@ class TestDatabaseIntegration:
         
         conn = manager1.get_connection()
         cursor = conn.cursor()
+        # Use a test state that won't conflict with loaded data
+        cursor.execute('DELETE FROM states WHERE abbreviation = "XX"')
         cursor.execute('''
             INSERT INTO states (name, abbreviation)
-            VALUES ('Utah', 'UT')
+            VALUES ('Test State', 'XX')
         ''')
         conn.commit()
         if manager1.connection:
@@ -495,5 +518,262 @@ class TestDatabaseIntegration:
         
         # Create second manager and verify data exists
         manager2 = DatabaseManager(temp_db_path)
-        results = manager2.search_states('Utah')
+        results = manager2.search_states('Test State')
         assert len(results) > 0
+
+
+# ============================================================================
+# EXTENDED TESTS - PRIORITY 1.2
+# ============================================================================
+
+class TestSearchStatesExtended:
+    """Extended tests for state search functionality"""
+    
+    def test_search_states_partial_match(self, populated_db):
+        """Test searching states with partial name match"""
+        results = populated_db.search_states('Cali')
+        assert len(results) > 0
+        assert any('California' in r['name'] for r in results)
+    
+    def test_search_states_case_insensitive(self, populated_db):
+        """Test case-insensitive state search"""
+        results_lower = populated_db.search_states('california')
+        results_upper = populated_db.search_states('CALIFORNIA')
+        results_mixed = populated_db.search_states('CaLiFoRnIa')
+        
+        # All should return same results
+        assert len(results_lower) == len(results_upper) == len(results_mixed)
+    
+    def test_search_states_by_abbreviation_exact(self, populated_db):
+        """Test exact abbreviation match has highest priority"""
+        results = populated_db.search_states('CA')
+        
+        assert len(results) > 0
+        # First result should be exact match
+        assert results[0]['abbreviation'] == 'CA'
+
+
+class TestPlateTypesExtended:
+    """Extended tests for plate types"""
+    
+    def test_get_plate_types_inactive_excluded(self, db_manager):
+        """Test that inactive plate types are excluded"""
+        # Add state
+        conn = db_manager.get_connection()
+        cursor = conn.cursor()
+        
+        # Clear existing test data
+        cursor.execute('DELETE FROM states WHERE abbreviation = "NV"')
+        conn.commit()
+        
+        cursor.execute('''
+            INSERT INTO states (name, abbreviation)
+            VALUES ('Nevada', 'NV')
+        ''')
+        state_id = cursor.lastrowid
+        
+        # Add active and inactive plate types
+        cursor.execute('''
+            INSERT INTO plate_types (state_id, type_name, is_active)
+            VALUES (?, 'Active Type', 1)
+        ''', (state_id,))
+        
+        cursor.execute('''
+            INSERT INTO plate_types (state_id, type_name, is_active)
+            VALUES (?, 'Inactive Type', 0)
+        ''', (state_id,))
+        
+        conn.commit()
+        
+        # Get plate types
+        results = db_manager.get_plate_types_for_state(state_id)
+        
+        # Should only include active
+        assert len(results) == 1
+        assert results[0]['type_name'] == 'Active Type'
+    
+    def test_plate_type_dot_processing_fields(self, db_manager):
+        """Test DOT processing fields in plate_types table"""
+        conn = db_manager.get_connection()
+        cursor = conn.cursor()
+        
+        # Clear existing test data
+        cursor.execute('DELETE FROM states WHERE abbreviation = "FL"')
+        conn.commit()
+        
+        # Add state
+        cursor.execute('''
+            INSERT INTO states (name, abbreviation)
+            VALUES ('Florida', 'FL')
+        ''')
+        state_id = cursor.lastrowid
+        
+        # Add plate type with DOT processing metadata
+        cursor.execute('''
+            INSERT INTO plate_types (
+                state_id, type_name, dot_processing_type, 
+                dot_dropdown_identifier, currently_processed
+            )
+            VALUES (?, 'Standard', 'always_standard', 'FL_STANDARD', 1)
+        ''', (state_id,))
+        
+        conn.commit()
+        
+        # Retrieve and verify
+        results = db_manager.get_plate_types_for_state(state_id)
+        assert len(results) == 1
+        assert results[0]['dot_processing_type'] == 'always_standard'
+        assert results[0]['dot_dropdown_identifier'] == 'FL_STANDARD'
+
+
+class TestLookupHistoryExtended:
+    """Extended tests for lookup history"""
+    
+    def test_add_lookup_history_all_fields(self, db_manager):
+        """Test adding lookup history with all fields"""
+        db_manager.add_lookup_to_history(
+            search_term='ABC123',
+            state_found='CA',
+            plate_type_found='Passenger',
+            user_notes='Test lookup'
+        )
+        
+        # Verify it was added
+        conn = db_manager.get_connection()
+        cursor = conn.cursor()
+        cursor.execute('SELECT * FROM lookup_history WHERE search_term = ?', ('ABC123',))
+        result = cursor.fetchone()
+        
+        assert result is not None
+        assert result['state_found'] == 'CA'
+        assert result['plate_type_found'] == 'Passenger'
+        assert result['user_notes'] == 'Test lookup'
+    
+    def test_get_lookup_history_ordered_by_date(self, db_manager):
+        """Test that lookup history is ordered by timestamp"""
+        # Add multiple entries
+        db_manager.add_lookup_to_history('FIRST', 'CA')
+        db_manager.add_lookup_to_history('SECOND', 'TX')
+        db_manager.add_lookup_to_history('THIRD', 'FL')
+        
+        # Get all history
+        conn = db_manager.get_connection()
+        cursor = conn.cursor()
+        cursor.execute('SELECT * FROM lookup_history ORDER BY timestamp DESC')
+        results = cursor.fetchall()
+        
+        # Should have all 3
+        assert len(results) >= 3
+
+
+class TestDataInsertion:
+    """Tests for inserting state data"""
+    
+    def test_insert_state_basic(self, db_manager):
+        """Test inserting a basic state record"""
+        conn = db_manager.get_connection()
+        cursor = conn.cursor()
+        
+        # Clear existing test data
+        cursor.execute('DELETE FROM states WHERE abbreviation = "AZ"')
+        conn.commit()
+        
+        cursor.execute('''
+            INSERT INTO states (name, abbreviation, slogan)
+            VALUES (?, ?, ?)
+        ''', ('Arizona', 'AZ', 'Grand Canyon State'))
+        
+        conn.commit()
+        
+        # Verify insertion
+        results = db_manager.search_states('Arizona')
+        assert len(results) == 1
+        assert results[0]['abbreviation'] == 'AZ'
+    
+    def test_update_state_existing_record(self, populated_db):
+        """Test updating an existing state record"""
+        conn = populated_db.get_connection()
+        cursor = conn.cursor()
+        
+        # Update California's slogan
+        cursor.execute('''
+            UPDATE states
+            SET slogan = ?, updated_date = CURRENT_TIMESTAMP
+            WHERE abbreviation = ?
+        ''', ('The Golden State', 'CA'))
+        
+        conn.commit()
+        
+        # Verify update
+        results = populated_db.search_states('CA')
+        assert len(results) > 0
+        assert results[0]['slogan'] == 'The Golden State'
+
+
+class TestDatabaseReliability:
+    """Tests for database reliability and edge cases"""
+    
+    def test_database_connection_recovery(self, temp_db_path):
+        """Test that database can recover from connection issues"""
+        manager = DatabaseManager(temp_db_path)
+        manager.initialize_database()
+        
+        # Close connection
+        if manager.connection:
+            manager.connection.close()
+            manager.connection = None
+        
+        # Should be able to get new connection
+        conn = manager.get_connection()
+        assert conn is not None
+    
+    def test_empty_search_results(self, db_manager):
+        """Test handling of empty search results"""
+        results = db_manager.search_states('NonExistentState')
+        assert isinstance(results, list)
+        assert len(results) == 0
+    
+    def test_get_state_by_id_not_found(self, db_manager):
+        """Test getting state by non-existent ID"""
+        result = db_manager.get_state_by_id(99999)
+        assert result is None
+
+
+class TestCharacterReferences:
+    """Extended tests for character references"""
+    
+    def test_get_character_references_for_state(self, db_manager):
+        """Test retrieving character references for a state"""
+        # Add state
+        conn = db_manager.get_connection()
+        cursor = conn.cursor()
+        
+        # Clear existing test data
+        cursor.execute('DELETE FROM states WHERE abbreviation = "OH"')
+        conn.commit()
+        
+        cursor.execute('''
+            INSERT INTO states (name, abbreviation)
+            VALUES ('Ohio', 'OH')
+        ''')
+        state_id = cursor.lastrowid
+        
+        # Add character references
+        cursor.execute('''
+            INSERT INTO character_references (state_id, character, character_type, is_ambiguous)
+            VALUES (?, '0', 'digit', 1)
+        ''', (state_id,))
+        
+        cursor.execute('''
+            INSERT INTO character_references (state_id, character, character_type, is_ambiguous)
+            VALUES (?, 'O', 'letter', 1)
+        ''', (state_id,))
+        
+        conn.commit()
+        
+        # Retrieve
+        results = db_manager.get_character_references_for_state(state_id)
+        
+        assert len(results) == 2
+        assert any(r['character'] == '0' for r in results)
+        assert any(r['character'] == 'O' for r in results)

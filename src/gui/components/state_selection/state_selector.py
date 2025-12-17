@@ -5,8 +5,10 @@ State Selection Panel - Ultra-compact layout with state codes only
 import tkinter as tk
 from tkinter import ttk
 from typing import Callable, Optional, Dict
+
 from ...utils.widget_factory import WidgetFactory
 from ...utils.layout_helpers import LayoutHelpers
+from ....utils.logger import log_error, log_warning
 
 
 class StateSelectionPanel:
@@ -160,22 +162,28 @@ class StateSelectionPanel:
             
     def _handle_state_selection(self, state_code: str):
         """Handle state button click"""
-        state_name = self.states_data.get(state_code, state_code)
-        
-        # Determine category and add appropriate styling
-        if state_code in self.color_groups['florida_main']:
-            print(f"🟠 FLORIDA (Main): {state_code} - {state_name}")
-        elif state_code in self.color_groups['plate_type_states']:
-            print(f"🔵 PLATE TYPE STATE: {state_code} - {state_name}")
-        elif state_code in self.color_groups['florida_adjacent']:
-            print(f"🟢 FLORIDA ADJACENT: {state_code} - {state_name}")
-        elif state_code in self.color_groups['other_jurisdictions']:
-            print(f"🟣 OTHER JURISDICTION: {state_code} - {state_name}")
-        else:
-            print(f"⚪ OTHER STATE: {state_code} - {state_name}")
-        
-        if self.on_state_selected:
-            self.on_state_selected(state_code, state_name)
+        try:
+            state_name = self.states_data.get(state_code, state_code)
+            
+            # Determine category and add appropriate styling
+            if state_code in self.color_groups['florida_main']:
+                print(f"🟠 FLORIDA (Main): {state_code} - {state_name}")
+            elif state_code in self.color_groups['plate_type_states']:
+                print(f"🔵 PLATE TYPE STATE: {state_code} - {state_name}")
+            elif state_code in self.color_groups['florida_adjacent']:
+                print(f"🟢 FLORIDA ADJACENT: {state_code} - {state_name}")
+            elif state_code in self.color_groups['other_jurisdictions']:
+                print(f"🟣 OTHER JURISDICTION: {state_code} - {state_name}")
+            else:
+                print(f"⚪ OTHER STATE: {state_code} - {state_name}")
+            
+            if self.on_state_selected:
+                try:
+                    self.on_state_selected(state_code, state_name)
+                except Exception as e:
+                    log_error(f"State selection callback failed for {state_code}", exc=e)
+        except Exception as e:
+            log_error(f"Error handling state selection: {state_code}", exc=e)
             
     def highlight_state(self, state_code: str):
         """Highlight a specific state button"""

@@ -8,6 +8,7 @@ import os
 import sys
 from typing import Dict, List, Any, Optional
 from pathlib import Path
+from ...utils.logger import log_error, log_warning
 
 
 class JSONSearchEngine:
@@ -85,11 +86,11 @@ class JSONSearchEngine:
             return self.loaded_data[state_code]
             
         # Try to load from file using correct filename
+        filename_base = self.state_filename_map.get(state_code, state_code.lower())
+        filename = f"{filename_base}.json"
+        data_file = Path(self.data_directory) / filename
+        
         try:
-            filename_base = self.state_filename_map.get(state_code, state_code.lower())
-            filename = f"{filename_base}.json"
-            data_file = Path(self.data_directory) / filename
-            
             if data_file.exists():
                 with open(data_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
@@ -97,8 +98,13 @@ class JSONSearchEngine:
                     print(f"✅ Loaded real data for {state_code} from {filename}")
                     return data
             else:
+                log_warning(f"State file not found: {data_file}")
                 print(f"⚠️ File not found: {data_file}")
-        except Exception as e:
+        except json.JSONDecodeError as e:
+            log_error(f"JSON parse error for {state_code}", exc=e)
+            print(f"⚠️ Could not load data for {state_code}: {e}")
+        except OSError as e:
+            log_error(f"File read error for {state_code}", exc=e)
             print(f"⚠️ Could not load data for {state_code}: {e}")
             
         # Return sample data structure for demonstration
@@ -170,26 +176,39 @@ class JSONSearchEngine:
     def search(self, query: str, category: str = 'all', state_filter: Optional[str] = None) -> List[Dict]:
         """Perform comprehensive search across JSON data"""
         results = []
+        
+        # Validate input
+        if not query or not query.strip():
+            return results
+        
         search_key = f"{query}_{category}_{state_filter}"
         
         # Check cache first
         if search_key in self.search_cache:
             return self.search_cache[search_key]
-            
-        # Determine which states to search - all 60 jurisdictions
-        if state_filter:
-            states_to_search = [state_filter]
-        else:
-            # Search all available states
-            states_to_search = self.get_all_state_codes()
         
-        for state_code in states_to_search:
-            state_data = self.load_state_data(state_code)
-            state_results = self._search_state_data(query, category, state_code, state_data)
-            results.extend(state_results)
+        try:
+            # Determine which states to search - all 60 jurisdictions
+            if state_filter:
+                states_to_search = [state_filter]
+            else:
+                # Search all available states
+                states_to_search = self.get_all_state_codes()
             
-        # Cache results
-        self.search_cache[search_key] = results
+            for state_code in states_to_search:
+                try:
+                    state_data = self.load_state_data(state_code)
+                    state_results = self._search_state_data(query, category, state_code, state_data)
+                    results.extend(state_results)
+                except Exception as e:
+                    log_warning(f"Error searching state {state_code}: {e}")
+                    continue
+                
+            # Cache results
+            self.search_cache[search_key] = results
+        except Exception as e:
+            log_error(f"Search error for query '{query}'", exc=e)
+        
         return results
         
     def _search_state_data(self, query: str, category: str, state_code: str, data: Dict[str, Any]) -> List[Dict]:

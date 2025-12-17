@@ -71,6 +71,14 @@ def populated_db(db_manager):
     conn = db_manager.get_connection()
     cursor = conn.cursor()
     
+    # Delete any existing test states to avoid UNIQUE constraint violations
+    # First delete related plate_types to avoid orphaned foreign keys
+    for state in states:
+        cursor.execute('DELETE FROM plate_types WHERE state_id IN (SELECT state_id FROM states WHERE abbreviation = ?)', (state['abbreviation'],))
+        cursor.execute('DELETE FROM character_references WHERE state_id IN (SELECT state_id FROM states WHERE abbreviation = ?)', (state['abbreviation'],))
+        cursor.execute('DELETE FROM states WHERE abbreviation = ?', (state['abbreviation'],))
+    
+    # Insert test states
     for state in states:
         cursor.execute('''
             INSERT INTO states (name, abbreviation, slogan, uses_zero_for_o, 

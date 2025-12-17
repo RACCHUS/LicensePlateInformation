@@ -191,8 +191,9 @@ class TestExpandPlateWithAlternatives:
     
     def test_no_ambiguous_characters(self):
         """Test plate with no ambiguous characters"""
-        variations = expand_plate_with_alternatives('ABC')
-        assert variations == ['ABC']
+        # Use characters not in ambiguous pairs (A, C, F, 3, 4, 7, 9)
+        variations = expand_plate_with_alternatives('ACF')
+        assert variations == ['ACF']
     
     def test_multiple_ambiguous_characters(self):
         """Test expansion with multiple ambiguous characters"""

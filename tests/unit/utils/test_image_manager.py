@@ -181,8 +181,10 @@ class TestImageMetadata:
         manager = LicensePlateImageManager(str(tmp_path))
         metadata = manager.get_image_metadata(str(tmp_path / 'nonexistent.jpg'))
         
-        # Should return None or empty dict
-        assert metadata is None or metadata == {}
+        # Should return graceful fallback metadata
+        assert metadata is not None
+        assert metadata['category'] == 'unknown'
+        assert metadata['description'] == 'No metadata file found'
 
 
 # ============================================================================

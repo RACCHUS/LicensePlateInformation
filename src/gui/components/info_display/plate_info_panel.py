@@ -8,6 +8,7 @@ import json
 import os
 import sys
 from ...utils.widget_factory import WidgetFactory
+from ....utils.logger import log_error, log_warning, log_info
 
 
 class PlateInfoPanel:
@@ -79,6 +80,7 @@ class PlateInfoPanel:
                 search_dir = parent
             
             if not application_path:
+                log_warning("Could not find project root for plate type mapping")
                 print("❌ Could not find project root")
                 return {"plate_type_to_states": {}}
         
@@ -89,9 +91,15 @@ class PlateInfoPanel:
                 with open(mapping_file, 'r', encoding='utf-8') as f:
                     return json.load(f)
             else:
+                log_warning(f"Plate type mapping file not found: {mapping_file}")
                 print(f"⚠️  Plate type mapping file not found: {mapping_file}")
                 return {"plate_type_to_states": {}}
-        except Exception as e:
+        except json.JSONDecodeError as e:
+            log_error(f"JSON parse error loading plate type mapping", exc=e)
+            print(f"❌ Error loading plate type mapping: {e}")
+            return {"plate_type_to_states": {}}
+        except OSError as e:
+            log_error(f"File read error loading plate type mapping", exc=e)
             print(f"❌ Error loading plate type mapping: {e}")
             return {"plate_type_to_states": {}}
         
@@ -128,25 +136,29 @@ class PlateInfoPanel:
     
     def update_plate_info(self, plate_type: str, state_code: str | None = None):
         """Update panel with plate type information from JSON file"""
-        self.current_plate_type = plate_type
-        self.current_state_code = state_code
-        
-        # Clear existing content
-        for widget in self.parent.winfo_children():
-            widget.destroy()
-        
-        # Load plate data (this may auto-select a state if none provided)
-        plate_data = self._load_plate_data(plate_type, state_code)
-        
-        if not plate_data:
-            self._show_error_message(plate_type, state_code)
-            return
-        
-        # Get the actual state code used (may have been auto-selected)
-        actual_state = self.current_state_code or "Unknown"
+        try:
+            self.current_plate_type = plate_type
+            self.current_state_code = state_code
             
-        # Build and display information using labels
-        self._display_plate_info(plate_type, plate_data, actual_state, state_code is None)
+            # Clear existing content
+            for widget in self.parent.winfo_children():
+                widget.destroy()
+            
+            # Load plate data (this may auto-select a state if none provided)
+            plate_data = self._load_plate_data(plate_type, state_code)
+            
+            if not plate_data:
+                self._show_error_message(plate_type, state_code)
+                return
+            
+            # Get the actual state code used (may have been auto-selected)
+            actual_state = self.current_state_code or "Unknown"
+                
+            # Build and display information using labels
+            self._display_plate_info(plate_type, plate_data, actual_state, state_code is None)
+        except Exception as e:
+            log_error(f"Error updating plate info for {plate_type}", exc=e)
+            self._show_error_message(plate_type, state_code)
         
     def _load_plate_data(self, plate_type: str, state_code: str | None = None):
         """Load plate data from JSON file"""
@@ -156,20 +168,23 @@ class PlateInfoPanel:
             if states_with_type:
                 # Use the first state alphabetically
                 state_code = states_with_type[0]
+                log_info(f"No state selected, using {state_code} for plate type '{plate_type}'")
                 print(f"📋 No state selected, using {state_code} for plate type '{plate_type}'")
             else:
+                log_warning(f"Plate type '{plate_type}' not found in any state")
                 print(f"❌ Plate type '{plate_type}' not found in any state")
                 return None
         
         # At this point, state_code is guaranteed to be a string
         assert state_code is not None, "state_code should not be None here"
             
+        filename = self.state_filename_map.get(state_code)
+        if not filename:
+            log_warning(f"No filename mapping for state code: {state_code}")
+            print(f"❌ No filename mapping for state code: {state_code}")
+            return None
+        
         try:
-            filename = self.state_filename_map.get(state_code)
-            if not filename:
-                print(f"❌ No filename mapping for state code: {state_code}")
-                return None
-            
             # Get base application path (works for both script and PyInstaller)
             if getattr(sys, 'frozen', False):
                 application_path = sys._MEIPASS  # type: ignore
@@ -189,27 +204,40 @@ class PlateInfoPanel:
                     search_dir = parent
                 
                 if not application_path:
+                    log_error(f"Could not find project root from {current_dir}")
                     print(f"❌ Could not find project root from {current_dir}")
                     return None
                 
             file_path = os.path.join(application_path, 'data', 'states', f'{filename}.json')
             
-            if os.path.exists(file_path):
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    state_data = json.load(f)
-                    
-                # Find the specific plate type
-                plate_types = state_data.get('plate_types', [])
-                for plate in plate_types:
-                    if plate.get('type_name') == plate_type:
-                        # Store which state we actually loaded from
-                        self.current_state_code = state_code
-                        return plate
+            if not os.path.exists(file_path):
+                log_warning(f"State file not found: {file_path}")
+                return None
+            
+            with open(file_path, 'r', encoding='utf-8') as f:
+                state_data = json.load(f)
                 
-                print(f"⚠️  Plate type '{plate_type}' not found in {state_code} data")
-                        
+            # Find the specific plate type
+            plate_types = state_data.get('plate_types', [])
+            for plate in plate_types:
+                if plate.get('type_name') == plate_type:
+                    # Store which state we actually loaded from
+                    self.current_state_code = state_code
+                    return plate
+            
+            log_warning(f"Plate type '{plate_type}' not found in {state_code} data")
+            print(f"⚠️  Plate type '{plate_type}' not found in {state_code} data")
+            return None
+        except json.JSONDecodeError as e:
+            log_error(f"JSON parse error for {state_code}", exc=e)
+            print(f"Error loading plate data for {plate_type} in {state_code}: {e}")
+            return None
+        except OSError as e:
+            log_error(f"File read error for {state_code}", exc=e)
+            print(f"Error loading plate data for {plate_type} in {state_code}: {e}")
             return None
         except Exception as e:
+            log_error(f"Unexpected error loading plate data for {plate_type} in {state_code}", exc=e)
             print(f"Error loading plate data for {plate_type} in {state_code}: {e}")
             return None
             

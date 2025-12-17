@@ -9,6 +9,13 @@ import sys
 import json
 from typing import List, Dict, Optional, Tuple
 
+from ..exceptions import (
+    DatabaseError, 
+    DatabaseConnectionError, 
+    DatabaseQueryError
+)
+from ..utils.logger import log_error, log_warning, log_info
+
 class DatabaseManager:
     """Manages SQLite database operations for license plate data"""
     
@@ -35,118 +42,165 @@ class DatabaseManager:
         self.connection = None
     
     def get_connection(self) -> sqlite3.Connection:
-        """Get database connection, creating if necessary"""
+        """Get database connection, creating if necessary
+        
+        Returns:
+            SQLite connection object
+            
+        Raises:
+            DatabaseConnectionError: If connection cannot be established
+        """
         if self.connection is None:
-            self.connection = sqlite3.connect(self.db_path)
-            self.connection.row_factory = sqlite3.Row  # Enable column access by name
+            try:
+                self.connection = sqlite3.connect(self.db_path, timeout=30.0)
+                self.connection.row_factory = sqlite3.Row  # Enable column access by name
+            except sqlite3.OperationalError as e:
+                log_error(f"Failed to connect to database: {self.db_path}", exc=e)
+                raise DatabaseConnectionError(
+                    "Could not connect to database",
+                    operation="connect",
+                    details=str(e)
+                )
+            except PermissionError as e:
+                log_error(f"Permission denied accessing database: {self.db_path}", exc=e)
+                raise DatabaseConnectionError(
+                    "Permission denied accessing database",
+                    operation="connect",
+                    details=str(e)
+                )
         return self.connection
     
     def initialize_database(self):
-        """Create database tables if they don't exist"""
-        conn = self.get_connection()
-        cursor = conn.cursor()
+        """Create database tables if they don't exist
         
-        # States table - core state information
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS states (
-                state_id INTEGER PRIMARY KEY AUTOINCREMENT,
-                name TEXT NOT NULL UNIQUE,
-                abbreviation TEXT NOT NULL UNIQUE,
-                slogan TEXT,
-                uses_zero_for_o BOOLEAN DEFAULT 0,
-                allows_letter_o BOOLEAN DEFAULT 1,
-                zero_is_slashed BOOLEAN DEFAULT 0,
-                primary_colors TEXT,  -- JSON array of hex colors
-                logo_path TEXT,
-                notes TEXT,
-                created_date DATETIME DEFAULT CURRENT_TIMESTAMP,
-                updated_date DATETIME DEFAULT CURRENT_TIMESTAMP
+        Raises:
+            DatabaseError: If table creation fails
+        """
+        try:
+            conn = self.get_connection()
+            cursor = conn.cursor()
+        
+            # States table - core state information
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS states (
+                    state_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    name TEXT NOT NULL UNIQUE,
+                    abbreviation TEXT NOT NULL UNIQUE,
+                    slogan TEXT,
+                    uses_zero_for_o BOOLEAN DEFAULT 0,
+                    allows_letter_o BOOLEAN DEFAULT 1,
+                    zero_is_slashed BOOLEAN DEFAULT 0,
+                    primary_colors TEXT,  -- JSON array of hex colors
+                    logo_path TEXT,
+                    notes TEXT,
+                    created_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+                    updated_date DATETIME DEFAULT CURRENT_TIMESTAMP
+                )
+            ''')
+            
+            # Plate types - different plate formats within each state
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS plate_types (
+                    type_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    state_id INTEGER NOT NULL,
+                    type_name TEXT NOT NULL,  -- e.g., "Passenger", "Commercial", "Motorcycle"
+                    pattern TEXT,  -- Regex or pattern like "ABC-1234"
+                    character_count INTEGER,
+                    description TEXT,
+                    category TEXT,  -- New field for plate type category (government, military, etc.)
+                    is_active BOOLEAN DEFAULT 1,
+                    example_plate TEXT,
+                    background_color TEXT,  -- Hex color
+                    text_color TEXT,  -- Hex color
+                    has_stickers BOOLEAN DEFAULT 0,
+                    sticker_description TEXT,
+                    image_path TEXT,
+                    notes TEXT,
+                    -- COMPREHENSIVE PROCESSING METADATA
+                    code_number TEXT,  -- DMV code number
+                    currently_processed BOOLEAN DEFAULT 0,  -- Is currently being processed
+                    requires_prefix BOOLEAN DEFAULT 0,  -- Add prefix to plate string
+                    requires_suffix BOOLEAN DEFAULT 0,  -- Add suffix to plate string
+                    character_modifications TEXT,  -- Omit or add any characters
+                    verify_state_abbreviation BOOLEAN DEFAULT 0,  -- Verify state abbreviation
+                    visual_identifier TEXT,  -- Viewable plate type identifier
+                    vehicle_type_identification TEXT,  -- Vehicle type identification rules
+                    all_numeric_plate BOOLEAN DEFAULT 0,  -- Is the plate all numeric
+                    date_ranges TEXT,  -- JSON date ranges
+                    plate_images_available TEXT,  -- Available plate images
+                    -- CRITICAL DOT PROCESSING CLASSIFICATION
+                    dot_processing_type TEXT DEFAULT 'unknown',  -- 'always_standard', 'never_standard', 'conditional', 'unknown'
+                    dot_dropdown_identifier TEXT,  -- Specific dropdown ID/name for non-standard processing
+                    dot_conditional_rules TEXT,  -- JSON rules for conditional processing (e.g., all_numeric conditions)
+                    FOREIGN KEY (state_id) REFERENCES states (state_id)
+                )
+            ''')
+            
+            # Character references - state-specific character appearance
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS character_references (
+                    ref_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    state_id INTEGER NOT NULL,
+                    character TEXT NOT NULL,  -- Single character: '0', 'O', '1', 'I', etc.
+                    character_type TEXT,  -- 'digit' or 'letter'
+                    image_path TEXT,
+                    description TEXT,  -- e.g., "Slashed zero", "Serif font"
+                    is_ambiguous BOOLEAN DEFAULT 0,
+                    confusion_chars TEXT,  -- JSON array of easily confused characters
+                    FOREIGN KEY (state_id) REFERENCES states (state_id)
+                )
+            ''')
+            
+            # Lookup history - track searches for analysis
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS lookup_history (
+                    lookup_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    search_term TEXT,
+                    state_found TEXT,
+                    plate_type_found TEXT,
+                    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+                    user_notes TEXT
+                )
+            ''')
+            
+            # Create indexes for fast searching
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_states_name ON states (name)')
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_states_abbrev ON states (abbreviation)')
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_plate_types_state ON plate_types (state_id)')
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_char_refs_state ON character_references (state_id)')
+            
+            conn.commit()
+            log_info("Database tables initialized successfully")
+            
+        except sqlite3.OperationalError as e:
+            log_error("Failed to create database tables", exc=e)
+            raise DatabaseError(
+                "Failed to initialize database schema",
+                operation="initialize_database",
+                details=str(e)
             )
-        ''')
-        
-        # Plate types - different plate formats within each state
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS plate_types (
-                type_id INTEGER PRIMARY KEY AUTOINCREMENT,
-                state_id INTEGER NOT NULL,
-                type_name TEXT NOT NULL,  -- e.g., "Passenger", "Commercial", "Motorcycle"
-                pattern TEXT,  -- Regex or pattern like "ABC-1234"
-                character_count INTEGER,
-                description TEXT,
-                category TEXT,  -- New field for plate type category (government, military, etc.)
-                is_active BOOLEAN DEFAULT 1,
-                example_plate TEXT,
-                background_color TEXT,  -- Hex color
-                text_color TEXT,  -- Hex color
-                has_stickers BOOLEAN DEFAULT 0,
-                sticker_description TEXT,
-                image_path TEXT,
-                notes TEXT,
-                -- COMPREHENSIVE PROCESSING METADATA
-                code_number TEXT,  -- DMV code number
-                currently_processed BOOLEAN DEFAULT 0,  -- Is currently being processed
-                requires_prefix BOOLEAN DEFAULT 0,  -- Add prefix to plate string
-                requires_suffix BOOLEAN DEFAULT 0,  -- Add suffix to plate string
-                character_modifications TEXT,  -- Omit or add any characters
-                verify_state_abbreviation BOOLEAN DEFAULT 0,  -- Verify state abbreviation
-                visual_identifier TEXT,  -- Viewable plate type identifier
-                vehicle_type_identification TEXT,  -- Vehicle type identification rules
-                all_numeric_plate BOOLEAN DEFAULT 0,  -- Is the plate all numeric
-                date_ranges TEXT,  -- JSON date ranges
-                plate_images_available TEXT,  -- Available plate images
-                -- CRITICAL DOT PROCESSING CLASSIFICATION
-                dot_processing_type TEXT DEFAULT 'unknown',  -- 'always_standard', 'never_standard', 'conditional', 'unknown'
-                dot_dropdown_identifier TEXT,  -- Specific dropdown ID/name for non-standard processing
-                dot_conditional_rules TEXT,  -- JSON rules for conditional processing (e.g., all_numeric conditions)
-                FOREIGN KEY (state_id) REFERENCES states (state_id)
-            )
-        ''')
-        
-        # Character references - state-specific character appearance
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS character_references (
-                ref_id INTEGER PRIMARY KEY AUTOINCREMENT,
-                state_id INTEGER NOT NULL,
-                character TEXT NOT NULL,  -- Single character: '0', 'O', '1', 'I', etc.
-                character_type TEXT,  -- 'digit' or 'letter'
-                image_path TEXT,
-                description TEXT,  -- e.g., "Slashed zero", "Serif font"
-                is_ambiguous BOOLEAN DEFAULT 0,
-                confusion_chars TEXT,  -- JSON array of easily confused characters
-                FOREIGN KEY (state_id) REFERENCES states (state_id)
-            )
-        ''')
-        
-        # Lookup history - track searches for analysis
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS lookup_history (
-                lookup_id INTEGER PRIMARY KEY AUTOINCREMENT,
-                search_term TEXT,
-                state_found TEXT,
-                plate_type_found TEXT,
-                timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
-                user_notes TEXT
-            )
-        ''')
-        
-        # Create indexes for fast searching
-        cursor.execute('CREATE INDEX IF NOT EXISTS idx_states_name ON states (name)')
-        cursor.execute('CREATE INDEX IF NOT EXISTS idx_states_abbrev ON states (abbreviation)')
-        cursor.execute('CREATE INDEX IF NOT EXISTS idx_plate_types_state ON plate_types (state_id)')
-        cursor.execute('CREATE INDEX IF NOT EXISTS idx_char_refs_state ON character_references (state_id)')
-        
-        conn.commit()
         
         # Load initial data if database is empty
-        if self.get_state_count() == 0:
-            self._load_initial_data()
+        try:
+            if self.get_state_count() == 0:
+                self._load_initial_data()
+        except Exception as e:
+            log_warning(f"Could not load initial data: {e}")
     
     def get_state_count(self) -> int:
-        """Get total number of states in database"""
-        conn = self.get_connection()
-        cursor = conn.cursor()
-        cursor.execute('SELECT COUNT(*) FROM states')
-        return cursor.fetchone()[0]
+        """Get total number of states in database
+        
+        Returns:
+            Number of states in database
+        """
+        try:
+            conn = self.get_connection()
+            cursor = conn.cursor()
+            cursor.execute('SELECT COUNT(*) FROM states')
+            return cursor.fetchone()[0]
+        except sqlite3.Error as e:
+            log_error("Failed to get state count", exc=e)
+            return 0
     
     def search_states(self, search_term: str) -> List[Dict]:
         """Search states by name or abbreviation
@@ -155,87 +209,138 @@ class DatabaseManager:
             search_term: State name or abbreviation to search for
             
         Returns:
-            List of matching state records
+            List of matching state records (empty list on error)
         """
-        conn = self.get_connection()
-        cursor = conn.cursor()
-        
-        search_term = search_term.strip().upper()
-        
-        cursor.execute('''
-            SELECT * FROM states 
-            WHERE UPPER(name) LIKE ? OR UPPER(abbreviation) LIKE ?
-            ORDER BY 
-                CASE 
-                    WHEN UPPER(abbreviation) = ? THEN 1
-                    WHEN UPPER(name) = ? THEN 2
-                    WHEN UPPER(abbreviation) LIKE ? THEN 3
-                    ELSE 4
-                END,
-                name
-        ''', (f'%{search_term}%', f'%{search_term}%', search_term, search_term.title(), f'{search_term}%'))
-        
-        return [dict(row) for row in cursor.fetchall()]
+        try:
+            conn = self.get_connection()
+            cursor = conn.cursor()
+            
+            search_term = search_term.strip().upper() if search_term else ""
+            
+            cursor.execute('''
+                SELECT * FROM states 
+                WHERE UPPER(name) LIKE ? OR UPPER(abbreviation) LIKE ?
+                ORDER BY 
+                    CASE 
+                        WHEN UPPER(abbreviation) = ? THEN 1
+                        WHEN UPPER(name) = ? THEN 2
+                        WHEN UPPER(abbreviation) LIKE ? THEN 3
+                        ELSE 4
+                    END,
+                    name
+            ''', (f'%{search_term}%', f'%{search_term}%', search_term, search_term.title(), f'{search_term}%'))
+            
+            return [dict(row) for row in cursor.fetchall()]
+        except sqlite3.Error as e:
+            log_error(f"Failed to search states for '{search_term}'", exc=e)
+            return []
     
     def get_all_states(self) -> List[Dict]:
         """Get all states in alphabetical order
         
         Returns:
-            List of all state records sorted by name
+            List of all state records sorted by name (empty list on error)
         """
-        conn = self.get_connection()
-        cursor = conn.cursor()
-        
-        cursor.execute('SELECT * FROM states ORDER BY name')
-        return [dict(row) for row in cursor.fetchall()]
+        try:
+            conn = self.get_connection()
+            cursor = conn.cursor()
+            
+            cursor.execute('SELECT * FROM states ORDER BY name')
+            return [dict(row) for row in cursor.fetchall()]
+        except sqlite3.Error as e:
+            log_error("Failed to get all states", exc=e)
+            return []
     
     def get_state_by_id(self, state_id: int) -> Optional[Dict]:
-        """Get state by ID"""
-        conn = self.get_connection()
-        cursor = conn.cursor()
+        """Get state by ID
         
-        cursor.execute('SELECT * FROM states WHERE state_id = ?', (state_id,))
-        row = cursor.fetchone()
-        return dict(row) if row else None
+        Args:
+            state_id: State ID to look up
+            
+        Returns:
+            State record or None if not found/error
+        """
+        try:
+            conn = self.get_connection()
+            cursor = conn.cursor()
+            
+            cursor.execute('SELECT * FROM states WHERE state_id = ?', (state_id,))
+            row = cursor.fetchone()
+            return dict(row) if row else None
+        except sqlite3.Error as e:
+            log_error(f"Failed to get state by ID {state_id}", exc=e)
+            return None
     
     def get_plate_types_for_state(self, state_id: int) -> List[Dict]:
-        """Get all plate types for a specific state"""
-        conn = self.get_connection()
-        cursor = conn.cursor()
+        """Get all plate types for a specific state
         
-        cursor.execute('''
-            SELECT * FROM plate_types 
-            WHERE state_id = ? AND is_active = 1
-            ORDER BY type_name
-        ''', (state_id,))
-        
-        return [dict(row) for row in cursor.fetchall()]
+        Args:
+            state_id: State ID to get plate types for
+            
+        Returns:
+            List of plate type records (empty list on error)
+        """
+        try:
+            conn = self.get_connection()
+            cursor = conn.cursor()
+            
+            cursor.execute('''
+                SELECT * FROM plate_types 
+                WHERE state_id = ? AND is_active = 1
+                ORDER BY type_name
+            ''', (state_id,))
+            
+            return [dict(row) for row in cursor.fetchall()]
+        except sqlite3.Error as e:
+            log_error(f"Failed to get plate types for state {state_id}", exc=e)
+            return []
     
     def get_character_references_for_state(self, state_id: int) -> List[Dict]:
-        """Get character references for a specific state"""
-        conn = self.get_connection()
-        cursor = conn.cursor()
+        """Get character references for a specific state
         
-        cursor.execute('''
-            SELECT * FROM character_references 
-            WHERE state_id = ?
-            ORDER BY character_type, character
-        ''', (state_id,))
-        
-        return [dict(row) for row in cursor.fetchall()]
+        Args:
+            state_id: State ID to get character references for
+            
+        Returns:
+            List of character reference records (empty list on error)
+        """
+        try:
+            conn = self.get_connection()
+            cursor = conn.cursor()
+            
+            cursor.execute('''
+                SELECT * FROM character_references 
+                WHERE state_id = ?
+                ORDER BY character_type, character
+            ''', (state_id,))
+            
+            return [dict(row) for row in cursor.fetchall()]
+        except sqlite3.Error as e:
+            log_error(f"Failed to get character references for state {state_id}", exc=e)
+            return []
     
     def add_lookup_to_history(self, search_term: str, state_found: Optional[str] = None, 
                              plate_type_found: Optional[str] = None, user_notes: Optional[str] = None):
-        """Add a lookup to history for tracking"""
-        conn = self.get_connection()
-        cursor = conn.cursor()
+        """Add a lookup to history for tracking
         
-        cursor.execute('''
-            INSERT INTO lookup_history (search_term, state_found, plate_type_found, user_notes)
-            VALUES (?, ?, ?, ?)
-        ''', (search_term, state_found, plate_type_found, user_notes))
-        
-        conn.commit()
+        Args:
+            search_term: The search term used
+            state_found: State found (optional)
+            plate_type_found: Plate type found (optional)
+            user_notes: User notes (optional)
+        """
+        try:
+            conn = self.get_connection()
+            cursor = conn.cursor()
+            
+            cursor.execute('''
+                INSERT INTO lookup_history (search_term, state_found, plate_type_found, user_notes)
+                VALUES (?, ?, ?, ?)
+            ''', (search_term, state_found, plate_type_found, user_notes))
+            
+            conn.commit()
+        except sqlite3.Error as e:
+            log_error(f"Failed to add lookup to history: {search_term}", exc=e)
     
     def _load_initial_data(self):
         """Load initial state data into database"""
@@ -417,12 +522,18 @@ class DatabaseManager:
             
             conn.commit()
             
-        except Exception as e:
+        except sqlite3.Error as e:
             conn.rollback()
-            print(f"Error inserting state data for {state_data.get('name', 'Unknown')}: {e}")
+            log_error(f"Error inserting state data for {state_data.get('name', 'Unknown')}", exc=e)
+        except KeyError as e:
+            log_error(f"Missing required field in state data: {e}", extra_info={'state': state_data.get('name', 'Unknown')})
     
     def close(self):
-        """Close database connection"""
+        """Close database connection safely"""
         if self.connection:
-            self.connection.close()
-            self.connection = None
+            try:
+                self.connection.close()
+            except sqlite3.Error as e:
+                log_warning(f"Error closing database connection: {e}")
+            finally:
+                self.connection = None

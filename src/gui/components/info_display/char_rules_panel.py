@@ -9,6 +9,7 @@ import json
 import os
 import sys
 from typing import Optional
+from ....utils.logger import log_error, log_warning, log_info
 
 
 class CharacterRulesPanel:
@@ -103,71 +104,83 @@ class CharacterRulesPanel:
     
     def update_rules(self, state_code: Optional[str]):
         """Update panel with rules for the selected state"""
-        self.current_state = state_code
-        
-        if not state_code:
-            self._show_default_message()
-            return
-        
-        # Load state data
-        state_data = self._load_state_data(state_code)
-        
-        if not state_data:
-            self._show_error_message(state_code)
-            return
-        
-        # Clear existing content
-        for widget in self.content_frame.winfo_children():
-            widget.destroy()
-        
-        # Display rules
-        self._display_rules(state_data, state_code)
-        
-        # Force scroll region update after content changes
-        self.content_frame.update_idletasks()
-        self._configure_scroll_region()
+        try:
+            self.current_state = state_code
+            
+            if not state_code:
+                self._show_default_message()
+                return
+            
+            # Load state data
+            state_data = self._load_state_data(state_code)
+            
+            if not state_data:
+                self._show_error_message(state_code)
+                return
+            
+            # Clear existing content
+            for widget in self.content_frame.winfo_children():
+                widget.destroy()
+            
+            # Display rules
+            self._display_rules(state_data, state_code)
+            
+            # Force scroll region update after content changes
+            self.content_frame.update_idletasks()
+            self._configure_scroll_region()
+        except Exception as e:
+            log_error(f"Error updating character rules for {state_code or 'None'}", exc=e)
+            if state_code:
+                self._show_error_message(state_code)
     
     def _load_state_data(self, state_code: str) -> Optional[dict]:
         """Load state JSON data"""
-        try:
-            # Get base application path (works for both script and PyInstaller)
-            if getattr(sys, 'frozen', False):
-                project_root = sys._MEIPASS  # type: ignore
-            else:
-                # Find project root
-                current_dir = os.path.dirname(__file__)
-                search_dir = current_dir
-                project_root = None
-                
-                for _ in range(10):
-                    if os.path.exists(os.path.join(search_dir, "main.py")):
-                        project_root = search_dir
-                        break
-                    parent = os.path.dirname(search_dir)
-                    if parent == search_dir:
-                        break
-                    search_dir = parent
-                
-                if not project_root:
-                    print("❌ Could not find project root")
-                    return None
+        # Get base application path (works for both script and PyInstaller)
+        if getattr(sys, 'frozen', False):
+            project_root = sys._MEIPASS  # type: ignore
+        else:
+            # Find project root
+            current_dir = os.path.dirname(__file__)
+            search_dir = current_dir
+            project_root = None
             
-            # Load state JSON using filename mapping
-            filename = self.state_filename_map.get(state_code)
-            if not filename:
-                print(f"⚠️  No filename mapping for state code: {state_code}")
+            for _ in range(10):
+                if os.path.exists(os.path.join(search_dir, "main.py")):
+                    project_root = search_dir
+                    break
+                parent = os.path.dirname(search_dir)
+                if parent == search_dir:
+                    break
+                search_dir = parent
+            
+            if not project_root:
+                log_error("Could not find project root for character rules")
+                print("❌ Could not find project root")
                 return None
-            
-            state_file = os.path.join(project_root, "data", "states", f"{filename}.json")
-            
-            if os.path.exists(state_file):
-                with open(state_file, 'r', encoding='utf-8') as f:
-                    return json.load(f)
-            else:
+        
+        # Load state JSON using filename mapping
+        filename = self.state_filename_map.get(state_code)
+        if not filename:
+            log_warning(f"No filename mapping for state code: {state_code}")
+            print(f"⚠️  No filename mapping for state code: {state_code}")
+            return None
+        
+        state_file = os.path.join(project_root, "data", "states", f"{filename}.json")
+        
+        try:
+            if not os.path.exists(state_file):
+                log_warning(f"State file not found: {state_file}")
                 print(f"⚠️  State file not found: {state_file}")
                 return None
-                
-        except Exception as e:
+            
+            with open(state_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except json.JSONDecodeError as e:
+            log_error(f"JSON parse error for {state_code}", exc=e)
+            print(f"❌ Error loading state data: {e}")
+            return None
+        except OSError as e:
+            log_error(f"File read error for {state_code}", exc=e)
             print(f"❌ Error loading state data: {e}")
             return None
     

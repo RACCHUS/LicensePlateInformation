@@ -240,7 +240,8 @@ class LicensePlateImageManager:
                 metadata['dimensions'] = {'width': img.width, 'height': img.height}
                 metadata['format'] = img.format
                 metadata['color_mode'] = img.mode
-        except:
+        except (OSError, IOError) as e:
+            # Image file couldn't be opened - dimensions won't be available
             pass
         
         # Add category-specific metadata
@@ -320,7 +321,8 @@ class LicensePlateImageManager:
             with Image.open(image_path) as img:
                 metadata['dimensions'] = {'width': img.width, 'height': img.height}
                 metadata['format'] = img.format
-        except:
+        except (OSError, IOError):
+            # Image file couldn't be opened - dimensions won't be available
             pass
         
         metadata_path = image_path.with_suffix(image_path.suffix + '.meta.json')
@@ -375,7 +377,8 @@ class LicensePlateImageManager:
                         try:
                             with open(metadata_path, 'r') as f:
                                 metadata = json.load(f)
-                        except:
+                        except (json.JSONDecodeError, OSError):
+                            # Metadata file couldn't be loaded - continue without it
                             pass
                     
                     # Filter by tags if specified
