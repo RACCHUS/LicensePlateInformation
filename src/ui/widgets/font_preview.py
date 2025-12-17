@@ -343,3 +343,78 @@ class FontPreviewWidget(QWidget):
     def clear(self):
         """Clear the font preview display."""
         self._reset_display()
+    
+    def set_state(self, state_code: str, uses_zero_for_o: bool = False, no_letter_o: bool = False):
+        """
+        Set the state and update display with O/0 rules.
+        
+        This is a convenience method that can be called with pre-extracted rules.
+        
+        Args:
+            state_code: State abbreviation
+            uses_zero_for_o: If True, state uses 0 in place of O
+            no_letter_o: If True, state doesn't use letter O at all
+        """
+        if not state_code:
+            self._reset_display()
+            return
+        
+        # Try to load full state data first
+        state_data = self._load_state_data(state_code)
+        
+        if state_data:
+            # Use full update with all data
+            self.update_state(state_code)
+        else:
+            # Use the passed rules for basic update
+            self._update_with_rules(state_code, uses_zero_for_o, no_letter_o)
+    
+    def _update_with_rules(self, state_code: str, uses_zero_for_o: bool, no_letter_o: bool):
+        """Update display using just the O/0 rules."""
+        self.current_state = state_code
+        
+        # Use default font
+        font_family = 'Arial'
+        font_size = 16
+        
+        for char, label in self._character_labels.items():
+            color = self.COLOR_NORMAL
+            display_char = char
+            
+            if char == 'O':
+                if no_letter_o:
+                    color = self.COLOR_NOT_USED
+            elif char == '0':
+                if uses_zero_for_o or no_letter_o:
+                    color = self.COLOR_USED
+            
+            label.setText(display_char)
+            label.setStyleSheet(f"""
+                QLabel {{
+                    color: {color};
+                    font-family: '{font_family}';
+                    font-size: {font_size}px;
+                    font-weight: bold;
+                    background: transparent;
+                }}
+            """)
+        
+        # Update status
+        status_parts = [f"<b>{state_code}</b>"]
+        notes = []
+        if no_letter_o:
+            notes.append("❌ No letter 'O'")
+        if uses_zero_for_o:
+            notes.append("✅ Uses '0' for O")
+        
+        if notes:
+            status_parts.append(' • '.join(notes))
+        
+        self.status_label.setText('<br>'.join(status_parts))
+        self.status_label.setStyleSheet("""
+            QLabel {
+                color: #4CAF50;
+                font-size: 10px;
+                padding: 5px;
+            }
+        """)

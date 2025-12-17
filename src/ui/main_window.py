@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Optional
 
 from PySide6.QtCore import Qt, Signal, QSettings
-from PySide6.QtGui import QAction, QKeySequence, QCloseEvent
+from PySide6.QtGui import QAction, QKeySequence, QCloseEvent, QShortcut
 from PySide6.QtWidgets import (
     QMainWindow,
     QWidget,
@@ -32,6 +32,7 @@ from PySide6.QtWidgets import (
     QListWidget,
     QListWidgetItem,
     QSizePolicy,
+    QFileDialog,
 )
 
 from ui.controllers.search_controller import SearchController, CategorizedResults
@@ -39,6 +40,7 @@ from ui.controllers.mode_controller import ModeController
 from ui.controllers.state_data_manager import StateDataManager
 from ui.widgets.font_preview import FontPreviewWidget
 from ui.widgets.state_button import StateButton
+from ui.widgets.image_panel import ImagePanel
 
 
 class MainWindow(QMainWindow):
@@ -57,6 +59,10 @@ class MainWindow(QMainWindow):
         self.current_mode: str = str(self.settings.value("default_mode", "All"))
         self.current_state: Optional[str] = None
         self.is_search_mode = False
+        
+        # Data path for images and other resources
+        # __file__ is src/ui/main_window.py, so go up 2 levels to project root
+        self.data_path = Path(__file__).parent.parent.parent / "data"
         
         # Initialize search controller
         self.search_controller = SearchController(self)
@@ -374,12 +380,8 @@ class MainWindow(QMainWindow):
         self.plate_type_panel = self._create_plate_type_panel()
         self.bottom_splitter.addWidget(self.plate_type_panel)
         
-        # Image Panel (placeholder)
-        self.image_panel = QWidget()
-        image_layout = QVBoxLayout(self.image_panel)
-        image_layout.addWidget(QLabel("Image Panel"))
-        image_layout.addWidget(QLabel("(To be implemented in Phase 3)"))
-        image_layout.addStretch()
+        # Image Panel
+        self.image_panel = ImagePanel(self.data_path)
         self.bottom_splitter.addWidget(self.image_panel)
         
         self.content_splitter.addWidget(self.bottom_splitter)
@@ -621,8 +623,63 @@ class MainWindow(QMainWindow):
     
     def _setup_shortcuts(self):
         """Set up additional keyboard shortcuts."""
-        # Image navigation shortcuts are handled by the image panel
-        pass
+        # Search - Ctrl+F
+        self.shortcut_search = QShortcut(QKeySequence("Ctrl+F"), self)
+        self.shortcut_search.activated.connect(self._on_search)
+        
+        # Jump to state - Ctrl+G
+        self.shortcut_jump = QShortcut(QKeySequence("Ctrl+G"), self)
+        self.shortcut_jump.activated.connect(self._on_jump_to_state)
+        
+        # Toggle state panel - Ctrl+1
+        self.shortcut_toggle_panel = QShortcut(QKeySequence("Ctrl+1"), self)
+        self.shortcut_toggle_panel.activated.connect(self._toggle_state_panel)
+        
+        # Mode shortcuts - Ctrl+Shift+1 through 6
+        self.shortcut_mode_v3 = QShortcut(QKeySequence("Ctrl+Shift+1"), self)
+        self.shortcut_mode_v3.activated.connect(lambda: self._switch_mode("V3"))
+        
+        self.shortcut_mode_express = QShortcut(QKeySequence("Ctrl+Shift+2"), self)
+        self.shortcut_mode_express.activated.connect(lambda: self._switch_mode("Express"))
+        
+        self.shortcut_mode_i95 = QShortcut(QKeySequence("Ctrl+Shift+3"), self)
+        self.shortcut_mode_i95.activated.connect(lambda: self._switch_mode("I95"))
+        
+        self.shortcut_mode_oosv3 = QShortcut(QKeySequence("Ctrl+Shift+4"), self)
+        self.shortcut_mode_oosv3.activated.connect(lambda: self._switch_mode("OOSV3"))
+        
+        self.shortcut_mode_platetype = QShortcut(QKeySequence("Ctrl+Shift+5"), self)
+        self.shortcut_mode_platetype.activated.connect(lambda: self._switch_mode("PlateType"))
+        
+        self.shortcut_mode_all = QShortcut(QKeySequence("Ctrl+Shift+0"), self)
+        self.shortcut_mode_all.activated.connect(lambda: self._switch_mode("All"))
+        
+        # Clear search / Deselect - Escape
+        self.shortcut_escape = QShortcut(QKeySequence("Escape"), self)
+        self.shortcut_escape.activated.connect(self._on_escape)
+    
+    def _toggle_state_panel(self):
+        """Toggle visibility of the state panel."""
+        if self.state_panel.isVisible():
+            self.state_panel.hide()
+            self.status_bar.showMessage("State panel hidden (Ctrl+1 to show)", 2000)
+        else:
+            self.state_panel.show()
+            self.status_bar.showMessage("State panel shown", 2000)
+    
+    def _switch_mode(self, mode_name: str):
+        """Switch to the specified mode."""
+        if mode_name in self.modes_config.get("modes", {}):
+            index = self.mode_combo.findText(mode_name)
+            if index >= 0:
+                self.mode_combo.setCurrentIndex(index)
+    
+    def _on_escape(self):
+        """Handle Escape key - clear search or deselect state."""
+        if self.search_input.text():
+            self._on_clear_search()
+        elif self.current_state:
+            self._deselect_state()
     
     def _apply_stylesheet(self):
         """Load and apply the dark theme stylesheet."""
@@ -685,12 +742,151 @@ class MainWindow(QMainWindow):
     # ==================== Menu Action Handlers ====================
     
     def _on_export_state_data(self):
-        """Export current state data."""
-        self.status_bar.showMessage("Export State Data - Not yet implemented", 3000)
+        """Export current state data to JSON or text file."""
+        if not self.current_state:
+            QMessageBox.information(
+                self, "Export State Data",
+                "Please select a state first."
+            )
+            return
+        
+        # Get state data
+        state_info = self.state_data_manager.get_state_info_summary(self.current_state)
+        char_rules = self.state_data_manager.get_character_rules(self.current_state)
+        plate_types = self.state_data_manager.get_plate_types(self.current_state)
+        
+        if not state_info:
+            QMessageBox.warning(
+                self, "Export State Data",
+                f"No data found for {self.current_state}."
+            )
+            return
+        
+        # Ask for save location
+        file_path, selected_filter = QFileDialog.getSaveFileName(
+            self,
+            "Export State Data",
+            f"{self.current_state}_data.json",
+            "JSON Files (*.json);;Text Files (*.txt);;All Files (*)"
+        )
+        
+        if not file_path:
+            return
+        
+        try:
+            export_data = {
+                "state_code": self.current_state,
+                "state_info": state_info,
+                "character_rules": char_rules,
+                "plate_types": plate_types
+            }
+            
+            if file_path.endswith('.txt'):
+                # Export as readable text
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(f"State Data Export: {self.current_state}\n")
+                    f.write("=" * 50 + "\n\n")
+                    
+                    f.write("STATE INFORMATION\n")
+                    f.write("-" * 30 + "\n")
+                    for key, value in state_info.items():
+                        f.write(f"{key}: {value}\n")
+                    
+                    f.write("\nCHARACTER RULES\n")
+                    f.write("-" * 30 + "\n")
+                    for key, value in char_rules.items():
+                        f.write(f"{key}: {value}\n")
+                    
+                    f.write(f"\nPLATE TYPES ({len(plate_types)} total)\n")
+                    f.write("-" * 30 + "\n")
+                    for pt in plate_types:
+                        name = pt.get('type_name', 'Unknown')
+                        f.write(f"- {name}\n")
+            else:
+                # Export as JSON
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    json.dump(export_data, f, indent=2, ensure_ascii=False)
+            
+            self.status_bar.showMessage(f"Exported {self.current_state} data to {file_path}", 3000)
+            
+        except Exception as e:
+            QMessageBox.critical(
+                self, "Export Error",
+                f"Failed to export data:\n{str(e)}"
+            )
     
     def _on_export_search_results(self):
-        """Export search results."""
-        self.status_bar.showMessage("Export Search Results - Not yet implemented", 3000)
+        """Export search results to JSON or text file."""
+        if not self.is_search_mode or not hasattr(self, '_last_search_results'):
+            QMessageBox.information(
+                self, "Export Search Results",
+                "Please perform a search first."
+            )
+            return
+        
+        results = self._last_search_results
+        if not results or results.is_empty:
+            QMessageBox.information(
+                self, "Export Search Results",
+                "No search results to export."
+            )
+            return
+        
+        # Ask for save location
+        file_path, selected_filter = QFileDialog.getSaveFileName(
+            self,
+            "Export Search Results",
+            f"search_results.json",
+            "JSON Files (*.json);;Text Files (*.txt);;All Files (*)"
+        )
+        
+        if not file_path:
+            return
+        
+        try:
+            if file_path.endswith('.txt'):
+                # Export as readable text
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(f"Search Results Export\n")
+                    f.write(f"Query: {self.search_input.text()}\n")
+                    f.write("=" * 50 + "\n\n")
+                    
+                    if results.state_results:
+                        f.write(f"STATE INFO ({len(results.state_results)} matches)\n")
+                        f.write("-" * 30 + "\n")
+                        for r in results.state_results:
+                            f.write(f"  [{r.state_code}] {r.field}: {r.value[:100]}\n")
+                    
+                    if results.plate_type_results:
+                        f.write(f"\nPLATE TYPES ({len(results.plate_type_results)} matches)\n")
+                        f.write("-" * 30 + "\n")
+                        for r in results.plate_type_results:
+                            f.write(f"  [{r.state_code}] {r.plate_type or r.field}: {r.value[:100]}\n")
+                    
+                    if results.char_rules_results:
+                        f.write(f"\nCHARACTER RULES ({len(results.char_rules_results)} matches)\n")
+                        f.write("-" * 30 + "\n")
+                        for r in results.char_rules_results:
+                            f.write(f"  [{r.state_code}] {r.field}: {r.value[:100]}\n")
+            else:
+                # Export as JSON
+                export_data = {
+                    "query": self.search_input.text(),
+                    "total_results": results.total_count,
+                    "state_info": [r.to_dict() for r in results.state_results],
+                    "plate_types": [r.to_dict() for r in results.plate_type_results],
+                    "char_rules": [r.to_dict() for r in results.char_rules_results]
+                }
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    json.dump(export_data, f, indent=2, ensure_ascii=False, default=str)
+            
+            self.status_bar.showMessage(f"Exported search results to {file_path}", 3000)
+            
+        except Exception as e:
+            QMessageBox.critical(
+                self, "Export Error",
+                f"Failed to export search results:\n{str(e)}"
+            )
     
     def _on_settings(self):
         """Open settings dialog."""
@@ -919,6 +1115,15 @@ class MainWindow(QMainWindow):
         # Clear font preview
         self.font_preview.clear()
         
+        # Clear image panel
+        self.image_panel.set_state(None)
+        
+        # Reset plate type dropdown
+        self.plate_type_combo.blockSignals(True)
+        self.plate_type_combo.clear()
+        self.plate_type_combo.addItem("Standard", "standard")
+        self.plate_type_combo.blockSignals(False)
+        
         self.status_bar.showMessage("State deselected", 1500)
     
     def _update_panels_with_state(self, state_code: str):
@@ -936,6 +1141,15 @@ class MainWindow(QMainWindow):
         
         # Update Plate Type Panel
         self._display_plate_types(state_code, plate_types)
+        
+        # Update Image Panel
+        self.image_panel.set_state(state_code)
+        
+        # Update Plate Type Dropdown
+        self._update_plate_type_dropdown(plate_types)
+        
+        # Update Font Preview with state character data
+        self._update_font_preview(state_code, char_rules)
     
     def _display_state_info(self, info: dict):
         """Display state info in the State Info panel."""
@@ -1082,6 +1296,32 @@ class MainWindow(QMainWindow):
         
         self.plate_type_content.setText("<br><br>".join(lines))
     
+    def _update_plate_type_dropdown(self, plate_types: list):
+        """Update the plate type dropdown with types for the current state."""
+        # Block signals while updating
+        self.plate_type_combo.blockSignals(True)
+        
+        # Clear and repopulate
+        self.plate_type_combo.clear()
+        self.plate_type_combo.addItem("Standard", "standard")
+        
+        for pt in plate_types:
+            name = pt.get('type_name', 'Unknown')
+            # Use type_name as data value
+            self.plate_type_combo.addItem(name, name)
+        
+        self.plate_type_combo.blockSignals(False)
+    
+    def _update_font_preview(self, state_code: str, char_rules: dict):
+        """Update the font preview widget with state character data."""
+        if hasattr(self, 'font_preview'):
+            # Determine O vs 0 behavior
+            uses_zero_for_o = char_rules.get('uses_zero_for_o', False)
+            allows_o = char_rules.get('allows_letter_o', True)
+            
+            # Update the font preview
+            self.font_preview.set_state(state_code, uses_zero_for_o, not allows_o)
+    
     def _highlight_selected_state(self, state_code: str):
         """Highlight the selected state button."""
         for code, btn in self.state_buttons.items():
@@ -1172,6 +1412,7 @@ class MainWindow(QMainWindow):
     def _on_search_completed(self, results: CategorizedResults):
         """Handle search results from controller."""
         self.is_search_mode = True
+        self._last_search_results = results  # Store for export
         
         # Update result count label
         self.search_result_label.setText(
@@ -1303,7 +1544,23 @@ class MainWindow(QMainWindow):
     def _on_plate_type_changed(self, index: int):
         """Handle plate type dropdown change."""
         plate_type = self.plate_type_combo.currentData()
-        self.status_bar.showMessage(f"Selected plate type: {plate_type}", 2000)
+        if not plate_type:
+            return
+        
+        # Try to show the corresponding image
+        if plate_type != "standard":
+            found = self.image_panel.show_plate_type(plate_type)
+            if found:
+                self.status_bar.showMessage(f"Showing: {plate_type}", 2000)
+            else:
+                self.status_bar.showMessage(f"No image found for: {plate_type}", 2000)
+        else:
+            # For standard, just show first image
+            self.image_panel.show_plate_type("standard")
+            self.status_bar.showMessage("Showing standard plate", 2000)
+        
+        # Emit signal
+        self.plate_type_selected.emit(plate_type)
 
 
 def main():
