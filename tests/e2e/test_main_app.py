@@ -5,23 +5,19 @@ Tests for LicensePlateApp initialization and workflows
 
 import pytest
 from unittest.mock import Mock, MagicMock, patch
-import tkinter as tk
 
 
 class TestLicensePlateAppInit:
     """Test cases for main application initialization"""
     
-    @patch('tkinter.Tk')
-    @patch('src.gui.themes.theme_manager.ThemeManager')
-    def test_app_initialization(self, mock_theme, mock_tk):
+    def test_app_initialization(self):
         """Test application initializes without errors"""
         # Mock the app initialization
         app_initialized = True
         
         assert app_initialized is True
     
-    @patch('tkinter.Tk')
-    def test_window_geometry(self, mock_tk):
+    def test_window_geometry(self):
         """Test window geometry is set correctly"""
         expected_geometry = "1400x900"
         
@@ -33,8 +29,7 @@ class TestLicensePlateAppInit:
         
         mock_root.geometry.assert_called_with(expected_geometry)
     
-    @patch('tkinter.Tk')
-    def test_window_title(self, mock_tk):
+    def test_window_title(self):
         """Test window title is set correctly"""
         expected_title = "License Plate Information System"
         

@@ -74,6 +74,9 @@ class MainWindow(QMainWindow):
         self.mode_controller = ModeController(self)
         self.mode_controller.mode_changed.connect(self._on_mode_changed_from_controller)
         
+        # Sync mode controller with current_mode
+        self.mode_controller.set_mode(self.current_mode)
+        
         # Initialize state data manager
         self.state_data_manager = StateDataManager(self)
         
@@ -90,18 +93,27 @@ class MainWindow(QMainWindow):
         
         # Apply stylesheet
         self._apply_stylesheet()
+        
+        # Apply initial mode to state buttons (after everything is set up)
+        self._apply_current_mode()
     
     def _load_modes_config(self) -> dict:
         """Load queue modes configuration."""
-        config_path = Path(__file__).parent.parent.parent.parent / "config" / "queue_modes.json"
+        # main_window.py is in src/ui/, go up 2 levels to get to project root
+        config_path = Path(__file__).parent.parent.parent / "config" / "queue_modes.json"
         try:
             with open(config_path, "r") as f:
-                return json.load(f)
+                config = json.load(f)
+                print(f"[OK] Loaded modes config from {config_path}")
+                return config
         except FileNotFoundError:
+            print(f"[WARN] Modes config not found at {config_path}, using defaults")
             # Return default config if file not found
             return {
                 "modes": {
-                    "All": {"description": "All states equally", "primary": [], "secondary": [], "excluded": []}
+                    "All": {"description": "All states equally", "primary": [], "secondary": [], "excluded": []},
+                    "V3": {"description": "Florida primary", "primary": ["FL"], "secondary": ["GA", "AL", "SC", "NC", "TN", "MS", "LA", "TX"], "excluded": []},
+                    "PlateType": {"description": "Plate type states", "primary": ["MA", "ME", "OH", "IN", "IL"], "secondary": [], "excluded": ["FL"]}
                 },
                 "default_mode": "All"
             }
@@ -949,27 +961,35 @@ class MainWindow(QMainWindow):
     
     def _on_toggle_info_bar(self):
         """Toggle quick info bar visibility."""
-        self.status_bar.showMessage("Toggle Info Bar - Not yet implemented", 3000)
+        self.status_bar.setVisible(not self.status_bar.isVisible())
     
     def _on_expand_all_panels(self):
-        """Expand all collapsible panels."""
-        self.status_bar.showMessage("Expand All - Not yet implemented", 3000)
+        """Expand all panels by showing content splitter."""
+        self.state_info_panel.setVisible(True)
+        self.char_rules_panel.setVisible(True)
+        self.plate_type_panel.setVisible(True)
+        self.image_panel.setVisible(True)
+        self.status_bar.showMessage("All panels expanded", 2000)
     
     def _on_collapse_all_panels(self):
-        """Collapse all collapsible panels."""
-        self.status_bar.showMessage("Collapse All - Not yet implemented", 3000)
+        """Collapse panels by hiding info panels (keep images visible)."""
+        self.state_info_panel.setVisible(False)
+        self.char_rules_panel.setVisible(False)
+        self.plate_type_panel.setVisible(False)
+        # Keep image panel visible
+        self.status_bar.showMessage("Info panels collapsed", 2000)
     
     def _on_zoom_in(self):
         """Zoom in on images."""
-        self.status_bar.showMessage("Zoom In - Not yet implemented", 3000)
+        self.image_panel.zoom_in()
     
     def _on_zoom_out(self):
         """Zoom out on images."""
-        self.status_bar.showMessage("Zoom Out - Not yet implemented", 3000)
+        self.image_panel.zoom_out()
     
     def _on_reset_zoom(self):
         """Reset image zoom."""
-        self.status_bar.showMessage("Reset Zoom - Not yet implemented", 3000)
+        self.image_panel.zoom_reset()
     
     def _on_toggle_fullscreen(self):
         """Toggle fullscreen mode."""
@@ -986,6 +1006,37 @@ class MainWindow(QMainWindow):
         self.bottom_splitter.setSizes([500, 500])
         self.status_bar.showMessage("Layout reset to defaults", 3000)
     
+    def _apply_current_mode(self):
+        """Apply the current mode to all UI elements (used at startup and mode changes)."""
+        mode_name = self.current_mode
+        
+        # Update UI elements
+        if hasattr(self, 'mode_combo'):
+            self.mode_combo.blockSignals(True)
+            index = self.mode_combo.findText(mode_name)
+            if index >= 0:
+                self.mode_combo.setCurrentIndex(index)
+            self.mode_combo.blockSignals(False)
+        
+        # Update menu checkmarks
+        if hasattr(self, 'mode_actions'):
+            for name, action in self.mode_actions.items():
+                action.setChecked(name == mode_name)
+        
+        # Update status bar and description
+        if hasattr(self, 'status_mode'):
+            self.status_mode.setText(f"Mode: {mode_name}")
+        if hasattr(self, 'mode_description'):
+            self._update_mode_description()
+        
+        # Update state panel mode label
+        if hasattr(self, 'state_panel_mode_label'):
+            self.state_panel_mode_label.setText(f"Mode: {mode_name}")
+        
+        # Re-layout state buttons with mode-based categories
+        if hasattr(self, 'state_buttons') and self.state_buttons:
+            self._layout_state_buttons()
+    
     def _on_mode_selected(self, mode_name: str):
         """Handle mode selection from menu or dropdown."""
         if mode_name == self.current_mode:
@@ -997,27 +1048,8 @@ class MainWindow(QMainWindow):
         # Update mode
         self.current_mode = mode_name
         
-        # Update UI
-        self.mode_combo.blockSignals(True)
-        index = self.mode_combo.findText(mode_name)
-        if index >= 0:
-            self.mode_combo.setCurrentIndex(index)
-        self.mode_combo.blockSignals(False)
-        
-        # Update menu checkmarks
-        for name, action in self.mode_actions.items():
-            action.setChecked(name == mode_name)
-        
-        # Update status bar and description
-        self.status_mode.setText(f"Mode: {mode_name}")
-        self._update_mode_description()
-        
-        # Update state panel mode label
-        if hasattr(self, 'state_panel_mode_label'):
-            self.state_panel_mode_label.setText(f"Mode: {mode_name}")
-        
-        # Re-layout state buttons (colors are automatic based on category)
-        self._layout_state_buttons()
+        # Apply to UI
+        self._apply_current_mode()
         
         # Emit signal
         self.mode_changed.emit(mode_name)
@@ -1034,17 +1066,17 @@ class MainWindow(QMainWindow):
         # Clear existing buttons
         self.state_buttons.clear()
         
-        # Create buttons for all jurisdictions (category auto-detected by StateButton)
+        # Create buttons for all jurisdictions
         for state_code in self.mode_controller.ALL_JURISDICTIONS:
             btn = StateButton(state_code)
             btn.state_clicked.connect(self._on_state_button_clicked)
             self.state_buttons[state_code] = btn
         
-        # Lay out all buttons in grid (8 columns to fit in panel)
+        # Apply mode categories and layout
         self._layout_state_buttons()
     
     def _layout_state_buttons(self):
-        """Layout all state buttons using flow layout."""
+        """Layout all state buttons using flow layout based on current mode."""
         # Clear flow layout
         while self.states_flow.count():
             item = self.states_flow.takeAt(0)
@@ -1052,27 +1084,43 @@ class MainWindow(QMainWindow):
             if widget:
                 widget.setParent(None)
         
-        # Order: FL first, then plate_type, nearby, distant_major, territories, normal, canadian
+        # Get mode-based organization
+        primary_states = set(self.mode_controller.get_primary_states())
+        secondary_states = set(self.mode_controller.get_secondary_states())
+        excluded_states = self.mode_controller.get_excluded_states()
+        
+        # Update button categories based on current mode
+        for state_code, btn in self.state_buttons.items():
+            btn.set_mode_category(
+                is_primary=state_code in primary_states,
+                is_secondary=state_code in secondary_states,
+                is_excluded=state_code in excluded_states
+            )
+        
+        # Build ordered list: FL always first, then primary, then secondary, then rest
         ordered_states = []
         
-        # Florida first
-        ordered_states.extend([s for s in ['FL'] if s in self.state_buttons])
+        # Florida ALWAYS first
+        if 'FL' in self.state_buttons:
+            ordered_states.append('FL')
         
-        # Plate Type states
+        # Primary states (mode-defined, excluding FL since it's already added)
+        ordered_states.extend([s for s in self.mode_controller.get_primary_states() 
+                               if s in self.state_buttons and s not in ordered_states])
+        
+        # Secondary states (mode-defined) 
+        ordered_states.extend([s for s in self.mode_controller.get_secondary_states()
+                               if s in self.state_buttons and s not in ordered_states])
+        
+        # Plate type states (if not already included)
         plate_type = ['MA', 'ME', 'OH', 'IN', 'IL']
-        ordered_states.extend([s for s in plate_type if s in self.state_buttons])
-        
-        # Nearby states (sorted)
-        nearby = ['GA', 'AL', 'SC', 'NC', 'TN', 'MS', 'LA']
-        ordered_states.extend([s for s in nearby if s in self.state_buttons])
-        
-        # Distant major states
-        distant = ['CA', 'TX', 'NY', 'PA', 'NJ', 'WA', 'AZ', 'CO', 'VA', 'MD']
-        ordered_states.extend([s for s in distant if s in self.state_buttons])
+        ordered_states.extend([s for s in plate_type 
+                               if s in self.state_buttons and s not in ordered_states])
         
         # Territories
         territories = ['DC', 'PR', 'GU', 'VI', 'AS', 'MP']
-        ordered_states.extend([s for s in territories if s in self.state_buttons])
+        ordered_states.extend([s for s in territories 
+                               if s in self.state_buttons and s not in ordered_states])
         
         # All other US states (alphabetical)
         used = set(ordered_states)
@@ -1082,9 +1130,10 @@ class MainWindow(QMainWindow):
         
         # Canadian provinces last
         canadian = ['ON', 'QC', 'BC', 'AB', 'MB', 'SK', 'NS', 'NB', 'NL', 'PE', 'NT', 'NU', 'YT']
-        ordered_states.extend([s for s in canadian if s in self.state_buttons])
+        ordered_states.extend([s for s in canadian 
+                               if s in self.state_buttons and s not in ordered_states])
         
-        # Add buttons to flow layout - they will wrap automatically
+        # Add buttons to flow layout (excluded states are shown but dimmed)
         for state in ordered_states:
             btn = self.state_buttons[state]
             self.states_flow.addWidget(btn)
@@ -1477,7 +1526,21 @@ class MainWindow(QMainWindow):
     
     def _on_jump_to_state(self):
         """Open jump to state dialog."""
-        self.status_bar.showMessage("Jump to State - Not yet implemented", 3000)
+        from PySide6.QtWidgets import QInputDialog
+        
+        state_code, ok = QInputDialog.getText(
+            self, "Jump to State",
+            "Enter state code (e.g., CA, NY, TX):",
+            text=""
+        )
+        
+        if ok and state_code:
+            state_code = state_code.strip().upper()
+            if state_code in self.state_buttons:
+                self._on_state_button_clicked(state_code)
+                self.status_bar.showMessage(f"Jumped to {state_code}", 2000)
+            else:
+                self.status_bar.showMessage(f"State '{state_code}' not found", 3000)
     
     def _on_refresh_database(self):
         """Refresh database."""

@@ -1,9 +1,9 @@
 @echo off
-REM Build Script for License Plate Information System
-REM Creates a directory-based distribution (RECOMMENDED)
+REM Build Script for License Plate Information System (PySide6 Version)
+REM Creates a directory-based distribution
 
 echo ========================================
-echo License Plate Info - Build Script
+echo License Plate Info - PySide6 Build Script
 echo ========================================
 echo.
 
@@ -25,6 +25,24 @@ if errorlevel 1 (
     echo.
 )
 
+REM Check if PySide6 is installed
+echo Checking for PySide6...
+python -m pip show PySide6 >nul 2>&1
+if errorlevel 1 (
+    echo PySide6 not found. Installing...
+    python -m pip install PySide6
+    if errorlevel 1 (
+        echo ERROR: Failed to install PySide6
+        pause
+        exit /b 1
+    )
+    echo PySide6 installed successfully!
+    echo.
+) else (
+    echo PySide6 is already installed.
+    echo.
+)
+
 REM Clean previous builds
 echo Cleaning previous builds...
 if exist build rmdir /s /q build
@@ -33,10 +51,10 @@ echo Previous builds cleaned.
 echo.
 
 REM Build the application
-echo Building application (Directory Mode)...
+echo Building PySide6 application (Directory Mode)...
 echo This will take a few minutes...
 echo.
-pyinstaller LicensePlateInfo.spec
+pyinstaller LicensePlateInfo_PySide6.spec
 
 if errorlevel 1 (
     echo.
@@ -55,21 +73,9 @@ echo BUILD SUCCESSFUL!
 echo ========================================
 echo.
 echo Output location: dist\LicensePlateInfo\
-echo Main executable: dist\LicensePlateInfo\LicensePlateInfo.exe
+echo Run: dist\LicensePlateInfo\LicensePlateInfo.exe
 echo.
-echo To run: cd dist\LicensePlateInfo && LicensePlateInfo.exe
-echo.
-echo To distribute: ZIP the entire "LicensePlateInfo" folder
+echo NOTE: This is the PySide6 version with improved DPI scaling
 echo.
 
-REM Ask if user wants to test
-set /p test="Test the application now? (y/n): "
-if /i "%test%"=="y" (
-    echo.
-    echo Starting application...
-    start "" "dist\LicensePlateInfo\LicensePlateInfo.exe"
-)
-
-echo.
-echo Press any key to exit...
-pause >nul
+pause

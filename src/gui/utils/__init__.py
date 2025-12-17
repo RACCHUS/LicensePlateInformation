@@ -1,11 +1,10 @@
 """
-GUI Utilities - Helper functions and factories for UI components
+GUI Utilities - Search engine for license plate data.
+
+Note: Most utilities have been moved to src/ui/ for the PySide6 migration.
+Only JSONSearchEngine remains here as it's reused by the new UI.
 """
 
-from .widget_factory import WidgetFactory
-from .layout_helpers import LayoutHelpers
+from .json_search_engine import JSONSearchEngine
 
-__all__ = [
-    'WidgetFactory',
-    'LayoutHelpers'
-]
+__all__ = ['JSONSearchEngine']

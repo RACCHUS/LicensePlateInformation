@@ -573,7 +573,7 @@ QPushButton.state-selected {
 
 ### Phase 5: Testing & Cleanup (2-3 days)
 - [x] Update/add tests for new UI components
-- [ ] Remove old Tkinter code (keep json_search_engine.py)
+- [x] Remove old Tkinter code (keep json_search_engine.py)
 - [x] Update build scripts
 - [x] Documentation updates
 - [x] Performance testing

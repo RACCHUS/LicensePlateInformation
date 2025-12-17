@@ -1,8 +1,10 @@
 """
-GUI module for License Plate Information System
+GUI module for License Plate Information System.
+
+Note: The Tkinter GUI has been replaced with PySide6 (see src/ui/).
+This module only contains the JSONSearchEngine which is reused by the new UI.
 """
 
-from .themes.theme_manager import ThemeManager
-from .utils.widget_factory import WidgetFactory
+from .utils.json_search_engine import JSONSearchEngine
 
-__all__ = ['ThemeManager', 'WidgetFactory']
+__all__ = ['JSONSearchEngine']
