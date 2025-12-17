@@ -16,14 +16,6 @@ from PySide6.QtCore import QRect, QSize, QPoint
 from src.ui.widgets.flow_layout import FlowLayout
 
 
-@pytest.fixture(scope="module")
-def qapp():
-    """Create a QApplication for widget testing."""
-    app = QApplication.instance()
-    if app is None:
-        app = QApplication([])
-    yield app
-
 
 @pytest.fixture
 def flow_layout(qapp):

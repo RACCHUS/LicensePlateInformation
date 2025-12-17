@@ -87,7 +87,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Michigan/plate_sample.png",
+        "plate_sample": "data/images/MI/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -2891,7 +2891,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Michigan/permanent-trailer_sample.png",
+        "plate_sample": "data/images/MI/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5687,7 +5687,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Michigan/plate_sample.png"
+        "plate_sample": "data/images/MI/plate_sample.png"
       }
     },
     {
@@ -5718,7 +5718,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Michigan/plate_sample.png"
+        "plate_sample": "data/images/MI/plate_sample.png"
       }
     },
     {

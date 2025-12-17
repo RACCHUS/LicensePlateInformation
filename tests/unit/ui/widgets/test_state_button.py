@@ -15,14 +15,6 @@ from PySide6.QtWidgets import QApplication
 from src.ui.widgets.state_button import StateButton
 
 
-@pytest.fixture(scope="module")
-def qapp():
-    """Create a QApplication for widget testing."""
-    app = QApplication.instance()
-    if app is None:
-        app = QApplication([])
-    yield app
-
 
 @pytest.fixture
 def state_button(qapp):

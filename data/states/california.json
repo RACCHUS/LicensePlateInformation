@@ -112,7 +112,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/California/plate_sample.png",
+        "plate_sample": "data/images/CA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3821,7 +3821,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/plate_sample.png",
+        "plate_sample": "data/images/CA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3871,7 +3871,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/plate_sample.png",
+        "plate_sample": "data/images/CA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3921,7 +3921,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/plate_sample.png",
+        "plate_sample": "data/images/CA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3971,7 +3971,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/plate_sample.png",
+        "plate_sample": "data/images/CA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -4021,7 +4021,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/plate_sample.png",
+        "plate_sample": "data/images/CA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -4071,7 +4071,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/plate_sample.png",
+        "plate_sample": "data/images/CA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5924,7 +5924,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/trailer_sample.png",
+        "plate_sample": "data/images/CA/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5974,7 +5974,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/trailer_sample.png",
+        "plate_sample": "data/images/CA/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -6024,7 +6024,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/trailer_sample.png",
+        "plate_sample": "data/images/CA/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -6074,7 +6074,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/trailer_sample.png",
+        "plate_sample": "data/images/CA/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7484,7 +7484,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/trailer_sample.png"
+        "plate_sample": "data/images/CA/trailer_sample.png"
       }
     },
     {
@@ -7566,7 +7566,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/plate_sample.png"
+        "plate_sample": "data/images/CA/plate_sample.png"
       }
     },
     {
@@ -7597,7 +7597,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/plate_sample.png"
+        "plate_sample": "data/images/CA/plate_sample.png"
       }
     },
     {
@@ -7627,7 +7627,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/plate_sample.png"
+        "plate_sample": "data/images/CA/plate_sample.png"
       }
     },
     {
@@ -7843,7 +7843,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/California/trailer_sample.png"
+        "plate_sample": "data/images/CA/trailer_sample.png"
       }
     },
     {
@@ -7936,7 +7936,7 @@
   },
   "images": {
     "state_logo": null,
-    "character_font_reference": "data/images/Plates/California/fontO.png",
+    "character_font_reference": "data/images/CA/fontO.png",
     "blank_plate_template": null,
     "sticker_sample": null
   }

@@ -72,7 +72,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/West Virginia/plate_sample.png",
+        "plate_sample": "data/images/WV/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -4975,7 +4975,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/West Virginia/plate_sample.png",
+        "plate_sample": "data/images/WV/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5175,7 +5175,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/West Virginia/plate_sample.png",
+        "plate_sample": "data/images/WV/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -6088,7 +6088,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/West Virginia/plate_sample.png"
+        "plate_sample": "data/images/WV/plate_sample.png"
       }
     },
     {
@@ -6115,7 +6115,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/West Virginia/plate_sample.png"
+        "plate_sample": "data/images/WV/plate_sample.png"
       }
     },
     {
@@ -6286,7 +6286,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/West Virginia/plate_sample.png"
+        "plate_sample": "data/images/WV/plate_sample.png"
       }
     },
     {
@@ -6337,7 +6337,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/West Virginia/plate_sample.png"
+        "plate_sample": "data/images/WV/plate_sample.png"
       }
     },
     {
@@ -6532,7 +6532,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/West Virginia/trailer_sample.png"
+        "plate_sample": "data/images/WV/trailer_sample.png"
       }
     },
     {

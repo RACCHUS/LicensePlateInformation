@@ -81,7 +81,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/New Jersey/plate_sample.png",
+        "plate_sample": "data/images/NJ/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5532,7 +5532,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/New Jersey/plate_sample.png",
+        "plate_sample": "data/images/NJ/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7234,7 +7234,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/New Jersey/plate_sample.png"
+        "plate_sample": "data/images/NJ/plate_sample.png"
       }
     },
     {
@@ -7898,7 +7898,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/New Jersey/trailer_sample.png"
+        "plate_sample": "data/images/NJ/trailer_sample.png"
       }
     },
     {

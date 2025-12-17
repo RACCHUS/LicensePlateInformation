@@ -131,7 +131,7 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Alabama/plate_sample.png",
+        "plate_sample": "data/images/AL/plate_sample.png",
         "character_font_sample": "images/plates/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
@@ -2839,7 +2839,7 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Alabama/fleet-trailer_sample.png",
+        "plate_sample": "data/images/AL/fleet-trailer_sample.png",
         "character_font_sample": "images/plates/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
@@ -2896,7 +2896,7 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Alabama/fleet-trailer_sample.png",
+        "plate_sample": "data/images/AL/fleet-trailer_sample.png",
         "character_font_sample": "images/plates/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
@@ -3184,7 +3184,7 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Alabama/trailer_sample.png",
+        "plate_sample": "data/images/AL/trailer_sample.png",
         "character_font_sample": "images/plates/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
@@ -3646,7 +3646,7 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Alabama/permanent-trailer_sample.png",
+        "plate_sample": "data/images/AL/permanent-trailer_sample.png",
         "character_font_sample": "images/plates/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
@@ -3762,7 +3762,7 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Alabama/plate_sample.png",
+        "plate_sample": "data/images/AL/plate_sample.png",
         "character_font_sample": "images/plates/AL/0/font_sample.png",
         "blank_template": null,
         "variations": []
@@ -3816,7 +3816,7 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Alabama/rental-trailer_sample.png",
+        "plate_sample": "data/images/AL/rental-trailer_sample.png",
         "character_font_sample": "images/plates/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
@@ -4045,7 +4045,7 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Alabama/semi-trailer_sample.png",
+        "plate_sample": "data/images/AL/semi-trailer_sample.png",
         "character_font_sample": "images/plates/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
@@ -4460,7 +4460,7 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Alabama/trailer_sample.png",
+        "plate_sample": "data/images/AL/trailer_sample.png",
         "character_font_sample": "images/plates/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [
@@ -4649,7 +4649,7 @@
         "plate_images_available": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Alabama/trailer_sample.png",
+        "plate_sample": "data/images/AL/trailer_sample.png",
         "character_font_sample": "images/plates/AL/0/font_sample.png",
         "blank_template": null,
         "variations": [

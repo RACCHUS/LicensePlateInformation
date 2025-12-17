@@ -117,7 +117,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/plate_sample.png",
+        "plate_sample": "data/images/IN/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7105,7 +7105,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7213,7 +7213,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/plate_sample.png",
+        "plate_sample": "data/images/IN/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -12914,7 +12914,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/plate_sample.png",
+        "plate_sample": "data/images/IN/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -12971,7 +12971,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/plate_sample.png",
+        "plate_sample": "data/images/IN/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13028,7 +13028,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13085,7 +13085,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13142,7 +13142,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13199,7 +13199,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13256,7 +13256,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13313,7 +13313,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13370,7 +13370,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13427,7 +13427,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13484,7 +13484,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13541,7 +13541,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13598,7 +13598,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13655,7 +13655,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13712,7 +13712,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13769,7 +13769,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13826,7 +13826,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13883,7 +13883,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/permanent-trailer_sample.png",
+        "plate_sample": "data/images/IN/permanent-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -14567,7 +14567,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_omit_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/semi-trailer_sample.png",
+        "plate_sample": "data/images/IN/semi-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -15536,7 +15536,7 @@
       "subtype": null,
       "processing_type": "truck_omit_stacked",
       "images": {
-        "plate_sample": "data/images/Plates/Indiana/trailer_sample.png",
+        "plate_sample": "data/images/IN/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []

@@ -68,7 +68,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Illinios/plate_sample.png",
+        "plate_sample": "data/images/IL/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -6751,7 +6751,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Illinios/plate_sample.png",
+        "plate_sample": "data/images/IL/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -6808,7 +6808,7 @@
       "subtype": null,
       "processing_type": "semi_trailer_with_suffix",
       "images": {
-        "plate_sample": "data/images/Plates/Illinios/semi-trailer_sample.png",
+        "plate_sample": "data/images/IL/semi-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -8380,7 +8380,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Illinios/plate_sample.png",
+        "plate_sample": "data/images/IL/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -8436,7 +8436,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Illinios/plate_sample.png",
+        "plate_sample": "data/images/IL/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -8940,7 +8940,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Illinios/plate_sample.png",
+        "plate_sample": "data/images/IL/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []

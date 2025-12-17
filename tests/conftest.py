@@ -17,6 +17,21 @@ sys.path.insert(0, str(Path(__file__).parent.parent / 'src'))
 
 
 # ============================================================================
+# QT APPLICATION FIXTURE (Session-scoped to avoid conflicts)
+# ============================================================================
+
+@pytest.fixture(scope="session")
+def qapp():
+    """Create a QApplication for widget testing (session-scoped)."""
+    from PySide6.QtWidgets import QApplication
+    app = QApplication.instance()
+    if app is None:
+        app = QApplication([])
+    yield app
+    # Don't quit the app - let PySide6 handle cleanup
+
+
+# ============================================================================
 # DATABASE FIXTURES
 # ============================================================================
 

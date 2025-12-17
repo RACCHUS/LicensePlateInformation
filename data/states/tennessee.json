@@ -57,7 +57,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Tennessee/plate_sample.png",
+        "plate_sample": "data/images/TN/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -383,7 +383,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Tennessee/semi-trailer_sample.png",
+        "plate_sample": "data/images/TN/semi-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -13047,7 +13047,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Tennessee/plate_sample.png"
+        "plate_sample": "data/images/TN/plate_sample.png"
       }
     },
     {
@@ -13076,7 +13076,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Tennessee/plate_sample.png"
+        "plate_sample": "data/images/TN/plate_sample.png"
       }
     },
     {
@@ -14120,7 +14120,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Tennessee/trailer_sample.png"
+        "plate_sample": "data/images/TN/trailer_sample.png"
       }
     },
     {
@@ -14178,7 +14178,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Tennessee/trailer_sample.png"
+        "plate_sample": "data/images/TN/trailer_sample.png"
       }
     },
     {
@@ -14208,7 +14208,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Tennessee/trailer_sample.png"
+        "plate_sample": "data/images/TN/trailer_sample.png"
       }
     },
     {

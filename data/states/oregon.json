@@ -76,7 +76,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Oregon/plate_sample.png",
+        "plate_sample": "data/images/OR/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -592,7 +592,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Oregon/trailer_sample.png",
+        "plate_sample": "data/images/OR/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1042,7 +1042,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Oregon/trailer_sample.png",
+        "plate_sample": "data/images/OR/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1092,7 +1092,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Oregon/trailer_sample.png",
+        "plate_sample": "data/images/OR/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1192,7 +1192,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Oregon/trailer_sample.png",
+        "plate_sample": "data/images/OR/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1342,7 +1342,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Oregon/trailer_sample.png",
+        "plate_sample": "data/images/OR/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1642,7 +1642,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Oregon/trailer_sample.png",
+        "plate_sample": "data/images/OR/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -1792,7 +1792,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Oregon/plate_sample.png",
+        "plate_sample": "data/images/OR/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [

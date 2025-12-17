@@ -80,7 +80,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Ohio/plate_sample.png",
+        "plate_sample": "data/images/OH/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -17496,7 +17496,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Ohio/plate_sample.png",
+        "plate_sample": "data/images/OH/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -21884,7 +21884,7 @@
       "subtype": null,
       "processing_type": "trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Ohio/trailer_sample.png",
+        "plate_sample": "data/images/OH/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -23594,7 +23594,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Ohio/plate_sample.png",
+        "plate_sample": "data/images/OH/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -23651,7 +23651,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Ohio/plate_sample.png",
+        "plate_sample": "data/images/OH/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -23708,7 +23708,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Ohio/plate_sample.png",
+        "plate_sample": "data/images/OH/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -26841,7 +26841,7 @@
       "subtype": null,
       "processing_type": "trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Ohio/trailer_sample.png",
+        "plate_sample": "data/images/OH/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -26897,7 +26897,7 @@
       "subtype": null,
       "processing_type": "trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Ohio/trailer_sample.png",
+        "plate_sample": "data/images/OH/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -28463,7 +28463,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Ohio/plate_sample.png"
+        "plate_sample": "data/images/OH/plate_sample.png"
       }
     }
   ],

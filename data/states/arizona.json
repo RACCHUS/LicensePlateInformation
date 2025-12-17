@@ -65,7 +65,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Arizona/plate_sample.png",
+        "plate_sample": "data/images/AZ/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5084,7 +5084,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Arizona/plate_sample.png",
+        "plate_sample": "data/images/AZ/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5678,7 +5678,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Arizona/trailer_sample.png"
+        "plate_sample": "data/images/AZ/trailer_sample.png"
       }
     },
     {
@@ -6632,7 +6632,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Arizona/plate_sample.png"
+        "plate_sample": "data/images/AZ/plate_sample.png"
       }
     },
     {
@@ -6661,7 +6661,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Arizona/plate_sample.png"
+        "plate_sample": "data/images/AZ/plate_sample.png"
       }
     },
     {
@@ -6820,7 +6820,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Arizona/trailer_sample.png"
+        "plate_sample": "data/images/AZ/trailer_sample.png"
       }
     },
     {
@@ -7046,7 +7046,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Arizona/trailer_sample.png"
+        "plate_sample": "data/images/AZ/trailer_sample.png"
       }
     },
     {
@@ -7077,7 +7077,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Arizona/trailer_sample.png"
+        "plate_sample": "data/images/AZ/trailer_sample.png"
       }
     },
     {
@@ -7106,7 +7106,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Arizona/trailer_sample.png"
+        "plate_sample": "data/images/AZ/trailer_sample.png"
       }
     },
     {

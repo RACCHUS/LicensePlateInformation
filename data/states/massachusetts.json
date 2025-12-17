@@ -114,7 +114,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Massachusetts/plate_sample.png",
+        "plate_sample": "data/images/MA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -8136,7 +8136,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Massachusetts/plate_sample.png",
+        "plate_sample": "data/images/MA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -8198,7 +8198,7 @@
       "subtype": null,
       "processing_type": "passenger_vehicle",
       "images": {
-        "plate_sample": "data/images/Plates/Massachusetts/plate_sample.png",
+        "plate_sample": "data/images/MA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -8856,7 +8856,7 @@
       "subtype": null,
       "processing_type": "semi_trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Massachusetts/semi-trailer_sample.png",
+        "plate_sample": "data/images/MA/semi-trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -9396,7 +9396,7 @@
       "subtype": null,
       "processing_type": "trailer",
       "images": {
-        "plate_sample": "data/images/Plates/Massachusetts/trailer_sample.png",
+        "plate_sample": "data/images/MA/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []

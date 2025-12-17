@@ -88,7 +88,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Pennsylvania/plate_sample.png",
+        "plate_sample": "data/images/PA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -9270,7 +9270,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Pennsylvania/plate_sample.png",
+        "plate_sample": "data/images/PA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -12554,7 +12554,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Pennsylvania/plate_sample.png",
+        "plate_sample": "data/images/PA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -26166,7 +26166,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Pennsylvania/plate_sample.png"
+        "plate_sample": "data/images/PA/plate_sample.png"
       }
     },
     {
@@ -26196,7 +26196,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Pennsylvania/plate_sample.png"
+        "plate_sample": "data/images/PA/plate_sample.png"
       }
     },
     {
@@ -26295,7 +26295,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Pennsylvania/plate_sample.png"
+        "plate_sample": "data/images/PA/plate_sample.png"
       }
     },
     {
@@ -26494,7 +26494,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Pennsylvania/permanent-trailer_sample.png"
+        "plate_sample": "data/images/PA/permanent-trailer_sample.png"
       }
     },
     {
@@ -28286,7 +28286,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Pennsylvania/trailer_sample.png"
+        "plate_sample": "data/images/PA/trailer_sample.png"
       }
     },
     {
@@ -28316,7 +28316,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Pennsylvania/trailer_sample.png"
+        "plate_sample": "data/images/PA/trailer_sample.png"
       }
     },
     {
@@ -29096,7 +29096,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Pennsylvania/trailer_sample.png"
+        "plate_sample": "data/images/PA/trailer_sample.png"
       }
     },
     {
@@ -29291,7 +29291,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Pennsylvania/trailer_sample.png"
+        "plate_sample": "data/images/PA/trailer_sample.png"
       }
     },
     {

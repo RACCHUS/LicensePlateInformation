@@ -92,7 +92,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/plate_sample.png",
+        "plate_sample": "data/images/MS/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -6129,7 +6129,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png",
+        "plate_sample": "data/images/MS/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -9377,7 +9377,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png",
+        "plate_sample": "data/images/MS/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -9477,7 +9477,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png",
+        "plate_sample": "data/images/MS/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -9827,7 +9827,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png",
+        "plate_sample": "data/images/MS/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -13476,7 +13476,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png",
+        "plate_sample": "data/images/MS/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -15148,7 +15148,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/permanent-trailer_sample.png"
+        "plate_sample": "data/images/MS/permanent-trailer_sample.png"
       }
     },
     {
@@ -15257,7 +15257,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/semi-trailer_sample.png"
+        "plate_sample": "data/images/MS/semi-trailer_sample.png"
       }
     },
     {
@@ -15286,7 +15286,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/semi-trailer_sample.png"
+        "plate_sample": "data/images/MS/semi-trailer_sample.png"
       }
     },
     {
@@ -15368,7 +15368,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/plate_sample.png"
+        "plate_sample": "data/images/MS/plate_sample.png"
       }
     },
     {
@@ -15398,7 +15398,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/plate_sample.png"
+        "plate_sample": "data/images/MS/plate_sample.png"
       }
     },
     {
@@ -15523,7 +15523,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png"
+        "plate_sample": "data/images/MS/trailer_sample.png"
       }
     },
     {
@@ -15554,7 +15554,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Mississippi/trailer_sample.png"
+        "plate_sample": "data/images/MS/trailer_sample.png"
       }
     },
     {

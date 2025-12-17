@@ -17,15 +17,6 @@ from src.ui.controllers.search_controller import (
 )
 
 
-@pytest.fixture(scope="module")
-def qapp():
-    """Create a QCoreApplication for signal testing."""
-    app = QCoreApplication.instance()
-    if app is None:
-        app = QCoreApplication([])
-    yield app
-
-
 @pytest.fixture
 def search_controller(qapp):
     """Create a SearchController instance."""

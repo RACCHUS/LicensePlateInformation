@@ -58,28 +58,6 @@ class ImagePanel(QWidget):
         'variation': 4        # variations
     }
     
-    # Mapping of state codes to folder names in data/images/Plates directory
-    STATE_FOLDER_MAP: Dict[str, str] = {
-        'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona',
-        'AR': 'Arkansas', 'CA': 'California', 'CO': 'Colorado',
-        'CT': 'Connecticut', 'DE': 'Delaware', 'FL': 'Florida',
-        'GA': 'Georgia', 'HI': 'Hawaii', 'ID': 'Idaho',
-        'IL': 'Illinios',  # Note: typo in folder name preserved
-        'IN': 'Indiana', 'IA': 'Iowa', 'KS': 'Kansas',
-        'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine',
-        'MD': 'Maryland', 'MA': 'Massachusetts', 'MI': 'Michigan',
-        'MN': 'Minnesota', 'MS': 'Mississippi', 'MO': 'Missouri',
-        'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada',
-        'NH': 'New Hampshire', 'NJ': 'New Jersey', 'NM': 'New Mexico',
-        'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota',
-        'OH': 'Ohio', 'OK': 'Oklahoma', 'OR': 'Oregon',
-        'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina',
-        'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas',
-        'UT': 'Utah', 'VT': 'Vermont', 'VA': 'Virginia',
-        'WA': 'Washington', 'WV': 'West Virginia', 'WI': 'Wisconsin',
-        'WY': 'Wyoming'
-    }
-    
     def __init__(self, data_path: Path, parent=None):
         super().__init__(parent)
         
@@ -304,24 +282,16 @@ class ImagePanel(QWidget):
         """
         Get list of directories to search for images.
         
-        Priority order:
-        1. data/images/Plates/{State Name}/ (e.g., data/images/Plates/Florida/)
-        2. data/images/{STATE_CODE}/ (e.g., data/images/FL/)
-        3. data/images/{STATE_CODE}/plates/ subdirectory if exists
+        Searches:
+        1. data/images/{STATE_CODE}/ (e.g., data/images/FL/)
+        2. data/images/{STATE_CODE}/plates/ subdirectory if exists
         """
         search_dirs = []
         
         if not self.current_state:
             return search_dirs
         
-        # Priority 1: Check Plates directory with full state name
-        state_folder_name = self.STATE_FOLDER_MAP.get(self.current_state.upper())
-        if state_folder_name:
-            plates_state_dir = self.images_path / "Plates" / state_folder_name
-            if plates_state_dir.exists():
-                search_dirs.append(plates_state_dir)
-        
-        # Priority 2: Check state code directory
+        # Check state code directory
         state_code_dir = self.images_path / self.current_state
         if state_code_dir.exists():
             search_dirs.append(state_code_dir)

@@ -12434,7 +12434,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/New York/semi-trailer_sample.png"
+        "plate_sample": "data/images/NY/semi-trailer_sample.png"
       }
     },
     {
@@ -13193,7 +13193,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/New York/trailer_sample.png"
+        "plate_sample": "data/images/NY/trailer_sample.png"
       }
     },
     {

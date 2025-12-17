@@ -82,7 +82,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Louisiana/plate_sample.png",
+        "plate_sample": "data/images/LA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": "data/images/LA/Blank_ImageNotAvailable.jpg",
         "variations": [
@@ -11401,7 +11401,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Louisiana/trailer_sample.png"
+        "plate_sample": "data/images/LA/trailer_sample.png"
       }
     },
     {
@@ -12220,7 +12220,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Louisiana/trailer_sample.png"
+        "plate_sample": "data/images/LA/trailer_sample.png"
       }
     },
     {
@@ -12743,7 +12743,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Louisiana/plate_sample.png"
+        "plate_sample": "data/images/LA/plate_sample.png"
       }
     },
     {
@@ -12774,7 +12774,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Louisiana/plate_sample.png"
+        "plate_sample": "data/images/LA/plate_sample.png"
       }
     },
     {
@@ -12803,7 +12803,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Louisiana/plate_sample.png"
+        "plate_sample": "data/images/LA/plate_sample.png"
       }
     },
     {
@@ -13606,7 +13606,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Louisiana/trailer_sample.png"
+        "plate_sample": "data/images/LA/trailer_sample.png"
       }
     },
     {

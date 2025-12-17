@@ -17,15 +17,6 @@ from PySide6.QtCore import QCoreApplication
 from src.ui.controllers.state_data_manager import StateDataManager
 
 
-@pytest.fixture(scope="module")
-def qapp():
-    """Create a QCoreApplication for signal testing."""
-    app = QCoreApplication.instance()
-    if app is None:
-        app = QCoreApplication([])
-    yield app
-
-
 @pytest.fixture
 def temp_state_dir(tmp_path):
     """Create a temporary state data directory with sample files."""

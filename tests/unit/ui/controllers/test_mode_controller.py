@@ -17,15 +17,6 @@ from PySide6.QtCore import QCoreApplication
 from src.ui.controllers.mode_controller import ModeController
 
 
-@pytest.fixture(scope="module")
-def qapp():
-    """Create a QCoreApplication for signal testing."""
-    app = QCoreApplication.instance()
-    if app is None:
-        app = QCoreApplication([])
-    yield app
-
-
 @pytest.fixture
 def temp_config(tmp_path):
     """Create a temporary config file."""

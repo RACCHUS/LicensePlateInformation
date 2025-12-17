@@ -57,7 +57,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/North Carolina/plate_sample.png",
+        "plate_sample": "data/images/NC/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [

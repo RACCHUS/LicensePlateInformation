@@ -72,7 +72,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Delaware/plate_sample.png",
+        "plate_sample": "data/images/DE/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -5991,7 +5991,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Delaware/plate_sample.png",
+        "plate_sample": "data/images/DE/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -7704,7 +7704,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Delaware/plate_sample.png"
+        "plate_sample": "data/images/DE/plate_sample.png"
       }
     },
     {
@@ -7731,7 +7731,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Delaware/plate_sample.png"
+        "plate_sample": "data/images/DE/plate_sample.png"
       }
     },
     {
@@ -7878,7 +7878,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Delaware/plate_sample.png"
+        "plate_sample": "data/images/DE/plate_sample.png"
       }
     },
     {
@@ -7929,7 +7929,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Delaware/plate_sample.png"
+        "plate_sample": "data/images/DE/plate_sample.png"
       }
     },
     {
@@ -8124,7 +8124,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Delaware/trailer_sample.png"
+        "plate_sample": "data/images/DE/trailer_sample.png"
       }
     },
     {

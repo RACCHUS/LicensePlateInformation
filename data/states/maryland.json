@@ -72,7 +72,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Maryland/plate_sample.png",
+        "plate_sample": "data/images/MD/plate_sample.png",
         "character_font_sample": null,
         "blank_template": "data/images/MD/Blank-Bottom-Rotory-Int.gif",
         "variations": [

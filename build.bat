@@ -54,7 +54,7 @@ REM Build the application
 echo Building PySide6 application (Directory Mode)...
 echo This will take a few minutes...
 echo.
-pyinstaller LicensePlateInfo_PySide6.spec
+pyinstaller LicensePlateInfo.spec
 
 if errorlevel 1 (
     echo.

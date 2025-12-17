@@ -108,7 +108,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Arkansas/plate_sample.png",
+        "plate_sample": "data/images/AR/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -8810,7 +8810,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Arkansas/plate_sample.png"
+        "plate_sample": "data/images/AR/plate_sample.png"
       }
     },
     {
@@ -8840,7 +8840,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Arkansas/plate_sample.png"
+        "plate_sample": "data/images/AR/plate_sample.png"
       }
     },
     {
@@ -8895,7 +8895,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Arkansas/permanent-trailer_sample.png"
+        "plate_sample": "data/images/AR/permanent-trailer_sample.png"
       }
     },
     {
@@ -9796,7 +9796,7 @@
   },
   "images": {
     "state_logo": null,
-    "character_font_reference": "data/images/Plates/Arkansas/fontO.png",
+    "character_font_reference": "data/images/AR/fontO.png",
     "blank_plate_template": null,
     "sticker_sample": null
   }

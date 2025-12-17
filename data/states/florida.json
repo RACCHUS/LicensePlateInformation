@@ -10200,7 +10200,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Florida/plate_sample.png",
+        "plate_sample": "data/images/FL/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -14601,7 +14601,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Florida/truck_sample.png",
+        "plate_sample": "data/images/FL/truck_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -16357,7 +16357,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Florida/plate_sample.png",
+        "plate_sample": "data/images/FL/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -16415,7 +16415,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Florida/plate_sample.png",
+        "plate_sample": "data/images/FL/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -17393,7 +17393,7 @@
         "period_2": null
       },
       "images": {
-        "plate_sample": "data/images/Plates/Florida/truck_sample.png",
+        "plate_sample": "data/images/FL/truck_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [

@@ -72,7 +72,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Montana/plate_sample.png",
+        "plate_sample": "data/images/MT/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -11763,7 +11763,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Montana/plate_sample.png"
+        "plate_sample": "data/images/MT/plate_sample.png"
       }
     },
     {
@@ -11790,7 +11790,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Montana/plate_sample.png"
+        "plate_sample": "data/images/MT/plate_sample.png"
       }
     },
     {
@@ -11940,7 +11940,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Montana/plate_sample.png"
+        "plate_sample": "data/images/MT/plate_sample.png"
       }
     },
     {
@@ -11991,7 +11991,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Montana/plate_sample.png"
+        "plate_sample": "data/images/MT/plate_sample.png"
       }
     },
     {
@@ -12186,7 +12186,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Montana/trailer_sample.png"
+        "plate_sample": "data/images/MT/trailer_sample.png"
       }
     },
     {

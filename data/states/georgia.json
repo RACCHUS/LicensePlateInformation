@@ -57,7 +57,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Georgia/plate_sample.png",
+        "plate_sample": "data/images/GA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -123,7 +123,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Georgia/plate_sample.png",
+        "plate_sample": "data/images/GA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -177,7 +177,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Georgia/plate_sample.png",
+        "plate_sample": "data/images/GA/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -771,7 +771,7 @@
       "code_number": "0",
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Georgia/trailer_sample.png",
+        "plate_sample": "data/images/GA/trailer_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": []
@@ -16980,7 +16980,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Georgia/plate_sample.png"
+        "plate_sample": "data/images/GA/plate_sample.png"
       }
     },
     {
@@ -17010,7 +17010,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Georgia/plate_sample.png"
+        "plate_sample": "data/images/GA/plate_sample.png"
       }
     },
     {
@@ -17067,7 +17067,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Georgia/permanent-trailer_sample.png"
+        "plate_sample": "data/images/GA/permanent-trailer_sample.png"
       }
     },
     {
@@ -17122,7 +17122,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Georgia/plate_sample.png"
+        "plate_sample": "data/images/GA/plate_sample.png"
       }
     },
     {
@@ -17153,7 +17153,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Georgia/plate_sample.png"
+        "plate_sample": "data/images/GA/plate_sample.png"
       }
     },
     {
@@ -17182,7 +17182,7 @@
         ]
       },
       "images": {
-        "plate_sample": "data/images/Plates/Georgia/plate_sample.png"
+        "plate_sample": "data/images/GA/plate_sample.png"
       }
     },
     {

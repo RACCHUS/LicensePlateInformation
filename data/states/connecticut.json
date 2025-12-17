@@ -76,7 +76,7 @@
       "subtype": null,
       "processing_type": "standard",
       "images": {
-        "plate_sample": "data/images/Plates/Connecticut/plate_sample.png",
+        "plate_sample": "data/images/CT/plate_sample.png",
         "character_font_sample": null,
         "blank_template": null,
         "variations": [
@@ -3936,7 +3936,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Connecticut/plate_sample.png"
+        "plate_sample": "data/images/CT/plate_sample.png"
       }
     },
     {
@@ -3963,7 +3963,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Connecticut/plate_sample.png"
+        "plate_sample": "data/images/CT/plate_sample.png"
       }
     },
     {
@@ -4134,7 +4134,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Connecticut/plate_sample.png"
+        "plate_sample": "data/images/CT/plate_sample.png"
       }
     },
     {
@@ -4161,7 +4161,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Connecticut/plate_sample.png"
+        "plate_sample": "data/images/CT/plate_sample.png"
       }
     },
     {
@@ -4212,7 +4212,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Connecticut/plate_sample.png"
+        "plate_sample": "data/images/CT/plate_sample.png"
       }
     },
     {
@@ -4407,7 +4407,7 @@
         "variations": []
       },
       "images": {
-        "plate_sample": "data/images/Plates/Connecticut/trailer_sample.png"
+        "plate_sample": "data/images/CT/trailer_sample.png"
       }
     },
     {
